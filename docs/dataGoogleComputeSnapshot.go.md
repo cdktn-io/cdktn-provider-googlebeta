@@ -4,12 +4,12 @@
 
 ### DataGoogleComputeSnapshot <a name="DataGoogleComputeSnapshot" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot google_compute_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot google_compute_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.NewDataGoogleComputeSnapshot(scope Construct, id *string, config DataGoogleComputeSnapshotConfig) DataGoogleComputeSnapshot
 ```
@@ -333,7 +333,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.DataGoogleComputeSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.DataGoogleComputeSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagooglecomputesnapshot.DataGoogleComputeSnapshot_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.DataGoogleComputeSnapshot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -393,7 +393,7 @@ datagooglecomputesnapshot.DataGoogleComputeSnapshot_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.DataGoogleComputeSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -422,7 +422,7 @@ The construct id used in the generated config for the DataGoogleComputeSnapshot 
 
 The id of the existing DataGoogleComputeSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -455,14 +455,17 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.diskSizeGb">DiskSizeGb</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.effectiveLabels">EffectiveLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.guestFlush">GuestFlush</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.labelFingerprint">LabelFingerprint</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.labels">Labels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.licenses">Licenses</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.selfLink">SelfLink</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.snapshotEncryptionKey">SnapshotEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSnapshotEncryptionKeyList">DataGoogleComputeSnapshotSnapshotEncryptionKeyList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.snapshotId">SnapshotId</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.snapshotType">SnapshotType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.sourceDisk">SourceDisk</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.sourceDiskEncryptionKey">SourceDiskEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSourceDiskEncryptionKeyList">DataGoogleComputeSnapshotSourceDiskEncryptionKeyList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.sourceInstantSnapshot">SourceInstantSnapshot</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.storageBytes">StorageBytes</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.storageLocations">StorageLocations</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.terraformLabels">TerraformLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
@@ -652,6 +655,16 @@ func EffectiveLabels() StringMap
 
 ---
 
+##### `GuestFlush`<sup>Required</sup> <a name="GuestFlush" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.guestFlush"></a>
+
+```go
+func GuestFlush() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `LabelFingerprint`<sup>Required</sup> <a name="LabelFingerprint" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.labelFingerprint"></a>
 
 ```go
@@ -712,6 +725,16 @@ func SnapshotId() *f64
 
 ---
 
+##### `SnapshotType`<sup>Required</sup> <a name="SnapshotType" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.snapshotType"></a>
+
+```go
+func SnapshotType() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `SourceDisk`<sup>Required</sup> <a name="SourceDisk" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.sourceDisk"></a>
 
 ```go
@@ -729,6 +752,16 @@ func SourceDiskEncryptionKey() DataGoogleComputeSnapshotSourceDiskEncryptionKeyL
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSourceDiskEncryptionKeyList">DataGoogleComputeSnapshotSourceDiskEncryptionKeyList</a>
+
+---
+
+##### `SourceInstantSnapshot`<sup>Required</sup> <a name="SourceInstantSnapshot" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshot.property.sourceInstantSnapshot"></a>
+
+```go
+func SourceInstantSnapshot() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -897,7 +930,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 &datagooglecomputesnapshot.DataGoogleComputeSnapshotConfig {
 	Connection: interface{},
@@ -926,11 +959,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.filter">Filter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#filter DataGoogleComputeSnapshot#filter}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#id DataGoogleComputeSnapshot#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.mostRecent">MostRecent</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#most_recent DataGoogleComputeSnapshot#most_recent}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.filter">Filter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#filter DataGoogleComputeSnapshot#filter}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#id DataGoogleComputeSnapshot#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.mostRecent">MostRecent</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#most_recent DataGoogleComputeSnapshot#most_recent}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.name">Name</a></code> | <code>*string</code> | Name of the resource; |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#project DataGoogleComputeSnapshot#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#project DataGoogleComputeSnapshot#project}. |
 
 ---
 
@@ -1012,7 +1045,7 @@ Filter *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#filter DataGoogleComputeSnapshot#filter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#filter DataGoogleComputeSnapshot#filter}.
 
 ---
 
@@ -1024,7 +1057,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#id DataGoogleComputeSnapshot#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#id DataGoogleComputeSnapshot#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1039,7 +1072,7 @@ MostRecent interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#most_recent DataGoogleComputeSnapshot#most_recent}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#most_recent DataGoogleComputeSnapshot#most_recent}.
 
 ---
 
@@ -1061,7 +1094,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#name DataGoogleComputeSnapshot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#name DataGoogleComputeSnapshot#name}
 
 ---
 
@@ -1073,7 +1106,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_snapshot#project DataGoogleComputeSnapshot#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_snapshot#project DataGoogleComputeSnapshot#project}.
 
 ---
 
@@ -1082,7 +1115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSnapshotEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 &datagooglecomputesnapshot.DataGoogleComputeSnapshotSnapshotEncryptionKey {
 
@@ -1095,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSourceDiskEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 &datagooglecomputesnapshot.DataGoogleComputeSnapshotSourceDiskEncryptionKey {
 
@@ -1110,7 +1143,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSnapshotEncryptionKeyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.NewDataGoogleComputeSnapshotSnapshotEncryptionKeyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeSnapshotSnapshotEncryptionKeyList
 ```
@@ -1259,7 +1292,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSnapshotEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.NewDataGoogleComputeSnapshotSnapshotEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeSnapshotSnapshotEncryptionKeyOutputReference
 ```
@@ -1581,7 +1614,7 @@ func InternalValue() DataGoogleComputeSnapshotSnapshotEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSourceDiskEncryptionKeyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.NewDataGoogleComputeSnapshotSourceDiskEncryptionKeyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeSnapshotSourceDiskEncryptionKeyList
 ```
@@ -1730,7 +1763,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshot.DataGoogleComputeSnapshotSourceDiskEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesnapshot"
 
 datagooglecomputesnapshot.NewDataGoogleComputeSnapshotSourceDiskEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeSnapshotSourceDiskEncryptionKeyOutputReference
 ```

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleNetappVolumeConfig extends cdktn.TerraformMetaArguments {
   /**
   * Capacity of the volume (in GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#capacity_gib GoogleNetappVolume#capacity_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#capacity_gib GoogleNetappVolume#capacity_gib}
   */
   readonly capacityGib: string;
   /**
@@ -24,17 +24,17 @@ export interface GoogleNetappVolumeConfig extends cdktn.TerraformMetaArguments {
   * Setting this parameter to FORCE will delete volumes including nested snapshots.
   * Possible values: DEFAULT, FORCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#deletion_policy GoogleNetappVolume#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#deletion_policy GoogleNetappVolume#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ export interface GoogleNetappVolumeConfig extends cdktn.TerraformMetaArguments {
   /**
   * Flag indicating if the volume is a kerberos volume or not, export policy rules control kerberos security modes (krb5, krb5i, krb5p).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos_enabled GoogleNetappVolume#kerberos_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos_enabled GoogleNetappVolume#kerberos_enabled}
   */
   readonly kerberosEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -53,127 +53,151 @@ export interface GoogleNetappVolumeConfig extends cdktn.TerraformMetaArguments {
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Optional. Flag indicating if the volume will be a large capacity volume or a regular volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#large_capacity GoogleNetappVolume#large_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_capacity GoogleNetappVolume#large_capacity}
   */
   readonly largeCapacity?: boolean | cdktn.IResolvable;
   /**
   * Name of the pool location. Usually a region name, expect for some STANDARD service level pools which require a zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#location GoogleNetappVolume#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#location GoogleNetappVolume#location}
   */
   readonly location: string;
   /**
   * Optional. Flag indicating if the volume will have an IP address per node for volumes supporting multiple IP endpoints.
   * Only the volume with largeCapacity will be allowed to have multiple endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#multiple_endpoints GoogleNetappVolume#multiple_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#multiple_endpoints GoogleNetappVolume#multiple_endpoints}
   */
   readonly multipleEndpoints?: boolean | cdktn.IResolvable;
   /**
   * The name of the volume. Needs to be unique per location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}
   */
   readonly project?: string;
   /**
-  * The protocol of the volume. Allowed combinations are '['NFSV3']', '['NFSV4']', '['SMB']', '['NFSV3', 'NFSV4']', '['SMB', 'NFSV3']' and '['SMB', 'NFSV4']'. Possible values: ["NFSV3", "NFSV4", "SMB"]
+  * The protocol of the volume. Allowed combinations are '['NFSV3']', '['NFSV4']', '['SMB']', '['NFSV3', 'NFSV4']', '['SMB', 'NFSV3']' and '['SMB', 'NFSV4']'. Possible values: ["NFSV3", "NFSV4", "SMB", "ISCSI"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#protocols GoogleNetappVolume#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#protocols GoogleNetappVolume#protocols}
   */
   readonly protocols: string[];
   /**
   * List of actions that are restricted on this volume. Possible values: ["DELETE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#restricted_actions GoogleNetappVolume#restricted_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#restricted_actions GoogleNetappVolume#restricted_actions}
   */
   readonly restrictedActions?: string[];
   /**
   * Security Style of the Volume. Use UNIX to use UNIX or NFSV4 ACLs for file permissions.
   * Use NTFS to use NTFS ACLs for file permissions. Can only be set for volumes which use SMB together with NFS as protocol. Possible values: ["NTFS", "UNIX"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#security_style GoogleNetappVolume#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#security_style GoogleNetappVolume#security_style}
   */
   readonly securityStyle?: string;
   /**
   * Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#share_name GoogleNetappVolume#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#share_name GoogleNetappVolume#share_name}
   */
-  readonly shareName: string;
+  readonly shareName?: string;
   /**
   * Settings for volumes with SMB access. Possible values: ["ENCRYPT_DATA", "BROWSABLE", "CHANGE_NOTIFY", "NON_BROWSABLE", "OPLOCKS", "SHOW_SNAPSHOT", "SHOW_PREVIOUS_VERSIONS", "ACCESS_BASED_ENUMERATION", "CONTINUOUSLY_AVAILABLE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#smb_settings GoogleNetappVolume#smb_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#smb_settings GoogleNetappVolume#smb_settings}
   */
   readonly smbSettings?: string[];
   /**
   * If enabled, a NFS volume will contain a read-only .snapshot directory which provides access to each of the volume's snapshots. Will enable "Previous Versions" support for SMB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshot_directory GoogleNetappVolume#snapshot_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshot_directory GoogleNetappVolume#snapshot_directory}
   */
   readonly snapshotDirectory?: boolean | cdktn.IResolvable;
   /**
   * Name of the storage pool to create the volume in. Pool needs enough spare capacity to accommodate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#storage_pool GoogleNetappVolume#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#storage_pool GoogleNetappVolume#storage_pool}
   */
   readonly storagePool: string;
   /**
+  * Optional. Custom Performance Total Throughput of the pool (in MiB/s).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#throughput_mibps GoogleNetappVolume#throughput_mibps}
+  */
+  readonly throughputMibps?: number;
+  /**
   * Unix permission the mount point will be created with. Default is 0770. Applicable for UNIX security style volumes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#unix_permissions GoogleNetappVolume#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#unix_permissions GoogleNetappVolume#unix_permissions}
   */
   readonly unixPermissions?: string;
   /**
   * backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#backup_config GoogleNetappVolume#backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#backup_config GoogleNetappVolume#backup_config}
   */
   readonly backupConfig?: GoogleNetappVolumeBackupConfig;
   /**
+  * block_devices block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#block_devices GoogleNetappVolume#block_devices}
+  */
+  readonly blockDevices?: GoogleNetappVolumeBlockDevices[] | cdktn.IResolvable;
+  /**
+  * cache_parameters block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cache_parameters GoogleNetappVolume#cache_parameters}
+  */
+  readonly cacheParameters?: GoogleNetappVolumeCacheParameters;
+  /**
   * export_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#export_policy GoogleNetappVolume#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#export_policy GoogleNetappVolume#export_policy}
   */
   readonly exportPolicy?: GoogleNetappVolumeExportPolicy;
   /**
   * hybrid_replication_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hybrid_replication_parameters GoogleNetappVolume#hybrid_replication_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hybrid_replication_parameters GoogleNetappVolume#hybrid_replication_parameters}
   */
   readonly hybridReplicationParameters?: GoogleNetappVolumeHybridReplicationParameters;
   /**
+  * large_capacity_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_capacity_config GoogleNetappVolume#large_capacity_config}
+  */
+  readonly largeCapacityConfig?: GoogleNetappVolumeLargeCapacityConfig;
+  /**
   * restore_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#restore_parameters GoogleNetappVolume#restore_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#restore_parameters GoogleNetappVolume#restore_parameters}
   */
   readonly restoreParameters?: GoogleNetappVolumeRestoreParameters;
   /**
   * snapshot_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshot_policy GoogleNetappVolume#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshot_policy GoogleNetappVolume#snapshot_policy}
   */
   readonly snapshotPolicy?: GoogleNetappVolumeSnapshotPolicy;
   /**
   * tiering_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#tiering_policy GoogleNetappVolume#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#tiering_policy GoogleNetappVolume#tiering_policy}
   */
   readonly tieringPolicy?: GoogleNetappVolumeTieringPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#timeouts GoogleNetappVolume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#timeouts GoogleNetappVolume#timeouts}
   */
   readonly timeouts?: GoogleNetappVolumeTimeouts;
 }
@@ -243,6 +267,11 @@ export class GoogleNetappVolumeMountOptionsOutputReference extends cdktn.Complex
     return this.getStringAttribute('instructions');
   }
 
+  // ip_address - computed: true, optional: false, required: false
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+
   // protocol - computed: true, optional: false, required: false
   public get protocol() {
     return this.getStringAttribute('protocol');
@@ -271,20 +300,20 @@ export interface GoogleNetappVolumeBackupConfig {
   /**
   * Specify a single backup policy ID for scheduled backups. Format: 'projects/{{projectId}}/locations/{{location}}/backupPolicies/{{backupPolicyName}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#backup_policies GoogleNetappVolume#backup_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#backup_policies GoogleNetappVolume#backup_policies}
   */
   readonly backupPolicies?: string[];
   /**
   * ID of the backup vault to use. A backup vault is reqired to create manual or scheduled backups.
   * Format: 'projects/{{projectId}}/locations/{{location}}/backupVaults/{{backupVaultName}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#backup_vault GoogleNetappVolume#backup_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#backup_vault GoogleNetappVolume#backup_vault}
   */
   readonly backupVault?: string;
   /**
   * When set to true, scheduled backup is enabled on the volume. Omit if no backup_policy is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#scheduled_backup_enabled GoogleNetappVolume#scheduled_backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#scheduled_backup_enabled GoogleNetappVolume#scheduled_backup_enabled}
   */
   readonly scheduledBackupEnabled?: boolean | cdktn.IResolvable;
 }
@@ -424,73 +453,694 @@ export class GoogleNetappVolumeBackupConfigOutputReference extends cdktn.Complex
     return this._scheduledBackupEnabled;
   }
 }
+export interface GoogleNetappVolumeBlockDevices {
+  /**
+  * A list of host groups that identify hosts that can mount the block volume.
+  * Format:
+  * 'projects/{project_id}/locations/{location}/hostGroups/{host_group_id}'
+  * This field can be updated after the block device is created.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#host_groups GoogleNetappVolume#host_groups}
+  */
+  readonly hostGroups?: string[];
+  /**
+  * User-defined name for the block device, unique within the Volume. In case
+  * no user input is provided, name will be autogenerated in the backend.
+  * The name must meet the following requirements:
+  * *   Be between 1 and 255 characters long.
+  * *   Contain only uppercase or lowercase letters (A-Z, a-z), numbers (0-9),
+  *     and the following special characters: "-", "_", "}", "{", ".".
+  * *   Spaces are not allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
+  */
+  readonly name?: string;
+  /**
+  * The OS type of the volume.
+  * This field can't be changed after the block device is created. Possible values: ["LINUX", "WINDOWS", "ESXI"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#os_type GoogleNetappVolume#os_type}
+  */
+  readonly osType: string;
+}
+
+export function googleNetappVolumeBlockDevicesToTerraform(struct?: GoogleNetappVolumeBlockDevices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    host_groups: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.hostGroups),
+    name: cdktn.stringToTerraform(struct!.name),
+    os_type: cdktn.stringToTerraform(struct!.osType),
+  }
+}
+
+
+export function googleNetappVolumeBlockDevicesToHclTerraform(struct?: GoogleNetappVolumeBlockDevices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    host_groups: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.hostGroups),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    os_type: {
+      value: cdktn.stringToHclTerraform(struct!.osType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleNetappVolumeBlockDevicesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleNetappVolumeBlockDevices | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hostGroups !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hostGroups = this._hostGroups;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._osType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.osType = this._osType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleNetappVolumeBlockDevices | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._hostGroups = undefined;
+      this._name = undefined;
+      this._osType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._hostGroups = value.hostGroups;
+      this._name = value.name;
+      this._osType = value.osType;
+    }
+  }
+
+  // host_groups - computed: true, optional: true, required: false
+  private _hostGroups?: string[]; 
+  public get hostGroups() {
+    return this.getListAttribute('host_groups');
+  }
+  public set hostGroups(value: string[]) {
+    this._hostGroups = value;
+  }
+  public resetHostGroups() {
+    this._hostGroups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostGroupsInput() {
+    return this._hostGroups;
+  }
+
+  // identifier - computed: true, optional: false, required: false
+  public get identifier() {
+    return this.getStringAttribute('identifier');
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // os_type - computed: false, optional: false, required: true
+  private _osType?: string; 
+  public get osType() {
+    return this.getStringAttribute('os_type');
+  }
+  public set osType(value: string) {
+    this._osType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get osTypeInput() {
+    return this._osType;
+  }
+
+  // size_gib - computed: true, optional: false, required: false
+  public get sizeGib() {
+    return this.getNumberAttribute('size_gib');
+  }
+}
+
+export class GoogleNetappVolumeBlockDevicesList extends cdktn.ComplexList {
+  public internalValue? : GoogleNetappVolumeBlockDevices[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleNetappVolumeBlockDevicesOutputReference {
+    return new GoogleNetappVolumeBlockDevicesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleNetappVolumeCacheParametersCacheConfig {
+  /**
+  * Optional. Flag indicating whether a CIFS change notification is enabled for the FlexCache volume.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cifs_change_notify_enabled GoogleNetappVolume#cifs_change_notify_enabled}
+  */
+  readonly cifsChangeNotifyEnabled?: boolean | cdktn.IResolvable;
+}
+
+export function googleNetappVolumeCacheParametersCacheConfigToTerraform(struct?: GoogleNetappVolumeCacheParametersCacheConfigOutputReference | GoogleNetappVolumeCacheParametersCacheConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cifs_change_notify_enabled: cdktn.booleanToTerraform(struct!.cifsChangeNotifyEnabled),
+  }
+}
+
+
+export function googleNetappVolumeCacheParametersCacheConfigToHclTerraform(struct?: GoogleNetappVolumeCacheParametersCacheConfigOutputReference | GoogleNetappVolumeCacheParametersCacheConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cifs_change_notify_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.cifsChangeNotifyEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleNetappVolumeCacheParametersCacheConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleNetappVolumeCacheParametersCacheConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cifsChangeNotifyEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cifsChangeNotifyEnabled = this._cifsChangeNotifyEnabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleNetappVolumeCacheParametersCacheConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cifsChangeNotifyEnabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cifsChangeNotifyEnabled = value.cifsChangeNotifyEnabled;
+    }
+  }
+
+  // cifs_change_notify_enabled - computed: false, optional: true, required: false
+  private _cifsChangeNotifyEnabled?: boolean | cdktn.IResolvable; 
+  public get cifsChangeNotifyEnabled() {
+    return this.getBooleanAttribute('cifs_change_notify_enabled');
+  }
+  public set cifsChangeNotifyEnabled(value: boolean | cdktn.IResolvable) {
+    this._cifsChangeNotifyEnabled = value;
+  }
+  public resetCifsChangeNotifyEnabled() {
+    this._cifsChangeNotifyEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cifsChangeNotifyEnabledInput() {
+    return this._cifsChangeNotifyEnabled;
+  }
+}
+export interface GoogleNetappVolumeCacheParameters {
+  /**
+  * Optional. Field indicating whether cache volume as global file lock enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#enable_global_file_lock GoogleNetappVolume#enable_global_file_lock}
+  */
+  readonly enableGlobalFileLock?: boolean | cdktn.IResolvable;
+  /**
+  * Required. Name of the origin volume's ONTAP cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_cluster_name GoogleNetappVolume#peer_cluster_name}
+  */
+  readonly peerClusterName?: string;
+  /**
+  * Required. List of IC LIF addresses of the origin volume's ONTAP cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_ip_addresses GoogleNetappVolume#peer_ip_addresses}
+  */
+  readonly peerIpAddresses?: string[];
+  /**
+  * Required. Name of the origin volume's SVM.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_svm_name GoogleNetappVolume#peer_svm_name}
+  */
+  readonly peerSvmName?: string;
+  /**
+  * Required. Name of the origin volume for the cache volume.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_volume_name GoogleNetappVolume#peer_volume_name}
+  */
+  readonly peerVolumeName?: string;
+  /**
+  * Optional. Expiration time for the peering command to be executed on user's ONTAP. A timestamp in RFC3339 UTC "Zulu" format. Examples: "2023-06-22T09:13:01.617Z".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peering_command_expiry_time GoogleNetappVolume#peering_command_expiry_time}
+  */
+  readonly peeringCommandExpiryTime?: string;
+  /**
+  * cache_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cache_config GoogleNetappVolume#cache_config}
+  */
+  readonly cacheConfig?: GoogleNetappVolumeCacheParametersCacheConfig;
+}
+
+export function googleNetappVolumeCacheParametersToTerraform(struct?: GoogleNetappVolumeCacheParametersOutputReference | GoogleNetappVolumeCacheParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_global_file_lock: cdktn.booleanToTerraform(struct!.enableGlobalFileLock),
+    peer_cluster_name: cdktn.stringToTerraform(struct!.peerClusterName),
+    peer_ip_addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.peerIpAddresses),
+    peer_svm_name: cdktn.stringToTerraform(struct!.peerSvmName),
+    peer_volume_name: cdktn.stringToTerraform(struct!.peerVolumeName),
+    peering_command_expiry_time: cdktn.stringToTerraform(struct!.peeringCommandExpiryTime),
+    cache_config: googleNetappVolumeCacheParametersCacheConfigToTerraform(struct!.cacheConfig),
+  }
+}
+
+
+export function googleNetappVolumeCacheParametersToHclTerraform(struct?: GoogleNetappVolumeCacheParametersOutputReference | GoogleNetappVolumeCacheParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_global_file_lock: {
+      value: cdktn.booleanToHclTerraform(struct!.enableGlobalFileLock),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    peer_cluster_name: {
+      value: cdktn.stringToHclTerraform(struct!.peerClusterName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    peer_ip_addresses: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.peerIpAddresses),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    peer_svm_name: {
+      value: cdktn.stringToHclTerraform(struct!.peerSvmName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    peer_volume_name: {
+      value: cdktn.stringToHclTerraform(struct!.peerVolumeName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    peering_command_expiry_time: {
+      value: cdktn.stringToHclTerraform(struct!.peeringCommandExpiryTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cache_config: {
+      value: googleNetappVolumeCacheParametersCacheConfigToHclTerraform(struct!.cacheConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleNetappVolumeCacheParametersCacheConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleNetappVolumeCacheParametersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleNetappVolumeCacheParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableGlobalFileLock !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableGlobalFileLock = this._enableGlobalFileLock;
+    }
+    if (this._peerClusterName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.peerClusterName = this._peerClusterName;
+    }
+    if (this._peerIpAddresses !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.peerIpAddresses = this._peerIpAddresses;
+    }
+    if (this._peerSvmName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.peerSvmName = this._peerSvmName;
+    }
+    if (this._peerVolumeName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.peerVolumeName = this._peerVolumeName;
+    }
+    if (this._peeringCommandExpiryTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.peeringCommandExpiryTime = this._peeringCommandExpiryTime;
+    }
+    if (this._cacheConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheConfig = this._cacheConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleNetappVolumeCacheParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableGlobalFileLock = undefined;
+      this._peerClusterName = undefined;
+      this._peerIpAddresses = undefined;
+      this._peerSvmName = undefined;
+      this._peerVolumeName = undefined;
+      this._peeringCommandExpiryTime = undefined;
+      this._cacheConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableGlobalFileLock = value.enableGlobalFileLock;
+      this._peerClusterName = value.peerClusterName;
+      this._peerIpAddresses = value.peerIpAddresses;
+      this._peerSvmName = value.peerSvmName;
+      this._peerVolumeName = value.peerVolumeName;
+      this._peeringCommandExpiryTime = value.peeringCommandExpiryTime;
+      this._cacheConfig.internalValue = value.cacheConfig;
+    }
+  }
+
+  // cache_state - computed: true, optional: false, required: false
+  public get cacheState() {
+    return this.getStringAttribute('cache_state');
+  }
+
+  // command - computed: true, optional: false, required: false
+  public get command() {
+    return this.getStringAttribute('command');
+  }
+
+  // enable_global_file_lock - computed: false, optional: true, required: false
+  private _enableGlobalFileLock?: boolean | cdktn.IResolvable; 
+  public get enableGlobalFileLock() {
+    return this.getBooleanAttribute('enable_global_file_lock');
+  }
+  public set enableGlobalFileLock(value: boolean | cdktn.IResolvable) {
+    this._enableGlobalFileLock = value;
+  }
+  public resetEnableGlobalFileLock() {
+    this._enableGlobalFileLock = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableGlobalFileLockInput() {
+    return this._enableGlobalFileLock;
+  }
+
+  // passphrase - computed: true, optional: false, required: false
+  public get passphrase() {
+    return this.getStringAttribute('passphrase');
+  }
+
+  // peer_cluster_name - computed: false, optional: true, required: false
+  private _peerClusterName?: string; 
+  public get peerClusterName() {
+    return this.getStringAttribute('peer_cluster_name');
+  }
+  public set peerClusterName(value: string) {
+    this._peerClusterName = value;
+  }
+  public resetPeerClusterName() {
+    this._peerClusterName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerClusterNameInput() {
+    return this._peerClusterName;
+  }
+
+  // peer_ip_addresses - computed: false, optional: true, required: false
+  private _peerIpAddresses?: string[]; 
+  public get peerIpAddresses() {
+    return this.getListAttribute('peer_ip_addresses');
+  }
+  public set peerIpAddresses(value: string[]) {
+    this._peerIpAddresses = value;
+  }
+  public resetPeerIpAddresses() {
+    this._peerIpAddresses = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerIpAddressesInput() {
+    return this._peerIpAddresses;
+  }
+
+  // peer_svm_name - computed: false, optional: true, required: false
+  private _peerSvmName?: string; 
+  public get peerSvmName() {
+    return this.getStringAttribute('peer_svm_name');
+  }
+  public set peerSvmName(value: string) {
+    this._peerSvmName = value;
+  }
+  public resetPeerSvmName() {
+    this._peerSvmName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerSvmNameInput() {
+    return this._peerSvmName;
+  }
+
+  // peer_volume_name - computed: false, optional: true, required: false
+  private _peerVolumeName?: string; 
+  public get peerVolumeName() {
+    return this.getStringAttribute('peer_volume_name');
+  }
+  public set peerVolumeName(value: string) {
+    this._peerVolumeName = value;
+  }
+  public resetPeerVolumeName() {
+    this._peerVolumeName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerVolumeNameInput() {
+    return this._peerVolumeName;
+  }
+
+  // peering_command_expiry_time - computed: true, optional: true, required: false
+  private _peeringCommandExpiryTime?: string; 
+  public get peeringCommandExpiryTime() {
+    return this.getStringAttribute('peering_command_expiry_time');
+  }
+  public set peeringCommandExpiryTime(value: string) {
+    this._peeringCommandExpiryTime = value;
+  }
+  public resetPeeringCommandExpiryTime() {
+    this._peeringCommandExpiryTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peeringCommandExpiryTimeInput() {
+    return this._peeringCommandExpiryTime;
+  }
+
+  // state_details - computed: true, optional: false, required: false
+  public get stateDetails() {
+    return this.getStringAttribute('state_details');
+  }
+
+  // cache_config - computed: false, optional: true, required: false
+  private _cacheConfig = new GoogleNetappVolumeCacheParametersCacheConfigOutputReference(this, "cache_config");
+  public get cacheConfig() {
+    return this._cacheConfig;
+  }
+  public putCacheConfig(value: GoogleNetappVolumeCacheParametersCacheConfig) {
+    this._cacheConfig.internalValue = value;
+  }
+  public resetCacheConfig() {
+    this._cacheConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheConfigInput() {
+    return this._cacheConfig.internalValue;
+  }
+}
 export interface GoogleNetappVolumeExportPolicyRules {
   /**
   * Defines the access type for clients matching the 'allowedClients' specification. Possible values: ["READ_ONLY", "READ_WRITE", "READ_NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#access_type GoogleNetappVolume#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#access_type GoogleNetappVolume#access_type}
   */
   readonly accessType?: string;
   /**
   * Defines the client ingress specification (allowed clients) as a comma separated list with IPv4 CIDRs or IPv4 host addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#allowed_clients GoogleNetappVolume#allowed_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#allowed_clients GoogleNetappVolume#allowed_clients}
   */
   readonly allowedClients?: string;
   /**
-  * If enabled, the root user (UID = 0) of the specified clients doesn't get mapped to nobody (UID = 65534). This is also known as no_root_squash.
+  * An integer representing the anonymous user ID. Range is 0 to 4294967295. Required when 'squash_mode' is 'ALL_SQUASH'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#has_root_access GoogleNetappVolume#has_root_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#anon_uid GoogleNetappVolume#anon_uid}
+  */
+  readonly anonUid?: number;
+  /**
+  * If enabled, the root user (UID = 0) of the specified clients doesn't get mapped to nobody (UID = 65534). This is also known as no_root_squash.
+  * Use either squash_mode or has_root_access, but never both at the same time. These parameters are mutually exclusive.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#has_root_access GoogleNetappVolume#has_root_access}
   */
   readonly hasRootAccess?: string;
   /**
   * If enabled (true) the rule defines a read only access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'authentication' kerberos security mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5_read_only GoogleNetappVolume#kerberos5_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5_read_only GoogleNetappVolume#kerberos5_read_only}
   */
   readonly kerberos5ReadOnly?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'authentication' kerberos security mode. The 'kerberos5ReadOnly' value is ignored if this is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5_read_write GoogleNetappVolume#kerberos5_read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5_read_write GoogleNetappVolume#kerberos5_read_write}
   */
   readonly kerberos5ReadWrite?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines a read only access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'integrity' kerberos security mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5i_read_only GoogleNetappVolume#kerberos5i_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5i_read_only GoogleNetappVolume#kerberos5i_read_only}
   */
   readonly kerberos5IReadOnly?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'integrity' kerberos security mode. The 'kerberos5iReadOnly' value is ignored if this is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5i_read_write GoogleNetappVolume#kerberos5i_read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5i_read_write GoogleNetappVolume#kerberos5i_read_write}
   */
   readonly kerberos5IReadWrite?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines a read only access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'privacy' kerberos security mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5p_read_only GoogleNetappVolume#kerberos5p_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5p_read_only GoogleNetappVolume#kerberos5p_read_only}
   */
   readonly kerberos5PReadOnly?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'privacy' kerberos security mode. The 'kerberos5pReadOnly' value is ignored if this is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5p_read_write GoogleNetappVolume#kerberos5p_read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5p_read_write GoogleNetappVolume#kerberos5p_read_write}
   */
   readonly kerberos5PReadWrite?: boolean | cdktn.IResolvable;
   /**
   * Enable to apply the export rule to NFSV3 clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#nfsv3 GoogleNetappVolume#nfsv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#nfsv3 GoogleNetappVolume#nfsv3}
   */
   readonly nfsv3?: boolean | cdktn.IResolvable;
   /**
   * Enable to apply the export rule to NFSV4.1 clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#nfsv4 GoogleNetappVolume#nfsv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#nfsv4 GoogleNetappVolume#nfsv4}
   */
   readonly nfsv4?: boolean | cdktn.IResolvable;
+  /**
+  * SquashMode defines how remote user privileges are restricted when accessing an NFS export. It controls how the user identities (like root) are mapped to anonymous users to limit access and enforce security.
+  * Use either squash_mode or has_root_access, but never both at the same time. These parameters are mutually exclusive. Possible values: ["SQUASH_MODE_UNSPECIFIED", "NO_ROOT_SQUASH", "ROOT_SQUASH", "ALL_SQUASH"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#squash_mode GoogleNetappVolume#squash_mode}
+  */
+  readonly squashMode?: string;
 }
 
 export function googleNetappVolumeExportPolicyRulesToTerraform(struct?: GoogleNetappVolumeExportPolicyRules | cdktn.IResolvable): any {
@@ -501,6 +1151,7 @@ export function googleNetappVolumeExportPolicyRulesToTerraform(struct?: GoogleNe
   return {
     access_type: cdktn.stringToTerraform(struct!.accessType),
     allowed_clients: cdktn.stringToTerraform(struct!.allowedClients),
+    anon_uid: cdktn.numberToTerraform(struct!.anonUid),
     has_root_access: cdktn.stringToTerraform(struct!.hasRootAccess),
     kerberos5_read_only: cdktn.booleanToTerraform(struct!.kerberos5ReadOnly),
     kerberos5_read_write: cdktn.booleanToTerraform(struct!.kerberos5ReadWrite),
@@ -510,6 +1161,7 @@ export function googleNetappVolumeExportPolicyRulesToTerraform(struct?: GoogleNe
     kerberos5p_read_write: cdktn.booleanToTerraform(struct!.kerberos5PReadWrite),
     nfsv3: cdktn.booleanToTerraform(struct!.nfsv3),
     nfsv4: cdktn.booleanToTerraform(struct!.nfsv4),
+    squash_mode: cdktn.stringToTerraform(struct!.squashMode),
   }
 }
 
@@ -531,6 +1183,12 @@ export function googleNetappVolumeExportPolicyRulesToHclTerraform(struct?: Googl
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    anon_uid: {
+      value: cdktn.numberToHclTerraform(struct!.anonUid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     has_root_access: {
       value: cdktn.stringToHclTerraform(struct!.hasRootAccess),
@@ -586,6 +1244,12 @@ export function googleNetappVolumeExportPolicyRulesToHclTerraform(struct?: Googl
       type: "simple",
       storageClassType: "boolean",
     },
+    squash_mode: {
+      value: cdktn.stringToHclTerraform(struct!.squashMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
   };
 
   // remove undefined attributes
@@ -619,6 +1283,10 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
     if (this._allowedClients !== undefined) {
       hasAnyValues = true;
       internalValueResult.allowedClients = this._allowedClients;
+    }
+    if (this._anonUid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.anonUid = this._anonUid;
     }
     if (this._hasRootAccess !== undefined) {
       hasAnyValues = true;
@@ -656,6 +1324,10 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
       hasAnyValues = true;
       internalValueResult.nfsv4 = this._nfsv4;
     }
+    if (this._squashMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.squashMode = this._squashMode;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -665,6 +1337,7 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
       this.resolvableValue = undefined;
       this._accessType = undefined;
       this._allowedClients = undefined;
+      this._anonUid = undefined;
       this._hasRootAccess = undefined;
       this._kerberos5ReadOnly = undefined;
       this._kerberos5ReadWrite = undefined;
@@ -674,6 +1347,7 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
       this._kerberos5PReadWrite = undefined;
       this._nfsv3 = undefined;
       this._nfsv4 = undefined;
+      this._squashMode = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -684,6 +1358,7 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
       this.resolvableValue = undefined;
       this._accessType = value.accessType;
       this._allowedClients = value.allowedClients;
+      this._anonUid = value.anonUid;
       this._hasRootAccess = value.hasRootAccess;
       this._kerberos5ReadOnly = value.kerberos5ReadOnly;
       this._kerberos5ReadWrite = value.kerberos5ReadWrite;
@@ -693,6 +1368,7 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
       this._kerberos5PReadWrite = value.kerberos5PReadWrite;
       this._nfsv3 = value.nfsv3;
       this._nfsv4 = value.nfsv4;
+      this._squashMode = value.squashMode;
     }
   }
 
@@ -728,7 +1404,23 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
     return this._allowedClients;
   }
 
-  // has_root_access - computed: false, optional: true, required: false
+  // anon_uid - computed: false, optional: true, required: false
+  private _anonUid?: number; 
+  public get anonUid() {
+    return this.getNumberAttribute('anon_uid');
+  }
+  public set anonUid(value: number) {
+    this._anonUid = value;
+  }
+  public resetAnonUid() {
+    this._anonUid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get anonUidInput() {
+    return this._anonUid;
+  }
+
+  // has_root_access - computed: true, optional: true, required: false
   private _hasRootAccess?: string; 
   public get hasRootAccess() {
     return this.getStringAttribute('has_root_access');
@@ -871,6 +1563,22 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.Co
   public get nfsv4Input() {
     return this._nfsv4;
   }
+
+  // squash_mode - computed: false, optional: true, required: false
+  private _squashMode?: string; 
+  public get squashMode() {
+    return this.getStringAttribute('squash_mode');
+  }
+  public set squashMode(value: string) {
+    this._squashMode = value;
+  }
+  public resetSquashMode() {
+    this._squashMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get squashModeInput() {
+    return this._squashMode;
+  }
 }
 
 export class GoogleNetappVolumeExportPolicyRulesList extends cdktn.ComplexList {
@@ -896,7 +1604,7 @@ export interface GoogleNetappVolumeExportPolicy {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#rules GoogleNetappVolume#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#rules GoogleNetappVolume#rules}
   */
   readonly rules: GoogleNetappVolumeExportPolicyRules[] | cdktn.IResolvable;
 }
@@ -977,54 +1685,76 @@ export class GoogleNetappVolumeExportPolicyOutputReference extends cdktn.Complex
 }
 export interface GoogleNetappVolumeHybridReplicationParameters {
   /**
-  * Optional. Name of source cluster location associated with the Hybrid replication. This is a free-form field for the display purpose only.
+  * Optional. Name of source cluster location associated with the replication. This is a free-form field
+  * for display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#cluster_location GoogleNetappVolume#cluster_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cluster_location GoogleNetappVolume#cluster_location}
   */
   readonly clusterLocation?: string;
   /**
   * Optional. Description of the replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
   */
   readonly description?: string;
+  /**
+  * Optional. Type of the hybrid replication. Use 'MIGRATION' to create a volume migration
+  * and 'ONPREM_REPLICATION' to create an external replication.
+  * Other values are read-only. 'REVERSE_ONPREM_REPLICATION' is used to represent an external
+  * replication which got reversed. Default is 'MIGRATION'. Possible values: ["MIGRATION", "CONTINUOUS_REPLICATION", "ONPREM_REPLICATION", "REVERSE_ONPREM_REPLICATION"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hybrid_replication_type GoogleNetappVolume#hybrid_replication_type}
+  */
+  readonly hybridReplicationType?: string;
   /**
   * Optional. Labels to be added to the replication as the key value pairs.
   * An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Required. Name of the user's local source cluster to be peered with the destination cluster.
+  * Optional. If the source is a FlexGroup volume, this field needs to match the number of constituents in the FlexGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_cluster_name GoogleNetappVolume#peer_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_volume_constituent_count GoogleNetappVolume#large_volume_constituent_count}
+  */
+  readonly largeVolumeConstituentCount?: number;
+  /**
+  * Required. Name of the ONTAP source cluster to be peered with NetApp Volumes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_cluster_name GoogleNetappVolume#peer_cluster_name}
   */
   readonly peerClusterName?: string;
   /**
-  * Required. List of node ip addresses to be peered with.
+  * Required. List of all intercluster LIF IP addresses of the ONTAP source cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_ip_addresses GoogleNetappVolume#peer_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_ip_addresses GoogleNetappVolume#peer_ip_addresses}
   */
-  readonly peerIpAddresses?: string;
+  readonly peerIpAddresses?: string[];
   /**
-  * Required. Name of the user's local source vserver svm to be peered with the destination vserver svm.
+  * Required. Name of the ONTAP source vserver SVM to be peered with NetApp Volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_svm_name GoogleNetappVolume#peer_svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_svm_name GoogleNetappVolume#peer_svm_name}
   */
   readonly peerSvmName?: string;
   /**
-  * Required. Name of the user's local source volume to be peered with the destination volume.
+  * Required. Name of the ONTAP source volume to be replicated to NetApp Volumes destination volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_volume_name GoogleNetappVolume#peer_volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_volume_name GoogleNetappVolume#peer_volume_name}
   */
   readonly peerVolumeName?: string;
   /**
   * Required. Desired name for the replication of this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#replication GoogleNetappVolume#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#replication GoogleNetappVolume#replication}
   */
   readonly replication?: string;
+  /**
+  * Optional. Replication Schedule for the replication created. Possible values: ["EVERY_10_MINUTES", "HOURLY", "DAILY"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#replication_schedule GoogleNetappVolume#replication_schedule}
+  */
+  readonly replicationSchedule?: string;
 }
 
 export function googleNetappVolumeHybridReplicationParametersToTerraform(struct?: GoogleNetappVolumeHybridReplicationParametersOutputReference | GoogleNetappVolumeHybridReplicationParameters): any {
@@ -1035,12 +1765,15 @@ export function googleNetappVolumeHybridReplicationParametersToTerraform(struct?
   return {
     cluster_location: cdktn.stringToTerraform(struct!.clusterLocation),
     description: cdktn.stringToTerraform(struct!.description),
+    hybrid_replication_type: cdktn.stringToTerraform(struct!.hybridReplicationType),
     labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    large_volume_constituent_count: cdktn.numberToTerraform(struct!.largeVolumeConstituentCount),
     peer_cluster_name: cdktn.stringToTerraform(struct!.peerClusterName),
-    peer_ip_addresses: cdktn.stringToTerraform(struct!.peerIpAddresses),
+    peer_ip_addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.peerIpAddresses),
     peer_svm_name: cdktn.stringToTerraform(struct!.peerSvmName),
     peer_volume_name: cdktn.stringToTerraform(struct!.peerVolumeName),
     replication: cdktn.stringToTerraform(struct!.replication),
+    replication_schedule: cdktn.stringToTerraform(struct!.replicationSchedule),
   }
 }
 
@@ -1063,11 +1796,23 @@ export function googleNetappVolumeHybridReplicationParametersToHclTerraform(stru
       type: "simple",
       storageClassType: "string",
     },
+    hybrid_replication_type: {
+      value: cdktn.stringToHclTerraform(struct!.hybridReplicationType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     labels: {
       value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
+    },
+    large_volume_constituent_count: {
+      value: cdktn.numberToHclTerraform(struct!.largeVolumeConstituentCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     peer_cluster_name: {
       value: cdktn.stringToHclTerraform(struct!.peerClusterName),
@@ -1076,10 +1821,10 @@ export function googleNetappVolumeHybridReplicationParametersToHclTerraform(stru
       storageClassType: "string",
     },
     peer_ip_addresses: {
-      value: cdktn.stringToHclTerraform(struct!.peerIpAddresses),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.peerIpAddresses),
       isBlock: false,
-      type: "simple",
-      storageClassType: "string",
+      type: "list",
+      storageClassType: "stringList",
     },
     peer_svm_name: {
       value: cdktn.stringToHclTerraform(struct!.peerSvmName),
@@ -1095,6 +1840,12 @@ export function googleNetappVolumeHybridReplicationParametersToHclTerraform(stru
     },
     replication: {
       value: cdktn.stringToHclTerraform(struct!.replication),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    replication_schedule: {
+      value: cdktn.stringToHclTerraform(struct!.replicationSchedule),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1127,9 +1878,17 @@ export class GoogleNetappVolumeHybridReplicationParametersOutputReference extend
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._hybridReplicationType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridReplicationType = this._hybridReplicationType;
+    }
     if (this._labels !== undefined) {
       hasAnyValues = true;
       internalValueResult.labels = this._labels;
+    }
+    if (this._largeVolumeConstituentCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.largeVolumeConstituentCount = this._largeVolumeConstituentCount;
     }
     if (this._peerClusterName !== undefined) {
       hasAnyValues = true;
@@ -1151,6 +1910,10 @@ export class GoogleNetappVolumeHybridReplicationParametersOutputReference extend
       hasAnyValues = true;
       internalValueResult.replication = this._replication;
     }
+    if (this._replicationSchedule !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.replicationSchedule = this._replicationSchedule;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1159,23 +1922,29 @@ export class GoogleNetappVolumeHybridReplicationParametersOutputReference extend
       this.isEmptyObject = false;
       this._clusterLocation = undefined;
       this._description = undefined;
+      this._hybridReplicationType = undefined;
       this._labels = undefined;
+      this._largeVolumeConstituentCount = undefined;
       this._peerClusterName = undefined;
       this._peerIpAddresses = undefined;
       this._peerSvmName = undefined;
       this._peerVolumeName = undefined;
       this._replication = undefined;
+      this._replicationSchedule = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._clusterLocation = value.clusterLocation;
       this._description = value.description;
+      this._hybridReplicationType = value.hybridReplicationType;
       this._labels = value.labels;
+      this._largeVolumeConstituentCount = value.largeVolumeConstituentCount;
       this._peerClusterName = value.peerClusterName;
       this._peerIpAddresses = value.peerIpAddresses;
       this._peerSvmName = value.peerSvmName;
       this._peerVolumeName = value.peerVolumeName;
       this._replication = value.replication;
+      this._replicationSchedule = value.replicationSchedule;
     }
   }
 
@@ -1211,6 +1980,22 @@ export class GoogleNetappVolumeHybridReplicationParametersOutputReference extend
     return this._description;
   }
 
+  // hybrid_replication_type - computed: false, optional: true, required: false
+  private _hybridReplicationType?: string; 
+  public get hybridReplicationType() {
+    return this.getStringAttribute('hybrid_replication_type');
+  }
+  public set hybridReplicationType(value: string) {
+    this._hybridReplicationType = value;
+  }
+  public resetHybridReplicationType() {
+    this._hybridReplicationType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridReplicationTypeInput() {
+    return this._hybridReplicationType;
+  }
+
   // labels - computed: false, optional: true, required: false
   private _labels?: { [key: string]: string }; 
   public get labels() {
@@ -1225,6 +2010,22 @@ export class GoogleNetappVolumeHybridReplicationParametersOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get labelsInput() {
     return this._labels;
+  }
+
+  // large_volume_constituent_count - computed: false, optional: true, required: false
+  private _largeVolumeConstituentCount?: number; 
+  public get largeVolumeConstituentCount() {
+    return this.getNumberAttribute('large_volume_constituent_count');
+  }
+  public set largeVolumeConstituentCount(value: number) {
+    this._largeVolumeConstituentCount = value;
+  }
+  public resetLargeVolumeConstituentCount() {
+    this._largeVolumeConstituentCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get largeVolumeConstituentCountInput() {
+    return this._largeVolumeConstituentCount;
   }
 
   // peer_cluster_name - computed: false, optional: true, required: false
@@ -1244,11 +2045,11 @@ export class GoogleNetappVolumeHybridReplicationParametersOutputReference extend
   }
 
   // peer_ip_addresses - computed: false, optional: true, required: false
-  private _peerIpAddresses?: string; 
+  private _peerIpAddresses?: string[]; 
   public get peerIpAddresses() {
-    return this.getStringAttribute('peer_ip_addresses');
+    return this.getListAttribute('peer_ip_addresses');
   }
-  public set peerIpAddresses(value: string) {
+  public set peerIpAddresses(value: string[]) {
     this._peerIpAddresses = value;
   }
   public resetPeerIpAddresses() {
@@ -1306,6 +2107,109 @@ export class GoogleNetappVolumeHybridReplicationParametersOutputReference extend
   public get replicationInput() {
     return this._replication;
   }
+
+  // replication_schedule - computed: false, optional: true, required: false
+  private _replicationSchedule?: string; 
+  public get replicationSchedule() {
+    return this.getStringAttribute('replication_schedule');
+  }
+  public set replicationSchedule(value: string) {
+    this._replicationSchedule = value;
+  }
+  public resetReplicationSchedule() {
+    this._replicationSchedule = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get replicationScheduleInput() {
+    return this._replicationSchedule;
+  }
+}
+export interface GoogleNetappVolumeLargeCapacityConfig {
+  /**
+  * The number of internal constituents (e.g., FlexVols) for this large volume.
+  * The minimum number of constituents is 2.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#constituent_count GoogleNetappVolume#constituent_count}
+  */
+  readonly constituentCount?: number;
+}
+
+export function googleNetappVolumeLargeCapacityConfigToTerraform(struct?: GoogleNetappVolumeLargeCapacityConfigOutputReference | GoogleNetappVolumeLargeCapacityConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    constituent_count: cdktn.numberToTerraform(struct!.constituentCount),
+  }
+}
+
+
+export function googleNetappVolumeLargeCapacityConfigToHclTerraform(struct?: GoogleNetappVolumeLargeCapacityConfigOutputReference | GoogleNetappVolumeLargeCapacityConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    constituent_count: {
+      value: cdktn.numberToHclTerraform(struct!.constituentCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleNetappVolumeLargeCapacityConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleNetappVolumeLargeCapacityConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._constituentCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.constituentCount = this._constituentCount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleNetappVolumeLargeCapacityConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._constituentCount = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._constituentCount = value.constituentCount;
+    }
+  }
+
+  // constituent_count - computed: false, optional: true, required: false
+  private _constituentCount?: number; 
+  public get constituentCount() {
+    return this.getNumberAttribute('constituent_count');
+  }
+  public set constituentCount(value: number) {
+    this._constituentCount = value;
+  }
+  public resetConstituentCount() {
+    this._constituentCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get constituentCountInput() {
+    return this._constituentCount;
+  }
 }
 export interface GoogleNetappVolumeRestoreParameters {
   /**
@@ -1313,7 +2217,7 @@ export interface GoogleNetappVolumeRestoreParameters {
   * 'source_snapshot' and 'source_backup' cannot be used simultaneously.
   * Format: 'projects/{{project}}/locations/{{location}}/backupVaults/{{backupVaultId}}/backups/{{backup}}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#source_backup GoogleNetappVolume#source_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#source_backup GoogleNetappVolume#source_backup}
   */
   readonly sourceBackup?: string;
   /**
@@ -1321,7 +2225,7 @@ export interface GoogleNetappVolumeRestoreParameters {
   * 'source_snapshot' and 'source_backup' cannot be used simultaneously.
   * Format: 'projects/{{project}}/locations/{{location}}/volumes/{{volume}}/snapshots/{{snapshot}}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#source_snapshot GoogleNetappVolume#source_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#source_snapshot GoogleNetappVolume#source_snapshot}
   */
   readonly sourceSnapshot?: string;
 }
@@ -1436,19 +2340,19 @@ export interface GoogleNetappVolumeSnapshotPolicyDailySchedule {
   /**
   * Set the hour to create the snapshot (0-23), defaults to midnight (0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
   */
   readonly hour?: number;
   /**
   * Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
   */
   readonly minute?: number;
   /**
   * The maximum number of snapshots to keep for the daily schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep: number;
 }
@@ -1589,13 +2493,13 @@ export interface GoogleNetappVolumeSnapshotPolicyHourlySchedule {
   /**
   * Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
   */
   readonly minute?: number;
   /**
   * The maximum number of snapshots to keep for the hourly schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep: number;
 }
@@ -1707,25 +2611,25 @@ export interface GoogleNetappVolumeSnapshotPolicyMonthlySchedule {
   /**
   * Set the day or days of the month to make a snapshot (1-31). Accepts a comma separated number of days. Defaults to '1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#days_of_month GoogleNetappVolume#days_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#days_of_month GoogleNetappVolume#days_of_month}
   */
   readonly daysOfMonth?: string;
   /**
   * Set the hour to create the snapshot (0-23), defaults to midnight (0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
   */
   readonly hour?: number;
   /**
   * Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
   */
   readonly minute?: number;
   /**
   * The maximum number of snapshots to keep for the monthly schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep: number;
 }
@@ -1895,25 +2799,25 @@ export interface GoogleNetappVolumeSnapshotPolicyWeeklySchedule {
   /**
   * Set the day or days of the week to make a snapshot. Accepts a comma separated days of the week. Defaults to 'Sunday'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#day GoogleNetappVolume#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#day GoogleNetappVolume#day}
   */
   readonly day?: string;
   /**
   * Set the hour to create the snapshot (0-23), defaults to midnight (0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
   */
   readonly hour?: number;
   /**
   * Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
   */
   readonly minute?: number;
   /**
   * The maximum number of snapshots to keep for the weekly schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep: number;
 }
@@ -2084,31 +2988,31 @@ export interface GoogleNetappVolumeSnapshotPolicy {
   * Enables automated snapshot creation according to defined schedule. Default is false.
   * To disable automatic snapshot creation you have to remove the whole snapshot_policy block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#enabled GoogleNetappVolume#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#enabled GoogleNetappVolume#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#daily_schedule GoogleNetappVolume#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#daily_schedule GoogleNetappVolume#daily_schedule}
   */
   readonly dailySchedule?: GoogleNetappVolumeSnapshotPolicyDailySchedule;
   /**
   * hourly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hourly_schedule GoogleNetappVolume#hourly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hourly_schedule GoogleNetappVolume#hourly_schedule}
   */
   readonly hourlySchedule?: GoogleNetappVolumeSnapshotPolicyHourlySchedule;
   /**
   * monthly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#monthly_schedule GoogleNetappVolume#monthly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#monthly_schedule GoogleNetappVolume#monthly_schedule}
   */
   readonly monthlySchedule?: GoogleNetappVolumeSnapshotPolicyMonthlySchedule;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#weekly_schedule GoogleNetappVolume#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#weekly_schedule GoogleNetappVolume#weekly_schedule}
   */
   readonly weeklySchedule?: GoogleNetappVolumeSnapshotPolicyWeeklySchedule;
 }
@@ -2311,20 +3215,20 @@ export interface GoogleNetappVolumeTieringPolicy {
   * Optional. Time in days to mark the volume's data block as cold and make it eligible for tiering, can be range from 2-183.
   * Default is 31.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#cooling_threshold_days GoogleNetappVolume#cooling_threshold_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cooling_threshold_days GoogleNetappVolume#cooling_threshold_days}
   */
   readonly coolingThresholdDays?: number;
   /**
   * Optional. Flag indicating that the hot tier bypass mode is enabled. Default is false.
   * Only applicable to Flex service level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hot_tier_bypass_mode_enabled GoogleNetappVolume#hot_tier_bypass_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hot_tier_bypass_mode_enabled GoogleNetappVolume#hot_tier_bypass_mode_enabled}
   */
   readonly hotTierBypassModeEnabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. Flag indicating if the volume has tiering policy enable/pause. Default is PAUSED. Default value: "PAUSED" Possible values: ["ENABLED", "PAUSED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#tier_action GoogleNetappVolume#tier_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#tier_action GoogleNetappVolume#tier_action}
   */
   readonly tierAction?: string;
 }
@@ -2466,15 +3370,15 @@ export class GoogleNetappVolumeTieringPolicyOutputReference extends cdktn.Comple
 }
 export interface GoogleNetappVolumeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#create GoogleNetappVolume#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#create GoogleNetappVolume#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#delete GoogleNetappVolume#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#delete GoogleNetappVolume#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#update GoogleNetappVolume#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#update GoogleNetappVolume#update}
   */
   readonly update?: string;
 }
@@ -2626,7 +3530,7 @@ export class GoogleNetappVolumeTimeoutsOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume google_netapp_volume}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume google_netapp_volume}
 */
 export class GoogleNetappVolume extends cdktn.TerraformResource {
 
@@ -2642,7 +3546,7 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleNetappVolume resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetappVolume to import
-  * @param importFromId The id of the existing GoogleNetappVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetappVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetappVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2654,7 +3558,7 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume google_netapp_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume google_netapp_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2665,8 +3569,8 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
       terraformResourceType: 'google_netapp_volume',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2694,10 +3598,14 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
     this._smbSettings = config.smbSettings;
     this._snapshotDirectory = config.snapshotDirectory;
     this._storagePool = config.storagePool;
+    this._throughputMibps = config.throughputMibps;
     this._unixPermissions = config.unixPermissions;
     this._backupConfig.internalValue = config.backupConfig;
+    this._blockDevices.internalValue = config.blockDevices;
+    this._cacheParameters.internalValue = config.cacheParameters;
     this._exportPolicy.internalValue = config.exportPolicy;
     this._hybridReplicationParameters.internalValue = config.hybridReplicationParameters;
+    this._largeCapacityConfig.internalValue = config.largeCapacityConfig;
     this._restoreParameters.internalValue = config.restoreParameters;
     this._snapshotPolicy.internalValue = config.snapshotPolicy;
     this._tieringPolicy.internalValue = config.tieringPolicy;
@@ -2782,6 +3690,11 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
   // has_replication - computed: true, optional: false, required: false
   public get hasReplication() {
     return this.getBooleanAttribute('has_replication');
+  }
+
+  // hot_tier_size_used_gib - computed: true, optional: false, required: false
+  public get hotTierSizeUsedGib() {
+    return this.getStringAttribute('hot_tier_size_used_gib');
   }
 
   // id - computed: true, optional: true, required: false
@@ -2987,13 +3900,16 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
     return this.getStringAttribute('service_level');
   }
 
-  // share_name - computed: false, optional: false, required: true
+  // share_name - computed: false, optional: true, required: false
   private _shareName?: string; 
   public get shareName() {
     return this.getStringAttribute('share_name');
   }
   public set shareName(value: string) {
     this._shareName = value;
+  }
+  public resetShareName() {
+    this._shareName = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get shareNameInput() {
@@ -3061,6 +3977,22 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
     return this._terraformLabels;
   }
 
+  // throughput_mibps - computed: true, optional: true, required: false
+  private _throughputMibps?: number; 
+  public get throughputMibps() {
+    return this.getNumberAttribute('throughput_mibps');
+  }
+  public set throughputMibps(value: number) {
+    this._throughputMibps = value;
+  }
+  public resetThroughputMibps() {
+    this._throughputMibps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get throughputMibpsInput() {
+    return this._throughputMibps;
+  }
+
   // unix_permissions - computed: true, optional: true, required: false
   private _unixPermissions?: string; 
   public get unixPermissions() {
@@ -3103,6 +4035,38 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
     return this._backupConfig.internalValue;
   }
 
+  // block_devices - computed: false, optional: true, required: false
+  private _blockDevices = new GoogleNetappVolumeBlockDevicesList(this, "block_devices", false);
+  public get blockDevices() {
+    return this._blockDevices;
+  }
+  public putBlockDevices(value: GoogleNetappVolumeBlockDevices[] | cdktn.IResolvable) {
+    this._blockDevices.internalValue = value;
+  }
+  public resetBlockDevices() {
+    this._blockDevices.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blockDevicesInput() {
+    return this._blockDevices.internalValue;
+  }
+
+  // cache_parameters - computed: false, optional: true, required: false
+  private _cacheParameters = new GoogleNetappVolumeCacheParametersOutputReference(this, "cache_parameters");
+  public get cacheParameters() {
+    return this._cacheParameters;
+  }
+  public putCacheParameters(value: GoogleNetappVolumeCacheParameters) {
+    this._cacheParameters.internalValue = value;
+  }
+  public resetCacheParameters() {
+    this._cacheParameters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheParametersInput() {
+    return this._cacheParameters.internalValue;
+  }
+
   // export_policy - computed: false, optional: true, required: false
   private _exportPolicy = new GoogleNetappVolumeExportPolicyOutputReference(this, "export_policy");
   public get exportPolicy() {
@@ -3133,6 +4097,22 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get hybridReplicationParametersInput() {
     return this._hybridReplicationParameters.internalValue;
+  }
+
+  // large_capacity_config - computed: false, optional: true, required: false
+  private _largeCapacityConfig = new GoogleNetappVolumeLargeCapacityConfigOutputReference(this, "large_capacity_config");
+  public get largeCapacityConfig() {
+    return this._largeCapacityConfig;
+  }
+  public putLargeCapacityConfig(value: GoogleNetappVolumeLargeCapacityConfig) {
+    this._largeCapacityConfig.internalValue = value;
+  }
+  public resetLargeCapacityConfig() {
+    this._largeCapacityConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get largeCapacityConfigInput() {
+    return this._largeCapacityConfig.internalValue;
   }
 
   // restore_parameters - computed: false, optional: true, required: false
@@ -3223,10 +4203,14 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
       smb_settings: cdktn.listMapper(cdktn.stringToTerraform, false)(this._smbSettings),
       snapshot_directory: cdktn.booleanToTerraform(this._snapshotDirectory),
       storage_pool: cdktn.stringToTerraform(this._storagePool),
+      throughput_mibps: cdktn.numberToTerraform(this._throughputMibps),
       unix_permissions: cdktn.stringToTerraform(this._unixPermissions),
       backup_config: googleNetappVolumeBackupConfigToTerraform(this._backupConfig.internalValue),
+      block_devices: cdktn.listMapper(googleNetappVolumeBlockDevicesToTerraform, true)(this._blockDevices.internalValue),
+      cache_parameters: googleNetappVolumeCacheParametersToTerraform(this._cacheParameters.internalValue),
       export_policy: googleNetappVolumeExportPolicyToTerraform(this._exportPolicy.internalValue),
       hybrid_replication_parameters: googleNetappVolumeHybridReplicationParametersToTerraform(this._hybridReplicationParameters.internalValue),
+      large_capacity_config: googleNetappVolumeLargeCapacityConfigToTerraform(this._largeCapacityConfig.internalValue),
       restore_parameters: googleNetappVolumeRestoreParametersToTerraform(this._restoreParameters.internalValue),
       snapshot_policy: googleNetappVolumeSnapshotPolicyToTerraform(this._snapshotPolicy.internalValue),
       tiering_policy: googleNetappVolumeTieringPolicyToTerraform(this._tieringPolicy.internalValue),
@@ -3344,6 +4328,12 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      throughput_mibps: {
+        value: cdktn.numberToHclTerraform(this._throughputMibps),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       unix_permissions: {
         value: cdktn.stringToHclTerraform(this._unixPermissions),
         isBlock: false,
@@ -3356,6 +4346,18 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
         type: "list",
         storageClassType: "GoogleNetappVolumeBackupConfigList",
       },
+      block_devices: {
+        value: cdktn.listMapperHcl(googleNetappVolumeBlockDevicesToHclTerraform, true)(this._blockDevices.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleNetappVolumeBlockDevicesList",
+      },
+      cache_parameters: {
+        value: googleNetappVolumeCacheParametersToHclTerraform(this._cacheParameters.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleNetappVolumeCacheParametersList",
+      },
       export_policy: {
         value: googleNetappVolumeExportPolicyToHclTerraform(this._exportPolicy.internalValue),
         isBlock: true,
@@ -3367,6 +4369,12 @@ export class GoogleNetappVolume extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GoogleNetappVolumeHybridReplicationParametersList",
+      },
+      large_capacity_config: {
+        value: googleNetappVolumeLargeCapacityConfigToHclTerraform(this._largeCapacityConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleNetappVolumeLargeCapacityConfigList",
       },
       restore_parameters: {
         value: googleNetappVolumeRestoreParametersToHclTerraform(this._restoreParameters.internalValue),

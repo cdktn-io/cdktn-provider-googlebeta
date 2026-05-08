@@ -4,7 +4,7 @@
 
 ### GoogleComputeHaVpnGateway <a name="GoogleComputeHaVpnGateway" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.Initializer"></a>
 
@@ -74,12 +74,14 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.putParams">PutParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.putVpnInterfaces">PutVpnInterfaces</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetGatewayIpVersion">ResetGatewayIpVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetLabels">ResetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetParams">ResetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetRegion">ResetRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetStackType">ResetStackType</a></code> | *No description.* |
@@ -397,6 +399,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `PutParams` <a name="PutParams" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.putParams"></a>
+
+```csharp
+private void PutParams(GoogleComputeHaVpnGatewayParams Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams">GoogleComputeHaVpnGatewayParams</a>
+
+---
+
 ##### `PutTimeouts` <a name="PutTimeouts" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.putTimeouts"></a>
 
 ```csharp
@@ -443,6 +457,12 @@ private void ResetId()
 
 ```csharp
 private void ResetLabels()
+```
+
+##### `ResetParams` <a name="ResetParams" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetParams"></a>
+
+```csharp
+private void ResetParams()
 ```
 
 ##### `ResetProject` <a name="ResetProject" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.resetProject"></a>
@@ -578,7 +598,7 @@ The construct id used in the generated config for the GoogleComputeHaVpnGateway 
 
 The id of the existing GoogleComputeHaVpnGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -610,6 +630,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.effectiveLabels">EffectiveLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.labelFingerprint">LabelFingerprint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference">GoogleComputeHaVpnGatewayParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.selfLink">SelfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeoutsOutputReference">GoogleComputeHaVpnGatewayTimeoutsOutputReference</a></code> | *No description.* |
@@ -620,6 +641,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.labelsInput">LabelsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.networkInput">NetworkInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.paramsInput">ParamsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams">GoogleComputeHaVpnGatewayParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.regionInput">RegionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.stackTypeInput">StackTypeInput</a></code> | <code>string</code> | *No description.* |
@@ -799,6 +821,16 @@ public string LabelFingerprint { get; }
 
 ---
 
+##### `Params`<sup>Required</sup> <a name="Params" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.params"></a>
+
+```csharp
+public GoogleComputeHaVpnGatewayParamsOutputReference Params { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference">GoogleComputeHaVpnGatewayParamsOutputReference</a>
+
+---
+
 ##### `SelfLink`<sup>Required</sup> <a name="SelfLink" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.selfLink"></a>
 
 ```csharp
@@ -896,6 +928,16 @@ public string NetworkInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `ParamsInput`<sup>Optional</sup> <a name="ParamsInput" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGateway.property.paramsInput"></a>
+
+```csharp
+public GoogleComputeHaVpnGatewayParams ParamsInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams">GoogleComputeHaVpnGatewayParams</a>
 
 ---
 
@@ -1080,6 +1122,7 @@ new GoogleComputeHaVpnGatewayConfig {
     string GatewayIpVersion = null,
     string Id = null,
     System.Collections.Generic.IDictionary<string, string> Labels = null,
+    GoogleComputeHaVpnGatewayParams Params = null,
     string Project = null,
     string Region = null,
     string StackType = null,
@@ -1103,9 +1146,10 @@ new GoogleComputeHaVpnGatewayConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.network">Network</a></code> | <code>string</code> | The network this VPN gateway is accepting traffic for. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.gatewayIpVersion">GatewayIpVersion</a></code> | <code>string</code> | The IP family of the gateway IPs for the HA-VPN gateway interfaces. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#id GoogleComputeHaVpnGateway#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#id GoogleComputeHaVpnGateway#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels for this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#project GoogleComputeHaVpnGateway#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams">GoogleComputeHaVpnGatewayParams</a></code> | params block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#project GoogleComputeHaVpnGateway#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.region">Region</a></code> | <code>string</code> | The region this gateway should sit in. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.stackType">StackType</a></code> | <code>string</code> | The stack type for this VPN gateway to identify the IP protocols that are enabled. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeouts">GoogleComputeHaVpnGatewayTimeouts</a></code> | timeouts block. |
@@ -1201,7 +1245,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#name GoogleComputeHaVpnGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#name GoogleComputeHaVpnGateway#name}
 
 ---
 
@@ -1215,7 +1259,7 @@ public string Network { get; set; }
 
 The network this VPN gateway is accepting traffic for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#network GoogleComputeHaVpnGateway#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#network GoogleComputeHaVpnGateway#network}
 
 ---
 
@@ -1229,7 +1273,7 @@ public string Description { get; set; }
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#description GoogleComputeHaVpnGateway#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#description GoogleComputeHaVpnGateway#description}
 
 ---
 
@@ -1245,7 +1289,7 @@ The IP family of the gateway IPs for the HA-VPN gateway interfaces.
 
 If not specified, IPV4 will be used. Default value: "IPV4" Possible values: ["IPV4", "IPV6"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#gateway_ip_version GoogleComputeHaVpnGateway#gateway_ip_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#gateway_ip_version GoogleComputeHaVpnGateway#gateway_ip_version}
 
 ---
 
@@ -1257,7 +1301,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#id GoogleComputeHaVpnGateway#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#id GoogleComputeHaVpnGateway#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1280,7 +1324,21 @@ Each label key/value pair must comply with RFC1035. Label values may be empty.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#labels GoogleComputeHaVpnGateway#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#labels GoogleComputeHaVpnGateway#labels}
+
+---
+
+##### `Params`<sup>Optional</sup> <a name="Params" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayConfig.property.params"></a>
+
+```csharp
+public GoogleComputeHaVpnGatewayParams Params { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams">GoogleComputeHaVpnGatewayParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#params GoogleComputeHaVpnGateway#params}
 
 ---
 
@@ -1292,7 +1350,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#project GoogleComputeHaVpnGateway#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#project GoogleComputeHaVpnGateway#project}.
 
 ---
 
@@ -1306,7 +1364,7 @@ public string Region { get; set; }
 
 The region this gateway should sit in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#region GoogleComputeHaVpnGateway#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#region GoogleComputeHaVpnGateway#region}
 
 ---
 
@@ -1322,7 +1380,7 @@ The stack type for this VPN gateway to identify the IP protocols that are enable
 
 If not specified, IPV4_ONLY will be used. Default value: "IPV4_ONLY" Possible values: ["IPV4_ONLY", "IPV4_IPV6", "IPV6_ONLY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#stack_type GoogleComputeHaVpnGateway#stack_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#stack_type GoogleComputeHaVpnGateway#stack_type}
 
 ---
 
@@ -1336,7 +1394,7 @@ public GoogleComputeHaVpnGatewayTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#timeouts GoogleComputeHaVpnGateway#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#timeouts GoogleComputeHaVpnGateway#timeouts}
 
 ---
 
@@ -1350,7 +1408,45 @@ public IResolvable|GoogleComputeHaVpnGatewayVpnInterfaces[] VpnInterfaces { get;
 
 vpn_interfaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#vpn_interfaces GoogleComputeHaVpnGateway#vpn_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#vpn_interfaces GoogleComputeHaVpnGateway#vpn_interfaces}
+
+---
+
+### GoogleComputeHaVpnGatewayParams <a name="GoogleComputeHaVpnGatewayParams" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeHaVpnGatewayParams {
+    System.Collections.Generic.IDictionary<string, string> ResourceManagerTags = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams.property.resourceManagerTags">ResourceManagerTags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Resource manager tags to be bound to the HaVpnGateway. |
+
+---
+
+##### `ResourceManagerTags`<sup>Optional</sup> <a name="ResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams.property.resourceManagerTags"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> ResourceManagerTags { get; set; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+Resource manager tags to be bound to the HaVpnGateway.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+and values are in the format tagValues/456.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#resource_manager_tags GoogleComputeHaVpnGateway#resource_manager_tags}
 
 ---
 
@@ -1372,9 +1468,9 @@ new GoogleComputeHaVpnGatewayTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#create GoogleComputeHaVpnGateway#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#delete GoogleComputeHaVpnGateway#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#update GoogleComputeHaVpnGateway#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#create GoogleComputeHaVpnGateway#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#delete GoogleComputeHaVpnGateway#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#update GoogleComputeHaVpnGateway#update}. |
 
 ---
 
@@ -1386,7 +1482,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#create GoogleComputeHaVpnGateway#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#create GoogleComputeHaVpnGateway#create}.
 
 ---
 
@@ -1398,7 +1494,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#delete GoogleComputeHaVpnGateway#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#delete GoogleComputeHaVpnGateway#delete}.
 
 ---
 
@@ -1410,7 +1506,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#update GoogleComputeHaVpnGateway#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#update GoogleComputeHaVpnGateway#update}.
 
 ---
 
@@ -1446,7 +1542,7 @@ public double Id { get; set; }
 
 The numeric ID of this VPN gateway interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#id GoogleComputeHaVpnGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#id GoogleComputeHaVpnGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1471,11 +1567,289 @@ specified interconnect attachment resource.
 
 Not currently available publicly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ha_vpn_gateway#interconnect_attachment GoogleComputeHaVpnGateway#interconnect_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ha_vpn_gateway#interconnect_attachment GoogleComputeHaVpnGateway#interconnect_attachment}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleComputeHaVpnGatewayParamsOutputReference <a name="GoogleComputeHaVpnGatewayParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeHaVpnGatewayParamsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.resetResourceManagerTags">ResetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetResourceManagerTags` <a name="ResetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.resetResourceManagerTags"></a>
+
+```csharp
+private void ResetResourceManagerTags()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.resourceManagerTagsInput">ResourceManagerTagsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.resourceManagerTags">ResourceManagerTags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams">GoogleComputeHaVpnGatewayParams</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceManagerTagsInput`<sup>Optional</sup> <a name="ResourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> ResourceManagerTagsInput { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+---
+
+##### `ResourceManagerTags`<sup>Required</sup> <a name="ResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.resourceManagerTags"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> ResourceManagerTags { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParamsOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleComputeHaVpnGatewayParams InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayParams">GoogleComputeHaVpnGatewayParams</a>
+
+---
+
 
 ### GoogleComputeHaVpnGatewayTimeoutsOutputReference <a name="GoogleComputeHaVpnGatewayTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleComputeHaVpnGateway.GoogleComputeHaVpnGatewayTimeoutsOutputReference"></a>
 

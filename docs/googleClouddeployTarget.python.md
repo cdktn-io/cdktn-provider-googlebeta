@@ -4,7 +4,7 @@
 
 ### GoogleClouddeployTarget <a name="GoogleClouddeployTarget" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer"></a>
 
@@ -62,7 +62,7 @@ googleClouddeployTarget.GoogleClouddeployTarget(
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.description">description</a></code> | <code>str</code> | Optional. Description of the `Target`. Max length is 255 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.executionConfigs">execution_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs">GoogleClouddeployTargetExecutionConfigs</a>]</code> | execution_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.gke">gke</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetGke">GoogleClouddeployTargetGke</a></code> | gke block. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.multiTarget">multi_target</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetMultiTarget">GoogleClouddeployTargetMultiTarget</a></code> | multi_target block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.project">project</a></code> | <code>str</code> | The project for the resource. |
@@ -138,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the `Target`. Format is `[a-z]([a-z0-9-]{0,61}[a-z0-9])?`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
 
 ---
 
@@ -163,7 +163,7 @@ User annotations. These attributes can only be set and used by the user, and not
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field `effective_annotations` for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
 
 ---
 
@@ -173,7 +173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 anthos_cluster block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
 
 ---
 
@@ -183,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 associated_entities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
 
 ---
 
@@ -193,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 custom_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
 
 ---
 
@@ -203,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. The deploy parameters to use for this target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
 
 ---
 
@@ -213,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. Description of the `Target`. Max length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
 
 ---
 
@@ -223,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 execution_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
 
 ---
 
@@ -233,7 +233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 gke block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
 
 ---
 
@@ -241,7 +241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -259,7 +259,7 @@ Labels are attributes that can be set and used by both the user and by Google Cl
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field `effective_labels` for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
 
 ---
 
@@ -269,7 +269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 multi_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
 
 ---
 
@@ -279,7 +279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The project for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
 
 ---
 
@@ -289,7 +289,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. Whether or not the `Target` requires approval.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
 
 ---
 
@@ -299,7 +299,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 run block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
 
 ---
 
@@ -309,7 +309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
 
 ---
 
@@ -729,7 +729,7 @@ def put_anthos_cluster(
 
 Membership of the GKE Hub-registered cluster to which to apply the Skaffold configuration. Format is `projects/{project}/locations/{location}/memberships/{membership_name}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
 
 ---
 
@@ -761,7 +761,7 @@ def put_custom_target(
 
 Required. The name of the CustomTargetType. Format must be `projects/{project}/locations/{location}/customTargetTypes/{custom_target_type}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
 
 ---
 
@@ -796,7 +796,7 @@ def put_gke(
 
 Information specifying a GKE Cluster. Format is `projects/{project_id}/locations/{location_id}/clusters/{cluster_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
 
 ---
 
@@ -808,7 +808,7 @@ Optional.
 
 If set, the cluster will be accessed using the DNS endpoint. Note that both `dns_endpoint` and `internal_ip` cannot be set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
 
 ---
 
@@ -820,7 +820,7 @@ Optional.
 
 If true, `cluster` is accessed using the private IP address of the control plane endpoint. Otherwise, the default IP address of the control plane endpoint is used. The default IP address is the private IP address for clusters with private control-plane endpoints and the public IP address otherwise. Only specify this option when `cluster` is a [private GKE cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
 
 ---
 
@@ -830,7 +830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. If set, used to configure a [proxy](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#proxy) to the Kubernetes server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
 
 ---
 
@@ -848,7 +848,7 @@ def put_multi_target(
 
 Required. The target_ids of this multiTarget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
 
 ---
 
@@ -866,7 +866,7 @@ def put_run(
 
 Required. The location where the Cloud Run Service should be located. Format is `projects/{project}/locations/{location}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
 
 ---
 
@@ -884,7 +884,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}.
 
 ---
 
@@ -892,7 +892,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}.
 
 ---
 
@@ -900,7 +900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}.
 
 ---
 
@@ -1108,7 +1108,7 @@ The construct id used in the generated config for the GoogleClouddeployTarget to
 
 The id of the existing GoogleClouddeployTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1795,7 +1795,7 @@ membership: str
 
 Membership of the GKE Hub-registered cluster to which to apply the Skaffold configuration. Format is `projects/{project}/locations/{location}/memberships/{membership_name}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
 
 ---
 
@@ -1833,7 +1833,7 @@ entity_id: str
 
 The name for the key in the map for which this object is mapped to in the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#entity_id GoogleClouddeployTarget#entity_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#entity_id GoogleClouddeployTarget#entity_id}
 
 ---
 
@@ -1847,7 +1847,7 @@ anthos_clusters: IResolvable | typing.List[GoogleClouddeployTargetAssociatedEnti
 
 anthos_clusters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#anthos_clusters GoogleClouddeployTarget#anthos_clusters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#anthos_clusters GoogleClouddeployTarget#anthos_clusters}
 
 ---
 
@@ -1861,7 +1861,7 @@ gke_clusters: IResolvable | typing.List[GoogleClouddeployTargetAssociatedEntitie
 
 gke_clusters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#gke_clusters GoogleClouddeployTarget#gke_clusters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#gke_clusters GoogleClouddeployTarget#gke_clusters}
 
 ---
 
@@ -1895,7 +1895,7 @@ membership: str
 
 Optional. Membership of the GKE Hub-registered cluster to which to apply the Skaffold configuration. Format is `projects/{project}/locations/{location}/memberships/{membership_name}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
 
 ---
 
@@ -1933,7 +1933,7 @@ cluster: str
 
 Optional. Information specifying a GKE Cluster. Format is `projects/{project_id}/locations/{location_id}/clusters/{cluster_id}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
 
 ---
 
@@ -1949,7 +1949,7 @@ Optional.
 
 If true, `cluster` is accessed using the private IP address of the control plane endpoint. Otherwise, the default IP address of the control plane endpoint is used. The default IP address is the private IP address for clusters with private control-plane endpoints and the public IP address otherwise. Only specify this option when `cluster` is a [private GKE cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
 
 ---
 
@@ -1963,7 +1963,7 @@ proxy_url: str
 
 Optional. If set, used to configure a [proxy](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#proxy) to the Kubernetes server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
 
 ---
 
@@ -2023,7 +2023,7 @@ googleClouddeployTarget.GoogleClouddeployTargetConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.description">description</a></code> | <code>str</code> | Optional. Description of the `Target`. Max length is 255 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.executionConfigs">execution_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs">GoogleClouddeployTargetExecutionConfigs</a>]</code> | execution_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.gke">gke</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetGke">GoogleClouddeployTargetGke</a></code> | gke block. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.multiTarget">multi_target</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetMultiTarget">GoogleClouddeployTargetMultiTarget</a></code> | multi_target block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.project">project</a></code> | <code>str</code> | The project for the resource. |
@@ -2113,7 +2113,7 @@ location: str
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
 
 ---
 
@@ -2127,7 +2127,7 @@ name: str
 
 Name of the `Target`. Format is `[a-z]([a-z0-9-]{0,61}[a-z0-9])?`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
 
 ---
 
@@ -2146,7 +2146,7 @@ User annotations. These attributes can only be set and used by the user, and not
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field `effective_annotations` for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
 
 ---
 
@@ -2160,7 +2160,7 @@ anthos_cluster: GoogleClouddeployTargetAnthosCluster
 
 anthos_cluster block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
 
 ---
 
@@ -2174,7 +2174,7 @@ associated_entities: IResolvable | typing.List[GoogleClouddeployTargetAssociated
 
 associated_entities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
 
 ---
 
@@ -2188,7 +2188,7 @@ custom_target: GoogleClouddeployTargetCustomTarget
 
 custom_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
 
 ---
 
@@ -2202,7 +2202,7 @@ deploy_parameters: typing.Mapping[str]
 
 Optional. The deploy parameters to use for this target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
 
 ---
 
@@ -2216,7 +2216,7 @@ description: str
 
 Optional. Description of the `Target`. Max length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
 
 ---
 
@@ -2230,7 +2230,7 @@ execution_configs: IResolvable | typing.List[GoogleClouddeployTargetExecutionCon
 
 execution_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
 
 ---
 
@@ -2244,7 +2244,7 @@ gke: GoogleClouddeployTargetGke
 
 gke block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
 
 ---
 
@@ -2256,7 +2256,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2278,7 +2278,7 @@ Labels are attributes that can be set and used by both the user and by Google Cl
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field `effective_labels` for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
 
 ---
 
@@ -2292,7 +2292,7 @@ multi_target: GoogleClouddeployTargetMultiTarget
 
 multi_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
 
 ---
 
@@ -2306,7 +2306,7 @@ project: str
 
 The project for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
 
 ---
 
@@ -2320,7 +2320,7 @@ require_approval: bool | IResolvable
 
 Optional. Whether or not the `Target` requires approval.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
 
 ---
 
@@ -2334,7 +2334,7 @@ run: GoogleClouddeployTargetRun
 
 run block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
 
 ---
 
@@ -2348,7 +2348,7 @@ timeouts: GoogleClouddeployTargetTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
 
 ---
 
@@ -2382,7 +2382,7 @@ custom_target_type: str
 
 Required. The name of the CustomTargetType. Format must be `projects/{project}/locations/{location}/customTargetTypes/{custom_target_type}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
 
 ---
 
@@ -2396,7 +2396,9 @@ from cdktn_provider_google_beta import google_clouddeploy_target
 googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs(
   usages: typing.List[str],
   artifact_storage: str = None,
+  default_pool: GoogleClouddeployTargetExecutionConfigsDefaultPool = None,
   execution_timeout: str = None,
+  private_pool: GoogleClouddeployTargetExecutionConfigsPrivatePool = None,
   service_account: str = None,
   verbose: bool | IResolvable = None,
   worker_pool: str = None
@@ -2409,7 +2411,9 @@ googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.usages">usages</a></code> | <code>typing.List[str]</code> | Required. Usages when this configuration should be applied. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.artifactStorage">artifact_storage</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.defaultPool">default_pool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool">GoogleClouddeployTargetExecutionConfigsDefaultPool</a></code> | default_pool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.executionTimeout">execution_timeout</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.privatePool">private_pool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool">GoogleClouddeployTargetExecutionConfigsPrivatePool</a></code> | private_pool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.serviceAccount">service_account</a></code> | <code>str</code> | Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.verbose">verbose</a></code> | <code>bool \| cdktn.IResolvable</code> | Optional. If true, additional logging will be enabled when running builds in this execution environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.workerPool">worker_pool</a></code> | <code>str</code> | Optional. |
@@ -2426,7 +2430,7 @@ usages: typing.List[str]
 
 Required. Usages when this configuration should be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#usages GoogleClouddeployTarget#usages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#usages GoogleClouddeployTarget#usages}
 
 ---
 
@@ -2442,7 +2446,21 @@ Optional.
 
 Cloud Storage location in which to store execution outputs. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+
+---
+
+##### `default_pool`<sup>Optional</sup> <a name="default_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.defaultPool"></a>
+
+```python
+default_pool: GoogleClouddeployTargetExecutionConfigsDefaultPool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool">GoogleClouddeployTargetExecutionConfigsDefaultPool</a>
+
+default_pool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#default_pool GoogleClouddeployTarget#default_pool}
 
 ---
 
@@ -2458,7 +2476,21 @@ Optional.
 
 Execution timeout for a Cloud Build Execution. This must be between 10m and 24h in seconds format. If unspecified, a default timeout of 1h is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#execution_timeout GoogleClouddeployTarget#execution_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#execution_timeout GoogleClouddeployTarget#execution_timeout}
+
+---
+
+##### `private_pool`<sup>Optional</sup> <a name="private_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs.property.privatePool"></a>
+
+```python
+private_pool: GoogleClouddeployTargetExecutionConfigsPrivatePool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool">GoogleClouddeployTargetExecutionConfigsPrivatePool</a>
+
+private_pool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#private_pool GoogleClouddeployTarget#private_pool}
 
 ---
 
@@ -2472,7 +2504,7 @@ service_account: str
 
 Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
 
 ---
 
@@ -2486,7 +2518,7 @@ verbose: bool | IResolvable
 
 Optional. If true, additional logging will be enabled when running builds in this execution environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#verbose GoogleClouddeployTarget#verbose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#verbose GoogleClouddeployTarget#verbose}
 
 ---
 
@@ -2502,7 +2534,127 @@ Optional.
 
 The resource name of the `WorkerPool`, with the format `projects/{project}/locations/{location}/workerPools/{worker_pool}`. If this optional field is unspecified, the default Cloud Build pool will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+
+---
+
+### GoogleClouddeployTargetExecutionConfigsDefaultPool <a name="GoogleClouddeployTargetExecutionConfigsDefaultPool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_target
+
+googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool(
+  artifact_storage: str = None,
+  service_account: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool.property.artifactStorage">artifact_storage</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool.property.serviceAccount">service_account</a></code> | <code>str</code> | Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used. |
+
+---
+
+##### `artifact_storage`<sup>Optional</sup> <a name="artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool.property.artifactStorage"></a>
+
+```python
+artifact_storage: str
+```
+
+- *Type:* str
+
+Optional.
+
+Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+
+---
+
+##### `service_account`<sup>Optional</sup> <a name="service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool.property.serviceAccount"></a>
+
+```python
+service_account: str
+```
+
+- *Type:* str
+
+Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+
+---
+
+### GoogleClouddeployTargetExecutionConfigsPrivatePool <a name="GoogleClouddeployTargetExecutionConfigsPrivatePool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_target
+
+googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool(
+  worker_pool: str,
+  artifact_storage: str = None,
+  service_account: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool.property.workerPool">worker_pool</a></code> | <code>str</code> | Required. Resource name of the Cloud Build worker pool to use. The format is `projects/{project}/locations/{location}/workerPools/{pool}`. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool.property.artifactStorage">artifact_storage</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool.property.serviceAccount">service_account</a></code> | <code>str</code> | Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used. |
+
+---
+
+##### `worker_pool`<sup>Required</sup> <a name="worker_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool.property.workerPool"></a>
+
+```python
+worker_pool: str
+```
+
+- *Type:* str
+
+Required. Resource name of the Cloud Build worker pool to use. The format is `projects/{project}/locations/{location}/workerPools/{pool}`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+
+---
+
+##### `artifact_storage`<sup>Optional</sup> <a name="artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool.property.artifactStorage"></a>
+
+```python
+artifact_storage: str
+```
+
+- *Type:* str
+
+Optional.
+
+Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+
+---
+
+##### `service_account`<sup>Optional</sup> <a name="service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool.property.serviceAccount"></a>
+
+```python
+service_account: str
+```
+
+- *Type:* str
+
+Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
 
 ---
 
@@ -2542,7 +2694,7 @@ cluster: str
 
 Information specifying a GKE Cluster. Format is `projects/{project_id}/locations/{location_id}/clusters/{cluster_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
 
 ---
 
@@ -2558,7 +2710,7 @@ Optional.
 
 If set, the cluster will be accessed using the DNS endpoint. Note that both `dns_endpoint` and `internal_ip` cannot be set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
 
 ---
 
@@ -2574,7 +2726,7 @@ Optional.
 
 If true, `cluster` is accessed using the private IP address of the control plane endpoint. Otherwise, the default IP address of the control plane endpoint is used. The default IP address is the private IP address for clusters with private control-plane endpoints and the public IP address otherwise. Only specify this option when `cluster` is a [private GKE cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
 
 ---
 
@@ -2588,7 +2740,7 @@ proxy_url: str
 
 Optional. If set, used to configure a [proxy](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#proxy) to the Kubernetes server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
 
 ---
 
@@ -2622,7 +2774,7 @@ target_ids: typing.List[str]
 
 Required. The target_ids of this multiTarget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
 
 ---
 
@@ -2656,7 +2808,7 @@ location: str
 
 Required. The location where the Cloud Run Service should be located. Format is `projects/{project}/locations/{location}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
 
 ---
 
@@ -2678,9 +2830,9 @@ googleClouddeployTarget.GoogleClouddeployTargetTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}. |
 
 ---
 
@@ -2692,7 +2844,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}.
 
 ---
 
@@ -2704,7 +2856,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}.
 
 ---
 
@@ -2716,7 +2868,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}.
 
 ---
 
@@ -4939,6 +5091,338 @@ internal_value: GoogleClouddeployTargetCustomTarget
 ---
 
 
+### GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference <a name="GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_target
+
+googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.resetArtifactStorage">reset_artifact_storage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.resetServiceAccount">reset_service_account</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_artifact_storage` <a name="reset_artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.resetArtifactStorage"></a>
+
+```python
+def reset_artifact_storage() -> None
+```
+
+##### `reset_service_account` <a name="reset_service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.resetServiceAccount"></a>
+
+```python
+def reset_service_account() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.artifactStorageInput">artifact_storage_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.serviceAccountInput">service_account_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.artifactStorage">artifact_storage</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.serviceAccount">service_account</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool">GoogleClouddeployTargetExecutionConfigsDefaultPool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `artifact_storage_input`<sup>Optional</sup> <a name="artifact_storage_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.artifactStorageInput"></a>
+
+```python
+artifact_storage_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_account_input`<sup>Optional</sup> <a name="service_account_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.serviceAccountInput"></a>
+
+```python
+service_account_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `artifact_storage`<sup>Required</sup> <a name="artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.artifactStorage"></a>
+
+```python
+artifact_storage: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_account`<sup>Required</sup> <a name="service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.serviceAccount"></a>
+
+```python
+service_account: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleClouddeployTargetExecutionConfigsDefaultPool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool">GoogleClouddeployTargetExecutionConfigsDefaultPool</a>
+
+---
+
+
 ### GoogleClouddeployTargetExecutionConfigsList <a name="GoogleClouddeployTargetExecutionConfigsList" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsList.Initializer"></a>
@@ -5182,8 +5666,12 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putDefaultPool">put_default_pool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putPrivatePool">put_private_pool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetArtifactStorage">reset_artifact_storage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetDefaultPool">reset_default_pool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetExecutionTimeout">reset_execution_timeout</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetPrivatePool">reset_private_pool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetServiceAccount">reset_service_account</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetVerbose">reset_verbose</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetWorkerPool">reset_worker_pool</a></code> | *No description.* |
@@ -5362,16 +5850,101 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_default_pool` <a name="put_default_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putDefaultPool"></a>
+
+```python
+def put_default_pool(
+  artifact_storage: str = None,
+  service_account: str = None
+) -> None
+```
+
+###### `artifact_storage`<sup>Optional</sup> <a name="artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putDefaultPool.parameter.artifactStorage"></a>
+
+- *Type:* str
+
+Optional.
+
+Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+
+---
+
+###### `service_account`<sup>Optional</sup> <a name="service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putDefaultPool.parameter.serviceAccount"></a>
+
+- *Type:* str
+
+Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+
+---
+
+##### `put_private_pool` <a name="put_private_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putPrivatePool"></a>
+
+```python
+def put_private_pool(
+  worker_pool: str,
+  artifact_storage: str = None,
+  service_account: str = None
+) -> None
+```
+
+###### `worker_pool`<sup>Required</sup> <a name="worker_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putPrivatePool.parameter.workerPool"></a>
+
+- *Type:* str
+
+Required. Resource name of the Cloud Build worker pool to use. The format is `projects/{project}/locations/{location}/workerPools/{pool}`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+
+---
+
+###### `artifact_storage`<sup>Optional</sup> <a name="artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putPrivatePool.parameter.artifactStorage"></a>
+
+- *Type:* str
+
+Optional.
+
+Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+
+---
+
+###### `service_account`<sup>Optional</sup> <a name="service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.putPrivatePool.parameter.serviceAccount"></a>
+
+- *Type:* str
+
+Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+
+---
+
 ##### `reset_artifact_storage` <a name="reset_artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetArtifactStorage"></a>
 
 ```python
 def reset_artifact_storage() -> None
 ```
 
+##### `reset_default_pool` <a name="reset_default_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetDefaultPool"></a>
+
+```python
+def reset_default_pool() -> None
+```
+
 ##### `reset_execution_timeout` <a name="reset_execution_timeout" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetExecutionTimeout"></a>
 
 ```python
 def reset_execution_timeout() -> None
+```
+
+##### `reset_private_pool` <a name="reset_private_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetPrivatePool"></a>
+
+```python
+def reset_private_pool() -> None
 ```
 
 ##### `reset_service_account` <a name="reset_service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.resetServiceAccount"></a>
@@ -5399,8 +5972,12 @@ def reset_worker_pool() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.defaultPool">default_pool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference">GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.privatePool">private_pool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference">GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.artifactStorageInput">artifact_storage_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.defaultPoolInput">default_pool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool">GoogleClouddeployTargetExecutionConfigsDefaultPool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.executionTimeoutInput">execution_timeout_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.privatePoolInput">private_pool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool">GoogleClouddeployTargetExecutionConfigsPrivatePool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.serviceAccountInput">service_account_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.usagesInput">usages_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.verboseInput">verbose_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -5439,6 +6016,26 @@ fqn: str
 
 ---
 
+##### `default_pool`<sup>Required</sup> <a name="default_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.defaultPool"></a>
+
+```python
+default_pool: GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference">GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference</a>
+
+---
+
+##### `private_pool`<sup>Required</sup> <a name="private_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.privatePool"></a>
+
+```python
+private_pool: GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference">GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference</a>
+
+---
+
 ##### `artifact_storage_input`<sup>Optional</sup> <a name="artifact_storage_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.artifactStorageInput"></a>
 
 ```python
@@ -5449,6 +6046,16 @@ artifact_storage_input: str
 
 ---
 
+##### `default_pool_input`<sup>Optional</sup> <a name="default_pool_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.defaultPoolInput"></a>
+
+```python
+default_pool_input: GoogleClouddeployTargetExecutionConfigsDefaultPool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsDefaultPool">GoogleClouddeployTargetExecutionConfigsDefaultPool</a>
+
+---
+
 ##### `execution_timeout_input`<sup>Optional</sup> <a name="execution_timeout_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.executionTimeoutInput"></a>
 
 ```python
@@ -5456,6 +6063,16 @@ execution_timeout_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `private_pool_input`<sup>Optional</sup> <a name="private_pool_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsOutputReference.property.privatePoolInput"></a>
+
+```python
+private_pool_input: GoogleClouddeployTargetExecutionConfigsPrivatePool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool">GoogleClouddeployTargetExecutionConfigsPrivatePool</a>
 
 ---
 
@@ -5566,6 +6183,360 @@ internal_value: IResolvable | GoogleClouddeployTargetExecutionConfigs
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs">GoogleClouddeployTargetExecutionConfigs</a>
+
+---
+
+
+### GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference <a name="GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_target
+
+googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.resetArtifactStorage">reset_artifact_storage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.resetServiceAccount">reset_service_account</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_artifact_storage` <a name="reset_artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.resetArtifactStorage"></a>
+
+```python
+def reset_artifact_storage() -> None
+```
+
+##### `reset_service_account` <a name="reset_service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.resetServiceAccount"></a>
+
+```python
+def reset_service_account() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.artifactStorageInput">artifact_storage_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.serviceAccountInput">service_account_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.workerPoolInput">worker_pool_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.artifactStorage">artifact_storage</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.serviceAccount">service_account</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.workerPool">worker_pool</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool">GoogleClouddeployTargetExecutionConfigsPrivatePool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `artifact_storage_input`<sup>Optional</sup> <a name="artifact_storage_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.artifactStorageInput"></a>
+
+```python
+artifact_storage_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_account_input`<sup>Optional</sup> <a name="service_account_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.serviceAccountInput"></a>
+
+```python
+service_account_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `worker_pool_input`<sup>Optional</sup> <a name="worker_pool_input" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.workerPoolInput"></a>
+
+```python
+worker_pool_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `artifact_storage`<sup>Required</sup> <a name="artifact_storage" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.artifactStorage"></a>
+
+```python
+artifact_storage: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_account`<sup>Required</sup> <a name="service_account" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.serviceAccount"></a>
+
+```python
+service_account: str
+```
+
+- *Type:* str
+
+---
+
+##### `worker_pool`<sup>Required</sup> <a name="worker_pool" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.workerPool"></a>
+
+```python
+worker_pool: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleClouddeployTargetExecutionConfigsPrivatePool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigsPrivatePool">GoogleClouddeployTargetExecutionConfigsPrivatePool</a>
 
 ---
 

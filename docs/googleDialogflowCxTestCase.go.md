@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowCxTestCase <a name="GoogleDialogflowCxTestCase" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case google_dialogflow_cx_test_case}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case google_dialogflow_cx_test_case}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCase(scope Construct, id *string, config GoogleDialogflowCxTestCaseConfig) GoogleDialogflowCxTestCase
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.GoogleDialogflowCxTestCase_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.GoogleDialogflowCxTestCase_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googledialogflowcxtestcase.GoogleDialogflowCxTestCase_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.GoogleDialogflowCxTestCase_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googledialogflowcxtestcase.GoogleDialogflowCxTestCase_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.GoogleDialogflowCxTestCase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleDialogflowCxTestCase
 
 The id of the existing GoogleDialogflowCxTestCase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -986,7 +986,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseConfig {
 	Connection: interface{},
@@ -1002,8 +1002,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 	Parent: *string,
 	Tags: *[]*string,
 	TestCaseConversationTurns: interface{},
-	TestConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts,
+	TestConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts,
 }
 ```
 
@@ -1019,7 +1019,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The human-readable name of the test case, unique within the agent. Limit of 200 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#id GoogleDialogflowCxTestCase#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#id GoogleDialogflowCxTestCase#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.notes">Notes</a></code> | <code>*string</code> | Additional freeform notes about the test case. Limit of 400 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.parent">Parent</a></code> | <code>*string</code> | The agent to create the test case for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseConfig.property.tags">Tags</a></code> | <code>*[]*string</code> | Tags are short descriptions that users may apply to test cases for organizational and filtering purposes. |
@@ -1109,7 +1109,7 @@ DisplayName *string
 
 The human-readable name of the test case, unique within the agent. Limit of 200 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#display_name GoogleDialogflowCxTestCase#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#display_name GoogleDialogflowCxTestCase#display_name}
 
 ---
 
@@ -1121,7 +1121,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#id GoogleDialogflowCxTestCase#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#id GoogleDialogflowCxTestCase#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1138,7 +1138,7 @@ Notes *string
 
 Additional freeform notes about the test case. Limit of 400 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#notes GoogleDialogflowCxTestCase#notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#notes GoogleDialogflowCxTestCase#notes}
 
 ---
 
@@ -1152,7 +1152,7 @@ Parent *string
 
 The agent to create the test case for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#parent GoogleDialogflowCxTestCase#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#parent GoogleDialogflowCxTestCase#parent}
 
 ---
 
@@ -1168,7 +1168,7 @@ Tags are short descriptions that users may apply to test cases for organizationa
 
 Each tag should start with "#" and has a limit of 30 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#tags GoogleDialogflowCxTestCase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#tags GoogleDialogflowCxTestCase#tags}
 
 ---
 
@@ -1182,7 +1182,7 @@ TestCaseConversationTurns interface{}
 
 test_case_conversation_turns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#test_case_conversation_turns GoogleDialogflowCxTestCase#test_case_conversation_turns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#test_case_conversation_turns GoogleDialogflowCxTestCase#test_case_conversation_turns}
 
 ---
 
@@ -1196,7 +1196,7 @@ TestConfig GoogleDialogflowCxTestCaseTestConfig
 
 test_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#test_config GoogleDialogflowCxTestCase#test_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#test_config GoogleDialogflowCxTestCase#test_config}
 
 ---
 
@@ -1210,7 +1210,7 @@ Timeouts GoogleDialogflowCxTestCaseTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#timeouts GoogleDialogflowCxTestCase#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#timeouts GoogleDialogflowCxTestCase#timeouts}
 
 ---
 
@@ -1219,7 +1219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResult.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResult {
 
@@ -1232,7 +1232,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurns {
 
@@ -1245,7 +1245,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInput {
 
@@ -1258,7 +1258,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInput {
 
@@ -1271,7 +1271,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmf.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmf {
 
@@ -1284,7 +1284,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEvent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEvent {
 
@@ -1297,7 +1297,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputText {
 
@@ -1310,7 +1310,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutput {
 
@@ -1323,7 +1323,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPage {
 
@@ -1336,7 +1336,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferences {
 
@@ -1349,7 +1349,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatus {
 
@@ -1362,7 +1362,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponses {
 
@@ -1375,7 +1375,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntent {
 
@@ -1388,11 +1388,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurns {
-	UserInput: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInput,
-	VirtualAgentOutput: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutput,
+	UserInput: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInput,
+	VirtualAgentOutput: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutput,
 }
 ```
 
@@ -1415,7 +1415,7 @@ UserInput GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInput
 
 user_input block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#user_input GoogleDialogflowCxTestCase#user_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#user_input GoogleDialogflowCxTestCase#user_input}
 
 ---
 
@@ -1429,7 +1429,7 @@ VirtualAgentOutput GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAge
 
 virtual_agent_output block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#virtual_agent_output GoogleDialogflowCxTestCase#virtual_agent_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#virtual_agent_output GoogleDialogflowCxTestCase#virtual_agent_output}
 
 ---
 
@@ -1438,12 +1438,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInput {
 	EnableSentimentAnalysis: interface{},
 	InjectedParameters: *string,
-	Input: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInput,
+	Input: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInput,
 	IsWebhookEnabled: interface{},
 }
 ```
@@ -1469,7 +1469,7 @@ EnableSentimentAnalysis interface{}
 
 Whether sentiment analysis is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#enable_sentiment_analysis GoogleDialogflowCxTestCase#enable_sentiment_analysis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#enable_sentiment_analysis GoogleDialogflowCxTestCase#enable_sentiment_analysis}
 
 ---
 
@@ -1483,7 +1483,7 @@ InjectedParameters *string
 
 Parameters that need to be injected into the conversation during intent detection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#injected_parameters GoogleDialogflowCxTestCase#injected_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#injected_parameters GoogleDialogflowCxTestCase#injected_parameters}
 
 ---
 
@@ -1497,7 +1497,7 @@ Input GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInput
 
 input block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#input GoogleDialogflowCxTestCase#input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#input GoogleDialogflowCxTestCase#input}
 
 ---
 
@@ -1513,7 +1513,7 @@ If webhooks should be allowed to trigger in response to the user utterance.
 
 Often if parameters are injected, webhooks should not be enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#is_webhook_enabled GoogleDialogflowCxTestCase#is_webhook_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#is_webhook_enabled GoogleDialogflowCxTestCase#is_webhook_enabled}
 
 ---
 
@@ -1522,13 +1522,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInput {
-	Dtmf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmf,
-	Event: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEvent,
+	Dtmf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmf,
+	Event: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEvent,
 	LanguageCode: *string,
-	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputText,
+	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputText,
 }
 ```
 
@@ -1553,7 +1553,7 @@ Dtmf GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmf
 
 dtmf block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#dtmf GoogleDialogflowCxTestCase#dtmf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#dtmf GoogleDialogflowCxTestCase#dtmf}
 
 ---
 
@@ -1567,7 +1567,7 @@ Event GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEvent
 
 event block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#event GoogleDialogflowCxTestCase#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#event GoogleDialogflowCxTestCase#event}
 
 ---
 
@@ -1584,7 +1584,7 @@ The language of the input.
 See [Language Support](https://cloud.google.com/dialogflow/cx/docs/reference/language) for a list of the currently supported language codes.
 Note that queries in the same session do not necessarily need to specify the same language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#language_code GoogleDialogflowCxTestCase#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#language_code GoogleDialogflowCxTestCase#language_code}
 
 ---
 
@@ -1598,7 +1598,7 @@ Text GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputText
 
 text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#text GoogleDialogflowCxTestCase#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#text GoogleDialogflowCxTestCase#text}
 
 ---
 
@@ -1607,7 +1607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmf.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmf {
 	Digits: *string,
@@ -1634,7 +1634,7 @@ Digits *string
 
 The dtmf digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#digits GoogleDialogflowCxTestCase#digits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#digits GoogleDialogflowCxTestCase#digits}
 
 ---
 
@@ -1648,7 +1648,7 @@ FinishDigit *string
 
 The finish digit (if any).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#finish_digit GoogleDialogflowCxTestCase#finish_digit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#finish_digit GoogleDialogflowCxTestCase#finish_digit}
 
 ---
 
@@ -1657,7 +1657,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEvent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEvent {
 	Event: *string,
@@ -1682,7 +1682,7 @@ Event *string
 
 Name of the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#event GoogleDialogflowCxTestCase#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#event GoogleDialogflowCxTestCase#event}
 
 ---
 
@@ -1691,7 +1691,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputText {
 	Text: *string,
@@ -1716,7 +1716,7 @@ Text *string
 
 The natural language text to be processed. Text length must not exceed 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#text GoogleDialogflowCxTestCase#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#text GoogleDialogflowCxTestCase#text}
 
 ---
 
@@ -1725,13 +1725,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutput {
-	CurrentPage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputCurrentPage,
+	CurrentPage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputCurrentPage,
 	SessionParameters: *string,
 	TextResponses: interface{},
-	TriggeredIntent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTriggeredIntent,
+	TriggeredIntent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTriggeredIntent,
 }
 ```
 
@@ -1756,7 +1756,7 @@ CurrentPage GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutpu
 
 current_page block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#current_page GoogleDialogflowCxTestCase#current_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#current_page GoogleDialogflowCxTestCase#current_page}
 
 ---
 
@@ -1770,7 +1770,7 @@ SessionParameters *string
 
 The session parameters available to the bot at this point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#session_parameters GoogleDialogflowCxTestCase#session_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#session_parameters GoogleDialogflowCxTestCase#session_parameters}
 
 ---
 
@@ -1784,7 +1784,7 @@ TextResponses interface{}
 
 text_responses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#text_responses GoogleDialogflowCxTestCase#text_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#text_responses GoogleDialogflowCxTestCase#text_responses}
 
 ---
 
@@ -1798,7 +1798,7 @@ TriggeredIntent GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentO
 
 triggered_intent block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#triggered_intent GoogleDialogflowCxTestCase#triggered_intent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#triggered_intent GoogleDialogflowCxTestCase#triggered_intent}
 
 ---
 
@@ -1807,7 +1807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputCurrentPage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputCurrentPage {
 	Name: *string,
@@ -1832,7 +1832,7 @@ Name *string
 
 The unique identifier of the page. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>/pages/<Page ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#name GoogleDialogflowCxTestCase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#name GoogleDialogflowCxTestCase#name}
 
 ---
 
@@ -1841,7 +1841,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponses {
 	Text: *[]*string,
@@ -1866,7 +1866,7 @@ Text *[]*string
 
 A collection of text responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#text GoogleDialogflowCxTestCase#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#text GoogleDialogflowCxTestCase#text}
 
 ---
 
@@ -1875,7 +1875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTriggeredIntent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTriggeredIntent {
 	Name: *string,
@@ -1900,7 +1900,7 @@ Name *string
 
 The unique identifier of the intent. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/intents/<Intent ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#name GoogleDialogflowCxTestCase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#name GoogleDialogflowCxTestCase#name}
 
 ---
 
@@ -1909,7 +1909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTestConfig {
 	Flow: *string,
@@ -1941,7 +1941,7 @@ Flow name to start the test case with.
 Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>.
 Only one of flow and page should be set to indicate the starting point of the test case. If neither is set, the test case will start with start page on the default start flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#flow GoogleDialogflowCxTestCase#flow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#flow GoogleDialogflowCxTestCase#flow}
 
 ---
 
@@ -1958,7 +1958,7 @@ The page to start the test case with.
 Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>/pages/<Page ID>.
 Only one of flow and page should be set to indicate the starting point of the test case. If neither is set, the test case will start with start page on the default start flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#page GoogleDialogflowCxTestCase#page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#page GoogleDialogflowCxTestCase#page}
 
 ---
 
@@ -1972,7 +1972,7 @@ TrackingParameters *[]*string
 
 Session parameters to be compared when calculating differences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#tracking_parameters GoogleDialogflowCxTestCase#tracking_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#tracking_parameters GoogleDialogflowCxTestCase#tracking_parameters}
 
 ---
 
@@ -1981,7 +1981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 &googledialogflowcxtestcase.GoogleDialogflowCxTestCaseTimeouts {
 	Create: *string,
@@ -1994,9 +1994,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#create GoogleDialogflowCxTestCase#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#delete GoogleDialogflowCxTestCase#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#update GoogleDialogflowCxTestCase#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#create GoogleDialogflowCxTestCase#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#delete GoogleDialogflowCxTestCase#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#update GoogleDialogflowCxTestCase#update}. |
 
 ---
 
@@ -2008,7 +2008,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#create GoogleDialogflowCxTestCase#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#create GoogleDialogflowCxTestCase#create}.
 
 ---
 
@@ -2020,7 +2020,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#delete GoogleDialogflowCxTestCase#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#delete GoogleDialogflowCxTestCase#delete}.
 
 ---
 
@@ -2032,7 +2032,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_test_case#update GoogleDialogflowCxTestCase#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_test_case#update GoogleDialogflowCxTestCase#update}.
 
 ---
 
@@ -2043,7 +2043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsList
 ```
@@ -2192,7 +2192,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsOutputReference
 ```
@@ -2481,7 +2481,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmfList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmfList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmfList
 ```
@@ -2630,7 +2630,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmfOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmfOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputDtmfOutputReference
 ```
@@ -2919,7 +2919,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEventList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEventList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEventList
 ```
@@ -3068,7 +3068,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEventOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEventOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputEventOutputReference
 ```
@@ -3346,7 +3346,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputList
 ```
@@ -3495,7 +3495,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputOutputReference
 ```
@@ -3806,7 +3806,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputTextList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputTextList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputTextList
 ```
@@ -3955,7 +3955,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputInputTextOutputReference
 ```
@@ -4233,7 +4233,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputList
 ```
@@ -4382,7 +4382,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUserInputOutputReference
 ```
@@ -4693,7 +4693,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsUs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPageList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPageList
 ```
@@ -4842,7 +4842,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputCurrentPageOutputReference
 ```
@@ -5131,7 +5131,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferencesList
 ```
@@ -5280,7 +5280,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputDifferencesOutputReference
 ```
@@ -5569,7 +5569,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputList
 ```
@@ -5718,7 +5718,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputOutputReference
 ```
@@ -6051,7 +6051,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatusList
 ```
@@ -6200,7 +6200,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputStatusOutputReference
 ```
@@ -6500,7 +6500,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponsesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponsesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponsesList
 ```
@@ -6649,7 +6649,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTextResponsesOutputReference
 ```
@@ -6927,7 +6927,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentList
 ```
@@ -7076,7 +7076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentOutputReference
 ```
@@ -7365,7 +7365,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResultConversationTurnsVi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseLastTestResultList
 ```
@@ -7514,7 +7514,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseLastTestResultOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseLastTestResultOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseLastTestResultOutputReference
 ```
@@ -7836,7 +7836,7 @@ func InternalValue() GoogleDialogflowCxTestCaseLastTestResult
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseTestCaseConversationTurnsList
 ```
@@ -7996,7 +7996,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseTestCaseConversationTurnsOutputReference
 ```
@@ -8347,7 +8347,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmfOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmfOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputDtmfOutputReference
 ```
@@ -8654,7 +8654,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEventOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEventOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputEventOutputReference
 ```
@@ -8925,7 +8925,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReference
 ```
@@ -9329,7 +9329,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference
 ```
@@ -9600,7 +9600,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputOutputReference
 ```
@@ -9978,7 +9978,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputCurrentPageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputCurrentPageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputCurrentPageOutputReference
 ```
@@ -10267,7 +10267,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualA
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputOutputReference
 ```
@@ -10671,7 +10671,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualA
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponsesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponsesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponsesList
 ```
@@ -10831,7 +10831,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTextResponsesOutputReference
 ```
@@ -11127,7 +11127,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTriggeredIntentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTriggeredIntentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualAgentOutputTriggeredIntentOutputReference
 ```
@@ -11416,7 +11416,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestCaseConversationTurnsVirtualA
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTestConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTestConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTestConfigOutputReference
 ```
@@ -11752,7 +11752,7 @@ func InternalValue() GoogleDialogflowCxTestCaseTestConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCaseTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxtestcase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxtestcase"
 
 googledialogflowcxtestcase.NewGoogleDialogflowCxTestCaseTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxTestCaseTimeoutsOutputReference
 ```

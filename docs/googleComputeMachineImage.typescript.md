@@ -4,7 +4,7 @@
 
 ### GoogleComputeMachineImage <a name="GoogleComputeMachineImage" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image google_compute_machine_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image google_compute_machine_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.Initializer"></a>
 
@@ -75,11 +75,13 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.putMachineImageEncryptionKey">putMachineImageEncryptionKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.putParams">putParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetGuestFlush">resetGuestFlush</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetMachineImageEncryptionKey">resetMachineImageEncryptionKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetParams">resetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
@@ -406,6 +408,18 @@ public putMachineImageEncryptionKey(value: GoogleComputeMachineImageMachineImage
 
 ---
 
+##### `putParams` <a name="putParams" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.putParams"></a>
+
+```typescript
+public putParams(value: GoogleComputeMachineImageParams): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams">GoogleComputeMachineImageParams</a>
+
+---
+
 ##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.putTimeouts"></a>
 
 ```typescript
@@ -440,6 +454,12 @@ public resetId(): void
 
 ```typescript
 public resetMachineImageEncryptionKey(): void
+```
+
+##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetParams"></a>
+
+```typescript
+public resetParams(): void
 ```
 
 ##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.resetProject"></a>
@@ -557,7 +577,7 @@ The construct id used in the generated config for the GoogleComputeMachineImage 
 
 The id of the existing GoogleComputeMachineImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -588,6 +608,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.machineImageEncryptionKey">machineImageEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference">GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference">GoogleComputeMachineImageParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.selfLink">selfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.storageLocations">storageLocations</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeoutsOutputReference">GoogleComputeMachineImageTimeoutsOutputReference</a></code> | *No description.* |
@@ -596,6 +617,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.machineImageEncryptionKeyInput">machineImageEncryptionKeyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKey">GoogleComputeMachineImageMachineImageEncryptionKey</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams">GoogleComputeMachineImageParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.sourceInstanceInput">sourceInstanceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeouts">GoogleComputeMachineImageTimeouts</a></code> | *No description.* |
@@ -760,6 +782,16 @@ public readonly machineImageEncryptionKey: GoogleComputeMachineImageMachineImage
 
 ---
 
+##### `params`<sup>Required</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.params"></a>
+
+```typescript
+public readonly params: GoogleComputeMachineImageParamsOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference">GoogleComputeMachineImageParamsOutputReference</a>
+
+---
+
 ##### `selfLink`<sup>Required</sup> <a name="selfLink" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.selfLink"></a>
 
 ```typescript
@@ -837,6 +869,16 @@ public readonly nameInput: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.property.paramsInput"></a>
+
+```typescript
+public readonly paramsInput: GoogleComputeMachineImageParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams">GoogleComputeMachineImageParams</a>
 
 ---
 
@@ -975,9 +1017,10 @@ const googleComputeMachineImageConfig: googleComputeMachineImage.GoogleComputeMa
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.sourceInstance">sourceInstance</a></code> | <code>string</code> | The source instance used to create the machine image. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.description">description</a></code> | <code>string</code> | A text description of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.guestFlush">guestFlush</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specify this to create an application consistent machine image by informing the OS to prepare for the snapshot process. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#id GoogleComputeMachineImage#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#id GoogleComputeMachineImage#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.machineImageEncryptionKey">machineImageEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKey">GoogleComputeMachineImageMachineImageEncryptionKey</a></code> | machine_image_encryption_key block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#project GoogleComputeMachineImage#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams">GoogleComputeMachineImageParams</a></code> | params block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#project GoogleComputeMachineImage#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeouts">GoogleComputeMachineImageTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1062,7 +1105,7 @@ public readonly name: string;
 
 Name of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#name GoogleComputeMachineImage#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#name GoogleComputeMachineImage#name}
 
 ---
 
@@ -1078,7 +1121,7 @@ The source instance used to create the machine image.
 
 You can provide this as a partial or full URL to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#source_instance GoogleComputeMachineImage#source_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#source_instance GoogleComputeMachineImage#source_instance}
 
 ---
 
@@ -1092,7 +1135,7 @@ public readonly description: string;
 
 A text description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#description GoogleComputeMachineImage#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#description GoogleComputeMachineImage#description}
 
 ---
 
@@ -1108,7 +1151,7 @@ Specify this to create an application consistent machine image by informing the 
 
 Currently only supported on Windows instances using the Volume Shadow Copy Service (VSS).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#guest_flush GoogleComputeMachineImage#guest_flush}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#guest_flush GoogleComputeMachineImage#guest_flush}
 
 ---
 
@@ -1120,7 +1163,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#id GoogleComputeMachineImage#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#id GoogleComputeMachineImage#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1137,7 +1180,21 @@ public readonly machineImageEncryptionKey: GoogleComputeMachineImageMachineImage
 
 machine_image_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#machine_image_encryption_key GoogleComputeMachineImage#machine_image_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#machine_image_encryption_key GoogleComputeMachineImage#machine_image_encryption_key}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.property.params"></a>
+
+```typescript
+public readonly params: GoogleComputeMachineImageParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams">GoogleComputeMachineImageParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#params GoogleComputeMachineImage#params}
 
 ---
 
@@ -1149,7 +1206,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#project GoogleComputeMachineImage#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#project GoogleComputeMachineImage#project}.
 
 ---
 
@@ -1163,7 +1220,7 @@ public readonly timeouts: GoogleComputeMachineImageTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#timeouts GoogleComputeMachineImage#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#timeouts GoogleComputeMachineImage#timeouts}
 
 ---
 
@@ -1197,7 +1254,7 @@ public readonly kmsKeyName: string;
 
 The name of the encryption key that is stored in Google Cloud KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#kms_key_name GoogleComputeMachineImage#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#kms_key_name GoogleComputeMachineImage#kms_key_name}
 
 ---
 
@@ -1213,7 +1270,7 @@ The service account used for the encryption request for the given KMS key.
 
 If absent, the Compute Engine Service Agent service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#kms_key_service_account GoogleComputeMachineImage#kms_key_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#kms_key_service_account GoogleComputeMachineImage#kms_key_service_account}
 
 ---
 
@@ -1227,7 +1284,43 @@ public readonly rawKey: string;
 
 Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64 to either encrypt or decrypt this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#raw_key GoogleComputeMachineImage#raw_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#raw_key GoogleComputeMachineImage#raw_key}
+
+---
+
+### GoogleComputeMachineImageParams <a name="GoogleComputeMachineImageParams" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams.Initializer"></a>
+
+```typescript
+import { googleComputeMachineImage } from '@cdktn/provider-google-beta'
+
+const googleComputeMachineImageParams: googleComputeMachineImage.GoogleComputeMachineImageParams = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | Resource manager tags to be bound to the machine image. |
+
+---
+
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+Resource manager tags to be bound to the machine image.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+and values are in the format tagValues/456.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#resource_manager_tags GoogleComputeMachineImage#resource_manager_tags}
 
 ---
 
@@ -1245,8 +1338,8 @@ const googleComputeMachineImageTimeouts: googleComputeMachineImage.GoogleCompute
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#create GoogleComputeMachineImage#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#delete GoogleComputeMachineImage#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#create GoogleComputeMachineImage#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#delete GoogleComputeMachineImage#delete}. |
 
 ---
 
@@ -1258,7 +1351,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#create GoogleComputeMachineImage#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#create GoogleComputeMachineImage#create}.
 
 ---
 
@@ -1270,7 +1363,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#delete GoogleComputeMachineImage#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_machine_image#delete GoogleComputeMachineImage#delete}.
 
 ---
 
@@ -1619,6 +1712,284 @@ public readonly internalValue: GoogleComputeMachineImageMachineImageEncryptionKe
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKey">GoogleComputeMachineImageMachineImageEncryptionKey</a>
+
+---
+
+
+### GoogleComputeMachineImageParamsOutputReference <a name="GoogleComputeMachineImageParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeMachineImage } from '@cdktn/provider-google-beta'
+
+new googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.resetResourceManagerTags"></a>
+
+```typescript
+public resetResourceManagerTags(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams">GoogleComputeMachineImageParams</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```typescript
+public readonly resourceManagerTagsInput: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeMachineImageParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams">GoogleComputeMachineImageParams</a>
 
 ---
 

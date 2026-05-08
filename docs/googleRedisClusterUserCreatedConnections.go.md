@@ -4,12 +4,12 @@
 
 ### GoogleRedisClusterUserCreatedConnections <a name="GoogleRedisClusterUserCreatedConnections" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.NewGoogleRedisClusterUserCreatedConnections(scope Construct, id *string, config GoogleRedisClusterUserCreatedConnectionsConfig) GoogleRedisClusterUserCreatedConnections
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnections_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnections_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnection
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnections.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnections_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnection
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the GoogleRedisClusterUserCrea
 
 The id of the existing GoogleRedisClusterUserCreatedConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,7 +875,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 &googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpoints {
 	Connections: interface{},
@@ -900,7 +900,7 @@ Connections interface{}
 
 connections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#connections GoogleRedisClusterUserCreatedConnections#connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#connections GoogleRedisClusterUserCreatedConnections#connections}
 
 ---
 
@@ -909,10 +909,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 &googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnections {
-	PscConnection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsPscConnection,
+	PscConnection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsPscConnection,
 }
 ```
 
@@ -934,7 +934,7 @@ PscConnection GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnection
 
 psc_connection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#psc_connection GoogleRedisClusterUserCreatedConnections#psc_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#psc_connection GoogleRedisClusterUserCreatedConnections#psc_connection}
 
 ---
 
@@ -943,7 +943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsPscConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 &googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsPscConnection {
 	Address: *string,
@@ -978,7 +978,7 @@ Address *string
 
 The IP allocated on the consumer network for the PSC forwarding rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#address GoogleRedisClusterUserCreatedConnections#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#address GoogleRedisClusterUserCreatedConnections#address}
 
 ---
 
@@ -992,7 +992,7 @@ ForwardingRule *string
 
 The URI of the consumer side forwarding rule. Format: projects/{project}/regions/{region}/forwardingRules/{forwarding_rule}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#forwarding_rule GoogleRedisClusterUserCreatedConnections#forwarding_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#forwarding_rule GoogleRedisClusterUserCreatedConnections#forwarding_rule}
 
 ---
 
@@ -1006,7 +1006,7 @@ Network *string
 
 The consumer network where the IP address resides, in the form of projects/{project_id}/global/networks/{network_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#network GoogleRedisClusterUserCreatedConnections#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#network GoogleRedisClusterUserCreatedConnections#network}
 
 ---
 
@@ -1020,7 +1020,7 @@ PscConnectionId *string
 
 The PSC connection id of the forwarding rule connected to the service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#psc_connection_id GoogleRedisClusterUserCreatedConnections#psc_connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#psc_connection_id GoogleRedisClusterUserCreatedConnections#psc_connection_id}
 
 ---
 
@@ -1034,7 +1034,7 @@ ServiceAttachment *string
 
 The service attachment which is the target of the PSC connection, in the form of projects/{project-id}/regions/{region}/serviceAttachments/{service-attachment-id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#service_attachment GoogleRedisClusterUserCreatedConnections#service_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#service_attachment GoogleRedisClusterUserCreatedConnections#service_attachment}
 
 ---
 
@@ -1048,7 +1048,7 @@ ProjectId *string
 
 The consumer project_id where the forwarding rule is created from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#project_id GoogleRedisClusterUserCreatedConnections#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#project_id GoogleRedisClusterUserCreatedConnections#project_id}
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 &googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnectionsConfig {
 	Connection: interface{},
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlere
 	ClusterEndpoints: interface{},
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts,
 }
 ```
 
@@ -1090,8 +1090,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlere
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.name">Name</a></code> | <code>*string</code> | The name of the Redis cluster these endpoints should be added to. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.region">Region</a></code> | <code>*string</code> | The name of the region of the Redis cluster these endpoints should be added to. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.clusterEndpoints">ClusterEndpoints</a></code> | <code>interface{}</code> | cluster_endpoints block. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#id GoogleRedisClusterUserCreatedConnections#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#project GoogleRedisClusterUserCreatedConnections#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#id GoogleRedisClusterUserCreatedConnections#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#project GoogleRedisClusterUserCreatedConnections#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts">GoogleRedisClusterUserCreatedConnectionsTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1176,7 +1176,7 @@ Name *string
 
 The name of the Redis cluster these endpoints should be added to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#name GoogleRedisClusterUserCreatedConnections#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#name GoogleRedisClusterUserCreatedConnections#name}
 
 ---
 
@@ -1190,7 +1190,7 @@ Region *string
 
 The name of the region of the Redis cluster these endpoints should be added to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#region GoogleRedisClusterUserCreatedConnections#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#region GoogleRedisClusterUserCreatedConnections#region}
 
 ---
 
@@ -1204,7 +1204,7 @@ ClusterEndpoints interface{}
 
 cluster_endpoints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#cluster_endpoints GoogleRedisClusterUserCreatedConnections#cluster_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#cluster_endpoints GoogleRedisClusterUserCreatedConnections#cluster_endpoints}
 
 ---
 
@@ -1216,7 +1216,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#id GoogleRedisClusterUserCreatedConnections#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#id GoogleRedisClusterUserCreatedConnections#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1231,7 +1231,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#project GoogleRedisClusterUserCreatedConnections#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#project GoogleRedisClusterUserCreatedConnections#project}.
 
 ---
 
@@ -1245,7 +1245,7 @@ Timeouts GoogleRedisClusterUserCreatedConnectionsTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#timeouts GoogleRedisClusterUserCreatedConnections#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#timeouts GoogleRedisClusterUserCreatedConnections#timeouts}
 
 ---
 
@@ -1254,7 +1254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 &googleredisclusterusercreatedconnections.GoogleRedisClusterUserCreatedConnectionsTimeouts {
 	Create: *string,
@@ -1267,9 +1267,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlere
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#create GoogleRedisClusterUserCreatedConnections#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#delete GoogleRedisClusterUserCreatedConnections#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#update GoogleRedisClusterUserCreatedConnections#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#create GoogleRedisClusterUserCreatedConnections#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#delete GoogleRedisClusterUserCreatedConnections#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#update GoogleRedisClusterUserCreatedConnections#update}. |
 
 ---
 
@@ -1281,7 +1281,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#create GoogleRedisClusterUserCreatedConnections#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#create GoogleRedisClusterUserCreatedConnections#create}.
 
 ---
 
@@ -1293,7 +1293,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#delete GoogleRedisClusterUserCreatedConnections#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#delete GoogleRedisClusterUserCreatedConnections#delete}.
 
 ---
 
@@ -1305,7 +1305,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_cluster_user_created_connections#update GoogleRedisClusterUserCreatedConnections#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_cluster_user_created_connections#update GoogleRedisClusterUserCreatedConnections#update}.
 
 ---
 
@@ -1316,7 +1316,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.NewGoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsList
 ```
@@ -1476,7 +1476,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.NewGoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsOutputReference
 ```
@@ -1785,7 +1785,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsPscConnectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.NewGoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsPscConnectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterUserCreatedConnectionsClusterEndpointsConnectionsPscConnectionOutputReference
 ```
@@ -2195,7 +2195,7 @@ func InternalValue() GoogleRedisClusterUserCreatedConnectionsClusterEndpointsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.NewGoogleRedisClusterUserCreatedConnectionsClusterEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterUserCreatedConnectionsClusterEndpointsList
 ```
@@ -2355,7 +2355,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsClusterEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.NewGoogleRedisClusterUserCreatedConnectionsClusterEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterUserCreatedConnectionsClusterEndpointsOutputReference
 ```
@@ -2664,7 +2664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterUserCreatedConnections.GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleredisclusterusercreatedconnections"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleredisclusterusercreatedconnections"
 
 googleredisclusterusercreatedconnections.NewGoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReference
 ```

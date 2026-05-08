@@ -4,12 +4,12 @@
 
 ### GoogleContainerRegistry <a name="GoogleContainerRegistry" id="@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_registry google_container_registry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_registry google_container_registry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainerregistry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainerregistry"
 
 googlecontainerregistry.NewGoogleContainerRegistry(scope Construct, id *string, config GoogleContainerRegistryConfig) GoogleContainerRegistry
 ```
@@ -421,7 +421,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistry.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainerregistry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainerregistry"
 
 googlecontainerregistry.GoogleContainerRegistry_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainerregistry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainerregistry"
 
 googlecontainerregistry.GoogleContainerRegistry_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googlecontainerregistry.GoogleContainerRegistry_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistry.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainerregistry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainerregistry"
 
 googlecontainerregistry.GoogleContainerRegistry_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googlecontainerregistry.GoogleContainerRegistry_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainerregistry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainerregistry"
 
 googlecontainerregistry.GoogleContainerRegistry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleContainerRegistry to
 
 The id of the existing GoogleContainerRegistry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_registry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_registry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -787,7 +787,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainerregistry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainerregistry"
 
 &googlecontainerregistry.GoogleContainerRegistryConfig {
 	Connection: interface{},
@@ -814,7 +814,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_registry#id GoogleContainerRegistry#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_registry#id GoogleContainerRegistry#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.property.location">Location</a></code> | <code>*string</code> | The location of the registry. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerRegistry.GoogleContainerRegistryConfig.property.project">Project</a></code> | <code>*string</code> | The ID of the project in which the resource belongs. |
 
@@ -898,7 +898,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_registry#id GoogleContainerRegistry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_registry#id GoogleContainerRegistry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -917,7 +917,7 @@ The location of the registry.
 
 One of ASIA, EU, US or not specified. See the official documentation for more information on registry locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_registry#location GoogleContainerRegistry#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_registry#location GoogleContainerRegistry#location}
 
 ---
 
@@ -933,7 +933,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_registry#project GoogleContainerRegistry#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_registry#project GoogleContainerRegistry#project}
 
 ---
 

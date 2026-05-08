@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowCxGenerator <a name="GoogleDialogflowCxGenerator" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGenerator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGenerator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.NewGoogleDialogflowCxGenerator(scope Construct, id *string, config GoogleDialogflowCxGeneratorConfig) GoogleDialogflowCxGenerator
 ```
@@ -514,7 +514,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGenerator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.GoogleDialogflowCxGenerator_IsConstruct(x interface{}) *bool
 ```
@@ -546,7 +546,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGenerator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.GoogleDialogflowCxGenerator_IsTerraformElement(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ googledialogflowcxgenerator.GoogleDialogflowCxGenerator_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGenerator.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.GoogleDialogflowCxGenerator_IsTerraformResource(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ googledialogflowcxgenerator.GoogleDialogflowCxGenerator_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGenerator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.GoogleDialogflowCxGenerator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -603,7 +603,7 @@ The construct id used in the generated config for the GoogleDialogflowCxGenerato
 
 The id of the existing GoogleDialogflowCxGenerator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1012,7 +1012,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 &googledialogflowcxgenerator.GoogleDialogflowCxGeneratorConfig {
 	Connection: interface{},
@@ -1023,14 +1023,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DisplayName: *string,
-	PromptText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPromptText,
+	PromptText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPromptText,
 	Id: *string,
 	LanguageCode: *string,
-	LlmModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorLlmModelSettings,
-	ModelParameter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorModelParameter,
+	LlmModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorLlmModelSettings,
+	ModelParameter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorModelParameter,
 	Parent: *string,
 	Placeholders: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts,
 }
 ```
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The human-readable name of the generator, unique within the agent. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.promptText">PromptText</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPromptText">GoogleDialogflowCxGeneratorPromptText</a></code> | prompt_text block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#id GoogleDialogflowCxGenerator#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#id GoogleDialogflowCxGenerator#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.languageCode">LanguageCode</a></code> | <code>*string</code> | The language to create generators for the following fields: * Generator.prompt_text.text If not specified, the agent's default language is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.llmModelSettings">LlmModelSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorLlmModelSettings">GoogleDialogflowCxGeneratorLlmModelSettings</a></code> | llm_model_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorConfig.property.modelParameter">ModelParameter</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorModelParameter">GoogleDialogflowCxGeneratorModelParameter</a></code> | model_parameter block. |
@@ -1137,7 +1137,7 @@ DisplayName *string
 
 The human-readable name of the generator, unique within the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#display_name GoogleDialogflowCxGenerator#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#display_name GoogleDialogflowCxGenerator#display_name}
 
 ---
 
@@ -1151,7 +1151,7 @@ PromptText GoogleDialogflowCxGeneratorPromptText
 
 prompt_text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#prompt_text GoogleDialogflowCxGenerator#prompt_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#prompt_text GoogleDialogflowCxGenerator#prompt_text}
 
 ---
 
@@ -1163,7 +1163,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#id GoogleDialogflowCxGenerator#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#id GoogleDialogflowCxGenerator#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1180,7 +1180,7 @@ LanguageCode *string
 
 The language to create generators for the following fields: * Generator.prompt_text.text If not specified, the agent's default language is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#language_code GoogleDialogflowCxGenerator#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#language_code GoogleDialogflowCxGenerator#language_code}
 
 ---
 
@@ -1194,7 +1194,7 @@ LlmModelSettings GoogleDialogflowCxGeneratorLlmModelSettings
 
 llm_model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#llm_model_settings GoogleDialogflowCxGenerator#llm_model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#llm_model_settings GoogleDialogflowCxGenerator#llm_model_settings}
 
 ---
 
@@ -1208,7 +1208,7 @@ ModelParameter GoogleDialogflowCxGeneratorModelParameter
 
 model_parameter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#model_parameter GoogleDialogflowCxGenerator#model_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#model_parameter GoogleDialogflowCxGenerator#model_parameter}
 
 ---
 
@@ -1222,7 +1222,7 @@ Parent *string
 
 The agent to create a Generator for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#parent GoogleDialogflowCxGenerator#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#parent GoogleDialogflowCxGenerator#parent}
 
 ---
 
@@ -1236,7 +1236,7 @@ Placeholders interface{}
 
 placeholders block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#placeholders GoogleDialogflowCxGenerator#placeholders}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#placeholders GoogleDialogflowCxGenerator#placeholders}
 
 ---
 
@@ -1250,7 +1250,7 @@ Timeouts GoogleDialogflowCxGeneratorTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#timeouts GoogleDialogflowCxGenerator#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#timeouts GoogleDialogflowCxGenerator#timeouts}
 
 ---
 
@@ -1259,7 +1259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorLlmModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 &googledialogflowcxgenerator.GoogleDialogflowCxGeneratorLlmModelSettings {
 	Model: *string,
@@ -1286,7 +1286,7 @@ Model *string
 
 The selected LLM model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#model GoogleDialogflowCxGenerator#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#model GoogleDialogflowCxGenerator#model}
 
 ---
 
@@ -1300,7 +1300,7 @@ PromptText *string
 
 The custom prompt to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#prompt_text GoogleDialogflowCxGenerator#prompt_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#prompt_text GoogleDialogflowCxGenerator#prompt_text}
 
 ---
 
@@ -1309,7 +1309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorModelParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 &googledialogflowcxgenerator.GoogleDialogflowCxGeneratorModelParameter {
 	MaxDecodeSteps: *f64,
@@ -1340,7 +1340,7 @@ MaxDecodeSteps *f64
 
 The maximum number of tokens to generate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#max_decode_steps GoogleDialogflowCxGenerator#max_decode_steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#max_decode_steps GoogleDialogflowCxGenerator#max_decode_steps}
 
 ---
 
@@ -1357,7 +1357,7 @@ The temperature used for sampling.
 Temperature sampling occurs after both topP and topK have been applied.
 Valid range: [0.0, 1.0] Low temperature = less random. High temperature = more random.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#temperature GoogleDialogflowCxGenerator#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#temperature GoogleDialogflowCxGenerator#temperature}
 
 ---
 
@@ -1373,7 +1373,7 @@ If set, the sampling process in each step is limited to the topK tokens with hig
 
 Valid range: [1, 40] or 1000+. Small topK = less random. Large topK = more random.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#top_k GoogleDialogflowCxGenerator#top_k}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#top_k GoogleDialogflowCxGenerator#top_k}
 
 ---
 
@@ -1390,7 +1390,7 @@ If set, only the tokens comprising the top topP probability mass are considered.
 If both topP and topK are set, topP will be used for further refining candidates selected with topK.
 Valid range: (0.0, 1.0]. Small topP = less random. Large topP = more random.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#top_p GoogleDialogflowCxGenerator#top_p}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#top_p GoogleDialogflowCxGenerator#top_p}
 
 ---
 
@@ -1399,7 +1399,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPlaceholders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 &googledialogflowcxgenerator.GoogleDialogflowCxGeneratorPlaceholders {
 	Id: *string,
@@ -1426,7 +1426,7 @@ Id *string
 
 Unique ID used to map custom placeholder to parameters in fulfillment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#id GoogleDialogflowCxGenerator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#id GoogleDialogflowCxGenerator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1443,7 +1443,7 @@ Name *string
 
 Custom placeholder value in the prompt text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#name GoogleDialogflowCxGenerator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#name GoogleDialogflowCxGenerator#name}
 
 ---
 
@@ -1452,7 +1452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPromptText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 &googledialogflowcxgenerator.GoogleDialogflowCxGeneratorPromptText {
 	Text: *string,
@@ -1477,7 +1477,7 @@ Text *string
 
 Text input which can be used for prompt or banned phrases.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#text GoogleDialogflowCxGenerator#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#text GoogleDialogflowCxGenerator#text}
 
 ---
 
@@ -1486,7 +1486,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 &googledialogflowcxgenerator.GoogleDialogflowCxGeneratorTimeouts {
 	Create: *string,
@@ -1499,9 +1499,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#create GoogleDialogflowCxGenerator#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#delete GoogleDialogflowCxGenerator#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#update GoogleDialogflowCxGenerator#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#create GoogleDialogflowCxGenerator#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#delete GoogleDialogflowCxGenerator#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#update GoogleDialogflowCxGenerator#update}. |
 
 ---
 
@@ -1513,7 +1513,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#create GoogleDialogflowCxGenerator#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#create GoogleDialogflowCxGenerator#create}.
 
 ---
 
@@ -1525,7 +1525,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#delete GoogleDialogflowCxGenerator#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#delete GoogleDialogflowCxGenerator#delete}.
 
 ---
 
@@ -1537,7 +1537,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_generator#update GoogleDialogflowCxGenerator#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_generator#update GoogleDialogflowCxGenerator#update}.
 
 ---
 
@@ -1548,7 +1548,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorLlmModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.NewGoogleDialogflowCxGeneratorLlmModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGeneratorLlmModelSettingsOutputReference
 ```
@@ -1855,7 +1855,7 @@ func InternalValue() GoogleDialogflowCxGeneratorLlmModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorModelParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.NewGoogleDialogflowCxGeneratorModelParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGeneratorModelParameterOutputReference
 ```
@@ -2220,7 +2220,7 @@ func InternalValue() GoogleDialogflowCxGeneratorModelParameter
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPlaceholdersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.NewGoogleDialogflowCxGeneratorPlaceholdersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxGeneratorPlaceholdersList
 ```
@@ -2380,7 +2380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPlaceholdersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.NewGoogleDialogflowCxGeneratorPlaceholdersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxGeneratorPlaceholdersOutputReference
 ```
@@ -2705,7 +2705,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorPromptTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.NewGoogleDialogflowCxGeneratorPromptTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGeneratorPromptTextOutputReference
 ```
@@ -2983,7 +2983,7 @@ func InternalValue() GoogleDialogflowCxGeneratorPromptText
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerator.GoogleDialogflowCxGeneratorTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerator"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxgenerator"
 
 googledialogflowcxgenerator.NewGoogleDialogflowCxGeneratorTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGeneratorTimeoutsOutputReference
 ```

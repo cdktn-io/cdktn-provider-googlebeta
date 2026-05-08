@@ -4,12 +4,12 @@
 
 ### GoogleOsConfigV2PolicyOrchestratorForOrganization <a name="GoogleOsConfigV2PolicyOrchestratorForOrganization" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganization(scope Construct, id *string, config GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig) GoogleOsConfigV2PolicyOrchestratorForOrganization
 ```
@@ -481,7 +481,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganization.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganization_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganization.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganization_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganization.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganization_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganization.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganization_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the GoogleOsConfigV2PolicyOrch
 
 The id of the existing GoogleOsConfigV2PolicyOrchestratorForOrganization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1078,7 +1078,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig {
 	Connection: interface{},
@@ -1089,15 +1089,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Action: *string,
-	OrchestratedResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResource,
+	OrchestratedResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResource,
 	OrganizationId: *string,
 	PolicyOrchestratorId: *string,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	OrchestrationScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope,
+	OrchestrationScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope,
 	State: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts,
 }
 ```
 
@@ -1117,7 +1117,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.organizationId">OrganizationId</a></code> | <code>*string</code> | Part of 'parent'. Required. The parent resource name in the form of: * 'organizations/{organization_id}/locations/global' * 'folders/{folder_id}/locations/global' * 'projects/{project_id_or_number}/locations/global'. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.policyOrchestratorId">PolicyOrchestratorId</a></code> | <code>*string</code> | Required. The logical identifier of the policy orchestrator, with the following restrictions:. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.description">Description</a></code> | <code>*string</code> | Optional. Freeform text describing the purpose of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Optional. Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.orchestrationScope">OrchestrationScope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope">GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope</a></code> | orchestration_scope block. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig.property.state">State</a></code> | <code>*string</code> | Optional. |
@@ -1212,7 +1212,7 @@ Action to be done by the orchestrator in
 * 'UPSERT' - Orchestrator will create or update target resources.
 * 'DELETE' - Orchestrator will delete target resources, if they exist
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#action GoogleOsConfigV2PolicyOrchestratorForOrganization#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#action GoogleOsConfigV2PolicyOrchestratorForOrganization#action}
 
 ---
 
@@ -1226,7 +1226,7 @@ OrchestratedResource GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 
 orchestrated_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#orchestrated_resource GoogleOsConfigV2PolicyOrchestratorForOrganization#orchestrated_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#orchestrated_resource GoogleOsConfigV2PolicyOrchestratorForOrganization#orchestrated_resource}
 
 ---
 
@@ -1240,7 +1240,7 @@ OrganizationId *string
 
 Part of 'parent'. Required. The parent resource name in the form of: * 'organizations/{organization_id}/locations/global' * 'folders/{folder_id}/locations/global' * 'projects/{project_id_or_number}/locations/global'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#organization_id GoogleOsConfigV2PolicyOrchestratorForOrganization#organization_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#organization_id GoogleOsConfigV2PolicyOrchestratorForOrganization#organization_id}
 
 ---
 
@@ -1260,7 +1260,7 @@ Required. The logical identifier of the policy orchestrator, with the following 
 * Must end with a number or a letter.
 * Must be unique within the parent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestratorForOrganization#policy_orchestrator_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestratorForOrganization#policy_orchestrator_id}
 
 ---
 
@@ -1274,7 +1274,7 @@ Description *string
 
 Optional. Freeform text describing the purpose of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#description GoogleOsConfigV2PolicyOrchestratorForOrganization#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#description GoogleOsConfigV2PolicyOrchestratorForOrganization#description}
 
 ---
 
@@ -1286,7 +1286,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1306,7 +1306,7 @@ Optional. Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#labels GoogleOsConfigV2PolicyOrchestratorForOrganization#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#labels GoogleOsConfigV2PolicyOrchestratorForOrganization#labels}
 
 ---
 
@@ -1320,7 +1320,7 @@ OrchestrationScope GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratio
 
 orchestration_scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#orchestration_scope GoogleOsConfigV2PolicyOrchestratorForOrganization#orchestration_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#orchestration_scope GoogleOsConfigV2PolicyOrchestratorForOrganization#orchestration_scope}
 
 ---
 
@@ -1344,7 +1344,7 @@ Note: There might be more states added in the future. We use string here
 instead of an enum, to avoid the need of propagating new states to all the
 client code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#state GoogleOsConfigV2PolicyOrchestratorForOrganization#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#state GoogleOsConfigV2PolicyOrchestratorForOrganization#state}
 
 ---
 
@@ -1358,7 +1358,7 @@ Timeouts GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#timeouts GoogleOsConfigV2PolicyOrchestratorForOrganization#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#timeouts GoogleOsConfigV2PolicyOrchestratorForOrganization#timeouts}
 
 ---
 
@@ -1367,11 +1367,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResource {
 	Id: *string,
-	OsPolicyAssignmentV1Payload: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1Payload,
+	OsPolicyAssignmentV1Payload: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1Payload,
 }
 ```
 
@@ -1407,7 +1407,7 @@ restrictions:
 For DELETE action, ID must be specified explicitly during
 PolicyOrchestrator creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1424,7 +1424,7 @@ OsPolicyAssignmentV1Payload GoogleOsConfigV2PolicyOrchestratorForOrganizationOrc
 
 os_policy_assignment_v1_payload block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestratorForOrganization#os_policy_assignment_v1_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestratorForOrganization#os_policy_assignment_v1_payload}
 
 ---
 
@@ -1433,12 +1433,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1Payload {
-	InstanceFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter,
+	InstanceFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter,
 	OsPolicies: interface{},
-	Rollout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRollout,
+	Rollout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRollout,
 	Description: *string,
 	Etag: *string,
 	Name: *string,
@@ -1468,7 +1468,7 @@ InstanceFilter GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedReso
 
 instance_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#instance_filter GoogleOsConfigV2PolicyOrchestratorForOrganization#instance_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#instance_filter GoogleOsConfigV2PolicyOrchestratorForOrganization#instance_filter}
 
 ---
 
@@ -1482,7 +1482,7 @@ OsPolicies interface{}
 
 os_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_policies GoogleOsConfigV2PolicyOrchestratorForOrganization#os_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_policies GoogleOsConfigV2PolicyOrchestratorForOrganization#os_policies}
 
 ---
 
@@ -1496,7 +1496,7 @@ Rollout GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsP
 
 rollout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#rollout GoogleOsConfigV2PolicyOrchestratorForOrganization#rollout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#rollout GoogleOsConfigV2PolicyOrchestratorForOrganization#rollout}
 
 ---
 
@@ -1510,7 +1510,7 @@ Description *string
 
 OS policy assignment description. Length of the description is limited to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#description GoogleOsConfigV2PolicyOrchestratorForOrganization#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#description GoogleOsConfigV2PolicyOrchestratorForOrganization#description}
 
 ---
 
@@ -1524,7 +1524,7 @@ Etag *string
 
 The etag for this OS policy assignment. If this is provided on update, it must match the server's etag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#etag GoogleOsConfigV2PolicyOrchestratorForOrganization#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#etag GoogleOsConfigV2PolicyOrchestratorForOrganization#etag}
 
 ---
 
@@ -1543,7 +1543,7 @@ Format:
 
 This field is ignored when you create an OS policy assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
 
 ---
 
@@ -1552,7 +1552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter {
 	All: interface{},
@@ -1583,7 +1583,7 @@ All interface{}
 
 Target all VMs in the project. If true, no other criteria is permitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#all GoogleOsConfigV2PolicyOrchestratorForOrganization#all}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#all GoogleOsConfigV2PolicyOrchestratorForOrganization#all}
 
 ---
 
@@ -1597,7 +1597,7 @@ ExclusionLabels interface{}
 
 exclusion_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#exclusion_labels GoogleOsConfigV2PolicyOrchestratorForOrganization#exclusion_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#exclusion_labels GoogleOsConfigV2PolicyOrchestratorForOrganization#exclusion_labels}
 
 ---
 
@@ -1611,7 +1611,7 @@ InclusionLabels interface{}
 
 inclusion_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#inclusion_labels GoogleOsConfigV2PolicyOrchestratorForOrganization#inclusion_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#inclusion_labels GoogleOsConfigV2PolicyOrchestratorForOrganization#inclusion_labels}
 
 ---
 
@@ -1625,7 +1625,7 @@ Inventories interface{}
 
 inventories block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#inventories GoogleOsConfigV2PolicyOrchestratorForOrganization#inventories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#inventories GoogleOsConfigV2PolicyOrchestratorForOrganization#inventories}
 
 ---
 
@@ -1634,7 +1634,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabels {
 	Labels: *map[string]*string,
@@ -1662,7 +1662,7 @@ Labels are identified by key/value pairs in this map.
 A VM should contain all the key/value pairs specified in this
 map to be selected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#labels GoogleOsConfigV2PolicyOrchestratorForOrganization#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#labels GoogleOsConfigV2PolicyOrchestratorForOrganization#labels}
 
 ---
 
@@ -1671,7 +1671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabels {
 	Labels: *map[string]*string,
@@ -1699,7 +1699,7 @@ Labels are identified by key/value pairs in this map.
 A VM should contain all the key/value pairs specified in this
 map to be selected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#labels GoogleOsConfigV2PolicyOrchestratorForOrganization#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#labels GoogleOsConfigV2PolicyOrchestratorForOrganization#labels}
 
 ---
 
@@ -1708,7 +1708,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventories {
 	OsShortName: *string,
@@ -1735,7 +1735,7 @@ OsShortName *string
 
 Required. The OS short name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_short_name GoogleOsConfigV2PolicyOrchestratorForOrganization#os_short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_short_name GoogleOsConfigV2PolicyOrchestratorForOrganization#os_short_name}
 
 ---
 
@@ -1755,7 +1755,7 @@ version of '7', specify the following value for this field '7.*'
 
 An empty string matches all OS versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_version GoogleOsConfigV2PolicyOrchestratorForOrganization#os_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_version GoogleOsConfigV2PolicyOrchestratorForOrganization#os_version}
 
 ---
 
@@ -1764,7 +1764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPolicies {
 	Id: *string,
@@ -1803,7 +1803,7 @@ Required. The id of the OS policy with the following restrictions:.
 * Must end with a number or a letter.
 * Must be unique within the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1820,7 +1820,7 @@ Mode *string
 
 Required. Policy mode Possible values: MODE_UNSPECIFIED VALIDATION ENFORCEMENT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#mode GoogleOsConfigV2PolicyOrchestratorForOrganization#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#mode GoogleOsConfigV2PolicyOrchestratorForOrganization#mode}
 
 ---
 
@@ -1834,7 +1834,7 @@ ResourceGroups interface{}
 
 resource_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#resource_groups GoogleOsConfigV2PolicyOrchestratorForOrganization#resource_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#resource_groups GoogleOsConfigV2PolicyOrchestratorForOrganization#resource_groups}
 
 ---
 
@@ -1852,7 +1852,7 @@ Set this value
 to 'true' if the policy needs to be reported as compliant even if the
 policy has nothing to validate or enforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_no_resource_group_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_no_resource_group_match}
 
 ---
 
@@ -1866,7 +1866,7 @@ Description *string
 
 Policy description. Length of the description is limited to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#description GoogleOsConfigV2PolicyOrchestratorForOrganization#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#description GoogleOsConfigV2PolicyOrchestratorForOrganization#description}
 
 ---
 
@@ -1875,7 +1875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroups {
 	Resources: interface{},
@@ -1902,7 +1902,7 @@ Resources interface{}
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#resources GoogleOsConfigV2PolicyOrchestratorForOrganization#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#resources GoogleOsConfigV2PolicyOrchestratorForOrganization#resources}
 
 ---
 
@@ -1916,7 +1916,7 @@ InventoryFilters interface{}
 
 inventory_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#inventory_filters GoogleOsConfigV2PolicyOrchestratorForOrganization#inventory_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#inventory_filters GoogleOsConfigV2PolicyOrchestratorForOrganization#inventory_filters}
 
 ---
 
@@ -1925,7 +1925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFilters {
 	OsShortName: *string,
@@ -1952,7 +1952,7 @@ OsShortName *string
 
 Required. The OS short name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_short_name GoogleOsConfigV2PolicyOrchestratorForOrganization#os_short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_short_name GoogleOsConfigV2PolicyOrchestratorForOrganization#os_short_name}
 
 ---
 
@@ -1972,7 +1972,7 @@ version of '7', specify the following value for this field '7.*'
 
 An empty string matches all OS versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_version GoogleOsConfigV2PolicyOrchestratorForOrganization#os_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#os_version GoogleOsConfigV2PolicyOrchestratorForOrganization#os_version}
 
 ---
 
@@ -1981,14 +1981,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResources {
 	Id: *string,
-	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile,
-	Pkg: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg,
-	Repository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository,
+	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile,
+	Pkg: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg,
+	Repository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository,
 }
 ```
 
@@ -2020,7 +2020,7 @@ Required. The id of the resource with the following restrictions:.
 * Must end with a number or a letter.
 * Must be unique within the OS policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2037,7 +2037,7 @@ Exec GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPoli
 
 exec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#exec GoogleOsConfigV2PolicyOrchestratorForOrganization#exec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#exec GoogleOsConfigV2PolicyOrchestratorForOrganization#exec}
 
 ---
 
@@ -2051,7 +2051,7 @@ File GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPoli
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
 
 ---
 
@@ -2065,7 +2065,7 @@ Pkg GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 pkg block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#pkg GoogleOsConfigV2PolicyOrchestratorForOrganization#pkg}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#pkg GoogleOsConfigV2PolicyOrchestratorForOrganization#pkg}
 
 ---
 
@@ -2079,7 +2079,7 @@ Repository GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResource
 
 repository block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#repository GoogleOsConfigV2PolicyOrchestratorForOrganization#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#repository GoogleOsConfigV2PolicyOrchestratorForOrganization#repository}
 
 ---
 
@@ -2088,11 +2088,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec {
-	Validate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate,
-	Enforce: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce,
+	Validate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate,
+	Enforce: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce,
 }
 ```
 
@@ -2115,7 +2115,7 @@ Validate GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOs
 
 validate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#validate GoogleOsConfigV2PolicyOrchestratorForOrganization#validate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#validate GoogleOsConfigV2PolicyOrchestratorForOrganization#validate}
 
 ---
 
@@ -2129,7 +2129,7 @@ Enforce GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsP
 
 enforce block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#enforce GoogleOsConfigV2PolicyOrchestratorForOrganization#enforce}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#enforce GoogleOsConfigV2PolicyOrchestratorForOrganization#enforce}
 
 ---
 
@@ -2138,12 +2138,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce {
 	Interpreter: *string,
 	Args: *[]*string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile,
 	OutputFilePath: *string,
 	Script: *string,
 }
@@ -2171,7 +2171,7 @@ Interpreter *string
 
 Required. The script interpreter to use. Possible values: INTERPRETER_UNSPECIFIED NONE SHELL POWERSHELL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#interpreter GoogleOsConfigV2PolicyOrchestratorForOrganization#interpreter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#interpreter GoogleOsConfigV2PolicyOrchestratorForOrganization#interpreter}
 
 ---
 
@@ -2185,7 +2185,7 @@ Args *[]*string
 
 Optional arguments to pass to the source during execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#args GoogleOsConfigV2PolicyOrchestratorForOrganization#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#args GoogleOsConfigV2PolicyOrchestratorForOrganization#args}
 
 ---
 
@@ -2199,7 +2199,7 @@ File GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPoli
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
 
 ---
 
@@ -2219,7 +2219,7 @@ successful run. Absence or failure to read this file will result in
 this ExecResource being non-compliant. Output file size is limited to
 500K bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#output_file_path GoogleOsConfigV2PolicyOrchestratorForOrganization#output_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#output_file_path GoogleOsConfigV2PolicyOrchestratorForOrganization#output_file_path}
 
 ---
 
@@ -2233,7 +2233,7 @@ Script *string
 
 An inline script. The size of the script is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#script GoogleOsConfigV2PolicyOrchestratorForOrganization#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#script GoogleOsConfigV2PolicyOrchestratorForOrganization#script}
 
 ---
 
@@ -2242,13 +2242,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote,
 }
 ```
 
@@ -2276,7 +2276,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
 
 ---
 
@@ -2290,7 +2290,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
 
 ---
 
@@ -2304,7 +2304,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
 
 ---
 
@@ -2318,7 +2318,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
 
 ---
 
@@ -2327,7 +2327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs {
 	Bucket: *string,
@@ -2356,7 +2356,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
 
 ---
 
@@ -2370,7 +2370,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
 
 ---
 
@@ -2384,7 +2384,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
 
 ---
 
@@ -2393,7 +2393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote {
 	Uri: *string,
@@ -2420,7 +2420,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
 
 ---
 
@@ -2434,7 +2434,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
 
 ---
 
@@ -2443,12 +2443,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate {
 	Interpreter: *string,
 	Args: *[]*string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile,
 	OutputFilePath: *string,
 	Script: *string,
 }
@@ -2476,7 +2476,7 @@ Interpreter *string
 
 Required. The script interpreter to use. Possible values: INTERPRETER_UNSPECIFIED NONE SHELL POWERSHELL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#interpreter GoogleOsConfigV2PolicyOrchestratorForOrganization#interpreter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#interpreter GoogleOsConfigV2PolicyOrchestratorForOrganization#interpreter}
 
 ---
 
@@ -2490,7 +2490,7 @@ Args *[]*string
 
 Optional arguments to pass to the source during execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#args GoogleOsConfigV2PolicyOrchestratorForOrganization#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#args GoogleOsConfigV2PolicyOrchestratorForOrganization#args}
 
 ---
 
@@ -2504,7 +2504,7 @@ File GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPoli
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
 
 ---
 
@@ -2524,7 +2524,7 @@ successful run. Absence or failure to read this file will result in
 this ExecResource being non-compliant. Output file size is limited to
 500K bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#output_file_path GoogleOsConfigV2PolicyOrchestratorForOrganization#output_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#output_file_path GoogleOsConfigV2PolicyOrchestratorForOrganization#output_file_path}
 
 ---
 
@@ -2538,7 +2538,7 @@ Script *string
 
 An inline script. The size of the script is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#script GoogleOsConfigV2PolicyOrchestratorForOrganization#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#script GoogleOsConfigV2PolicyOrchestratorForOrganization#script}
 
 ---
 
@@ -2547,13 +2547,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote,
 }
 ```
 
@@ -2581,7 +2581,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
 
 ---
 
@@ -2595,7 +2595,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
 
 ---
 
@@ -2609,7 +2609,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
 
 ---
 
@@ -2623,7 +2623,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
 
 ---
 
@@ -2632,7 +2632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs {
 	Bucket: *string,
@@ -2661,7 +2661,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
 
 ---
 
@@ -2675,7 +2675,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
 
 ---
 
@@ -2689,7 +2689,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
 
 ---
 
@@ -2698,7 +2698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote {
 	Uri: *string,
@@ -2725,7 +2725,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
 
 ---
 
@@ -2739,7 +2739,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
 
 ---
 
@@ -2748,13 +2748,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile {
 	Path: *string,
 	State: *string,
 	Content: *string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile,
 	Permissions: *string,
 }
 ```
@@ -2781,7 +2781,7 @@ Path *string
 
 Required. The absolute path of the file within the VM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#path GoogleOsConfigV2PolicyOrchestratorForOrganization#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#path GoogleOsConfigV2PolicyOrchestratorForOrganization#path}
 
 ---
 
@@ -2795,7 +2795,7 @@ State *string
 
 Required. Desired state of the file. Possible values: DESIRED_STATE_UNSPECIFIED PRESENT ABSENT CONTENTS_MATCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#state GoogleOsConfigV2PolicyOrchestratorForOrganization#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#state GoogleOsConfigV2PolicyOrchestratorForOrganization#state}
 
 ---
 
@@ -2809,7 +2809,7 @@ Content *string
 
 A a file with this content. The size of the content is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#content GoogleOsConfigV2PolicyOrchestratorForOrganization#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#content GoogleOsConfigV2PolicyOrchestratorForOrganization#content}
 
 ---
 
@@ -2823,7 +2823,7 @@ File GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPoli
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#file GoogleOsConfigV2PolicyOrchestratorForOrganization#file}
 
 ---
 
@@ -2848,7 +2848,7 @@ read and execute: 5
 read and write: 6
 read only: 4
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#permissions GoogleOsConfigV2PolicyOrchestratorForOrganization#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#permissions GoogleOsConfigV2PolicyOrchestratorForOrganization#permissions}
 
 ---
 
@@ -2857,13 +2857,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote,
 }
 ```
 
@@ -2891,7 +2891,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
 
 ---
 
@@ -2905,7 +2905,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
 
 ---
 
@@ -2919,7 +2919,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
 
 ---
 
@@ -2933,7 +2933,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
 
 ---
 
@@ -2942,7 +2942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs {
 	Bucket: *string,
@@ -2971,7 +2971,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
 
 ---
 
@@ -2985,7 +2985,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
 
 ---
 
@@ -2999,7 +2999,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
 
 ---
 
@@ -3008,7 +3008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote {
 	Uri: *string,
@@ -3035,7 +3035,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
 
 ---
 
@@ -3049,7 +3049,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
 
 ---
 
@@ -3058,17 +3058,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg {
 	DesiredState: *string,
-	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt,
-	Deb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb,
-	Googet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget,
-	Msi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi,
-	Rpm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm,
-	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum,
-	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper,
+	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt,
+	Deb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb,
+	Googet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget,
+	Msi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi,
+	Rpm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm,
+	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum,
+	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper,
 }
 ```
 
@@ -3097,7 +3097,7 @@ DesiredState *string
 
 Required. The desired state the agent should maintain for this package. Possible values: DESIRED_STATE_UNSPECIFIED INSTALLED REMOVED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#desired_state GoogleOsConfigV2PolicyOrchestratorForOrganization#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#desired_state GoogleOsConfigV2PolicyOrchestratorForOrganization#desired_state}
 
 ---
 
@@ -3111,7 +3111,7 @@ Apt GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 apt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#apt GoogleOsConfigV2PolicyOrchestratorForOrganization#apt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#apt GoogleOsConfigV2PolicyOrchestratorForOrganization#apt}
 
 ---
 
@@ -3125,7 +3125,7 @@ Deb GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 deb block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#deb GoogleOsConfigV2PolicyOrchestratorForOrganization#deb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#deb GoogleOsConfigV2PolicyOrchestratorForOrganization#deb}
 
 ---
 
@@ -3139,7 +3139,7 @@ Googet GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 googet block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#googet GoogleOsConfigV2PolicyOrchestratorForOrganization#googet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#googet GoogleOsConfigV2PolicyOrchestratorForOrganization#googet}
 
 ---
 
@@ -3153,7 +3153,7 @@ Msi GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 msi block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#msi GoogleOsConfigV2PolicyOrchestratorForOrganization#msi}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#msi GoogleOsConfigV2PolicyOrchestratorForOrganization#msi}
 
 ---
 
@@ -3167,7 +3167,7 @@ Rpm GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 rpm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#rpm GoogleOsConfigV2PolicyOrchestratorForOrganization#rpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#rpm GoogleOsConfigV2PolicyOrchestratorForOrganization#rpm}
 
 ---
 
@@ -3181,7 +3181,7 @@ Yum GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 yum block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#yum GoogleOsConfigV2PolicyOrchestratorForOrganization#yum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#yum GoogleOsConfigV2PolicyOrchestratorForOrganization#yum}
 
 ---
 
@@ -3195,7 +3195,7 @@ Zypper GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 zypper block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#zypper GoogleOsConfigV2PolicyOrchestratorForOrganization#zypper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#zypper GoogleOsConfigV2PolicyOrchestratorForOrganization#zypper}
 
 ---
 
@@ -3204,7 +3204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt {
 	Name: *string,
@@ -3229,7 +3229,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
 
 ---
 
@@ -3238,10 +3238,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource,
 	PullDeps: interface{},
 }
 ```
@@ -3265,7 +3265,7 @@ Source GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#source GoogleOsConfigV2PolicyOrchestratorForOrganization#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#source GoogleOsConfigV2PolicyOrchestratorForOrganization#source}
 
 ---
 
@@ -3283,7 +3283,7 @@ Whether dependencies should also be installed.
 * install when true: 'apt-get update && apt-get -y install
   package.deb'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#pull_deps GoogleOsConfigV2PolicyOrchestratorForOrganization#pull_deps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#pull_deps GoogleOsConfigV2PolicyOrchestratorForOrganization#pull_deps}
 
 ---
 
@@ -3292,13 +3292,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote,
 }
 ```
 
@@ -3326,7 +3326,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
 
 ---
 
@@ -3340,7 +3340,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
 
 ---
 
@@ -3354,7 +3354,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
 
 ---
 
@@ -3368,7 +3368,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
 
 ---
 
@@ -3377,7 +3377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs {
 	Bucket: *string,
@@ -3406,7 +3406,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
 
 ---
 
@@ -3420,7 +3420,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
 
 ---
 
@@ -3434,7 +3434,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
 
 ---
 
@@ -3443,7 +3443,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote {
 	Uri: *string,
@@ -3470,7 +3470,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
 
 ---
 
@@ -3484,7 +3484,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
 
 ---
 
@@ -3493,7 +3493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget {
 	Name: *string,
@@ -3518,7 +3518,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
 
 ---
 
@@ -3527,10 +3527,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource,
 	Properties: *[]*string,
 }
 ```
@@ -3554,7 +3554,7 @@ Source GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#source GoogleOsConfigV2PolicyOrchestratorForOrganization#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#source GoogleOsConfigV2PolicyOrchestratorForOrganization#source}
 
 ---
 
@@ -3568,7 +3568,7 @@ Properties *[]*string
 
 Additional properties to use during installation. This should be in the format of Property=Setting. Appended to the defaults of 'ACTION=INSTALL REBOOT=ReallySuppress'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#properties GoogleOsConfigV2PolicyOrchestratorForOrganization#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#properties GoogleOsConfigV2PolicyOrchestratorForOrganization#properties}
 
 ---
 
@@ -3577,13 +3577,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote,
 }
 ```
 
@@ -3611,7 +3611,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
 
 ---
 
@@ -3625,7 +3625,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
 
 ---
 
@@ -3639,7 +3639,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
 
 ---
 
@@ -3653,7 +3653,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
 
 ---
 
@@ -3662,7 +3662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs {
 	Bucket: *string,
@@ -3691,7 +3691,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
 
 ---
 
@@ -3705,7 +3705,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
 
 ---
 
@@ -3719,7 +3719,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
 
 ---
 
@@ -3728,7 +3728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote {
 	Uri: *string,
@@ -3755,7 +3755,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
 
 ---
 
@@ -3769,7 +3769,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
 
 ---
 
@@ -3778,10 +3778,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource,
 	PullDeps: interface{},
 }
 ```
@@ -3805,7 +3805,7 @@ Source GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#source GoogleOsConfigV2PolicyOrchestratorForOrganization#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#source GoogleOsConfigV2PolicyOrchestratorForOrganization#source}
 
 ---
 
@@ -3823,7 +3823,7 @@ Whether dependencies should also be installed.
 * install when true: 'yum -y install package.rpm' or
   'zypper -y install package.rpm'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#pull_deps GoogleOsConfigV2PolicyOrchestratorForOrganization#pull_deps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#pull_deps GoogleOsConfigV2PolicyOrchestratorForOrganization#pull_deps}
 
 ---
 
@@ -3832,13 +3832,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote,
 }
 ```
 
@@ -3866,7 +3866,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#allow_insecure GoogleOsConfigV2PolicyOrchestratorForOrganization#allow_insecure}
 
 ---
 
@@ -3880,7 +3880,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gcs GoogleOsConfigV2PolicyOrchestratorForOrganization#gcs}
 
 ---
 
@@ -3894,7 +3894,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#local_path GoogleOsConfigV2PolicyOrchestratorForOrganization#local_path}
 
 ---
 
@@ -3908,7 +3908,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#remote GoogleOsConfigV2PolicyOrchestratorForOrganization#remote}
 
 ---
 
@@ -3917,7 +3917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs {
 	Bucket: *string,
@@ -3946,7 +3946,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#bucket GoogleOsConfigV2PolicyOrchestratorForOrganization#bucket}
 
 ---
 
@@ -3960,7 +3960,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#object GoogleOsConfigV2PolicyOrchestratorForOrganization#object}
 
 ---
 
@@ -3974,7 +3974,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#generation GoogleOsConfigV2PolicyOrchestratorForOrganization#generation}
 
 ---
 
@@ -3983,7 +3983,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote {
 	Uri: *string,
@@ -4010,7 +4010,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
 
 ---
 
@@ -4024,7 +4024,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForOrganization#sha256_checksum}
 
 ---
 
@@ -4033,7 +4033,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum {
 	Name: *string,
@@ -4058,7 +4058,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
 
 ---
 
@@ -4067,7 +4067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper {
 	Name: *string,
@@ -4092,7 +4092,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
 
 ---
 
@@ -4101,13 +4101,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository {
-	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt,
-	Goo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo,
-	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum,
-	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper,
+	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt,
+	Goo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo,
+	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum,
+	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper,
 }
 ```
 
@@ -4132,7 +4132,7 @@ Apt GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 apt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#apt GoogleOsConfigV2PolicyOrchestratorForOrganization#apt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#apt GoogleOsConfigV2PolicyOrchestratorForOrganization#apt}
 
 ---
 
@@ -4146,7 +4146,7 @@ Goo GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 goo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#goo GoogleOsConfigV2PolicyOrchestratorForOrganization#goo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#goo GoogleOsConfigV2PolicyOrchestratorForOrganization#goo}
 
 ---
 
@@ -4160,7 +4160,7 @@ Yum GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolic
 
 yum block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#yum GoogleOsConfigV2PolicyOrchestratorForOrganization#yum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#yum GoogleOsConfigV2PolicyOrchestratorForOrganization#yum}
 
 ---
 
@@ -4174,7 +4174,7 @@ Zypper GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPo
 
 zypper block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#zypper GoogleOsConfigV2PolicyOrchestratorForOrganization#zypper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#zypper GoogleOsConfigV2PolicyOrchestratorForOrganization#zypper}
 
 ---
 
@@ -4183,7 +4183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt {
 	ArchiveType: *string,
@@ -4216,7 +4216,7 @@ ArchiveType *string
 
 Required. Type of archive files in this repository. Possible values: ARCHIVE_TYPE_UNSPECIFIED DEB DEB_SRC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#archive_type GoogleOsConfigV2PolicyOrchestratorForOrganization#archive_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#archive_type GoogleOsConfigV2PolicyOrchestratorForOrganization#archive_type}
 
 ---
 
@@ -4230,7 +4230,7 @@ Components *[]*string
 
 Required. List of components for this repository. Must contain at least one item.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#components GoogleOsConfigV2PolicyOrchestratorForOrganization#components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#components GoogleOsConfigV2PolicyOrchestratorForOrganization#components}
 
 ---
 
@@ -4244,7 +4244,7 @@ Distribution *string
 
 Required. Distribution of this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#distribution GoogleOsConfigV2PolicyOrchestratorForOrganization#distribution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#distribution GoogleOsConfigV2PolicyOrchestratorForOrganization#distribution}
 
 ---
 
@@ -4258,7 +4258,7 @@ Uri *string
 
 Required. URI for this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#uri GoogleOsConfigV2PolicyOrchestratorForOrganization#uri}
 
 ---
 
@@ -4272,7 +4272,7 @@ GpgKey *string
 
 URI of the key file for this repository. The agent maintains a keyring at '/etc/apt/trusted.gpg.d/osconfig_agent_managed.gpg'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gpg_key GoogleOsConfigV2PolicyOrchestratorForOrganization#gpg_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gpg_key GoogleOsConfigV2PolicyOrchestratorForOrganization#gpg_key}
 
 ---
 
@@ -4281,7 +4281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo {
 	Name: *string,
@@ -4308,7 +4308,7 @@ Name *string
 
 Required. The name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#name GoogleOsConfigV2PolicyOrchestratorForOrganization#name}
 
 ---
 
@@ -4322,7 +4322,7 @@ Url *string
 
 Required. The url of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#url GoogleOsConfigV2PolicyOrchestratorForOrganization#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#url GoogleOsConfigV2PolicyOrchestratorForOrganization#url}
 
 ---
 
@@ -4331,7 +4331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum {
 	BaseUrl: *string,
@@ -4362,7 +4362,7 @@ BaseUrl *string
 
 Required. The location of the repository directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#base_url GoogleOsConfigV2PolicyOrchestratorForOrganization#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#base_url GoogleOsConfigV2PolicyOrchestratorForOrganization#base_url}
 
 ---
 
@@ -4381,7 +4381,7 @@ id' in the yum config file and also the 'display_name' if
 'display_name' is omitted. This id is also used as the unique
 identifier when checking for resource conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4398,7 +4398,7 @@ DisplayName *string
 
 The display name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#display_name GoogleOsConfigV2PolicyOrchestratorForOrganization#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#display_name GoogleOsConfigV2PolicyOrchestratorForOrganization#display_name}
 
 ---
 
@@ -4412,7 +4412,7 @@ GpgKeys *[]*string
 
 URIs of GPG keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gpg_keys GoogleOsConfigV2PolicyOrchestratorForOrganization#gpg_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gpg_keys GoogleOsConfigV2PolicyOrchestratorForOrganization#gpg_keys}
 
 ---
 
@@ -4421,7 +4421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper {
 	BaseUrl: *string,
@@ -4452,7 +4452,7 @@ BaseUrl *string
 
 Required. The location of the repository directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#base_url GoogleOsConfigV2PolicyOrchestratorForOrganization#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#base_url GoogleOsConfigV2PolicyOrchestratorForOrganization#base_url}
 
 ---
 
@@ -4471,7 +4471,7 @@ id' in the zypper config file and also the 'display_name' if
 'display_name' is omitted. This id is also used as the unique
 identifier when checking for GuestPolicy conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#id GoogleOsConfigV2PolicyOrchestratorForOrganization#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4488,7 +4488,7 @@ DisplayName *string
 
 The display name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#display_name GoogleOsConfigV2PolicyOrchestratorForOrganization#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#display_name GoogleOsConfigV2PolicyOrchestratorForOrganization#display_name}
 
 ---
 
@@ -4502,7 +4502,7 @@ GpgKeys *[]*string
 
 URIs of GPG keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gpg_keys GoogleOsConfigV2PolicyOrchestratorForOrganization#gpg_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#gpg_keys GoogleOsConfigV2PolicyOrchestratorForOrganization#gpg_keys}
 
 ---
 
@@ -4511,10 +4511,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRollout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRollout {
-	DisruptionBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget,
+	DisruptionBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget,
 	MinWaitDuration: *string,
 }
 ```
@@ -4538,7 +4538,7 @@ DisruptionBudget GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedRe
 
 disruption_budget block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#disruption_budget GoogleOsConfigV2PolicyOrchestratorForOrganization#disruption_budget}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#disruption_budget GoogleOsConfigV2PolicyOrchestratorForOrganization#disruption_budget}
 
 ---
 
@@ -4558,7 +4558,7 @@ VM continues to count towards the 'disruption_budget' at least
 until this duration of time has passed after configuration changes are
 applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#min_wait_duration GoogleOsConfigV2PolicyOrchestratorForOrganization#min_wait_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#min_wait_duration GoogleOsConfigV2PolicyOrchestratorForOrganization#min_wait_duration}
 
 ---
 
@@ -4567,7 +4567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget {
 	Fixed: *f64,
@@ -4594,7 +4594,7 @@ Fixed *f64
 
 Specifies a fixed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#fixed GoogleOsConfigV2PolicyOrchestratorForOrganization#fixed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#fixed GoogleOsConfigV2PolicyOrchestratorForOrganization#fixed}
 
 ---
 
@@ -4608,7 +4608,7 @@ Percent *f64
 
 Specifies the relative value defined as a percentage, which will be multiplied by a reference value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#percent GoogleOsConfigV2PolicyOrchestratorForOrganization#percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#percent GoogleOsConfigV2PolicyOrchestratorForOrganization#percent}
 
 ---
 
@@ -4617,7 +4617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope {
 	Selectors: interface{},
@@ -4642,7 +4642,7 @@ Selectors interface{}
 
 selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#selectors GoogleOsConfigV2PolicyOrchestratorForOrganization#selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#selectors GoogleOsConfigV2PolicyOrchestratorForOrganization#selectors}
 
 ---
 
@@ -4651,11 +4651,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectors {
-	LocationSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsLocationSelector,
-	ResourceHierarchySelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsResourceHierarchySelector,
+	LocationSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsLocationSelector,
+	ResourceHierarchySelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsResourceHierarchySelector,
 }
 ```
 
@@ -4678,7 +4678,7 @@ LocationSelector GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationS
 
 location_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#location_selector GoogleOsConfigV2PolicyOrchestratorForOrganization#location_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#location_selector GoogleOsConfigV2PolicyOrchestratorForOrganization#location_selector}
 
 ---
 
@@ -4692,7 +4692,7 @@ ResourceHierarchySelector GoogleOsConfigV2PolicyOrchestratorForOrganizationOrche
 
 resource_hierarchy_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestratorForOrganization#resource_hierarchy_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestratorForOrganization#resource_hierarchy_selector}
 
 ---
 
@@ -4701,7 +4701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsLocationSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsLocationSelector {
 	IncludedLocations: *[]*string,
@@ -4726,7 +4726,7 @@ IncludedLocations *[]*string
 
 Optional. Names of the locations in scope. Format: 'us-central1-a'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#included_locations GoogleOsConfigV2PolicyOrchestratorForOrganization#included_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#included_locations GoogleOsConfigV2PolicyOrchestratorForOrganization#included_locations}
 
 ---
 
@@ -4735,7 +4735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsResourceHierarchySelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsResourceHierarchySelector {
 	IncludedFolders: *[]*string,
@@ -4762,7 +4762,7 @@ IncludedFolders *[]*string
 
 Optional. Names of the folders in scope. Format: 'folders/{folder_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#included_folders GoogleOsConfigV2PolicyOrchestratorForOrganization#included_folders}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#included_folders GoogleOsConfigV2PolicyOrchestratorForOrganization#included_folders}
 
 ---
 
@@ -4776,7 +4776,7 @@ IncludedProjects *[]*string
 
 Optional. Names of the projects in scope. Format: 'projects/{project_number}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#included_projects GoogleOsConfigV2PolicyOrchestratorForOrganization#included_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#included_projects GoogleOsConfigV2PolicyOrchestratorForOrganization#included_projects}
 
 ---
 
@@ -4785,7 +4785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationState {
 
@@ -4798,7 +4798,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationState {
 
@@ -4811,7 +4811,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateError {
 
@@ -4824,7 +4824,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetails {
 
@@ -4837,7 +4837,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationState {
 
@@ -4850,7 +4850,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateError {
 
@@ -4863,7 +4863,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetails {
 
@@ -4876,7 +4876,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 &googleosconfigv2policyorchestratorfororganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts {
 	Create: *string,
@@ -4889,9 +4889,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#create GoogleOsConfigV2PolicyOrchestratorForOrganization#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#delete GoogleOsConfigV2PolicyOrchestratorForOrganization#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#update GoogleOsConfigV2PolicyOrchestratorForOrganization#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#create GoogleOsConfigV2PolicyOrchestratorForOrganization#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#delete GoogleOsConfigV2PolicyOrchestratorForOrganization#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#update GoogleOsConfigV2PolicyOrchestratorForOrganization#update}. |
 
 ---
 
@@ -4903,7 +4903,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#create GoogleOsConfigV2PolicyOrchestratorForOrganization#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#create GoogleOsConfigV2PolicyOrchestratorForOrganization#create}.
 
 ---
 
@@ -4915,7 +4915,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#delete GoogleOsConfigV2PolicyOrchestratorForOrganization#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#delete GoogleOsConfigV2PolicyOrchestratorForOrganization#delete}.
 
 ---
 
@@ -4927,7 +4927,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#update GoogleOsConfigV2PolicyOrchestratorForOrganization#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization#update GoogleOsConfigV2PolicyOrchestratorForOrganization#update}.
 
 ---
 
@@ -4938,7 +4938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsList
 ```
@@ -5098,7 +5098,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsOutputReference
 ```
@@ -5394,7 +5394,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsList
 ```
@@ -5554,7 +5554,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsOutputReference
 ```
@@ -5850,7 +5850,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesList
 ```
@@ -6010,7 +6010,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesOutputReference
 ```
@@ -6328,7 +6328,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference
 ```
@@ -6732,7 +6732,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesList
 ```
@@ -6892,7 +6892,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesOutputReference
 ```
@@ -7296,7 +7296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersList
 ```
@@ -7456,7 +7456,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersOutputReference
 ```
@@ -7774,7 +7774,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsList
 ```
@@ -7934,7 +7934,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsOutputReference
 ```
@@ -8278,7 +8278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference
 ```
@@ -8600,7 +8600,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference
 ```
@@ -8991,7 +8991,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference
 ```
@@ -9291,7 +9291,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference
 ```
@@ -9691,7 +9691,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference
 ```
@@ -10017,7 +10017,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference
 ```
@@ -10339,7 +10339,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference
 ```
@@ -10730,7 +10730,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference
 ```
@@ -11030,7 +11030,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference
 ```
@@ -11430,7 +11430,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference
 ```
@@ -11752,7 +11752,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference
 ```
@@ -12143,7 +12143,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference
 ```
@@ -12443,7 +12443,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference
 ```
@@ -12836,7 +12836,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesList
 ```
@@ -12996,7 +12996,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesOutputReference
 ```
@@ -13453,7 +13453,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference
 ```
@@ -13724,7 +13724,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference
 ```
@@ -14037,7 +14037,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference
 ```
@@ -14359,7 +14359,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference
 ```
@@ -14750,7 +14750,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference
 ```
@@ -15050,7 +15050,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference
 ```
@@ -15321,7 +15321,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference
 ```
@@ -15634,7 +15634,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference
 ```
@@ -15956,7 +15956,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference
 ```
@@ -16347,7 +16347,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference
 ```
@@ -16647,7 +16647,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference
 ```
@@ -17212,7 +17212,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference
 ```
@@ -17525,7 +17525,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference
 ```
@@ -17847,7 +17847,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference
 ```
@@ -18238,7 +18238,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference
 ```
@@ -18538,7 +18538,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference
 ```
@@ -18809,7 +18809,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference
 ```
@@ -19080,7 +19080,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference
 ```
@@ -19446,7 +19446,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference
 ```
@@ -19739,7 +19739,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference
 ```
@@ -20156,7 +20156,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference
 ```
@@ -20507,7 +20507,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference
 ```
@@ -20858,7 +20858,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference
 ```
@@ -21376,7 +21376,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference
 ```
@@ -21683,7 +21683,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference
 ```
@@ -21989,7 +21989,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResourceOutputReference
 ```
@@ -22309,7 +22309,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReference
 ```
@@ -22600,7 +22600,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsList
 ```
@@ -22760,7 +22760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsLocationSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsLocationSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsLocationSelectorOutputReference
 ```
@@ -23038,7 +23038,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsOutputReference
 ```
@@ -23389,7 +23389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference
 ```
@@ -23696,7 +23696,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetailsList
 ```
@@ -23845,7 +23845,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorDetailsOutputReference
 ```
@@ -24134,7 +24134,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorList
 ```
@@ -24283,7 +24283,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateErrorOutputReference
 ```
@@ -24583,7 +24583,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateList
 ```
@@ -24732,7 +24732,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateCurrentIterationStateOutputReference
 ```
@@ -25087,7 +25087,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateList
 ```
@@ -25236,7 +25236,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStateOutputReference
 ```
@@ -25525,7 +25525,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetailsList
 ```
@@ -25674,7 +25674,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorDetailsOutputReference
 ```
@@ -25963,7 +25963,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorList
 ```
@@ -26112,7 +26112,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateErrorOutputReference
 ```
@@ -26412,7 +26412,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateList
 ```
@@ -26561,7 +26561,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationStatePreviousIterationStateOutputReference
 ```
@@ -26916,7 +26916,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForOrganization.GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorfororganization"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorfororganization"
 
 googleosconfigv2policyorchestratorfororganization.NewGoogleOsConfigV2PolicyOrchestratorForOrganizationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeoutsOutputReference
 ```

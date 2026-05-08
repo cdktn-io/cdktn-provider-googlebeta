@@ -4,7 +4,7 @@
 
 ### GoogleRedisInstance <a name="GoogleRedisInstance" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance google_redis_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance google_redis_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer"></a>
 
@@ -28,6 +28,7 @@ googleRedisInstance.GoogleRedisInstance(
   authorized_network: str = None,
   connect_mode: str = None,
   customer_managed_key: str = None,
+  deletion_protection: bool | IResolvable = None,
   display_name: str = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
@@ -67,14 +68,15 @@ googleRedisInstance.GoogleRedisInstance(
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.authorizedNetwork">authorized_network</a></code> | <code>str</code> | The full name of the Google Compute Engine network to which the instance is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.connectMode">connect_mode</a></code> | <code>str</code> | The connection mode of the Redis instance. Default value: "DIRECT_PEERING" Possible values: ["DIRECT_PEERING", "PRIVATE_SERVICE_ACCESS"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.customerManagedKey">customer_managed_key</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | An arbitrary and optional user-provided name for the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels to represent user provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.locationId">location_id</a></code> | <code>str</code> | The zone where the instance will be provisioned. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.maintenancePolicy">maintenance_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceMaintenancePolicy">GoogleRedisInstanceMaintenancePolicy</a></code> | maintenance_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.maintenanceVersion">maintenance_version</a></code> | <code>str</code> | The self service update maintenance version. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.persistenceConfig">persistence_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstancePersistenceConfig">GoogleRedisInstancePersistenceConfig</a></code> | persistence_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.readReplicasMode">read_replicas_mode</a></code> | <code>str</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.redisConfigs">redis_configs</a></code> | <code>typing.Mapping[str]</code> | Redis configuration parameters, according to http://redis.io/topics/config. Please check Memorystore documentation for the list of supported parameters: https://cloud.google.com/memorystore/docs/redis/reference/rest/v1/projects.locations.instances#Instance.FIELDS.redis_configs. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.redisVersion">redis_version</a></code> | <code>str</code> | The version of Redis software. |
@@ -154,7 +156,7 @@ Must be unique amongst siblings in the same scope
 
 Redis memory size in GiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#memory_size_gb GoogleRedisInstance#memory_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#memory_size_gb GoogleRedisInstance#memory_size_gb}
 
 ---
 
@@ -164,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the instance or a fully qualified identifier for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#name GoogleRedisInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#name GoogleRedisInstance#name}
 
 ---
 
@@ -177,7 +179,7 @@ Only applicable to STANDARD_HA tier which protects the instance against zonal fa
 If provided, it must be a different zone from the one provided in
 [locationId].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#alternative_location_id GoogleRedisInstance#alternative_location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#alternative_location_id GoogleRedisInstance#alternative_location_id}
 
 ---
 
@@ -191,7 +193,7 @@ Indicates whether OSS Redis AUTH is enabled for the
 instance. If set to "true" AUTH is enabled on the instance.
 Default value is "false" meaning AUTH is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#auth_enabled GoogleRedisInstance#auth_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#auth_enabled GoogleRedisInstance#auth_enabled}
 
 ---
 
@@ -204,7 +206,7 @@ The full name of the Google Compute Engine network to which the instance is conn
 If left unspecified, the default network
 will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#authorized_network GoogleRedisInstance#authorized_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#authorized_network GoogleRedisInstance#authorized_network}
 
 ---
 
@@ -214,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The connection mode of the Redis instance. Default value: "DIRECT_PEERING" Possible values: ["DIRECT_PEERING", "PRIVATE_SERVICE_ACCESS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#connect_mode GoogleRedisInstance#connect_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#connect_mode GoogleRedisInstance#connect_mode}
 
 ---
 
@@ -227,7 +229,23 @@ Optional.
 The KMS key reference that you want to use to encrypt the data at rest for this Redis
 instance. If this is provided, CMEK is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#customer_managed_key GoogleRedisInstance#customer_managed_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#customer_managed_key GoogleRedisInstance#customer_managed_key}
+
+---
+
+##### `deletion_protection`<sup>Optional</sup> <a name="deletion_protection" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.Initializer.parameter.deletionProtection"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether Terraform will be prevented from destroying the instance.
+
+When a'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is not set to false in Terraform state.
+When the field is set to true or unset in Terraform state, a 'terraform apply'
+or 'terraform destroy' that would delete the instance will fail.
+When the field is set to false, deleting the instance is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#deletion_protection GoogleRedisInstance#deletion_protection}
 
 ---
 
@@ -237,7 +255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An arbitrary and optional user-provided name for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#display_name GoogleRedisInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#display_name GoogleRedisInstance#display_name}
 
 ---
 
@@ -245,7 +263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -261,7 +279,7 @@ Resource labels to represent user provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#labels GoogleRedisInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#labels GoogleRedisInstance#labels}
 
 ---
 
@@ -277,7 +295,7 @@ instances will be created across two zones for protection against
 zonal failures. If [alternativeLocationId] is also provided, it must
 be different from [locationId].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#location_id GoogleRedisInstance#location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#location_id GoogleRedisInstance#location_id}
 
 ---
 
@@ -287,7 +305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 maintenance_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#maintenance_policy GoogleRedisInstance#maintenance_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#maintenance_policy GoogleRedisInstance#maintenance_policy}
 
 ---
 
@@ -297,7 +315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The self service update maintenance version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#maintenance_version GoogleRedisInstance#maintenance_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#maintenance_version GoogleRedisInstance#maintenance_version}
 
 ---
 
@@ -307,7 +325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 persistence_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#persistence_config GoogleRedisInstance#persistence_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#persistence_config GoogleRedisInstance#persistence_config}
 
 ---
 
@@ -315,7 +333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}.
 
 ---
 
@@ -333,7 +351,7 @@ If not set, Memorystore Redis backend will default to READ_REPLICAS_DISABLED.
 * READ_REPLICAS_ENABLED: If enabled, read endpoint will be provided and the instance
   can scale up and down the number of replicas. Possible values: ["READ_REPLICAS_DISABLED", "READ_REPLICAS_ENABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#read_replicas_mode GoogleRedisInstance#read_replicas_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#read_replicas_mode GoogleRedisInstance#read_replicas_mode}
 
 ---
 
@@ -343,7 +361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Redis configuration parameters, according to http://redis.io/topics/config. Please check Memorystore documentation for the list of supported parameters: https://cloud.google.com/memorystore/docs/redis/reference/rest/v1/projects.locations.instances#Instance.FIELDS.redis_configs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#redis_configs GoogleRedisInstance#redis_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#redis_configs GoogleRedisInstance#redis_configs}
 
 ---
 
@@ -357,7 +375,7 @@ If not provided, latest supported
 version will be used. Please check the API documentation linked
 at the top for the latest valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#redis_version GoogleRedisInstance#redis_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#redis_version GoogleRedisInstance#redis_version}
 
 ---
 
@@ -367,7 +385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Redis region of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#region GoogleRedisInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#region GoogleRedisInstance#region}
 
 ---
 
@@ -382,7 +400,7 @@ read replicas enabled is [1-5] and defaults to 2. If read replicas are not enabl
 for a Standard Tier instance, the only valid value is 1 and the default is 1.
 The valid value for basic tier is 0 and the default is also 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#replica_count GoogleRedisInstance#replica_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#replica_count GoogleRedisInstance#replica_count}
 
 ---
 
@@ -397,7 +415,7 @@ block, for example, 10.0.0.0/29 or 192.168.0.0/29. Ranges must be
 unique and non-overlapping with existing subnets in an authorized
 network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#reserved_ip_range GoogleRedisInstance#reserved_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#reserved_ip_range GoogleRedisInstance#reserved_ip_range}
 
 ---
 
@@ -412,7 +430,7 @@ an existing instance. For DIRECT_PEERING mode value must be a CIDR range of size
 "auto". For PRIVATE_SERVICE_ACCESS mode value must be the name of an allocated address
 range associated with the private service access connection, or "auto".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#secondary_ip_range GoogleRedisInstance#secondary_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#secondary_ip_range GoogleRedisInstance#secondary_ip_range}
 
 ---
 
@@ -425,7 +443,7 @@ The service tier of the instance. Must be one of these values:.
 * BASIC: standalone instance
 * STANDARD_HA: highly available primary/replica instances Default value: "BASIC" Possible values: ["BASIC", "STANDARD_HA"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#tier GoogleRedisInstance#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#tier GoogleRedisInstance#tier}
 
 ---
 
@@ -435,7 +453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#timeouts GoogleRedisInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#timeouts GoogleRedisInstance#timeouts}
 
 ---
 
@@ -447,7 +465,7 @@ The TLS mode of the Redis instance, If not provided, TLS is disabled for the ins
 
 * SERVER_AUTHENTICATION: Client to Server traffic encryption enabled with server authentication Default value: "DISABLED" Possible values: ["SERVER_AUTHENTICATION", "DISABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#transit_encryption_mode GoogleRedisInstance#transit_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#transit_encryption_mode GoogleRedisInstance#transit_encryption_mode}
 
 ---
 
@@ -487,6 +505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetAuthorizedNetwork">reset_authorized_network</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetConnectMode">reset_connect_mode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetCustomerManagedKey">reset_customer_managed_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetDeletionProtection">reset_deletion_protection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetDisplayName">reset_display_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetLabels">reset_labels</a></code> | *No description.* |
@@ -871,7 +890,7 @@ def put_maintenance_policy(
 
 Optional. Description of what this policy is for. Create/Update methods return INVALID_ARGUMENT if the length is greater than 512.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#description GoogleRedisInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#description GoogleRedisInstance#description}
 
 ---
 
@@ -881,7 +900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 weekly_maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#weekly_maintenance_window GoogleRedisInstance#weekly_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#weekly_maintenance_window GoogleRedisInstance#weekly_maintenance_window}
 
 ---
 
@@ -904,7 +923,7 @@ Optional. Controls whether Persistence features are enabled. If not provided, th
 * DISABLED: 	Persistence is disabled for the instance, and any existing snapshots are deleted.
 * RDB: RDB based Persistence is enabled. Possible values: ["DISABLED", "RDB"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#persistence_mode GoogleRedisInstance#persistence_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#persistence_mode GoogleRedisInstance#persistence_mode}
 
 ---
 
@@ -919,7 +938,7 @@ Optional. Available snapshot periods for scheduling.
 * TWELVE_HOURS:	Snapshot every 12 hours.
 * TWENTY_FOUR_HOURS:	Snapshot every 24 hours. Possible values: ["ONE_HOUR", "SIX_HOURS", "TWELVE_HOURS", "TWENTY_FOUR_HOURS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#rdb_snapshot_period GoogleRedisInstance#rdb_snapshot_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#rdb_snapshot_period GoogleRedisInstance#rdb_snapshot_period}
 
 ---
 
@@ -936,7 +955,7 @@ A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution
 and up to nine fractional digits.
 Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#rdb_snapshot_start_time GoogleRedisInstance#rdb_snapshot_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#rdb_snapshot_start_time GoogleRedisInstance#rdb_snapshot_start_time}
 
 ---
 
@@ -954,7 +973,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#create GoogleRedisInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#create GoogleRedisInstance#create}.
 
 ---
 
@@ -962,7 +981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#delete GoogleRedisInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#delete GoogleRedisInstance#delete}.
 
 ---
 
@@ -970,7 +989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#update GoogleRedisInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#update GoogleRedisInstance#update}.
 
 ---
 
@@ -1002,6 +1021,12 @@ def reset_connect_mode() -> None
 
 ```python
 def reset_customer_managed_key() -> None
+```
+
+##### `reset_deletion_protection` <a name="reset_deletion_protection" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetDeletionProtection"></a>
+
+```python
+def reset_deletion_protection() -> None
 ```
 
 ##### `reset_display_name` <a name="reset_display_name" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.resetDisplayName"></a>
@@ -1226,7 +1251,7 @@ The construct id used in the generated config for the GoogleRedisInstance to imp
 
 The id of the existing GoogleRedisInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1278,6 +1303,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.authorizedNetworkInput">authorized_network_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.connectModeInput">connect_mode_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.customerManagedKeyInput">customer_managed_key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.deletionProtectionInput">deletion_protection_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
@@ -1303,6 +1329,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.authorizedNetwork">authorized_network</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.connectMode">connect_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.customerManagedKey">customer_managed_key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
@@ -1685,6 +1712,16 @@ customer_managed_key_input: str
 
 ---
 
+##### `deletion_protection_input`<sup>Optional</sup> <a name="deletion_protection_input" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.deletionProtectionInput"></a>
+
+```python
+deletion_protection_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `display_name_input`<sup>Optional</sup> <a name="display_name_input" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.displayNameInput"></a>
 
 ```python
@@ -1935,6 +1972,16 @@ customer_managed_key: str
 
 ---
 
+##### `deletion_protection`<sup>Required</sup> <a name="deletion_protection" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.deletionProtection"></a>
+
+```python
+deletion_protection: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstance.property.displayName"></a>
 
 ```python
@@ -2147,6 +2194,7 @@ googleRedisInstance.GoogleRedisInstanceConfig(
   authorized_network: str = None,
   connect_mode: str = None,
   customer_managed_key: str = None,
+  deletion_protection: bool | IResolvable = None,
   display_name: str = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
@@ -2186,14 +2234,15 @@ googleRedisInstance.GoogleRedisInstanceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.authorizedNetwork">authorized_network</a></code> | <code>str</code> | The full name of the Google Compute Engine network to which the instance is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.connectMode">connect_mode</a></code> | <code>str</code> | The connection mode of the Redis instance. Default value: "DIRECT_PEERING" Possible values: ["DIRECT_PEERING", "PRIVATE_SERVICE_ACCESS"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.customerManagedKey">customer_managed_key</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.displayName">display_name</a></code> | <code>str</code> | An arbitrary and optional user-provided name for the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels to represent user provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.locationId">location_id</a></code> | <code>str</code> | The zone where the instance will be provisioned. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.maintenancePolicy">maintenance_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceMaintenancePolicy">GoogleRedisInstanceMaintenancePolicy</a></code> | maintenance_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.maintenanceVersion">maintenance_version</a></code> | <code>str</code> | The self service update maintenance version. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.persistenceConfig">persistence_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstancePersistenceConfig">GoogleRedisInstancePersistenceConfig</a></code> | persistence_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.readReplicasMode">read_replicas_mode</a></code> | <code>str</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.redisConfigs">redis_configs</a></code> | <code>typing.Mapping[str]</code> | Redis configuration parameters, according to http://redis.io/topics/config. Please check Memorystore documentation for the list of supported parameters: https://cloud.google.com/memorystore/docs/redis/reference/rest/v1/projects.locations.instances#Instance.FIELDS.redis_configs. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.redisVersion">redis_version</a></code> | <code>str</code> | The version of Redis software. |
@@ -2287,7 +2336,7 @@ memory_size_gb: typing.Union[int, float]
 
 Redis memory size in GiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#memory_size_gb GoogleRedisInstance#memory_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#memory_size_gb GoogleRedisInstance#memory_size_gb}
 
 ---
 
@@ -2301,7 +2350,7 @@ name: str
 
 The ID of the instance or a fully qualified identifier for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#name GoogleRedisInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#name GoogleRedisInstance#name}
 
 ---
 
@@ -2318,7 +2367,7 @@ Only applicable to STANDARD_HA tier which protects the instance against zonal fa
 If provided, it must be a different zone from the one provided in
 [locationId].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#alternative_location_id GoogleRedisInstance#alternative_location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#alternative_location_id GoogleRedisInstance#alternative_location_id}
 
 ---
 
@@ -2336,7 +2385,7 @@ Indicates whether OSS Redis AUTH is enabled for the
 instance. If set to "true" AUTH is enabled on the instance.
 Default value is "false" meaning AUTH is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#auth_enabled GoogleRedisInstance#auth_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#auth_enabled GoogleRedisInstance#auth_enabled}
 
 ---
 
@@ -2353,7 +2402,7 @@ The full name of the Google Compute Engine network to which the instance is conn
 If left unspecified, the default network
 will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#authorized_network GoogleRedisInstance#authorized_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#authorized_network GoogleRedisInstance#authorized_network}
 
 ---
 
@@ -2367,7 +2416,7 @@ connect_mode: str
 
 The connection mode of the Redis instance. Default value: "DIRECT_PEERING" Possible values: ["DIRECT_PEERING", "PRIVATE_SERVICE_ACCESS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#connect_mode GoogleRedisInstance#connect_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#connect_mode GoogleRedisInstance#connect_mode}
 
 ---
 
@@ -2384,7 +2433,27 @@ Optional.
 The KMS key reference that you want to use to encrypt the data at rest for this Redis
 instance. If this is provided, CMEK is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#customer_managed_key GoogleRedisInstance#customer_managed_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#customer_managed_key GoogleRedisInstance#customer_managed_key}
+
+---
+
+##### `deletion_protection`<sup>Optional</sup> <a name="deletion_protection" id="@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceConfig.property.deletionProtection"></a>
+
+```python
+deletion_protection: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether Terraform will be prevented from destroying the instance.
+
+When a'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is not set to false in Terraform state.
+When the field is set to true or unset in Terraform state, a 'terraform apply'
+or 'terraform destroy' that would delete the instance will fail.
+When the field is set to false, deleting the instance is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#deletion_protection GoogleRedisInstance#deletion_protection}
 
 ---
 
@@ -2398,7 +2467,7 @@ display_name: str
 
 An arbitrary and optional user-provided name for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#display_name GoogleRedisInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#display_name GoogleRedisInstance#display_name}
 
 ---
 
@@ -2410,7 +2479,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#id GoogleRedisInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2430,7 +2499,7 @@ Resource labels to represent user provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#labels GoogleRedisInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#labels GoogleRedisInstance#labels}
 
 ---
 
@@ -2450,7 +2519,7 @@ instances will be created across two zones for protection against
 zonal failures. If [alternativeLocationId] is also provided, it must
 be different from [locationId].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#location_id GoogleRedisInstance#location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#location_id GoogleRedisInstance#location_id}
 
 ---
 
@@ -2464,7 +2533,7 @@ maintenance_policy: GoogleRedisInstanceMaintenancePolicy
 
 maintenance_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#maintenance_policy GoogleRedisInstance#maintenance_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#maintenance_policy GoogleRedisInstance#maintenance_policy}
 
 ---
 
@@ -2478,7 +2547,7 @@ maintenance_version: str
 
 The self service update maintenance version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#maintenance_version GoogleRedisInstance#maintenance_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#maintenance_version GoogleRedisInstance#maintenance_version}
 
 ---
 
@@ -2492,7 +2561,7 @@ persistence_config: GoogleRedisInstancePersistenceConfig
 
 persistence_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#persistence_config GoogleRedisInstance#persistence_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#persistence_config GoogleRedisInstance#persistence_config}
 
 ---
 
@@ -2504,7 +2573,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#project GoogleRedisInstance#project}.
 
 ---
 
@@ -2526,7 +2595,7 @@ If not set, Memorystore Redis backend will default to READ_REPLICAS_DISABLED.
 * READ_REPLICAS_ENABLED: If enabled, read endpoint will be provided and the instance
   can scale up and down the number of replicas. Possible values: ["READ_REPLICAS_DISABLED", "READ_REPLICAS_ENABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#read_replicas_mode GoogleRedisInstance#read_replicas_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#read_replicas_mode GoogleRedisInstance#read_replicas_mode}
 
 ---
 
@@ -2540,7 +2609,7 @@ redis_configs: typing.Mapping[str]
 
 Redis configuration parameters, according to http://redis.io/topics/config. Please check Memorystore documentation for the list of supported parameters: https://cloud.google.com/memorystore/docs/redis/reference/rest/v1/projects.locations.instances#Instance.FIELDS.redis_configs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#redis_configs GoogleRedisInstance#redis_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#redis_configs GoogleRedisInstance#redis_configs}
 
 ---
 
@@ -2558,7 +2627,7 @@ If not provided, latest supported
 version will be used. Please check the API documentation linked
 at the top for the latest valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#redis_version GoogleRedisInstance#redis_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#redis_version GoogleRedisInstance#redis_version}
 
 ---
 
@@ -2572,7 +2641,7 @@ region: str
 
 The name of the Redis region of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#region GoogleRedisInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#region GoogleRedisInstance#region}
 
 ---
 
@@ -2591,7 +2660,7 @@ read replicas enabled is [1-5] and defaults to 2. If read replicas are not enabl
 for a Standard Tier instance, the only valid value is 1 and the default is 1.
 The valid value for basic tier is 0 and the default is also 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#replica_count GoogleRedisInstance#replica_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#replica_count GoogleRedisInstance#replica_count}
 
 ---
 
@@ -2610,7 +2679,7 @@ block, for example, 10.0.0.0/29 or 192.168.0.0/29. Ranges must be
 unique and non-overlapping with existing subnets in an authorized
 network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#reserved_ip_range GoogleRedisInstance#reserved_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#reserved_ip_range GoogleRedisInstance#reserved_ip_range}
 
 ---
 
@@ -2629,7 +2698,7 @@ an existing instance. For DIRECT_PEERING mode value must be a CIDR range of size
 "auto". For PRIVATE_SERVICE_ACCESS mode value must be the name of an allocated address
 range associated with the private service access connection, or "auto".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#secondary_ip_range GoogleRedisInstance#secondary_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#secondary_ip_range GoogleRedisInstance#secondary_ip_range}
 
 ---
 
@@ -2646,7 +2715,7 @@ The service tier of the instance. Must be one of these values:.
 * BASIC: standalone instance
 * STANDARD_HA: highly available primary/replica instances Default value: "BASIC" Possible values: ["BASIC", "STANDARD_HA"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#tier GoogleRedisInstance#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#tier GoogleRedisInstance#tier}
 
 ---
 
@@ -2660,7 +2729,7 @@ timeouts: GoogleRedisInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#timeouts GoogleRedisInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#timeouts GoogleRedisInstance#timeouts}
 
 ---
 
@@ -2676,7 +2745,7 @@ The TLS mode of the Redis instance, If not provided, TLS is disabled for the ins
 
 * SERVER_AUTHENTICATION: Client to Server traffic encryption enabled with server authentication Default value: "DISABLED" Possible values: ["SERVER_AUTHENTICATION", "DISABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#transit_encryption_mode GoogleRedisInstance#transit_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#transit_encryption_mode GoogleRedisInstance#transit_encryption_mode}
 
 ---
 
@@ -2712,7 +2781,7 @@ description: str
 
 Optional. Description of what this policy is for. Create/Update methods return INVALID_ARGUMENT if the length is greater than 512.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#description GoogleRedisInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#description GoogleRedisInstance#description}
 
 ---
 
@@ -2726,7 +2795,7 @@ weekly_maintenance_window: IResolvable | typing.List[GoogleRedisInstanceMaintena
 
 weekly_maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#weekly_maintenance_window GoogleRedisInstance#weekly_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#weekly_maintenance_window GoogleRedisInstance#weekly_maintenance_window}
 
 ---
 
@@ -2771,7 +2840,7 @@ Required. The day of week that maintenance updates occur.
 * SATURDAY: Saturday
 * SUNDAY: Sunday Possible values: ["DAY_OF_WEEK_UNSPECIFIED", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#day GoogleRedisInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#day GoogleRedisInstance#day}
 
 ---
 
@@ -2785,7 +2854,7 @@ start_time: GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTime
 
 start_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#start_time GoogleRedisInstance#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#start_time GoogleRedisInstance#start_time}
 
 ---
 
@@ -2828,7 +2897,7 @@ Hours of day in 24 hour format.
 Should be from 0 to 23.
 An API may choose to allow the value "24:00:00" for scenarios like business closing time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#hours GoogleRedisInstance#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#hours GoogleRedisInstance#hours}
 
 ---
 
@@ -2842,7 +2911,7 @@ minutes: typing.Union[int, float]
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#minutes GoogleRedisInstance#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#minutes GoogleRedisInstance#minutes}
 
 ---
 
@@ -2856,7 +2925,7 @@ nanos: typing.Union[int, float]
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#nanos GoogleRedisInstance#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#nanos GoogleRedisInstance#nanos}
 
 ---
 
@@ -2873,7 +2942,7 @@ Seconds of minutes of the time.
 Must normally be from 0 to 59.
 An API may allow the value 60 if it allows leap-seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#seconds GoogleRedisInstance#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#seconds GoogleRedisInstance#seconds}
 
 ---
 
@@ -2936,7 +3005,7 @@ Optional. Controls whether Persistence features are enabled. If not provided, th
 * DISABLED: 	Persistence is disabled for the instance, and any existing snapshots are deleted.
 * RDB: RDB based Persistence is enabled. Possible values: ["DISABLED", "RDB"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#persistence_mode GoogleRedisInstance#persistence_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#persistence_mode GoogleRedisInstance#persistence_mode}
 
 ---
 
@@ -2955,7 +3024,7 @@ Optional. Available snapshot periods for scheduling.
 * TWELVE_HOURS:	Snapshot every 12 hours.
 * TWENTY_FOUR_HOURS:	Snapshot every 24 hours. Possible values: ["ONE_HOUR", "SIX_HOURS", "TWELVE_HOURS", "TWENTY_FOUR_HOURS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#rdb_snapshot_period GoogleRedisInstance#rdb_snapshot_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#rdb_snapshot_period GoogleRedisInstance#rdb_snapshot_period}
 
 ---
 
@@ -2976,7 +3045,7 @@ A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution
 and up to nine fractional digits.
 Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#rdb_snapshot_start_time GoogleRedisInstance#rdb_snapshot_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#rdb_snapshot_start_time GoogleRedisInstance#rdb_snapshot_start_time}
 
 ---
 
@@ -3009,9 +3078,9 @@ googleRedisInstance.GoogleRedisInstanceTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#create GoogleRedisInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#delete GoogleRedisInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#update GoogleRedisInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#create GoogleRedisInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#delete GoogleRedisInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisInstance.GoogleRedisInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#update GoogleRedisInstance#update}. |
 
 ---
 
@@ -3023,7 +3092,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#create GoogleRedisInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#create GoogleRedisInstance#create}.
 
 ---
 
@@ -3035,7 +3104,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#delete GoogleRedisInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#delete GoogleRedisInstance#delete}.
 
 ---
 
@@ -3047,7 +3116,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#update GoogleRedisInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#update GoogleRedisInstance#update}.
 
 ---
 
@@ -3861,7 +3930,7 @@ Hours of day in 24 hour format.
 Should be from 0 to 23.
 An API may choose to allow the value "24:00:00" for scenarios like business closing time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#hours GoogleRedisInstance#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#hours GoogleRedisInstance#hours}
 
 ---
 
@@ -3871,7 +3940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#minutes GoogleRedisInstance#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#minutes GoogleRedisInstance#minutes}
 
 ---
 
@@ -3881,7 +3950,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#nanos GoogleRedisInstance#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#nanos GoogleRedisInstance#nanos}
 
 ---
 
@@ -3894,7 +3963,7 @@ Seconds of minutes of the time.
 Must normally be from 0 to 59.
 An API may allow the value 60 if it allows leap-seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_redis_instance#seconds GoogleRedisInstance#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_redis_instance#seconds GoogleRedisInstance#seconds}
 
 ---
 

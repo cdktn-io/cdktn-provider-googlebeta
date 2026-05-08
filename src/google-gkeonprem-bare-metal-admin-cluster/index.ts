@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -26,23 +26,23 @@ export interface GoogleGkeonpremBareMetalAdminClusterConfig extends cdktn.Terraf
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#annotations GoogleGkeonpremBareMetalAdminCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#annotations GoogleGkeonpremBareMetalAdminCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * A human readable description of this Bare Metal Admin Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#bare_metal_version GoogleGkeonpremBareMetalAdminCluster#bare_metal_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#bare_metal_version GoogleGkeonpremBareMetalAdminCluster#bare_metal_version}
   */
   readonly bareMetalVersion?: string;
   /**
   * A human readable description of this Bare Metal Admin Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#description GoogleGkeonpremBareMetalAdminCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#description GoogleGkeonpremBareMetalAdminCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#id GoogleGkeonpremBareMetalAdminCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#id GoogleGkeonpremBareMetalAdminCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,83 +51,83 @@ export interface GoogleGkeonpremBareMetalAdminClusterConfig extends cdktn.Terraf
   /**
   * The location of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#location GoogleGkeonpremBareMetalAdminCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#location GoogleGkeonpremBareMetalAdminCluster#location}
   */
   readonly location: string;
   /**
   * The bare metal admin cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#name GoogleGkeonpremBareMetalAdminCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#name GoogleGkeonpremBareMetalAdminCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#project GoogleGkeonpremBareMetalAdminCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#project GoogleGkeonpremBareMetalAdminCluster#project}
   */
   readonly project?: string;
   /**
   * cluster_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#cluster_operations GoogleGkeonpremBareMetalAdminCluster#cluster_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#cluster_operations GoogleGkeonpremBareMetalAdminCluster#cluster_operations}
   */
   readonly clusterOperations?: GoogleGkeonpremBareMetalAdminClusterClusterOperations;
   /**
   * control_plane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane GoogleGkeonpremBareMetalAdminCluster#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane GoogleGkeonpremBareMetalAdminCluster#control_plane}
   */
   readonly controlPlane?: GoogleGkeonpremBareMetalAdminClusterControlPlane;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#load_balancer GoogleGkeonpremBareMetalAdminCluster#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#load_balancer GoogleGkeonpremBareMetalAdminCluster#load_balancer}
   */
   readonly loadBalancer?: GoogleGkeonpremBareMetalAdminClusterLoadBalancer;
   /**
   * maintenance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#maintenance_config GoogleGkeonpremBareMetalAdminCluster#maintenance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#maintenance_config GoogleGkeonpremBareMetalAdminCluster#maintenance_config}
   */
   readonly maintenanceConfig?: GoogleGkeonpremBareMetalAdminClusterMaintenanceConfig;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#network_config GoogleGkeonpremBareMetalAdminCluster#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#network_config GoogleGkeonpremBareMetalAdminCluster#network_config}
   */
   readonly networkConfig?: GoogleGkeonpremBareMetalAdminClusterNetworkConfig;
   /**
   * node_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_access_config GoogleGkeonpremBareMetalAdminCluster#node_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_access_config GoogleGkeonpremBareMetalAdminCluster#node_access_config}
   */
   readonly nodeAccessConfig?: GoogleGkeonpremBareMetalAdminClusterNodeAccessConfig;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_config GoogleGkeonpremBareMetalAdminCluster#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_config GoogleGkeonpremBareMetalAdminCluster#node_config}
   */
   readonly nodeConfig?: GoogleGkeonpremBareMetalAdminClusterNodeConfig;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#proxy GoogleGkeonpremBareMetalAdminCluster#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#proxy GoogleGkeonpremBareMetalAdminCluster#proxy}
   */
   readonly proxy?: GoogleGkeonpremBareMetalAdminClusterProxy;
   /**
   * security_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#security_config GoogleGkeonpremBareMetalAdminCluster#security_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#security_config GoogleGkeonpremBareMetalAdminCluster#security_config}
   */
   readonly securityConfig?: GoogleGkeonpremBareMetalAdminClusterSecurityConfig;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#storage GoogleGkeonpremBareMetalAdminCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#storage GoogleGkeonpremBareMetalAdminCluster#storage}
   */
   readonly storage?: GoogleGkeonpremBareMetalAdminClusterStorage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#timeouts GoogleGkeonpremBareMetalAdminCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#timeouts GoogleGkeonpremBareMetalAdminCluster#timeouts}
   */
   readonly timeouts?: GoogleGkeonpremBareMetalAdminClusterTimeouts;
 }
@@ -643,7 +643,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterClusterOperations {
   /**
   * Whether collection of application logs/metrics should be enabled (in addition to system logs/metrics).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#enable_application_logs GoogleGkeonpremBareMetalAdminCluster#enable_application_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#enable_application_logs GoogleGkeonpremBareMetalAdminCluster#enable_application_logs}
   */
   readonly enableApplicationLogs?: boolean | cdktn.IResolvable;
 }
@@ -729,13 +729,13 @@ export interface GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgs {
   /**
   * The argument name as it appears on the API Server command line please make sure to remove the leading dashes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#argument GoogleGkeonpremBareMetalAdminCluster#argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#argument GoogleGkeonpremBareMetalAdminCluster#argument}
   */
   readonly argument: string;
   /**
   * The value of the arg as it will be passed to the API Server command line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#value GoogleGkeonpremBareMetalAdminCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#value GoogleGkeonpremBareMetalAdminCluster#value}
   */
   readonly value: string;
 }
@@ -885,14 +885,14 @@ export interface GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNod
   * An object containing a list of "key": value pairs.
   * For example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#labels GoogleGkeonpremBareMetalAdminCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#labels GoogleGkeonpremBareMetalAdminCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The default IPv4 address for SSH access and Kubernetes node.
   * Example: 192.168.0.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_ip GoogleGkeonpremBareMetalAdminCluster#node_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_ip GoogleGkeonpremBareMetalAdminCluster#node_ip}
   */
   readonly nodeIp?: string;
 }
@@ -1039,19 +1039,19 @@ export interface GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNod
   /**
   * Specifies the nodes operating system (default: LINUX). Possible values: ["EFFECT_UNSPECIFIED", "PREFER_NO_SCHEDULE", "NO_EXECUTE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#effect GoogleGkeonpremBareMetalAdminCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#effect GoogleGkeonpremBareMetalAdminCluster#effect}
   */
   readonly effect?: string;
   /**
   * Key associated with the effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#key GoogleGkeonpremBareMetalAdminCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#key GoogleGkeonpremBareMetalAdminCluster#key}
   */
   readonly key?: string;
   /**
   * Value associated with the effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#value GoogleGkeonpremBareMetalAdminCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#value GoogleGkeonpremBareMetalAdminCluster#value}
   */
   readonly value?: string;
 }
@@ -1236,25 +1236,25 @@ export interface GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNod
   * An object containing a list of "key": value pairs.
   * For example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#labels GoogleGkeonpremBareMetalAdminCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#labels GoogleGkeonpremBareMetalAdminCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specifies the nodes operating system (default: LINUX).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#operating_system GoogleGkeonpremBareMetalAdminCluster#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#operating_system GoogleGkeonpremBareMetalAdminCluster#operating_system}
   */
   readonly operatingSystem?: string;
   /**
   * node_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_configs GoogleGkeonpremBareMetalAdminCluster#node_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_configs GoogleGkeonpremBareMetalAdminCluster#node_configs}
   */
   readonly nodeConfigs?: GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigs[] | cdktn.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#taints GoogleGkeonpremBareMetalAdminCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#taints GoogleGkeonpremBareMetalAdminCluster#taints}
   */
   readonly taints?: GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaints[] | cdktn.IResolvable;
 }
@@ -1427,7 +1427,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNod
   /**
   * node_pool_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_pool_config GoogleGkeonpremBareMetalAdminCluster#node_pool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_pool_config GoogleGkeonpremBareMetalAdminCluster#node_pool_config}
   */
   readonly nodePoolConfig: GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfig;
 }
@@ -1510,13 +1510,13 @@ export interface GoogleGkeonpremBareMetalAdminClusterControlPlane {
   /**
   * api_server_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#api_server_args GoogleGkeonpremBareMetalAdminCluster#api_server_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#api_server_args GoogleGkeonpremBareMetalAdminCluster#api_server_args}
   */
   readonly apiServerArgs?: GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgs[] | cdktn.IResolvable;
   /**
   * control_plane_node_pool_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane_node_pool_config GoogleGkeonpremBareMetalAdminCluster#control_plane_node_pool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane_node_pool_config GoogleGkeonpremBareMetalAdminCluster#control_plane_node_pool_config}
   */
   readonly controlPlaneNodePoolConfig: GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfig;
 }
@@ -1624,11 +1624,1412 @@ export class GoogleGkeonpremBareMetalAdminClusterControlPlaneOutputReference ext
     return this._controlPlaneNodePoolConfig.internalValue;
   }
 }
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools {
+  /**
+  * The addresses that are part of this pool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#addresses GoogleGkeonpremBareMetalAdminCluster#addresses}
+  */
+  readonly addresses?: string[];
+  /**
+  * This avoids buggy consumer devices mistakenly
+  * dropping IPv4 traffic for those special IP addresses.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#avoid_buggy_ips GoogleGkeonpremBareMetalAdminCluster#avoid_buggy_ips}
+  */
+  readonly avoidBuggyIps?: boolean | cdktn.IResolvable;
+  /**
+  * If true, prevent IP addresses from being automatically assigned.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#manual_assign GoogleGkeonpremBareMetalAdminCluster#manual_assign}
+  */
+  readonly manualAssign?: boolean | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#pool GoogleGkeonpremBareMetalAdminCluster#pool}
+  */
+  readonly pool?: string;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.addresses),
+    avoid_buggy_ips: cdktn.booleanToTerraform(struct!.avoidBuggyIps),
+    manual_assign: cdktn.booleanToTerraform(struct!.manualAssign),
+    pool: cdktn.stringToTerraform(struct!.pool),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addresses: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.addresses),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    avoid_buggy_ips: {
+      value: cdktn.booleanToHclTerraform(struct!.avoidBuggyIps),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    manual_assign: {
+      value: cdktn.booleanToHclTerraform(struct!.manualAssign),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    pool: {
+      value: cdktn.stringToHclTerraform(struct!.pool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addresses !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addresses = this._addresses;
+    }
+    if (this._avoidBuggyIps !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.avoidBuggyIps = this._avoidBuggyIps;
+    }
+    if (this._manualAssign !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manualAssign = this._manualAssign;
+    }
+    if (this._pool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pool = this._pool;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addresses = undefined;
+      this._avoidBuggyIps = undefined;
+      this._manualAssign = undefined;
+      this._pool = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addresses = value.addresses;
+      this._avoidBuggyIps = value.avoidBuggyIps;
+      this._manualAssign = value.manualAssign;
+      this._pool = value.pool;
+    }
+  }
+
+  // addresses - computed: false, optional: true, required: false
+  private _addresses?: string[]; 
+  public get addresses() {
+    return this.getListAttribute('addresses');
+  }
+  public set addresses(value: string[]) {
+    this._addresses = value;
+  }
+  public resetAddresses() {
+    this._addresses = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressesInput() {
+    return this._addresses;
+  }
+
+  // avoid_buggy_ips - computed: false, optional: true, required: false
+  private _avoidBuggyIps?: boolean | cdktn.IResolvable; 
+  public get avoidBuggyIps() {
+    return this.getBooleanAttribute('avoid_buggy_ips');
+  }
+  public set avoidBuggyIps(value: boolean | cdktn.IResolvable) {
+    this._avoidBuggyIps = value;
+  }
+  public resetAvoidBuggyIps() {
+    this._avoidBuggyIps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get avoidBuggyIpsInput() {
+    return this._avoidBuggyIps;
+  }
+
+  // manual_assign - computed: false, optional: true, required: false
+  private _manualAssign?: boolean | cdktn.IResolvable; 
+  public get manualAssign() {
+    return this.getBooleanAttribute('manual_assign');
+  }
+  public set manualAssign(value: boolean | cdktn.IResolvable) {
+    this._manualAssign = value;
+  }
+  public resetManualAssign() {
+    this._manualAssign = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualAssignInput() {
+    return this._manualAssign;
+  }
+
+  // pool - computed: false, optional: true, required: false
+  private _pool?: string; 
+  public get pool() {
+    return this.getStringAttribute('pool');
+  }
+  public set pool(value: string) {
+    this._pool = value;
+  }
+  public resetPool() {
+    this._pool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolInput() {
+    return this._pool;
+  }
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsOutputReference {
+    return new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#asn GoogleGkeonpremBareMetalAdminCluster#asn}
+  */
+  readonly asn?: number;
+  /**
+  * The IP address of the control plane node that
+  * connects to the external peer.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane_nodes GoogleGkeonpremBareMetalAdminCluster#control_plane_nodes}
+  */
+  readonly controlPlaneNodes?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#ip_address GoogleGkeonpremBareMetalAdminCluster#ip_address}
+  */
+  readonly ipAddress?: string;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    asn: cdktn.numberToTerraform(struct!.asn),
+    control_plane_nodes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.controlPlaneNodes),
+    ip_address: cdktn.stringToTerraform(struct!.ipAddress),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    asn: {
+      value: cdktn.numberToHclTerraform(struct!.asn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    control_plane_nodes: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.controlPlaneNodes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    ip_address: {
+      value: cdktn.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._asn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.asn = this._asn;
+    }
+    if (this._controlPlaneNodes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.controlPlaneNodes = this._controlPlaneNodes;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._asn = undefined;
+      this._controlPlaneNodes = undefined;
+      this._ipAddress = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._asn = value.asn;
+      this._controlPlaneNodes = value.controlPlaneNodes;
+      this._ipAddress = value.ipAddress;
+    }
+  }
+
+  // asn - computed: false, optional: true, required: false
+  private _asn?: number; 
+  public get asn() {
+    return this.getNumberAttribute('asn');
+  }
+  public set asn(value: number) {
+    this._asn = value;
+  }
+  public resetAsn() {
+    this._asn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get asnInput() {
+    return this._asn;
+  }
+
+  // control_plane_nodes - computed: false, optional: true, required: false
+  private _controlPlaneNodes?: string[]; 
+  public get controlPlaneNodes() {
+    return this.getListAttribute('control_plane_nodes');
+  }
+  public set controlPlaneNodes(value: string[]) {
+    this._controlPlaneNodes = value;
+  }
+  public resetControlPlaneNodes() {
+    this._controlPlaneNodes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get controlPlaneNodesInput() {
+    return this._controlPlaneNodes;
+  }
+
+  // ip_address - computed: false, optional: true, required: false
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  public resetIpAddress() {
+    this._ipAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsOutputReference {
+    return new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#registry_burst GoogleGkeonpremBareMetalAdminCluster#registry_burst}
+  */
+  readonly registryBurst?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#registry_pull_qps GoogleGkeonpremBareMetalAdminCluster#registry_pull_qps}
+  */
+  readonly registryPullQps?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#serialize_image_pulls_disabled GoogleGkeonpremBareMetalAdminCluster#serialize_image_pulls_disabled}
+  */
+  readonly serializeImagePullsDisabled?: boolean | cdktn.IResolvable;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    registry_burst: cdktn.numberToTerraform(struct!.registryBurst),
+    registry_pull_qps: cdktn.numberToTerraform(struct!.registryPullQps),
+    serialize_image_pulls_disabled: cdktn.booleanToTerraform(struct!.serializeImagePullsDisabled),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    registry_burst: {
+      value: cdktn.numberToHclTerraform(struct!.registryBurst),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    registry_pull_qps: {
+      value: cdktn.numberToHclTerraform(struct!.registryPullQps),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    serialize_image_pulls_disabled: {
+      value: cdktn.booleanToHclTerraform(struct!.serializeImagePullsDisabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._registryBurst !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.registryBurst = this._registryBurst;
+    }
+    if (this._registryPullQps !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.registryPullQps = this._registryPullQps;
+    }
+    if (this._serializeImagePullsDisabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serializeImagePullsDisabled = this._serializeImagePullsDisabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._registryBurst = undefined;
+      this._registryPullQps = undefined;
+      this._serializeImagePullsDisabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._registryBurst = value.registryBurst;
+      this._registryPullQps = value.registryPullQps;
+      this._serializeImagePullsDisabled = value.serializeImagePullsDisabled;
+    }
+  }
+
+  // registry_burst - computed: false, optional: true, required: false
+  private _registryBurst?: number; 
+  public get registryBurst() {
+    return this.getNumberAttribute('registry_burst');
+  }
+  public set registryBurst(value: number) {
+    this._registryBurst = value;
+  }
+  public resetRegistryBurst() {
+    this._registryBurst = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get registryBurstInput() {
+    return this._registryBurst;
+  }
+
+  // registry_pull_qps - computed: false, optional: true, required: false
+  private _registryPullQps?: number; 
+  public get registryPullQps() {
+    return this.getNumberAttribute('registry_pull_qps');
+  }
+  public set registryPullQps(value: number) {
+    this._registryPullQps = value;
+  }
+  public resetRegistryPullQps() {
+    this._registryPullQps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get registryPullQpsInput() {
+    return this._registryPullQps;
+  }
+
+  // serialize_image_pulls_disabled - computed: false, optional: true, required: false
+  private _serializeImagePullsDisabled?: boolean | cdktn.IResolvable; 
+  public get serializeImagePullsDisabled() {
+    return this.getBooleanAttribute('serialize_image_pulls_disabled');
+  }
+  public set serializeImagePullsDisabled(value: boolean | cdktn.IResolvable) {
+    this._serializeImagePullsDisabled = value;
+  }
+  public resetSerializeImagePullsDisabled() {
+    this._serializeImagePullsDisabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serializeImagePullsDisabledInput() {
+    return this._serializeImagePullsDisabled;
+  }
+}
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs {
+  /**
+  * The labels assigned to nodes of this node pool.
+  * An object containing a list of key/value pairs.
+  * Example:
+  * { "name": "wrench", "mass": "1.3kg", "count": "3" }.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#labels GoogleGkeonpremBareMetalAdminCluster#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_ip GoogleGkeonpremBareMetalAdminCluster#node_ip}
+  */
+  readonly nodeIp?: string;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    node_ip: cdktn.stringToTerraform(struct!.nodeIp),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    labels: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    node_ip: {
+      value: cdktn.stringToHclTerraform(struct!.nodeIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._nodeIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeIp = this._nodeIp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._labels = undefined;
+      this._nodeIp = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._labels = value.labels;
+      this._nodeIp = value.nodeIp;
+    }
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // node_ip - computed: false, optional: true, required: false
+  private _nodeIp?: string; 
+  public get nodeIp() {
+    return this.getStringAttribute('node_ip');
+  }
+  public set nodeIp(value: string) {
+    this._nodeIp = value;
+  }
+  public resetNodeIp() {
+    this._nodeIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeIpInput() {
+    return this._nodeIp;
+  }
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsOutputReference {
+    return new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints {
+  /**
+  * Available taint effects.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#effect GoogleGkeonpremBareMetalAdminCluster#effect}
+  */
+  readonly effect?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#key GoogleGkeonpremBareMetalAdminCluster#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#value GoogleGkeonpremBareMetalAdminCluster#value}
+  */
+  readonly value?: string;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    effect: cdktn.stringToTerraform(struct!.effect),
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    effect: {
+      value: cdktn.stringToHclTerraform(struct!.effect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._effect !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.effect = this._effect;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._effect = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._effect = value.effect;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // effect - computed: false, optional: true, required: false
+  private _effect?: string; 
+  public get effect() {
+    return this.getStringAttribute('effect');
+  }
+  public set effect(value: string) {
+    this._effect = value;
+  }
+  public resetEffect() {
+    this._effect = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get effectInput() {
+    return this._effect;
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsOutputReference {
+    return new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfig {
+  /**
+  * The labels assigned to nodes of this node pool.
+  * An object containing a list of key/value pairs.
+  * Example:
+  * { "name": "wrench", "mass": "1.3kg", "count": "3" }.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#labels GoogleGkeonpremBareMetalAdminCluster#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * The available Operating Systems to be run in a Node.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#operating_system GoogleGkeonpremBareMetalAdminCluster#operating_system}
+  */
+  readonly operatingSystem?: string;
+  /**
+  * kubelet_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#kubelet_config GoogleGkeonpremBareMetalAdminCluster#kubelet_config}
+  */
+  readonly kubeletConfig?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfig;
+  /**
+  * node_configs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_configs GoogleGkeonpremBareMetalAdminCluster#node_configs}
+  */
+  readonly nodeConfigs?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs[] | cdktn.IResolvable;
+  /**
+  * taints block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#taints GoogleGkeonpremBareMetalAdminCluster#taints}
+  */
+  readonly taints?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints[] | cdktn.IResolvable;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    operating_system: cdktn.stringToTerraform(struct!.operatingSystem),
+    kubelet_config: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigToTerraform(struct!.kubeletConfig),
+    node_configs: cdktn.listMapper(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsToTerraform, true)(struct!.nodeConfigs),
+    taints: cdktn.listMapper(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsToTerraform, true)(struct!.taints),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    labels: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    operating_system: {
+      value: cdktn.stringToHclTerraform(struct!.operatingSystem),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    kubelet_config: {
+      value: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigToHclTerraform(struct!.kubeletConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigList",
+    },
+    node_configs: {
+      value: cdktn.listMapperHcl(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsToHclTerraform, true)(struct!.nodeConfigs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsList",
+    },
+    taints: {
+      value: cdktn.listMapperHcl(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsToHclTerraform, true)(struct!.taints),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._operatingSystem !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operatingSystem = this._operatingSystem;
+    }
+    if (this._kubeletConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kubeletConfig = this._kubeletConfig?.internalValue;
+    }
+    if (this._nodeConfigs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeConfigs = this._nodeConfigs?.internalValue;
+    }
+    if (this._taints?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taints = this._taints?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._labels = undefined;
+      this._operatingSystem = undefined;
+      this._kubeletConfig.internalValue = undefined;
+      this._nodeConfigs.internalValue = undefined;
+      this._taints.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._labels = value.labels;
+      this._operatingSystem = value.operatingSystem;
+      this._kubeletConfig.internalValue = value.kubeletConfig;
+      this._nodeConfigs.internalValue = value.nodeConfigs;
+      this._taints.internalValue = value.taints;
+    }
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // operating_system - computed: false, optional: true, required: false
+  private _operatingSystem?: string; 
+  public get operatingSystem() {
+    return this.getStringAttribute('operating_system');
+  }
+  public set operatingSystem(value: string) {
+    this._operatingSystem = value;
+  }
+  public resetOperatingSystem() {
+    this._operatingSystem = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatingSystemInput() {
+    return this._operatingSystem;
+  }
+
+  // kubelet_config - computed: false, optional: true, required: false
+  private _kubeletConfig = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigOutputReference(this, "kubelet_config");
+  public get kubeletConfig() {
+    return this._kubeletConfig;
+  }
+  public putKubeletConfig(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfig) {
+    this._kubeletConfig.internalValue = value;
+  }
+  public resetKubeletConfig() {
+    this._kubeletConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kubeletConfigInput() {
+    return this._kubeletConfig.internalValue;
+  }
+
+  // node_configs - computed: false, optional: true, required: false
+  private _nodeConfigs = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsList(this, "node_configs", false);
+  public get nodeConfigs() {
+    return this._nodeConfigs;
+  }
+  public putNodeConfigs(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigs[] | cdktn.IResolvable) {
+    this._nodeConfigs.internalValue = value;
+  }
+  public resetNodeConfigs() {
+    this._nodeConfigs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeConfigsInput() {
+    return this._nodeConfigs.internalValue;
+  }
+
+  // taints - computed: false, optional: true, required: false
+  private _taints = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsList(this, "taints", false);
+  public get taints() {
+    return this._taints;
+  }
+  public putTaints(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaints[] | cdktn.IResolvable) {
+    this._taints.internalValue = value;
+  }
+  public resetTaints() {
+    this._taints.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taintsInput() {
+    return this._taints.internalValue;
+  }
+}
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfig {
+  /**
+  * node_pool_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#node_pool_config GoogleGkeonpremBareMetalAdminCluster#node_pool_config}
+  */
+  readonly nodePoolConfig?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfig;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    node_pool_config: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigToTerraform(struct!.nodePoolConfig),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    node_pool_config: {
+      value: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigToHclTerraform(struct!.nodePoolConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._nodePoolConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodePoolConfig = this._nodePoolConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._nodePoolConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._nodePoolConfig.internalValue = value.nodePoolConfig;
+    }
+  }
+
+  // node_pool_config - computed: false, optional: true, required: false
+  private _nodePoolConfig = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigOutputReference(this, "node_pool_config");
+  public get nodePoolConfig() {
+    return this._nodePoolConfig;
+  }
+  public putNodePoolConfig(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfig) {
+    this._nodePoolConfig.internalValue = value;
+  }
+  public resetNodePoolConfig() {
+    this._nodePoolConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolConfigInput() {
+    return this._nodePoolConfig.internalValue;
+  }
+}
+export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfig {
+  /**
+  * BGP autonomous system number (ASN) of the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#asn GoogleGkeonpremBareMetalAdminCluster#asn}
+  */
+  readonly asn?: number;
+  /**
+  * address_pools block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#address_pools GoogleGkeonpremBareMetalAdminCluster#address_pools}
+  */
+  readonly addressPools?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools[] | cdktn.IResolvable;
+  /**
+  * bgp_peer_configs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#bgp_peer_configs GoogleGkeonpremBareMetalAdminCluster#bgp_peer_configs}
+  */
+  readonly bgpPeerConfigs?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs[] | cdktn.IResolvable;
+  /**
+  * load_balancer_node_pool_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#load_balancer_node_pool_config GoogleGkeonpremBareMetalAdminCluster#load_balancer_node_pool_config}
+  */
+  readonly loadBalancerNodePoolConfig?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfig;
+}
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    asn: cdktn.numberToTerraform(struct!.asn),
+    address_pools: cdktn.listMapper(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsToTerraform, true)(struct!.addressPools),
+    bgp_peer_configs: cdktn.listMapper(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsToTerraform, true)(struct!.bgpPeerConfigs),
+    load_balancer_node_pool_config: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigToTerraform(struct!.loadBalancerNodePoolConfig),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    asn: {
+      value: cdktn.numberToHclTerraform(struct!.asn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    address_pools: {
+      value: cdktn.listMapperHcl(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsToHclTerraform, true)(struct!.addressPools),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsList",
+    },
+    bgp_peer_configs: {
+      value: cdktn.listMapperHcl(googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsToHclTerraform, true)(struct!.bgpPeerConfigs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsList",
+    },
+    load_balancer_node_pool_config: {
+      value: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigToHclTerraform(struct!.loadBalancerNodePoolConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._asn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.asn = this._asn;
+    }
+    if (this._addressPools?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addressPools = this._addressPools?.internalValue;
+    }
+    if (this._bgpPeerConfigs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bgpPeerConfigs = this._bgpPeerConfigs?.internalValue;
+    }
+    if (this._loadBalancerNodePoolConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancerNodePoolConfig = this._loadBalancerNodePoolConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._asn = undefined;
+      this._addressPools.internalValue = undefined;
+      this._bgpPeerConfigs.internalValue = undefined;
+      this._loadBalancerNodePoolConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._asn = value.asn;
+      this._addressPools.internalValue = value.addressPools;
+      this._bgpPeerConfigs.internalValue = value.bgpPeerConfigs;
+      this._loadBalancerNodePoolConfig.internalValue = value.loadBalancerNodePoolConfig;
+    }
+  }
+
+  // asn - computed: false, optional: true, required: false
+  private _asn?: number; 
+  public get asn() {
+    return this.getNumberAttribute('asn');
+  }
+  public set asn(value: number) {
+    this._asn = value;
+  }
+  public resetAsn() {
+    this._asn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get asnInput() {
+    return this._asn;
+  }
+
+  // address_pools - computed: false, optional: true, required: false
+  private _addressPools = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPoolsList(this, "address_pools", false);
+  public get addressPools() {
+    return this._addressPools;
+  }
+  public putAddressPools(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigAddressPools[] | cdktn.IResolvable) {
+    this._addressPools.internalValue = value;
+  }
+  public resetAddressPools() {
+    this._addressPools.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressPoolsInput() {
+    return this._addressPools.internalValue;
+  }
+
+  // bgp_peer_configs - computed: false, optional: true, required: false
+  private _bgpPeerConfigs = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigsList(this, "bgp_peer_configs", false);
+  public get bgpPeerConfigs() {
+    return this._bgpPeerConfigs;
+  }
+  public putBgpPeerConfigs(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigBgpPeerConfigs[] | cdktn.IResolvable) {
+    this._bgpPeerConfigs.internalValue = value;
+  }
+  public resetBgpPeerConfigs() {
+    this._bgpPeerConfigs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bgpPeerConfigsInput() {
+    return this._bgpPeerConfigs.internalValue;
+  }
+
+  // load_balancer_node_pool_config - computed: false, optional: true, required: false
+  private _loadBalancerNodePoolConfig = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigOutputReference(this, "load_balancer_node_pool_config");
+  public get loadBalancerNodePoolConfig() {
+    return this._loadBalancerNodePoolConfig;
+  }
+  public putLoadBalancerNodePoolConfig(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfig) {
+    this._loadBalancerNodePoolConfig.internalValue = value;
+  }
+  public resetLoadBalancerNodePoolConfig() {
+    this._loadBalancerNodePoolConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerNodePoolConfigInput() {
+    return this._loadBalancerNodePoolConfig.internalValue;
+  }
+}
 export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfig {
   /**
   * Whether manual load balancing is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#enabled GoogleGkeonpremBareMetalAdminCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#enabled GoogleGkeonpremBareMetalAdminCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1711,7 +3112,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfig {
   /**
   * The port that control plane hosted load balancers will listen on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane_load_balancer_port GoogleGkeonpremBareMetalAdminCluster#control_plane_load_balancer_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane_load_balancer_port GoogleGkeonpremBareMetalAdminCluster#control_plane_load_balancer_port}
   */
   readonly controlPlaneLoadBalancerPort: number;
 }
@@ -1794,7 +3195,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfig {
   /**
   * The VIP which you previously set aside for the Kubernetes API of this Bare Metal Admin Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane_vip GoogleGkeonpremBareMetalAdminCluster#control_plane_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#control_plane_vip GoogleGkeonpremBareMetalAdminCluster#control_plane_vip}
   */
   readonly controlPlaneVip: string;
 }
@@ -1875,21 +3276,27 @@ export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputRefe
 }
 export interface GoogleGkeonpremBareMetalAdminClusterLoadBalancer {
   /**
+  * bgp_lb_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#bgp_lb_config GoogleGkeonpremBareMetalAdminCluster#bgp_lb_config}
+  */
+  readonly bgpLbConfig?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfig;
+  /**
   * manual_lb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#manual_lb_config GoogleGkeonpremBareMetalAdminCluster#manual_lb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#manual_lb_config GoogleGkeonpremBareMetalAdminCluster#manual_lb_config}
   */
   readonly manualLbConfig?: GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfig;
   /**
   * port_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#port_config GoogleGkeonpremBareMetalAdminCluster#port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#port_config GoogleGkeonpremBareMetalAdminCluster#port_config}
   */
   readonly portConfig: GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfig;
   /**
   * vip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#vip_config GoogleGkeonpremBareMetalAdminCluster#vip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#vip_config GoogleGkeonpremBareMetalAdminCluster#vip_config}
   */
   readonly vipConfig: GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfig;
 }
@@ -1900,6 +3307,7 @@ export function googleGkeonpremBareMetalAdminClusterLoadBalancerToTerraform(stru
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    bgp_lb_config: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigToTerraform(struct!.bgpLbConfig),
     manual_lb_config: googleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfigToTerraform(struct!.manualLbConfig),
     port_config: googleGkeonpremBareMetalAdminClusterLoadBalancerPortConfigToTerraform(struct!.portConfig),
     vip_config: googleGkeonpremBareMetalAdminClusterLoadBalancerVipConfigToTerraform(struct!.vipConfig),
@@ -1913,6 +3321,12 @@ export function googleGkeonpremBareMetalAdminClusterLoadBalancerToHclTerraform(s
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    bgp_lb_config: {
+      value: googleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigToHclTerraform(struct!.bgpLbConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigList",
+    },
     manual_lb_config: {
       value: googleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfigToHclTerraform(struct!.manualLbConfig),
       isBlock: true,
@@ -1951,6 +3365,10 @@ export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerOutputReference ext
   public get internalValue(): GoogleGkeonpremBareMetalAdminClusterLoadBalancer | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._bgpLbConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bgpLbConfig = this._bgpLbConfig?.internalValue;
+    }
     if (this._manualLbConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.manualLbConfig = this._manualLbConfig?.internalValue;
@@ -1969,16 +3387,34 @@ export class GoogleGkeonpremBareMetalAdminClusterLoadBalancerOutputReference ext
   public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancer | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._bgpLbConfig.internalValue = undefined;
       this._manualLbConfig.internalValue = undefined;
       this._portConfig.internalValue = undefined;
       this._vipConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._bgpLbConfig.internalValue = value.bgpLbConfig;
       this._manualLbConfig.internalValue = value.manualLbConfig;
       this._portConfig.internalValue = value.portConfig;
       this._vipConfig.internalValue = value.vipConfig;
     }
+  }
+
+  // bgp_lb_config - computed: false, optional: true, required: false
+  private _bgpLbConfig = new GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfigOutputReference(this, "bgp_lb_config");
+  public get bgpLbConfig() {
+    return this._bgpLbConfig;
+  }
+  public putBgpLbConfig(value: GoogleGkeonpremBareMetalAdminClusterLoadBalancerBgpLbConfig) {
+    this._bgpLbConfig.internalValue = value;
+  }
+  public resetBgpLbConfig() {
+    this._bgpLbConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bgpLbConfigInput() {
+    return this._bgpLbConfig.internalValue;
   }
 
   // manual_lb_config - computed: false, optional: true, required: false
@@ -2030,7 +3466,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterMaintenanceConfig {
   * are true, the "baremetal.cluster.gke.io/maintenance" annotation will be set
   * on the node resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#maintenance_address_cidr_blocks GoogleGkeonpremBareMetalAdminCluster#maintenance_address_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#maintenance_address_cidr_blocks GoogleGkeonpremBareMetalAdminCluster#maintenance_address_cidr_blocks}
   */
   readonly maintenanceAddressCidrBlocks: string[];
 }
@@ -2113,13 +3549,13 @@ export interface GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidr
   /**
   * All pods in the cluster are assigned an RFC1918 IPv4 address from these ranges. This field cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#pod_address_cidr_blocks GoogleGkeonpremBareMetalAdminCluster#pod_address_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#pod_address_cidr_blocks GoogleGkeonpremBareMetalAdminCluster#pod_address_cidr_blocks}
   */
   readonly podAddressCidrBlocks: string[];
   /**
   * All services in the cluster are assigned an RFC1918 IPv4 address from these ranges. This field cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#service_address_cidr_blocks GoogleGkeonpremBareMetalAdminCluster#service_address_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#service_address_cidr_blocks GoogleGkeonpremBareMetalAdminCluster#service_address_cidr_blocks}
   */
   readonly serviceAddressCidrBlocks: string[];
 }
@@ -2224,13 +3660,112 @@ export class GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidrOutp
     return this._serviceAddressCidrBlocks;
   }
 }
+export interface GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfig {
+  /**
+  * When set network_config.advanced_networking is automatically
+  * set to true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#enabled GoogleGkeonpremBareMetalAdminCluster#enabled}
+  */
+  readonly enabled?: boolean | cdktn.IResolvable;
+}
+
+export function googleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function googleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigToHclTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
 export interface GoogleGkeonpremBareMetalAdminClusterNetworkConfig {
+  /**
+  * Enables the use of advanced Anthos networking features.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#advanced_networking GoogleGkeonpremBareMetalAdminCluster#advanced_networking}
+  */
+  readonly advancedNetworking?: boolean | cdktn.IResolvable;
   /**
   * island_mode_cidr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#island_mode_cidr GoogleGkeonpremBareMetalAdminCluster#island_mode_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#island_mode_cidr GoogleGkeonpremBareMetalAdminCluster#island_mode_cidr}
   */
   readonly islandModeCidr?: GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidr;
+  /**
+  * multiple_network_interfaces_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#multiple_network_interfaces_config GoogleGkeonpremBareMetalAdminCluster#multiple_network_interfaces_config}
+  */
+  readonly multipleNetworkInterfacesConfig?: GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfig;
 }
 
 export function googleGkeonpremBareMetalAdminClusterNetworkConfigToTerraform(struct?: GoogleGkeonpremBareMetalAdminClusterNetworkConfigOutputReference | GoogleGkeonpremBareMetalAdminClusterNetworkConfig): any {
@@ -2239,7 +3774,9 @@ export function googleGkeonpremBareMetalAdminClusterNetworkConfigToTerraform(str
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    advanced_networking: cdktn.booleanToTerraform(struct!.advancedNetworking),
     island_mode_cidr: googleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidrToTerraform(struct!.islandModeCidr),
+    multiple_network_interfaces_config: googleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigToTerraform(struct!.multipleNetworkInterfacesConfig),
   }
 }
 
@@ -2250,11 +3787,23 @@ export function googleGkeonpremBareMetalAdminClusterNetworkConfigToHclTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    advanced_networking: {
+      value: cdktn.booleanToHclTerraform(struct!.advancedNetworking),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     island_mode_cidr: {
       value: googleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidrToHclTerraform(struct!.islandModeCidr),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidrList",
+    },
+    multiple_network_interfaces_config: {
+      value: googleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigToHclTerraform(struct!.multipleNetworkInterfacesConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigList",
     },
   };
 
@@ -2276,9 +3825,17 @@ export class GoogleGkeonpremBareMetalAdminClusterNetworkConfigOutputReference ex
   public get internalValue(): GoogleGkeonpremBareMetalAdminClusterNetworkConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._advancedNetworking !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.advancedNetworking = this._advancedNetworking;
+    }
     if (this._islandModeCidr?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.islandModeCidr = this._islandModeCidr?.internalValue;
+    }
+    if (this._multipleNetworkInterfacesConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multipleNetworkInterfacesConfig = this._multipleNetworkInterfacesConfig?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2286,12 +3843,32 @@ export class GoogleGkeonpremBareMetalAdminClusterNetworkConfigOutputReference ex
   public set internalValue(value: GoogleGkeonpremBareMetalAdminClusterNetworkConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._advancedNetworking = undefined;
       this._islandModeCidr.internalValue = undefined;
+      this._multipleNetworkInterfacesConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._advancedNetworking = value.advancedNetworking;
       this._islandModeCidr.internalValue = value.islandModeCidr;
+      this._multipleNetworkInterfacesConfig.internalValue = value.multipleNetworkInterfacesConfig;
     }
+  }
+
+  // advanced_networking - computed: false, optional: true, required: false
+  private _advancedNetworking?: boolean | cdktn.IResolvable; 
+  public get advancedNetworking() {
+    return this.getBooleanAttribute('advanced_networking');
+  }
+  public set advancedNetworking(value: boolean | cdktn.IResolvable) {
+    this._advancedNetworking = value;
+  }
+  public resetAdvancedNetworking() {
+    this._advancedNetworking = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advancedNetworkingInput() {
+    return this._advancedNetworking;
   }
 
   // island_mode_cidr - computed: false, optional: true, required: false
@@ -2309,13 +3886,29 @@ export class GoogleGkeonpremBareMetalAdminClusterNetworkConfigOutputReference ex
   public get islandModeCidrInput() {
     return this._islandModeCidr.internalValue;
   }
+
+  // multiple_network_interfaces_config - computed: false, optional: true, required: false
+  private _multipleNetworkInterfacesConfig = new GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfigOutputReference(this, "multiple_network_interfaces_config");
+  public get multipleNetworkInterfacesConfig() {
+    return this._multipleNetworkInterfacesConfig;
+  }
+  public putMultipleNetworkInterfacesConfig(value: GoogleGkeonpremBareMetalAdminClusterNetworkConfigMultipleNetworkInterfacesConfig) {
+    this._multipleNetworkInterfacesConfig.internalValue = value;
+  }
+  public resetMultipleNetworkInterfacesConfig() {
+    this._multipleNetworkInterfacesConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multipleNetworkInterfacesConfigInput() {
+    return this._multipleNetworkInterfacesConfig.internalValue;
+  }
 }
 export interface GoogleGkeonpremBareMetalAdminClusterNodeAccessConfig {
   /**
   * LoginUser is the user name used to access node machines.
   * It defaults to "root" if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#login_user GoogleGkeonpremBareMetalAdminCluster#login_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#login_user GoogleGkeonpremBareMetalAdminCluster#login_user}
   */
   readonly loginUser?: string;
 }
@@ -2402,7 +3995,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterNodeConfig {
   * The maximum number of pods a node can run. The size of the CIDR range
   * assigned to the node will be derived from this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#max_pods_per_node GoogleGkeonpremBareMetalAdminCluster#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#max_pods_per_node GoogleGkeonpremBareMetalAdminCluster#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
 }
@@ -2489,7 +4082,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterProxy {
   * A list of IPs, hostnames, and domains that should skip the proxy.
   * For example: ["127.0.0.1", "example.com", ".corp", "localhost"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#no_proxy GoogleGkeonpremBareMetalAdminCluster#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#no_proxy GoogleGkeonpremBareMetalAdminCluster#no_proxy}
   */
   readonly noProxy?: string[];
   /**
@@ -2498,7 +4091,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterProxy {
   * WARNING: Do not provide credentials in the format
   * of http://(username:password@)domain these will be rejected by the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#uri GoogleGkeonpremBareMetalAdminCluster#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#uri GoogleGkeonpremBareMetalAdminCluster#uri}
   */
   readonly uri: string;
 }
@@ -2610,7 +4203,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorization
   /**
   * The name of the user, e.g. 'my-gcp-id@gmail.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#username GoogleGkeonpremBareMetalAdminCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#username GoogleGkeonpremBareMetalAdminCluster#username}
   */
   readonly username: string;
 }
@@ -2725,7 +4318,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorization
   /**
   * admin_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#admin_users GoogleGkeonpremBareMetalAdminCluster#admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#admin_users GoogleGkeonpremBareMetalAdminCluster#admin_users}
   */
   readonly adminUsers: GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsers[] | cdktn.IResolvable;
 }
@@ -2808,7 +4401,7 @@ export interface GoogleGkeonpremBareMetalAdminClusterSecurityConfig {
   /**
   * authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#authorization GoogleGkeonpremBareMetalAdminCluster#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#authorization GoogleGkeonpremBareMetalAdminCluster#authorization}
   */
   readonly authorization?: GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorization;
 }
@@ -2894,13 +4487,13 @@ export interface GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfig 
   /**
   * The host machine path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#path GoogleGkeonpremBareMetalAdminCluster#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#path GoogleGkeonpremBareMetalAdminCluster#path}
   */
   readonly path: string;
   /**
   * The StorageClass name that PVs will be created with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#storage_class GoogleGkeonpremBareMetalAdminCluster#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#storage_class GoogleGkeonpremBareMetalAdminCluster#storage_class}
   */
   readonly storageClass: string;
 }
@@ -3009,13 +4602,13 @@ export interface GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpCon
   /**
   * The host machine path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#path GoogleGkeonpremBareMetalAdminCluster#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#path GoogleGkeonpremBareMetalAdminCluster#path}
   */
   readonly path: string;
   /**
   * The StorageClass name that PVs will be created with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#storage_class GoogleGkeonpremBareMetalAdminCluster#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#storage_class GoogleGkeonpremBareMetalAdminCluster#storage_class}
   */
   readonly storageClass: string;
 }
@@ -3124,13 +4717,13 @@ export interface GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfig {
   /**
   * The number of subdirectories to create under path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#shared_path_pv_count GoogleGkeonpremBareMetalAdminCluster#shared_path_pv_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#shared_path_pv_count GoogleGkeonpremBareMetalAdminCluster#shared_path_pv_count}
   */
   readonly sharedPathPvCount?: number;
   /**
   * lvp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#lvp_config GoogleGkeonpremBareMetalAdminCluster#lvp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#lvp_config GoogleGkeonpremBareMetalAdminCluster#lvp_config}
   */
   readonly lvpConfig: GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfig;
 }
@@ -3242,13 +4835,13 @@ export interface GoogleGkeonpremBareMetalAdminClusterStorage {
   /**
   * lvp_node_mounts_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#lvp_node_mounts_config GoogleGkeonpremBareMetalAdminCluster#lvp_node_mounts_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#lvp_node_mounts_config GoogleGkeonpremBareMetalAdminCluster#lvp_node_mounts_config}
   */
   readonly lvpNodeMountsConfig: GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfig;
   /**
   * lvp_share_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#lvp_share_config GoogleGkeonpremBareMetalAdminCluster#lvp_share_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#lvp_share_config GoogleGkeonpremBareMetalAdminCluster#lvp_share_config}
   */
   readonly lvpShareConfig: GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfig;
 }
@@ -3355,15 +4948,15 @@ export class GoogleGkeonpremBareMetalAdminClusterStorageOutputReference extends 
 }
 export interface GoogleGkeonpremBareMetalAdminClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#create GoogleGkeonpremBareMetalAdminCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#create GoogleGkeonpremBareMetalAdminCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#delete GoogleGkeonpremBareMetalAdminCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#delete GoogleGkeonpremBareMetalAdminCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#update GoogleGkeonpremBareMetalAdminCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#update GoogleGkeonpremBareMetalAdminCluster#update}
   */
   readonly update?: string;
 }
@@ -3515,7 +5108,7 @@ export class GoogleGkeonpremBareMetalAdminClusterTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster google_gkeonprem_bare_metal_admin_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster google_gkeonprem_bare_metal_admin_cluster}
 */
 export class GoogleGkeonpremBareMetalAdminCluster extends cdktn.TerraformResource {
 
@@ -3531,7 +5124,7 @@ export class GoogleGkeonpremBareMetalAdminCluster extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a GoogleGkeonpremBareMetalAdminCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGkeonpremBareMetalAdminCluster to import
-  * @param importFromId The id of the existing GoogleGkeonpremBareMetalAdminCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleGkeonpremBareMetalAdminCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGkeonpremBareMetalAdminCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3543,7 +5136,7 @@ export class GoogleGkeonpremBareMetalAdminCluster extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster google_gkeonprem_bare_metal_admin_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_bare_metal_admin_cluster google_gkeonprem_bare_metal_admin_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3554,8 +5147,8 @@ export class GoogleGkeonpremBareMetalAdminCluster extends cdktn.TerraformResourc
       terraformResourceType: 'google_gkeonprem_bare_metal_admin_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

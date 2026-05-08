@@ -4,12 +4,12 @@
 
 ### GoogleDataplexGlossary <a name="GoogleDataplexGlossary" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary google_dataplex_glossary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary google_dataplex_glossary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 googledataplexglossary.NewGoogleDataplexGlossary(scope Construct, id *string, config GoogleDataplexGlossaryConfig) GoogleDataplexGlossary
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 googledataplexglossary.GoogleDataplexGlossary_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 googledataplexglossary.GoogleDataplexGlossary_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googledataplexglossary.GoogleDataplexGlossary_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 googledataplexglossary.GoogleDataplexGlossary_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googledataplexglossary.GoogleDataplexGlossary_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 googledataplexglossary.GoogleDataplexGlossary_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleDataplexGlossary to 
 
 The id of the existing GoogleDataplexGlossary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1008,7 +1008,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 &googledataplexglossary.GoogleDataplexGlossaryConfig {
 	Connection: interface{},
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts,
 }
 ```
 
@@ -1044,9 +1044,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.location">Location</a></code> | <code>*string</code> | The location where the glossary should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.description">Description</a></code> | <code>*string</code> | The user-mutable description of the glossary. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User friendly display name of the glossary. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | User-defined labels for the Glossary. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts">GoogleDataplexGlossaryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1131,7 +1131,7 @@ GlossaryId *string
 
 The glossary id for creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#glossary_id GoogleDataplexGlossary#glossary_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#glossary_id GoogleDataplexGlossary#glossary_id}
 
 ---
 
@@ -1145,7 +1145,7 @@ Location *string
 
 The location where the glossary should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#location GoogleDataplexGlossary#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#location GoogleDataplexGlossary#location}
 
 ---
 
@@ -1159,7 +1159,7 @@ Description *string
 
 The user-mutable description of the glossary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#description GoogleDataplexGlossary#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#description GoogleDataplexGlossary#description}
 
 ---
 
@@ -1175,7 +1175,7 @@ User friendly display name of the glossary.
 
 This is user-mutable. This will be same as the glossaryId, if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#display_name GoogleDataplexGlossary#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#display_name GoogleDataplexGlossary#display_name}
 
 ---
 
@@ -1187,7 +1187,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1207,7 +1207,7 @@ User-defined labels for the Glossary.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#labels GoogleDataplexGlossary#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#labels GoogleDataplexGlossary#labels}
 
 ---
 
@@ -1219,7 +1219,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}.
 
 ---
 
@@ -1233,7 +1233,7 @@ Timeouts GoogleDataplexGlossaryTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#timeouts GoogleDataplexGlossary#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#timeouts GoogleDataplexGlossary#timeouts}
 
 ---
 
@@ -1242,7 +1242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 &googledataplexglossary.GoogleDataplexGlossaryTimeouts {
 	Create: *string,
@@ -1255,9 +1255,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}. |
 
 ---
 
@@ -1269,7 +1269,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}.
 
 ---
 
@@ -1281,7 +1281,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}.
 
 ---
 
@@ -1293,7 +1293,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}.
 
 ---
 
@@ -1304,7 +1304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexglossary"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexglossary"
 
 googledataplexglossary.NewGoogleDataplexGlossaryTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexGlossaryTimeoutsOutputReference
 ```

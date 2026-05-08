@@ -4,7 +4,7 @@
 
 ### GoogleComputeStoragePool <a name="GoogleComputeStoragePool" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer"></a>
 
@@ -27,6 +27,7 @@ GoogleComputeStoragePool.Builder.create(Construct scope, java.lang.String id)
 //  .deletionProtection(java.lang.Boolean|IResolvable)
 //  .description(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
+//  .params(GoogleComputeStoragePoolParams)
 //  .performanceProvisioningType(java.lang.String)
 //  .poolProvisionedIops(java.lang.String)
 //  .project(java.lang.String)
@@ -54,9 +55,10 @@ GoogleComputeStoragePool.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the StoragePool. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | A description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels to apply to this storage pool. These can be later modified by the setLabels method. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.performanceProvisioningType">performanceProvisioningType</a></code> | <code>java.lang.String</code> | Provisioning type of the performance-related parameters of the pool, such as throughput and IOPS. Possible values: ["STANDARD", "ADVANCED"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.poolProvisionedIops">poolProvisionedIops</a></code> | <code>java.lang.String</code> | Provisioned IOPS of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced'. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts">GoogleComputeStoragePoolTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.zone">zone</a></code> | <code>java.lang.String</code> | A reference to the zone where the storage pool resides. |
 
@@ -136,7 +138,7 @@ which means the first character must be a lowercase letter,
 and all following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#name GoogleComputeStoragePool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#name GoogleComputeStoragePool#name}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Size, in GiB, of the storage pool. For more information about the size limits, see https://cloud.google.com/compute/docs/disks/storage-pools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#pool_provisioned_capacity_gb GoogleComputeStoragePool#pool_provisioned_capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#pool_provisioned_capacity_gb GoogleComputeStoragePool#pool_provisioned_capacity_gb}
 
 ---
 
@@ -156,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Provisioned throughput, in MB/s, of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced' or 'hyperdisk-throughput'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#pool_provisioned_throughput GoogleComputeStoragePool#pool_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#pool_provisioned_throughput GoogleComputeStoragePool#pool_provisioned_throughput}
 
 ---
 
@@ -169,7 +171,7 @@ Type of the storage pool. For example, the following are valid values:.
 * 'https://www.googleapis.com/compute/v1/projects/{project_id}/zones/{zone}/storagePoolTypes/hyperdisk-balanced'
 * 'hyperdisk-throughput'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#storage_pool_type GoogleComputeStoragePool#storage_pool_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#storage_pool_type GoogleComputeStoragePool#storage_pool_type}
 
 ---
 
@@ -179,7 +181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Provisioning type of the byte capacity of the pool. Possible values: ["STANDARD", "ADVANCED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#capacity_provisioning_type GoogleComputeStoragePool#capacity_provisioning_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#capacity_provisioning_type GoogleComputeStoragePool#capacity_provisioning_type}
 
 ---
 
@@ -193,7 +195,7 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the StoragePool will fail.
 When the field is set to false, deleting the StoragePool is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#deletion_protection GoogleComputeStoragePool#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#deletion_protection GoogleComputeStoragePool#deletion_protection}
 
 ---
 
@@ -203,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#description GoogleComputeStoragePool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#description GoogleComputeStoragePool#description}
 
 ---
 
@@ -216,7 +218,17 @@ Labels to apply to this storage pool. These can be later modified by the setLabe
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#labels GoogleComputeStoragePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#labels GoogleComputeStoragePool#labels}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer.parameter.params"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#params GoogleComputeStoragePool#params}
 
 ---
 
@@ -226,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Provisioning type of the performance-related parameters of the pool, such as throughput and IOPS. Possible values: ["STANDARD", "ADVANCED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#performance_provisioning_type GoogleComputeStoragePool#performance_provisioning_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#performance_provisioning_type GoogleComputeStoragePool#performance_provisioning_type}
 
 ---
 
@@ -236,7 +248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Provisioned IOPS of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#pool_provisioned_iops GoogleComputeStoragePool#pool_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#pool_provisioned_iops GoogleComputeStoragePool#pool_provisioned_iops}
 
 ---
 
@@ -244,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}.
 
 ---
 
@@ -254,7 +266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#timeouts GoogleComputeStoragePool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#timeouts GoogleComputeStoragePool#timeouts}
 
 ---
 
@@ -264,7 +276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A reference to the zone where the storage pool resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#zone GoogleComputeStoragePool#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#zone GoogleComputeStoragePool#zone}
 
 ---
 
@@ -296,11 +308,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.putParams">putParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetCapacityProvisioningType">resetCapacityProvisioningType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetDeletionProtection">resetDeletionProtection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetLabels">resetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetParams">resetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetPerformanceProvisioningType">resetPerformanceProvisioningType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetPoolProvisionedIops">resetPoolProvisionedIops</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetProject">resetProject</a></code> | *No description.* |
@@ -620,6 +634,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putParams` <a name="putParams" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.putParams"></a>
+
+```java
+public void putParams(GoogleComputeStoragePoolParams value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a>
+
+---
+
 ##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.putTimeouts"></a>
 
 ```java
@@ -654,6 +680,12 @@ public void resetDescription()
 
 ```java
 public void resetLabels()
+```
+
+##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetParams"></a>
+
+```java
+public void resetParams()
 ```
 
 ##### `resetPerformanceProvisioningType` <a name="resetPerformanceProvisioningType" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.resetPerformanceProvisioningType"></a>
@@ -789,7 +821,7 @@ The construct id used in the generated config for the GoogleComputeStoragePool t
 
 The id of the existing GoogleComputeStoragePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -824,6 +856,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.kind">kind</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.labelFingerprint">labelFingerprint</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference">GoogleComputeStoragePoolParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.resourceStatus">resourceStatus</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolResourceStatusList">GoogleComputeStoragePoolResourceStatusList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.status">status</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolStatusList">GoogleComputeStoragePoolStatusList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.terraformLabels">terraformLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
@@ -833,6 +866,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.performanceProvisioningTypeInput">performanceProvisioningTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.poolProvisionedCapacityGbInput">poolProvisionedCapacityGbInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.poolProvisionedIopsInput">poolProvisionedIopsInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1048,6 +1082,16 @@ public java.lang.String getLabelFingerprint();
 
 ---
 
+##### `params`<sup>Required</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.params"></a>
+
+```java
+public GoogleComputeStoragePoolParamsOutputReference getParams();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference">GoogleComputeStoragePoolParamsOutputReference</a>
+
+---
+
 ##### `resourceStatus`<sup>Required</sup> <a name="resourceStatus" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.resourceStatus"></a>
 
 ```java
@@ -1135,6 +1179,16 @@ public java.lang.String getNameInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.property.paramsInput"></a>
+
+```java
+public GoogleComputeStoragePoolParams getParamsInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a>
 
 ---
 
@@ -1381,6 +1435,7 @@ GoogleComputeStoragePoolConfig.builder()
 //  .deletionProtection(java.lang.Boolean|IResolvable)
 //  .description(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
+//  .params(GoogleComputeStoragePoolParams)
 //  .performanceProvisioningType(java.lang.String)
 //  .poolProvisionedIops(java.lang.String)
 //  .project(java.lang.String)
@@ -1408,9 +1463,10 @@ GoogleComputeStoragePoolConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the StoragePool. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.description">description</a></code> | <code>java.lang.String</code> | A description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels to apply to this storage pool. These can be later modified by the setLabels method. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.performanceProvisioningType">performanceProvisioningType</a></code> | <code>java.lang.String</code> | Provisioning type of the performance-related parameters of the pool, such as throughput and IOPS. Possible values: ["STANDARD", "ADVANCED"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.poolProvisionedIops">poolProvisionedIops</a></code> | <code>java.lang.String</code> | Provisioned IOPS of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced'. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts">GoogleComputeStoragePoolTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.zone">zone</a></code> | <code>java.lang.String</code> | A reference to the zone where the storage pool resides. |
 
@@ -1504,7 +1560,7 @@ which means the first character must be a lowercase letter,
 and all following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#name GoogleComputeStoragePool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#name GoogleComputeStoragePool#name}
 
 ---
 
@@ -1518,7 +1574,7 @@ public java.lang.String getPoolProvisionedCapacityGb();
 
 Size, in GiB, of the storage pool. For more information about the size limits, see https://cloud.google.com/compute/docs/disks/storage-pools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#pool_provisioned_capacity_gb GoogleComputeStoragePool#pool_provisioned_capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#pool_provisioned_capacity_gb GoogleComputeStoragePool#pool_provisioned_capacity_gb}
 
 ---
 
@@ -1532,7 +1588,7 @@ public java.lang.String getPoolProvisionedThroughput();
 
 Provisioned throughput, in MB/s, of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced' or 'hyperdisk-throughput'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#pool_provisioned_throughput GoogleComputeStoragePool#pool_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#pool_provisioned_throughput GoogleComputeStoragePool#pool_provisioned_throughput}
 
 ---
 
@@ -1549,7 +1605,7 @@ Type of the storage pool. For example, the following are valid values:.
 * 'https://www.googleapis.com/compute/v1/projects/{project_id}/zones/{zone}/storagePoolTypes/hyperdisk-balanced'
 * 'hyperdisk-throughput'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#storage_pool_type GoogleComputeStoragePool#storage_pool_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#storage_pool_type GoogleComputeStoragePool#storage_pool_type}
 
 ---
 
@@ -1563,7 +1619,7 @@ public java.lang.String getCapacityProvisioningType();
 
 Provisioning type of the byte capacity of the pool. Possible values: ["STANDARD", "ADVANCED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#capacity_provisioning_type GoogleComputeStoragePool#capacity_provisioning_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#capacity_provisioning_type GoogleComputeStoragePool#capacity_provisioning_type}
 
 ---
 
@@ -1581,7 +1637,7 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the StoragePool will fail.
 When the field is set to false, deleting the StoragePool is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#deletion_protection GoogleComputeStoragePool#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#deletion_protection GoogleComputeStoragePool#deletion_protection}
 
 ---
 
@@ -1595,7 +1651,7 @@ public java.lang.String getDescription();
 
 A description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#description GoogleComputeStoragePool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#description GoogleComputeStoragePool#description}
 
 ---
 
@@ -1612,7 +1668,21 @@ Labels to apply to this storage pool. These can be later modified by the setLabe
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#labels GoogleComputeStoragePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#labels GoogleComputeStoragePool#labels}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.params"></a>
+
+```java
+public GoogleComputeStoragePoolParams getParams();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#params GoogleComputeStoragePool#params}
 
 ---
 
@@ -1626,7 +1696,7 @@ public java.lang.String getPerformanceProvisioningType();
 
 Provisioning type of the performance-related parameters of the pool, such as throughput and IOPS. Possible values: ["STANDARD", "ADVANCED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#performance_provisioning_type GoogleComputeStoragePool#performance_provisioning_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#performance_provisioning_type GoogleComputeStoragePool#performance_provisioning_type}
 
 ---
 
@@ -1640,7 +1710,7 @@ public java.lang.String getPoolProvisionedIops();
 
 Provisioned IOPS of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#pool_provisioned_iops GoogleComputeStoragePool#pool_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#pool_provisioned_iops GoogleComputeStoragePool#pool_provisioned_iops}
 
 ---
 
@@ -1652,7 +1722,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}.
 
 ---
 
@@ -1666,7 +1736,7 @@ public GoogleComputeStoragePoolTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#timeouts GoogleComputeStoragePool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#timeouts GoogleComputeStoragePool#timeouts}
 
 ---
 
@@ -1680,7 +1750,49 @@ public java.lang.String getZone();
 
 A reference to the zone where the storage pool resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#zone GoogleComputeStoragePool#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#zone GoogleComputeStoragePool#zone}
+
+---
+
+### GoogleComputeStoragePoolParams <a name="GoogleComputeStoragePoolParams" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_storage_pool.GoogleComputeStoragePoolParams;
+
+GoogleComputeStoragePoolParams.builder()
+//  .resourceManagerTags(java.util.Map<java.lang.String, java.lang.String>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource manager tags to be bound to the storage pool. |
+
+---
+
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams.property.resourceManagerTags"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTags();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+Resource manager tags to be bound to the storage pool.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys and values can be either in numeric format,
+such as tagKeys/{tag_key_id} and tagValues/{tag_value_id} or in namespaced format such as
+{org_id|projectId}/{tag_key_short_name} and {tag_value_short_name}. The field is ignored when empty.
+The field is immutable and causes resource replacement when mutated. This field is only
+set at create time and modifying this field after creation will trigger recreation.
+To apply tags to an existing resource, see the google_tags_tag_binding resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#resource_manager_tags GoogleComputeStoragePool#resource_manager_tags}
 
 ---
 
@@ -1726,9 +1838,9 @@ GoogleComputeStoragePoolTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}. |
 
 ---
 
@@ -1740,7 +1852,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}.
 
 ---
 
@@ -1752,7 +1864,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}.
 
 ---
 
@@ -1764,11 +1876,289 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleComputeStoragePoolParamsOutputReference <a name="GoogleComputeStoragePoolParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_storage_pool.GoogleComputeStoragePoolParamsOutputReference;
+
+new GoogleComputeStoragePoolParamsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.resetResourceManagerTags"></a>
+
+```java
+public void resetResourceManagerTags()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTagsInput();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.resourceManagerTags"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTags();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParamsOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeStoragePoolParams getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a>
+
+---
+
 
 ### GoogleComputeStoragePoolResourceStatusList <a name="GoogleComputeStoragePoolResourceStatusList" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolResourceStatusList"></a>
 

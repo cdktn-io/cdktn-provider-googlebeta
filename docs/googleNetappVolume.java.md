@@ -4,7 +4,7 @@
 
 ### GoogleNetappVolume <a name="GoogleNetappVolume" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume google_netapp_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume google_netapp_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer"></a>
 
@@ -23,9 +23,10 @@ GoogleNetappVolume.Builder.create(Construct scope, java.lang.String id)
     .location(java.lang.String)
     .name(java.lang.String)
     .protocols(java.util.List<java.lang.String>)
-    .shareName(java.lang.String)
     .storagePool(java.lang.String)
 //  .backupConfig(GoogleNetappVolumeBackupConfig)
+//  .blockDevices(IResolvable|java.util.List<GoogleNetappVolumeBlockDevices>)
+//  .cacheParameters(GoogleNetappVolumeCacheParameters)
 //  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .exportPolicy(GoogleNetappVolumeExportPolicy)
@@ -34,14 +35,17 @@ GoogleNetappVolume.Builder.create(Construct scope, java.lang.String id)
 //  .kerberosEnabled(java.lang.Boolean|IResolvable)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
 //  .largeCapacity(java.lang.Boolean|IResolvable)
+//  .largeCapacityConfig(GoogleNetappVolumeLargeCapacityConfig)
 //  .multipleEndpoints(java.lang.Boolean|IResolvable)
 //  .project(java.lang.String)
 //  .restoreParameters(GoogleNetappVolumeRestoreParameters)
 //  .restrictedActions(java.util.List<java.lang.String>)
 //  .securityStyle(java.lang.String)
+//  .shareName(java.lang.String)
 //  .smbSettings(java.util.List<java.lang.String>)
 //  .snapshotDirectory(java.lang.Boolean|IResolvable)
 //  .snapshotPolicy(GoogleNetappVolumeSnapshotPolicy)
+//  .throughputMibps(java.lang.Number)
 //  .tieringPolicy(GoogleNetappVolumeTieringPolicy)
 //  .timeouts(GoogleNetappVolumeTimeouts)
 //  .unixPermissions(java.lang.String)
@@ -63,25 +67,29 @@ GoogleNetappVolume.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Name of the pool location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The name of the volume. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.protocols">protocols</a></code> | <code>java.util.List<java.lang.String></code> | The protocol of the volume. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.shareName">shareName</a></code> | <code>java.lang.String</code> | Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.storagePool">storagePool</a></code> | <code>java.lang.String</code> | Name of the storage pool to create the volume in. Pool needs enough spare capacity to accommodate the volume. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.backupConfig">backupConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfig">GoogleNetappVolumeBackupConfig</a></code> | backup_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.blockDevices">blockDevices</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>></code> | block_devices block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.cacheParameters">cacheParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a></code> | cache_parameters block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Policy to determine if the volume should be deleted forcefully. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.exportPolicy">exportPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicy">GoogleNetappVolumeExportPolicy</a></code> | export_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.hybridReplicationParameters">hybridReplicationParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters">GoogleNetappVolumeHybridReplicationParameters</a></code> | hybrid_replication_parameters block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.kerberosEnabled">kerberosEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Flag indicating if the volume is a kerberos volume or not, export policy rules control kerberos security modes (krb5, krb5i, krb5p). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.largeCapacity">largeCapacity</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Optional. Flag indicating if the volume will be a large capacity volume or a regular volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.largeCapacityConfig">largeCapacityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a></code> | large_capacity_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.multipleEndpoints">multipleEndpoints</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.restoreParameters">restoreParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeRestoreParameters">GoogleNetappVolumeRestoreParameters</a></code> | restore_parameters block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.restrictedActions">restrictedActions</a></code> | <code>java.util.List<java.lang.String></code> | List of actions that are restricted on this volume. Possible values: ["DELETE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.securityStyle">securityStyle</a></code> | <code>java.lang.String</code> | Security Style of the Volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.shareName">shareName</a></code> | <code>java.lang.String</code> | Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.smbSettings">smbSettings</a></code> | <code>java.util.List<java.lang.String></code> | Settings for volumes with SMB access. Possible values: ["ENCRYPT_DATA", "BROWSABLE", "CHANGE_NOTIFY", "NON_BROWSABLE", "OPLOCKS", "SHOW_SNAPSHOT", "SHOW_PREVIOUS_VERSIONS", "ACCESS_BASED_ENUMERATION", "CONTINUOUSLY_AVAILABLE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.snapshotDirectory">snapshotDirectory</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If enabled, a NFS volume will contain a read-only .snapshot directory which provides access to each of the volume's snapshots. Will enable "Previous Versions" support for SMB. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.snapshotPolicy">snapshotPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicy">GoogleNetappVolumeSnapshotPolicy</a></code> | snapshot_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.throughputMibps">throughputMibps</a></code> | <code>java.lang.Number</code> | Optional. Custom Performance Total Throughput of the pool (in MiB/s). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.tieringPolicy">tieringPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTieringPolicy">GoogleNetappVolumeTieringPolicy</a></code> | tiering_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts">GoogleNetappVolumeTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.unixPermissions">unixPermissions</a></code> | <code>java.lang.String</code> | Unix permission the mount point will be created with. Default is 0770. Applicable for UNIX security style volumes only. |
@@ -154,7 +162,7 @@ Must be unique amongst siblings in the same scope
 
 Capacity of the volume (in GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#capacity_gib GoogleNetappVolume#capacity_gib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#capacity_gib GoogleNetappVolume#capacity_gib}
 
 ---
 
@@ -166,7 +174,7 @@ Name of the pool location.
 
 Usually a region name, expect for some STANDARD service level pools which require a zone name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#location GoogleNetappVolume#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#location GoogleNetappVolume#location}
 
 ---
 
@@ -176,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the volume. Needs to be unique per location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
 
 ---
 
@@ -186,19 +194,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The protocol of the volume.
 
-Allowed combinations are '['NFSV3']', '['NFSV4']', '['SMB']', '['NFSV3', 'NFSV4']', '['SMB', 'NFSV3']' and '['SMB', 'NFSV4']'. Possible values: ["NFSV3", "NFSV4", "SMB"]
+Allowed combinations are '['NFSV3']', '['NFSV4']', '['SMB']', '['NFSV3', 'NFSV4']', '['SMB', 'NFSV3']' and '['SMB', 'NFSV4']'. Possible values: ["NFSV3", "NFSV4", "SMB", "ISCSI"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#protocols GoogleNetappVolume#protocols}
-
----
-
-##### `shareName`<sup>Required</sup> <a name="shareName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.shareName"></a>
-
-- *Type:* java.lang.String
-
-Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#share_name GoogleNetappVolume#share_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#protocols GoogleNetappVolume#protocols}
 
 ---
 
@@ -208,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the storage pool to create the volume in. Pool needs enough spare capacity to accommodate the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#storage_pool GoogleNetappVolume#storage_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#storage_pool GoogleNetappVolume#storage_pool}
 
 ---
 
@@ -218,7 +216,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 backup_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#backup_config GoogleNetappVolume#backup_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#backup_config GoogleNetappVolume#backup_config}
+
+---
+
+##### `blockDevices`<sup>Optional</sup> <a name="blockDevices" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.blockDevices"></a>
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>>
+
+block_devices block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#block_devices GoogleNetappVolume#block_devices}
+
+---
+
+##### `cacheParameters`<sup>Optional</sup> <a name="cacheParameters" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.cacheParameters"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a>
+
+cache_parameters block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cache_parameters GoogleNetappVolume#cache_parameters}
 
 ---
 
@@ -232,7 +250,7 @@ Volumes may have nested snapshot resources. Deleting such a volume will fail.
 Setting this parameter to FORCE will delete volumes including nested snapshots.
 Possible values: DEFAULT, FORCE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#deletion_policy GoogleNetappVolume#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#deletion_policy GoogleNetappVolume#deletion_policy}
 
 ---
 
@@ -242,7 +260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
 
 ---
 
@@ -252,7 +270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 export_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#export_policy GoogleNetappVolume#export_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#export_policy GoogleNetappVolume#export_policy}
 
 ---
 
@@ -262,7 +280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 hybrid_replication_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hybrid_replication_parameters GoogleNetappVolume#hybrid_replication_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hybrid_replication_parameters GoogleNetappVolume#hybrid_replication_parameters}
 
 ---
 
@@ -270,7 +288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -283,7 +301,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Flag indicating if the volume is a kerberos volume or not, export policy rules control kerberos security modes (krb5, krb5i, krb5p).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos_enabled GoogleNetappVolume#kerberos_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos_enabled GoogleNetappVolume#kerberos_enabled}
 
 ---
 
@@ -296,7 +314,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
 
 ---
 
@@ -306,7 +324,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. Flag indicating if the volume will be a large capacity volume or a regular volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#large_capacity GoogleNetappVolume#large_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_capacity GoogleNetappVolume#large_capacity}
+
+---
+
+##### `largeCapacityConfig`<sup>Optional</sup> <a name="largeCapacityConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.largeCapacityConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a>
+
+large_capacity_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_capacity_config GoogleNetappVolume#large_capacity_config}
 
 ---
 
@@ -319,7 +347,7 @@ Optional.
 Flag indicating if the volume will have an IP address per node for volumes supporting multiple IP endpoints.
 Only the volume with largeCapacity will be allowed to have multiple endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#multiple_endpoints GoogleNetappVolume#multiple_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#multiple_endpoints GoogleNetappVolume#multiple_endpoints}
 
 ---
 
@@ -327,7 +355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}.
 
 ---
 
@@ -337,7 +365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 restore_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#restore_parameters GoogleNetappVolume#restore_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#restore_parameters GoogleNetappVolume#restore_parameters}
 
 ---
 
@@ -347,7 +375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of actions that are restricted on this volume. Possible values: ["DELETE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#restricted_actions GoogleNetappVolume#restricted_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#restricted_actions GoogleNetappVolume#restricted_actions}
 
 ---
 
@@ -360,7 +388,17 @@ Security Style of the Volume.
 Use UNIX to use UNIX or NFSV4 ACLs for file permissions.
 Use NTFS to use NTFS ACLs for file permissions. Can only be set for volumes which use SMB together with NFS as protocol. Possible values: ["NTFS", "UNIX"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#security_style GoogleNetappVolume#security_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#security_style GoogleNetappVolume#security_style}
+
+---
+
+##### `shareName`<sup>Optional</sup> <a name="shareName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.shareName"></a>
+
+- *Type:* java.lang.String
+
+Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#share_name GoogleNetappVolume#share_name}
 
 ---
 
@@ -370,7 +408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Settings for volumes with SMB access. Possible values: ["ENCRYPT_DATA", "BROWSABLE", "CHANGE_NOTIFY", "NON_BROWSABLE", "OPLOCKS", "SHOW_SNAPSHOT", "SHOW_PREVIOUS_VERSIONS", "ACCESS_BASED_ENUMERATION", "CONTINUOUSLY_AVAILABLE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#smb_settings GoogleNetappVolume#smb_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#smb_settings GoogleNetappVolume#smb_settings}
 
 ---
 
@@ -380,7 +418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If enabled, a NFS volume will contain a read-only .snapshot directory which provides access to each of the volume's snapshots. Will enable "Previous Versions" support for SMB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshot_directory GoogleNetappVolume#snapshot_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshot_directory GoogleNetappVolume#snapshot_directory}
 
 ---
 
@@ -390,7 +428,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 snapshot_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshot_policy GoogleNetappVolume#snapshot_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshot_policy GoogleNetappVolume#snapshot_policy}
+
+---
+
+##### `throughputMibps`<sup>Optional</sup> <a name="throughputMibps" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.Initializer.parameter.throughputMibps"></a>
+
+- *Type:* java.lang.Number
+
+Optional. Custom Performance Total Throughput of the pool (in MiB/s).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#throughput_mibps GoogleNetappVolume#throughput_mibps}
 
 ---
 
@@ -400,7 +448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 tiering_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#tiering_policy GoogleNetappVolume#tiering_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#tiering_policy GoogleNetappVolume#tiering_policy}
 
 ---
 
@@ -410,7 +458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#timeouts GoogleNetappVolume#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#timeouts GoogleNetappVolume#timeouts}
 
 ---
 
@@ -420,7 +468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Unix permission the mount point will be created with. Default is 0770. Applicable for UNIX security style volumes only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#unix_permissions GoogleNetappVolume#unix_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#unix_permissions GoogleNetappVolume#unix_permissions}
 
 ---
 
@@ -453,13 +501,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putBackupConfig">putBackupConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putBlockDevices">putBlockDevices</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putCacheParameters">putCacheParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putExportPolicy">putExportPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putHybridReplicationParameters">putHybridReplicationParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putLargeCapacityConfig">putLargeCapacityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putRestoreParameters">putRestoreParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putSnapshotPolicy">putSnapshotPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putTieringPolicy">putTieringPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetBackupConfig">resetBackupConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetBlockDevices">resetBlockDevices</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetCacheParameters">resetCacheParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetExportPolicy">resetExportPolicy</a></code> | *No description.* |
@@ -468,14 +521,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetKerberosEnabled">resetKerberosEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetLabels">resetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetLargeCapacity">resetLargeCapacity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetLargeCapacityConfig">resetLargeCapacityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetMultipleEndpoints">resetMultipleEndpoints</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetRestoreParameters">resetRestoreParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetRestrictedActions">resetRestrictedActions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetSecurityStyle">resetSecurityStyle</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetShareName">resetShareName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetSmbSettings">resetSmbSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetSnapshotDirectory">resetSnapshotDirectory</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetSnapshotPolicy">resetSnapshotPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetThroughputMibps">resetThroughputMibps</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetTieringPolicy">resetTieringPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetUnixPermissions">resetUnixPermissions</a></code> | *No description.* |
@@ -805,6 +861,30 @@ public void putBackupConfig(GoogleNetappVolumeBackupConfig value)
 
 ---
 
+##### `putBlockDevices` <a name="putBlockDevices" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putBlockDevices"></a>
+
+```java
+public void putBlockDevices(IResolvable|java.util.List<GoogleNetappVolumeBlockDevices> value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putBlockDevices.parameter.value"></a>
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>>
+
+---
+
+##### `putCacheParameters` <a name="putCacheParameters" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putCacheParameters"></a>
+
+```java
+public void putCacheParameters(GoogleNetappVolumeCacheParameters value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putCacheParameters.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a>
+
+---
+
 ##### `putExportPolicy` <a name="putExportPolicy" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putExportPolicy"></a>
 
 ```java
@@ -826,6 +906,18 @@ public void putHybridReplicationParameters(GoogleNetappVolumeHybridReplicationPa
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putHybridReplicationParameters.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters">GoogleNetappVolumeHybridReplicationParameters</a>
+
+---
+
+##### `putLargeCapacityConfig` <a name="putLargeCapacityConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putLargeCapacityConfig"></a>
+
+```java
+public void putLargeCapacityConfig(GoogleNetappVolumeLargeCapacityConfig value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.putLargeCapacityConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a>
 
 ---
 
@@ -883,6 +975,18 @@ public void putTimeouts(GoogleNetappVolumeTimeouts value)
 public void resetBackupConfig()
 ```
 
+##### `resetBlockDevices` <a name="resetBlockDevices" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetBlockDevices"></a>
+
+```java
+public void resetBlockDevices()
+```
+
+##### `resetCacheParameters` <a name="resetCacheParameters" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetCacheParameters"></a>
+
+```java
+public void resetCacheParameters()
+```
+
 ##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetDeletionPolicy"></a>
 
 ```java
@@ -931,6 +1035,12 @@ public void resetLabels()
 public void resetLargeCapacity()
 ```
 
+##### `resetLargeCapacityConfig` <a name="resetLargeCapacityConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetLargeCapacityConfig"></a>
+
+```java
+public void resetLargeCapacityConfig()
+```
+
 ##### `resetMultipleEndpoints` <a name="resetMultipleEndpoints" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetMultipleEndpoints"></a>
 
 ```java
@@ -961,6 +1071,12 @@ public void resetRestrictedActions()
 public void resetSecurityStyle()
 ```
 
+##### `resetShareName` <a name="resetShareName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetShareName"></a>
+
+```java
+public void resetShareName()
+```
+
 ##### `resetSmbSettings` <a name="resetSmbSettings" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetSmbSettings"></a>
 
 ```java
@@ -977,6 +1093,12 @@ public void resetSnapshotDirectory()
 
 ```java
 public void resetSnapshotPolicy()
+```
+
+##### `resetThroughputMibps` <a name="resetThroughputMibps" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetThroughputMibps"></a>
+
+```java
+public void resetThroughputMibps()
 ```
 
 ##### `resetTieringPolicy` <a name="resetTieringPolicy" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.resetTieringPolicy"></a>
@@ -1100,7 +1222,7 @@ The construct id used in the generated config for the GoogleNetappVolume to impo
 
 The id of the existing GoogleNetappVolume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1132,14 +1254,18 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.activeDirectory">activeDirectory</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.backupConfig">backupConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfigOutputReference">GoogleNetappVolumeBackupConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.blockDevices">blockDevices</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList">GoogleNetappVolumeBlockDevicesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.cacheParameters">cacheParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference">GoogleNetappVolumeCacheParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.coldTierSizeGib">coldTierSizeGib</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.createTime">createTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.effectiveLabels">effectiveLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.encryptionType">encryptionType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.exportPolicy">exportPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyOutputReference">GoogleNetappVolumeExportPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.hasReplication">hasReplication</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.hotTierSizeUsedGib">hotTierSizeUsedGib</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.hybridReplicationParameters">hybridReplicationParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference">GoogleNetappVolumeHybridReplicationParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.kmsConfig">kmsConfig</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.largeCapacityConfig">largeCapacityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference">GoogleNetappVolumeLargeCapacityConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.ldapEnabled">ldapEnabled</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.mountOptions">mountOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsList">GoogleNetappVolumeMountOptionsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.network">network</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1156,6 +1282,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.usedGib">usedGib</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.zone">zone</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.backupConfigInput">backupConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfig">GoogleNetappVolumeBackupConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.blockDevicesInput">blockDevicesInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.cacheParametersInput">cacheParametersInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.capacityGibInput">capacityGibInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1164,6 +1292,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.kerberosEnabledInput">kerberosEnabledInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.largeCapacityConfigInput">largeCapacityConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.largeCapacityInput">largeCapacityInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.locationInput">locationInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.multipleEndpointsInput">multipleEndpointsInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
@@ -1178,6 +1307,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.snapshotDirectoryInput">snapshotDirectoryInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.snapshotPolicyInput">snapshotPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicy">GoogleNetappVolumeSnapshotPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.storagePoolInput">storagePoolInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.throughputMibpsInput">throughputMibpsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.tieringPolicyInput">tieringPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTieringPolicy">GoogleNetappVolumeTieringPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts">GoogleNetappVolumeTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.unixPermissionsInput">unixPermissionsInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1199,6 +1329,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.smbSettings">smbSettings</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.snapshotDirectory">snapshotDirectory</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.storagePool">storagePool</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.throughputMibps">throughputMibps</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.unixPermissions">unixPermissions</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
@@ -1365,6 +1496,26 @@ public GoogleNetappVolumeBackupConfigOutputReference getBackupConfig();
 
 ---
 
+##### `blockDevices`<sup>Required</sup> <a name="blockDevices" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.blockDevices"></a>
+
+```java
+public GoogleNetappVolumeBlockDevicesList getBlockDevices();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList">GoogleNetappVolumeBlockDevicesList</a>
+
+---
+
+##### `cacheParameters`<sup>Required</sup> <a name="cacheParameters" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.cacheParameters"></a>
+
+```java
+public GoogleNetappVolumeCacheParametersOutputReference getCacheParameters();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference">GoogleNetappVolumeCacheParametersOutputReference</a>
+
+---
+
 ##### `coldTierSizeGib`<sup>Required</sup> <a name="coldTierSizeGib" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.coldTierSizeGib"></a>
 
 ```java
@@ -1425,6 +1576,16 @@ public IResolvable getHasReplication();
 
 ---
 
+##### `hotTierSizeUsedGib`<sup>Required</sup> <a name="hotTierSizeUsedGib" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.hotTierSizeUsedGib"></a>
+
+```java
+public java.lang.String getHotTierSizeUsedGib();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `hybridReplicationParameters`<sup>Required</sup> <a name="hybridReplicationParameters" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.hybridReplicationParameters"></a>
 
 ```java
@@ -1442,6 +1603,16 @@ public java.lang.String getKmsConfig();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `largeCapacityConfig`<sup>Required</sup> <a name="largeCapacityConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.largeCapacityConfig"></a>
+
+```java
+public GoogleNetappVolumeLargeCapacityConfigOutputReference getLargeCapacityConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference">GoogleNetappVolumeLargeCapacityConfigOutputReference</a>
 
 ---
 
@@ -1605,6 +1776,26 @@ public GoogleNetappVolumeBackupConfig getBackupConfigInput();
 
 ---
 
+##### `blockDevicesInput`<sup>Optional</sup> <a name="blockDevicesInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.blockDevicesInput"></a>
+
+```java
+public IResolvable|java.util.List<GoogleNetappVolumeBlockDevices> getBlockDevicesInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>>
+
+---
+
+##### `cacheParametersInput`<sup>Optional</sup> <a name="cacheParametersInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.cacheParametersInput"></a>
+
+```java
+public GoogleNetappVolumeCacheParameters getCacheParametersInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a>
+
+---
+
 ##### `capacityGibInput`<sup>Optional</sup> <a name="capacityGibInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.capacityGibInput"></a>
 
 ```java
@@ -1682,6 +1873,16 @@ public java.util.Map<java.lang.String, java.lang.String> getLabelsInput();
 ```
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `largeCapacityConfigInput`<sup>Optional</sup> <a name="largeCapacityConfigInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.largeCapacityConfigInput"></a>
+
+```java
+public GoogleNetappVolumeLargeCapacityConfig getLargeCapacityConfigInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a>
 
 ---
 
@@ -1822,6 +2023,16 @@ public java.lang.String getStoragePoolInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `throughputMibpsInput`<sup>Optional</sup> <a name="throughputMibpsInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.throughputMibpsInput"></a>
+
+```java
+public java.lang.Number getThroughputMibpsInput();
+```
+
+- *Type:* java.lang.Number
 
 ---
 
@@ -2035,6 +2246,16 @@ public java.lang.String getStoragePool();
 
 ---
 
+##### `throughputMibps`<sup>Required</sup> <a name="throughputMibps" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.throughputMibps"></a>
+
+```java
+public java.lang.Number getThroughputMibps();
+```
+
+- *Type:* java.lang.Number
+
+---
+
 ##### `unixPermissions`<sup>Required</sup> <a name="unixPermissions" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume.property.unixPermissions"></a>
 
 ```java
@@ -2099,7 +2320,7 @@ public java.util.List<java.lang.String> getBackupPolicies();
 
 Specify a single backup policy ID for scheduled backups. Format: 'projects/{{projectId}}/locations/{{location}}/backupPolicies/{{backupPolicyName}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#backup_policies GoogleNetappVolume#backup_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#backup_policies GoogleNetappVolume#backup_policies}
 
 ---
 
@@ -2113,7 +2334,7 @@ public java.lang.String getBackupVault();
 
 ID of the backup vault to use. A backup vault is reqired to create manual or scheduled backups. Format: 'projects/{{projectId}}/locations/{{location}}/backupVaults/{{backupVaultName}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#backup_vault GoogleNetappVolume#backup_vault}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#backup_vault GoogleNetappVolume#backup_vault}
 
 ---
 
@@ -2127,7 +2348,254 @@ public java.lang.Boolean|IResolvable getScheduledBackupEnabled();
 
 When set to true, scheduled backup is enabled on the volume. Omit if no backup_policy is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#scheduled_backup_enabled GoogleNetappVolume#scheduled_backup_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#scheduled_backup_enabled GoogleNetappVolume#scheduled_backup_enabled}
+
+---
+
+### GoogleNetappVolumeBlockDevices <a name="GoogleNetappVolumeBlockDevices" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeBlockDevices;
+
+GoogleNetappVolumeBlockDevices.builder()
+    .osType(java.lang.String)
+//  .hostGroups(java.util.List<java.lang.String>)
+//  .name(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices.property.osType">osType</a></code> | <code>java.lang.String</code> | The OS type of the volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices.property.hostGroups">hostGroups</a></code> | <code>java.util.List<java.lang.String></code> | A list of host groups that identify hosts that can mount the block volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices.property.name">name</a></code> | <code>java.lang.String</code> | User-defined name for the block device, unique within the Volume. |
+
+---
+
+##### `osType`<sup>Required</sup> <a name="osType" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices.property.osType"></a>
+
+```java
+public java.lang.String getOsType();
+```
+
+- *Type:* java.lang.String
+
+The OS type of the volume.
+
+This field can't be changed after the block device is created. Possible values: ["LINUX", "WINDOWS", "ESXI"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#os_type GoogleNetappVolume#os_type}
+
+---
+
+##### `hostGroups`<sup>Optional</sup> <a name="hostGroups" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices.property.hostGroups"></a>
+
+```java
+public java.util.List<java.lang.String> getHostGroups();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+A list of host groups that identify hosts that can mount the block volume.
+
+Format:
+'projects/{project_id}/locations/{location}/hostGroups/{host_group_id}'
+This field can be updated after the block device is created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#host_groups GoogleNetappVolume#host_groups}
+
+---
+
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices.property.name"></a>
+
+```java
+public java.lang.String getName();
+```
+
+- *Type:* java.lang.String
+
+User-defined name for the block device, unique within the Volume.
+
+In case
+no user input is provided, name will be autogenerated in the backend.
+The name must meet the following requirements:
+
+* Be between 1 and 255 characters long.
+* Contain only uppercase or lowercase letters (A-Z, a-z), numbers (0-9),
+  and the following special characters: "-", "_", "}", "{", ".".
+* Spaces are not allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
+
+---
+
+### GoogleNetappVolumeCacheParameters <a name="GoogleNetappVolumeCacheParameters" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeCacheParameters;
+
+GoogleNetappVolumeCacheParameters.builder()
+//  .cacheConfig(GoogleNetappVolumeCacheParametersCacheConfig)
+//  .enableGlobalFileLock(java.lang.Boolean|IResolvable)
+//  .peerClusterName(java.lang.String)
+//  .peeringCommandExpiryTime(java.lang.String)
+//  .peerIpAddresses(java.util.List<java.lang.String>)
+//  .peerSvmName(java.lang.String)
+//  .peerVolumeName(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.cacheConfig">cacheConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig">GoogleNetappVolumeCacheParametersCacheConfig</a></code> | cache_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.enableGlobalFileLock">enableGlobalFileLock</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Optional. Field indicating whether cache volume as global file lock enabled. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerClusterName">peerClusterName</a></code> | <code>java.lang.String</code> | Required. Name of the origin volume's ONTAP cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peeringCommandExpiryTime">peeringCommandExpiryTime</a></code> | <code>java.lang.String</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerIpAddresses">peerIpAddresses</a></code> | <code>java.util.List<java.lang.String></code> | Required. List of IC LIF addresses of the origin volume's ONTAP cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerSvmName">peerSvmName</a></code> | <code>java.lang.String</code> | Required. Name of the origin volume's SVM. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerVolumeName">peerVolumeName</a></code> | <code>java.lang.String</code> | Required. Name of the origin volume for the cache volume. |
+
+---
+
+##### `cacheConfig`<sup>Optional</sup> <a name="cacheConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.cacheConfig"></a>
+
+```java
+public GoogleNetappVolumeCacheParametersCacheConfig getCacheConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig">GoogleNetappVolumeCacheParametersCacheConfig</a>
+
+cache_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cache_config GoogleNetappVolume#cache_config}
+
+---
+
+##### `enableGlobalFileLock`<sup>Optional</sup> <a name="enableGlobalFileLock" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.enableGlobalFileLock"></a>
+
+```java
+public java.lang.Boolean|IResolvable getEnableGlobalFileLock();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+Optional. Field indicating whether cache volume as global file lock enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#enable_global_file_lock GoogleNetappVolume#enable_global_file_lock}
+
+---
+
+##### `peerClusterName`<sup>Optional</sup> <a name="peerClusterName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerClusterName"></a>
+
+```java
+public java.lang.String getPeerClusterName();
+```
+
+- *Type:* java.lang.String
+
+Required. Name of the origin volume's ONTAP cluster.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_cluster_name GoogleNetappVolume#peer_cluster_name}
+
+---
+
+##### `peeringCommandExpiryTime`<sup>Optional</sup> <a name="peeringCommandExpiryTime" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peeringCommandExpiryTime"></a>
+
+```java
+public java.lang.String getPeeringCommandExpiryTime();
+```
+
+- *Type:* java.lang.String
+
+Optional.
+
+Expiration time for the peering command to be executed on user's ONTAP. A timestamp in RFC3339 UTC "Zulu" format. Examples: "2023-06-22T09:13:01.617Z".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peering_command_expiry_time GoogleNetappVolume#peering_command_expiry_time}
+
+---
+
+##### `peerIpAddresses`<sup>Optional</sup> <a name="peerIpAddresses" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerIpAddresses"></a>
+
+```java
+public java.util.List<java.lang.String> getPeerIpAddresses();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Required. List of IC LIF addresses of the origin volume's ONTAP cluster.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_ip_addresses GoogleNetappVolume#peer_ip_addresses}
+
+---
+
+##### `peerSvmName`<sup>Optional</sup> <a name="peerSvmName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerSvmName"></a>
+
+```java
+public java.lang.String getPeerSvmName();
+```
+
+- *Type:* java.lang.String
+
+Required. Name of the origin volume's SVM.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_svm_name GoogleNetappVolume#peer_svm_name}
+
+---
+
+##### `peerVolumeName`<sup>Optional</sup> <a name="peerVolumeName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters.property.peerVolumeName"></a>
+
+```java
+public java.lang.String getPeerVolumeName();
+```
+
+- *Type:* java.lang.String
+
+Required. Name of the origin volume for the cache volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_volume_name GoogleNetappVolume#peer_volume_name}
+
+---
+
+### GoogleNetappVolumeCacheParametersCacheConfig <a name="GoogleNetappVolumeCacheParametersCacheConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeCacheParametersCacheConfig;
+
+GoogleNetappVolumeCacheParametersCacheConfig.builder()
+//  .cifsChangeNotifyEnabled(java.lang.Boolean|IResolvable)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig.property.cifsChangeNotifyEnabled">cifsChangeNotifyEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Optional. Flag indicating whether a CIFS change notification is enabled for the FlexCache volume. |
+
+---
+
+##### `cifsChangeNotifyEnabled`<sup>Optional</sup> <a name="cifsChangeNotifyEnabled" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig.property.cifsChangeNotifyEnabled"></a>
+
+```java
+public java.lang.Boolean|IResolvable getCifsChangeNotifyEnabled();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+Optional. Flag indicating whether a CIFS change notification is enabled for the FlexCache volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cifs_change_notify_enabled GoogleNetappVolume#cifs_change_notify_enabled}
 
 ---
 
@@ -2150,9 +2618,10 @@ GoogleNetappVolumeConfig.builder()
     .location(java.lang.String)
     .name(java.lang.String)
     .protocols(java.util.List<java.lang.String>)
-    .shareName(java.lang.String)
     .storagePool(java.lang.String)
 //  .backupConfig(GoogleNetappVolumeBackupConfig)
+//  .blockDevices(IResolvable|java.util.List<GoogleNetappVolumeBlockDevices>)
+//  .cacheParameters(GoogleNetappVolumeCacheParameters)
 //  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .exportPolicy(GoogleNetappVolumeExportPolicy)
@@ -2161,14 +2630,17 @@ GoogleNetappVolumeConfig.builder()
 //  .kerberosEnabled(java.lang.Boolean|IResolvable)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
 //  .largeCapacity(java.lang.Boolean|IResolvable)
+//  .largeCapacityConfig(GoogleNetappVolumeLargeCapacityConfig)
 //  .multipleEndpoints(java.lang.Boolean|IResolvable)
 //  .project(java.lang.String)
 //  .restoreParameters(GoogleNetappVolumeRestoreParameters)
 //  .restrictedActions(java.util.List<java.lang.String>)
 //  .securityStyle(java.lang.String)
+//  .shareName(java.lang.String)
 //  .smbSettings(java.util.List<java.lang.String>)
 //  .snapshotDirectory(java.lang.Boolean|IResolvable)
 //  .snapshotPolicy(GoogleNetappVolumeSnapshotPolicy)
+//  .throughputMibps(java.lang.Number)
 //  .tieringPolicy(GoogleNetappVolumeTieringPolicy)
 //  .timeouts(GoogleNetappVolumeTimeouts)
 //  .unixPermissions(java.lang.String)
@@ -2190,25 +2662,29 @@ GoogleNetappVolumeConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.location">location</a></code> | <code>java.lang.String</code> | Name of the pool location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.name">name</a></code> | <code>java.lang.String</code> | The name of the volume. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.protocols">protocols</a></code> | <code>java.util.List<java.lang.String></code> | The protocol of the volume. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.shareName">shareName</a></code> | <code>java.lang.String</code> | Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.storagePool">storagePool</a></code> | <code>java.lang.String</code> | Name of the storage pool to create the volume in. Pool needs enough spare capacity to accommodate the volume. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.backupConfig">backupConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfig">GoogleNetappVolumeBackupConfig</a></code> | backup_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.blockDevices">blockDevices</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>></code> | block_devices block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.cacheParameters">cacheParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a></code> | cache_parameters block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Policy to determine if the volume should be deleted forcefully. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.exportPolicy">exportPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicy">GoogleNetappVolumeExportPolicy</a></code> | export_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.hybridReplicationParameters">hybridReplicationParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters">GoogleNetappVolumeHybridReplicationParameters</a></code> | hybrid_replication_parameters block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.kerberosEnabled">kerberosEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Flag indicating if the volume is a kerberos volume or not, export policy rules control kerberos security modes (krb5, krb5i, krb5p). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.largeCapacity">largeCapacity</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Optional. Flag indicating if the volume will be a large capacity volume or a regular volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.largeCapacityConfig">largeCapacityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a></code> | large_capacity_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.multipleEndpoints">multipleEndpoints</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.restoreParameters">restoreParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeRestoreParameters">GoogleNetappVolumeRestoreParameters</a></code> | restore_parameters block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.restrictedActions">restrictedActions</a></code> | <code>java.util.List<java.lang.String></code> | List of actions that are restricted on this volume. Possible values: ["DELETE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.securityStyle">securityStyle</a></code> | <code>java.lang.String</code> | Security Style of the Volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.shareName">shareName</a></code> | <code>java.lang.String</code> | Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.smbSettings">smbSettings</a></code> | <code>java.util.List<java.lang.String></code> | Settings for volumes with SMB access. Possible values: ["ENCRYPT_DATA", "BROWSABLE", "CHANGE_NOTIFY", "NON_BROWSABLE", "OPLOCKS", "SHOW_SNAPSHOT", "SHOW_PREVIOUS_VERSIONS", "ACCESS_BASED_ENUMERATION", "CONTINUOUSLY_AVAILABLE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.snapshotDirectory">snapshotDirectory</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If enabled, a NFS volume will contain a read-only .snapshot directory which provides access to each of the volume's snapshots. Will enable "Previous Versions" support for SMB. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.snapshotPolicy">snapshotPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicy">GoogleNetappVolumeSnapshotPolicy</a></code> | snapshot_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.throughputMibps">throughputMibps</a></code> | <code>java.lang.Number</code> | Optional. Custom Performance Total Throughput of the pool (in MiB/s). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.tieringPolicy">tieringPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTieringPolicy">GoogleNetappVolumeTieringPolicy</a></code> | tiering_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts">GoogleNetappVolumeTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.unixPermissions">unixPermissions</a></code> | <code>java.lang.String</code> | Unix permission the mount point will be created with. Default is 0770. Applicable for UNIX security style volumes only. |
@@ -2295,7 +2771,7 @@ public java.lang.String getCapacityGib();
 
 Capacity of the volume (in GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#capacity_gib GoogleNetappVolume#capacity_gib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#capacity_gib GoogleNetappVolume#capacity_gib}
 
 ---
 
@@ -2311,7 +2787,7 @@ Name of the pool location.
 
 Usually a region name, expect for some STANDARD service level pools which require a zone name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#location GoogleNetappVolume#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#location GoogleNetappVolume#location}
 
 ---
 
@@ -2325,7 +2801,7 @@ public java.lang.String getName();
 
 The name of the volume. Needs to be unique per location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#name GoogleNetappVolume#name}
 
 ---
 
@@ -2339,23 +2815,9 @@ public java.util.List<java.lang.String> getProtocols();
 
 The protocol of the volume.
 
-Allowed combinations are '['NFSV3']', '['NFSV4']', '['SMB']', '['NFSV3', 'NFSV4']', '['SMB', 'NFSV3']' and '['SMB', 'NFSV4']'. Possible values: ["NFSV3", "NFSV4", "SMB"]
+Allowed combinations are '['NFSV3']', '['NFSV4']', '['SMB']', '['NFSV3', 'NFSV4']', '['SMB', 'NFSV3']' and '['SMB', 'NFSV4']'. Possible values: ["NFSV3", "NFSV4", "SMB", "ISCSI"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#protocols GoogleNetappVolume#protocols}
-
----
-
-##### `shareName`<sup>Required</sup> <a name="shareName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.shareName"></a>
-
-```java
-public java.lang.String getShareName();
-```
-
-- *Type:* java.lang.String
-
-Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#share_name GoogleNetappVolume#share_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#protocols GoogleNetappVolume#protocols}
 
 ---
 
@@ -2369,7 +2831,7 @@ public java.lang.String getStoragePool();
 
 Name of the storage pool to create the volume in. Pool needs enough spare capacity to accommodate the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#storage_pool GoogleNetappVolume#storage_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#storage_pool GoogleNetappVolume#storage_pool}
 
 ---
 
@@ -2383,7 +2845,35 @@ public GoogleNetappVolumeBackupConfig getBackupConfig();
 
 backup_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#backup_config GoogleNetappVolume#backup_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#backup_config GoogleNetappVolume#backup_config}
+
+---
+
+##### `blockDevices`<sup>Optional</sup> <a name="blockDevices" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.blockDevices"></a>
+
+```java
+public IResolvable|java.util.List<GoogleNetappVolumeBlockDevices> getBlockDevices();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>>
+
+block_devices block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#block_devices GoogleNetappVolume#block_devices}
+
+---
+
+##### `cacheParameters`<sup>Optional</sup> <a name="cacheParameters" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.cacheParameters"></a>
+
+```java
+public GoogleNetappVolumeCacheParameters getCacheParameters();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a>
+
+cache_parameters block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cache_parameters GoogleNetappVolume#cache_parameters}
 
 ---
 
@@ -2401,7 +2891,7 @@ Volumes may have nested snapshot resources. Deleting such a volume will fail.
 Setting this parameter to FORCE will delete volumes including nested snapshots.
 Possible values: DEFAULT, FORCE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#deletion_policy GoogleNetappVolume#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#deletion_policy GoogleNetappVolume#deletion_policy}
 
 ---
 
@@ -2415,7 +2905,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
 
 ---
 
@@ -2429,7 +2919,7 @@ public GoogleNetappVolumeExportPolicy getExportPolicy();
 
 export_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#export_policy GoogleNetappVolume#export_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#export_policy GoogleNetappVolume#export_policy}
 
 ---
 
@@ -2443,7 +2933,7 @@ public GoogleNetappVolumeHybridReplicationParameters getHybridReplicationParamet
 
 hybrid_replication_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hybrid_replication_parameters GoogleNetappVolume#hybrid_replication_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hybrid_replication_parameters GoogleNetappVolume#hybrid_replication_parameters}
 
 ---
 
@@ -2455,7 +2945,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#id GoogleNetappVolume#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2472,7 +2962,7 @@ public java.lang.Boolean|IResolvable getKerberosEnabled();
 
 Flag indicating if the volume is a kerberos volume or not, export policy rules control kerberos security modes (krb5, krb5i, krb5p).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos_enabled GoogleNetappVolume#kerberos_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos_enabled GoogleNetappVolume#kerberos_enabled}
 
 ---
 
@@ -2489,7 +2979,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
 
 ---
 
@@ -2503,7 +2993,21 @@ public java.lang.Boolean|IResolvable getLargeCapacity();
 
 Optional. Flag indicating if the volume will be a large capacity volume or a regular volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#large_capacity GoogleNetappVolume#large_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_capacity GoogleNetappVolume#large_capacity}
+
+---
+
+##### `largeCapacityConfig`<sup>Optional</sup> <a name="largeCapacityConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.largeCapacityConfig"></a>
+
+```java
+public GoogleNetappVolumeLargeCapacityConfig getLargeCapacityConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a>
+
+large_capacity_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_capacity_config GoogleNetappVolume#large_capacity_config}
 
 ---
 
@@ -2520,7 +3024,7 @@ Optional.
 Flag indicating if the volume will have an IP address per node for volumes supporting multiple IP endpoints.
 Only the volume with largeCapacity will be allowed to have multiple endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#multiple_endpoints GoogleNetappVolume#multiple_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#multiple_endpoints GoogleNetappVolume#multiple_endpoints}
 
 ---
 
@@ -2532,7 +3036,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#project GoogleNetappVolume#project}.
 
 ---
 
@@ -2546,7 +3050,7 @@ public GoogleNetappVolumeRestoreParameters getRestoreParameters();
 
 restore_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#restore_parameters GoogleNetappVolume#restore_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#restore_parameters GoogleNetappVolume#restore_parameters}
 
 ---
 
@@ -2560,7 +3064,7 @@ public java.util.List<java.lang.String> getRestrictedActions();
 
 List of actions that are restricted on this volume. Possible values: ["DELETE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#restricted_actions GoogleNetappVolume#restricted_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#restricted_actions GoogleNetappVolume#restricted_actions}
 
 ---
 
@@ -2577,7 +3081,21 @@ Security Style of the Volume.
 Use UNIX to use UNIX or NFSV4 ACLs for file permissions.
 Use NTFS to use NTFS ACLs for file permissions. Can only be set for volumes which use SMB together with NFS as protocol. Possible values: ["NTFS", "UNIX"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#security_style GoogleNetappVolume#security_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#security_style GoogleNetappVolume#security_style}
+
+---
+
+##### `shareName`<sup>Optional</sup> <a name="shareName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.shareName"></a>
+
+```java
+public java.lang.String getShareName();
+```
+
+- *Type:* java.lang.String
+
+Share name (SMB) or export path (NFS) of the volume. Needs to be unique per location.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#share_name GoogleNetappVolume#share_name}
 
 ---
 
@@ -2591,7 +3109,7 @@ public java.util.List<java.lang.String> getSmbSettings();
 
 Settings for volumes with SMB access. Possible values: ["ENCRYPT_DATA", "BROWSABLE", "CHANGE_NOTIFY", "NON_BROWSABLE", "OPLOCKS", "SHOW_SNAPSHOT", "SHOW_PREVIOUS_VERSIONS", "ACCESS_BASED_ENUMERATION", "CONTINUOUSLY_AVAILABLE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#smb_settings GoogleNetappVolume#smb_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#smb_settings GoogleNetappVolume#smb_settings}
 
 ---
 
@@ -2605,7 +3123,7 @@ public java.lang.Boolean|IResolvable getSnapshotDirectory();
 
 If enabled, a NFS volume will contain a read-only .snapshot directory which provides access to each of the volume's snapshots. Will enable "Previous Versions" support for SMB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshot_directory GoogleNetappVolume#snapshot_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshot_directory GoogleNetappVolume#snapshot_directory}
 
 ---
 
@@ -2619,7 +3137,21 @@ public GoogleNetappVolumeSnapshotPolicy getSnapshotPolicy();
 
 snapshot_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshot_policy GoogleNetappVolume#snapshot_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshot_policy GoogleNetappVolume#snapshot_policy}
+
+---
+
+##### `throughputMibps`<sup>Optional</sup> <a name="throughputMibps" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig.property.throughputMibps"></a>
+
+```java
+public java.lang.Number getThroughputMibps();
+```
+
+- *Type:* java.lang.Number
+
+Optional. Custom Performance Total Throughput of the pool (in MiB/s).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#throughput_mibps GoogleNetappVolume#throughput_mibps}
 
 ---
 
@@ -2633,7 +3165,7 @@ public GoogleNetappVolumeTieringPolicy getTieringPolicy();
 
 tiering_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#tiering_policy GoogleNetappVolume#tiering_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#tiering_policy GoogleNetappVolume#tiering_policy}
 
 ---
 
@@ -2647,7 +3179,7 @@ public GoogleNetappVolumeTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#timeouts GoogleNetappVolume#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#timeouts GoogleNetappVolume#timeouts}
 
 ---
 
@@ -2661,7 +3193,7 @@ public java.lang.String getUnixPermissions();
 
 Unix permission the mount point will be created with. Default is 0770. Applicable for UNIX security style volumes only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#unix_permissions GoogleNetappVolume#unix_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#unix_permissions GoogleNetappVolume#unix_permissions}
 
 ---
 
@@ -2695,7 +3227,7 @@ public IResolvable|java.util.List<GoogleNetappVolumeExportPolicyRules> getRules(
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#rules GoogleNetappVolume#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#rules GoogleNetappVolume#rules}
 
 ---
 
@@ -2709,6 +3241,7 @@ import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeExp
 GoogleNetappVolumeExportPolicyRules.builder()
 //  .accessType(java.lang.String)
 //  .allowedClients(java.lang.String)
+//  .anonUid(java.lang.Number)
 //  .hasRootAccess(java.lang.String)
 //  .kerberos5IReadOnly(java.lang.Boolean|IResolvable)
 //  .kerberos5IReadWrite(java.lang.Boolean|IResolvable)
@@ -2718,6 +3251,7 @@ GoogleNetappVolumeExportPolicyRules.builder()
 //  .kerberos5ReadWrite(java.lang.Boolean|IResolvable)
 //  .nfsv3(java.lang.Boolean|IResolvable)
 //  .nfsv4(java.lang.Boolean|IResolvable)
+//  .squashMode(java.lang.String)
     .build();
 ```
 
@@ -2727,6 +3261,7 @@ GoogleNetappVolumeExportPolicyRules.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.accessType">accessType</a></code> | <code>java.lang.String</code> | Defines the access type for clients matching the 'allowedClients' specification. Possible values: ["READ_ONLY", "READ_WRITE", "READ_NONE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.allowedClients">allowedClients</a></code> | <code>java.lang.String</code> | Defines the client ingress specification (allowed clients) as a comma separated list with IPv4 CIDRs or IPv4 host addresses. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.anonUid">anonUid</a></code> | <code>java.lang.Number</code> | An integer representing the anonymous user ID. Range is 0 to 4294967295. Required when 'squash_mode' is 'ALL_SQUASH'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.hasRootAccess">hasRootAccess</a></code> | <code>java.lang.String</code> | If enabled, the root user (UID = 0) of the specified clients doesn't get mapped to nobody (UID = 65534). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.kerberos5IReadOnly">kerberos5IReadOnly</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If enabled (true) the rule defines a read only access for clients matching the 'allowedClients' specification. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.kerberos5IReadWrite">kerberos5IReadWrite</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. |
@@ -2736,6 +3271,7 @@ GoogleNetappVolumeExportPolicyRules.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.kerberos5ReadWrite">kerberos5ReadWrite</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.nfsv3">nfsv3</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Enable to apply the export rule to NFSV3 clients. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.nfsv4">nfsv4</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Enable to apply the export rule to NFSV4.1 clients. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.squashMode">squashMode</a></code> | <code>java.lang.String</code> | SquashMode defines how remote user privileges are restricted when accessing an NFS export. |
 
 ---
 
@@ -2749,7 +3285,7 @@ public java.lang.String getAccessType();
 
 Defines the access type for clients matching the 'allowedClients' specification. Possible values: ["READ_ONLY", "READ_WRITE", "READ_NONE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#access_type GoogleNetappVolume#access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#access_type GoogleNetappVolume#access_type}
 
 ---
 
@@ -2763,7 +3299,21 @@ public java.lang.String getAllowedClients();
 
 Defines the client ingress specification (allowed clients) as a comma separated list with IPv4 CIDRs or IPv4 host addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#allowed_clients GoogleNetappVolume#allowed_clients}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#allowed_clients GoogleNetappVolume#allowed_clients}
+
+---
+
+##### `anonUid`<sup>Optional</sup> <a name="anonUid" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.anonUid"></a>
+
+```java
+public java.lang.Number getAnonUid();
+```
+
+- *Type:* java.lang.Number
+
+An integer representing the anonymous user ID. Range is 0 to 4294967295. Required when 'squash_mode' is 'ALL_SQUASH'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#anon_uid GoogleNetappVolume#anon_uid}
 
 ---
 
@@ -2778,8 +3328,9 @@ public java.lang.String getHasRootAccess();
 If enabled, the root user (UID = 0) of the specified clients doesn't get mapped to nobody (UID = 65534).
 
 This is also known as no_root_squash.
+Use either squash_mode or has_root_access, but never both at the same time. These parameters are mutually exclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#has_root_access GoogleNetappVolume#has_root_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#has_root_access GoogleNetappVolume#has_root_access}
 
 ---
 
@@ -2795,7 +3346,7 @@ If enabled (true) the rule defines a read only access for clients matching the '
 
 It enables nfs clients to mount using 'integrity' kerberos security mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5i_read_only GoogleNetappVolume#kerberos5i_read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5i_read_only GoogleNetappVolume#kerberos5i_read_only}
 
 ---
 
@@ -2811,7 +3362,7 @@ If enabled (true) the rule defines read and write access for clients matching th
 
 It enables nfs clients to mount using 'integrity' kerberos security mode. The 'kerberos5iReadOnly' value is ignored if this is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5i_read_write GoogleNetappVolume#kerberos5i_read_write}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5i_read_write GoogleNetappVolume#kerberos5i_read_write}
 
 ---
 
@@ -2827,7 +3378,7 @@ If enabled (true) the rule defines a read only access for clients matching the '
 
 It enables nfs clients to mount using 'privacy' kerberos security mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5p_read_only GoogleNetappVolume#kerberos5p_read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5p_read_only GoogleNetappVolume#kerberos5p_read_only}
 
 ---
 
@@ -2843,7 +3394,7 @@ If enabled (true) the rule defines read and write access for clients matching th
 
 It enables nfs clients to mount using 'privacy' kerberos security mode. The 'kerberos5pReadOnly' value is ignored if this is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5p_read_write GoogleNetappVolume#kerberos5p_read_write}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5p_read_write GoogleNetappVolume#kerberos5p_read_write}
 
 ---
 
@@ -2859,7 +3410,7 @@ If enabled (true) the rule defines a read only access for clients matching the '
 
 It enables nfs clients to mount using 'authentication' kerberos security mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5_read_only GoogleNetappVolume#kerberos5_read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5_read_only GoogleNetappVolume#kerberos5_read_only}
 
 ---
 
@@ -2875,7 +3426,7 @@ If enabled (true) the rule defines read and write access for clients matching th
 
 It enables nfs clients to mount using 'authentication' kerberos security mode. The 'kerberos5ReadOnly' value is ignored if this is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5_read_write GoogleNetappVolume#kerberos5_read_write}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#kerberos5_read_write GoogleNetappVolume#kerberos5_read_write}
 
 ---
 
@@ -2889,7 +3440,7 @@ public java.lang.Boolean|IResolvable getNfsv3();
 
 Enable to apply the export rule to NFSV3 clients.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#nfsv3 GoogleNetappVolume#nfsv3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#nfsv3 GoogleNetappVolume#nfsv3}
 
 ---
 
@@ -2903,7 +3454,24 @@ public java.lang.Boolean|IResolvable getNfsv4();
 
 Enable to apply the export rule to NFSV4.1 clients.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#nfsv4 GoogleNetappVolume#nfsv4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#nfsv4 GoogleNetappVolume#nfsv4}
+
+---
+
+##### `squashMode`<sup>Optional</sup> <a name="squashMode" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules.property.squashMode"></a>
+
+```java
+public java.lang.String getSquashMode();
+```
+
+- *Type:* java.lang.String
+
+SquashMode defines how remote user privileges are restricted when accessing an NFS export.
+
+It controls how the user identities (like root) are mapped to anonymous users to limit access and enforce security.
+Use either squash_mode or has_root_access, but never both at the same time. These parameters are mutually exclusive. Possible values: ["SQUASH_MODE_UNSPECIFIED", "NO_ROOT_SQUASH", "ROOT_SQUASH", "ALL_SQUASH"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#squash_mode GoogleNetappVolume#squash_mode}
 
 ---
 
@@ -2917,12 +3485,15 @@ import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeHyb
 GoogleNetappVolumeHybridReplicationParameters.builder()
 //  .clusterLocation(java.lang.String)
 //  .description(java.lang.String)
+//  .hybridReplicationType(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
+//  .largeVolumeConstituentCount(java.lang.Number)
 //  .peerClusterName(java.lang.String)
-//  .peerIpAddresses(java.lang.String)
+//  .peerIpAddresses(java.util.List<java.lang.String>)
 //  .peerSvmName(java.lang.String)
 //  .peerVolumeName(java.lang.String)
 //  .replication(java.lang.String)
+//  .replicationSchedule(java.lang.String)
     .build();
 ```
 
@@ -2930,14 +3501,17 @@ GoogleNetappVolumeHybridReplicationParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.clusterLocation">clusterLocation</a></code> | <code>java.lang.String</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.clusterLocation">clusterLocation</a></code> | <code>java.lang.String</code> | Optional. Name of source cluster location associated with the replication. This is a free-form field for display purposes only. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.description">description</a></code> | <code>java.lang.String</code> | Optional. Description of the replication. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.hybridReplicationType">hybridReplicationType</a></code> | <code>java.lang.String</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerClusterName">peerClusterName</a></code> | <code>java.lang.String</code> | Required. Name of the user's local source cluster to be peered with the destination cluster. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerIpAddresses">peerIpAddresses</a></code> | <code>java.lang.String</code> | Required. List of node ip addresses to be peered with. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerSvmName">peerSvmName</a></code> | <code>java.lang.String</code> | Required. Name of the user's local source vserver svm to be peered with the destination vserver svm. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerVolumeName">peerVolumeName</a></code> | <code>java.lang.String</code> | Required. Name of the user's local source volume to be peered with the destination volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.largeVolumeConstituentCount">largeVolumeConstituentCount</a></code> | <code>java.lang.Number</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerClusterName">peerClusterName</a></code> | <code>java.lang.String</code> | Required. Name of the ONTAP source cluster to be peered with NetApp Volumes. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerIpAddresses">peerIpAddresses</a></code> | <code>java.util.List<java.lang.String></code> | Required. List of all intercluster LIF IP addresses of the ONTAP source cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerSvmName">peerSvmName</a></code> | <code>java.lang.String</code> | Required. Name of the ONTAP source vserver SVM to be peered with NetApp Volumes. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerVolumeName">peerVolumeName</a></code> | <code>java.lang.String</code> | Required. Name of the ONTAP source volume to be replicated to NetApp Volumes destination volume. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.replication">replication</a></code> | <code>java.lang.String</code> | Required. Desired name for the replication of this volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.replicationSchedule">replicationSchedule</a></code> | <code>java.lang.String</code> | Optional. Replication Schedule for the replication created. Possible values: ["EVERY_10_MINUTES", "HOURLY", "DAILY"]. |
 
 ---
 
@@ -2949,11 +3523,9 @@ public java.lang.String getClusterLocation();
 
 - *Type:* java.lang.String
 
-Optional.
+Optional. Name of source cluster location associated with the replication. This is a free-form field for display purposes only.
 
-Name of source cluster location associated with the Hybrid replication. This is a free-form field for the display purpose only.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#cluster_location GoogleNetappVolume#cluster_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cluster_location GoogleNetappVolume#cluster_location}
 
 ---
 
@@ -2967,7 +3539,26 @@ public java.lang.String getDescription();
 
 Optional. Description of the replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#description GoogleNetappVolume#description}
+
+---
+
+##### `hybridReplicationType`<sup>Optional</sup> <a name="hybridReplicationType" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.hybridReplicationType"></a>
+
+```java
+public java.lang.String getHybridReplicationType();
+```
+
+- *Type:* java.lang.String
+
+Optional.
+
+Type of the hybrid replication. Use 'MIGRATION' to create a volume migration
+and 'ONPREM_REPLICATION' to create an external replication.
+Other values are read-only. 'REVERSE_ONPREM_REPLICATION' is used to represent an external
+replication which got reversed. Default is 'MIGRATION'. Possible values: ["MIGRATION", "CONTINUOUS_REPLICATION", "ONPREM_REPLICATION", "REVERSE_ONPREM_REPLICATION"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hybrid_replication_type GoogleNetappVolume#hybrid_replication_type}
 
 ---
 
@@ -2984,7 +3575,23 @@ Optional.
 Labels to be added to the replication as the key value pairs.
 An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#labels GoogleNetappVolume#labels}
+
+---
+
+##### `largeVolumeConstituentCount`<sup>Optional</sup> <a name="largeVolumeConstituentCount" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.largeVolumeConstituentCount"></a>
+
+```java
+public java.lang.Number getLargeVolumeConstituentCount();
+```
+
+- *Type:* java.lang.Number
+
+Optional.
+
+If the source is a FlexGroup volume, this field needs to match the number of constituents in the FlexGroup.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#large_volume_constituent_count GoogleNetappVolume#large_volume_constituent_count}
 
 ---
 
@@ -2996,23 +3603,23 @@ public java.lang.String getPeerClusterName();
 
 - *Type:* java.lang.String
 
-Required. Name of the user's local source cluster to be peered with the destination cluster.
+Required. Name of the ONTAP source cluster to be peered with NetApp Volumes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_cluster_name GoogleNetappVolume#peer_cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_cluster_name GoogleNetappVolume#peer_cluster_name}
 
 ---
 
 ##### `peerIpAddresses`<sup>Optional</sup> <a name="peerIpAddresses" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.peerIpAddresses"></a>
 
 ```java
-public java.lang.String getPeerIpAddresses();
+public java.util.List<java.lang.String> getPeerIpAddresses();
 ```
 
-- *Type:* java.lang.String
+- *Type:* java.util.List<java.lang.String>
 
-Required. List of node ip addresses to be peered with.
+Required. List of all intercluster LIF IP addresses of the ONTAP source cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_ip_addresses GoogleNetappVolume#peer_ip_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_ip_addresses GoogleNetappVolume#peer_ip_addresses}
 
 ---
 
@@ -3024,9 +3631,9 @@ public java.lang.String getPeerSvmName();
 
 - *Type:* java.lang.String
 
-Required. Name of the user's local source vserver svm to be peered with the destination vserver svm.
+Required. Name of the ONTAP source vserver SVM to be peered with NetApp Volumes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_svm_name GoogleNetappVolume#peer_svm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_svm_name GoogleNetappVolume#peer_svm_name}
 
 ---
 
@@ -3038,9 +3645,9 @@ public java.lang.String getPeerVolumeName();
 
 - *Type:* java.lang.String
 
-Required. Name of the user's local source volume to be peered with the destination volume.
+Required. Name of the ONTAP source volume to be replicated to NetApp Volumes destination volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#peer_volume_name GoogleNetappVolume#peer_volume_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#peer_volume_name GoogleNetappVolume#peer_volume_name}
 
 ---
 
@@ -3054,7 +3661,55 @@ public java.lang.String getReplication();
 
 Required. Desired name for the replication of this volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#replication GoogleNetappVolume#replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#replication GoogleNetappVolume#replication}
+
+---
+
+##### `replicationSchedule`<sup>Optional</sup> <a name="replicationSchedule" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters.property.replicationSchedule"></a>
+
+```java
+public java.lang.String getReplicationSchedule();
+```
+
+- *Type:* java.lang.String
+
+Optional. Replication Schedule for the replication created. Possible values: ["EVERY_10_MINUTES", "HOURLY", "DAILY"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#replication_schedule GoogleNetappVolume#replication_schedule}
+
+---
+
+### GoogleNetappVolumeLargeCapacityConfig <a name="GoogleNetappVolumeLargeCapacityConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeLargeCapacityConfig;
+
+GoogleNetappVolumeLargeCapacityConfig.builder()
+//  .constituentCount(java.lang.Number)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig.property.constituentCount">constituentCount</a></code> | <code>java.lang.Number</code> | The number of internal constituents (e.g., FlexVols) for this large volume. The minimum number of constituents is 2. |
+
+---
+
+##### `constituentCount`<sup>Optional</sup> <a name="constituentCount" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig.property.constituentCount"></a>
+
+```java
+public java.lang.Number getConstituentCount();
+```
+
+- *Type:* java.lang.Number
+
+The number of internal constituents (e.g., FlexVols) for this large volume. The minimum number of constituents is 2.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#constituent_count GoogleNetappVolume#constituent_count}
 
 ---
 
@@ -3102,7 +3757,7 @@ public java.lang.String getSourceBackup();
 
 Full name of the backup to use for creating this volume. 'source_snapshot' and 'source_backup' cannot be used simultaneously. Format: 'projects/{{project}}/locations/{{location}}/backupVaults/{{backupVaultId}}/backups/{{backup}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#source_backup GoogleNetappVolume#source_backup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#source_backup GoogleNetappVolume#source_backup}
 
 ---
 
@@ -3116,7 +3771,7 @@ public java.lang.String getSourceSnapshot();
 
 Full name of the snapshot to use for creating this volume. 'source_snapshot' and 'source_backup' cannot be used simultaneously. Format: 'projects/{{project}}/locations/{{location}}/volumes/{{volume}}/snapshots/{{snapshot}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#source_snapshot GoogleNetappVolume#source_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#source_snapshot GoogleNetappVolume#source_snapshot}
 
 ---
 
@@ -3158,7 +3813,7 @@ public GoogleNetappVolumeSnapshotPolicyDailySchedule getDailySchedule();
 
 daily_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#daily_schedule GoogleNetappVolume#daily_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#daily_schedule GoogleNetappVolume#daily_schedule}
 
 ---
 
@@ -3175,7 +3830,7 @@ Enables automated snapshot creation according to defined schedule.
 Default is false.
 To disable automatic snapshot creation you have to remove the whole snapshot_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#enabled GoogleNetappVolume#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#enabled GoogleNetappVolume#enabled}
 
 ---
 
@@ -3189,7 +3844,7 @@ public GoogleNetappVolumeSnapshotPolicyHourlySchedule getHourlySchedule();
 
 hourly_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hourly_schedule GoogleNetappVolume#hourly_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hourly_schedule GoogleNetappVolume#hourly_schedule}
 
 ---
 
@@ -3203,7 +3858,7 @@ public GoogleNetappVolumeSnapshotPolicyMonthlySchedule getMonthlySchedule();
 
 monthly_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#monthly_schedule GoogleNetappVolume#monthly_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#monthly_schedule GoogleNetappVolume#monthly_schedule}
 
 ---
 
@@ -3217,7 +3872,7 @@ public GoogleNetappVolumeSnapshotPolicyWeeklySchedule getWeeklySchedule();
 
 weekly_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#weekly_schedule GoogleNetappVolume#weekly_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#weekly_schedule GoogleNetappVolume#weekly_schedule}
 
 ---
 
@@ -3255,7 +3910,7 @@ public java.lang.Number getSnapshotsToKeep();
 
 The maximum number of snapshots to keep for the daily schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
 
 ---
 
@@ -3269,7 +3924,7 @@ public java.lang.Number getHour();
 
 Set the hour to create the snapshot (0-23), defaults to midnight (0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
 
 ---
 
@@ -3283,7 +3938,7 @@ public java.lang.Number getMinute();
 
 Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
 
 ---
 
@@ -3319,7 +3974,7 @@ public java.lang.Number getSnapshotsToKeep();
 
 The maximum number of snapshots to keep for the hourly schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
 
 ---
 
@@ -3333,7 +3988,7 @@ public java.lang.Number getMinute();
 
 Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
 
 ---
 
@@ -3373,7 +4028,7 @@ public java.lang.Number getSnapshotsToKeep();
 
 The maximum number of snapshots to keep for the monthly schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
 
 ---
 
@@ -3389,7 +4044,7 @@ Set the day or days of the month to make a snapshot (1-31).
 
 Accepts a comma separated number of days. Defaults to '1'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#days_of_month GoogleNetappVolume#days_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#days_of_month GoogleNetappVolume#days_of_month}
 
 ---
 
@@ -3403,7 +4058,7 @@ public java.lang.Number getHour();
 
 Set the hour to create the snapshot (0-23), defaults to midnight (0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
 
 ---
 
@@ -3417,7 +4072,7 @@ public java.lang.Number getMinute();
 
 Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
 
 ---
 
@@ -3457,7 +4112,7 @@ public java.lang.Number getSnapshotsToKeep();
 
 The maximum number of snapshots to keep for the weekly schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#snapshots_to_keep GoogleNetappVolume#snapshots_to_keep}
 
 ---
 
@@ -3473,7 +4128,7 @@ Set the day or days of the week to make a snapshot.
 
 Accepts a comma separated days of the week. Defaults to 'Sunday'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#day GoogleNetappVolume#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#day GoogleNetappVolume#day}
 
 ---
 
@@ -3487,7 +4142,7 @@ public java.lang.Number getHour();
 
 Set the hour to create the snapshot (0-23), defaults to midnight (0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hour GoogleNetappVolume#hour}
 
 ---
 
@@ -3501,7 +4156,7 @@ public java.lang.Number getMinute();
 
 Set the minute of the hour to create the snapshot (0-59), defaults to the top of the hour (0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#minute GoogleNetappVolume#minute}
 
 ---
 
@@ -3542,7 +4197,7 @@ Optional.
 Time in days to mark the volume's data block as cold and make it eligible for tiering, can be range from 2-183.
 Default is 31.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#cooling_threshold_days GoogleNetappVolume#cooling_threshold_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#cooling_threshold_days GoogleNetappVolume#cooling_threshold_days}
 
 ---
 
@@ -3556,7 +4211,7 @@ public java.lang.Boolean|IResolvable getHotTierBypassModeEnabled();
 
 Optional. Flag indicating that the hot tier bypass mode is enabled. Default is false. Only applicable to Flex service level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hot_tier_bypass_mode_enabled GoogleNetappVolume#hot_tier_bypass_mode_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#hot_tier_bypass_mode_enabled GoogleNetappVolume#hot_tier_bypass_mode_enabled}
 
 ---
 
@@ -3572,7 +4227,7 @@ Optional.
 
 Flag indicating if the volume has tiering policy enable/pause. Default is PAUSED. Default value: "PAUSED" Possible values: ["ENABLED", "PAUSED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#tier_action GoogleNetappVolume#tier_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#tier_action GoogleNetappVolume#tier_action}
 
 ---
 
@@ -3594,9 +4249,9 @@ GoogleNetappVolumeTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#create GoogleNetappVolume#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#delete GoogleNetappVolume#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#update GoogleNetappVolume#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#create GoogleNetappVolume#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#delete GoogleNetappVolume#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#update GoogleNetappVolume#update}. |
 
 ---
 
@@ -3608,7 +4263,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#create GoogleNetappVolume#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#create GoogleNetappVolume#create}.
 
 ---
 
@@ -3620,7 +4275,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#delete GoogleNetappVolume#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#delete GoogleNetappVolume#delete}.
 
 ---
 
@@ -3632,7 +4287,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#update GoogleNetappVolume#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume#update GoogleNetappVolume#update}.
 
 ---
 
@@ -3970,6 +4625,1322 @@ public GoogleNetappVolumeBackupConfig getInternalValue();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfig">GoogleNetappVolumeBackupConfig</a>
+
+---
+
+
+### GoogleNetappVolumeBlockDevicesList <a name="GoogleNetappVolumeBlockDevicesList" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeBlockDevicesList;
+
+new GoogleNetappVolumeBlockDevicesList(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Boolean wrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.allWithMapKey"></a>
+
+```java
+public DynamicListTerraformIterator allWithMapKey(java.lang.String mapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.get"></a>
+
+```java
+public GoogleNetappVolumeBlockDevicesOutputReference get(java.lang.Number index)
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.get.parameter.index"></a>
+
+- *Type:* java.lang.Number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesList.property.internalValue"></a>
+
+```java
+public IResolvable|java.util.List<GoogleNetappVolumeBlockDevices> getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>>
+
+---
+
+
+### GoogleNetappVolumeBlockDevicesOutputReference <a name="GoogleNetappVolumeBlockDevicesOutputReference" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeBlockDevicesOutputReference;
+
+new GoogleNetappVolumeBlockDevicesOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Number complexObjectIndex, java.lang.Boolean complexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>java.lang.Number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* java.lang.Number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.resetHostGroups">resetHostGroups</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.resetName">resetName</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetHostGroups` <a name="resetHostGroups" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.resetHostGroups"></a>
+
+```java
+public void resetHostGroups()
+```
+
+##### `resetName` <a name="resetName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.resetName"></a>
+
+```java
+public void resetName()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.identifier">identifier</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.sizeGib">sizeGib</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.hostGroupsInput">hostGroupsInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.osTypeInput">osTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.hostGroups">hostGroups</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.osType">osType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `identifier`<sup>Required</sup> <a name="identifier" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.identifier"></a>
+
+```java
+public java.lang.String getIdentifier();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sizeGib`<sup>Required</sup> <a name="sizeGib" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.sizeGib"></a>
+
+```java
+public java.lang.Number getSizeGib();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `hostGroupsInput`<sup>Optional</sup> <a name="hostGroupsInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.hostGroupsInput"></a>
+
+```java
+public java.util.List<java.lang.String> getHostGroupsInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.nameInput"></a>
+
+```java
+public java.lang.String getNameInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `osTypeInput`<sup>Optional</sup> <a name="osTypeInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.osTypeInput"></a>
+
+```java
+public java.lang.String getOsTypeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `hostGroups`<sup>Required</sup> <a name="hostGroups" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.hostGroups"></a>
+
+```java
+public java.util.List<java.lang.String> getHostGroups();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.name"></a>
+
+```java
+public java.lang.String getName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `osType`<sup>Required</sup> <a name="osType" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.osType"></a>
+
+```java
+public java.lang.String getOsType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevicesOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|GoogleNetappVolumeBlockDevices getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBlockDevices">GoogleNetappVolumeBlockDevices</a>
+
+---
+
+
+### GoogleNetappVolumeCacheParametersCacheConfigOutputReference <a name="GoogleNetappVolumeCacheParametersCacheConfigOutputReference" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference;
+
+new GoogleNetappVolumeCacheParametersCacheConfigOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.resetCifsChangeNotifyEnabled">resetCifsChangeNotifyEnabled</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetCifsChangeNotifyEnabled` <a name="resetCifsChangeNotifyEnabled" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.resetCifsChangeNotifyEnabled"></a>
+
+```java
+public void resetCifsChangeNotifyEnabled()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.cifsChangeNotifyEnabledInput">cifsChangeNotifyEnabledInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.cifsChangeNotifyEnabled">cifsChangeNotifyEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig">GoogleNetappVolumeCacheParametersCacheConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `cifsChangeNotifyEnabledInput`<sup>Optional</sup> <a name="cifsChangeNotifyEnabledInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.cifsChangeNotifyEnabledInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getCifsChangeNotifyEnabledInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `cifsChangeNotifyEnabled`<sup>Required</sup> <a name="cifsChangeNotifyEnabled" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.cifsChangeNotifyEnabled"></a>
+
+```java
+public java.lang.Boolean|IResolvable getCifsChangeNotifyEnabled();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference.property.internalValue"></a>
+
+```java
+public GoogleNetappVolumeCacheParametersCacheConfig getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig">GoogleNetappVolumeCacheParametersCacheConfig</a>
+
+---
+
+
+### GoogleNetappVolumeCacheParametersOutputReference <a name="GoogleNetappVolumeCacheParametersOutputReference" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeCacheParametersOutputReference;
+
+new GoogleNetappVolumeCacheParametersOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.putCacheConfig">putCacheConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetCacheConfig">resetCacheConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetEnableGlobalFileLock">resetEnableGlobalFileLock</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerClusterName">resetPeerClusterName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeeringCommandExpiryTime">resetPeeringCommandExpiryTime</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerIpAddresses">resetPeerIpAddresses</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerSvmName">resetPeerSvmName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerVolumeName">resetPeerVolumeName</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putCacheConfig` <a name="putCacheConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.putCacheConfig"></a>
+
+```java
+public void putCacheConfig(GoogleNetappVolumeCacheParametersCacheConfig value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.putCacheConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig">GoogleNetappVolumeCacheParametersCacheConfig</a>
+
+---
+
+##### `resetCacheConfig` <a name="resetCacheConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetCacheConfig"></a>
+
+```java
+public void resetCacheConfig()
+```
+
+##### `resetEnableGlobalFileLock` <a name="resetEnableGlobalFileLock" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetEnableGlobalFileLock"></a>
+
+```java
+public void resetEnableGlobalFileLock()
+```
+
+##### `resetPeerClusterName` <a name="resetPeerClusterName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerClusterName"></a>
+
+```java
+public void resetPeerClusterName()
+```
+
+##### `resetPeeringCommandExpiryTime` <a name="resetPeeringCommandExpiryTime" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeeringCommandExpiryTime"></a>
+
+```java
+public void resetPeeringCommandExpiryTime()
+```
+
+##### `resetPeerIpAddresses` <a name="resetPeerIpAddresses" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerIpAddresses"></a>
+
+```java
+public void resetPeerIpAddresses()
+```
+
+##### `resetPeerSvmName` <a name="resetPeerSvmName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerSvmName"></a>
+
+```java
+public void resetPeerSvmName()
+```
+
+##### `resetPeerVolumeName` <a name="resetPeerVolumeName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.resetPeerVolumeName"></a>
+
+```java
+public void resetPeerVolumeName()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.cacheConfig">cacheConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference">GoogleNetappVolumeCacheParametersCacheConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.cacheState">cacheState</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.command">command</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.passphrase">passphrase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.stateDetails">stateDetails</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.cacheConfigInput">cacheConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig">GoogleNetappVolumeCacheParametersCacheConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.enableGlobalFileLockInput">enableGlobalFileLockInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerClusterNameInput">peerClusterNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peeringCommandExpiryTimeInput">peeringCommandExpiryTimeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerIpAddressesInput">peerIpAddressesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerSvmNameInput">peerSvmNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerVolumeNameInput">peerVolumeNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.enableGlobalFileLock">enableGlobalFileLock</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerClusterName">peerClusterName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peeringCommandExpiryTime">peeringCommandExpiryTime</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerIpAddresses">peerIpAddresses</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerSvmName">peerSvmName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerVolumeName">peerVolumeName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `cacheConfig`<sup>Required</sup> <a name="cacheConfig" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.cacheConfig"></a>
+
+```java
+public GoogleNetappVolumeCacheParametersCacheConfigOutputReference getCacheConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfigOutputReference">GoogleNetappVolumeCacheParametersCacheConfigOutputReference</a>
+
+---
+
+##### `cacheState`<sup>Required</sup> <a name="cacheState" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.cacheState"></a>
+
+```java
+public java.lang.String getCacheState();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `command`<sup>Required</sup> <a name="command" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.command"></a>
+
+```java
+public java.lang.String getCommand();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `passphrase`<sup>Required</sup> <a name="passphrase" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.passphrase"></a>
+
+```java
+public java.lang.String getPassphrase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `stateDetails`<sup>Required</sup> <a name="stateDetails" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.stateDetails"></a>
+
+```java
+public java.lang.String getStateDetails();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `cacheConfigInput`<sup>Optional</sup> <a name="cacheConfigInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.cacheConfigInput"></a>
+
+```java
+public GoogleNetappVolumeCacheParametersCacheConfig getCacheConfigInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersCacheConfig">GoogleNetappVolumeCacheParametersCacheConfig</a>
+
+---
+
+##### `enableGlobalFileLockInput`<sup>Optional</sup> <a name="enableGlobalFileLockInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.enableGlobalFileLockInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getEnableGlobalFileLockInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `peerClusterNameInput`<sup>Optional</sup> <a name="peerClusterNameInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerClusterNameInput"></a>
+
+```java
+public java.lang.String getPeerClusterNameInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `peeringCommandExpiryTimeInput`<sup>Optional</sup> <a name="peeringCommandExpiryTimeInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peeringCommandExpiryTimeInput"></a>
+
+```java
+public java.lang.String getPeeringCommandExpiryTimeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `peerIpAddressesInput`<sup>Optional</sup> <a name="peerIpAddressesInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerIpAddressesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getPeerIpAddressesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `peerSvmNameInput`<sup>Optional</sup> <a name="peerSvmNameInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerSvmNameInput"></a>
+
+```java
+public java.lang.String getPeerSvmNameInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `peerVolumeNameInput`<sup>Optional</sup> <a name="peerVolumeNameInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerVolumeNameInput"></a>
+
+```java
+public java.lang.String getPeerVolumeNameInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `enableGlobalFileLock`<sup>Required</sup> <a name="enableGlobalFileLock" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.enableGlobalFileLock"></a>
+
+```java
+public java.lang.Boolean|IResolvable getEnableGlobalFileLock();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `peerClusterName`<sup>Required</sup> <a name="peerClusterName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerClusterName"></a>
+
+```java
+public java.lang.String getPeerClusterName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `peeringCommandExpiryTime`<sup>Required</sup> <a name="peeringCommandExpiryTime" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peeringCommandExpiryTime"></a>
+
+```java
+public java.lang.String getPeeringCommandExpiryTime();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `peerIpAddresses`<sup>Required</sup> <a name="peerIpAddresses" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerIpAddresses"></a>
+
+```java
+public java.util.List<java.lang.String> getPeerIpAddresses();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `peerSvmName`<sup>Required</sup> <a name="peerSvmName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerSvmName"></a>
+
+```java
+public java.lang.String getPeerSvmName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `peerVolumeName`<sup>Required</sup> <a name="peerVolumeName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.peerVolumeName"></a>
+
+```java
+public java.lang.String getPeerVolumeName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParametersOutputReference.property.internalValue"></a>
+
+```java
+public GoogleNetappVolumeCacheParameters getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeCacheParameters">GoogleNetappVolumeCacheParameters</a>
 
 ---
 
@@ -4488,6 +6459,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetAccessType">resetAccessType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetAllowedClients">resetAllowedClients</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetAnonUid">resetAnonUid</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetHasRootAccess">resetHasRootAccess</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetKerberos5IReadOnly">resetKerberos5IReadOnly</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetKerberos5IReadWrite">resetKerberos5IReadWrite</a></code> | *No description.* |
@@ -4497,6 +6469,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetKerberos5ReadWrite">resetKerberos5ReadWrite</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetNfsv3">resetNfsv3</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetNfsv4">resetNfsv4</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetSquashMode">resetSquashMode</a></code> | *No description.* |
 
 ---
 
@@ -4662,6 +6635,12 @@ public void resetAccessType()
 public void resetAllowedClients()
 ```
 
+##### `resetAnonUid` <a name="resetAnonUid" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetAnonUid"></a>
+
+```java
+public void resetAnonUid()
+```
+
 ##### `resetHasRootAccess` <a name="resetHasRootAccess" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetHasRootAccess"></a>
 
 ```java
@@ -4716,6 +6695,12 @@ public void resetNfsv3()
 public void resetNfsv4()
 ```
 
+##### `resetSquashMode` <a name="resetSquashMode" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.resetSquashMode"></a>
+
+```java
+public void resetSquashMode()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -4725,6 +6710,7 @@ public void resetNfsv4()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.accessTypeInput">accessTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.allowedClientsInput">allowedClientsInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.anonUidInput">anonUidInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.hasRootAccessInput">hasRootAccessInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.kerberos5IReadOnlyInput">kerberos5IReadOnlyInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.kerberos5IReadWriteInput">kerberos5IReadWriteInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
@@ -4734,8 +6720,10 @@ public void resetNfsv4()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.kerberos5ReadWriteInput">kerberos5ReadWriteInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.nfsv3Input">nfsv3Input</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.nfsv4Input">nfsv4Input</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.squashModeInput">squashModeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.accessType">accessType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.allowedClients">allowedClients</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.anonUid">anonUid</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.hasRootAccess">hasRootAccess</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.kerberos5IReadOnly">kerberos5IReadOnly</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.kerberos5IReadWrite">kerberos5IReadWrite</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
@@ -4745,6 +6733,7 @@ public void resetNfsv4()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.kerberos5ReadWrite">kerberos5ReadWrite</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.nfsv3">nfsv3</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.nfsv4">nfsv4</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.squashMode">squashMode</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules">GoogleNetappVolumeExportPolicyRules</a></code> | *No description.* |
 
 ---
@@ -4790,6 +6779,16 @@ public java.lang.String getAllowedClientsInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `anonUidInput`<sup>Optional</sup> <a name="anonUidInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.anonUidInput"></a>
+
+```java
+public java.lang.Number getAnonUidInput();
+```
+
+- *Type:* java.lang.Number
 
 ---
 
@@ -4883,6 +6882,16 @@ public java.lang.Boolean|IResolvable getNfsv4Input();
 
 ---
 
+##### `squashModeInput`<sup>Optional</sup> <a name="squashModeInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.squashModeInput"></a>
+
+```java
+public java.lang.String getSquashModeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `accessType`<sup>Required</sup> <a name="accessType" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.accessType"></a>
 
 ```java
@@ -4900,6 +6909,16 @@ public java.lang.String getAllowedClients();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `anonUid`<sup>Required</sup> <a name="anonUid" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.anonUid"></a>
+
+```java
+public java.lang.Number getAnonUid();
+```
+
+- *Type:* java.lang.Number
 
 ---
 
@@ -4993,6 +7012,16 @@ public java.lang.Boolean|IResolvable getNfsv4();
 
 ---
 
+##### `squashMode`<sup>Required</sup> <a name="squashMode" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.squashMode"></a>
+
+```java
+public java.lang.String getSquashMode();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference.property.internalValue"></a>
 
 ```java
@@ -5056,12 +7085,15 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetClusterLocation">resetClusterLocation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetHybridReplicationType">resetHybridReplicationType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetLabels">resetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetLargeVolumeConstituentCount">resetLargeVolumeConstituentCount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetPeerClusterName">resetPeerClusterName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetPeerIpAddresses">resetPeerIpAddresses</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetPeerSvmName">resetPeerSvmName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetPeerVolumeName">resetPeerVolumeName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetReplication">resetReplication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetReplicationSchedule">resetReplicationSchedule</a></code> | *No description.* |
 
 ---
 
@@ -5227,10 +7259,22 @@ public void resetClusterLocation()
 public void resetDescription()
 ```
 
+##### `resetHybridReplicationType` <a name="resetHybridReplicationType" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetHybridReplicationType"></a>
+
+```java
+public void resetHybridReplicationType()
+```
+
 ##### `resetLabels` <a name="resetLabels" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetLabels"></a>
 
 ```java
 public void resetLabels()
+```
+
+##### `resetLargeVolumeConstituentCount` <a name="resetLargeVolumeConstituentCount" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetLargeVolumeConstituentCount"></a>
+
+```java
+public void resetLargeVolumeConstituentCount()
 ```
 
 ##### `resetPeerClusterName` <a name="resetPeerClusterName" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetPeerClusterName"></a>
@@ -5263,6 +7307,12 @@ public void resetPeerVolumeName()
 public void resetReplication()
 ```
 
+##### `resetReplicationSchedule` <a name="resetReplicationSchedule" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.resetReplicationSchedule"></a>
+
+```java
+public void resetReplicationSchedule()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5272,20 +7322,26 @@ public void resetReplication()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.clusterLocationInput">clusterLocationInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.hybridReplicationTypeInput">hybridReplicationTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.largeVolumeConstituentCountInput">largeVolumeConstituentCountInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerClusterNameInput">peerClusterNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerIpAddressesInput">peerIpAddressesInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerIpAddressesInput">peerIpAddressesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerSvmNameInput">peerSvmNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerVolumeNameInput">peerVolumeNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.replicationInput">replicationInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.replicationScheduleInput">replicationScheduleInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.clusterLocation">clusterLocation</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.hybridReplicationType">hybridReplicationType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.largeVolumeConstituentCount">largeVolumeConstituentCount</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerClusterName">peerClusterName</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerIpAddresses">peerIpAddresses</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerIpAddresses">peerIpAddresses</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerSvmName">peerSvmName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerVolumeName">peerVolumeName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.replication">replication</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.replicationSchedule">replicationSchedule</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters">GoogleNetappVolumeHybridReplicationParameters</a></code> | *No description.* |
 
 ---
@@ -5334,6 +7390,16 @@ public java.lang.String getDescriptionInput();
 
 ---
 
+##### `hybridReplicationTypeInput`<sup>Optional</sup> <a name="hybridReplicationTypeInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.hybridReplicationTypeInput"></a>
+
+```java
+public java.lang.String getHybridReplicationTypeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `labelsInput`<sup>Optional</sup> <a name="labelsInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.labelsInput"></a>
 
 ```java
@@ -5341,6 +7407,16 @@ public java.util.Map<java.lang.String, java.lang.String> getLabelsInput();
 ```
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `largeVolumeConstituentCountInput`<sup>Optional</sup> <a name="largeVolumeConstituentCountInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.largeVolumeConstituentCountInput"></a>
+
+```java
+public java.lang.Number getLargeVolumeConstituentCountInput();
+```
+
+- *Type:* java.lang.Number
 
 ---
 
@@ -5357,10 +7433,10 @@ public java.lang.String getPeerClusterNameInput();
 ##### `peerIpAddressesInput`<sup>Optional</sup> <a name="peerIpAddressesInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerIpAddressesInput"></a>
 
 ```java
-public java.lang.String getPeerIpAddressesInput();
+public java.util.List<java.lang.String> getPeerIpAddressesInput();
 ```
 
-- *Type:* java.lang.String
+- *Type:* java.util.List<java.lang.String>
 
 ---
 
@@ -5394,6 +7470,16 @@ public java.lang.String getReplicationInput();
 
 ---
 
+##### `replicationScheduleInput`<sup>Optional</sup> <a name="replicationScheduleInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.replicationScheduleInput"></a>
+
+```java
+public java.lang.String getReplicationScheduleInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `clusterLocation`<sup>Required</sup> <a name="clusterLocation" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.clusterLocation"></a>
 
 ```java
@@ -5414,6 +7500,16 @@ public java.lang.String getDescription();
 
 ---
 
+##### `hybridReplicationType`<sup>Required</sup> <a name="hybridReplicationType" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.hybridReplicationType"></a>
+
+```java
+public java.lang.String getHybridReplicationType();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `labels`<sup>Required</sup> <a name="labels" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.labels"></a>
 
 ```java
@@ -5421,6 +7517,16 @@ public java.util.Map<java.lang.String, java.lang.String> getLabels();
 ```
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `largeVolumeConstituentCount`<sup>Required</sup> <a name="largeVolumeConstituentCount" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.largeVolumeConstituentCount"></a>
+
+```java
+public java.lang.Number getLargeVolumeConstituentCount();
+```
+
+- *Type:* java.lang.Number
 
 ---
 
@@ -5437,10 +7543,10 @@ public java.lang.String getPeerClusterName();
 ##### `peerIpAddresses`<sup>Required</sup> <a name="peerIpAddresses" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.peerIpAddresses"></a>
 
 ```java
-public java.lang.String getPeerIpAddresses();
+public java.util.List<java.lang.String> getPeerIpAddresses();
 ```
 
-- *Type:* java.lang.String
+- *Type:* java.util.List<java.lang.String>
 
 ---
 
@@ -5474,6 +7580,16 @@ public java.lang.String getReplication();
 
 ---
 
+##### `replicationSchedule`<sup>Required</sup> <a name="replicationSchedule" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.replicationSchedule"></a>
+
+```java
+public java.lang.String getReplicationSchedule();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference.property.internalValue"></a>
 
 ```java
@@ -5481,6 +7597,284 @@ public GoogleNetappVolumeHybridReplicationParameters getInternalValue();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters">GoogleNetappVolumeHybridReplicationParameters</a>
+
+---
+
+
+### GoogleNetappVolumeLargeCapacityConfigOutputReference <a name="GoogleNetappVolumeLargeCapacityConfigOutputReference" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_netapp_volume.GoogleNetappVolumeLargeCapacityConfigOutputReference;
+
+new GoogleNetappVolumeLargeCapacityConfigOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.resetConstituentCount">resetConstituentCount</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetConstituentCount` <a name="resetConstituentCount" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.resetConstituentCount"></a>
+
+```java
+public void resetConstituentCount()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.constituentCountInput">constituentCountInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.constituentCount">constituentCount</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `constituentCountInput`<sup>Optional</sup> <a name="constituentCountInput" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.constituentCountInput"></a>
+
+```java
+public java.lang.Number getConstituentCountInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `constituentCount`<sup>Required</sup> <a name="constituentCount" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.constituentCount"></a>
+
+```java
+public java.lang.Number getConstituentCount();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfigOutputReference.property.internalValue"></a>
+
+```java
+public GoogleNetappVolumeLargeCapacityConfig getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeLargeCapacityConfig">GoogleNetappVolumeLargeCapacityConfig</a>
 
 ---
 
@@ -5865,6 +8259,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference.property.export">export</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference.property.exportFull">exportFull</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference.property.instructions">instructions</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference.property.ipAddress">ipAddress</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference.property.protocol">protocol</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptions">GoogleNetappVolumeMountOptions</a></code> | *No description.* |
 
@@ -5918,6 +8313,16 @@ public java.lang.String getExportFull();
 
 ```java
 public java.lang.String getInstructions();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ipAddress`<sup>Required</sup> <a name="ipAddress" id="@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference.property.ipAddress"></a>
+
+```java
+public java.lang.String getIpAddress();
 ```
 
 - *Type:* java.lang.String

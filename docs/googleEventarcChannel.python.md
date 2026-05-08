@@ -4,7 +4,7 @@
 
 ### GoogleEventarcChannel <a name="GoogleEventarcChannel" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel google_eventarc_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel google_eventarc_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer"></a>
 
@@ -25,6 +25,7 @@ googleEventarcChannel.GoogleEventarcChannel(
   name: str,
   crypto_key_name: str = None,
   id: str = None,
+  labels: typing.Mapping[str] = None,
   project: str = None,
   third_party_provider: str = None,
   timeouts: GoogleEventarcChannelTimeouts = None
@@ -45,8 +46,9 @@ googleEventarcChannel.GoogleEventarcChannel(
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.location">location</a></code> | <code>str</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.name">name</a></code> | <code>str</code> | The resource name of the channel. Must be unique within the location on the project. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.cryptoKeyName">crypto_key_name</a></code> | <code>str</code> | Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt their event data. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-defined labels for the channel. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.thirdPartyProvider">third_party_provider</a></code> | <code>str</code> | The name of the event provider (e.g. Eventarc SaaS partner) associated with the channel. This provider will be granted permissions to publish events to the channel. Format: 'projects/{project}/locations/{location}/providers/{provider_id}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts">GoogleEventarcChannelTimeouts</a></code> | timeouts block. |
 
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#location GoogleEventarcChannel#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#location GoogleEventarcChannel#location}
 
 ---
 
@@ -128,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the channel. Must be unique within the location on the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#name GoogleEventarcChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#name GoogleEventarcChannel#name}
 
 ---
 
@@ -140,7 +142,7 @@ Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt 
 
 It must match the pattern 'projects/* /locations/* /keyRings/* /cryptoKeys/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#crypto_key_name GoogleEventarcChannel#crypto_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#crypto_key_name GoogleEventarcChannel#crypto_key_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -150,10 +152,23 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer.parameter.labels"></a>
+
+- *Type:* typing.Mapping[str]
+
+User-defined labels for the channel.
+
+**Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
+Please refer to the field 'effective_labels' for all of the labels present on the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#labels GoogleEventarcChannel#labels}
 
 ---
 
@@ -161,7 +176,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}.
 
 ---
 
@@ -171,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the event provider (e.g. Eventarc SaaS partner) associated with the channel. This provider will be granted permissions to publish events to the channel. Format: 'projects/{project}/locations/{location}/providers/{provider_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#third_party_provider GoogleEventarcChannel#third_party_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#third_party_provider GoogleEventarcChannel#third_party_provider}
 
 ---
 
@@ -181,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#timeouts GoogleEventarcChannel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#timeouts GoogleEventarcChannel#timeouts}
 
 ---
 
@@ -216,6 +231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetCryptoKeyName">reset_crypto_key_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetLabels">reset_labels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetThirdPartyProvider">reset_third_party_provider</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetTimeouts">reset_timeouts</a></code> | *No description.* |
@@ -584,7 +600,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#create GoogleEventarcChannel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#create GoogleEventarcChannel#create}.
 
 ---
 
@@ -592,7 +608,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#delete GoogleEventarcChannel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#delete GoogleEventarcChannel#delete}.
 
 ---
 
@@ -600,7 +616,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#update GoogleEventarcChannel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#update GoogleEventarcChannel#update}.
 
 ---
 
@@ -614,6 +630,12 @@ def reset_crypto_key_name() -> None
 
 ```python
 def reset_id() -> None
+```
+
+##### `reset_labels` <a name="reset_labels" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetLabels"></a>
+
+```python
+def reset_labels() -> None
 ```
 
 ##### `reset_project` <a name="reset_project" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.resetProject"></a>
@@ -748,7 +770,7 @@ The construct id used in the generated config for the GoogleEventarcChannel to i
 
 The id of the existing GoogleEventarcChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -780,13 +802,16 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.activationToken">activation_token</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.effectiveLabels">effective_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.pubsubTopic">pubsub_topic</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.state">state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.terraformLabels">terraform_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeoutsOutputReference">GoogleEventarcChannelTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.uid">uid</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.cryptoKeyNameInput">crypto_key_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
@@ -794,6 +819,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts">GoogleEventarcChannelTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.cryptoKeyName">crypto_key_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.location">location</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.project">project</a></code> | <code>str</code> | *No description.* |
@@ -963,6 +989,16 @@ create_time: str
 
 ---
 
+##### `effective_labels`<sup>Required</sup> <a name="effective_labels" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.effectiveLabels"></a>
+
+```python
+effective_labels: StringMap
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
 ##### `pubsub_topic`<sup>Required</sup> <a name="pubsub_topic" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.pubsubTopic"></a>
 
 ```python
@@ -980,6 +1016,16 @@ state: str
 ```
 
 - *Type:* str
+
+---
+
+##### `terraform_labels`<sup>Required</sup> <a name="terraform_labels" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.terraformLabels"></a>
+
+```python
+terraform_labels: StringMap
+```
+
+- *Type:* cdktn.StringMap
 
 ---
 
@@ -1030,6 +1076,16 @@ id_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `labels_input`<sup>Optional</sup> <a name="labels_input" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.labelsInput"></a>
+
+```python
+labels_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
 
 ---
 
@@ -1100,6 +1156,16 @@ id: str
 ```
 
 - *Type:* str
+
+---
+
+##### `labels`<sup>Required</sup> <a name="labels" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.property.labels"></a>
+
+```python
+labels: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
 
 ---
 
@@ -1182,6 +1248,7 @@ googleEventarcChannel.GoogleEventarcChannelConfig(
   name: str,
   crypto_key_name: str = None,
   id: str = None,
+  labels: typing.Mapping[str] = None,
   project: str = None,
   third_party_provider: str = None,
   timeouts: GoogleEventarcChannelTimeouts = None
@@ -1202,8 +1269,9 @@ googleEventarcChannel.GoogleEventarcChannelConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.location">location</a></code> | <code>str</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.name">name</a></code> | <code>str</code> | The resource name of the channel. Must be unique within the location on the project. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.cryptoKeyName">crypto_key_name</a></code> | <code>str</code> | Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt their event data. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-defined labels for the channel. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.thirdPartyProvider">third_party_provider</a></code> | <code>str</code> | The name of the event provider (e.g. Eventarc SaaS partner) associated with the channel. This provider will be granted permissions to publish events to the channel. Format: 'projects/{project}/locations/{location}/providers/{provider_id}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts">GoogleEventarcChannelTimeouts</a></code> | timeouts block. |
 
@@ -1289,7 +1357,7 @@ location: str
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#location GoogleEventarcChannel#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#location GoogleEventarcChannel#location}
 
 ---
 
@@ -1303,7 +1371,7 @@ name: str
 
 The resource name of the channel. Must be unique within the location on the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#name GoogleEventarcChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#name GoogleEventarcChannel#name}
 
 ---
 
@@ -1319,7 +1387,7 @@ Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt 
 
 It must match the pattern 'projects/* /locations/* /keyRings/* /cryptoKeys/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#crypto_key_name GoogleEventarcChannel#crypto_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#crypto_key_name GoogleEventarcChannel#crypto_key_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1333,10 +1401,27 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#id GoogleEventarcChannel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.property.labels"></a>
+
+```python
+labels: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+User-defined labels for the channel.
+
+**Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
+Please refer to the field 'effective_labels' for all of the labels present on the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#labels GoogleEventarcChannel#labels}
 
 ---
 
@@ -1348,7 +1433,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#project GoogleEventarcChannel#project}.
 
 ---
 
@@ -1362,7 +1447,7 @@ third_party_provider: str
 
 The name of the event provider (e.g. Eventarc SaaS partner) associated with the channel. This provider will be granted permissions to publish events to the channel. Format: 'projects/{project}/locations/{location}/providers/{provider_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#third_party_provider GoogleEventarcChannel#third_party_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#third_party_provider GoogleEventarcChannel#third_party_provider}
 
 ---
 
@@ -1376,7 +1461,7 @@ timeouts: GoogleEventarcChannelTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#timeouts GoogleEventarcChannel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#timeouts GoogleEventarcChannel#timeouts}
 
 ---
 
@@ -1398,9 +1483,9 @@ googleEventarcChannel.GoogleEventarcChannelTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#create GoogleEventarcChannel#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#delete GoogleEventarcChannel#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#update GoogleEventarcChannel#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#create GoogleEventarcChannel#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#delete GoogleEventarcChannel#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#update GoogleEventarcChannel#update}. |
 
 ---
 
@@ -1412,7 +1497,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#create GoogleEventarcChannel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#create GoogleEventarcChannel#create}.
 
 ---
 
@@ -1424,7 +1509,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#delete GoogleEventarcChannel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#delete GoogleEventarcChannel#delete}.
 
 ---
 
@@ -1436,7 +1521,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel#update GoogleEventarcChannel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel#update GoogleEventarcChannel#update}.
 
 ---
 

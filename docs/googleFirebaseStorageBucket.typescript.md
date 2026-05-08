@@ -4,7 +4,7 @@
 
 ### GoogleFirebaseStorageBucket <a name="GoogleFirebaseStorageBucket" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleFirebaseStorageBucke
 
 The id of the existing GoogleFirebaseStorageBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,8 +846,8 @@ const googleFirebaseStorageBucketConfig: googleFirebaseStorageBucket.GoogleFireb
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.bucketId">bucketId</a></code> | <code>string</code> | Required. Immutable. The ID of the underlying Google Cloud Storage bucket. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#id GoogleFirebaseStorageBucket#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#project GoogleFirebaseStorageBucket#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#id GoogleFirebaseStorageBucket#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#project GoogleFirebaseStorageBucket#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts">GoogleFirebaseStorageBucketTimeouts</a></code> | timeouts block. |
 
 ---
@@ -932,7 +932,7 @@ public readonly bucketId: string;
 
 Required. Immutable. The ID of the underlying Google Cloud Storage bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#bucket_id GoogleFirebaseStorageBucket#bucket_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#bucket_id GoogleFirebaseStorageBucket#bucket_id}
 
 ---
 
@@ -944,7 +944,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#id GoogleFirebaseStorageBucket#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#id GoogleFirebaseStorageBucket#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -959,7 +959,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#project GoogleFirebaseStorageBucket#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#project GoogleFirebaseStorageBucket#project}.
 
 ---
 
@@ -973,7 +973,7 @@ public readonly timeouts: GoogleFirebaseStorageBucketTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#timeouts GoogleFirebaseStorageBucket#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#timeouts GoogleFirebaseStorageBucket#timeouts}
 
 ---
 
@@ -991,8 +991,8 @@ const googleFirebaseStorageBucketTimeouts: googleFirebaseStorageBucket.GoogleFir
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#create GoogleFirebaseStorageBucket#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#delete GoogleFirebaseStorageBucket#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#create GoogleFirebaseStorageBucket#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#delete GoogleFirebaseStorageBucket#delete}. |
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#create GoogleFirebaseStorageBucket#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#create GoogleFirebaseStorageBucket#create}.
 
 ---
 
@@ -1016,7 +1016,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket#delete GoogleFirebaseStorageBucket#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket#delete GoogleFirebaseStorageBucket#delete}.
 
 ---
 

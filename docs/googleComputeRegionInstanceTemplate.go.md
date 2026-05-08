@@ -4,12 +4,12 @@
 
 ### GoogleComputeRegionInstanceTemplate <a name="GoogleComputeRegionInstanceTemplate" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplate(scope Construct, id *string, config GoogleComputeRegionInstanceTemplateConfig) GoogleComputeRegionInstanceTemplate
 ```
@@ -739,7 +739,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -771,7 +771,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -785,7 +785,7 @@ googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplate_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -799,7 +799,7 @@ googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplate_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -828,7 +828,7 @@ The construct id used in the generated config for the GoogleComputeRegionInstanc
 
 The id of the existing GoogleComputeRegionInstanceTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1765,7 +1765,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateAdvancedMachineFeatures.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateAdvancedMachineFeatures {
 	EnableNestedVirtualization: interface{},
@@ -1800,7 +1800,7 @@ EnableNestedVirtualization interface{}
 
 Whether to enable nested virtualization or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enable_nested_virtualization GoogleComputeRegionInstanceTemplate#enable_nested_virtualization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enable_nested_virtualization GoogleComputeRegionInstanceTemplate#enable_nested_virtualization}
 
 ---
 
@@ -1814,7 +1814,7 @@ EnableUefiNetworking interface{}
 
 Whether to enable UEFI networking or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enable_uefi_networking GoogleComputeRegionInstanceTemplate#enable_uefi_networking}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enable_uefi_networking GoogleComputeRegionInstanceTemplate#enable_uefi_networking}
 
 ---
 
@@ -1830,7 +1830,7 @@ The PMU is a hardware component within the CPU core that monitors how the proces
 
 Valid values for the level of PMU are "STANDARD", "ENHANCED", and "ARCHITECTURAL".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#performance_monitoring_unit GoogleComputeRegionInstanceTemplate#performance_monitoring_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#performance_monitoring_unit GoogleComputeRegionInstanceTemplate#performance_monitoring_unit}
 
 ---
 
@@ -1846,7 +1846,7 @@ The number of threads per physical core.
 
 To disable simultaneous multithreading (SMT) set this to 1. If unset, the maximum number of threads supported per core by the underlying processor is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#threads_per_core GoogleComputeRegionInstanceTemplate#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#threads_per_core GoogleComputeRegionInstanceTemplate#threads_per_core}
 
 ---
 
@@ -1860,7 +1860,7 @@ TurboMode *string
 
 Turbo frequency mode to use for the instance. Currently supported modes is "ALL_CORE_MAX".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#turbo_mode GoogleComputeRegionInstanceTemplate#turbo_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#turbo_mode GoogleComputeRegionInstanceTemplate#turbo_mode}
 
 ---
 
@@ -1876,7 +1876,7 @@ The number of physical cores to expose to an instance.
 
 Multiply by the number of threads per core to compute the total number of virtual CPUs to expose to the instance. If unset, the number of cores is inferred from the instance's nominal CPU count and the underlying platform's SMT width.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#visible_core_count GoogleComputeRegionInstanceTemplate#visible_core_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#visible_core_count GoogleComputeRegionInstanceTemplate#visible_core_count}
 
 ---
 
@@ -1885,7 +1885,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfidentialInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateConfidentialInstanceConfig {
 	ConfidentialInstanceType: *string,
@@ -1916,7 +1916,7 @@ SEV is an AMD feature. TDX is an Intel feature. One of the following
 values is required: SEV, SEV_SNP, TDX. If SEV_SNP, min_cpu_platform =
 "AMD Milan" is currently required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#confidential_instance_type GoogleComputeRegionInstanceTemplate#confidential_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#confidential_instance_type GoogleComputeRegionInstanceTemplate#confidential_instance_type}
 
 ---
 
@@ -1930,7 +1930,7 @@ EnableConfidentialCompute interface{}
 
 Defines whether the instance should have confidential compute enabled. Field will be deprecated in a future release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enable_confidential_compute GoogleComputeRegionInstanceTemplate#enable_confidential_compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enable_confidential_compute GoogleComputeRegionInstanceTemplate#enable_confidential_compute}
 
 ---
 
@@ -1939,7 +1939,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateConfig {
 	Connection: interface{},
@@ -1951,9 +1951,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	Provisioners: *[]interface{},
 	Disk: interface{},
 	MachineType: *string,
-	AdvancedMachineFeatures: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateAdvancedMachineFeatures,
+	AdvancedMachineFeatures: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateAdvancedMachineFeatures,
 	CanIpForward: interface{},
-	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfidentialInstanceConfig,
+	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfidentialInstanceConfig,
 	Description: *string,
 	EnableDisplay: interface{},
 	GuestAccelerator: interface{},
@@ -1967,18 +1967,18 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	Name: *string,
 	NamePrefix: *string,
 	NetworkInterface: interface{},
-	NetworkPerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkPerformanceConfig,
+	NetworkPerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkPerformanceConfig,
 	PartnerMetadata: *map[string]*string,
 	Project: *string,
 	Region: *string,
-	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinity,
+	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinity,
 	ResourceManagerTags: *map[string]*string,
 	ResourcePolicies: *[]*string,
-	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling,
-	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateServiceAccount,
-	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateShieldedInstanceConfig,
+	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling,
+	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateServiceAccount,
+	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateShieldedInstanceConfig,
 	Tags: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeouts,
 }
 ```
 
@@ -2001,7 +2001,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.description">Description</a></code> | <code>*string</code> | A brief description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.enableDisplay">EnableDisplay</a></code> | <code>interface{}</code> | Enable Virtual Displays on this instance. Note: allow_stopping_for_update must be set to true in order to update this field. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.guestAccelerator">GuestAccelerator</a></code> | <code>interface{}</code> | guest_accelerator block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#id GoogleComputeRegionInstanceTemplate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#id GoogleComputeRegionInstanceTemplate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.instanceDescription">InstanceDescription</a></code> | <code>*string</code> | A description of the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.keyRevocationActionType">KeyRevocationActionType</a></code> | <code>*string</code> | Action to be taken when a customer's encryption key is revoked. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | A set of key/value label pairs to assign to instances created from this template,. |
@@ -2106,7 +2106,7 @@ Disk interface{}
 
 disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#disk GoogleComputeRegionInstanceTemplate#disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#disk GoogleComputeRegionInstanceTemplate#disk}
 
 ---
 
@@ -2122,7 +2122,7 @@ The machine type to create.
 
 To create a machine with a custom type (such as extended memory), format the value like custom-VCPUS-MEM_IN_MB like custom-6-20480 for 6 vCPU and 20GB of RAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#machine_type GoogleComputeRegionInstanceTemplate#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#machine_type GoogleComputeRegionInstanceTemplate#machine_type}
 
 ---
 
@@ -2136,7 +2136,7 @@ AdvancedMachineFeatures GoogleComputeRegionInstanceTemplateAdvancedMachineFeatur
 
 advanced_machine_features block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#advanced_machine_features GoogleComputeRegionInstanceTemplate#advanced_machine_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#advanced_machine_features GoogleComputeRegionInstanceTemplate#advanced_machine_features}
 
 ---
 
@@ -2150,7 +2150,7 @@ CanIpForward interface{}
 
 Whether to allow sending and receiving of packets with non-matching source or destination IPs. This defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#can_ip_forward GoogleComputeRegionInstanceTemplate#can_ip_forward}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#can_ip_forward GoogleComputeRegionInstanceTemplate#can_ip_forward}
 
 ---
 
@@ -2164,7 +2164,7 @@ ConfidentialInstanceConfig GoogleComputeRegionInstanceTemplateConfidentialInstan
 
 confidential_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#confidential_instance_config GoogleComputeRegionInstanceTemplate#confidential_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#confidential_instance_config GoogleComputeRegionInstanceTemplate#confidential_instance_config}
 
 ---
 
@@ -2178,7 +2178,7 @@ Description *string
 
 A brief description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#description GoogleComputeRegionInstanceTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#description GoogleComputeRegionInstanceTemplate#description}
 
 ---
 
@@ -2192,7 +2192,7 @@ EnableDisplay interface{}
 
 Enable Virtual Displays on this instance. Note: allow_stopping_for_update must be set to true in order to update this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enable_display GoogleComputeRegionInstanceTemplate#enable_display}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enable_display GoogleComputeRegionInstanceTemplate#enable_display}
 
 ---
 
@@ -2206,7 +2206,7 @@ GuestAccelerator interface{}
 
 guest_accelerator block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#guest_accelerator GoogleComputeRegionInstanceTemplate#guest_accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#guest_accelerator GoogleComputeRegionInstanceTemplate#guest_accelerator}
 
 ---
 
@@ -2218,7 +2218,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#id GoogleComputeRegionInstanceTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#id GoogleComputeRegionInstanceTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2235,7 +2235,7 @@ InstanceDescription *string
 
 A description of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#instance_description GoogleComputeRegionInstanceTemplate#instance_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#instance_description GoogleComputeRegionInstanceTemplate#instance_description}
 
 ---
 
@@ -2251,7 +2251,7 @@ Action to be taken when a customer's encryption key is revoked.
 
 Supports "STOP" and "NONE", with "NONE" being the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#key_revocation_action_type GoogleComputeRegionInstanceTemplate#key_revocation_action_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#key_revocation_action_type GoogleComputeRegionInstanceTemplate#key_revocation_action_type}
 
 ---
 
@@ -2268,7 +2268,7 @@ A set of key/value label pairs to assign to instances created from this template
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#labels GoogleComputeRegionInstanceTemplate#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#labels GoogleComputeRegionInstanceTemplate#labels}
 
 ---
 
@@ -2282,7 +2282,7 @@ Metadata *map[string]*string
 
 Metadata key/value pairs to make available from within instances created from this template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#metadata GoogleComputeRegionInstanceTemplate#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#metadata GoogleComputeRegionInstanceTemplate#metadata}
 
 ---
 
@@ -2298,7 +2298,7 @@ An alternative to using the startup-script metadata key, mostly to match the com
 
 This replaces the startup-script metadata key on the created instance and thus the two mechanisms are not allowed to be used simultaneously.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#metadata_startup_script GoogleComputeRegionInstanceTemplate#metadata_startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#metadata_startup_script GoogleComputeRegionInstanceTemplate#metadata_startup_script}
 
 ---
 
@@ -2314,7 +2314,7 @@ Specifies a minimum CPU platform.
 
 Applicable values are the friendly names of CPU platforms, such as Intel Haswell or Intel Skylake.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#min_cpu_platform GoogleComputeRegionInstanceTemplate#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#min_cpu_platform GoogleComputeRegionInstanceTemplate#min_cpu_platform}
 
 ---
 
@@ -2328,7 +2328,7 @@ Name *string
 
 The name of the instance template. If you leave this blank, Terraform will auto-generate a unique name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#name GoogleComputeRegionInstanceTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#name GoogleComputeRegionInstanceTemplate#name}
 
 ---
 
@@ -2342,7 +2342,7 @@ NamePrefix *string
 
 Creates a unique name beginning with the specified prefix. Conflicts with name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#name_prefix GoogleComputeRegionInstanceTemplate#name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#name_prefix GoogleComputeRegionInstanceTemplate#name_prefix}
 
 ---
 
@@ -2356,7 +2356,7 @@ NetworkInterface interface{}
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#network_interface GoogleComputeRegionInstanceTemplate#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#network_interface GoogleComputeRegionInstanceTemplate#network_interface}
 
 ---
 
@@ -2370,7 +2370,7 @@ NetworkPerformanceConfig GoogleComputeRegionInstanceTemplateNetworkPerformanceCo
 
 network_performance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#network_performance_config GoogleComputeRegionInstanceTemplate#network_performance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#network_performance_config GoogleComputeRegionInstanceTemplate#network_performance_config}
 
 ---
 
@@ -2384,7 +2384,7 @@ PartnerMetadata *map[string]*string
 
 Partner Metadata Map made available within the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#partner_metadata GoogleComputeRegionInstanceTemplate#partner_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#partner_metadata GoogleComputeRegionInstanceTemplate#partner_metadata}
 
 ---
 
@@ -2400,7 +2400,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#project GoogleComputeRegionInstanceTemplate#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#project GoogleComputeRegionInstanceTemplate#project}
 
 ---
 
@@ -2414,7 +2414,7 @@ Region *string
 
 The region in which the instance template is located. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#region GoogleComputeRegionInstanceTemplate#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#region GoogleComputeRegionInstanceTemplate#region}
 
 ---
 
@@ -2428,7 +2428,7 @@ ReservationAffinity GoogleComputeRegionInstanceTemplateReservationAffinity
 
 reservation_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#reservation_affinity GoogleComputeRegionInstanceTemplate#reservation_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#reservation_affinity GoogleComputeRegionInstanceTemplate#reservation_affinity}
 
 ---
 
@@ -2444,7 +2444,7 @@ A map of resource manager tags.
 
 Resource manager tag keys and values have the same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/456. The field is ignored (both PUT & PATCH) when empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#resource_manager_tags GoogleComputeRegionInstanceTemplate#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#resource_manager_tags GoogleComputeRegionInstanceTemplate#resource_manager_tags}
 
 ---
 
@@ -2460,7 +2460,7 @@ A list of self_links of resource policies to attach to the instance.
 
 Currently a max of 1 resource policy is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#resource_policies GoogleComputeRegionInstanceTemplate#resource_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#resource_policies GoogleComputeRegionInstanceTemplate#resource_policies}
 
 ---
 
@@ -2474,7 +2474,7 @@ Scheduling GoogleComputeRegionInstanceTemplateScheduling
 
 scheduling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#scheduling GoogleComputeRegionInstanceTemplate#scheduling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#scheduling GoogleComputeRegionInstanceTemplate#scheduling}
 
 ---
 
@@ -2488,7 +2488,7 @@ ServiceAccount GoogleComputeRegionInstanceTemplateServiceAccount
 
 service_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#service_account GoogleComputeRegionInstanceTemplate#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#service_account GoogleComputeRegionInstanceTemplate#service_account}
 
 ---
 
@@ -2502,7 +2502,7 @@ ShieldedInstanceConfig GoogleComputeRegionInstanceTemplateShieldedInstanceConfig
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#shielded_instance_config GoogleComputeRegionInstanceTemplate#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#shielded_instance_config GoogleComputeRegionInstanceTemplate#shielded_instance_config}
 
 ---
 
@@ -2516,7 +2516,7 @@ Tags *[]*string
 
 Tags to attach to the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#tags GoogleComputeRegionInstanceTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#tags GoogleComputeRegionInstanceTemplate#tags}
 
 ---
 
@@ -2530,7 +2530,7 @@ Timeouts GoogleComputeRegionInstanceTemplateTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#timeouts GoogleComputeRegionInstanceTemplate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#timeouts GoogleComputeRegionInstanceTemplate#timeouts}
 
 ---
 
@@ -2539,14 +2539,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateDisk {
 	Architecture: *string,
 	AutoDelete: interface{},
 	Boot: interface{},
 	DeviceName: *string,
-	DiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKey,
+	DiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKey,
 	DiskName: *string,
 	DiskSizeGb: *f64,
 	DiskType: *string,
@@ -2560,9 +2560,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	ResourcePolicies: *[]*string,
 	Source: *string,
 	SourceImage: *string,
-	SourceImageEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKey,
+	SourceImageEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKey,
 	SourceSnapshot: *string,
-	SourceSnapshotEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey,
+	SourceSnapshotEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey,
+	StoragePool: *string,
 	Type: *string,
 }
 ```
@@ -2592,6 +2593,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDisk.property.sourceImageEncryptionKey">SourceImageEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKey">GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKey</a></code> | source_image_encryption_key block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDisk.property.sourceSnapshot">SourceSnapshot</a></code> | <code>*string</code> | The source snapshot to create this disk. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDisk.property.sourceSnapshotEncryptionKey">SourceSnapshotEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey">GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey</a></code> | source_snapshot_encryption_key block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDisk.property.storagePool">StoragePool</a></code> | <code>*string</code> | The self_link or ID of the Storage Pool to create this disk in. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDisk.property.type">Type</a></code> | <code>*string</code> | The type of Google Compute Engine disk, can be either "SCRATCH" or "PERSISTENT". |
 
 ---
@@ -2606,7 +2608,7 @@ Architecture *string
 
 The architecture of the image. Allowed values are ARM64 or X86_64.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#architecture GoogleComputeRegionInstanceTemplate#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#architecture GoogleComputeRegionInstanceTemplate#architecture}
 
 ---
 
@@ -2620,7 +2622,7 @@ AutoDelete interface{}
 
 Whether or not the disk should be auto-deleted. This defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#auto_delete GoogleComputeRegionInstanceTemplate#auto_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#auto_delete GoogleComputeRegionInstanceTemplate#auto_delete}
 
 ---
 
@@ -2634,7 +2636,7 @@ Boot interface{}
 
 Indicates that this is a boot disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#boot GoogleComputeRegionInstanceTemplate#boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#boot GoogleComputeRegionInstanceTemplate#boot}
 
 ---
 
@@ -2650,7 +2652,7 @@ A unique device name that is reflected into the /dev/ tree of a Linux operating 
 
 If not specified, the server chooses a default device name to apply to this disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#device_name GoogleComputeRegionInstanceTemplate#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#device_name GoogleComputeRegionInstanceTemplate#device_name}
 
 ---
 
@@ -2664,7 +2666,7 @@ DiskEncryptionKey GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKey
 
 disk_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#disk_encryption_key GoogleComputeRegionInstanceTemplate#disk_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#disk_encryption_key GoogleComputeRegionInstanceTemplate#disk_encryption_key}
 
 ---
 
@@ -2678,7 +2680,7 @@ DiskName *string
 
 Name of the disk. When not provided, this defaults to the name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#disk_name GoogleComputeRegionInstanceTemplate#disk_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#disk_name GoogleComputeRegionInstanceTemplate#disk_name}
 
 ---
 
@@ -2694,7 +2696,7 @@ The size of the image in gigabytes.
 
 If not specified, it will inherit the size of its base image. For SCRATCH disks, the size must be one of 375 or 3000 GB, with a default of 375 GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#disk_size_gb GoogleComputeRegionInstanceTemplate#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#disk_size_gb GoogleComputeRegionInstanceTemplate#disk_size_gb}
 
 ---
 
@@ -2708,7 +2710,7 @@ DiskType *string
 
 The Google Compute Engine disk type. Such as "pd-ssd", "local-ssd", "pd-balanced" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#disk_type GoogleComputeRegionInstanceTemplate#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#disk_type GoogleComputeRegionInstanceTemplate#disk_type}
 
 ---
 
@@ -2722,7 +2724,7 @@ GuestOsFeatures *[]*string
 
 A list of features to enable on the guest operating system. Applicable only for bootable images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#guest_os_features GoogleComputeRegionInstanceTemplate#guest_os_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#guest_os_features GoogleComputeRegionInstanceTemplate#guest_os_features}
 
 ---
 
@@ -2736,7 +2738,7 @@ Interface *string
 
 Specifies the disk interface to use for attaching this disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#interface GoogleComputeRegionInstanceTemplate#interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#interface GoogleComputeRegionInstanceTemplate#interface}
 
 ---
 
@@ -2750,7 +2752,7 @@ Labels *map[string]*string
 
 A set of key/value label pairs to assign to disks,.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#labels GoogleComputeRegionInstanceTemplate#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#labels GoogleComputeRegionInstanceTemplate#labels}
 
 ---
 
@@ -2766,7 +2768,7 @@ The mode in which to attach this disk, either READ_WRITE or READ_ONLY.
 
 If you are attaching or creating a boot disk, this must read-write mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#mode GoogleComputeRegionInstanceTemplate#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#mode GoogleComputeRegionInstanceTemplate#mode}
 
 ---
 
@@ -2782,7 +2784,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle. For more details, see the [Extreme persistent disk documentation](https://cloud.google.com/compute/docs/disks/extreme-persistent-disk) or the [Hyperdisk documentation](https://cloud.google.com/compute/docs/disks/hyperdisks) depending on the selected disk_type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#provisioned_iops GoogleComputeRegionInstanceTemplate#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#provisioned_iops GoogleComputeRegionInstanceTemplate#provisioned_iops}
 
 ---
 
@@ -2798,7 +2800,7 @@ Indicates how much throughput to provision for the disk, in MB/s.
 
 This sets the amount of data that can be read or written from the disk per second. Values must greater than or equal to 1. For more details, see the [Hyperdisk documentation](https://cloud.google.com/compute/docs/disks/hyperdisks).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#provisioned_throughput GoogleComputeRegionInstanceTemplate#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#provisioned_throughput GoogleComputeRegionInstanceTemplate#provisioned_throughput}
 
 ---
 
@@ -2814,7 +2816,7 @@ A map of resource manager tags.
 
 Resource manager tag keys and values have the same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/456. The field is ignored (both PUT & PATCH) when empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#resource_manager_tags GoogleComputeRegionInstanceTemplate#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#resource_manager_tags GoogleComputeRegionInstanceTemplate#resource_manager_tags}
 
 ---
 
@@ -2830,7 +2832,7 @@ A list (short name or id) of resource policies to attach to this disk.
 
 Currently a max of 1 resource policy is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#resource_policies GoogleComputeRegionInstanceTemplate#resource_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#resource_policies GoogleComputeRegionInstanceTemplate#resource_policies}
 
 ---
 
@@ -2846,7 +2848,7 @@ The name (not self_link) of the disk (such as those managed by google_compute_di
 
 ~> Note: Either source or source_image is required when creating a new instance except for when creating a local SSD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#source GoogleComputeRegionInstanceTemplate#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#source GoogleComputeRegionInstanceTemplate#source}
 
 ---
 
@@ -2862,7 +2864,7 @@ The image from which to initialize this disk.
 
 This can be one of: the image's self_link, projects/{project}/global/images/{image}, projects/{project}/global/images/family/{family}, global/images/{image}, global/images/family/{family}, family/{family}, {project}/{family}, {project}/{image}, {family}, or {image}. ~> Note: Either source or source_image is required when creating a new instance except for when creating a local SSD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#source_image GoogleComputeRegionInstanceTemplate#source_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#source_image GoogleComputeRegionInstanceTemplate#source_image}
 
 ---
 
@@ -2876,7 +2878,7 @@ SourceImageEncryptionKey GoogleComputeRegionInstanceTemplateDiskSourceImageEncry
 
 source_image_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#source_image_encryption_key GoogleComputeRegionInstanceTemplate#source_image_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#source_image_encryption_key GoogleComputeRegionInstanceTemplate#source_image_encryption_key}
 
 ---
 
@@ -2895,7 +2897,7 @@ a new instance, one of initializeParams.sourceSnapshot,
 initializeParams.sourceImage, or disks.source is
 required except for local SSD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#source_snapshot GoogleComputeRegionInstanceTemplate#source_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#source_snapshot GoogleComputeRegionInstanceTemplate#source_snapshot}
 
 ---
 
@@ -2909,7 +2911,21 @@ SourceSnapshotEncryptionKey GoogleComputeRegionInstanceTemplateDiskSourceSnapsho
 
 source_snapshot_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#source_snapshot_encryption_key GoogleComputeRegionInstanceTemplate#source_snapshot_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#source_snapshot_encryption_key GoogleComputeRegionInstanceTemplate#source_snapshot_encryption_key}
+
+---
+
+##### `StoragePool`<sup>Optional</sup> <a name="StoragePool" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDisk.property.storagePool"></a>
+
+```go
+StoragePool *string
+```
+
+- *Type:* *string
+
+The self_link or ID of the Storage Pool to create this disk in.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#storage_pool GoogleComputeRegionInstanceTemplate#storage_pool}
 
 ---
 
@@ -2923,7 +2939,7 @@ Type *string
 
 The type of Google Compute Engine disk, can be either "SCRATCH" or "PERSISTENT".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#type GoogleComputeRegionInstanceTemplate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#type GoogleComputeRegionInstanceTemplate#type}
 
 ---
 
@@ -2932,7 +2948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -2959,7 +2975,7 @@ KmsKeySelfLink *string
 
 The self link of the encryption key that is stored in Google Cloud KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#kms_key_self_link GoogleComputeRegionInstanceTemplate#kms_key_self_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#kms_key_self_link GoogleComputeRegionInstanceTemplate#kms_key_self_link}
 
 ---
 
@@ -2975,7 +2991,7 @@ The service account being used for the encryption request for the given KMS key.
 
 If absent, the Compute Engine default service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#kms_key_service_account GoogleComputeRegionInstanceTemplate#kms_key_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#kms_key_service_account GoogleComputeRegionInstanceTemplate#kms_key_service_account}
 
 ---
 
@@ -2984,7 +3000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -3017,7 +3033,7 @@ The self link of the encryption key that is stored in Google Cloud KMS.
 
 Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#kms_key_self_link GoogleComputeRegionInstanceTemplate#kms_key_self_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#kms_key_self_link GoogleComputeRegionInstanceTemplate#kms_key_self_link}
 
 ---
 
@@ -3034,7 +3050,7 @@ The service account being used for the encryption request for the given KMS key.
 If absent, the Compute
 Engine default service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#kms_key_service_account GoogleComputeRegionInstanceTemplate#kms_key_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#kms_key_service_account GoogleComputeRegionInstanceTemplate#kms_key_service_account}
 
 ---
 
@@ -3050,7 +3066,7 @@ Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64
 
 Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#raw_key GoogleComputeRegionInstanceTemplate#raw_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#raw_key GoogleComputeRegionInstanceTemplate#raw_key}
 
 ---
 
@@ -3066,7 +3082,7 @@ Specifies an RFC 4648 base64 encoded, RSA-wrapped 2048-bit customer-supplied enc
 
 Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#rsa_encrypted_key GoogleComputeRegionInstanceTemplate#rsa_encrypted_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#rsa_encrypted_key GoogleComputeRegionInstanceTemplate#rsa_encrypted_key}
 
 ---
 
@@ -3075,7 +3091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -3108,7 +3124,7 @@ The self link of the encryption key that is stored in Google Cloud KMS.
 
 Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#kms_key_self_link GoogleComputeRegionInstanceTemplate#kms_key_self_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#kms_key_self_link GoogleComputeRegionInstanceTemplate#kms_key_self_link}
 
 ---
 
@@ -3125,7 +3141,7 @@ The service account being used for the encryption request for the given KMS key.
 If absent, the Compute
 Engine default service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#kms_key_service_account GoogleComputeRegionInstanceTemplate#kms_key_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#kms_key_service_account GoogleComputeRegionInstanceTemplate#kms_key_service_account}
 
 ---
 
@@ -3141,7 +3157,7 @@ Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64
 
 Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#raw_key GoogleComputeRegionInstanceTemplate#raw_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#raw_key GoogleComputeRegionInstanceTemplate#raw_key}
 
 ---
 
@@ -3157,7 +3173,7 @@ Specifies an RFC 4648 base64 encoded, RSA-wrapped 2048-bit customer-supplied enc
 
 Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#rsa_encrypted_key GoogleComputeRegionInstanceTemplate#rsa_encrypted_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#rsa_encrypted_key GoogleComputeRegionInstanceTemplate#rsa_encrypted_key}
 
 ---
 
@@ -3166,7 +3182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateGuestAccelerator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateGuestAccelerator {
 	Count: *f64,
@@ -3193,7 +3209,7 @@ Count *f64
 
 The number of the guest accelerator cards exposed to this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#count GoogleComputeRegionInstanceTemplate#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#count GoogleComputeRegionInstanceTemplate#count}
 
 ---
 
@@ -3207,7 +3223,7 @@ Type *string
 
 The accelerator type resource to expose to this instance. E.g. nvidia-tesla-k80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#type GoogleComputeRegionInstanceTemplate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#type GoogleComputeRegionInstanceTemplate#type}
 
 ---
 
@@ -3216,21 +3232,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateNetworkInterface {
 	AccessConfig: interface{},
 	AliasIpRange: interface{},
+	IgmpQuery: *string,
 	InternalIpv6PrefixLength: *f64,
 	Ipv6AccessConfig: interface{},
 	Ipv6Address: *string,
 	Network: *string,
+	NetworkAttachment: *string,
 	NetworkIp: *string,
 	NicType: *string,
 	QueueCount: *f64,
 	StackType: *string,
 	Subnetwork: *string,
 	SubnetworkProject: *string,
+	Vlan: *f64,
 }
 ```
 
@@ -3240,16 +3259,19 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.accessConfig">AccessConfig</a></code> | <code>interface{}</code> | access_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.aliasIpRange">AliasIpRange</a></code> | <code>interface{}</code> | alias_ip_range block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.igmpQuery">IgmpQuery</a></code> | <code>*string</code> | Indicates whether igmp query is enabled on the network interface or not. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.internalIpv6PrefixLength">InternalIpv6PrefixLength</a></code> | <code>*f64</code> | The prefix length of the primary internal IPv6 range. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.ipv6AccessConfig">Ipv6AccessConfig</a></code> | <code>interface{}</code> | ipv6_access_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.ipv6Address">Ipv6Address</a></code> | <code>*string</code> | An IPv6 internal network address for this network interface. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.network">Network</a></code> | <code>*string</code> | The name or self_link of the network to attach this interface to. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.networkAttachment">NetworkAttachment</a></code> | <code>*string</code> | The URL of the network attachment that this interface should connect to in the following format: projects/{projectNumber}/regions/{region_name}/networkAttachments/{network_attachment_name}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.networkIp">NetworkIp</a></code> | <code>*string</code> | The private IP address to assign to the instance. If empty, the address will be automatically assigned. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.nicType">NicType</a></code> | <code>*string</code> | The type of vNIC to be used on this interface. Possible values:GVNIC, VIRTIO_NET, MRDMA, and IRDMA. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.queueCount">QueueCount</a></code> | <code>*f64</code> | The networking queue count that's specified by users for the network interface. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.stackType">StackType</a></code> | <code>*string</code> | The stack type for this network interface to identify whether the IPv6 feature is enabled or not. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.subnetwork">Subnetwork</a></code> | <code>*string</code> | The name of the subnetwork to attach this interface to. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.subnetworkProject">SubnetworkProject</a></code> | <code>*string</code> | The ID of the project in which the subnetwork belongs. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.vlan">Vlan</a></code> | <code>*f64</code> | VLAN tag of a dynamic network interface, must be an integer in the range from 2 to 255 inclusively. |
 
 ---
 
@@ -3263,7 +3285,7 @@ AccessConfig interface{}
 
 access_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#access_config GoogleComputeRegionInstanceTemplate#access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#access_config GoogleComputeRegionInstanceTemplate#access_config}
 
 ---
 
@@ -3277,7 +3299,23 @@ AliasIpRange interface{}
 
 alias_ip_range block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#alias_ip_range GoogleComputeRegionInstanceTemplate#alias_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#alias_ip_range GoogleComputeRegionInstanceTemplate#alias_ip_range}
+
+---
+
+##### `IgmpQuery`<sup>Optional</sup> <a name="IgmpQuery" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.igmpQuery"></a>
+
+```go
+IgmpQuery *string
+```
+
+- *Type:* *string
+
+Indicates whether igmp query is enabled on the network interface or not.
+
+If enabled, also indicates the version of IGMP supported.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#igmp_query GoogleComputeRegionInstanceTemplate#igmp_query}
 
 ---
 
@@ -3291,7 +3329,7 @@ InternalIpv6PrefixLength *f64
 
 The prefix length of the primary internal IPv6 range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#internal_ipv6_prefix_length GoogleComputeRegionInstanceTemplate#internal_ipv6_prefix_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#internal_ipv6_prefix_length GoogleComputeRegionInstanceTemplate#internal_ipv6_prefix_length}
 
 ---
 
@@ -3305,7 +3343,7 @@ Ipv6AccessConfig interface{}
 
 ipv6_access_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#ipv6_access_config GoogleComputeRegionInstanceTemplate#ipv6_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#ipv6_access_config GoogleComputeRegionInstanceTemplate#ipv6_access_config}
 
 ---
 
@@ -3321,7 +3359,7 @@ An IPv6 internal network address for this network interface.
 
 If not specified, Google Cloud will automatically assign an internal IPv6 address from the instance's subnetwork.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#ipv6_address GoogleComputeRegionInstanceTemplate#ipv6_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#ipv6_address GoogleComputeRegionInstanceTemplate#ipv6_address}
 
 ---
 
@@ -3337,7 +3375,21 @@ The name or self_link of the network to attach this interface to.
 
 Use network attribute for Legacy or Auto subnetted networks and subnetwork for custom subnetted networks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#network GoogleComputeRegionInstanceTemplate#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#network GoogleComputeRegionInstanceTemplate#network}
+
+---
+
+##### `NetworkAttachment`<sup>Optional</sup> <a name="NetworkAttachment" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.networkAttachment"></a>
+
+```go
+NetworkAttachment *string
+```
+
+- *Type:* *string
+
+The URL of the network attachment that this interface should connect to in the following format: projects/{projectNumber}/regions/{region_name}/networkAttachments/{network_attachment_name}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#network_attachment GoogleComputeRegionInstanceTemplate#network_attachment}
 
 ---
 
@@ -3351,7 +3403,7 @@ NetworkIp *string
 
 The private IP address to assign to the instance. If empty, the address will be automatically assigned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#network_ip GoogleComputeRegionInstanceTemplate#network_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#network_ip GoogleComputeRegionInstanceTemplate#network_ip}
 
 ---
 
@@ -3365,7 +3417,7 @@ NicType *string
 
 The type of vNIC to be used on this interface. Possible values:GVNIC, VIRTIO_NET, MRDMA, and IRDMA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#nic_type GoogleComputeRegionInstanceTemplate#nic_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#nic_type GoogleComputeRegionInstanceTemplate#nic_type}
 
 ---
 
@@ -3381,7 +3433,7 @@ The networking queue count that's specified by users for the network interface.
 
 Both Rx and Tx queues will be set to this number. It will be empty if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#queue_count GoogleComputeRegionInstanceTemplate#queue_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#queue_count GoogleComputeRegionInstanceTemplate#queue_count}
 
 ---
 
@@ -3397,7 +3449,7 @@ The stack type for this network interface to identify whether the IPv6 feature i
 
 If not specified, IPV4_ONLY will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#stack_type GoogleComputeRegionInstanceTemplate#stack_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#stack_type GoogleComputeRegionInstanceTemplate#stack_type}
 
 ---
 
@@ -3413,7 +3465,7 @@ The name of the subnetwork to attach this interface to.
 
 The subnetwork must exist in the same region this instance will be created in. Either network or subnetwork must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#subnetwork GoogleComputeRegionInstanceTemplate#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#subnetwork GoogleComputeRegionInstanceTemplate#subnetwork}
 
 ---
 
@@ -3429,7 +3481,21 @@ The ID of the project in which the subnetwork belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#subnetwork_project GoogleComputeRegionInstanceTemplate#subnetwork_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#subnetwork_project GoogleComputeRegionInstanceTemplate#subnetwork_project}
+
+---
+
+##### `Vlan`<sup>Optional</sup> <a name="Vlan" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterface.property.vlan"></a>
+
+```go
+Vlan *f64
+```
+
+- *Type:* *f64
+
+VLAN tag of a dynamic network interface, must be an integer in the range from 2 to 255 inclusively.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#vlan GoogleComputeRegionInstanceTemplate#vlan}
 
 ---
 
@@ -3438,7 +3504,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfig {
 	NatIp: *string,
@@ -3467,7 +3533,7 @@ The IP address that will be 1:1 mapped to the instance's network ip.
 
 If not given, one will be generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#nat_ip GoogleComputeRegionInstanceTemplate#nat_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#nat_ip GoogleComputeRegionInstanceTemplate#nat_ip}
 
 ---
 
@@ -3483,7 +3549,7 @@ The networking tier used for configuring this instance template.
 
 This field can take the following values: PREMIUM, STANDARD, FIXED_STANDARD. If this field is not specified, it is assumed to be PREMIUM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#network_tier GoogleComputeRegionInstanceTemplate#network_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#network_tier GoogleComputeRegionInstanceTemplate#network_tier}
 
 ---
 
@@ -3492,7 +3558,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRange {
 	IpCidrRange: *string,
@@ -3521,7 +3587,7 @@ The IP CIDR range represented by this alias IP range.
 
 This IP CIDR range must belong to the specified subnetwork and cannot contain IP addresses reserved by system or used by other network interfaces. At the time of writing only a netmask (e.g. /24) may be supplied, with a CIDR format resulting in an API error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#ip_cidr_range GoogleComputeRegionInstanceTemplate#ip_cidr_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#ip_cidr_range GoogleComputeRegionInstanceTemplate#ip_cidr_range}
 
 ---
 
@@ -3537,7 +3603,7 @@ The subnetwork secondary range name specifying the secondary range from which to
 
 If left unspecified, the primary range of the subnetwork will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#subnetwork_range_name GoogleComputeRegionInstanceTemplate#subnetwork_range_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#subnetwork_range_name GoogleComputeRegionInstanceTemplate#subnetwork_range_name}
 
 ---
 
@@ -3546,7 +3612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfig {
 	NetworkTier: *string,
@@ -3573,7 +3639,7 @@ The service-level to be provided for IPv6 traffic when the subnet has an externa
 
 Only PREMIUM tier is valid for IPv6
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#network_tier GoogleComputeRegionInstanceTemplate#network_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#network_tier GoogleComputeRegionInstanceTemplate#network_tier}
 
 ---
 
@@ -3582,7 +3648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkPerformanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateNetworkPerformanceConfig {
 	TotalEgressBandwidthTier: *string,
@@ -3607,7 +3673,7 @@ TotalEgressBandwidthTier *string
 
 The egress bandwidth tier to enable. Possible values:TIER_1, DEFAULT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#total_egress_bandwidth_tier GoogleComputeRegionInstanceTemplate#total_egress_bandwidth_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#total_egress_bandwidth_tier GoogleComputeRegionInstanceTemplate#total_egress_bandwidth_tier}
 
 ---
 
@@ -3616,11 +3682,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateReservationAffinity {
 	Type: *string,
-	SpecificReservation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinitySpecificReservation,
+	SpecificReservation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinitySpecificReservation,
 }
 ```
 
@@ -3643,7 +3709,7 @@ Type *string
 
 The type of reservation from which this instance can consume resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#type GoogleComputeRegionInstanceTemplate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#type GoogleComputeRegionInstanceTemplate#type}
 
 ---
 
@@ -3657,7 +3723,7 @@ SpecificReservation GoogleComputeRegionInstanceTemplateReservationAffinitySpecif
 
 specific_reservation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#specific_reservation GoogleComputeRegionInstanceTemplate#specific_reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#specific_reservation GoogleComputeRegionInstanceTemplate#specific_reservation}
 
 ---
 
@@ -3666,7 +3732,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinitySpecificReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateReservationAffinitySpecificReservation {
 	Key: *string,
@@ -3695,7 +3761,7 @@ Corresponds to the label key of a reservation resource.
 
 To target a SPECIFIC_RESERVATION by name, specify compute.googleapis.com/reservation-name as the key and specify the name of your reservation as the only value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#key GoogleComputeRegionInstanceTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#key GoogleComputeRegionInstanceTemplate#key}
 
 ---
 
@@ -3709,7 +3775,7 @@ Values *[]*string
 
 Corresponds to the label values of a reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#values GoogleComputeRegionInstanceTemplate#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#values GoogleComputeRegionInstanceTemplate#values}
 
 ---
 
@@ -3718,23 +3784,25 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateScheduling {
 	AutomaticRestart: interface{},
 	AvailabilityDomain: *f64,
-	GracefulShutdown: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown,
+	GracefulShutdown: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown,
 	HostErrorTimeoutSeconds: *f64,
 	InstanceTerminationAction: *string,
 	LocalSsdRecoveryTimeout: interface{},
 	MaintenanceInterval: *string,
-	MaxRunDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration,
+	MaxRunDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration,
 	MinNodeCpus: *f64,
 	NodeAffinities: interface{},
 	OnHostMaintenance: *string,
-	OnInstanceStopAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction,
+	OnInstanceStopAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction,
 	Preemptible: interface{},
+	PreemptionNoticeDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration,
 	ProvisioningModel: *string,
+	SkipGuestOsShutdown: interface{},
 	TerminationTime: *string,
 }
 ```
@@ -3756,7 +3824,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.onHostMaintenance">OnHostMaintenance</a></code> | <code>*string</code> | Defines the maintenance behavior for this instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.onInstanceStopAction">OnInstanceStopAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction">GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction</a></code> | on_instance_stop_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.preemptible">Preemptible</a></code> | <code>interface{}</code> | Allows instance to be preempted. This defaults to false. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.preemptionNoticeDuration">PreemptionNoticeDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration</a></code> | preemption_notice_duration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.provisioningModel">ProvisioningModel</a></code> | <code>*string</code> | Whether the instance is spot. If this is set as SPOT. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.skipGuestOsShutdown">SkipGuestOsShutdown</a></code> | <code>interface{}</code> | Default is false and there will be 120 seconds between GCE ACPI G2 Soft Off and ACPI G3 Mechanical Off for Standard VMs and 30 seconds for Spot VMs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.terminationTime">TerminationTime</a></code> | <code>*string</code> | Specifies the timestamp, when the instance will be terminated, in RFC3339 text format. |
 
 ---
@@ -3773,7 +3843,7 @@ Specifies whether the instance should be automatically restarted if it is termin
 
 This defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#automatic_restart GoogleComputeRegionInstanceTemplate#automatic_restart}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#automatic_restart GoogleComputeRegionInstanceTemplate#automatic_restart}
 
 ---
 
@@ -3787,7 +3857,7 @@ AvailabilityDomain *f64
 
 Specifies the availability domain, which this instance should be scheduled on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#availability_domain GoogleComputeRegionInstanceTemplate#availability_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#availability_domain GoogleComputeRegionInstanceTemplate#availability_domain}
 
 ---
 
@@ -3801,7 +3871,7 @@ GracefulShutdown GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown
 
 graceful_shutdown block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#graceful_shutdown GoogleComputeRegionInstanceTemplate#graceful_shutdown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#graceful_shutdown GoogleComputeRegionInstanceTemplate#graceful_shutdown}
 
 ---
 
@@ -3815,7 +3885,7 @@ HostErrorTimeoutSeconds *f64
 
 Specify the time in seconds for host error detection, the value must be within the range of [90, 330] with the increment of 30, if unset, the default behavior of host error recovery will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#host_error_timeout_seconds GoogleComputeRegionInstanceTemplate#host_error_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#host_error_timeout_seconds GoogleComputeRegionInstanceTemplate#host_error_timeout_seconds}
 
 ---
 
@@ -3829,7 +3899,7 @@ InstanceTerminationAction *string
 
 Specifies the action GCE should take when SPOT VM is preempted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#instance_termination_action GoogleComputeRegionInstanceTemplate#instance_termination_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#instance_termination_action GoogleComputeRegionInstanceTemplate#instance_termination_action}
 
 ---
 
@@ -3843,7 +3913,7 @@ LocalSsdRecoveryTimeout interface{}
 
 local_ssd_recovery_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#local_ssd_recovery_timeout GoogleComputeRegionInstanceTemplate#local_ssd_recovery_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#local_ssd_recovery_timeout GoogleComputeRegionInstanceTemplate#local_ssd_recovery_timeout}
 
 ---
 
@@ -3857,7 +3927,7 @@ MaintenanceInterval *string
 
 Specifies the frequency of planned maintenance events. The accepted values are: PERIODIC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#maintenance_interval GoogleComputeRegionInstanceTemplate#maintenance_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#maintenance_interval GoogleComputeRegionInstanceTemplate#maintenance_interval}
 
 ---
 
@@ -3871,7 +3941,7 @@ MaxRunDuration GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration
 
 max_run_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#max_run_duration GoogleComputeRegionInstanceTemplate#max_run_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#max_run_duration GoogleComputeRegionInstanceTemplate#max_run_duration}
 
 ---
 
@@ -3885,7 +3955,7 @@ MinNodeCpus *f64
 
 Minimum number of cpus for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#min_node_cpus GoogleComputeRegionInstanceTemplate#min_node_cpus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#min_node_cpus GoogleComputeRegionInstanceTemplate#min_node_cpus}
 
 ---
 
@@ -3899,7 +3969,7 @@ NodeAffinities interface{}
 
 node_affinities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#node_affinities GoogleComputeRegionInstanceTemplate#node_affinities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#node_affinities GoogleComputeRegionInstanceTemplate#node_affinities}
 
 ---
 
@@ -3913,7 +3983,7 @@ OnHostMaintenance *string
 
 Defines the maintenance behavior for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#on_host_maintenance GoogleComputeRegionInstanceTemplate#on_host_maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#on_host_maintenance GoogleComputeRegionInstanceTemplate#on_host_maintenance}
 
 ---
 
@@ -3927,7 +3997,7 @@ OnInstanceStopAction GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStop
 
 on_instance_stop_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#on_instance_stop_action GoogleComputeRegionInstanceTemplate#on_instance_stop_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#on_instance_stop_action GoogleComputeRegionInstanceTemplate#on_instance_stop_action}
 
 ---
 
@@ -3941,7 +4011,21 @@ Preemptible interface{}
 
 Allows instance to be preempted. This defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#preemptible GoogleComputeRegionInstanceTemplate#preemptible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#preemptible GoogleComputeRegionInstanceTemplate#preemptible}
+
+---
+
+##### `PreemptionNoticeDuration`<sup>Optional</sup> <a name="PreemptionNoticeDuration" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.preemptionNoticeDuration"></a>
+
+```go
+PreemptionNoticeDuration GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration</a>
+
+preemption_notice_duration block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#preemption_notice_duration GoogleComputeRegionInstanceTemplate#preemption_notice_duration}
 
 ---
 
@@ -3955,7 +4039,21 @@ ProvisioningModel *string
 
 Whether the instance is spot. If this is set as SPOT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#provisioning_model GoogleComputeRegionInstanceTemplate#provisioning_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#provisioning_model GoogleComputeRegionInstanceTemplate#provisioning_model}
+
+---
+
+##### `SkipGuestOsShutdown`<sup>Optional</sup> <a name="SkipGuestOsShutdown" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling.property.skipGuestOsShutdown"></a>
+
+```go
+SkipGuestOsShutdown interface{}
+```
+
+- *Type:* interface{}
+
+Default is false and there will be 120 seconds between GCE ACPI G2 Soft Off and ACPI G3 Mechanical Off for Standard VMs and 30 seconds for Spot VMs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#skip_guest_os_shutdown GoogleComputeRegionInstanceTemplate#skip_guest_os_shutdown}
 
 ---
 
@@ -3972,7 +4070,7 @@ Specifies the timestamp, when the instance will be terminated, in RFC3339 text f
 If specified, the instance termination action
 will be performed at the termination time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#termination_time GoogleComputeRegionInstanceTemplate#termination_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#termination_time GoogleComputeRegionInstanceTemplate#termination_time}
 
 ---
 
@@ -3981,11 +4079,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown {
 	Enabled: interface{},
-	MaxDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDuration,
+	MaxDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDuration,
 }
 ```
 
@@ -4008,7 +4106,7 @@ Enabled interface{}
 
 Opts-in for graceful shutdown.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enabled GoogleComputeRegionInstanceTemplate#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enabled GoogleComputeRegionInstanceTemplate#enabled}
 
 ---
 
@@ -4022,7 +4120,7 @@ MaxDuration GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDura
 
 max_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#max_duration GoogleComputeRegionInstanceTemplate#max_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#max_duration GoogleComputeRegionInstanceTemplate#max_duration}
 
 ---
 
@@ -4031,7 +4129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDuration {
 	Seconds: *f64,
@@ -4060,7 +4158,7 @@ Span of time at a resolution of a second.
 
 The value must be between 1 and 3600, which is 3,600 seconds (one hour).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#seconds GoogleComputeRegionInstanceTemplate#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#seconds GoogleComputeRegionInstanceTemplate#seconds}
 
 ---
 
@@ -4078,7 +4176,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#nanos GoogleComputeRegionInstanceTemplate#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#nanos GoogleComputeRegionInstanceTemplate#nanos}
 
 ---
 
@@ -4087,7 +4185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeout {
 	Seconds: *f64,
@@ -4114,7 +4212,7 @@ Seconds *f64
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#seconds GoogleComputeRegionInstanceTemplate#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#seconds GoogleComputeRegionInstanceTemplate#seconds}
 
 ---
 
@@ -4132,7 +4230,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#nanos GoogleComputeRegionInstanceTemplate#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#nanos GoogleComputeRegionInstanceTemplate#nanos}
 
 ---
 
@@ -4141,7 +4239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration {
 	Seconds: *f64,
@@ -4168,7 +4266,7 @@ Seconds *f64
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#seconds GoogleComputeRegionInstanceTemplate#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#seconds GoogleComputeRegionInstanceTemplate#seconds}
 
 ---
 
@@ -4186,7 +4284,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#nanos GoogleComputeRegionInstanceTemplate#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#nanos GoogleComputeRegionInstanceTemplate#nanos}
 
 ---
 
@@ -4195,7 +4293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities {
 	Key: *string,
@@ -4208,9 +4306,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#key GoogleComputeRegionInstanceTemplate#key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities.property.operator">Operator</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#operator GoogleComputeRegionInstanceTemplate#operator}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#values GoogleComputeRegionInstanceTemplate#values}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#key GoogleComputeRegionInstanceTemplate#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities.property.operator">Operator</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#operator GoogleComputeRegionInstanceTemplate#operator}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinities.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#values GoogleComputeRegionInstanceTemplate#values}. |
 
 ---
 
@@ -4222,7 +4320,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#key GoogleComputeRegionInstanceTemplate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#key GoogleComputeRegionInstanceTemplate#key}.
 
 ---
 
@@ -4234,7 +4332,7 @@ Operator *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#operator GoogleComputeRegionInstanceTemplate#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#operator GoogleComputeRegionInstanceTemplate#operator}.
 
 ---
 
@@ -4246,7 +4344,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#values GoogleComputeRegionInstanceTemplate#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#values GoogleComputeRegionInstanceTemplate#values}.
 
 ---
 
@@ -4255,7 +4353,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction {
 	DiscardLocalSsd: interface{},
@@ -4280,7 +4378,59 @@ DiscardLocalSsd interface{}
 
 If true, the contents of any attached Local SSD disks will be discarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#discard_local_ssd GoogleComputeRegionInstanceTemplate#discard_local_ssd}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#discard_local_ssd GoogleComputeRegionInstanceTemplate#discard_local_ssd}
+
+---
+
+### GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration <a name="GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
+
+&googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration {
+	Seconds: *f64,
+	Nanos: *f64,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration.property.seconds">Seconds</a></code> | <code>*f64</code> | Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration.property.nanos">Nanos</a></code> | <code>*f64</code> | Span of time that's a fraction of a second at nanosecond resolution. |
+
+---
+
+##### `Seconds`<sup>Required</sup> <a name="Seconds" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration.property.seconds"></a>
+
+```go
+Seconds *f64
+```
+
+- *Type:* *f64
+
+Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#seconds GoogleComputeRegionInstanceTemplate#seconds}
+
+---
+
+##### `Nanos`<sup>Optional</sup> <a name="Nanos" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration.property.nanos"></a>
+
+```go
+Nanos *f64
+```
+
+- *Type:* *f64
+
+Span of time that's a fraction of a second at nanosecond resolution.
+
+Durations less than one second are represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#nanos GoogleComputeRegionInstanceTemplate#nanos}
 
 ---
 
@@ -4289,7 +4439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateServiceAccount {
 	Scopes: *[]*string,
@@ -4318,7 +4468,7 @@ A list of service scopes.
 
 Both OAuth2 URLs and gcloud short names are supported. To allow full access to all Cloud APIs, use the cloud-platform scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#scopes GoogleComputeRegionInstanceTemplate#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#scopes GoogleComputeRegionInstanceTemplate#scopes}
 
 ---
 
@@ -4332,7 +4482,7 @@ Email *string
 
 The service account e-mail address. If not given, the default Google Compute Engine service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#email GoogleComputeRegionInstanceTemplate#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#email GoogleComputeRegionInstanceTemplate#email}
 
 ---
 
@@ -4341,7 +4491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -4372,7 +4522,7 @@ Compare the most recent boot measurements to the integrity policy baseline and r
 
 Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enable_integrity_monitoring GoogleComputeRegionInstanceTemplate#enable_integrity_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enable_integrity_monitoring GoogleComputeRegionInstanceTemplate#enable_integrity_monitoring}
 
 ---
 
@@ -4388,7 +4538,7 @@ Verify the digital signature of all boot components, and halt the boot process i
 
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enable_secure_boot GoogleComputeRegionInstanceTemplate#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enable_secure_boot GoogleComputeRegionInstanceTemplate#enable_secure_boot}
 
 ---
 
@@ -4404,7 +4554,7 @@ Use a virtualized trusted platform module, which is a specialized computer chip 
 
 Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#enable_vtpm GoogleComputeRegionInstanceTemplate#enable_vtpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#enable_vtpm GoogleComputeRegionInstanceTemplate#enable_vtpm}
 
 ---
 
@@ -4413,7 +4563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 &googlecomputeregioninstancetemplate.GoogleComputeRegionInstanceTemplateTimeouts {
 	Create: *string,
@@ -4425,8 +4575,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#create GoogleComputeRegionInstanceTemplate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#delete GoogleComputeRegionInstanceTemplate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#create GoogleComputeRegionInstanceTemplate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#delete GoogleComputeRegionInstanceTemplate#delete}. |
 
 ---
 
@@ -4438,7 +4588,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#create GoogleComputeRegionInstanceTemplate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#create GoogleComputeRegionInstanceTemplate#create}.
 
 ---
 
@@ -4450,7 +4600,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_template#delete GoogleComputeRegionInstanceTemplate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_template#delete GoogleComputeRegionInstanceTemplate#delete}.
 
 ---
 
@@ -4461,7 +4611,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateAdvancedMachineFeaturesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateAdvancedMachineFeaturesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateAdvancedMachineFeaturesOutputReference
 ```
@@ -4884,7 +5034,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateAdvancedMachineFeatures
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateConfidentialInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateConfidentialInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateConfidentialInstanceConfigOutputReference
 ```
@@ -5191,7 +5341,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateConfidentialInstanceConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateDiskDiskEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKeyOutputReference
 ```
@@ -5498,7 +5648,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateDiskDiskEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateDiskList
 ```
@@ -5658,7 +5808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateDiskOutputReference
 ```
@@ -5745,6 +5895,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.resetSourceImageEncryptionKey">ResetSourceImageEncryptionKey</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.resetSourceSnapshot">ResetSourceSnapshot</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.resetSourceSnapshotEncryptionKey">ResetSourceSnapshotEncryptionKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.resetStoragePool">ResetStoragePool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.resetType">ResetType</a></code> | *No description.* |
 
 ---
@@ -6061,6 +6212,12 @@ func ResetSourceSnapshot()
 func ResetSourceSnapshotEncryptionKey()
 ```
 
+##### `ResetStoragePool` <a name="ResetStoragePool" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.resetStoragePool"></a>
+
+```go
+func ResetStoragePool()
+```
+
 ##### `ResetType` <a name="ResetType" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.resetType"></a>
 
 ```go
@@ -6098,6 +6255,7 @@ func ResetType()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.sourceInput">SourceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.sourceSnapshotEncryptionKeyInput">SourceSnapshotEncryptionKeyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey">GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKey</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.sourceSnapshotInput">SourceSnapshotInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.storagePoolInput">StoragePoolInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.typeInput">TypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.architecture">Architecture</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.autoDelete">AutoDelete</a></code> | <code>interface{}</code> | *No description.* |
@@ -6117,6 +6275,7 @@ func ResetType()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.source">Source</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.sourceImage">SourceImage</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.sourceSnapshot">SourceSnapshot</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.storagePool">StoragePool</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.type">Type</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
@@ -6386,6 +6545,16 @@ func SourceSnapshotInput() *string
 
 ---
 
+##### `StoragePoolInput`<sup>Optional</sup> <a name="StoragePoolInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.storagePoolInput"></a>
+
+```go
+func StoragePoolInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `TypeInput`<sup>Optional</sup> <a name="TypeInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.typeInput"></a>
 
 ```go
@@ -6576,6 +6745,16 @@ func SourceSnapshot() *string
 
 ---
 
+##### `StoragePool`<sup>Required</sup> <a name="StoragePool" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.storagePool"></a>
+
+```go
+func StoragePool() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `Type`<sup>Required</sup> <a name="Type" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskOutputReference.property.type"></a>
 
 ```go
@@ -6602,7 +6781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKeyOutputReference
 ```
@@ -6967,7 +7146,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateDiskSourceImageEncryptio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKeyOutputReference
 ```
@@ -7332,7 +7511,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateGuestAcceleratorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateGuestAcceleratorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateGuestAcceleratorList
 ```
@@ -7492,7 +7671,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateGuestAcceleratorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateGuestAcceleratorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateGuestAcceleratorOutputReference
 ```
@@ -7803,7 +7982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfigList
 ```
@@ -7963,7 +8142,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceAccessConfigOutputReference
 ```
@@ -8299,7 +8478,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRangeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRangeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRangeList
 ```
@@ -8459,7 +8638,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceAliasIpRangeOutputReference
 ```
@@ -8777,7 +8956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigList
 ```
@@ -8937,7 +9116,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigOutputReference
 ```
@@ -9270,7 +9449,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceList
 ```
@@ -9430,7 +9609,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference
 ```
@@ -9498,16 +9677,19 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.putIpv6AccessConfig">PutIpv6AccessConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetAccessConfig">ResetAccessConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetAliasIpRange">ResetAliasIpRange</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetIgmpQuery">ResetIgmpQuery</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetInternalIpv6PrefixLength">ResetInternalIpv6PrefixLength</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetIpv6AccessConfig">ResetIpv6AccessConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetIpv6Address">ResetIpv6Address</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetNetwork">ResetNetwork</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetNetworkAttachment">ResetNetworkAttachment</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetNetworkIp">ResetNetworkIp</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetNicType">ResetNicType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetQueueCount">ResetQueueCount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetStackType">ResetStackType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetSubnetwork">ResetSubnetwork</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetSubnetworkProject">ResetSubnetworkProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetVlan">ResetVlan</a></code> | *No description.* |
 
 ---
 
@@ -9709,6 +9891,12 @@ func ResetAccessConfig()
 func ResetAliasIpRange()
 ```
 
+##### `ResetIgmpQuery` <a name="ResetIgmpQuery" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetIgmpQuery"></a>
+
+```go
+func ResetIgmpQuery()
+```
+
 ##### `ResetInternalIpv6PrefixLength` <a name="ResetInternalIpv6PrefixLength" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetInternalIpv6PrefixLength"></a>
 
 ```go
@@ -9731,6 +9919,12 @@ func ResetIpv6Address()
 
 ```go
 func ResetNetwork()
+```
+
+##### `ResetNetworkAttachment` <a name="ResetNetworkAttachment" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetNetworkAttachment"></a>
+
+```go
+func ResetNetworkAttachment()
 ```
 
 ##### `ResetNetworkIp` <a name="ResetNetworkIp" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetNetworkIp"></a>
@@ -9769,6 +9963,12 @@ func ResetSubnetwork()
 func ResetSubnetworkProject()
 ```
 
+##### `ResetVlan` <a name="ResetVlan" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.resetVlan"></a>
+
+```go
+func ResetVlan()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -9781,11 +9981,14 @@ func ResetSubnetworkProject()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.ipv6AccessConfig">Ipv6AccessConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigList">GoogleComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.ipv6AccessType">Ipv6AccessType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.parentNicName">ParentNicName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.accessConfigInput">AccessConfigInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.aliasIpRangeInput">AliasIpRangeInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.igmpQueryInput">IgmpQueryInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.internalIpv6PrefixLengthInput">InternalIpv6PrefixLengthInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.ipv6AccessConfigInput">Ipv6AccessConfigInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.ipv6AddressInput">Ipv6AddressInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.networkAttachmentInput">NetworkAttachmentInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.networkInput">NetworkInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.networkIpInput">NetworkIpInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.nicTypeInput">NicTypeInput</a></code> | <code>*string</code> | *No description.* |
@@ -9793,15 +9996,19 @@ func ResetSubnetworkProject()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.stackTypeInput">StackTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.subnetworkInput">SubnetworkInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.subnetworkProjectInput">SubnetworkProjectInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.vlanInput">VlanInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.igmpQuery">IgmpQuery</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.internalIpv6PrefixLength">InternalIpv6PrefixLength</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.ipv6Address">Ipv6Address</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.network">Network</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.networkAttachment">NetworkAttachment</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.networkIp">NetworkIp</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.nicType">NicType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.queueCount">QueueCount</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.stackType">StackType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.subnetwork">Subnetwork</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.subnetworkProject">SubnetworkProject</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.vlan">Vlan</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
@@ -9880,6 +10087,16 @@ func Name() *string
 
 ---
 
+##### `ParentNicName`<sup>Required</sup> <a name="ParentNicName" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.parentNicName"></a>
+
+```go
+func ParentNicName() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `AccessConfigInput`<sup>Optional</sup> <a name="AccessConfigInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.accessConfigInput"></a>
 
 ```go
@@ -9897,6 +10114,16 @@ func AliasIpRangeInput() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `IgmpQueryInput`<sup>Optional</sup> <a name="IgmpQueryInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.igmpQueryInput"></a>
+
+```go
+func IgmpQueryInput() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -9924,6 +10151,16 @@ func Ipv6AccessConfigInput() interface{}
 
 ```go
 func Ipv6AddressInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NetworkAttachmentInput`<sup>Optional</sup> <a name="NetworkAttachmentInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.networkAttachmentInput"></a>
+
+```go
+func NetworkAttachmentInput() *string
 ```
 
 - *Type:* *string
@@ -10000,6 +10237,26 @@ func SubnetworkProjectInput() *string
 
 ---
 
+##### `VlanInput`<sup>Optional</sup> <a name="VlanInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.vlanInput"></a>
+
+```go
+func VlanInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `IgmpQuery`<sup>Required</sup> <a name="IgmpQuery" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.igmpQuery"></a>
+
+```go
+func IgmpQuery() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InternalIpv6PrefixLength`<sup>Required</sup> <a name="InternalIpv6PrefixLength" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.internalIpv6PrefixLength"></a>
 
 ```go
@@ -10024,6 +10281,16 @@ func Ipv6Address() *string
 
 ```go
 func Network() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NetworkAttachment`<sup>Required</sup> <a name="NetworkAttachment" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.networkAttachment"></a>
+
+```go
+func NetworkAttachment() *string
 ```
 
 - *Type:* *string
@@ -10090,6 +10357,16 @@ func SubnetworkProject() *string
 
 ---
 
+##### `Vlan`<sup>Required</sup> <a name="Vlan" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.vlan"></a>
+
+```go
+func Vlan() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference.property.internalValue"></a>
 
 ```go
@@ -10106,7 +10383,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateNetworkPerformanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateNetworkPerformanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateNetworkPerformanceConfigOutputReference
 ```
@@ -10377,7 +10654,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateNetworkPerformanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateReservationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateReservationAffinityOutputReference
 ```
@@ -10690,7 +10967,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateReservationAffinity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateReservationAffinitySpecificReservationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateReservationAffinitySpecificReservationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateReservationAffinitySpecificReservationOutputReference
 ```
@@ -10983,7 +11260,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateReservationAffinitySpeci
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownMaxDurationOutputReference
 ```
@@ -11283,7 +11560,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdownOutputReference
 ```
@@ -11596,7 +11873,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeoutList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeoutList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeoutList
 ```
@@ -11756,7 +12033,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateSchedulingLocalSsdRecoveryTimeoutOutputReference
 ```
@@ -12074,7 +12351,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference
 ```
@@ -12374,7 +12651,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesList
 ```
@@ -12534,7 +12811,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReference
 ```
@@ -12867,7 +13144,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionOutputReference
 ```
@@ -13145,7 +13422,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStop
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateSchedulingOutputReference
 ```
@@ -13195,6 +13472,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.putMaxRunDuration">PutMaxRunDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.putNodeAffinities">PutNodeAffinities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.putOnInstanceStopAction">PutOnInstanceStopAction</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.putPreemptionNoticeDuration">PutPreemptionNoticeDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetAutomaticRestart">ResetAutomaticRestart</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetAvailabilityDomain">ResetAvailabilityDomain</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetGracefulShutdown">ResetGracefulShutdown</a></code> | *No description.* |
@@ -13208,7 +13486,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetOnHostMaintenance">ResetOnHostMaintenance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetOnInstanceStopAction">ResetOnInstanceStopAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetPreemptible">ResetPreemptible</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetPreemptionNoticeDuration">ResetPreemptionNoticeDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetProvisioningModel">ResetProvisioningModel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetSkipGuestOsShutdown">ResetSkipGuestOsShutdown</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetTerminationTime">ResetTerminationTime</a></code> | *No description.* |
 
 ---
@@ -13423,6 +13703,18 @@ func PutOnInstanceStopAction(value GoogleComputeRegionInstanceTemplateScheduling
 
 ---
 
+##### `PutPreemptionNoticeDuration` <a name="PutPreemptionNoticeDuration" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.putPreemptionNoticeDuration"></a>
+
+```go
+func PutPreemptionNoticeDuration(value GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.putPreemptionNoticeDuration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration</a>
+
+---
+
 ##### `ResetAutomaticRestart` <a name="ResetAutomaticRestart" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetAutomaticRestart"></a>
 
 ```go
@@ -13501,10 +13793,22 @@ func ResetOnInstanceStopAction()
 func ResetPreemptible()
 ```
 
+##### `ResetPreemptionNoticeDuration` <a name="ResetPreemptionNoticeDuration" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetPreemptionNoticeDuration"></a>
+
+```go
+func ResetPreemptionNoticeDuration()
+```
+
 ##### `ResetProvisioningModel` <a name="ResetProvisioningModel" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetProvisioningModel"></a>
 
 ```go
 func ResetProvisioningModel()
+```
+
+##### `ResetSkipGuestOsShutdown` <a name="ResetSkipGuestOsShutdown" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetSkipGuestOsShutdown"></a>
+
+```go
+func ResetSkipGuestOsShutdown()
 ```
 
 ##### `ResetTerminationTime` <a name="ResetTerminationTime" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.resetTerminationTime"></a>
@@ -13525,6 +13829,7 @@ func ResetTerminationTime()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.maxRunDuration">MaxRunDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference">GoogleComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.nodeAffinities">NodeAffinities</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesList">GoogleComputeRegionInstanceTemplateSchedulingNodeAffinitiesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.onInstanceStopAction">OnInstanceStopAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionOutputReference">GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.preemptionNoticeDuration">PreemptionNoticeDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.automaticRestartInput">AutomaticRestartInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.availabilityDomainInput">AvailabilityDomainInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.gracefulShutdownInput">GracefulShutdownInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown">GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown</a></code> | *No description.* |
@@ -13538,7 +13843,9 @@ func ResetTerminationTime()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.onHostMaintenanceInput">OnHostMaintenanceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.onInstanceStopActionInput">OnInstanceStopActionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction">GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.preemptibleInput">PreemptibleInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.preemptionNoticeDurationInput">PreemptionNoticeDurationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.provisioningModelInput">ProvisioningModelInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.skipGuestOsShutdownInput">SkipGuestOsShutdownInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.terminationTimeInput">TerminationTimeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.automaticRestart">AutomaticRestart</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.availabilityDomain">AvailabilityDomain</a></code> | <code>*f64</code> | *No description.* |
@@ -13549,6 +13856,7 @@ func ResetTerminationTime()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.onHostMaintenance">OnHostMaintenance</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.preemptible">Preemptible</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.provisioningModel">ProvisioningModel</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.skipGuestOsShutdown">SkipGuestOsShutdown</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.terminationTime">TerminationTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateScheduling">GoogleComputeRegionInstanceTemplateScheduling</a></code> | *No description.* |
 
@@ -13625,6 +13933,16 @@ func OnInstanceStopAction() GoogleComputeRegionInstanceTemplateSchedulingOnInsta
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionOutputReference">GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionOutputReference</a>
+
+---
+
+##### `PreemptionNoticeDuration`<sup>Required</sup> <a name="PreemptionNoticeDuration" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.preemptionNoticeDuration"></a>
+
+```go
+func PreemptionNoticeDuration() GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference</a>
 
 ---
 
@@ -13758,6 +14076,16 @@ func PreemptibleInput() interface{}
 
 ---
 
+##### `PreemptionNoticeDurationInput`<sup>Optional</sup> <a name="PreemptionNoticeDurationInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.preemptionNoticeDurationInput"></a>
+
+```go
+func PreemptionNoticeDurationInput() GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration</a>
+
+---
+
 ##### `ProvisioningModelInput`<sup>Optional</sup> <a name="ProvisioningModelInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.provisioningModelInput"></a>
 
 ```go
@@ -13765,6 +14093,16 @@ func ProvisioningModelInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `SkipGuestOsShutdownInput`<sup>Optional</sup> <a name="SkipGuestOsShutdownInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.skipGuestOsShutdownInput"></a>
+
+```go
+func SkipGuestOsShutdownInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -13868,6 +14206,16 @@ func ProvisioningModel() *string
 
 ---
 
+##### `SkipGuestOsShutdown`<sup>Required</sup> <a name="SkipGuestOsShutdown" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.skipGuestOsShutdown"></a>
+
+```go
+func SkipGuestOsShutdown() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `TerminationTime`<sup>Required</sup> <a name="TerminationTime" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference.property.terminationTime"></a>
 
 ```go
@@ -13889,12 +14237,312 @@ func InternalValue() GoogleComputeRegionInstanceTemplateScheduling
 ---
 
 
+### GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference <a name="GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
+
+googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.resetNanos">ResetNanos</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetNanos` <a name="ResetNanos" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.resetNanos"></a>
+
+```go
+func ResetNanos()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.nanosInput">NanosInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.secondsInput">SecondsInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.nanos">Nanos</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.seconds">Seconds</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NanosInput`<sup>Optional</sup> <a name="NanosInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.nanosInput"></a>
+
+```go
+func NanosInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `SecondsInput`<sup>Optional</sup> <a name="SecondsInput" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.secondsInput"></a>
+
+```go
+func SecondsInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `Nanos`<sup>Required</sup> <a name="Nanos" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.nanos"></a>
+
+```go
+func Nanos() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `Seconds`<sup>Required</sup> <a name="Seconds" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.seconds"></a>
+
+```go
+func Seconds() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration">GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration</a>
+
+---
+
+
 ### GoogleComputeRegionInstanceTemplateServiceAccountOutputReference <a name="GoogleComputeRegionInstanceTemplateServiceAccountOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateServiceAccountOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateServiceAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateServiceAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateServiceAccountOutputReference
 ```
@@ -14194,7 +14842,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateServiceAccount
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateShieldedInstanceConfigOutputReference
 ```
@@ -14530,7 +15178,7 @@ func InternalValue() GoogleComputeRegionInstanceTemplateShieldedInstanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate"
 
 googlecomputeregioninstancetemplate.NewGoogleComputeRegionInstanceTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstanceTemplateTimeoutsOutputReference
 ```

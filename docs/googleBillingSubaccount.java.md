@@ -4,7 +4,7 @@
 
 ### GoogleBillingSubaccount <a name="GoogleBillingSubaccount" id="@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount google_billing_subaccount}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount google_billing_subaccount}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer"></a>
 
@@ -37,10 +37,10 @@ GoogleBillingSubaccount.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.masterBillingAccount">masterBillingAccount</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.masterBillingAccount">masterBillingAccount</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -598,7 +598,7 @@ The construct id used in the generated config for the GoogleBillingSubaccount to
 
 The id of the existing GoogleBillingSubaccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -947,10 +947,10 @@ GoogleBillingSubaccountConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.masterBillingAccount">masterBillingAccount</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.masterBillingAccount">masterBillingAccount</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccountConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}. |
 
 ---
 
@@ -1032,7 +1032,7 @@ public java.lang.String getDisplayName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#display_name GoogleBillingSubaccount#display_name}.
 
 ---
 
@@ -1044,7 +1044,7 @@ public java.lang.String getMasterBillingAccount();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#master_billing_account GoogleBillingSubaccount#master_billing_account}.
 
 ---
 
@@ -1056,7 +1056,7 @@ public java.lang.String getDeletionPolicy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#deletion_policy GoogleBillingSubaccount#deletion_policy}.
 
 ---
 
@@ -1068,7 +1068,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_subaccount#id GoogleBillingSubaccount#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

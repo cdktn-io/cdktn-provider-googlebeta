@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,38 @@ export interface GoogleFirestoreIndexConfig extends cdktn.TerraformMetaArguments
   /**
   * The API scope at which a query is run. Default value: "ANY_API" Possible values: ["ANY_API", "DATASTORE_MODE_API", "MONGODB_COMPATIBLE_API"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#api_scope GoogleFirestoreIndex#api_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#api_scope GoogleFirestoreIndex#api_scope}
   */
   readonly apiScope?: string;
   /**
   * The collection being indexed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#collection GoogleFirestoreIndex#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#collection GoogleFirestoreIndex#collection}
   */
   readonly collection: string;
   /**
   * The Firestore database id. Defaults to '"(default)"'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#database GoogleFirestoreIndex#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#database GoogleFirestoreIndex#database}
   */
   readonly database?: string;
   /**
+  * Deletion behavior for this index.
+  * If the deletion policy is 'PREVENT', the index cannot be deleted and a terraform destroy will fail.
+  * If the deletion policy is 'DELETE', the index will both be removed from Terraform state and deleted from Google Cloud upon destruction.
+  * The default value is 'DELETE'. Default value: "DELETE" Possible values: ["DELETE", "PREVENT"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#deletion_policy GoogleFirestoreIndex#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * The density configuration for this index. Possible values: ["SPARSE_ALL", "SPARSE_ANY", "DENSE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#density GoogleFirestoreIndex#density}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#density GoogleFirestoreIndex#density}
   */
   readonly density?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#id GoogleFirestoreIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#id GoogleFirestoreIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,31 +55,484 @@ export interface GoogleFirestoreIndexConfig extends cdktn.TerraformMetaArguments
   /**
   * Optional. Whether the index is multikey. By default, the index is not multikey. For non-multikey indexes, none of the paths in the index definition reach or traverse an array, except via an explicit array index. For multikey indexes, at most one of the paths in the index definition reach or traverse an array, except via an explicit array index. Violations will result in errors. Note this field only applies to indexes with MONGODB_COMPATIBLE_API ApiScope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#multikey GoogleFirestoreIndex#multikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#multikey GoogleFirestoreIndex#multikey}
   */
   readonly multikey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#project GoogleFirestoreIndex#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#project GoogleFirestoreIndex#project}
   */
   readonly project?: string;
   /**
   * The scope at which a query is run. Default value: "COLLECTION" Possible values: ["COLLECTION", "COLLECTION_GROUP", "COLLECTION_RECURSIVE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#query_scope GoogleFirestoreIndex#query_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#query_scope GoogleFirestoreIndex#query_scope}
   */
   readonly queryScope?: string;
   /**
+  * Whether to skip waiting for the index to be created.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#skip_wait GoogleFirestoreIndex#skip_wait}
+  */
+  readonly skipWait?: boolean | cdktn.IResolvable;
+  /**
+  * Whether it is an unique index. Unique index ensures all values for the indexed field(s) are unique across documents.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#unique GoogleFirestoreIndex#unique}
+  */
+  readonly unique?: boolean | cdktn.IResolvable;
+  /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#fields GoogleFirestoreIndex#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#fields GoogleFirestoreIndex#fields}
   */
   readonly fields: GoogleFirestoreIndexFields[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#timeouts GoogleFirestoreIndex#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#timeouts GoogleFirestoreIndex#timeouts}
   */
   readonly timeouts?: GoogleFirestoreIndexTimeouts;
+}
+export interface GoogleFirestoreIndexFieldsSearchConfigGeoSpec {
+  /**
+  * If true, disables GeoJSON indexing for the field. By default, GeoJSON points are indexed.
+  * Firestore GeoPoints are indexed regardless of the value of this field.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#geo_json_indexing_disabled GoogleFirestoreIndex#geo_json_indexing_disabled}
+  */
+  readonly geoJsonIndexingDisabled: boolean | cdktn.IResolvable;
+}
+
+export function googleFirestoreIndexFieldsSearchConfigGeoSpecToTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigGeoSpecOutputReference | GoogleFirestoreIndexFieldsSearchConfigGeoSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    geo_json_indexing_disabled: cdktn.booleanToTerraform(struct!.geoJsonIndexingDisabled),
+  }
+}
+
+
+export function googleFirestoreIndexFieldsSearchConfigGeoSpecToHclTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigGeoSpecOutputReference | GoogleFirestoreIndexFieldsSearchConfigGeoSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    geo_json_indexing_disabled: {
+      value: cdktn.booleanToHclTerraform(struct!.geoJsonIndexingDisabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleFirestoreIndexFieldsSearchConfigGeoSpecOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleFirestoreIndexFieldsSearchConfigGeoSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._geoJsonIndexingDisabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.geoJsonIndexingDisabled = this._geoJsonIndexingDisabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleFirestoreIndexFieldsSearchConfigGeoSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._geoJsonIndexingDisabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._geoJsonIndexingDisabled = value.geoJsonIndexingDisabled;
+    }
+  }
+
+  // geo_json_indexing_disabled - computed: false, optional: false, required: true
+  private _geoJsonIndexingDisabled?: boolean | cdktn.IResolvable; 
+  public get geoJsonIndexingDisabled() {
+    return this.getBooleanAttribute('geo_json_indexing_disabled');
+  }
+  public set geoJsonIndexingDisabled(value: boolean | cdktn.IResolvable) {
+    this._geoJsonIndexingDisabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get geoJsonIndexingDisabledInput() {
+    return this._geoJsonIndexingDisabled;
+  }
+}
+export interface GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs {
+  /**
+  * Ways to index the text field value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#index_type GoogleFirestoreIndex#index_type}
+  */
+  readonly indexType?: string;
+  /**
+  * How to match the text field value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#match_type GoogleFirestoreIndex#match_type}
+  */
+  readonly matchType?: string;
+}
+
+export function googleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsToTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    index_type: cdktn.stringToTerraform(struct!.indexType),
+    match_type: cdktn.stringToTerraform(struct!.matchType),
+  }
+}
+
+
+export function googleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsToHclTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    index_type: {
+      value: cdktn.stringToHclTerraform(struct!.indexType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    match_type: {
+      value: cdktn.stringToHclTerraform(struct!.matchType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._indexType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.indexType = this._indexType;
+    }
+    if (this._matchType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchType = this._matchType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._indexType = undefined;
+      this._matchType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._indexType = value.indexType;
+      this._matchType = value.matchType;
+    }
+  }
+
+  // index_type - computed: false, optional: true, required: false
+  private _indexType?: string; 
+  public get indexType() {
+    return this.getStringAttribute('index_type');
+  }
+  public set indexType(value: string) {
+    this._indexType = value;
+  }
+  public resetIndexType() {
+    this._indexType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get indexTypeInput() {
+    return this._indexType;
+  }
+
+  // match_type - computed: false, optional: true, required: false
+  private _matchType?: string; 
+  public get matchType() {
+    return this.getStringAttribute('match_type');
+  }
+  public set matchType(value: string) {
+    this._matchType = value;
+  }
+  public resetMatchType() {
+    this._matchType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchTypeInput() {
+    return this._matchType;
+  }
+}
+
+export class GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsOutputReference {
+    return new GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleFirestoreIndexFieldsSearchConfigTextSpec {
+  /**
+  * index_specs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#index_specs GoogleFirestoreIndex#index_specs}
+  */
+  readonly indexSpecs: GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs[] | cdktn.IResolvable;
+}
+
+export function googleFirestoreIndexFieldsSearchConfigTextSpecToTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigTextSpecOutputReference | GoogleFirestoreIndexFieldsSearchConfigTextSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    index_specs: cdktn.listMapper(googleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsToTerraform, true)(struct!.indexSpecs),
+  }
+}
+
+
+export function googleFirestoreIndexFieldsSearchConfigTextSpecToHclTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigTextSpecOutputReference | GoogleFirestoreIndexFieldsSearchConfigTextSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    index_specs: {
+      value: cdktn.listMapperHcl(googleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsToHclTerraform, true)(struct!.indexSpecs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleFirestoreIndexFieldsSearchConfigTextSpecOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleFirestoreIndexFieldsSearchConfigTextSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._indexSpecs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.indexSpecs = this._indexSpecs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleFirestoreIndexFieldsSearchConfigTextSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._indexSpecs.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._indexSpecs.internalValue = value.indexSpecs;
+    }
+  }
+
+  // index_specs - computed: false, optional: false, required: true
+  private _indexSpecs = new GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecsList(this, "index_specs", false);
+  public get indexSpecs() {
+    return this._indexSpecs;
+  }
+  public putIndexSpecs(value: GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs[] | cdktn.IResolvable) {
+    this._indexSpecs.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get indexSpecsInput() {
+    return this._indexSpecs.internalValue;
+  }
+}
+export interface GoogleFirestoreIndexFieldsSearchConfig {
+  /**
+  * geo_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#geo_spec GoogleFirestoreIndex#geo_spec}
+  */
+  readonly geoSpec?: GoogleFirestoreIndexFieldsSearchConfigGeoSpec;
+  /**
+  * text_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#text_spec GoogleFirestoreIndex#text_spec}
+  */
+  readonly textSpec?: GoogleFirestoreIndexFieldsSearchConfigTextSpec;
+}
+
+export function googleFirestoreIndexFieldsSearchConfigToTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigOutputReference | GoogleFirestoreIndexFieldsSearchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    geo_spec: googleFirestoreIndexFieldsSearchConfigGeoSpecToTerraform(struct!.geoSpec),
+    text_spec: googleFirestoreIndexFieldsSearchConfigTextSpecToTerraform(struct!.textSpec),
+  }
+}
+
+
+export function googleFirestoreIndexFieldsSearchConfigToHclTerraform(struct?: GoogleFirestoreIndexFieldsSearchConfigOutputReference | GoogleFirestoreIndexFieldsSearchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    geo_spec: {
+      value: googleFirestoreIndexFieldsSearchConfigGeoSpecToHclTerraform(struct!.geoSpec),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleFirestoreIndexFieldsSearchConfigGeoSpecList",
+    },
+    text_spec: {
+      value: googleFirestoreIndexFieldsSearchConfigTextSpecToHclTerraform(struct!.textSpec),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleFirestoreIndexFieldsSearchConfigTextSpecList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleFirestoreIndexFieldsSearchConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleFirestoreIndexFieldsSearchConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._geoSpec?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.geoSpec = this._geoSpec?.internalValue;
+    }
+    if (this._textSpec?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textSpec = this._textSpec?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleFirestoreIndexFieldsSearchConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._geoSpec.internalValue = undefined;
+      this._textSpec.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._geoSpec.internalValue = value.geoSpec;
+      this._textSpec.internalValue = value.textSpec;
+    }
+  }
+
+  // geo_spec - computed: false, optional: true, required: false
+  private _geoSpec = new GoogleFirestoreIndexFieldsSearchConfigGeoSpecOutputReference(this, "geo_spec");
+  public get geoSpec() {
+    return this._geoSpec;
+  }
+  public putGeoSpec(value: GoogleFirestoreIndexFieldsSearchConfigGeoSpec) {
+    this._geoSpec.internalValue = value;
+  }
+  public resetGeoSpec() {
+    this._geoSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get geoSpecInput() {
+    return this._geoSpec.internalValue;
+  }
+
+  // text_spec - computed: false, optional: true, required: false
+  private _textSpec = new GoogleFirestoreIndexFieldsSearchConfigTextSpecOutputReference(this, "text_spec");
+  public get textSpec() {
+    return this._textSpec;
+  }
+  public putTextSpec(value: GoogleFirestoreIndexFieldsSearchConfigTextSpec) {
+    this._textSpec.internalValue = value;
+  }
+  public resetTextSpec() {
+    this._textSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textSpecInput() {
+    return this._textSpec.internalValue;
+  }
 }
 export interface GoogleFirestoreIndexFieldsVectorConfigFlat {
 }
@@ -126,13 +588,13 @@ export interface GoogleFirestoreIndexFieldsVectorConfig {
   * The resulting index will only include vectors of this dimension, and can be used for vector search
   * with the same dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#dimension GoogleFirestoreIndex#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#dimension GoogleFirestoreIndex#dimension}
   */
   readonly dimension?: number;
   /**
   * flat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#flat GoogleFirestoreIndex#flat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#flat GoogleFirestoreIndex#flat}
   */
   readonly flat?: GoogleFirestoreIndexFieldsVectorConfigFlat;
 }
@@ -245,29 +707,35 @@ export class GoogleFirestoreIndexFieldsVectorConfigOutputReference extends cdktn
 }
 export interface GoogleFirestoreIndexFields {
   /**
-  * Indicates that this field supports operations on arrayValues. Only one of 'order', 'arrayConfig', and
+  * Indicates that this field supports operations on arrayValues. Only one of 'order', 'arrayConfig', 'searchConfig' and
   * 'vectorConfig' can be specified. Possible values: ["CONTAINS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#array_config GoogleFirestoreIndex#array_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#array_config GoogleFirestoreIndex#array_config}
   */
   readonly arrayConfig?: string;
   /**
   * Name of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#field_path GoogleFirestoreIndex#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#field_path GoogleFirestoreIndex#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Indicates that this field supports ordering by the specified order or comparing using =, <, <=, >, >=.
-  * Only one of 'order', 'arrayConfig', and 'vectorConfig' can be specified. Possible values: ["ASCENDING", "DESCENDING"]
+  * Only one of 'order', 'arrayConfig', 'searchConfig' and 'vectorConfig' can be specified. Possible values: ["ASCENDING", "DESCENDING"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#order GoogleFirestoreIndex#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#order GoogleFirestoreIndex#order}
   */
   readonly order?: string;
   /**
+  * search_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#search_config GoogleFirestoreIndex#search_config}
+  */
+  readonly searchConfig?: GoogleFirestoreIndexFieldsSearchConfig;
+  /**
   * vector_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#vector_config GoogleFirestoreIndex#vector_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#vector_config GoogleFirestoreIndex#vector_config}
   */
   readonly vectorConfig?: GoogleFirestoreIndexFieldsVectorConfig;
 }
@@ -281,6 +749,7 @@ export function googleFirestoreIndexFieldsToTerraform(struct?: GoogleFirestoreIn
     array_config: cdktn.stringToTerraform(struct!.arrayConfig),
     field_path: cdktn.stringToTerraform(struct!.fieldPath),
     order: cdktn.stringToTerraform(struct!.order),
+    search_config: googleFirestoreIndexFieldsSearchConfigToTerraform(struct!.searchConfig),
     vector_config: googleFirestoreIndexFieldsVectorConfigToTerraform(struct!.vectorConfig),
   }
 }
@@ -309,6 +778,12 @@ export function googleFirestoreIndexFieldsToHclTerraform(struct?: GoogleFirestor
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    search_config: {
+      value: googleFirestoreIndexFieldsSearchConfigToHclTerraform(struct!.searchConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleFirestoreIndexFieldsSearchConfigList",
     },
     vector_config: {
       value: googleFirestoreIndexFieldsVectorConfigToHclTerraform(struct!.vectorConfig),
@@ -354,6 +829,10 @@ export class GoogleFirestoreIndexFieldsOutputReference extends cdktn.ComplexObje
       hasAnyValues = true;
       internalValueResult.order = this._order;
     }
+    if (this._searchConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.searchConfig = this._searchConfig?.internalValue;
+    }
     if (this._vectorConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.vectorConfig = this._vectorConfig?.internalValue;
@@ -368,6 +847,7 @@ export class GoogleFirestoreIndexFieldsOutputReference extends cdktn.ComplexObje
       this._arrayConfig = undefined;
       this._fieldPath = undefined;
       this._order = undefined;
+      this._searchConfig.internalValue = undefined;
       this._vectorConfig.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -380,6 +860,7 @@ export class GoogleFirestoreIndexFieldsOutputReference extends cdktn.ComplexObje
       this._arrayConfig = value.arrayConfig;
       this._fieldPath = value.fieldPath;
       this._order = value.order;
+      this._searchConfig.internalValue = value.searchConfig;
       this._vectorConfig.internalValue = value.vectorConfig;
     }
   }
@@ -432,6 +913,22 @@ export class GoogleFirestoreIndexFieldsOutputReference extends cdktn.ComplexObje
     return this._order;
   }
 
+  // search_config - computed: false, optional: true, required: false
+  private _searchConfig = new GoogleFirestoreIndexFieldsSearchConfigOutputReference(this, "search_config");
+  public get searchConfig() {
+    return this._searchConfig;
+  }
+  public putSearchConfig(value: GoogleFirestoreIndexFieldsSearchConfig) {
+    this._searchConfig.internalValue = value;
+  }
+  public resetSearchConfig() {
+    this._searchConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get searchConfigInput() {
+    return this._searchConfig.internalValue;
+  }
+
   // vector_config - computed: false, optional: true, required: false
   private _vectorConfig = new GoogleFirestoreIndexFieldsVectorConfigOutputReference(this, "vector_config");
   public get vectorConfig() {
@@ -470,13 +967,17 @@ export class GoogleFirestoreIndexFieldsList extends cdktn.ComplexList {
 }
 export interface GoogleFirestoreIndexTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#create GoogleFirestoreIndex#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#create GoogleFirestoreIndex#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#delete GoogleFirestoreIndex#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#delete GoogleFirestoreIndex#delete}
   */
   readonly delete?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#update GoogleFirestoreIndex#update}
+  */
+  readonly update?: string;
 }
 
 export function googleFirestoreIndexTimeoutsToTerraform(struct?: GoogleFirestoreIndexTimeouts | cdktn.IResolvable): any {
@@ -487,6 +988,7 @@ export function googleFirestoreIndexTimeoutsToTerraform(struct?: GoogleFirestore
   return {
     create: cdktn.stringToTerraform(struct!.create),
     delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
@@ -505,6 +1007,12 @@ export function googleFirestoreIndexTimeoutsToHclTerraform(struct?: GoogleFirest
     },
     delete: {
       value: cdktn.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -541,6 +1049,10 @@ export class GoogleFirestoreIndexTimeoutsOutputReference extends cdktn.ComplexOb
       hasAnyValues = true;
       internalValueResult.delete = this._delete;
     }
+    if (this._update !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.update = this._update;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -550,6 +1062,7 @@ export class GoogleFirestoreIndexTimeoutsOutputReference extends cdktn.ComplexOb
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
+      this._update = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -560,6 +1073,7 @@ export class GoogleFirestoreIndexTimeoutsOutputReference extends cdktn.ComplexOb
       this.resolvableValue = undefined;
       this._create = value.create;
       this._delete = value.delete;
+      this._update = value.update;
     }
   }
 
@@ -594,10 +1108,26 @@ export class GoogleFirestoreIndexTimeoutsOutputReference extends cdktn.ComplexOb
   public get deleteInput() {
     return this._delete;
   }
+
+  // update - computed: false, optional: true, required: false
+  private _update?: string; 
+  public get update() {
+    return this.getStringAttribute('update');
+  }
+  public set update(value: string) {
+    this._update = value;
+  }
+  public resetUpdate() {
+    this._update = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateInput() {
+    return this._update;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index google_firestore_index}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index google_firestore_index}
 */
 export class GoogleFirestoreIndex extends cdktn.TerraformResource {
 
@@ -613,7 +1143,7 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleFirestoreIndex resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirestoreIndex to import
-  * @param importFromId The id of the existing GoogleFirestoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFirestoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirestoreIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -625,7 +1155,7 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index google_firestore_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index google_firestore_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +1166,8 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
       terraformResourceType: 'google_firestore_index',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -650,11 +1180,14 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
     this._apiScope = config.apiScope;
     this._collection = config.collection;
     this._database = config.database;
+    this._deletionPolicy = config.deletionPolicy;
     this._density = config.density;
     this._id = config.id;
     this._multikey = config.multikey;
     this._project = config.project;
     this._queryScope = config.queryScope;
+    this._skipWait = config.skipWait;
+    this._unique = config.unique;
     this._fields.internalValue = config.fields;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -706,6 +1239,22 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get databaseInput() {
     return this._database;
+  }
+
+  // deletion_policy - computed: false, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // density - computed: true, optional: true, required: false
@@ -793,6 +1342,38 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
     return this._queryScope;
   }
 
+  // skip_wait - computed: false, optional: true, required: false
+  private _skipWait?: boolean | cdktn.IResolvable; 
+  public get skipWait() {
+    return this.getBooleanAttribute('skip_wait');
+  }
+  public set skipWait(value: boolean | cdktn.IResolvable) {
+    this._skipWait = value;
+  }
+  public resetSkipWait() {
+    this._skipWait = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipWaitInput() {
+    return this._skipWait;
+  }
+
+  // unique - computed: true, optional: true, required: false
+  private _unique?: boolean | cdktn.IResolvable; 
+  public get unique() {
+    return this.getBooleanAttribute('unique');
+  }
+  public set unique(value: boolean | cdktn.IResolvable) {
+    this._unique = value;
+  }
+  public resetUnique() {
+    this._unique = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uniqueInput() {
+    return this._unique;
+  }
+
   // fields - computed: false, optional: false, required: true
   private _fields = new GoogleFirestoreIndexFieldsList(this, "fields", false);
   public get fields() {
@@ -831,11 +1412,14 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
       api_scope: cdktn.stringToTerraform(this._apiScope),
       collection: cdktn.stringToTerraform(this._collection),
       database: cdktn.stringToTerraform(this._database),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       density: cdktn.stringToTerraform(this._density),
       id: cdktn.stringToTerraform(this._id),
       multikey: cdktn.booleanToTerraform(this._multikey),
       project: cdktn.stringToTerraform(this._project),
       query_scope: cdktn.stringToTerraform(this._queryScope),
+      skip_wait: cdktn.booleanToTerraform(this._skipWait),
+      unique: cdktn.booleanToTerraform(this._unique),
       fields: cdktn.listMapper(googleFirestoreIndexFieldsToTerraform, true)(this._fields.internalValue),
       timeouts: googleFirestoreIndexTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -857,6 +1441,12 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
       },
       database: {
         value: cdktn.stringToHclTerraform(this._database),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -890,6 +1480,18 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      skip_wait: {
+        value: cdktn.booleanToHclTerraform(this._skipWait),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      unique: {
+        value: cdktn.booleanToHclTerraform(this._unique),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       fields: {
         value: cdktn.listMapperHcl(googleFirestoreIndexFieldsToHclTerraform, true)(this._fields.internalValue),

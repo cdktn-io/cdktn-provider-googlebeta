@@ -4,12 +4,12 @@
 
 ### GoogleBeyondcorpAppConnector <a name="GoogleBeyondcorpAppConnector" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector google_beyondcorp_app_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector google_beyondcorp_app_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.NewGoogleBeyondcorpAppConnector(scope Construct, id *string, config GoogleBeyondcorpAppConnectorConfig) GoogleBeyondcorpAppConnector
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.GoogleBeyondcorpAppConnector_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.GoogleBeyondcorpAppConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlebeyondcorpappconnector.GoogleBeyondcorpAppConnector_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.GoogleBeyondcorpAppConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlebeyondcorpappconnector.GoogleBeyondcorpAppConnector_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.GoogleBeyondcorpAppConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleBeyondcorpAppConnect
 
 The id of the existing GoogleBeyondcorpAppConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -966,7 +966,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 &googlebeyondcorpappconnector.GoogleBeyondcorpAppConnectorConfig {
 	Connection: interface{},
@@ -977,13 +977,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebe
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	PrincipalInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfo,
+	PrincipalInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfo,
 	DisplayName: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts,
 }
 ```
 
@@ -1001,9 +1001,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebe
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.name">Name</a></code> | <code>*string</code> | ID of the AppConnector. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.principalInfo">PrincipalInfo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfo">GoogleBeyondcorpAppConnectorPrincipalInfo</a></code> | principal_info block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | An arbitrary user-provided name for the AppConnector. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#id GoogleBeyondcorpAppConnector#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#id GoogleBeyondcorpAppConnector#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Resource labels to represent user provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#project GoogleBeyondcorpAppConnector#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#project GoogleBeyondcorpAppConnector#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.region">Region</a></code> | <code>*string</code> | The region of the AppConnector. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts">GoogleBeyondcorpAppConnectorTimeouts</a></code> | timeouts block. |
 
@@ -1089,7 +1089,7 @@ Name *string
 
 ID of the AppConnector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#name GoogleBeyondcorpAppConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#name GoogleBeyondcorpAppConnector#name}
 
 ---
 
@@ -1103,7 +1103,7 @@ PrincipalInfo GoogleBeyondcorpAppConnectorPrincipalInfo
 
 principal_info block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#principal_info GoogleBeyondcorpAppConnector#principal_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#principal_info GoogleBeyondcorpAppConnector#principal_info}
 
 ---
 
@@ -1117,7 +1117,7 @@ DisplayName *string
 
 An arbitrary user-provided name for the AppConnector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#display_name GoogleBeyondcorpAppConnector#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#display_name GoogleBeyondcorpAppConnector#display_name}
 
 ---
 
@@ -1129,7 +1129,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#id GoogleBeyondcorpAppConnector#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#id GoogleBeyondcorpAppConnector#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1149,7 +1149,7 @@ Resource labels to represent user provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#labels GoogleBeyondcorpAppConnector#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#labels GoogleBeyondcorpAppConnector#labels}
 
 ---
 
@@ -1161,7 +1161,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#project GoogleBeyondcorpAppConnector#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#project GoogleBeyondcorpAppConnector#project}.
 
 ---
 
@@ -1175,7 +1175,7 @@ Region *string
 
 The region of the AppConnector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#region GoogleBeyondcorpAppConnector#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#region GoogleBeyondcorpAppConnector#region}
 
 ---
 
@@ -1189,7 +1189,7 @@ Timeouts GoogleBeyondcorpAppConnectorTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#timeouts GoogleBeyondcorpAppConnector#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#timeouts GoogleBeyondcorpAppConnector#timeouts}
 
 ---
 
@@ -1198,10 +1198,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 &googlebeyondcorpappconnector.GoogleBeyondcorpAppConnectorPrincipalInfo {
-	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount,
+	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount,
 }
 ```
 
@@ -1223,7 +1223,7 @@ ServiceAccount GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount
 
 service_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#service_account GoogleBeyondcorpAppConnector#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#service_account GoogleBeyondcorpAppConnector#service_account}
 
 ---
 
@@ -1232,7 +1232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 &googlebeyondcorpappconnector.GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount {
 	Email: *string,
@@ -1257,7 +1257,7 @@ Email *string
 
 Email address of the service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#email GoogleBeyondcorpAppConnector#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#email GoogleBeyondcorpAppConnector#email}
 
 ---
 
@@ -1266,7 +1266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 &googlebeyondcorpappconnector.GoogleBeyondcorpAppConnectorTimeouts {
 	Create: *string,
@@ -1279,9 +1279,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#create GoogleBeyondcorpAppConnector#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#delete GoogleBeyondcorpAppConnector#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#update GoogleBeyondcorpAppConnector#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#create GoogleBeyondcorpAppConnector#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#delete GoogleBeyondcorpAppConnector#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#update GoogleBeyondcorpAppConnector#update}. |
 
 ---
 
@@ -1293,7 +1293,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#create GoogleBeyondcorpAppConnector#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#create GoogleBeyondcorpAppConnector#create}.
 
 ---
 
@@ -1305,7 +1305,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#delete GoogleBeyondcorpAppConnector#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#delete GoogleBeyondcorpAppConnector#delete}.
 
 ---
 
@@ -1317,7 +1317,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_app_connector#update GoogleBeyondcorpAppConnector#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_app_connector#update GoogleBeyondcorpAppConnector#update}.
 
 ---
 
@@ -1328,7 +1328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.NewGoogleBeyondcorpAppConnectorPrincipalInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBeyondcorpAppConnectorPrincipalInfoOutputReference
 ```
@@ -1612,7 +1612,7 @@ func InternalValue() GoogleBeyondcorpAppConnectorPrincipalInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.NewGoogleBeyondcorpAppConnectorPrincipalInfoServiceAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccountOutputReference
 ```
@@ -1883,7 +1883,7 @@ func InternalValue() GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBeyondcorpAppConnector.GoogleBeyondcorpAppConnectorTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpappconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpappconnector"
 
 googlebeyondcorpappconnector.NewGoogleBeyondcorpAppConnectorTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBeyondcorpAppConnectorTimeoutsOutputReference
 ```

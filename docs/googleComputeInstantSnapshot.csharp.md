@@ -4,7 +4,7 @@
 
 ### GoogleComputeInstantSnapshot <a name="GoogleComputeInstantSnapshot" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot google_compute_instant_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot google_compute_instant_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.Initializer"></a>
 
@@ -74,10 +74,12 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.putParams">PutParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetLabels">ResetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetParams">ResetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetZone">ResetZone</a></code> | *No description.* |
@@ -393,6 +395,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `PutParams` <a name="PutParams" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.putParams"></a>
+
+```csharp
+private void PutParams(GoogleComputeInstantSnapshotParams Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams">GoogleComputeInstantSnapshotParams</a>
+
+---
+
 ##### `PutTimeouts` <a name="PutTimeouts" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.putTimeouts"></a>
 
 ```csharp
@@ -421,6 +435,12 @@ private void ResetId()
 
 ```csharp
 private void ResetLabels()
+```
+
+##### `ResetParams` <a name="ResetParams" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetParams"></a>
+
+```csharp
+private void ResetParams()
 ```
 
 ##### `ResetProject` <a name="ResetProject" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.resetProject"></a>
@@ -544,7 +564,7 @@ The construct id used in the generated config for the GoogleComputeInstantSnapsh
 
 The id of the existing GoogleComputeInstantSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -578,6 +598,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.diskSizeGb">DiskSizeGb</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.effectiveLabels">EffectiveLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.labelFingerprint">LabelFingerprint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference">GoogleComputeInstantSnapshotParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.selfLink">SelfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.sourceDiskId">SourceDiskId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
@@ -586,6 +607,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.labelsInput">LabelsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.paramsInput">ParamsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams">GoogleComputeInstantSnapshotParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.sourceDiskInput">SourceDiskInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts">GoogleComputeInstantSnapshotTimeouts</a></code> | *No description.* |
@@ -782,6 +804,16 @@ public string LabelFingerprint { get; }
 
 ---
 
+##### `Params`<sup>Required</sup> <a name="Params" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.params"></a>
+
+```csharp
+public GoogleComputeInstantSnapshotParamsOutputReference Params { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference">GoogleComputeInstantSnapshotParamsOutputReference</a>
+
+---
+
 ##### `SelfLink`<sup>Required</sup> <a name="SelfLink" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.selfLink"></a>
 
 ```csharp
@@ -859,6 +891,16 @@ public string NameInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `ParamsInput`<sup>Optional</sup> <a name="ParamsInput" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshot.property.paramsInput"></a>
+
+```csharp
+public GoogleComputeInstantSnapshotParams ParamsInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams">GoogleComputeInstantSnapshotParams</a>
 
 ---
 
@@ -1012,6 +1054,7 @@ new GoogleComputeInstantSnapshotConfig {
     string Description = null,
     string Id = null,
     System.Collections.Generic.IDictionary<string, string> Labels = null,
+    GoogleComputeInstantSnapshotParams Params = null,
     string Project = null,
     GoogleComputeInstantSnapshotTimeouts Timeouts = null,
     string Zone = null
@@ -1032,9 +1075,10 @@ new GoogleComputeInstantSnapshotConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.name">Name</a></code> | <code>string</code> | Name of the resource; |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.sourceDisk">SourceDisk</a></code> | <code>string</code> | A reference to the disk used to create this instant snapshot. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#id GoogleComputeInstantSnapshot#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#id GoogleComputeInstantSnapshot#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels to apply to this InstantSnapshot. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#project GoogleComputeInstantSnapshot#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams">GoogleComputeInstantSnapshotParams</a></code> | params block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#project GoogleComputeInstantSnapshot#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts">GoogleComputeInstantSnapshotTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.zone">Zone</a></code> | <code>string</code> | A reference to the zone where the disk is located. |
 
@@ -1128,7 +1172,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#name GoogleComputeInstantSnapshot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#name GoogleComputeInstantSnapshot#name}
 
 ---
 
@@ -1142,7 +1186,7 @@ public string SourceDisk { get; set; }
 
 A reference to the disk used to create this instant snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#source_disk GoogleComputeInstantSnapshot#source_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#source_disk GoogleComputeInstantSnapshot#source_disk}
 
 ---
 
@@ -1156,7 +1200,7 @@ public string Description { get; set; }
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#description GoogleComputeInstantSnapshot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#description GoogleComputeInstantSnapshot#description}
 
 ---
 
@@ -1168,7 +1212,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#id GoogleComputeInstantSnapshot#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#id GoogleComputeInstantSnapshot#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1188,7 +1232,21 @@ Labels to apply to this InstantSnapshot.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#labels GoogleComputeInstantSnapshot#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#labels GoogleComputeInstantSnapshot#labels}
+
+---
+
+##### `Params`<sup>Optional</sup> <a name="Params" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotConfig.property.params"></a>
+
+```csharp
+public GoogleComputeInstantSnapshotParams Params { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams">GoogleComputeInstantSnapshotParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#params GoogleComputeInstantSnapshot#params}
 
 ---
 
@@ -1200,7 +1258,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#project GoogleComputeInstantSnapshot#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#project GoogleComputeInstantSnapshot#project}.
 
 ---
 
@@ -1214,7 +1272,7 @@ public GoogleComputeInstantSnapshotTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#timeouts GoogleComputeInstantSnapshot#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#timeouts GoogleComputeInstantSnapshot#timeouts}
 
 ---
 
@@ -1228,7 +1286,45 @@ public string Zone { get; set; }
 
 A reference to the zone where the disk is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#zone GoogleComputeInstantSnapshot#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#zone GoogleComputeInstantSnapshot#zone}
+
+---
+
+### GoogleComputeInstantSnapshotParams <a name="GoogleComputeInstantSnapshotParams" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeInstantSnapshotParams {
+    System.Collections.Generic.IDictionary<string, string> ResourceManagerTags = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams.property.resourceManagerTags">ResourceManagerTags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Resource manager tags to be bound to the instant snapshot. |
+
+---
+
+##### `ResourceManagerTags`<sup>Optional</sup> <a name="ResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams.property.resourceManagerTags"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> ResourceManagerTags { get; set; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+Resource manager tags to be bound to the instant snapshot.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+and values are in the format tagValues/456.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#resource_manager_tags GoogleComputeInstantSnapshot#resource_manager_tags}
 
 ---
 
@@ -1250,9 +1346,9 @@ new GoogleComputeInstantSnapshotTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#create GoogleComputeInstantSnapshot#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#delete GoogleComputeInstantSnapshot#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#update GoogleComputeInstantSnapshot#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#create GoogleComputeInstantSnapshot#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#delete GoogleComputeInstantSnapshot#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#update GoogleComputeInstantSnapshot#update}. |
 
 ---
 
@@ -1264,7 +1360,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#create GoogleComputeInstantSnapshot#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#create GoogleComputeInstantSnapshot#create}.
 
 ---
 
@@ -1276,7 +1372,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#delete GoogleComputeInstantSnapshot#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#delete GoogleComputeInstantSnapshot#delete}.
 
 ---
 
@@ -1288,11 +1384,289 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instant_snapshot#update GoogleComputeInstantSnapshot#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot#update GoogleComputeInstantSnapshot#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleComputeInstantSnapshotParamsOutputReference <a name="GoogleComputeInstantSnapshotParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeInstantSnapshotParamsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.resetResourceManagerTags">ResetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetResourceManagerTags` <a name="ResetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.resetResourceManagerTags"></a>
+
+```csharp
+private void ResetResourceManagerTags()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.resourceManagerTagsInput">ResourceManagerTagsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.resourceManagerTags">ResourceManagerTags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams">GoogleComputeInstantSnapshotParams</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceManagerTagsInput`<sup>Optional</sup> <a name="ResourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> ResourceManagerTagsInput { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+---
+
+##### `ResourceManagerTags`<sup>Required</sup> <a name="ResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.resourceManagerTags"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> ResourceManagerTags { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParamsOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleComputeInstantSnapshotParams InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotParams">GoogleComputeInstantSnapshotParams</a>
+
+---
+
 
 ### GoogleComputeInstantSnapshotTimeoutsOutputReference <a name="GoogleComputeInstantSnapshotTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleComputeInstantSnapshot.GoogleComputeInstantSnapshotTimeoutsOutputReference"></a>
 

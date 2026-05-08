@@ -4,12 +4,12 @@
 
 ### GoogleIamOauthClientCredential <a name="GoogleIamOauthClientCredential" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredential"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential google_iam_oauth_client_credential}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential google_iam_oauth_client_credential}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 googleiamoauthclientcredential.NewGoogleIamOauthClientCredential(scope Construct, id *string, config GoogleIamOauthClientCredentialConfig) GoogleIamOauthClientCredential
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredential.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 googleiamoauthclientcredential.GoogleIamOauthClientCredential_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredential.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 googleiamoauthclientcredential.GoogleIamOauthClientCredential_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleiamoauthclientcredential.GoogleIamOauthClientCredential_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredential.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 googleiamoauthclientcredential.GoogleIamOauthClientCredential_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleiamoauthclientcredential.GoogleIamOauthClientCredential_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredential.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 googleiamoauthclientcredential.GoogleIamOauthClientCredential_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleIamOauthClientCreden
 
 The id of the existing GoogleIamOauthClientCredential that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -935,7 +935,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 &googleiamoauthclientcredential.GoogleIamOauthClientCredentialConfig {
 	Connection: interface{},
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleia
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts,
 }
 ```
 
@@ -972,8 +972,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleia
 | <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.oauthClientCredentialId">OauthClientCredentialId</a></code> | <code>*string</code> | Required. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.disabled">Disabled</a></code> | <code>interface{}</code> | Whether the OauthClientCredential is disabled. You cannot use a disabled OauthClientCredential. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | A user-specified display name of the OauthClientCredential. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#id GoogleIamOauthClientCredential#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#project GoogleIamOauthClientCredential#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#id GoogleIamOauthClientCredential#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#project GoogleIamOauthClientCredential#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts">GoogleIamOauthClientCredentialTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1058,7 +1058,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#location GoogleIamOauthClientCredential#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#location GoogleIamOauthClientCredential#location}
 
 ---
 
@@ -1072,7 +1072,7 @@ Oauthclient *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#oauthclient GoogleIamOauthClientCredential#oauthclient}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#oauthclient GoogleIamOauthClientCredential#oauthclient}
 
 ---
 
@@ -1091,7 +1091,7 @@ final component of the resource name. This value should be 4-32 characters,
 and may contain the characters [a-z0-9-]. The prefix 'gcp-' is
 reserved for use by Google, and may not be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#oauth_client_credential_id GoogleIamOauthClientCredential#oauth_client_credential_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#oauth_client_credential_id GoogleIamOauthClientCredential#oauth_client_credential_id}
 
 ---
 
@@ -1105,7 +1105,7 @@ Disabled interface{}
 
 Whether the OauthClientCredential is disabled. You cannot use a disabled OauthClientCredential.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#disabled GoogleIamOauthClientCredential#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#disabled GoogleIamOauthClientCredential#disabled}
 
 ---
 
@@ -1121,7 +1121,7 @@ A user-specified display name of the OauthClientCredential.
 
 Cannot exceed 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#display_name GoogleIamOauthClientCredential#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#display_name GoogleIamOauthClientCredential#display_name}
 
 ---
 
@@ -1133,7 +1133,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#id GoogleIamOauthClientCredential#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#id GoogleIamOauthClientCredential#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1148,7 +1148,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#project GoogleIamOauthClientCredential#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#project GoogleIamOauthClientCredential#project}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Timeouts GoogleIamOauthClientCredentialTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#timeouts GoogleIamOauthClientCredential#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#timeouts GoogleIamOauthClientCredential#timeouts}
 
 ---
 
@@ -1171,7 +1171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 &googleiamoauthclientcredential.GoogleIamOauthClientCredentialTimeouts {
 	Create: *string,
@@ -1184,9 +1184,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#create GoogleIamOauthClientCredential#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#delete GoogleIamOauthClientCredential#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#update GoogleIamOauthClientCredential#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#create GoogleIamOauthClientCredential#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#delete GoogleIamOauthClientCredential#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#update GoogleIamOauthClientCredential#update}. |
 
 ---
 
@@ -1198,7 +1198,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#create GoogleIamOauthClientCredential#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#create GoogleIamOauthClientCredential#create}.
 
 ---
 
@@ -1210,7 +1210,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#delete GoogleIamOauthClientCredential#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#delete GoogleIamOauthClientCredential#delete}.
 
 ---
 
@@ -1222,7 +1222,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_oauth_client_credential#update GoogleIamOauthClientCredential#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_oauth_client_credential#update GoogleIamOauthClientCredential#update}.
 
 ---
 
@@ -1233,7 +1233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamOauthClientCredential.GoogleIamOauthClientCredentialTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclientcredential"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamoauthclientcredential"
 
 googleiamoauthclientcredential.NewGoogleIamOauthClientCredentialTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamOauthClientCredentialTimeoutsOutputReference
 ```

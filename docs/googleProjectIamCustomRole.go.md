@@ -4,12 +4,12 @@
 
 ### GoogleProjectIamCustomRole <a name="GoogleProjectIamCustomRole" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiamcustomrole"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiamcustomrole"
 
 googleprojectiamcustomrole.NewGoogleProjectIamCustomRole(scope Construct, id *string, config GoogleProjectIamCustomRoleConfig) GoogleProjectIamCustomRole
 ```
@@ -428,7 +428,7 @@ func ResetStage()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiamcustomrole"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiamcustomrole"
 
 googleprojectiamcustomrole.GoogleProjectIamCustomRole_IsConstruct(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiamcustomrole"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiamcustomrole"
 
 googleprojectiamcustomrole.GoogleProjectIamCustomRole_IsTerraformElement(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ googleprojectiamcustomrole.GoogleProjectIamCustomRole_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiamcustomrole"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiamcustomrole"
 
 googleprojectiamcustomrole.GoogleProjectIamCustomRole_IsTerraformResource(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ googleprojectiamcustomrole.GoogleProjectIamCustomRole_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiamcustomrole"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiamcustomrole"
 
 googleprojectiamcustomrole.GoogleProjectIamCustomRole_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -517,7 +517,7 @@ The construct id used in the generated config for the GoogleProjectIamCustomRole
 
 The id of the existing GoogleProjectIamCustomRole that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -893,7 +893,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiamcustomrole"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiamcustomrole"
 
 &googleprojectiamcustomrole.GoogleProjectIamCustomRoleConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepr
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.roleId">RoleId</a></code> | <code>*string</code> | The camel case role id to use for this role. Cannot contain - characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.title">Title</a></code> | <code>*string</code> | A human-readable title for the role. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.description">Description</a></code> | <code>*string</code> | A human-readable description for the role. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.project">Project</a></code> | <code>*string</code> | The project that the service account will be created in. Defaults to the provider project configuration. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.stage">Stage</a></code> | <code>*string</code> | The current launch stage of the role. Defaults to GA. |
 
@@ -1016,7 +1016,7 @@ The names of the permissions this role grants when bound in an IAM policy.
 
 At least one permission must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#permissions GoogleProjectIamCustomRole#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#permissions GoogleProjectIamCustomRole#permissions}
 
 ---
 
@@ -1030,7 +1030,7 @@ RoleId *string
 
 The camel case role id to use for this role. Cannot contain - characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#role_id GoogleProjectIamCustomRole#role_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#role_id GoogleProjectIamCustomRole#role_id}
 
 ---
 
@@ -1044,7 +1044,7 @@ Title *string
 
 A human-readable title for the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#title GoogleProjectIamCustomRole#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#title GoogleProjectIamCustomRole#title}
 
 ---
 
@@ -1058,7 +1058,7 @@ Description *string
 
 A human-readable description for the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#description GoogleProjectIamCustomRole#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#description GoogleProjectIamCustomRole#description}
 
 ---
 
@@ -1070,7 +1070,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1087,7 +1087,7 @@ Project *string
 
 The project that the service account will be created in. Defaults to the provider project configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#project GoogleProjectIamCustomRole#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#project GoogleProjectIamCustomRole#project}
 
 ---
 
@@ -1101,7 +1101,7 @@ Stage *string
 
 The current launch stage of the role. Defaults to GA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_custom_role#stage GoogleProjectIamCustomRole#stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_custom_role#stage GoogleProjectIamCustomRole#stage}
 
 ---
 

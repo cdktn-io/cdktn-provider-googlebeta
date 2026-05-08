@@ -4,7 +4,7 @@
 
 ### GoogleNetappBackup <a name="GoogleNetappBackup" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup google_netapp_backup}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup google_netapp_backup}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.Initializer"></a>
 
@@ -551,7 +551,7 @@ The construct id used in the generated config for the GoogleNetappBackup to impo
 
 The id of the existing GoogleNetappBackup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1090,9 +1090,9 @@ const googleNetappBackupConfig: googleNetappBackup.GoogleNetappBackupConfig = { 
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.name">name</a></code> | <code>string</code> | The resource name of the backup. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.vaultName">vaultName</a></code> | <code>string</code> | Name of the backup vault to store the backup in. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.description">description</a></code> | <code>string</code> | A description of the backup with 2048 characters or less. Requests with longer descriptions will be rejected. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.sourceSnapshot">sourceSnapshot</a></code> | <code>string</code> | If specified, backup will be created from the given snapshot. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.sourceVolume">sourceVolume</a></code> | <code>string</code> | ID of volumes this backup belongs to. Format: 'projects/{{projects_id}}/locations/{{location}}/volumes/{{name}}''. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts">GoogleNetappBackupTimeouts</a></code> | timeouts block. |
@@ -1179,7 +1179,7 @@ public readonly location: string;
 
 Location of the backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#location GoogleNetappBackup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#location GoogleNetappBackup#location}
 
 ---
 
@@ -1193,7 +1193,7 @@ public readonly name: string;
 
 The resource name of the backup. Needs to be unique per location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#name GoogleNetappBackup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#name GoogleNetappBackup#name}
 
 ---
 
@@ -1207,7 +1207,7 @@ public readonly vaultName: string;
 
 Name of the backup vault to store the backup in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#vault_name GoogleNetappBackup#vault_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#vault_name GoogleNetappBackup#vault_name}
 
 ---
 
@@ -1221,7 +1221,7 @@ public readonly description: string;
 
 A description of the backup with 2048 characters or less. Requests with longer descriptions will be rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#description GoogleNetappBackup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#description GoogleNetappBackup#description}
 
 ---
 
@@ -1233,7 +1233,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1253,7 +1253,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#labels GoogleNetappBackup#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#labels GoogleNetappBackup#labels}
 
 ---
 
@@ -1265,7 +1265,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}.
 
 ---
 
@@ -1283,7 +1283,7 @@ If not specified,
 there will be a new snapshot taken to initiate the backup creation.
 Format: 'projects/{{projectId}}/locations/{{location}}/volumes/{{volumename}}/snapshots/{{snapshotname}}''
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#source_snapshot GoogleNetappBackup#source_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#source_snapshot GoogleNetappBackup#source_snapshot}
 
 ---
 
@@ -1297,7 +1297,7 @@ public readonly sourceVolume: string;
 
 ID of volumes this backup belongs to. Format: 'projects/{{projects_id}}/locations/{{location}}/volumes/{{name}}''.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#source_volume GoogleNetappBackup#source_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#source_volume GoogleNetappBackup#source_volume}
 
 ---
 
@@ -1311,7 +1311,7 @@ public readonly timeouts: GoogleNetappBackupTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#timeouts GoogleNetappBackup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#timeouts GoogleNetappBackup#timeouts}
 
 ---
 
@@ -1329,9 +1329,9 @@ const googleNetappBackupTimeouts: googleNetappBackup.GoogleNetappBackupTimeouts 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}. |
 
 ---
 
@@ -1343,7 +1343,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}.
 
 ---
 
@@ -1355,7 +1355,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}.
 
 ---
 
@@ -1367,7 +1367,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}.
 
 ---
 

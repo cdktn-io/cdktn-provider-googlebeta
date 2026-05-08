@@ -4,12 +4,12 @@
 
 ### GoogleComputeFirewallPolicyWithRules <a name="GoogleComputeFirewallPolicyWithRules" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRules(scope Construct, id *string, config GoogleComputeFirewallPolicyWithRulesConfig) GoogleComputeFirewallPolicyWithRules
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRules_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRules_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRules_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRules_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GoogleComputeFirewallPolic
 
 The id of the existing GoogleComputeFirewallPolicyWithRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesConfig {
 	Connection: interface{},
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	ShortName: *string,
 	Description: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts,
 }
 ```
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesConfig.property.rule">Rule</a></code> | <code>interface{}</code> | rule block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesConfig.property.shortName">ShortName</a></code> | <code>*string</code> | A textual name of the security policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#id GoogleComputeFirewallPolicyWithRules#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#id GoogleComputeFirewallPolicyWithRules#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts">GoogleComputeFirewallPolicyWithRulesTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1064,7 +1064,7 @@ Parent *string
 
 The parent of this FirewallPolicy in the Cloud Resource Hierarchy. Format: organizations/{organization_id} or folders/{folder_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#parent GoogleComputeFirewallPolicyWithRules#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#parent GoogleComputeFirewallPolicyWithRules#parent}
 
 ---
 
@@ -1078,7 +1078,7 @@ Rule interface{}
 
 rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#rule GoogleComputeFirewallPolicyWithRules#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#rule GoogleComputeFirewallPolicyWithRules#rule}
 
 ---
 
@@ -1092,7 +1092,7 @@ ShortName *string
 
 A textual name of the security policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#short_name GoogleComputeFirewallPolicyWithRules#short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#short_name GoogleComputeFirewallPolicyWithRules#short_name}
 
 ---
 
@@ -1106,7 +1106,7 @@ Description *string
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#description GoogleComputeFirewallPolicyWithRules#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#description GoogleComputeFirewallPolicyWithRules#description}
 
 ---
 
@@ -1118,7 +1118,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#id GoogleComputeFirewallPolicyWithRules#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#id GoogleComputeFirewallPolicyWithRules#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1135,7 +1135,7 @@ Timeouts GoogleComputeFirewallPolicyWithRulesTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#timeouts GoogleComputeFirewallPolicyWithRules#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#timeouts GoogleComputeFirewallPolicyWithRules#timeouts}
 
 ---
 
@@ -1144,7 +1144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesPredefinedRules {
 
@@ -1157,7 +1157,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatch {
 
@@ -1170,7 +1170,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4Config {
 
@@ -1183,7 +1183,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTag {
 
@@ -1196,7 +1196,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTag {
 
@@ -1209,11 +1209,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesRule {
 	Action: *string,
-	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatch,
+	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatch,
 	Priority: *f64,
 	Description: *string,
 	Direction: *string,
@@ -1258,7 +1258,7 @@ Action *string
 
 The Action to perform when the client connection triggers the rule. Can currently be either "allow", "deny", "apply_security_profile_group" or "goto_next".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#action GoogleComputeFirewallPolicyWithRules#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#action GoogleComputeFirewallPolicyWithRules#action}
 
 ---
 
@@ -1272,7 +1272,7 @@ Match GoogleComputeFirewallPolicyWithRulesRuleMatch
 
 match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#match GoogleComputeFirewallPolicyWithRules#match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#match GoogleComputeFirewallPolicyWithRules#match}
 
 ---
 
@@ -1290,7 +1290,7 @@ The priority must be a value
 between 0 and 2147483647. Rules are evaluated from highest to lowest priority where 0 is the
 highest priority and 2147483647 is the lowest priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#priority GoogleComputeFirewallPolicyWithRules#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#priority GoogleComputeFirewallPolicyWithRules#priority}
 
 ---
 
@@ -1304,7 +1304,7 @@ Description *string
 
 A description of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#description GoogleComputeFirewallPolicyWithRules#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#description GoogleComputeFirewallPolicyWithRules#description}
 
 ---
 
@@ -1318,7 +1318,7 @@ Direction *string
 
 The direction in which this rule applies. If unspecified an INGRESS rule is created. Possible values: ["INGRESS", "EGRESS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#direction GoogleComputeFirewallPolicyWithRules#direction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#direction GoogleComputeFirewallPolicyWithRules#direction}
 
 ---
 
@@ -1337,7 +1337,7 @@ the firewall policy rule is not enforced and traffic behaves as if it did
 not exist. If this is unspecified, the firewall policy rule will be
 enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#disabled GoogleComputeFirewallPolicyWithRules#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#disabled GoogleComputeFirewallPolicyWithRules#disabled}
 
 ---
 
@@ -1354,7 +1354,7 @@ Denotes whether to enable logging for a particular rule.
 If logging is enabled, logs will be exported to the
 configured export destination in Stackdriver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#enable_logging GoogleComputeFirewallPolicyWithRules#enable_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#enable_logging GoogleComputeFirewallPolicyWithRules#enable_logging}
 
 ---
 
@@ -1368,7 +1368,7 @@ RuleName *string
 
 An optional name for the rule. This field is not a unique identifier and can be updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#rule_name GoogleComputeFirewallPolicyWithRules#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#rule_name GoogleComputeFirewallPolicyWithRules#rule_name}
 
 ---
 
@@ -1382,7 +1382,7 @@ SecurityProfileGroup *string
 
 A fully-qualified URL of a SecurityProfile resource instance. Example: https://networksecurity.googleapis.com/v1/projects/{project}/locations/{location}/securityProfileGroups/my-security-profile-group Must be specified if action is 'apply_security_profile_group'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#security_profile_group GoogleComputeFirewallPolicyWithRules#security_profile_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#security_profile_group GoogleComputeFirewallPolicyWithRules#security_profile_group}
 
 ---
 
@@ -1400,7 +1400,7 @@ This field allows you to control which network's VMs get
 this rule. If this field is left blank, all VMs
 within the organization will receive the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#target_resources GoogleComputeFirewallPolicyWithRules#target_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#target_resources GoogleComputeFirewallPolicyWithRules#target_resources}
 
 ---
 
@@ -1414,7 +1414,7 @@ TargetSecureTag interface{}
 
 target_secure_tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#target_secure_tag GoogleComputeFirewallPolicyWithRules#target_secure_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#target_secure_tag GoogleComputeFirewallPolicyWithRules#target_secure_tag}
 
 ---
 
@@ -1428,7 +1428,7 @@ TargetServiceAccounts *[]*string
 
 A list of service accounts indicating the sets of instances that are applied with this rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#target_service_accounts GoogleComputeFirewallPolicyWithRules#target_service_accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#target_service_accounts GoogleComputeFirewallPolicyWithRules#target_service_accounts}
 
 ---
 
@@ -1444,7 +1444,7 @@ Boolean flag indicating if the traffic should be TLS decrypted.
 
 It can be set only if action = 'apply_security_profile_group' and cannot be set for other actions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#tls_inspect GoogleComputeFirewallPolicyWithRules#tls_inspect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#tls_inspect GoogleComputeFirewallPolicyWithRules#tls_inspect}
 
 ---
 
@@ -1453,7 +1453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesRuleMatch {
 	Layer4Config: interface{},
@@ -1506,7 +1506,7 @@ Layer4Config interface{}
 
 layer4_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#layer4_config GoogleComputeFirewallPolicyWithRules#layer4_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#layer4_config GoogleComputeFirewallPolicyWithRules#layer4_config}
 
 ---
 
@@ -1520,7 +1520,7 @@ DestAddressGroups *[]*string
 
 Address groups which should be matched against the traffic destination. Maximum number of destination address groups is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#dest_address_groups GoogleComputeFirewallPolicyWithRules#dest_address_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#dest_address_groups GoogleComputeFirewallPolicyWithRules#dest_address_groups}
 
 ---
 
@@ -1534,7 +1534,7 @@ DestFqdns *[]*string
 
 Fully Qualified Domain Name (FQDN) which should be matched against traffic destination. Maximum number of destination fqdn allowed is 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#dest_fqdns GoogleComputeFirewallPolicyWithRules#dest_fqdns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#dest_fqdns GoogleComputeFirewallPolicyWithRules#dest_fqdns}
 
 ---
 
@@ -1548,7 +1548,7 @@ DestIpRanges *[]*string
 
 Destination IP address range in CIDR format. Required for EGRESS rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#dest_ip_ranges GoogleComputeFirewallPolicyWithRules#dest_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#dest_ip_ranges GoogleComputeFirewallPolicyWithRules#dest_ip_ranges}
 
 ---
 
@@ -1562,7 +1562,7 @@ DestNetworkScope *string
 
 Network scope of the traffic destination. Possible values: ["INTERNET", "INTRA_VPC", "NON_INTERNET", "VPC_NETWORKS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#dest_network_scope GoogleComputeFirewallPolicyWithRules#dest_network_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#dest_network_scope GoogleComputeFirewallPolicyWithRules#dest_network_scope}
 
 ---
 
@@ -1580,7 +1580,7 @@ Should be specified as 2 letter country code defined as per
 ISO 3166 alpha-2 country codes. ex."US"
 Maximum number of destination region codes allowed is 5000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#dest_region_codes GoogleComputeFirewallPolicyWithRules#dest_region_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#dest_region_codes GoogleComputeFirewallPolicyWithRules#dest_region_codes}
 
 ---
 
@@ -1594,7 +1594,7 @@ DestThreatIntelligences *[]*string
 
 Names of Network Threat Intelligence lists. The IPs in these lists will be matched against traffic destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#dest_threat_intelligences GoogleComputeFirewallPolicyWithRules#dest_threat_intelligences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#dest_threat_intelligences GoogleComputeFirewallPolicyWithRules#dest_threat_intelligences}
 
 ---
 
@@ -1608,7 +1608,7 @@ SrcAddressGroups *[]*string
 
 Address groups which should be matched against the traffic source. Maximum number of source address groups is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_address_groups GoogleComputeFirewallPolicyWithRules#src_address_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_address_groups GoogleComputeFirewallPolicyWithRules#src_address_groups}
 
 ---
 
@@ -1622,7 +1622,7 @@ SrcFqdns *[]*string
 
 Fully Qualified Domain Name (FQDN) which should be matched against traffic source. Maximum number of source fqdn allowed is 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_fqdns GoogleComputeFirewallPolicyWithRules#src_fqdns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_fqdns GoogleComputeFirewallPolicyWithRules#src_fqdns}
 
 ---
 
@@ -1636,7 +1636,7 @@ SrcIpRanges *[]*string
 
 Source IP address range in CIDR format. Required for INGRESS rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_ip_ranges GoogleComputeFirewallPolicyWithRules#src_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_ip_ranges GoogleComputeFirewallPolicyWithRules#src_ip_ranges}
 
 ---
 
@@ -1650,7 +1650,7 @@ SrcNetworks *[]*string
 
 Networks of the traffic source. It can be either a full or partial url.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_networks GoogleComputeFirewallPolicyWithRules#src_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_networks GoogleComputeFirewallPolicyWithRules#src_networks}
 
 ---
 
@@ -1664,7 +1664,7 @@ SrcNetworkScope *string
 
 Network scope of the traffic source. Possible values: ["INTERNET", "INTRA_VPC", "NON_INTERNET", "VPC_NETWORKS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_network_scope GoogleComputeFirewallPolicyWithRules#src_network_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_network_scope GoogleComputeFirewallPolicyWithRules#src_network_scope}
 
 ---
 
@@ -1682,7 +1682,7 @@ Should be specified as 2 letter country code defined as per
 ISO 3166 alpha-2 country codes. ex."US"
 Maximum number of source region codes allowed is 5000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_region_codes GoogleComputeFirewallPolicyWithRules#src_region_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_region_codes GoogleComputeFirewallPolicyWithRules#src_region_codes}
 
 ---
 
@@ -1696,7 +1696,7 @@ SrcSecureTag interface{}
 
 src_secure_tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_secure_tag GoogleComputeFirewallPolicyWithRules#src_secure_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_secure_tag GoogleComputeFirewallPolicyWithRules#src_secure_tag}
 
 ---
 
@@ -1710,7 +1710,7 @@ SrcThreatIntelligences *[]*string
 
 Names of Network Threat Intelligence lists. The IPs in these lists will be matched against traffic source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#src_threat_intelligences GoogleComputeFirewallPolicyWithRules#src_threat_intelligences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#src_threat_intelligences GoogleComputeFirewallPolicyWithRules#src_threat_intelligences}
 
 ---
 
@@ -1719,7 +1719,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatchLayer4Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesRuleMatchLayer4Config {
 	IpProtocol: *string,
@@ -1752,7 +1752,7 @@ This value can either be one of the following well
 known protocol strings (tcp, udp, icmp, esp, ah, ipip, sctp),
 or the IP protocol number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#ip_protocol GoogleComputeFirewallPolicyWithRules#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#ip_protocol GoogleComputeFirewallPolicyWithRules#ip_protocol}
 
 ---
 
@@ -1773,7 +1773,7 @@ applies to connections through any port.
 Example inputs include: ["22"], ["80","443"], and
 ["12345-12349"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#ports GoogleComputeFirewallPolicyWithRules#ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#ports GoogleComputeFirewallPolicyWithRules#ports}
 
 ---
 
@@ -1782,7 +1782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTag {
 	Name: *string,
@@ -1814,7 +1814,7 @@ Name of the secure tag, created with TagManager's TagValue API.
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleTargetSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesRuleTargetSecureTag {
 	Name: *string,
@@ -1846,7 +1846,7 @@ Name of the secure tag, created with TagManager's TagValue API.
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 &googlecomputefirewallpolicywithrules.GoogleComputeFirewallPolicyWithRulesTimeouts {
 	Create: *string,
@@ -1859,9 +1859,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#create GoogleComputeFirewallPolicyWithRules#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#delete GoogleComputeFirewallPolicyWithRules#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#update GoogleComputeFirewallPolicyWithRules#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#create GoogleComputeFirewallPolicyWithRules#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#delete GoogleComputeFirewallPolicyWithRules#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#update GoogleComputeFirewallPolicyWithRules#update}. |
 
 ---
 
@@ -1873,7 +1873,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#create GoogleComputeFirewallPolicyWithRules#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#create GoogleComputeFirewallPolicyWithRules#create}.
 
 ---
 
@@ -1885,7 +1885,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#delete GoogleComputeFirewallPolicyWithRules#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#delete GoogleComputeFirewallPolicyWithRules#delete}.
 
 ---
 
@@ -1897,7 +1897,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_firewall_policy_with_rules#update GoogleComputeFirewallPolicyWithRules#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_firewall_policy_with_rules#update GoogleComputeFirewallPolicyWithRules#update}.
 
 ---
 
@@ -1908,7 +1908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesList
 ```
@@ -2057,7 +2057,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList
 ```
@@ -2206,7 +2206,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference
 ```
@@ -2495,7 +2495,7 @@ func InternalValue() GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchLay
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchList
 ```
@@ -2644,7 +2644,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchOutputReference
 ```
@@ -3043,7 +3043,7 @@ func InternalValue() GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList
 ```
@@ -3192,7 +3192,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference
 ```
@@ -3481,7 +3481,7 @@ func InternalValue() GoogleComputeFirewallPolicyWithRulesPredefinedRulesMatchSrc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesOutputReference
 ```
@@ -3891,7 +3891,7 @@ func InternalValue() GoogleComputeFirewallPolicyWithRulesPredefinedRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList
 ```
@@ -4040,7 +4040,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference
 ```
@@ -4329,7 +4329,7 @@ func InternalValue() GoogleComputeFirewallPolicyWithRulesPredefinedRulesTargetSe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesRuleList
 ```
@@ -4489,7 +4489,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatchLayer4ConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleMatchLayer4ConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesRuleMatchLayer4ConfigList
 ```
@@ -4649,7 +4649,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference
 ```
@@ -4967,7 +4967,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeFirewallPolicyWithRulesRuleMatchOutputReference
 ```
@@ -5670,7 +5670,7 @@ func InternalValue() GoogleComputeFirewallPolicyWithRulesRuleMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTagList
 ```
@@ -5830,7 +5830,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference
 ```
@@ -6137,7 +6137,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesRuleOutputReference
 ```
@@ -6786,7 +6786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleTargetSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleTargetSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyWithRulesRuleTargetSecureTagList
 ```
@@ -6946,7 +6946,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesRuleTargetSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesRuleTargetSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallPolicyWithRulesRuleTargetSecureTagOutputReference
 ```
@@ -7253,7 +7253,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRulesTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputefirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewallpolicywithrules"
 
 googlecomputefirewallpolicywithrules.NewGoogleComputeFirewallPolicyWithRulesTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeFirewallPolicyWithRulesTimeoutsOutputReference
 ```

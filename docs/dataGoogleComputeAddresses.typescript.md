@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeAddresses <a name="DataGoogleComputeAddresses" id="@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddresses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_addresses google_compute_addresses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_addresses google_compute_addresses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddresses.Initializer"></a>
 
@@ -415,7 +415,7 @@ The construct id used in the generated config for the DataGoogleComputeAddresses
 
 The id of the existing DataGoogleComputeAddresses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_addresses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_addresses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -720,7 +720,7 @@ const dataGoogleComputeAddressesConfig: dataGoogleComputeAddresses.DataGoogleCom
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig.property.filter">filter</a></code> | <code>string</code> | Filter sets the optional parameter "filter": A filter expression that filters resources listed in the response. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_addresses#id DataGoogleComputeAddresses#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_addresses#id DataGoogleComputeAddresses#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig.property.project">project</a></code> | <code>string</code> | The google project in which addresses are listed. Defaults to provider's configuration if missing. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig.property.region">region</a></code> | <code>string</code> | Region that should be considered to search addresses. All regions are considered if missing. |
 
@@ -828,7 +828,7 @@ can include "AND" and "OR" expressions explicitly. For example: """
 (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel Broadwell")
 AND (scheduling.automaticRestart = true) """
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_addresses#filter DataGoogleComputeAddresses#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_addresses#filter DataGoogleComputeAddresses#filter}
 
 ---
 
@@ -840,7 +840,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_addresses#id DataGoogleComputeAddresses#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_addresses#id DataGoogleComputeAddresses#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -857,7 +857,7 @@ public readonly project: string;
 
 The google project in which addresses are listed. Defaults to provider's configuration if missing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_addresses#project DataGoogleComputeAddresses#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_addresses#project DataGoogleComputeAddresses#project}
 
 ---
 
@@ -871,7 +871,7 @@ public readonly region: string;
 
 Region that should be considered to search addresses. All regions are considered if missing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_addresses#region DataGoogleComputeAddresses#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_addresses#region DataGoogleComputeAddresses#region}
 
 ---
 
@@ -1259,6 +1259,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.labels">labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.prefixLength">prefixLength</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.region">region</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.selfLink">selfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
@@ -1337,6 +1338,16 @@ public readonly name: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `prefixLength`<sup>Required</sup> <a name="prefixLength" id="@cdktn/provider-google-beta.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference.property.prefixLength"></a>
+
+```typescript
+public readonly prefixLength: number;
+```
+
+- *Type:* number
 
 ---
 

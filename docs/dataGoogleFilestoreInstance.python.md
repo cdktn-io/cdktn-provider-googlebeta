@@ -4,7 +4,7 @@
 
 ### DataGoogleFilestoreInstance <a name="DataGoogleFilestoreInstance" id="@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance google_filestore_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance google_filestore_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer"></a>
 
@@ -40,9 +40,9 @@ dataGoogleFilestoreInstance.DataGoogleFilestoreInstance(
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.name">name</a></code> | <code>str</code> | The resource name of the instance. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.location">location</a></code> | <code>str</code> | The name of the location of the instance. This can be a region for ENTERPRISE tier instances. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The resource name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#name DataGoogleFilestoreInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#name DataGoogleFilestoreInstance#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -133,7 +133,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The name of the location of the instance. This can be a region for ENTERPRISE tier instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#location DataGoogleFilestoreInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#location DataGoogleFilestoreInstance#location}
 
 ---
 
@@ -141,7 +141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}.
 
 ---
 
@@ -545,7 +545,7 @@ The construct id used in the generated config for the DataGoogleFilestoreInstanc
 
 The id of the existing DataGoogleFilestoreInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -577,6 +577,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.deletionProtectionReason">deletion_protection_reason</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.desiredReplicaState">desired_replica_state</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.directoryServices">directory_services</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceDirectoryServicesList">DataGoogleFilestoreInstanceDirectoryServicesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.effectiveLabels">effective_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.effectiveReplication">effective_replication</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceEffectiveReplicationList">DataGoogleFilestoreInstanceEffectiveReplicationList</a></code> | *No description.* |
@@ -759,6 +760,16 @@ deletion_protection_reason: str
 
 ```python
 description: str
+```
+
+- *Type:* str
+
+---
+
+##### `desired_replica_state`<sup>Required</sup> <a name="desired_replica_state" id="@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstance.property.desiredReplicaState"></a>
+
+```python
+desired_replica_state: str
 ```
 
 - *Type:* str
@@ -1049,9 +1060,9 @@ dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig(
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.name">name</a></code> | <code>str</code> | The resource name of the instance. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.location">location</a></code> | <code>str</code> | The name of the location of the instance. This can be a region for ENTERPRISE tier instances. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}. |
 
 ---
 
@@ -1135,7 +1146,7 @@ name: str
 
 The resource name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#name DataGoogleFilestoreInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#name DataGoogleFilestoreInstance#name}
 
 ---
 
@@ -1147,7 +1158,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#id DataGoogleFilestoreInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1164,7 +1175,7 @@ location: str
 
 The name of the location of the instance. This can be a region for ENTERPRISE tier instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#location DataGoogleFilestoreInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#location DataGoogleFilestoreInstance#location}
 
 ---
 
@@ -1176,7 +1187,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_filestore_instance#project DataGoogleFilestoreInstance#project}.
 
 ---
 
@@ -4195,6 +4206,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileSharesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileSharesOutputReference.property.nfsExportOptions">nfs_export_options</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileSharesNfsExportOptionsList">DataGoogleFilestoreInstanceFileSharesNfsExportOptionsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackup">source_backup</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupdrBackup">source_backupdr_backup</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileSharesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileShares">DataGoogleFilestoreInstanceFileShares</a></code> | *No description.* |
 
 ---
@@ -4257,6 +4269,16 @@ nfs_export_options: DataGoogleFilestoreInstanceFileSharesNfsExportOptionsList
 
 ```python
 source_backup: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_backupdr_backup`<sup>Required</sup> <a name="source_backupdr_backup" id="@cdktn/provider-google-beta.dataGoogleFilestoreInstance.DataGoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupdrBackup"></a>
+
+```python
+source_backupdr_backup: str
 ```
 
 - *Type:* str

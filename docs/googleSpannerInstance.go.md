@@ -4,12 +4,12 @@
 
 ### GoogleSpannerInstance <a name="GoogleSpannerInstance" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance google_spanner_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance google_spanner_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstance(scope Construct, id *string, config GoogleSpannerInstanceConfig) GoogleSpannerInstance
 ```
@@ -510,7 +510,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.GoogleSpannerInstance_IsConstruct(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.GoogleSpannerInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -556,7 +556,7 @@ googlespannerinstance.GoogleSpannerInstance_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.GoogleSpannerInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -570,7 +570,7 @@ googlespannerinstance.GoogleSpannerInstance_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.GoogleSpannerInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -599,7 +599,7 @@ The construct id used in the generated config for the GoogleSpannerInstance to i
 
 The id of the existing GoogleSpannerInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1140,12 +1140,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceAutoscalingConfig {
 	AsymmetricAutoscalingOptions: interface{},
-	AutoscalingLimits: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits,
-	AutoscalingTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets,
+	AutoscalingLimits: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits,
+	AutoscalingTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets,
 }
 ```
 
@@ -1169,7 +1169,7 @@ AsymmetricAutoscalingOptions interface{}
 
 asymmetric_autoscaling_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#asymmetric_autoscaling_options GoogleSpannerInstance#asymmetric_autoscaling_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#asymmetric_autoscaling_options GoogleSpannerInstance#asymmetric_autoscaling_options}
 
 ---
 
@@ -1183,7 +1183,7 @@ AutoscalingLimits GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits
 
 autoscaling_limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
 
 ---
 
@@ -1197,7 +1197,7 @@ AutoscalingTargets GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets
 
 autoscaling_targets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#autoscaling_targets GoogleSpannerInstance#autoscaling_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_targets GoogleSpannerInstance#autoscaling_targets}
 
 ---
 
@@ -1206,11 +1206,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions {
-	Overrides: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides,
-	ReplicaSelection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection,
+	Overrides: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides,
+	ReplicaSelection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection,
 }
 ```
 
@@ -1233,7 +1233,7 @@ Overrides GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOver
 
 overrides block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#overrides GoogleSpannerInstance#overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#overrides GoogleSpannerInstance#overrides}
 
 ---
 
@@ -1247,7 +1247,7 @@ ReplicaSelection GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
 
 replica_selection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#replica_selection GoogleSpannerInstance#replica_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#replica_selection GoogleSpannerInstance#replica_selection}
 
 ---
 
@@ -1256,10 +1256,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides {
-	AutoscalingLimits: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits,
+	AutoscalingLimits: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits,
+	AutoscalingTargetHighPriorityCpuUtilizationPercent: *f64,
+	AutoscalingTargetTotalCpuUtilizationPercent: *f64,
+	DisableHighPriorityCpuAutoscaling: interface{},
+	DisableTotalCpuAutoscaling: interface{},
 }
 ```
 
@@ -1268,10 +1272,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesp
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.autoscalingLimits">AutoscalingLimits</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits">GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits</a></code> | autoscaling_limits block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.autoscalingTargetHighPriorityCpuUtilizationPercent">AutoscalingTargetHighPriorityCpuUtilizationPercent</a></code> | <code>*f64</code> | The target high priority cpu utilization percentage that the autoscaler should be trying to achieve for this replica. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.autoscalingTargetTotalCpuUtilizationPercent">AutoscalingTargetTotalCpuUtilizationPercent</a></code> | <code>*f64</code> | The target total cpu utilization percentage that the autoscaler should be trying to achieve for this replica. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.disableHighPriorityCpuAutoscaling">DisableHighPriorityCpuAutoscaling</a></code> | <code>interface{}</code> | If true, disables high priority CPU autoscaling for this replica and ignores high_priority_cpu_utilization_percent in the top-level autoscaling configuration. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.disableTotalCpuAutoscaling">DisableTotalCpuAutoscaling</a></code> | <code>interface{}</code> | If true, disables total CPU autoscaling for this replica and ignores total_cpu_utilization_percent in the top-level autoscaling configuration. |
 
 ---
 
-##### `AutoscalingLimits`<sup>Required</sup> <a name="AutoscalingLimits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.autoscalingLimits"></a>
+##### `AutoscalingLimits`<sup>Optional</sup> <a name="AutoscalingLimits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.autoscalingLimits"></a>
 
 ```go
 AutoscalingLimits GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits
@@ -1281,7 +1289,67 @@ AutoscalingLimits GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpt
 
 autoscaling_limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
+
+---
+
+##### `AutoscalingTargetHighPriorityCpuUtilizationPercent`<sup>Optional</sup> <a name="AutoscalingTargetHighPriorityCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.autoscalingTargetHighPriorityCpuUtilizationPercent"></a>
+
+```go
+AutoscalingTargetHighPriorityCpuUtilizationPercent *f64
+```
+
+- *Type:* *f64
+
+The target high priority cpu utilization percentage that the autoscaler should be trying to achieve for this replica.
+
+This number is on a scale from 0 (no utilization) to 100 (full utilization).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_target_high_priority_cpu_utilization_percent GoogleSpannerInstance#autoscaling_target_high_priority_cpu_utilization_percent}
+
+---
+
+##### `AutoscalingTargetTotalCpuUtilizationPercent`<sup>Optional</sup> <a name="AutoscalingTargetTotalCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.autoscalingTargetTotalCpuUtilizationPercent"></a>
+
+```go
+AutoscalingTargetTotalCpuUtilizationPercent *f64
+```
+
+- *Type:* *f64
+
+The target total cpu utilization percentage that the autoscaler should be trying to achieve for this replica.
+
+This number is on a scale from 0 (no utilization) to 100 (full utilization).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_target_total_cpu_utilization_percent GoogleSpannerInstance#autoscaling_target_total_cpu_utilization_percent}
+
+---
+
+##### `DisableHighPriorityCpuAutoscaling`<sup>Optional</sup> <a name="DisableHighPriorityCpuAutoscaling" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.disableHighPriorityCpuAutoscaling"></a>
+
+```go
+DisableHighPriorityCpuAutoscaling interface{}
+```
+
+- *Type:* interface{}
+
+If true, disables high priority CPU autoscaling for this replica and ignores high_priority_cpu_utilization_percent in the top-level autoscaling configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#disable_high_priority_cpu_autoscaling GoogleSpannerInstance#disable_high_priority_cpu_autoscaling}
+
+---
+
+##### `DisableTotalCpuAutoscaling`<sup>Optional</sup> <a name="DisableTotalCpuAutoscaling" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides.property.disableTotalCpuAutoscaling"></a>
+
+```go
+DisableTotalCpuAutoscaling interface{}
+```
+
+- *Type:* interface{}
+
+If true, disables total CPU autoscaling for this replica and ignores total_cpu_utilization_percent in the top-level autoscaling configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#disable_total_cpu_autoscaling GoogleSpannerInstance#disable_total_cpu_autoscaling}
 
 ---
 
@@ -1290,11 +1358,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits {
 	MaxNodes: *f64,
+	MaxProcessingUnits: *f64,
 	MinNodes: *f64,
+	MinProcessingUnits: *f64,
 }
 ```
 
@@ -1303,11 +1373,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesp
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.maxNodes">MaxNodes</a></code> | <code>*f64</code> | The maximum number of nodes for this specific replica. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.maxProcessingUnits">MaxProcessingUnits</a></code> | <code>*f64</code> | The maximum number of processing units for this specific replica. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.minNodes">MinNodes</a></code> | <code>*f64</code> | The minimum number of nodes for this specific replica. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.minProcessingUnits">MinProcessingUnits</a></code> | <code>*f64</code> | The minimum number of processing units for this specific replica. If set, this number should be multiples of 1000. |
 
 ---
 
-##### `MaxNodes`<sup>Required</sup> <a name="MaxNodes" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.maxNodes"></a>
+##### `MaxNodes`<sup>Optional</sup> <a name="MaxNodes" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.maxNodes"></a>
 
 ```go
 MaxNodes *f64
@@ -1317,11 +1389,28 @@ MaxNodes *f64
 
 The maximum number of nodes for this specific replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
 
 ---
 
-##### `MinNodes`<sup>Required</sup> <a name="MinNodes" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.minNodes"></a>
+##### `MaxProcessingUnits`<sup>Optional</sup> <a name="MaxProcessingUnits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.maxProcessingUnits"></a>
+
+```go
+MaxProcessingUnits *f64
+```
+
+- *Type:* *f64
+
+The maximum number of processing units for this specific replica.
+
+If set, this number should be multiples of 1000 and be greater than or equal to
+min_processing_units.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_processing_units GoogleSpannerInstance#max_processing_units}
+
+---
+
+##### `MinNodes`<sup>Optional</sup> <a name="MinNodes" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.minNodes"></a>
 
 ```go
 MinNodes *f64
@@ -1331,7 +1420,21 @@ MinNodes *f64
 
 The minimum number of nodes for this specific replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
+
+---
+
+##### `MinProcessingUnits`<sup>Optional</sup> <a name="MinProcessingUnits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits.property.minProcessingUnits"></a>
+
+```go
+MinProcessingUnits *f64
+```
+
+- *Type:* *f64
+
+The minimum number of processing units for this specific replica. If set, this number should be multiples of 1000.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_processing_units GoogleSpannerInstance#min_processing_units}
 
 ---
 
@@ -1340,7 +1443,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection {
 	Location: *string,
@@ -1365,7 +1468,7 @@ Location *string
 
 The location of the replica to apply asymmetric autoscaling options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#location GoogleSpannerInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#location GoogleSpannerInstance#location}
 
 ---
 
@@ -1374,7 +1477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits {
 	MaxNodes: *f64,
@@ -1408,7 +1511,7 @@ Specifies maximum number of nodes allocated to the instance.
 If set, this number
 should be greater than or equal to min_nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
 
 ---
 
@@ -1425,7 +1528,7 @@ Specifies maximum number of processing units allocated to the instance.
 If set, this number should be multiples of 1000 and be greater than or equal to
 min_processing_units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#max_processing_units GoogleSpannerInstance#max_processing_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_processing_units GoogleSpannerInstance#max_processing_units}
 
 ---
 
@@ -1439,7 +1542,7 @@ MinNodes *f64
 
 Specifies number of nodes allocated to the instance. If set, this number should be greater than or equal to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
 
 ---
 
@@ -1453,7 +1556,7 @@ MinProcessingUnits *f64
 
 Specifies minimum number of processing units allocated to the instance. If set, this number should be multiples of 1000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#min_processing_units GoogleSpannerInstance#min_processing_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_processing_units GoogleSpannerInstance#min_processing_units}
 
 ---
 
@@ -1462,11 +1565,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets {
 	HighPriorityCpuUtilizationPercent: *f64,
 	StorageUtilizationPercent: *f64,
+	TotalCpuUtilizationPercent: *f64,
 }
 ```
 
@@ -1476,6 +1580,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesp
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets.property.highPriorityCpuUtilizationPercent">HighPriorityCpuUtilizationPercent</a></code> | <code>*f64</code> | Specifies the target high priority cpu utilization percentage that the autoscaler should be trying to achieve for the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets.property.storageUtilizationPercent">StorageUtilizationPercent</a></code> | <code>*f64</code> | Specifies the target storage utilization percentage that the autoscaler should be trying to achieve for the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets.property.totalCpuUtilizationPercent">TotalCpuUtilizationPercent</a></code> | <code>*f64</code> | The target total cpu utilization percentage that the autoscaler should be trying to achieve for the instance. |
 
 ---
 
@@ -1491,7 +1596,7 @@ Specifies the target high priority cpu utilization percentage that the autoscale
 
 This number is on a scale from 0 (no utilization) to 100 (full utilization)..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#high_priority_cpu_utilization_percent GoogleSpannerInstance#high_priority_cpu_utilization_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#high_priority_cpu_utilization_percent GoogleSpannerInstance#high_priority_cpu_utilization_percent}
 
 ---
 
@@ -1507,7 +1612,25 @@ Specifies the target storage utilization percentage that the autoscaler should b
 
 This number is on a scale from 0 (no utilization) to 100 (full utilization).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#storage_utilization_percent GoogleSpannerInstance#storage_utilization_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#storage_utilization_percent GoogleSpannerInstance#storage_utilization_percent}
+
+---
+
+##### `TotalCpuUtilizationPercent`<sup>Optional</sup> <a name="TotalCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets.property.totalCpuUtilizationPercent"></a>
+
+```go
+TotalCpuUtilizationPercent *f64
+```
+
+- *Type:* *f64
+
+The target total cpu utilization percentage that the autoscaler should be trying to achieve for the instance.
+
+This number is on a scale from 0 (no utilization) to 100 (full utilization). The valid range is [10, 90] inclusive.
+If not specified or set to 0, the autoscaler will skip scaling based on total cpu utilization.
+The value should be higher than high_priority_cpu_utilization_percent if present.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#total_cpu_utilization_percent GoogleSpannerInstance#total_cpu_utilization_percent}
 
 ---
 
@@ -1516,7 +1639,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceConfig {
 	Connection: interface{},
@@ -1528,7 +1651,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesp
 	Provisioners: *[]interface{},
 	Config: *string,
 	DisplayName: *string,
-	AutoscalingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfig,
+	AutoscalingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfig,
 	DefaultBackupScheduleType: *string,
 	Edition: *string,
 	ForceDestroy: interface{},
@@ -1539,7 +1662,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesp
 	NumNodes: *f64,
 	ProcessingUnits: *f64,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerInstance.GoogleSpannerInstanceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstance.GoogleSpannerInstanceTimeouts,
 }
 ```
 
@@ -1560,13 +1683,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesp
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.defaultBackupScheduleType">DefaultBackupScheduleType</a></code> | <code>*string</code> | Controls the default backup behavior for new databases within the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.edition">Edition</a></code> | <code>*string</code> | The edition selected for this instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.forceDestroy">ForceDestroy</a></code> | <code>interface{}</code> | When deleting a spanner instance, this boolean option will delete all backups of this instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#id GoogleSpannerInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#id GoogleSpannerInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.instanceType">InstanceType</a></code> | <code>*string</code> | The type of this instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.name">Name</a></code> | <code>*string</code> | A unique identifier for the instance, which cannot be changed after the instance is created. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.numNodes">NumNodes</a></code> | <code>*f64</code> | The number of nodes allocated to this instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.processingUnits">ProcessingUnits</a></code> | <code>*f64</code> | The number of processing units allocated to this instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#project GoogleSpannerInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#project GoogleSpannerInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts">GoogleSpannerInstanceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1656,7 +1779,7 @@ is stored. Values are typically of the form 'regional-europe-west1' , 'us-centra
 In order to obtain a valid list please consult the
 [Configuration section of the docs](https://cloud.google.com/spanner/docs/instances).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#config GoogleSpannerInstance#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#config GoogleSpannerInstance#config}
 
 ---
 
@@ -1673,7 +1796,7 @@ The descriptive name for this instance as it appears in UIs.
 Must be
 unique per project and between 4 and 30 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#display_name GoogleSpannerInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#display_name GoogleSpannerInstance#display_name}
 
 ---
 
@@ -1687,7 +1810,7 @@ AutoscalingConfig GoogleSpannerInstanceAutoscalingConfig
 
 autoscaling_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#autoscaling_config GoogleSpannerInstance#autoscaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_config GoogleSpannerInstance#autoscaling_config}
 
 ---
 
@@ -1704,7 +1827,7 @@ Controls the default backup behavior for new databases within the instance.
 Note that 'AUTOMATIC' is not permitted for free instances, as backups and backup schedules are not allowed for free instances.
 if unset or NONE, no default backup schedule will be created for new databases within the instance. Possible values: ["NONE", "AUTOMATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#default_backup_schedule_type GoogleSpannerInstance#default_backup_schedule_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#default_backup_schedule_type GoogleSpannerInstance#default_backup_schedule_type}
 
 ---
 
@@ -1720,7 +1843,7 @@ The edition selected for this instance.
 
 Different editions provide different capabilities at different price points. Possible values: ["EDITION_UNSPECIFIED", "STANDARD", "ENTERPRISE", "ENTERPRISE_PLUS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#edition GoogleSpannerInstance#edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#edition GoogleSpannerInstance#edition}
 
 ---
 
@@ -1736,7 +1859,7 @@ When deleting a spanner instance, this boolean option will delete all backups of
 
 This must be set to true if you created a backup manually in the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#force_destroy GoogleSpannerInstance#force_destroy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#force_destroy GoogleSpannerInstance#force_destroy}
 
 ---
 
@@ -1748,7 +1871,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#id GoogleSpannerInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#id GoogleSpannerInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1769,7 +1892,7 @@ The type can be used to distinguish product variants, that can affect aspects li
 usage restrictions, quotas and billing. Currently this is used to distinguish FREE_INSTANCE vs PROVISIONED instances.
 When configured as FREE_INSTANCE, the field 'edition' should not be configured. Possible values: ["PROVISIONED", "FREE_INSTANCE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#instance_type GoogleSpannerInstance#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#instance_type GoogleSpannerInstance#instance_type}
 
 ---
 
@@ -1786,7 +1909,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#labels GoogleSpannerInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#labels GoogleSpannerInstance#labels}
 
 ---
 
@@ -1804,7 +1927,7 @@ The name must be between 6 and 30 characters
 in length.
 If not provided, a random string starting with 'tf-' will be selected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#name GoogleSpannerInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#name GoogleSpannerInstance#name}
 
 ---
 
@@ -1821,7 +1944,7 @@ The number of nodes allocated to this instance.
 Exactly one of either num_nodes, processing_units or
 autoscaling_config must be present in terraform except when instance_type = FREE_INSTANCE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#num_nodes GoogleSpannerInstance#num_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#num_nodes GoogleSpannerInstance#num_nodes}
 
 ---
 
@@ -1838,7 +1961,7 @@ The number of processing units allocated to this instance.
 Exactly one of either num_nodes,
 processing_units or autoscaling_config must be present in terraform except when instance_type = FREE_INSTANCE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#processing_units GoogleSpannerInstance#processing_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#processing_units GoogleSpannerInstance#processing_units}
 
 ---
 
@@ -1850,7 +1973,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#project GoogleSpannerInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#project GoogleSpannerInstance#project}.
 
 ---
 
@@ -1864,7 +1987,7 @@ Timeouts GoogleSpannerInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#timeouts GoogleSpannerInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#timeouts GoogleSpannerInstance#timeouts}
 
 ---
 
@@ -1873,7 +1996,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 &googlespannerinstance.GoogleSpannerInstanceTimeouts {
 	Create: *string,
@@ -1886,9 +2009,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#create GoogleSpannerInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#delete GoogleSpannerInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#update GoogleSpannerInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#create GoogleSpannerInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#delete GoogleSpannerInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#update GoogleSpannerInstance#update}. |
 
 ---
 
@@ -1900,7 +2023,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#create GoogleSpannerInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#create GoogleSpannerInstance#create}.
 
 ---
 
@@ -1912,7 +2035,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#delete GoogleSpannerInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#delete GoogleSpannerInstance#delete}.
 
 ---
 
@@ -1924,7 +2047,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#update GoogleSpannerInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#update GoogleSpannerInstance#update}.
 
 ---
 
@@ -1935,7 +2058,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsList
 ```
@@ -2095,7 +2218,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOutputReference
 ```
@@ -2432,7 +2555,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference
 ```
@@ -2477,6 +2600,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMaxNodes">ResetMaxNodes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMaxProcessingUnits">ResetMaxProcessingUnits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMinNodes">ResetMinNodes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMinProcessingUnits">ResetMinProcessingUnits</a></code> | *No description.* |
 
 ---
 
@@ -2630,6 +2757,30 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetMaxNodes` <a name="ResetMaxNodes" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMaxNodes"></a>
+
+```go
+func ResetMaxNodes()
+```
+
+##### `ResetMaxProcessingUnits` <a name="ResetMaxProcessingUnits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMaxProcessingUnits"></a>
+
+```go
+func ResetMaxProcessingUnits()
+```
+
+##### `ResetMinNodes` <a name="ResetMinNodes" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMinNodes"></a>
+
+```go
+func ResetMinNodes()
+```
+
+##### `ResetMinProcessingUnits` <a name="ResetMinProcessingUnits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.resetMinProcessingUnits"></a>
+
+```go
+func ResetMinProcessingUnits()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2638,9 +2789,13 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.maxNodesInput">MaxNodesInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.maxProcessingUnitsInput">MaxProcessingUnitsInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minNodesInput">MinNodesInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minProcessingUnitsInput">MinProcessingUnitsInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.maxNodes">MaxNodes</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.maxProcessingUnits">MaxProcessingUnits</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minNodes">MinNodes</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minProcessingUnits">MinProcessingUnits</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits">GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits</a></code> | *No description.* |
 
 ---
@@ -2679,10 +2834,30 @@ func MaxNodesInput() *f64
 
 ---
 
+##### `MaxProcessingUnitsInput`<sup>Optional</sup> <a name="MaxProcessingUnitsInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.maxProcessingUnitsInput"></a>
+
+```go
+func MaxProcessingUnitsInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `MinNodesInput`<sup>Optional</sup> <a name="MinNodesInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minNodesInput"></a>
 
 ```go
 func MinNodesInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `MinProcessingUnitsInput`<sup>Optional</sup> <a name="MinProcessingUnitsInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minProcessingUnitsInput"></a>
+
+```go
+func MinProcessingUnitsInput() *f64
 ```
 
 - *Type:* *f64
@@ -2699,10 +2874,30 @@ func MaxNodes() *f64
 
 ---
 
+##### `MaxProcessingUnits`<sup>Required</sup> <a name="MaxProcessingUnits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.maxProcessingUnits"></a>
+
+```go
+func MaxProcessingUnits() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `MinNodes`<sup>Required</sup> <a name="MinNodes" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minNodes"></a>
 
 ```go
 func MinNodes() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `MinProcessingUnits`<sup>Required</sup> <a name="MinProcessingUnits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference.property.minProcessingUnits"></a>
+
+```go
+func MinProcessingUnits() *f64
 ```
 
 - *Type:* *f64
@@ -2725,7 +2920,7 @@ func InternalValue() GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscaling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference
 ```
@@ -2771,6 +2966,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.putAutoscalingLimits">PutAutoscalingLimits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetAutoscalingLimits">ResetAutoscalingLimits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetAutoscalingTargetHighPriorityCpuUtilizationPercent">ResetAutoscalingTargetHighPriorityCpuUtilizationPercent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetAutoscalingTargetTotalCpuUtilizationPercent">ResetAutoscalingTargetTotalCpuUtilizationPercent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetDisableHighPriorityCpuAutoscaling">ResetDisableHighPriorityCpuAutoscaling</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetDisableTotalCpuAutoscaling">ResetDisableTotalCpuAutoscaling</a></code> | *No description.* |
 
 ---
 
@@ -2936,6 +3136,36 @@ func PutAutoscalingLimits(value GoogleSpannerInstanceAutoscalingConfigAsymmetric
 
 ---
 
+##### `ResetAutoscalingLimits` <a name="ResetAutoscalingLimits" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetAutoscalingLimits"></a>
+
+```go
+func ResetAutoscalingLimits()
+```
+
+##### `ResetAutoscalingTargetHighPriorityCpuUtilizationPercent` <a name="ResetAutoscalingTargetHighPriorityCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetAutoscalingTargetHighPriorityCpuUtilizationPercent"></a>
+
+```go
+func ResetAutoscalingTargetHighPriorityCpuUtilizationPercent()
+```
+
+##### `ResetAutoscalingTargetTotalCpuUtilizationPercent` <a name="ResetAutoscalingTargetTotalCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetAutoscalingTargetTotalCpuUtilizationPercent"></a>
+
+```go
+func ResetAutoscalingTargetTotalCpuUtilizationPercent()
+```
+
+##### `ResetDisableHighPriorityCpuAutoscaling` <a name="ResetDisableHighPriorityCpuAutoscaling" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetDisableHighPriorityCpuAutoscaling"></a>
+
+```go
+func ResetDisableHighPriorityCpuAutoscaling()
+```
+
+##### `ResetDisableTotalCpuAutoscaling` <a name="ResetDisableTotalCpuAutoscaling" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.resetDisableTotalCpuAutoscaling"></a>
+
+```go
+func ResetDisableTotalCpuAutoscaling()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2945,6 +3175,14 @@ func PutAutoscalingLimits(value GoogleSpannerInstanceAutoscalingConfigAsymmetric
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingLimits">AutoscalingLimits</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference">GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingLimitsInput">AutoscalingLimitsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits">GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetHighPriorityCpuUtilizationPercentInput">AutoscalingTargetHighPriorityCpuUtilizationPercentInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetTotalCpuUtilizationPercentInput">AutoscalingTargetTotalCpuUtilizationPercentInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableHighPriorityCpuAutoscalingInput">DisableHighPriorityCpuAutoscalingInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableTotalCpuAutoscalingInput">DisableTotalCpuAutoscalingInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetHighPriorityCpuUtilizationPercent">AutoscalingTargetHighPriorityCpuUtilizationPercent</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetTotalCpuUtilizationPercent">AutoscalingTargetTotalCpuUtilizationPercent</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableHighPriorityCpuAutoscaling">DisableHighPriorityCpuAutoscaling</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableTotalCpuAutoscaling">DisableTotalCpuAutoscaling</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides">GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides</a></code> | *No description.* |
 
 ---
@@ -2993,6 +3231,86 @@ func AutoscalingLimitsInput() GoogleSpannerInstanceAutoscalingConfigAsymmetricAu
 
 ---
 
+##### `AutoscalingTargetHighPriorityCpuUtilizationPercentInput`<sup>Optional</sup> <a name="AutoscalingTargetHighPriorityCpuUtilizationPercentInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetHighPriorityCpuUtilizationPercentInput"></a>
+
+```go
+func AutoscalingTargetHighPriorityCpuUtilizationPercentInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `AutoscalingTargetTotalCpuUtilizationPercentInput`<sup>Optional</sup> <a name="AutoscalingTargetTotalCpuUtilizationPercentInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetTotalCpuUtilizationPercentInput"></a>
+
+```go
+func AutoscalingTargetTotalCpuUtilizationPercentInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `DisableHighPriorityCpuAutoscalingInput`<sup>Optional</sup> <a name="DisableHighPriorityCpuAutoscalingInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableHighPriorityCpuAutoscalingInput"></a>
+
+```go
+func DisableHighPriorityCpuAutoscalingInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `DisableTotalCpuAutoscalingInput`<sup>Optional</sup> <a name="DisableTotalCpuAutoscalingInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableTotalCpuAutoscalingInput"></a>
+
+```go
+func DisableTotalCpuAutoscalingInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `AutoscalingTargetHighPriorityCpuUtilizationPercent`<sup>Required</sup> <a name="AutoscalingTargetHighPriorityCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetHighPriorityCpuUtilizationPercent"></a>
+
+```go
+func AutoscalingTargetHighPriorityCpuUtilizationPercent() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `AutoscalingTargetTotalCpuUtilizationPercent`<sup>Required</sup> <a name="AutoscalingTargetTotalCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.autoscalingTargetTotalCpuUtilizationPercent"></a>
+
+```go
+func AutoscalingTargetTotalCpuUtilizationPercent() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `DisableHighPriorityCpuAutoscaling`<sup>Required</sup> <a name="DisableHighPriorityCpuAutoscaling" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableHighPriorityCpuAutoscaling"></a>
+
+```go
+func DisableHighPriorityCpuAutoscaling() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `DisableTotalCpuAutoscaling`<sup>Required</sup> <a name="DisableTotalCpuAutoscaling" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.disableTotalCpuAutoscaling"></a>
+
+```go
+func DisableTotalCpuAutoscaling() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference.property.internalValue"></a>
 
 ```go
@@ -3009,7 +3327,7 @@ func InternalValue() GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscaling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionOutputReference
 ```
@@ -3280,7 +3598,7 @@ func InternalValue() GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscaling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigAutoscalingLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceAutoscalingConfigAutoscalingLimitsOutputReference
 ```
@@ -3645,7 +3963,7 @@ func InternalValue() GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference
 ```
@@ -3692,6 +4010,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.resetHighPriorityCpuUtilizationPercent">ResetHighPriorityCpuUtilizationPercent</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.resetStorageUtilizationPercent">ResetStorageUtilizationPercent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.resetTotalCpuUtilizationPercent">ResetTotalCpuUtilizationPercent</a></code> | *No description.* |
 
 ---
 
@@ -3857,6 +4176,12 @@ func ResetHighPriorityCpuUtilizationPercent()
 func ResetStorageUtilizationPercent()
 ```
 
+##### `ResetTotalCpuUtilizationPercent` <a name="ResetTotalCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.resetTotalCpuUtilizationPercent"></a>
+
+```go
+func ResetTotalCpuUtilizationPercent()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -3866,8 +4191,10 @@ func ResetStorageUtilizationPercent()
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.highPriorityCpuUtilizationPercentInput">HighPriorityCpuUtilizationPercentInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.storageUtilizationPercentInput">StorageUtilizationPercentInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.totalCpuUtilizationPercentInput">TotalCpuUtilizationPercentInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.highPriorityCpuUtilizationPercent">HighPriorityCpuUtilizationPercent</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.storageUtilizationPercent">StorageUtilizationPercent</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.totalCpuUtilizationPercent">TotalCpuUtilizationPercent</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets">GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets</a></code> | *No description.* |
 
 ---
@@ -3916,6 +4243,16 @@ func StorageUtilizationPercentInput() *f64
 
 ---
 
+##### `TotalCpuUtilizationPercentInput`<sup>Optional</sup> <a name="TotalCpuUtilizationPercentInput" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.totalCpuUtilizationPercentInput"></a>
+
+```go
+func TotalCpuUtilizationPercentInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `HighPriorityCpuUtilizationPercent`<sup>Required</sup> <a name="HighPriorityCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.highPriorityCpuUtilizationPercent"></a>
 
 ```go
@@ -3930,6 +4267,16 @@ func HighPriorityCpuUtilizationPercent() *f64
 
 ```go
 func StorageUtilizationPercent() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `TotalCpuUtilizationPercent`<sup>Required</sup> <a name="TotalCpuUtilizationPercent" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference.property.totalCpuUtilizationPercent"></a>
+
+```go
+func TotalCpuUtilizationPercent() *f64
 ```
 
 - *Type:* *f64
@@ -3952,7 +4299,7 @@ func InternalValue() GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceAutoscalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceAutoscalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceAutoscalingConfigOutputReference
 ```
@@ -4327,7 +4674,7 @@ func InternalValue() GoogleSpannerInstanceAutoscalingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstance.GoogleSpannerInstanceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance"
 
 googlespannerinstance.NewGoogleSpannerInstanceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceTimeoutsOutputReference
 ```

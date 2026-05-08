@@ -4,7 +4,7 @@
 
 ### GoogleStorageBucketObject <a name="GoogleStorageBucketObject" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object google_storage_bucket_object}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object google_storage_bucket_object}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer"></a>
 
@@ -29,6 +29,7 @@ googleStorageBucketObject.GoogleStorageBucketObject(
   content_encoding: str = None,
   content_language: str = None,
   content_type: str = None,
+  contexts: GoogleStorageBucketObjectContexts = None,
   customer_encryption: GoogleStorageBucketObjectCustomerEncryption = None,
   deletion_policy: str = None,
   detect_md5_hash: str = None,
@@ -65,12 +66,13 @@ googleStorageBucketObject.GoogleStorageBucketObject(
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.contentEncoding">content_encoding</a></code> | <code>str</code> | Content-Encoding of the object data. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.contentLanguage">content_language</a></code> | <code>str</code> | Content-Language of the object data. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.contentType">content_type</a></code> | <code>str</code> | Content-Type of the object data. Defaults to "application/octet-stream" or "text/plain; charset=utf-8". |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.contexts">contexts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a></code> | contexts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.customerEncryption">customer_encryption</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectCustomerEncryption">GoogleStorageBucketObjectCustomerEncryption</a></code> | customer_encryption block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | The deletion policy for the object. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.detectMd5Hash">detect_md5_hash</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.detectMd5Hash">detect_md5_hash</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.eventBasedHold">event_based_hold</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether an object is under event-based hold. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.forceEmptyContentType">force_empty_content_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Flag to set empty Content-Type. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.kmsKeyName">kms_key_name</a></code> | <code>str</code> | Resource name of the Cloud KMS key that will be used to encrypt the object. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.metadata">metadata</a></code> | <code>typing.Mapping[str]</code> | User-provided metadata, in key/value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.retention">retention</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectRetention">GoogleStorageBucketObjectRetention</a></code> | retention block. |
@@ -148,7 +150,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the containing bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#bucket GoogleStorageBucketObject#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#bucket GoogleStorageBucketObject#bucket}
 
 ---
 
@@ -158,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the object. If you're interpolating the name of this object, see output_name instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#name GoogleStorageBucketObject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#name GoogleStorageBucketObject#name}
 
 ---
 
@@ -170,7 +172,7 @@ Cache-Control directive to specify caching behavior of object data.
 
 If omitted and object is accessible to all anonymous users, the default will be public, max-age=3600
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#cache_control GoogleStorageBucketObject#cache_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#cache_control GoogleStorageBucketObject#cache_control}
 
 ---
 
@@ -182,7 +184,7 @@ Data as string to be uploaded.
 
 Must be defined if source is not. Note: The content field is marked as sensitive. To view the raw contents of the object, please define an output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content GoogleStorageBucketObject#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content GoogleStorageBucketObject#content}
 
 ---
 
@@ -192,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Content-Disposition of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_disposition GoogleStorageBucketObject#content_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_disposition GoogleStorageBucketObject#content_disposition}
 
 ---
 
@@ -202,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Content-Encoding of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_encoding GoogleStorageBucketObject#content_encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_encoding GoogleStorageBucketObject#content_encoding}
 
 ---
 
@@ -212,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Content-Language of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_language GoogleStorageBucketObject#content_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_language GoogleStorageBucketObject#content_language}
 
 ---
 
@@ -222,7 +224,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Content-Type of the object data. Defaults to "application/octet-stream" or "text/plain; charset=utf-8".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_type GoogleStorageBucketObject#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_type GoogleStorageBucketObject#content_type}
+
+---
+
+##### `contexts`<sup>Optional</sup> <a name="contexts" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.Initializer.parameter.contexts"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a>
+
+contexts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#contexts GoogleStorageBucketObject#contexts}
 
 ---
 
@@ -232,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 customer_encryption block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#customer_encryption GoogleStorageBucketObject#customer_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#customer_encryption GoogleStorageBucketObject#customer_encryption}
 
 ---
 
@@ -244,7 +256,7 @@ The deletion policy for the object.
 
 Setting ABANDON allows the resource to be abandoned rather than deleted when removed from your Terraform configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#deletion_policy GoogleStorageBucketObject#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#deletion_policy GoogleStorageBucketObject#deletion_policy}
 
 ---
 
@@ -252,7 +264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}.
 
 ---
 
@@ -264,7 +276,7 @@ Whether an object is under event-based hold.
 
 Event-based hold is a way to retain objects until an event occurs, which is signified by the hold's release (i.e. this value is set to false). After being released (set to false), such objects will be subject to bucket-level retention (if any).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#event_based_hold GoogleStorageBucketObject#event_based_hold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#event_based_hold GoogleStorageBucketObject#event_based_hold}
 
 ---
 
@@ -274,7 +286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Flag to set empty Content-Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#force_empty_content_type GoogleStorageBucketObject#force_empty_content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#force_empty_content_type GoogleStorageBucketObject#force_empty_content_type}
 
 ---
 
@@ -282,7 +294,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -297,7 +309,7 @@ Resource name of the Cloud KMS key that will be used to encrypt the object.
 
 Overrides the object metadata's kmsKeyName value, if any.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#kms_key_name GoogleStorageBucketObject#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#kms_key_name GoogleStorageBucketObject#kms_key_name}
 
 ---
 
@@ -307,7 +319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-provided metadata, in key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#metadata GoogleStorageBucketObject#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#metadata GoogleStorageBucketObject#metadata}
 
 ---
 
@@ -317,7 +329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 retention block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#retention GoogleStorageBucketObject#retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#retention GoogleStorageBucketObject#retention}
 
 ---
 
@@ -327,7 +339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A path to the data you want to upload. Must be defined if content is not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#source GoogleStorageBucketObject#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#source GoogleStorageBucketObject#source}
 
 ---
 
@@ -337,7 +349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-provided md5hash, Base 64 MD5 hash of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#source_md5hash GoogleStorageBucketObject#source_md5hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#source_md5hash GoogleStorageBucketObject#source_md5hash}
 
 ---
 
@@ -349,7 +361,7 @@ The StorageClass of the new bucket object.
 
 Supported values include: MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE, ARCHIVE. If not provided, this defaults to the bucket's default storage class or to a standard class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#storage_class GoogleStorageBucketObject#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#storage_class GoogleStorageBucketObject#storage_class}
 
 ---
 
@@ -361,7 +373,7 @@ Whether an object is under temporary hold.
 
 While this flag is set to true, the object is protected against deletion and overwrites.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#temporary_hold GoogleStorageBucketObject#temporary_hold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#temporary_hold GoogleStorageBucketObject#temporary_hold}
 
 ---
 
@@ -371,7 +383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#timeouts GoogleStorageBucketObject#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#timeouts GoogleStorageBucketObject#timeouts}
 
 ---
 
@@ -403,6 +415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.putContexts">put_contexts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.putCustomerEncryption">put_customer_encryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.putRetention">put_retention</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.putTimeouts">put_timeouts</a></code> | *No description.* |
@@ -412,6 +425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetContentEncoding">reset_content_encoding</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetContentLanguage">reset_content_language</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetContentType">reset_content_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetContexts">reset_contexts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetCustomerEncryption">reset_customer_encryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetDetectMd5Hash">reset_detect_md5_hash</a></code> | *No description.* |
@@ -777,6 +791,24 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_contexts` <a name="put_contexts" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.putContexts"></a>
+
+```python
+def put_contexts(
+  custom: IResolvable | typing.List[GoogleStorageBucketObjectContextsCustom]
+) -> None
+```
+
+###### `custom`<sup>Required</sup> <a name="custom" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.putContexts.parameter.custom"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]
+
+custom block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#custom GoogleStorageBucketObject#custom}
+
+---
+
 ##### `put_customer_encryption` <a name="put_customer_encryption" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.putCustomerEncryption"></a>
 
 ```python
@@ -792,7 +824,7 @@ def put_customer_encryption(
 
 Base64 encoded customer supplied encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#encryption_key GoogleStorageBucketObject#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#encryption_key GoogleStorageBucketObject#encryption_key}
 
 ---
 
@@ -802,7 +834,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The encryption algorithm. Default: AES256.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#encryption_algorithm GoogleStorageBucketObject#encryption_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#encryption_algorithm GoogleStorageBucketObject#encryption_algorithm}
 
 ---
 
@@ -821,7 +853,7 @@ def put_retention(
 
 The object retention mode. Supported values include: "Unlocked", "Locked".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#mode GoogleStorageBucketObject#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#mode GoogleStorageBucketObject#mode}
 
 ---
 
@@ -831,7 +863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Time in RFC 3339 (e.g. 2030-01-01T02:03:04Z) until which object retention protects this object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#retain_until_time GoogleStorageBucketObject#retain_until_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#retain_until_time GoogleStorageBucketObject#retain_until_time}
 
 ---
 
@@ -849,7 +881,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#create GoogleStorageBucketObject#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#create GoogleStorageBucketObject#create}.
 
 ---
 
@@ -857,7 +889,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#delete GoogleStorageBucketObject#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#delete GoogleStorageBucketObject#delete}.
 
 ---
 
@@ -865,7 +897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#update GoogleStorageBucketObject#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#update GoogleStorageBucketObject#update}.
 
 ---
 
@@ -903,6 +935,12 @@ def reset_content_language() -> None
 
 ```python
 def reset_content_type() -> None
+```
+
+##### `reset_contexts` <a name="reset_contexts" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetContexts"></a>
+
+```python
+def reset_contexts() -> None
 ```
 
 ##### `reset_customer_encryption` <a name="reset_customer_encryption" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.resetCustomerEncryption"></a>
@@ -1103,7 +1141,7 @@ The construct id used in the generated config for the GoogleStorageBucketObject 
 
 The id of the existing GoogleStorageBucketObject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1133,6 +1171,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.contexts">contexts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference">GoogleStorageBucketObjectContextsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.crc32C">crc32_c</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.customerEncryption">customer_encryption</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectCustomerEncryptionOutputReference">GoogleStorageBucketObjectCustomerEncryptionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.generation">generation</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -1150,6 +1189,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.contentInput">content_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.contentLanguageInput">content_language_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.contentTypeInput">content_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.contextsInput">contexts_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.customerEncryptionInput">customer_encryption_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectCustomerEncryption">GoogleStorageBucketObjectCustomerEncryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.detectMd5HashInput">detect_md5_hash_input</a></code> | <code>str</code> | *No description.* |
@@ -1329,6 +1369,16 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
+##### `contexts`<sup>Required</sup> <a name="contexts" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.contexts"></a>
+
+```python
+contexts: GoogleStorageBucketObjectContextsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference">GoogleStorageBucketObjectContextsOutputReference</a>
+
+---
+
 ##### `crc32_c`<sup>Required</sup> <a name="crc32_c" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.crc32C"></a>
 
 ```python
@@ -1496,6 +1546,16 @@ content_type_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `contexts_input`<sup>Optional</sup> <a name="contexts_input" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObject.property.contextsInput"></a>
+
+```python
+contexts_input: GoogleStorageBucketObjectContexts
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a>
 
 ---
 
@@ -1882,6 +1942,7 @@ googleStorageBucketObject.GoogleStorageBucketObjectConfig(
   content_encoding: str = None,
   content_language: str = None,
   content_type: str = None,
+  contexts: GoogleStorageBucketObjectContexts = None,
   customer_encryption: GoogleStorageBucketObjectCustomerEncryption = None,
   deletion_policy: str = None,
   detect_md5_hash: str = None,
@@ -1918,12 +1979,13 @@ googleStorageBucketObject.GoogleStorageBucketObjectConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.contentEncoding">content_encoding</a></code> | <code>str</code> | Content-Encoding of the object data. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.contentLanguage">content_language</a></code> | <code>str</code> | Content-Language of the object data. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.contentType">content_type</a></code> | <code>str</code> | Content-Type of the object data. Defaults to "application/octet-stream" or "text/plain; charset=utf-8". |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.contexts">contexts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a></code> | contexts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.customerEncryption">customer_encryption</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectCustomerEncryption">GoogleStorageBucketObjectCustomerEncryption</a></code> | customer_encryption block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | The deletion policy for the object. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.detectMd5Hash">detect_md5_hash</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.detectMd5Hash">detect_md5_hash</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.eventBasedHold">event_based_hold</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether an object is under event-based hold. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.forceEmptyContentType">force_empty_content_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Flag to set empty Content-Type. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.kmsKeyName">kms_key_name</a></code> | <code>str</code> | Resource name of the Cloud KMS key that will be used to encrypt the object. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.metadata">metadata</a></code> | <code>typing.Mapping[str]</code> | User-provided metadata, in key/value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.retention">retention</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectRetention">GoogleStorageBucketObjectRetention</a></code> | retention block. |
@@ -2015,7 +2077,7 @@ bucket: str
 
 The name of the containing bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#bucket GoogleStorageBucketObject#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#bucket GoogleStorageBucketObject#bucket}
 
 ---
 
@@ -2029,7 +2091,7 @@ name: str
 
 The name of the object. If you're interpolating the name of this object, see output_name instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#name GoogleStorageBucketObject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#name GoogleStorageBucketObject#name}
 
 ---
 
@@ -2045,7 +2107,7 @@ Cache-Control directive to specify caching behavior of object data.
 
 If omitted and object is accessible to all anonymous users, the default will be public, max-age=3600
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#cache_control GoogleStorageBucketObject#cache_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#cache_control GoogleStorageBucketObject#cache_control}
 
 ---
 
@@ -2061,7 +2123,7 @@ Data as string to be uploaded.
 
 Must be defined if source is not. Note: The content field is marked as sensitive. To view the raw contents of the object, please define an output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content GoogleStorageBucketObject#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content GoogleStorageBucketObject#content}
 
 ---
 
@@ -2075,7 +2137,7 @@ content_disposition: str
 
 Content-Disposition of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_disposition GoogleStorageBucketObject#content_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_disposition GoogleStorageBucketObject#content_disposition}
 
 ---
 
@@ -2089,7 +2151,7 @@ content_encoding: str
 
 Content-Encoding of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_encoding GoogleStorageBucketObject#content_encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_encoding GoogleStorageBucketObject#content_encoding}
 
 ---
 
@@ -2103,7 +2165,7 @@ content_language: str
 
 Content-Language of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_language GoogleStorageBucketObject#content_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_language GoogleStorageBucketObject#content_language}
 
 ---
 
@@ -2117,7 +2179,21 @@ content_type: str
 
 Content-Type of the object data. Defaults to "application/octet-stream" or "text/plain; charset=utf-8".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#content_type GoogleStorageBucketObject#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#content_type GoogleStorageBucketObject#content_type}
+
+---
+
+##### `contexts`<sup>Optional</sup> <a name="contexts" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectConfig.property.contexts"></a>
+
+```python
+contexts: GoogleStorageBucketObjectContexts
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a>
+
+contexts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#contexts GoogleStorageBucketObject#contexts}
 
 ---
 
@@ -2131,7 +2207,7 @@ customer_encryption: GoogleStorageBucketObjectCustomerEncryption
 
 customer_encryption block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#customer_encryption GoogleStorageBucketObject#customer_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#customer_encryption GoogleStorageBucketObject#customer_encryption}
 
 ---
 
@@ -2147,7 +2223,7 @@ The deletion policy for the object.
 
 Setting ABANDON allows the resource to be abandoned rather than deleted when removed from your Terraform configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#deletion_policy GoogleStorageBucketObject#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#deletion_policy GoogleStorageBucketObject#deletion_policy}
 
 ---
 
@@ -2159,7 +2235,7 @@ detect_md5_hash: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#detect_md5hash GoogleStorageBucketObject#detect_md5hash}.
 
 ---
 
@@ -2175,7 +2251,7 @@ Whether an object is under event-based hold.
 
 Event-based hold is a way to retain objects until an event occurs, which is signified by the hold's release (i.e. this value is set to false). After being released (set to false), such objects will be subject to bucket-level retention (if any).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#event_based_hold GoogleStorageBucketObject#event_based_hold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#event_based_hold GoogleStorageBucketObject#event_based_hold}
 
 ---
 
@@ -2189,7 +2265,7 @@ force_empty_content_type: bool | IResolvable
 
 Flag to set empty Content-Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#force_empty_content_type GoogleStorageBucketObject#force_empty_content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#force_empty_content_type GoogleStorageBucketObject#force_empty_content_type}
 
 ---
 
@@ -2201,7 +2277,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#id GoogleStorageBucketObject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2220,7 +2296,7 @@ Resource name of the Cloud KMS key that will be used to encrypt the object.
 
 Overrides the object metadata's kmsKeyName value, if any.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#kms_key_name GoogleStorageBucketObject#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#kms_key_name GoogleStorageBucketObject#kms_key_name}
 
 ---
 
@@ -2234,7 +2310,7 @@ metadata: typing.Mapping[str]
 
 User-provided metadata, in key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#metadata GoogleStorageBucketObject#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#metadata GoogleStorageBucketObject#metadata}
 
 ---
 
@@ -2248,7 +2324,7 @@ retention: GoogleStorageBucketObjectRetention
 
 retention block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#retention GoogleStorageBucketObject#retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#retention GoogleStorageBucketObject#retention}
 
 ---
 
@@ -2262,7 +2338,7 @@ source: str
 
 A path to the data you want to upload. Must be defined if content is not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#source GoogleStorageBucketObject#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#source GoogleStorageBucketObject#source}
 
 ---
 
@@ -2276,7 +2352,7 @@ source_md5_hash: str
 
 User-provided md5hash, Base 64 MD5 hash of the object data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#source_md5hash GoogleStorageBucketObject#source_md5hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#source_md5hash GoogleStorageBucketObject#source_md5hash}
 
 ---
 
@@ -2292,7 +2368,7 @@ The StorageClass of the new bucket object.
 
 Supported values include: MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE, ARCHIVE. If not provided, this defaults to the bucket's default storage class or to a standard class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#storage_class GoogleStorageBucketObject#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#storage_class GoogleStorageBucketObject#storage_class}
 
 ---
 
@@ -2308,7 +2384,7 @@ Whether an object is under temporary hold.
 
 While this flag is set to true, the object is protected against deletion and overwrites.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#temporary_hold GoogleStorageBucketObject#temporary_hold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#temporary_hold GoogleStorageBucketObject#temporary_hold}
 
 ---
 
@@ -2322,7 +2398,91 @@ timeouts: GoogleStorageBucketObjectTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#timeouts GoogleStorageBucketObject#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#timeouts GoogleStorageBucketObject#timeouts}
+
+---
+
+### GoogleStorageBucketObjectContexts <a name="GoogleStorageBucketObjectContexts" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_storage_bucket_object
+
+googleStorageBucketObject.GoogleStorageBucketObjectContexts(
+  custom: IResolvable | typing.List[GoogleStorageBucketObjectContextsCustom]
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts.property.custom">custom</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]</code> | custom block. |
+
+---
+
+##### `custom`<sup>Required</sup> <a name="custom" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts.property.custom"></a>
+
+```python
+custom: IResolvable | typing.List[GoogleStorageBucketObjectContextsCustom]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]
+
+custom block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#custom GoogleStorageBucketObject#custom}
+
+---
+
+### GoogleStorageBucketObjectContextsCustom <a name="GoogleStorageBucketObjectContextsCustom" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_storage_bucket_object
+
+googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom(
+  key: str,
+  value: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom.property.key">key</a></code> | <code>str</code> | An individual object context. Context keys and their corresponding values must start with an alphanumeric character. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom.property.value">value</a></code> | <code>str</code> | The value associated with this context. This field holds the primary information for the given context key. |
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+An individual object context. Context keys and their corresponding values must start with an alphanumeric character.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#key GoogleStorageBucketObject#key}
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+The value associated with this context. This field holds the primary information for the given context key.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#value GoogleStorageBucketObject#value}
 
 ---
 
@@ -2358,7 +2518,7 @@ encryption_key: str
 
 Base64 encoded customer supplied encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#encryption_key GoogleStorageBucketObject#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#encryption_key GoogleStorageBucketObject#encryption_key}
 
 ---
 
@@ -2372,7 +2532,7 @@ encryption_algorithm: str
 
 The encryption algorithm. Default: AES256.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#encryption_algorithm GoogleStorageBucketObject#encryption_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#encryption_algorithm GoogleStorageBucketObject#encryption_algorithm}
 
 ---
 
@@ -2408,7 +2568,7 @@ mode: str
 
 The object retention mode. Supported values include: "Unlocked", "Locked".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#mode GoogleStorageBucketObject#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#mode GoogleStorageBucketObject#mode}
 
 ---
 
@@ -2422,7 +2582,7 @@ retain_until_time: str
 
 Time in RFC 3339 (e.g. 2030-01-01T02:03:04Z) until which object retention protects this object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#retain_until_time GoogleStorageBucketObject#retain_until_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#retain_until_time GoogleStorageBucketObject#retain_until_time}
 
 ---
 
@@ -2444,9 +2604,9 @@ googleStorageBucketObject.GoogleStorageBucketObjectTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#create GoogleStorageBucketObject#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#delete GoogleStorageBucketObject#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#update GoogleStorageBucketObject#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#create GoogleStorageBucketObject#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#delete GoogleStorageBucketObject#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#update GoogleStorageBucketObject#update}. |
 
 ---
 
@@ -2458,7 +2618,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#create GoogleStorageBucketObject#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#create GoogleStorageBucketObject#create}.
 
 ---
 
@@ -2470,7 +2630,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#delete GoogleStorageBucketObject#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#delete GoogleStorageBucketObject#delete}.
 
 ---
 
@@ -2482,11 +2642,852 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_object#update GoogleStorageBucketObject#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_object#update GoogleStorageBucketObject#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleStorageBucketObjectContextsCustomList <a name="GoogleStorageBucketObjectContextsCustomList" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_storage_bucket_object
+
+googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleStorageBucketObjectContextsCustomOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleStorageBucketObjectContextsCustom]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]
+
+---
+
+
+### GoogleStorageBucketObjectContextsCustomOutputReference <a name="GoogleStorageBucketObjectContextsCustomOutputReference" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_storage_bucket_object
+
+googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `create_time`<sup>Required</sup> <a name="create_time" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.createTime"></a>
+
+```python
+create_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `update_time`<sup>Required</sup> <a name="update_time" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.updateTime"></a>
+
+```python
+update_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleStorageBucketObjectContextsCustom
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>
+
+---
+
+
+### GoogleStorageBucketObjectContextsOutputReference <a name="GoogleStorageBucketObjectContextsOutputReference" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_storage_bucket_object
+
+googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.putCustom">put_custom</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_custom` <a name="put_custom" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.putCustom"></a>
+
+```python
+def put_custom(
+  value: IResolvable | typing.List[GoogleStorageBucketObjectContextsCustom]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.putCustom.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.custom">custom</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList">GoogleStorageBucketObjectContextsCustomList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.customInput">custom_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `custom`<sup>Required</sup> <a name="custom" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.custom"></a>
+
+```python
+custom: GoogleStorageBucketObjectContextsCustomList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustomList">GoogleStorageBucketObjectContextsCustomList</a>
+
+---
+
+##### `custom_input`<sup>Optional</sup> <a name="custom_input" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.customInput"></a>
+
+```python
+custom_input: IResolvable | typing.List[GoogleStorageBucketObjectContextsCustom]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsCustom">GoogleStorageBucketObjectContextsCustom</a>]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContextsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleStorageBucketObjectContexts
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectContexts">GoogleStorageBucketObjectContexts</a>
+
+---
+
 
 ### GoogleStorageBucketObjectCustomerEncryptionOutputReference <a name="GoogleStorageBucketObjectCustomerEncryptionOutputReference" id="@cdktn/provider-google-beta.googleStorageBucketObject.GoogleStorageBucketObjectCustomerEncryptionOutputReference"></a>
 

@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowEncryptionSpec <a name="GoogleDialogflowEncryptionSpec" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpec"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 googledialogflowencryptionspec.NewGoogleDialogflowEncryptionSpec(scope Construct, id *string, config GoogleDialogflowEncryptionSpecConfig) GoogleDialogflowEncryptionSpec
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpec.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 googledialogflowencryptionspec.GoogleDialogflowEncryptionSpec_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpec.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 googledialogflowencryptionspec.GoogleDialogflowEncryptionSpec_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googledialogflowencryptionspec.GoogleDialogflowEncryptionSpec_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpec.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 googledialogflowencryptionspec.GoogleDialogflowEncryptionSpec_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googledialogflowencryptionspec.GoogleDialogflowEncryptionSpec_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpec.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 googledialogflowencryptionspec.GoogleDialogflowEncryptionSpec_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GoogleDialogflowEncryption
 
 The id of the existing GoogleDialogflowEncryptionSpec that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,7 +846,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 &googledialogflowencryptionspec.GoogleDialogflowEncryptionSpecConfig {
 	Connection: interface{},
@@ -856,11 +856,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecEncryptionSpec,
+	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecEncryptionSpec,
 	Location: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts,
 }
 ```
 
@@ -877,8 +877,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.encryptionSpec">EncryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecEncryptionSpec">GoogleDialogflowEncryptionSpecEncryptionSpec</a></code> | encryption_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.location">Location</a></code> | <code>*string</code> | The location in which the encryptionSpec is to be initialized. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#id GoogleDialogflowEncryptionSpec#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#project GoogleDialogflowEncryptionSpec#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#id GoogleDialogflowEncryptionSpec#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#project GoogleDialogflowEncryptionSpec#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts">GoogleDialogflowEncryptionSpecTimeouts</a></code> | timeouts block. |
 
 ---
@@ -963,7 +963,7 @@ EncryptionSpec GoogleDialogflowEncryptionSpecEncryptionSpec
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#encryption_spec GoogleDialogflowEncryptionSpec#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#encryption_spec GoogleDialogflowEncryptionSpec#encryption_spec}
 
 ---
 
@@ -977,7 +977,7 @@ Location *string
 
 The location in which the encryptionSpec is to be initialized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#location GoogleDialogflowEncryptionSpec#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#location GoogleDialogflowEncryptionSpec#location}
 
 ---
 
@@ -989,7 +989,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#id GoogleDialogflowEncryptionSpec#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#id GoogleDialogflowEncryptionSpec#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1004,7 +1004,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#project GoogleDialogflowEncryptionSpec#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#project GoogleDialogflowEncryptionSpec#project}.
 
 ---
 
@@ -1018,7 +1018,7 @@ Timeouts GoogleDialogflowEncryptionSpecTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#timeouts GoogleDialogflowEncryptionSpec#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#timeouts GoogleDialogflowEncryptionSpec#timeouts}
 
 ---
 
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 &googledialogflowencryptionspec.GoogleDialogflowEncryptionSpecEncryptionSpec {
 	KmsKey: *string,
@@ -1056,7 +1056,7 @@ If empty, the resource is secured by the default Google encryption key.
 Only the key in the same location as this resource is allowed to be used for encryption.
 Format: projects/{project}/locations/{location}/keyRings/{keyRing}/cryptoKeys/{key}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#kms_key GoogleDialogflowEncryptionSpec#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#kms_key GoogleDialogflowEncryptionSpec#kms_key}
 
 ---
 
@@ -1065,7 +1065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 &googledialogflowencryptionspec.GoogleDialogflowEncryptionSpecTimeouts {
 	Create: *string,
@@ -1077,8 +1077,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#create GoogleDialogflowEncryptionSpec#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#delete GoogleDialogflowEncryptionSpec#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#create GoogleDialogflowEncryptionSpec#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#delete GoogleDialogflowEncryptionSpec#delete}. |
 
 ---
 
@@ -1090,7 +1090,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#create GoogleDialogflowEncryptionSpec#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#create GoogleDialogflowEncryptionSpec#create}.
 
 ---
 
@@ -1102,7 +1102,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_encryption_spec#delete GoogleDialogflowEncryptionSpec#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec#delete GoogleDialogflowEncryptionSpec#delete}.
 
 ---
 
@@ -1113,7 +1113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 googledialogflowencryptionspec.NewGoogleDialogflowEncryptionSpecEncryptionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference
 ```
@@ -1384,7 +1384,7 @@ func InternalValue() GoogleDialogflowEncryptionSpecEncryptionSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowEncryptionSpec.GoogleDialogflowEncryptionSpecTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowencryptionspec"
 
 googledialogflowencryptionspec.NewGoogleDialogflowEncryptionSpecTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowEncryptionSpecTimeoutsOutputReference
 ```

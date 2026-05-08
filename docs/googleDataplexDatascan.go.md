@@ -4,12 +4,12 @@
 
 ### GoogleDataplexDatascan <a name="GoogleDataplexDatascan" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan google_dataplex_datascan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan google_dataplex_datascan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascan(scope Construct, id *string, config GoogleDataplexDatascanConfig) GoogleDataplexDatascan
 ```
@@ -76,15 +76,19 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putData">PutData</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataDiscoverySpec">PutDataDiscoverySpec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataDocumentationSpec">PutDataDocumentationSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataProfileSpec">PutDataProfileSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataQualitySpec">PutDataQualitySpec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putExecutionIdentity">PutExecutionIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putExecutionSpec">PutExecutionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDataDiscoverySpec">ResetDataDiscoverySpec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDataDocumentationSpec">ResetDataDocumentationSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDataProfileSpec">ResetDataProfileSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDataQualitySpec">ResetDataQualitySpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDisplayName">ResetDisplayName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetExecutionIdentity">ResetExecutionIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetLabels">ResetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetProject">ResetProject</a></code> | *No description.* |
@@ -425,6 +429,18 @@ func PutDataDiscoverySpec(value GoogleDataplexDatascanDataDiscoverySpec)
 
 ---
 
+##### `PutDataDocumentationSpec` <a name="PutDataDocumentationSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataDocumentationSpec"></a>
+
+```go
+func PutDataDocumentationSpec(value GoogleDataplexDatascanDataDocumentationSpec)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataDocumentationSpec.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec">GoogleDataplexDatascanDataDocumentationSpec</a>
+
+---
+
 ##### `PutDataProfileSpec` <a name="PutDataProfileSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataProfileSpec"></a>
 
 ```go
@@ -446,6 +462,18 @@ func PutDataQualitySpec(value GoogleDataplexDatascanDataQualitySpec)
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putDataQualitySpec.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec">GoogleDataplexDatascanDataQualitySpec</a>
+
+---
+
+##### `PutExecutionIdentity` <a name="PutExecutionIdentity" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putExecutionIdentity"></a>
+
+```go
+func PutExecutionIdentity(value GoogleDataplexDatascanExecutionIdentity)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.putExecutionIdentity.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity">GoogleDataplexDatascanExecutionIdentity</a>
 
 ---
 
@@ -479,6 +507,12 @@ func PutTimeouts(value GoogleDataplexDatascanTimeouts)
 func ResetDataDiscoverySpec()
 ```
 
+##### `ResetDataDocumentationSpec` <a name="ResetDataDocumentationSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDataDocumentationSpec"></a>
+
+```go
+func ResetDataDocumentationSpec()
+```
+
 ##### `ResetDataProfileSpec` <a name="ResetDataProfileSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetDataProfileSpec"></a>
 
 ```go
@@ -501,6 +535,12 @@ func ResetDescription()
 
 ```go
 func ResetDisplayName()
+```
+
+##### `ResetExecutionIdentity` <a name="ResetExecutionIdentity" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetExecutionIdentity"></a>
+
+```go
+func ResetExecutionIdentity()
 ```
 
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.resetId"></a>
@@ -541,7 +581,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.GoogleDataplexDatascan_IsConstruct(x interface{}) *bool
 ```
@@ -573,7 +613,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.GoogleDataplexDatascan_IsTerraformElement(x interface{}) *bool
 ```
@@ -587,7 +627,7 @@ googledataplexdatascan.GoogleDataplexDatascan_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.GoogleDataplexDatascan_IsTerraformResource(x interface{}) *bool
 ```
@@ -601,7 +641,7 @@ googledataplexdatascan.GoogleDataplexDatascan_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.GoogleDataplexDatascan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -630,7 +670,7 @@ The construct id used in the generated config for the GoogleDataplexDatascan to 
 
 The id of the existing GoogleDataplexDatascan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -663,9 +703,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.createTime">CreateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.data">Data</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataOutputReference">GoogleDataplexDatascanDataOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataDiscoverySpec">DataDiscoverySpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecOutputReference">GoogleDataplexDatascanDataDiscoverySpecOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataDocumentationSpec">DataDocumentationSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference">GoogleDataplexDatascanDataDocumentationSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataProfileSpec">DataProfileSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference">GoogleDataplexDatascanDataProfileSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataQualitySpec">DataQualitySpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference">GoogleDataplexDatascanDataQualitySpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.effectiveLabels">EffectiveLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.executionIdentity">ExecutionIdentity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference">GoogleDataplexDatascanExecutionIdentityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.executionSpec">ExecutionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecOutputReference">GoogleDataplexDatascanExecutionSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.executionStatus">ExecutionStatus</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionStatusList">GoogleDataplexDatascanExecutionStatusList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.name">Name</a></code> | <code>*string</code> | *No description.* |
@@ -676,12 +718,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.uid">Uid</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.updateTime">UpdateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataDiscoverySpecInput">DataDiscoverySpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpec">GoogleDataplexDatascanDataDiscoverySpec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataDocumentationSpecInput">DataDocumentationSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec">GoogleDataplexDatascanDataDocumentationSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataInput">DataInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanData">GoogleDataplexDatascanData</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataProfileSpecInput">DataProfileSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec">GoogleDataplexDatascanDataProfileSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataQualitySpecInput">DataQualitySpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec">GoogleDataplexDatascanDataQualitySpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataScanIdInput">DataScanIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.executionIdentityInput">ExecutionIdentityInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity">GoogleDataplexDatascanExecutionIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.executionSpecInput">ExecutionSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpec">GoogleDataplexDatascanExecutionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.labelsInput">LabelsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
@@ -870,6 +914,16 @@ func DataDiscoverySpec() GoogleDataplexDatascanDataDiscoverySpecOutputReference
 
 ---
 
+##### `DataDocumentationSpec`<sup>Required</sup> <a name="DataDocumentationSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataDocumentationSpec"></a>
+
+```go
+func DataDocumentationSpec() GoogleDataplexDatascanDataDocumentationSpecOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference">GoogleDataplexDatascanDataDocumentationSpecOutputReference</a>
+
+---
+
 ##### `DataProfileSpec`<sup>Required</sup> <a name="DataProfileSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataProfileSpec"></a>
 
 ```go
@@ -897,6 +951,16 @@ func EffectiveLabels() StringMap
 ```
 
 - *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.StringMap
+
+---
+
+##### `ExecutionIdentity`<sup>Required</sup> <a name="ExecutionIdentity" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.executionIdentity"></a>
+
+```go
+func ExecutionIdentity() GoogleDataplexDatascanExecutionIdentityOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference">GoogleDataplexDatascanExecutionIdentityOutputReference</a>
 
 ---
 
@@ -1000,6 +1064,16 @@ func DataDiscoverySpecInput() GoogleDataplexDatascanDataDiscoverySpec
 
 ---
 
+##### `DataDocumentationSpecInput`<sup>Optional</sup> <a name="DataDocumentationSpecInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataDocumentationSpecInput"></a>
+
+```go
+func DataDocumentationSpecInput() GoogleDataplexDatascanDataDocumentationSpec
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec">GoogleDataplexDatascanDataDocumentationSpec</a>
+
+---
+
 ##### `DataInput`<sup>Optional</sup> <a name="DataInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.dataInput"></a>
 
 ```go
@@ -1057,6 +1131,16 @@ func DisplayNameInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `ExecutionIdentityInput`<sup>Optional</sup> <a name="ExecutionIdentityInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascan.property.executionIdentityInput"></a>
+
+```go
+func ExecutionIdentityInput() GoogleDataplexDatascanExecutionIdentity
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity">GoogleDataplexDatascanExecutionIdentity</a>
 
 ---
 
@@ -1215,7 +1299,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanConfig {
 	Connection: interface{},
@@ -1225,19 +1309,21 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Data: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanData,
+	Data: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanData,
 	DataScanId: *string,
-	ExecutionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpec,
+	ExecutionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpec,
 	Location: *string,
-	DataDiscoverySpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpec,
-	DataProfileSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec,
-	DataQualitySpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec,
+	DataDiscoverySpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpec,
+	DataDocumentationSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec,
+	DataProfileSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec,
+	DataQualitySpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec,
 	Description: *string,
 	DisplayName: *string,
+	ExecutionIdentity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanTimeouts,
 }
 ```
 
@@ -1257,13 +1343,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.executionSpec">ExecutionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpec">GoogleDataplexDatascanExecutionSpec</a></code> | execution_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.location">Location</a></code> | <code>*string</code> | The location where the data scan should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.dataDiscoverySpec">DataDiscoverySpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpec">GoogleDataplexDatascanDataDiscoverySpec</a></code> | data_discovery_spec block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.dataDocumentationSpec">DataDocumentationSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec">GoogleDataplexDatascanDataDocumentationSpec</a></code> | data_documentation_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.dataProfileSpec">DataProfileSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec">GoogleDataplexDatascanDataProfileSpec</a></code> | data_profile_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.dataQualitySpec">DataQualitySpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec">GoogleDataplexDatascanDataQualitySpec</a></code> | data_quality_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.description">Description</a></code> | <code>*string</code> | Description of the scan. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User friendly display name. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#id GoogleDataplexDatascan#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.executionIdentity">ExecutionIdentity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity">GoogleDataplexDatascanExecutionIdentity</a></code> | execution_identity block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#id GoogleDataplexDatascan#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | User-defined labels for the scan. A list of key->value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#project GoogleDataplexDatascan#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#project GoogleDataplexDatascan#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts">GoogleDataplexDatascanTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1348,7 +1436,7 @@ Data GoogleDataplexDatascanData
 
 data block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#data GoogleDataplexDatascan#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#data GoogleDataplexDatascan#data}
 
 ---
 
@@ -1364,7 +1452,7 @@ DataScan identifier.
 
 Must contain only lowercase letters, numbers and hyphens. Must start with a letter. Must end with a number or a letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#data_scan_id GoogleDataplexDatascan#data_scan_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#data_scan_id GoogleDataplexDatascan#data_scan_id}
 
 ---
 
@@ -1378,7 +1466,7 @@ ExecutionSpec GoogleDataplexDatascanExecutionSpec
 
 execution_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#execution_spec GoogleDataplexDatascan#execution_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#execution_spec GoogleDataplexDatascan#execution_spec}
 
 ---
 
@@ -1392,7 +1480,7 @@ Location *string
 
 The location where the data scan should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#location GoogleDataplexDatascan#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#location GoogleDataplexDatascan#location}
 
 ---
 
@@ -1406,7 +1494,21 @@ DataDiscoverySpec GoogleDataplexDatascanDataDiscoverySpec
 
 data_discovery_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#data_discovery_spec GoogleDataplexDatascan#data_discovery_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#data_discovery_spec GoogleDataplexDatascan#data_discovery_spec}
+
+---
+
+##### `DataDocumentationSpec`<sup>Optional</sup> <a name="DataDocumentationSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.dataDocumentationSpec"></a>
+
+```go
+DataDocumentationSpec GoogleDataplexDatascanDataDocumentationSpec
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec">GoogleDataplexDatascanDataDocumentationSpec</a>
+
+data_documentation_spec block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#data_documentation_spec GoogleDataplexDatascan#data_documentation_spec}
 
 ---
 
@@ -1420,7 +1522,7 @@ DataProfileSpec GoogleDataplexDatascanDataProfileSpec
 
 data_profile_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#data_profile_spec GoogleDataplexDatascan#data_profile_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#data_profile_spec GoogleDataplexDatascan#data_profile_spec}
 
 ---
 
@@ -1434,7 +1536,7 @@ DataQualitySpec GoogleDataplexDatascanDataQualitySpec
 
 data_quality_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#data_quality_spec GoogleDataplexDatascan#data_quality_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#data_quality_spec GoogleDataplexDatascan#data_quality_spec}
 
 ---
 
@@ -1448,7 +1550,7 @@ Description *string
 
 Description of the scan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#description GoogleDataplexDatascan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#description GoogleDataplexDatascan#description}
 
 ---
 
@@ -1462,7 +1564,21 @@ DisplayName *string
 
 User friendly display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#display_name GoogleDataplexDatascan#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#display_name GoogleDataplexDatascan#display_name}
+
+---
+
+##### `ExecutionIdentity`<sup>Optional</sup> <a name="ExecutionIdentity" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanConfig.property.executionIdentity"></a>
+
+```go
+ExecutionIdentity GoogleDataplexDatascanExecutionIdentity
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity">GoogleDataplexDatascanExecutionIdentity</a>
+
+execution_identity block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#execution_identity GoogleDataplexDatascan#execution_identity}
 
 ---
 
@@ -1474,7 +1590,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#id GoogleDataplexDatascan#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#id GoogleDataplexDatascan#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1494,7 +1610,7 @@ User-defined labels for the scan. A list of key->value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#labels GoogleDataplexDatascan#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#labels GoogleDataplexDatascan#labels}
 
 ---
 
@@ -1506,7 +1622,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#project GoogleDataplexDatascan#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#project GoogleDataplexDatascan#project}.
 
 ---
 
@@ -1520,7 +1636,7 @@ Timeouts GoogleDataplexDatascanTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#timeouts GoogleDataplexDatascan#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#timeouts GoogleDataplexDatascan#timeouts}
 
 ---
 
@@ -1529,7 +1645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanData {
 	Entity: *string,
@@ -1556,7 +1672,7 @@ Entity *string
 
 The Dataplex entity that represents the data source(e.g. BigQuery table) for Datascan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#entity GoogleDataplexDatascan#entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#entity GoogleDataplexDatascan#entity}
 
 ---
 
@@ -1573,7 +1689,7 @@ The service-qualified full resource name of the cloud resource for a DataScan jo
 The field could be:
 Cloud Storage bucket (//storage.googleapis.com/projects/PROJECT_ID/buckets/BUCKET_ID) for DataDiscoveryScan OR BigQuery table of type "TABLE" (/bigquery.googleapis.com/projects/PROJECT_ID/datasets/DATASET_ID/tables/TABLE_ID) for DataProfileScan/DataQualityScan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#resource GoogleDataplexDatascan#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#resource GoogleDataplexDatascan#resource}
 
 ---
 
@@ -1582,11 +1698,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataDiscoverySpec {
-	BigqueryPublishingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingConfig,
-	StorageConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfig,
+	BigqueryPublishingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingConfig,
+	StorageConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfig,
 }
 ```
 
@@ -1609,7 +1725,7 @@ BigqueryPublishingConfig GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishi
 
 bigquery_publishing_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#bigquery_publishing_config GoogleDataplexDatascan#bigquery_publishing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#bigquery_publishing_config GoogleDataplexDatascan#bigquery_publishing_config}
 
 ---
 
@@ -1623,7 +1739,7 @@ StorageConfig GoogleDataplexDatascanDataDiscoverySpecStorageConfig
 
 storage_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#storage_config GoogleDataplexDatascan#storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#storage_config GoogleDataplexDatascan#storage_config}
 
 ---
 
@@ -1632,7 +1748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingConfig {
 	Connection: *string,
@@ -1663,7 +1779,7 @@ Connection *string
 
 The BigQuery connection used to create BigLake tables. Must be in the form 'projects/{projectId}/locations/{locationId}/connections/{connection_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#connection GoogleDataplexDatascan#connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#connection GoogleDataplexDatascan#connection}
 
 ---
 
@@ -1677,7 +1793,7 @@ Location *string
 
 The location of the BigQuery dataset to publish BigLake external or non-BigLake external tables to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#location GoogleDataplexDatascan#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#location GoogleDataplexDatascan#location}
 
 ---
 
@@ -1693,7 +1809,7 @@ The project of the BigQuery dataset to publish BigLake external or non-BigLake e
 
 If not specified, the project of the Cloud Storage bucket will be used. The format is "projects/{project_id_or_number}".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#project GoogleDataplexDatascan#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#project GoogleDataplexDatascan#project}
 
 ---
 
@@ -1707,7 +1823,7 @@ TableType *string
 
 Determines whether to publish discovered tables as BigLake external tables or non-BigLake external tables. Possible values: ["TABLE_TYPE_UNSPECIFIED", "EXTERNAL", "BIGLAKE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#table_type GoogleDataplexDatascan#table_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#table_type GoogleDataplexDatascan#table_type}
 
 ---
 
@@ -1716,13 +1832,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfig {
-	CsvOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptions,
+	CsvOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptions,
 	ExcludePatterns: *[]*string,
 	IncludePatterns: *[]*string,
-	JsonOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptions,
+	JsonOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptions,
 }
 ```
 
@@ -1747,7 +1863,7 @@ CsvOptions GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptions
 
 csv_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#csv_options GoogleDataplexDatascan#csv_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#csv_options GoogleDataplexDatascan#csv_options}
 
 ---
 
@@ -1763,7 +1879,7 @@ Defines the data to exclude during discovery.
 
 Provide a list of patterns that identify the data to exclude. For Cloud Storage bucket assets, these patterns are interpreted as glob patterns used to match object names. For BigQuery dataset assets, these patterns are interpreted as patterns to match table names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#exclude_patterns GoogleDataplexDatascan#exclude_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#exclude_patterns GoogleDataplexDatascan#exclude_patterns}
 
 ---
 
@@ -1779,7 +1895,7 @@ Defines the data to include during discovery when only a subset of the data shou
 
 Provide a list of patterns that identify the data to include. For Cloud Storage bucket assets, these patterns are interpreted as glob patterns used to match object names. For BigQuery dataset assets, these patterns are interpreted as patterns to match table names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#include_patterns GoogleDataplexDatascan#include_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#include_patterns GoogleDataplexDatascan#include_patterns}
 
 ---
 
@@ -1793,7 +1909,7 @@ JsonOptions GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptions
 
 json_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#json_options GoogleDataplexDatascan#json_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#json_options GoogleDataplexDatascan#json_options}
 
 ---
 
@@ -1802,7 +1918,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptions {
 	Delimiter: *string,
@@ -1835,7 +1951,7 @@ Delimiter *string
 
 The delimiter that is used to separate values. The default is ',' (comma).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#delimiter GoogleDataplexDatascan#delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#delimiter GoogleDataplexDatascan#delimiter}
 
 ---
 
@@ -1849,7 +1965,7 @@ Encoding *string
 
 The character encoding of the data. The default is UTF-8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#encoding GoogleDataplexDatascan#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#encoding GoogleDataplexDatascan#encoding}
 
 ---
 
@@ -1863,7 +1979,7 @@ HeaderRows *f64
 
 The number of rows to interpret as header rows that should be skipped when reading data rows.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#header_rows GoogleDataplexDatascan#header_rows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#header_rows GoogleDataplexDatascan#header_rows}
 
 ---
 
@@ -1879,7 +1995,7 @@ The character used to quote column values.
 
 Accepts '"' (double quotation mark) or ``` (single quotation mark). If unspecified, defaults to '"' (double quotation mark).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#quote GoogleDataplexDatascan#quote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#quote GoogleDataplexDatascan#quote}
 
 ---
 
@@ -1893,7 +2009,7 @@ TypeInferenceDisabled interface{}
 
 Whether to disable the inference of data types for CSV data. If true, all columns are registered as strings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#type_inference_disabled GoogleDataplexDatascan#type_inference_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#type_inference_disabled GoogleDataplexDatascan#type_inference_disabled}
 
 ---
 
@@ -1902,7 +2018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptions {
 	Encoding: *string,
@@ -1929,7 +2045,7 @@ Encoding *string
 
 The character encoding of the data. The default is UTF-8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#encoding GoogleDataplexDatascan#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#encoding GoogleDataplexDatascan#encoding}
 
 ---
 
@@ -1945,21 +2061,35 @@ Whether to disable the inference of data types for JSON data.
 
 If true, all columns are registered as their primitive types (strings, number, or boolean).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#type_inference_disabled GoogleDataplexDatascan#type_inference_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#type_inference_disabled GoogleDataplexDatascan#type_inference_disabled}
 
 ---
+
+### GoogleDataplexDatascanDataDocumentationSpec <a name="GoogleDataplexDatascanDataDocumentationSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanDataDocumentationSpec {
+
+}
+```
+
 
 ### GoogleDataplexDatascanDataProfileSpec <a name="GoogleDataplexDatascanDataProfileSpec" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataProfileSpec {
-	ExcludeFields: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecExcludeFields,
-	IncludeFields: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecIncludeFields,
-	PostScanActions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActions,
+	CatalogPublishingEnabled: interface{},
+	ExcludeFields: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecExcludeFields,
+	IncludeFields: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecIncludeFields,
+	PostScanActions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActions,
 	RowFilter: *string,
 	SamplingPercent: *f64,
 }
@@ -1969,11 +2099,26 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.property.catalogPublishingEnabled">CatalogPublishingEnabled</a></code> | <code>interface{}</code> | If set, the latest DataScan job result will be published to Dataplex Catalog. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.property.excludeFields">ExcludeFields</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecExcludeFields">GoogleDataplexDatascanDataProfileSpecExcludeFields</a></code> | exclude_fields block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.property.includeFields">IncludeFields</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecIncludeFields">GoogleDataplexDatascanDataProfileSpecIncludeFields</a></code> | include_fields block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.property.postScanActions">PostScanActions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActions">GoogleDataplexDatascanDataProfileSpecPostScanActions</a></code> | post_scan_actions block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.property.rowFilter">RowFilter</a></code> | <code>*string</code> | A filter applied to all rows in a single DataScan job. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.property.samplingPercent">SamplingPercent</a></code> | <code>*f64</code> | The percentage of the records to be selected from the dataset for DataScan. |
+
+---
+
+##### `CatalogPublishingEnabled`<sup>Optional</sup> <a name="CatalogPublishingEnabled" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec.property.catalogPublishingEnabled"></a>
+
+```go
+CatalogPublishingEnabled interface{}
+```
+
+- *Type:* interface{}
+
+If set, the latest DataScan job result will be published to Dataplex Catalog.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#catalog_publishing_enabled GoogleDataplexDatascan#catalog_publishing_enabled}
 
 ---
 
@@ -1987,7 +2132,7 @@ ExcludeFields GoogleDataplexDatascanDataProfileSpecExcludeFields
 
 exclude_fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#exclude_fields GoogleDataplexDatascan#exclude_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#exclude_fields GoogleDataplexDatascan#exclude_fields}
 
 ---
 
@@ -2001,7 +2146,7 @@ IncludeFields GoogleDataplexDatascanDataProfileSpecIncludeFields
 
 include_fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#include_fields GoogleDataplexDatascan#include_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#include_fields GoogleDataplexDatascan#include_fields}
 
 ---
 
@@ -2015,7 +2160,7 @@ PostScanActions GoogleDataplexDatascanDataProfileSpecPostScanActions
 
 post_scan_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#post_scan_actions GoogleDataplexDatascan#post_scan_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#post_scan_actions GoogleDataplexDatascan#post_scan_actions}
 
 ---
 
@@ -2031,7 +2176,7 @@ A filter applied to all rows in a single DataScan job.
 
 The filter needs to be a valid SQL expression for a WHERE clause in BigQuery standard SQL syntax. Example: col1 >= 0 AND col2 < 10
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#row_filter GoogleDataplexDatascan#row_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#row_filter GoogleDataplexDatascan#row_filter}
 
 ---
 
@@ -2048,7 +2193,7 @@ The percentage of the records to be selected from the dataset for DataScan.
 Value can range between 0.0 and 100.0 with up to 3 significant decimal digits.
 Sampling is not applied if 'sampling_percent' is not specified, 0 or 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#sampling_percent GoogleDataplexDatascan#sampling_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#sampling_percent GoogleDataplexDatascan#sampling_percent}
 
 ---
 
@@ -2057,7 +2202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecExcludeFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataProfileSpecExcludeFields {
 	FieldNames: *[]*string,
@@ -2085,7 +2230,7 @@ Expected input is a list of fully qualified names of fields as in the schema.
 Only top-level field names for nested fields are supported.
 For instance, if 'x' is of nested field type, listing 'x' is supported but 'x.y.z' is not supported. Here 'y' and 'y.z' are nested fields of 'x'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#field_names GoogleDataplexDatascan#field_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#field_names GoogleDataplexDatascan#field_names}
 
 ---
 
@@ -2094,7 +2239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecIncludeFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataProfileSpecIncludeFields {
 	FieldNames: *[]*string,
@@ -2122,7 +2267,7 @@ Expected input is a list of fully qualified names of fields as in the schema.
 Only top-level field names for nested fields are supported.
 For instance, if 'x' is of nested field type, listing 'x' is supported but 'x.y.z' is not supported. Here 'y' and 'y.z' are nested fields of 'x'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#field_names GoogleDataplexDatascan#field_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#field_names GoogleDataplexDatascan#field_names}
 
 ---
 
@@ -2131,10 +2276,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataProfileSpecPostScanActions {
-	BigqueryExport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExport,
+	BigqueryExport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExport,
 }
 ```
 
@@ -2156,7 +2301,7 @@ BigqueryExport GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExpor
 
 bigquery_export block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#bigquery_export GoogleDataplexDatascan#bigquery_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#bigquery_export GoogleDataplexDatascan#bigquery_export}
 
 ---
 
@@ -2165,7 +2310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExport {
 	ResultsTable: *string,
@@ -2190,7 +2335,7 @@ ResultsTable *string
 
 The BigQuery table to export DataProfileScan results to. Format://bigquery.googleapis.com/projects/PROJECT_ID/datasets/DATASET_ID/tables/TABLE_ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#results_table GoogleDataplexDatascan#results_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#results_table GoogleDataplexDatascan#results_table}
 
 ---
 
@@ -2199,11 +2344,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpec {
 	CatalogPublishingEnabled: interface{},
-	PostScanActions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActions,
+	EnableCatalogBasedRules: interface{},
+	Filter: *string,
+	PostScanActions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActions,
 	RowFilter: *string,
 	Rules: interface{},
 	SamplingPercent: *f64,
@@ -2215,6 +2362,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.catalogPublishingEnabled">CatalogPublishingEnabled</a></code> | <code>interface{}</code> | If set, the latest DataScan job result will be published to Dataplex Catalog. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.enableCatalogBasedRules">EnableCatalogBasedRules</a></code> | <code>interface{}</code> | If set to true, the scan will retrieve rules defined in Data Catalog for the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.filter">Filter</a></code> | <code>*string</code> | A filter to selectively run a subset of rules. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.postScanActions">PostScanActions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActions">GoogleDataplexDatascanDataQualitySpecPostScanActions</a></code> | post_scan_actions block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.rowFilter">RowFilter</a></code> | <code>*string</code> | A filter applied to all rows in a single DataScan job. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.rules">Rules</a></code> | <code>interface{}</code> | rules block. |
@@ -2232,7 +2381,35 @@ CatalogPublishingEnabled interface{}
 
 If set, the latest DataScan job result will be published to Dataplex Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#catalog_publishing_enabled GoogleDataplexDatascan#catalog_publishing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#catalog_publishing_enabled GoogleDataplexDatascan#catalog_publishing_enabled}
+
+---
+
+##### `EnableCatalogBasedRules`<sup>Optional</sup> <a name="EnableCatalogBasedRules" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.enableCatalogBasedRules"></a>
+
+```go
+EnableCatalogBasedRules interface{}
+```
+
+- *Type:* interface{}
+
+If set to true, the scan will retrieve rules defined in Data Catalog for the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#enable_catalog_based_rules GoogleDataplexDatascan#enable_catalog_based_rules}
+
+---
+
+##### `Filter`<sup>Optional</sup> <a name="Filter" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec.property.filter"></a>
+
+```go
+Filter *string
+```
+
+- *Type:* *string
+
+A filter to selectively run a subset of rules.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#filter GoogleDataplexDatascan#filter}
 
 ---
 
@@ -2246,7 +2423,7 @@ PostScanActions GoogleDataplexDatascanDataQualitySpecPostScanActions
 
 post_scan_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#post_scan_actions GoogleDataplexDatascan#post_scan_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#post_scan_actions GoogleDataplexDatascan#post_scan_actions}
 
 ---
 
@@ -2262,7 +2439,7 @@ A filter applied to all rows in a single DataScan job.
 
 The filter needs to be a valid SQL expression for a WHERE clause in BigQuery standard SQL syntax. Example: col1 >= 0 AND col2 < 10
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#row_filter GoogleDataplexDatascan#row_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#row_filter GoogleDataplexDatascan#row_filter}
 
 ---
 
@@ -2276,7 +2453,7 @@ Rules interface{}
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#rules GoogleDataplexDatascan#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#rules GoogleDataplexDatascan#rules}
 
 ---
 
@@ -2293,7 +2470,7 @@ The percentage of the records to be selected from the dataset for DataScan.
 Value can range between 0.0 and 100.0 with up to 3 significant decimal digits.
 Sampling is not applied if 'sampling_percent' is not specified, 0 or 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#sampling_percent GoogleDataplexDatascan#sampling_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#sampling_percent GoogleDataplexDatascan#sampling_percent}
 
 ---
 
@@ -2302,11 +2479,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecPostScanActions {
-	BigqueryExport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExport,
-	NotificationReport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReport,
+	BigqueryExport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExport,
+	NotificationReport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReport,
 }
 ```
 
@@ -2329,7 +2506,7 @@ BigqueryExport GoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExpor
 
 bigquery_export block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#bigquery_export GoogleDataplexDatascan#bigquery_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#bigquery_export GoogleDataplexDatascan#bigquery_export}
 
 ---
 
@@ -2343,7 +2520,7 @@ NotificationReport GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificat
 
 notification_report block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#notification_report GoogleDataplexDatascan#notification_report}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#notification_report GoogleDataplexDatascan#notification_report}
 
 ---
 
@@ -2352,7 +2529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExport {
 	ResultsTable: *string,
@@ -2377,7 +2554,7 @@ ResultsTable *string
 
 The BigQuery table to export DataQualityScan results to. Format://bigquery.googleapis.com/projects/PROJECT_ID/datasets/DATASET_ID/tables/TABLE_ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#results_table GoogleDataplexDatascan#results_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#results_table GoogleDataplexDatascan#results_table}
 
 ---
 
@@ -2386,13 +2563,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReport {
-	Recipients: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportRecipients,
-	JobEndTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobEndTrigger,
-	JobFailureTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobFailureTrigger,
-	ScoreThresholdTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportScoreThresholdTrigger,
+	Recipients: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportRecipients,
+	JobEndTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobEndTrigger,
+	JobFailureTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobFailureTrigger,
+	ScoreThresholdTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportScoreThresholdTrigger,
 }
 ```
 
@@ -2417,7 +2594,7 @@ Recipients GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationRepor
 
 recipients block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#recipients GoogleDataplexDatascan#recipients}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#recipients GoogleDataplexDatascan#recipients}
 
 ---
 
@@ -2431,7 +2608,7 @@ JobEndTrigger GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationRe
 
 job_end_trigger block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#job_end_trigger GoogleDataplexDatascan#job_end_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#job_end_trigger GoogleDataplexDatascan#job_end_trigger}
 
 ---
 
@@ -2445,7 +2622,7 @@ JobFailureTrigger GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificati
 
 job_failure_trigger block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#job_failure_trigger GoogleDataplexDatascan#job_failure_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#job_failure_trigger GoogleDataplexDatascan#job_failure_trigger}
 
 ---
 
@@ -2459,7 +2636,7 @@ ScoreThresholdTrigger GoogleDataplexDatascanDataQualitySpecPostScanActionsNotifi
 
 score_threshold_trigger block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#score_threshold_trigger GoogleDataplexDatascan#score_threshold_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#score_threshold_trigger GoogleDataplexDatascan#score_threshold_trigger}
 
 ---
 
@@ -2468,7 +2645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobEndTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobEndTrigger {
 
@@ -2481,7 +2658,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobFailureTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobFailureTrigger {
 
@@ -2494,7 +2671,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportRecipients.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportRecipients {
 	Emails: *[]*string,
@@ -2519,7 +2696,7 @@ Emails *[]*string
 
 The email recipients who will receive the DataQualityScan results report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#emails GoogleDataplexDatascan#emails}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#emails GoogleDataplexDatascan#emails}
 
 ---
 
@@ -2528,7 +2705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportScoreThresholdTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportScoreThresholdTrigger {
 	ScoreThreshold: *f64,
@@ -2553,7 +2730,7 @@ ScoreThreshold *f64
 
 The score range is in [0,100].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#score_threshold GoogleDataplexDatascan#score_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#score_threshold GoogleDataplexDatascan#score_threshold}
 
 ---
 
@@ -2562,25 +2739,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRules {
 	Dimension: *string,
+	Attributes: *map[string]*string,
 	Column: *string,
 	Description: *string,
 	IgnoreNull: interface{},
 	Name: *string,
-	NonNullExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectation,
-	RangeExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRangeExpectation,
-	RegexExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRegexExpectation,
-	RowConditionExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRowConditionExpectation,
-	SetExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSetExpectation,
-	SqlAssertion: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSqlAssertion,
-	StatisticRangeExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation,
+	NonNullExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectation,
+	RangeExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRangeExpectation,
+	RegexExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRegexExpectation,
+	RowConditionExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRowConditionExpectation,
+	SetExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSetExpectation,
+	SqlAssertion: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSqlAssertion,
+	StatisticRangeExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation,
 	Suspended: interface{},
-	TableConditionExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation,
+	TableConditionExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation,
+	TemplateReference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference,
 	Threshold: *f64,
-	UniquenessExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation,
+	UniquenessExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation,
 }
 ```
 
@@ -2589,6 +2768,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.dimension">Dimension</a></code> | <code>*string</code> | The dimension name a rule belongs to. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.attributes">Attributes</a></code> | <code>*map[string]*string</code> | Map of attribute name and value linked to the rule. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.column">Column</a></code> | <code>*string</code> | The unnested column which this rule is evaluated against. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.description">Description</a></code> | <code>*string</code> | Description of the rule. The maximum length is 1,024 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.ignoreNull">IgnoreNull</a></code> | <code>interface{}</code> | Rows with null values will automatically fail a rule, unless ignoreNull is true. |
@@ -2602,6 +2782,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.statisticRangeExpectation">StatisticRangeExpectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation">GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation</a></code> | statistic_range_expectation block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.suspended">Suspended</a></code> | <code>interface{}</code> | Whether the Rule is active or suspended. Default = false. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.tableConditionExpectation">TableConditionExpectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation">GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation</a></code> | table_condition_expectation block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.templateReference">TemplateReference</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReference</a></code> | template_reference block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.threshold">Threshold</a></code> | <code>*f64</code> | The minimum ratio of passing_rows / total_rows required to pass this rule, with a range of [0.0, 1.0]. 0 indicates default value (i.e. 1.0). |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.uniquenessExpectation">UniquenessExpectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation">GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation</a></code> | uniqueness_expectation block. |
 
@@ -2619,7 +2800,21 @@ The dimension name a rule belongs to.
 
 Custom dimension name is supported with all uppercase letters and maximum length of 30 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#dimension GoogleDataplexDatascan#dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#dimension GoogleDataplexDatascan#dimension}
+
+---
+
+##### `Attributes`<sup>Optional</sup> <a name="Attributes" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.attributes"></a>
+
+```go
+Attributes *map[string]*string
+```
+
+- *Type:* *map[string]*string
+
+Map of attribute name and value linked to the rule.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#attributes GoogleDataplexDatascan#attributes}
 
 ---
 
@@ -2633,7 +2828,7 @@ Column *string
 
 The unnested column which this rule is evaluated against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#column GoogleDataplexDatascan#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#column GoogleDataplexDatascan#column}
 
 ---
 
@@ -2647,7 +2842,7 @@ Description *string
 
 Description of the rule. The maximum length is 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#description GoogleDataplexDatascan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#description GoogleDataplexDatascan#description}
 
 ---
 
@@ -2663,7 +2858,7 @@ Rows with null values will automatically fail a rule, unless ignoreNull is true.
 
 In that case, such null rows are trivially considered passing. Only applicable to ColumnMap rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#ignore_null GoogleDataplexDatascan#ignore_null}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#ignore_null GoogleDataplexDatascan#ignore_null}
 
 ---
 
@@ -2682,7 +2877,7 @@ The maximum length is 63 characters.
 Must start with a letter.
 Must end with a number or a letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#name GoogleDataplexDatascan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#name GoogleDataplexDatascan#name}
 
 ---
 
@@ -2696,7 +2891,7 @@ NonNullExpectation GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectation
 
 non_null_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#non_null_expectation GoogleDataplexDatascan#non_null_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#non_null_expectation GoogleDataplexDatascan#non_null_expectation}
 
 ---
 
@@ -2710,7 +2905,7 @@ RangeExpectation GoogleDataplexDatascanDataQualitySpecRulesRangeExpectation
 
 range_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#range_expectation GoogleDataplexDatascan#range_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#range_expectation GoogleDataplexDatascan#range_expectation}
 
 ---
 
@@ -2724,7 +2919,7 @@ RegexExpectation GoogleDataplexDatascanDataQualitySpecRulesRegexExpectation
 
 regex_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#regex_expectation GoogleDataplexDatascan#regex_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#regex_expectation GoogleDataplexDatascan#regex_expectation}
 
 ---
 
@@ -2738,7 +2933,7 @@ RowConditionExpectation GoogleDataplexDatascanDataQualitySpecRulesRowConditionEx
 
 row_condition_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#row_condition_expectation GoogleDataplexDatascan#row_condition_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#row_condition_expectation GoogleDataplexDatascan#row_condition_expectation}
 
 ---
 
@@ -2752,7 +2947,7 @@ SetExpectation GoogleDataplexDatascanDataQualitySpecRulesSetExpectation
 
 set_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#set_expectation GoogleDataplexDatascan#set_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#set_expectation GoogleDataplexDatascan#set_expectation}
 
 ---
 
@@ -2766,7 +2961,7 @@ SqlAssertion GoogleDataplexDatascanDataQualitySpecRulesSqlAssertion
 
 sql_assertion block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#sql_assertion GoogleDataplexDatascan#sql_assertion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#sql_assertion GoogleDataplexDatascan#sql_assertion}
 
 ---
 
@@ -2780,7 +2975,7 @@ StatisticRangeExpectation GoogleDataplexDatascanDataQualitySpecRulesStatisticRan
 
 statistic_range_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#statistic_range_expectation GoogleDataplexDatascan#statistic_range_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#statistic_range_expectation GoogleDataplexDatascan#statistic_range_expectation}
 
 ---
 
@@ -2794,7 +2989,7 @@ Suspended interface{}
 
 Whether the Rule is active or suspended. Default = false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#suspended GoogleDataplexDatascan#suspended}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#suspended GoogleDataplexDatascan#suspended}
 
 ---
 
@@ -2808,7 +3003,21 @@ TableConditionExpectation GoogleDataplexDatascanDataQualitySpecRulesTableConditi
 
 table_condition_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#table_condition_expectation GoogleDataplexDatascan#table_condition_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#table_condition_expectation GoogleDataplexDatascan#table_condition_expectation}
+
+---
+
+##### `TemplateReference`<sup>Optional</sup> <a name="TemplateReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRules.property.templateReference"></a>
+
+```go
+TemplateReference GoogleDataplexDatascanDataQualitySpecRulesTemplateReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReference</a>
+
+template_reference block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#template_reference GoogleDataplexDatascan#template_reference}
 
 ---
 
@@ -2822,7 +3031,7 @@ Threshold *f64
 
 The minimum ratio of passing_rows / total_rows required to pass this rule, with a range of [0.0, 1.0]. 0 indicates default value (i.e. 1.0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#threshold GoogleDataplexDatascan#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#threshold GoogleDataplexDatascan#threshold}
 
 ---
 
@@ -2836,7 +3045,7 @@ UniquenessExpectation GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpect
 
 uniqueness_expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#uniqueness_expectation GoogleDataplexDatascan#uniqueness_expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#uniqueness_expectation GoogleDataplexDatascan#uniqueness_expectation}
 
 ---
 
@@ -2845,7 +3054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectation {
 
@@ -2858,7 +3067,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRangeExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesRangeExpectation {
 	MaxValue: *string,
@@ -2891,7 +3100,7 @@ The maximum column value allowed for a row to pass this validation.
 
 At least one of minValue and maxValue need to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#max_value GoogleDataplexDatascan#max_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#max_value GoogleDataplexDatascan#max_value}
 
 ---
 
@@ -2907,7 +3116,7 @@ The minimum column value allowed for a row to pass this validation.
 
 At least one of minValue and maxValue need to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#min_value GoogleDataplexDatascan#min_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#min_value GoogleDataplexDatascan#min_value}
 
 ---
 
@@ -2923,7 +3132,7 @@ Whether each value needs to be strictly lesser than ('<') the maximum, or if equ
 
 Only relevant if a maxValue has been defined. Default = false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#strict_max_enabled GoogleDataplexDatascan#strict_max_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#strict_max_enabled GoogleDataplexDatascan#strict_max_enabled}
 
 ---
 
@@ -2939,7 +3148,7 @@ Whether each value needs to be strictly greater than ('>') the minimum, or if eq
 
 Only relevant if a minValue has been defined. Default = false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#strict_min_enabled GoogleDataplexDatascan#strict_min_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#strict_min_enabled GoogleDataplexDatascan#strict_min_enabled}
 
 ---
 
@@ -2948,7 +3157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRegexExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesRegexExpectation {
 	Regex: *string,
@@ -2973,7 +3182,7 @@ Regex *string
 
 A regular expression the column value is expected to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#regex GoogleDataplexDatascan#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#regex GoogleDataplexDatascan#regex}
 
 ---
 
@@ -2982,7 +3191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRowConditionExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesRowConditionExpectation {
 	SqlExpression: *string,
@@ -3007,7 +3216,7 @@ SqlExpression *string
 
 The SQL expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#sql_expression GoogleDataplexDatascan#sql_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#sql_expression GoogleDataplexDatascan#sql_expression}
 
 ---
 
@@ -3016,7 +3225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSetExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesSetExpectation {
 	Values: *[]*string,
@@ -3041,7 +3250,7 @@ Values *[]*string
 
 Expected values for the column value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#values GoogleDataplexDatascan#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#values GoogleDataplexDatascan#values}
 
 ---
 
@@ -3050,7 +3259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSqlAssertion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesSqlAssertion {
 	SqlStatement: *string,
@@ -3075,7 +3284,7 @@ SqlStatement *string
 
 The SQL statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#sql_statement GoogleDataplexDatascan#sql_statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#sql_statement GoogleDataplexDatascan#sql_statement}
 
 ---
 
@@ -3084,7 +3293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation {
 	Statistic: *string,
@@ -3117,7 +3326,7 @@ Statistic *string
 
 column statistics. Possible values: ["STATISTIC_UNDEFINED", "MEAN", "MIN", "MAX"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#statistic GoogleDataplexDatascan#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#statistic GoogleDataplexDatascan#statistic}
 
 ---
 
@@ -3133,7 +3342,7 @@ The maximum column statistic value allowed for a row to pass this validation.
 
 At least one of minValue and maxValue need to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#max_value GoogleDataplexDatascan#max_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#max_value GoogleDataplexDatascan#max_value}
 
 ---
 
@@ -3149,7 +3358,7 @@ The minimum column statistic value allowed for a row to pass this validation.
 
 At least one of minValue and maxValue need to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#min_value GoogleDataplexDatascan#min_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#min_value GoogleDataplexDatascan#min_value}
 
 ---
 
@@ -3165,7 +3374,7 @@ Whether column statistic needs to be strictly lesser than ('<') the maximum, or 
 
 Only relevant if a maxValue has been defined. Default = false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#strict_max_enabled GoogleDataplexDatascan#strict_max_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#strict_max_enabled GoogleDataplexDatascan#strict_max_enabled}
 
 ---
 
@@ -3181,7 +3390,7 @@ Whether column statistic needs to be strictly greater than ('>') the minimum, or
 
 Only relevant if a minValue has been defined. Default = false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#strict_min_enabled GoogleDataplexDatascan#strict_min_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#strict_min_enabled GoogleDataplexDatascan#strict_min_enabled}
 
 ---
 
@@ -3190,7 +3399,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation {
 	SqlExpression: *string,
@@ -3215,7 +3424,105 @@ SqlExpression *string
 
 The SQL expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#sql_expression GoogleDataplexDatascan#sql_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#sql_expression GoogleDataplexDatascan#sql_expression}
+
+---
+
+### GoogleDataplexDatascanDataQualitySpecRulesTemplateReference <a name="GoogleDataplexDatascanDataQualitySpecRulesTemplateReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference {
+	Name: *string,
+	Values: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference.property.name">Name</a></code> | <code>*string</code> | The resource name of the template entry. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference.property.values">Values</a></code> | <code>interface{}</code> | values block. |
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference.property.name"></a>
+
+```go
+Name *string
+```
+
+- *Type:* *string
+
+The resource name of the template entry.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#name GoogleDataplexDatascan#name}
+
+---
+
+##### `Values`<sup>Optional</sup> <a name="Values" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference.property.values"></a>
+
+```go
+Values interface{}
+```
+
+- *Type:* interface{}
+
+values block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#values GoogleDataplexDatascan#values}
+
+---
+
+### GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues <a name="GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues {
+	Name: *string,
+	Value: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#name GoogleDataplexDatascan#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues.property.value">Value</a></code> | <code>*string</code> | The string representation of the parameter value. |
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues.property.name"></a>
+
+```go
+Name *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#name GoogleDataplexDatascan#name}.
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValues.property.value"></a>
+
+```go
+Value *string
+```
+
+- *Type:* *string
+
+The string representation of the parameter value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#value GoogleDataplexDatascan#value}
 
 ---
 
@@ -3224,9 +3531,135 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation {
+
+}
+```
+
+
+### GoogleDataplexDatascanExecutionIdentity <a name="GoogleDataplexDatascanExecutionIdentity" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanExecutionIdentity {
+	DataplexServiceAgent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent,
+	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount,
+	UserCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity.property.dataplexServiceAgent">DataplexServiceAgent</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent</a></code> | dataplex_service_agent block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity.property.serviceAccount">ServiceAccount</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount">GoogleDataplexDatascanExecutionIdentityServiceAccount</a></code> | service_account block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity.property.userCredential">UserCredential</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential">GoogleDataplexDatascanExecutionIdentityUserCredential</a></code> | user_credential block. |
+
+---
+
+##### `DataplexServiceAgent`<sup>Optional</sup> <a name="DataplexServiceAgent" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity.property.dataplexServiceAgent"></a>
+
+```go
+DataplexServiceAgent GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent</a>
+
+dataplex_service_agent block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#dataplex_service_agent GoogleDataplexDatascan#dataplex_service_agent}
+
+---
+
+##### `ServiceAccount`<sup>Optional</sup> <a name="ServiceAccount" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity.property.serviceAccount"></a>
+
+```go
+ServiceAccount GoogleDataplexDatascanExecutionIdentityServiceAccount
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount">GoogleDataplexDatascanExecutionIdentityServiceAccount</a>
+
+service_account block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#service_account GoogleDataplexDatascan#service_account}
+
+---
+
+##### `UserCredential`<sup>Optional</sup> <a name="UserCredential" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity.property.userCredential"></a>
+
+```go
+UserCredential GoogleDataplexDatascanExecutionIdentityUserCredential
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential">GoogleDataplexDatascanExecutionIdentityUserCredential</a>
+
+user_credential block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#user_credential GoogleDataplexDatascan#user_credential}
+
+---
+
+### GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent <a name="GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent {
+
+}
+```
+
+
+### GoogleDataplexDatascanExecutionIdentityServiceAccount <a name="GoogleDataplexDatascanExecutionIdentityServiceAccount" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount {
+	Email: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount.property.email">Email</a></code> | <code>*string</code> | Service account email. |
+
+---
+
+##### `Email`<sup>Required</sup> <a name="Email" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount.property.email"></a>
+
+```go
+Email *string
+```
+
+- *Type:* *string
+
+Service account email.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#email GoogleDataplexDatascan#email}
+
+---
+
+### GoogleDataplexDatascanExecutionIdentityUserCredential <a name="GoogleDataplexDatascanExecutionIdentityUserCredential" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanExecutionIdentityUserCredential {
 
 }
 ```
@@ -3237,10 +3670,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanExecutionSpec {
-	Trigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger,
+	Trigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger,
 	Field: *string,
 }
 ```
@@ -3264,7 +3697,7 @@ Trigger GoogleDataplexDatascanExecutionSpecTrigger
 
 trigger block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#trigger GoogleDataplexDatascan#trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#trigger GoogleDataplexDatascan#trigger}
 
 ---
 
@@ -3280,7 +3713,7 @@ The unnested field (of type Date or Timestamp) that contains values which monoto
 
 If not specified, a data scan will run for all data in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#field GoogleDataplexDatascan#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#field GoogleDataplexDatascan#field}
 
 ---
 
@@ -3289,11 +3722,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanExecutionSpecTrigger {
-	OnDemand: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemand,
-	Schedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerSchedule,
+	OnDemand: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemand,
+	OneTime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime,
+	Schedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerSchedule,
 }
 ```
 
@@ -3302,6 +3736,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger.property.onDemand">OnDemand</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemand">GoogleDataplexDatascanExecutionSpecTriggerOnDemand</a></code> | on_demand block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger.property.oneTime">OneTime</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime">GoogleDataplexDatascanExecutionSpecTriggerOneTime</a></code> | one_time block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger.property.schedule">Schedule</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerSchedule">GoogleDataplexDatascanExecutionSpecTriggerSchedule</a></code> | schedule block. |
 
 ---
@@ -3316,7 +3751,21 @@ OnDemand GoogleDataplexDatascanExecutionSpecTriggerOnDemand
 
 on_demand block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#on_demand GoogleDataplexDatascan#on_demand}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#on_demand GoogleDataplexDatascan#on_demand}
+
+---
+
+##### `OneTime`<sup>Optional</sup> <a name="OneTime" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger.property.oneTime"></a>
+
+```go
+OneTime GoogleDataplexDatascanExecutionSpecTriggerOneTime
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime">GoogleDataplexDatascanExecutionSpecTriggerOneTime</a>
+
+one_time block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#one_time GoogleDataplexDatascan#one_time}
 
 ---
 
@@ -3330,7 +3779,7 @@ Schedule GoogleDataplexDatascanExecutionSpecTriggerSchedule
 
 schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#schedule GoogleDataplexDatascan#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#schedule GoogleDataplexDatascan#schedule}
 
 ---
 
@@ -3339,7 +3788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemand {
 
@@ -3347,12 +3796,48 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 ```
 
 
+### GoogleDataplexDatascanExecutionSpecTriggerOneTime <a name="GoogleDataplexDatascanExecutionSpecTriggerOneTime" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+&googledataplexdatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime {
+	TtlAfterScanCompletion: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime.property.ttlAfterScanCompletion">TtlAfterScanCompletion</a></code> | <code>*string</code> | Time to live for the DataScan and its results after the one-time run completes. |
+
+---
+
+##### `TtlAfterScanCompletion`<sup>Optional</sup> <a name="TtlAfterScanCompletion" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime.property.ttlAfterScanCompletion"></a>
+
+```go
+TtlAfterScanCompletion *string
+```
+
+- *Type:* *string
+
+Time to live for the DataScan and its results after the one-time run completes.
+
+Accepts a string with a unit suffix 's' (e.g., '7200s'). Default is 24 hours. Ranges between 0 and 31536000 seconds (1 year).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#ttl_after_scan_completion GoogleDataplexDatascan#ttl_after_scan_completion}
+
+---
+
 ### GoogleDataplexDatascanExecutionSpecTriggerSchedule <a name="GoogleDataplexDatascanExecutionSpecTriggerSchedule" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerSchedule"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanExecutionSpecTriggerSchedule {
 	Cron: *string,
@@ -3377,7 +3862,7 @@ Cron *string
 
 Cron schedule for running scans periodically. This field is required for Schedule scans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#cron GoogleDataplexDatascan#cron}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#cron GoogleDataplexDatascan#cron}
 
 ---
 
@@ -3386,7 +3871,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanExecutionStatus {
 
@@ -3399,7 +3884,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 &googledataplexdatascan.GoogleDataplexDatascanTimeouts {
 	Create: *string,
@@ -3412,9 +3897,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#create GoogleDataplexDatascan#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#delete GoogleDataplexDatascan#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#update GoogleDataplexDatascan#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#create GoogleDataplexDatascan#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#delete GoogleDataplexDatascan#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#update GoogleDataplexDatascan#update}. |
 
 ---
 
@@ -3426,7 +3911,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#create GoogleDataplexDatascan#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#create GoogleDataplexDatascan#create}.
 
 ---
 
@@ -3438,7 +3923,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#delete GoogleDataplexDatascan#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#delete GoogleDataplexDatascan#delete}.
 
 ---
 
@@ -3450,7 +3935,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_datascan#update GoogleDataplexDatascan#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_datascan#update GoogleDataplexDatascan#update}.
 
 ---
 
@@ -3461,7 +3946,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingConfigOutputReference
 ```
@@ -3826,7 +4311,7 @@ func InternalValue() GoogleDataplexDatascanDataDiscoverySpecBigqueryPublishingCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataDiscoverySpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataDiscoverySpecOutputReference
 ```
@@ -4159,7 +4644,7 @@ func InternalValue() GoogleDataplexDatascanDataDiscoverySpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOptionsOutputReference
 ```
@@ -4553,7 +5038,7 @@ func InternalValue() GoogleDataplexDatascanDataDiscoverySpecStorageConfigCsvOpti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOptionsOutputReference
 ```
@@ -4860,7 +5345,7 @@ func InternalValue() GoogleDataplexDatascanDataDiscoverySpecStorageConfigJsonOpt
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDiscoverySpecStorageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataDiscoverySpecStorageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataDiscoverySpecStorageConfigOutputReference
 ```
@@ -5246,12 +5731,261 @@ func InternalValue() GoogleDataplexDatascanDataDiscoverySpecStorageConfig
 ---
 
 
+### GoogleDataplexDatascanDataDocumentationSpecOutputReference <a name="GoogleDataplexDatascanDataDocumentationSpecOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanDataDocumentationSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataDocumentationSpecOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec">GoogleDataplexDatascanDataDocumentationSpec</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataplexDatascanDataDocumentationSpec
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpec">GoogleDataplexDatascanDataDocumentationSpec</a>
+
+---
+
+
 ### GoogleDataplexDatascanDataOutputReference <a name="GoogleDataplexDatascanDataOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataOutputReference
 ```
@@ -5558,7 +6292,7 @@ func InternalValue() GoogleDataplexDatascanData
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecExcludeFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataProfileSpecExcludeFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataProfileSpecExcludeFieldsOutputReference
 ```
@@ -5836,7 +6570,7 @@ func InternalValue() GoogleDataplexDatascanDataProfileSpecExcludeFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecIncludeFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataProfileSpecIncludeFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataProfileSpecIncludeFieldsOutputReference
 ```
@@ -6114,7 +6848,7 @@ func InternalValue() GoogleDataplexDatascanDataProfileSpecIncludeFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataProfileSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataProfileSpecOutputReference
 ```
@@ -6162,6 +6896,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.putExcludeFields">PutExcludeFields</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.putIncludeFields">PutIncludeFields</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.putPostScanActions">PutPostScanActions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.resetCatalogPublishingEnabled">ResetCatalogPublishingEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.resetExcludeFields">ResetExcludeFields</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.resetIncludeFields">ResetIncludeFields</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.resetPostScanActions">ResetPostScanActions</a></code> | *No description.* |
@@ -6356,6 +7091,12 @@ func PutPostScanActions(value GoogleDataplexDatascanDataProfileSpecPostScanActio
 
 ---
 
+##### `ResetCatalogPublishingEnabled` <a name="ResetCatalogPublishingEnabled" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.resetCatalogPublishingEnabled"></a>
+
+```go
+func ResetCatalogPublishingEnabled()
+```
+
 ##### `ResetExcludeFields` <a name="ResetExcludeFields" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.resetExcludeFields"></a>
 
 ```go
@@ -6396,11 +7137,13 @@ func ResetSamplingPercent()
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.excludeFields">ExcludeFields</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecExcludeFieldsOutputReference">GoogleDataplexDatascanDataProfileSpecExcludeFieldsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.includeFields">IncludeFields</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecIncludeFieldsOutputReference">GoogleDataplexDatascanDataProfileSpecIncludeFieldsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.postScanActions">PostScanActions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActionsOutputReference">GoogleDataplexDatascanDataProfileSpecPostScanActionsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.catalogPublishingEnabledInput">CatalogPublishingEnabledInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.excludeFieldsInput">ExcludeFieldsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecExcludeFields">GoogleDataplexDatascanDataProfileSpecExcludeFields</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.includeFieldsInput">IncludeFieldsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecIncludeFields">GoogleDataplexDatascanDataProfileSpecIncludeFields</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.postScanActionsInput">PostScanActionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActions">GoogleDataplexDatascanDataProfileSpecPostScanActions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.rowFilterInput">RowFilterInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.samplingPercentInput">SamplingPercentInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.catalogPublishingEnabled">CatalogPublishingEnabled</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.rowFilter">RowFilter</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.samplingPercent">SamplingPercent</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpec">GoogleDataplexDatascanDataProfileSpec</a></code> | *No description.* |
@@ -6461,6 +7204,16 @@ func PostScanActions() GoogleDataplexDatascanDataProfileSpecPostScanActionsOutpu
 
 ---
 
+##### `CatalogPublishingEnabledInput`<sup>Optional</sup> <a name="CatalogPublishingEnabledInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.catalogPublishingEnabledInput"></a>
+
+```go
+func CatalogPublishingEnabledInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `ExcludeFieldsInput`<sup>Optional</sup> <a name="ExcludeFieldsInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.excludeFieldsInput"></a>
 
 ```go
@@ -6511,6 +7264,16 @@ func SamplingPercentInput() *f64
 
 ---
 
+##### `CatalogPublishingEnabled`<sup>Required</sup> <a name="CatalogPublishingEnabled" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.catalogPublishingEnabled"></a>
+
+```go
+func CatalogPublishingEnabled() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `RowFilter`<sup>Required</sup> <a name="RowFilter" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecOutputReference.property.rowFilter"></a>
 
 ```go
@@ -6547,7 +7310,7 @@ func InternalValue() GoogleDataplexDatascanDataProfileSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReference
 ```
@@ -6825,7 +7588,7 @@ func InternalValue() GoogleDataplexDatascanDataProfileSpecPostScanActionsBigquer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataProfileSpecPostScanActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataProfileSpecPostScanActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataProfileSpecPostScanActionsOutputReference
 ```
@@ -7116,7 +7879,7 @@ func InternalValue() GoogleDataplexDatascanDataProfileSpecPostScanActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecOutputReference
 ```
@@ -7164,6 +7927,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.putPostScanActions">PutPostScanActions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.putRules">PutRules</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetCatalogPublishingEnabled">ResetCatalogPublishingEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetEnableCatalogBasedRules">ResetEnableCatalogBasedRules</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetFilter">ResetFilter</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetPostScanActions">ResetPostScanActions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetRowFilter">ResetRowFilter</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetRules">ResetRules</a></code> | *No description.* |
@@ -7351,6 +8116,18 @@ func PutRules(value interface{})
 func ResetCatalogPublishingEnabled()
 ```
 
+##### `ResetEnableCatalogBasedRules` <a name="ResetEnableCatalogBasedRules" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetEnableCatalogBasedRules"></a>
+
+```go
+func ResetEnableCatalogBasedRules()
+```
+
+##### `ResetFilter` <a name="ResetFilter" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetFilter"></a>
+
+```go
+func ResetFilter()
+```
+
 ##### `ResetPostScanActions` <a name="ResetPostScanActions" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.resetPostScanActions"></a>
 
 ```go
@@ -7385,11 +8162,15 @@ func ResetSamplingPercent()
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.postScanActions">PostScanActions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsOutputReference">GoogleDataplexDatascanDataQualitySpecPostScanActionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.rules">Rules</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesList">GoogleDataplexDatascanDataQualitySpecRulesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.catalogPublishingEnabledInput">CatalogPublishingEnabledInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.enableCatalogBasedRulesInput">EnableCatalogBasedRulesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.filterInput">FilterInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.postScanActionsInput">PostScanActionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActions">GoogleDataplexDatascanDataQualitySpecPostScanActions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.rowFilterInput">RowFilterInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.rulesInput">RulesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.samplingPercentInput">SamplingPercentInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.catalogPublishingEnabled">CatalogPublishingEnabled</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.enableCatalogBasedRules">EnableCatalogBasedRules</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.filter">Filter</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.rowFilter">RowFilter</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.samplingPercent">SamplingPercent</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpec">GoogleDataplexDatascanDataQualitySpec</a></code> | *No description.* |
@@ -7450,6 +8231,26 @@ func CatalogPublishingEnabledInput() interface{}
 
 ---
 
+##### `EnableCatalogBasedRulesInput`<sup>Optional</sup> <a name="EnableCatalogBasedRulesInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.enableCatalogBasedRulesInput"></a>
+
+```go
+func EnableCatalogBasedRulesInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `FilterInput`<sup>Optional</sup> <a name="FilterInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.filterInput"></a>
+
+```go
+func FilterInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `PostScanActionsInput`<sup>Optional</sup> <a name="PostScanActionsInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.postScanActionsInput"></a>
 
 ```go
@@ -7500,6 +8301,26 @@ func CatalogPublishingEnabled() interface{}
 
 ---
 
+##### `EnableCatalogBasedRules`<sup>Required</sup> <a name="EnableCatalogBasedRules" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.enableCatalogBasedRules"></a>
+
+```go
+func EnableCatalogBasedRules() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Filter`<sup>Required</sup> <a name="Filter" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.filter"></a>
+
+```go
+func Filter() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `RowFilter`<sup>Required</sup> <a name="RowFilter" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecOutputReference.property.rowFilter"></a>
 
 ```go
@@ -7536,7 +8357,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecPostScanActionsBigqueryExportOutputReference
 ```
@@ -7814,7 +8635,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecPostScanActionsBigquer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobEndTriggerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobEndTriggerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobEndTriggerOutputReference
 ```
@@ -8063,7 +8884,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecPostScanActionsNotific
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobFailureTriggerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobFailureTriggerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportJobFailureTriggerOutputReference
 ```
@@ -8312,7 +9133,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecPostScanActionsNotific
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportOutputReference
 ```
@@ -8722,7 +9543,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecPostScanActionsNotific
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportRecipientsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportRecipientsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportRecipientsOutputReference
 ```
@@ -9000,7 +9821,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecPostScanActionsNotific
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportScoreThresholdTriggerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportScoreThresholdTriggerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecPostScanActionsNotificationReportScoreThresholdTriggerOutputReference
 ```
@@ -9278,7 +10099,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecPostScanActionsNotific
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecPostScanActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecPostScanActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecPostScanActionsOutputReference
 ```
@@ -9611,7 +10432,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecPostScanActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexDatascanDataQualitySpecRulesList
 ```
@@ -9771,7 +10592,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesNonNullExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectationOutputReference
 ```
@@ -10020,7 +10841,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesNonNullExpectatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexDatascanDataQualitySpecRulesOutputReference
 ```
@@ -10091,7 +10912,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putSqlAssertion">PutSqlAssertion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putStatisticRangeExpectation">PutStatisticRangeExpectation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putTableConditionExpectation">PutTableConditionExpectation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putTemplateReference">PutTemplateReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putUniquenessExpectation">PutUniquenessExpectation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetAttributes">ResetAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetColumn">ResetColumn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetIgnoreNull">ResetIgnoreNull</a></code> | *No description.* |
@@ -10105,6 +10928,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetStatisticRangeExpectation">ResetStatisticRangeExpectation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetSuspended">ResetSuspended</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetTableConditionExpectation">ResetTableConditionExpectation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetTemplateReference">ResetTemplateReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetThreshold">ResetThreshold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetUniquenessExpectation">ResetUniquenessExpectation</a></code> | *No description.* |
 
@@ -10356,6 +11180,18 @@ func PutTableConditionExpectation(value GoogleDataplexDatascanDataQualitySpecRul
 
 ---
 
+##### `PutTemplateReference` <a name="PutTemplateReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putTemplateReference"></a>
+
+```go
+func PutTemplateReference(value GoogleDataplexDatascanDataQualitySpecRulesTemplateReference)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putTemplateReference.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReference</a>
+
+---
+
 ##### `PutUniquenessExpectation` <a name="PutUniquenessExpectation" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.putUniquenessExpectation"></a>
 
 ```go
@@ -10367,6 +11203,12 @@ func PutUniquenessExpectation(value GoogleDataplexDatascanDataQualitySpecRulesUn
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation">GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation</a>
 
 ---
+
+##### `ResetAttributes` <a name="ResetAttributes" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetAttributes"></a>
+
+```go
+func ResetAttributes()
+```
 
 ##### `ResetColumn` <a name="ResetColumn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetColumn"></a>
 
@@ -10446,6 +11288,12 @@ func ResetSuspended()
 func ResetTableConditionExpectation()
 ```
 
+##### `ResetTemplateReference` <a name="ResetTemplateReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetTemplateReference"></a>
+
+```go
+func ResetTemplateReference()
+```
+
 ##### `ResetThreshold` <a name="ResetThreshold" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.resetThreshold"></a>
 
 ```go
@@ -10473,7 +11321,9 @@ func ResetUniquenessExpectation()
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.sqlAssertion">SqlAssertion</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSqlAssertionOutputReference">GoogleDataplexDatascanDataQualitySpecRulesSqlAssertionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.statisticRangeExpectation">StatisticRangeExpectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectationOutputReference">GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.tableConditionExpectation">TableConditionExpectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectationOutputReference">GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.templateReference">TemplateReference</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.uniquenessExpectation">UniquenessExpectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference">GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.attributesInput">AttributesInput</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.columnInput">ColumnInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.dimensionInput">DimensionInput</a></code> | <code>*string</code> | *No description.* |
@@ -10488,8 +11338,10 @@ func ResetUniquenessExpectation()
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.statisticRangeExpectationInput">StatisticRangeExpectationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation">GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.suspendedInput">SuspendedInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.tableConditionExpectationInput">TableConditionExpectationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation">GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.templateReferenceInput">TemplateReferenceInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.thresholdInput">ThresholdInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.uniquenessExpectationInput">UniquenessExpectationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation">GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.attributes">Attributes</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.column">Column</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.dimension">Dimension</a></code> | <code>*string</code> | *No description.* |
@@ -10605,6 +11457,16 @@ func TableConditionExpectation() GoogleDataplexDatascanDataQualitySpecRulesTable
 
 ---
 
+##### `TemplateReference`<sup>Required</sup> <a name="TemplateReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.templateReference"></a>
+
+```go
+func TemplateReference() GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference</a>
+
+---
+
 ##### `UniquenessExpectation`<sup>Required</sup> <a name="UniquenessExpectation" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.uniquenessExpectation"></a>
 
 ```go
@@ -10612,6 +11474,16 @@ func UniquenessExpectation() GoogleDataplexDatascanDataQualitySpecRulesUniquenes
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference">GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference</a>
+
+---
+
+##### `AttributesInput`<sup>Optional</sup> <a name="AttributesInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.attributesInput"></a>
+
+```go
+func AttributesInput() *map[string]*string
+```
+
+- *Type:* *map[string]*string
 
 ---
 
@@ -10755,6 +11627,16 @@ func TableConditionExpectationInput() GoogleDataplexDatascanDataQualitySpecRules
 
 ---
 
+##### `TemplateReferenceInput`<sup>Optional</sup> <a name="TemplateReferenceInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.templateReferenceInput"></a>
+
+```go
+func TemplateReferenceInput() GoogleDataplexDatascanDataQualitySpecRulesTemplateReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReference</a>
+
+---
+
 ##### `ThresholdInput`<sup>Optional</sup> <a name="ThresholdInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.thresholdInput"></a>
 
 ```go
@@ -10772,6 +11654,16 @@ func UniquenessExpectationInput() GoogleDataplexDatascanDataQualitySpecRulesUniq
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation">GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation</a>
+
+---
+
+##### `Attributes`<sup>Required</sup> <a name="Attributes" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesOutputReference.property.attributes"></a>
+
+```go
+func Attributes() *map[string]*string
+```
+
+- *Type:* *map[string]*string
 
 ---
 
@@ -10861,7 +11753,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRangeExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesRangeExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesRangeExpectationOutputReference
 ```
@@ -11226,7 +12118,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesRangeExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRegexExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesRegexExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesRegexExpectationOutputReference
 ```
@@ -11497,7 +12389,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesRegexExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesRowConditionExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesRowConditionExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesRowConditionExpectationOutputReference
 ```
@@ -11768,7 +12660,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesRowConditionExpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSetExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesSetExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesSetExpectationOutputReference
 ```
@@ -12039,7 +12931,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesSetExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesSqlAssertionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesSqlAssertionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesSqlAssertionOutputReference
 ```
@@ -12310,7 +13202,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesSqlAssertion
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExpectationOutputReference
 ```
@@ -12697,7 +13589,7 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesStatisticRangeExp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesTableConditionExpectationOutputReference
 ```
@@ -12963,12 +13855,796 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesTableConditionExp
 ---
 
 
+### GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference <a name="GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.putValues">PutValues</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.resetValues">ResetValues</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutValues` <a name="PutValues" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.putValues"></a>
+
+```go
+func PutValues(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.putValues.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `ResetValues` <a name="ResetValues" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.resetValues"></a>
+
+```go
+func ResetValues()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.values">Values</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList">GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.valuesInput">ValuesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReference</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Values`<sup>Required</sup> <a name="Values" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.values"></a>
+
+```go
+func Values() GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList">GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList</a>
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.nameInput"></a>
+
+```go
+func NameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ValuesInput`<sup>Optional</sup> <a name="ValuesInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.valuesInput"></a>
+
+```go
+func ValuesInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.name"></a>
+
+```go
+func Name() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesTemplateReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReference">GoogleDataplexDatascanDataQualitySpecRulesTemplateReference</a>
+
+---
+
+
+### GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList <a name="GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.get"></a>
+
+```go
+func Get(index *f64) GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference <a name="GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.valueInput">ValueInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.nameInput"></a>
+
+```go
+func NameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ValueInput`<sup>Optional</sup> <a name="ValueInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.valueInput"></a>
+
+```go
+func ValueInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.name"></a>
+
+```go
+func Name() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.value"></a>
+
+```go
+func Value() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesTemplateReferenceValuesOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
 ### GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference <a name="GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectationOutputReference
 ```
@@ -13212,12 +14888,1156 @@ func InternalValue() GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpecta
 ---
 
 
+### GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference <a name="GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent</a>
+
+---
+
+
+### GoogleDataplexDatascanExecutionIdentityOutputReference <a name="GoogleDataplexDatascanExecutionIdentityOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanExecutionIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionIdentityOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putDataplexServiceAgent">PutDataplexServiceAgent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putServiceAccount">PutServiceAccount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putUserCredential">PutUserCredential</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resetDataplexServiceAgent">ResetDataplexServiceAgent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resetServiceAccount">ResetServiceAccount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resetUserCredential">ResetUserCredential</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutDataplexServiceAgent` <a name="PutDataplexServiceAgent" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putDataplexServiceAgent"></a>
+
+```go
+func PutDataplexServiceAgent(value GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putDataplexServiceAgent.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent</a>
+
+---
+
+##### `PutServiceAccount` <a name="PutServiceAccount" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putServiceAccount"></a>
+
+```go
+func PutServiceAccount(value GoogleDataplexDatascanExecutionIdentityServiceAccount)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putServiceAccount.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount">GoogleDataplexDatascanExecutionIdentityServiceAccount</a>
+
+---
+
+##### `PutUserCredential` <a name="PutUserCredential" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putUserCredential"></a>
+
+```go
+func PutUserCredential(value GoogleDataplexDatascanExecutionIdentityUserCredential)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.putUserCredential.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential">GoogleDataplexDatascanExecutionIdentityUserCredential</a>
+
+---
+
+##### `ResetDataplexServiceAgent` <a name="ResetDataplexServiceAgent" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resetDataplexServiceAgent"></a>
+
+```go
+func ResetDataplexServiceAgent()
+```
+
+##### `ResetServiceAccount` <a name="ResetServiceAccount" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resetServiceAccount"></a>
+
+```go
+func ResetServiceAccount()
+```
+
+##### `ResetUserCredential` <a name="ResetUserCredential" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.resetUserCredential"></a>
+
+```go
+func ResetUserCredential()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.dataplexServiceAgent">DataplexServiceAgent</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.serviceAccount">ServiceAccount</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference">GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.userCredential">UserCredential</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference">GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.dataplexServiceAgentInput">DataplexServiceAgentInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.serviceAccountInput">ServiceAccountInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount">GoogleDataplexDatascanExecutionIdentityServiceAccount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.userCredentialInput">UserCredentialInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential">GoogleDataplexDatascanExecutionIdentityUserCredential</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity">GoogleDataplexDatascanExecutionIdentity</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DataplexServiceAgent`<sup>Required</sup> <a name="DataplexServiceAgent" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.dataplexServiceAgent"></a>
+
+```go
+func DataplexServiceAgent() GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgentOutputReference</a>
+
+---
+
+##### `ServiceAccount`<sup>Required</sup> <a name="ServiceAccount" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.serviceAccount"></a>
+
+```go
+func ServiceAccount() GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference">GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference</a>
+
+---
+
+##### `UserCredential`<sup>Required</sup> <a name="UserCredential" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.userCredential"></a>
+
+```go
+func UserCredential() GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference">GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference</a>
+
+---
+
+##### `DataplexServiceAgentInput`<sup>Optional</sup> <a name="DataplexServiceAgentInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.dataplexServiceAgentInput"></a>
+
+```go
+func DataplexServiceAgentInput() GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent">GoogleDataplexDatascanExecutionIdentityDataplexServiceAgent</a>
+
+---
+
+##### `ServiceAccountInput`<sup>Optional</sup> <a name="ServiceAccountInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.serviceAccountInput"></a>
+
+```go
+func ServiceAccountInput() GoogleDataplexDatascanExecutionIdentityServiceAccount
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount">GoogleDataplexDatascanExecutionIdentityServiceAccount</a>
+
+---
+
+##### `UserCredentialInput`<sup>Optional</sup> <a name="UserCredentialInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.userCredentialInput"></a>
+
+```go
+func UserCredentialInput() GoogleDataplexDatascanExecutionIdentityUserCredential
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential">GoogleDataplexDatascanExecutionIdentityUserCredential</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataplexDatascanExecutionIdentity
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentity">GoogleDataplexDatascanExecutionIdentity</a>
+
+---
+
+
+### GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference <a name="GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.emailInput">EmailInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.email">Email</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount">GoogleDataplexDatascanExecutionIdentityServiceAccount</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EmailInput`<sup>Optional</sup> <a name="EmailInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.emailInput"></a>
+
+```go
+func EmailInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Email`<sup>Required</sup> <a name="Email" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.email"></a>
+
+```go
+func Email() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccountOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataplexDatascanExecutionIdentityServiceAccount
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityServiceAccount">GoogleDataplexDatascanExecutionIdentityServiceAccount</a>
+
+---
+
+
+### GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference <a name="GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential">GoogleDataplexDatascanExecutionIdentityUserCredential</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredentialOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataplexDatascanExecutionIdentityUserCredential
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionIdentityUserCredential">GoogleDataplexDatascanExecutionIdentityUserCredential</a>
+
+---
+
+
 ### GoogleDataplexDatascanExecutionSpecOutputReference <a name="GoogleDataplexDatascanExecutionSpecOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanExecutionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionSpecOutputReference
 ```
@@ -13530,7 +16350,7 @@ func InternalValue() GoogleDataplexDatascanExecutionSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemandOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanExecutionSpecTriggerOnDemandOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionSpecTriggerOnDemandOutputReference
 ```
@@ -13774,12 +16594,290 @@ func InternalValue() GoogleDataplexDatascanExecutionSpecTriggerOnDemand
 ---
 
 
+### GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference <a name="GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
+
+googledataplexdatascan.NewGoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.resetTtlAfterScanCompletion">ResetTtlAfterScanCompletion</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetTtlAfterScanCompletion` <a name="ResetTtlAfterScanCompletion" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.resetTtlAfterScanCompletion"></a>
+
+```go
+func ResetTtlAfterScanCompletion()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.ttlAfterScanCompletionInput">TtlAfterScanCompletionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.ttlAfterScanCompletion">TtlAfterScanCompletion</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime">GoogleDataplexDatascanExecutionSpecTriggerOneTime</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TtlAfterScanCompletionInput`<sup>Optional</sup> <a name="TtlAfterScanCompletionInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.ttlAfterScanCompletionInput"></a>
+
+```go
+func TtlAfterScanCompletionInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TtlAfterScanCompletion`<sup>Required</sup> <a name="TtlAfterScanCompletion" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.ttlAfterScanCompletion"></a>
+
+```go
+func TtlAfterScanCompletion() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataplexDatascanExecutionSpecTriggerOneTime
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime">GoogleDataplexDatascanExecutionSpecTriggerOneTime</a>
+
+---
+
+
 ### GoogleDataplexDatascanExecutionSpecTriggerOutputReference <a name="GoogleDataplexDatascanExecutionSpecTriggerOutputReference" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanExecutionSpecTriggerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionSpecTriggerOutputReference
 ```
@@ -13825,8 +16923,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.putOnDemand">PutOnDemand</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.putOneTime">PutOneTime</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.putSchedule">PutSchedule</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.resetOnDemand">ResetOnDemand</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.resetOneTime">ResetOneTime</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.resetSchedule">ResetSchedule</a></code> | *No description.* |
 
 ---
@@ -13993,6 +17093,18 @@ func PutOnDemand(value GoogleDataplexDatascanExecutionSpecTriggerOnDemand)
 
 ---
 
+##### `PutOneTime` <a name="PutOneTime" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.putOneTime"></a>
+
+```go
+func PutOneTime(value GoogleDataplexDatascanExecutionSpecTriggerOneTime)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.putOneTime.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime">GoogleDataplexDatascanExecutionSpecTriggerOneTime</a>
+
+---
+
 ##### `PutSchedule` <a name="PutSchedule" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.putSchedule"></a>
 
 ```go
@@ -14011,6 +17123,12 @@ func PutSchedule(value GoogleDataplexDatascanExecutionSpecTriggerSchedule)
 func ResetOnDemand()
 ```
 
+##### `ResetOneTime` <a name="ResetOneTime" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.resetOneTime"></a>
+
+```go
+func ResetOneTime()
+```
+
 ##### `ResetSchedule` <a name="ResetSchedule" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.resetSchedule"></a>
 
 ```go
@@ -14025,8 +17143,10 @@ func ResetSchedule()
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.onDemand">OnDemand</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemandOutputReference">GoogleDataplexDatascanExecutionSpecTriggerOnDemandOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.oneTime">OneTime</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference">GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.schedule">Schedule</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference">GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.onDemandInput">OnDemandInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemand">GoogleDataplexDatascanExecutionSpecTriggerOnDemand</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.oneTimeInput">OneTimeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime">GoogleDataplexDatascanExecutionSpecTriggerOneTime</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.scheduleInput">ScheduleInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerSchedule">GoogleDataplexDatascanExecutionSpecTriggerSchedule</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTrigger">GoogleDataplexDatascanExecutionSpecTrigger</a></code> | *No description.* |
 
@@ -14066,6 +17186,16 @@ func OnDemand() GoogleDataplexDatascanExecutionSpecTriggerOnDemandOutputReferenc
 
 ---
 
+##### `OneTime`<sup>Required</sup> <a name="OneTime" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.oneTime"></a>
+
+```go
+func OneTime() GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference">GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference</a>
+
+---
+
 ##### `Schedule`<sup>Required</sup> <a name="Schedule" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.schedule"></a>
 
 ```go
@@ -14083,6 +17213,16 @@ func OnDemandInput() GoogleDataplexDatascanExecutionSpecTriggerOnDemand
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOnDemand">GoogleDataplexDatascanExecutionSpecTriggerOnDemand</a>
+
+---
+
+##### `OneTimeInput`<sup>Optional</sup> <a name="OneTimeInput" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOutputReference.property.oneTimeInput"></a>
+
+```go
+func OneTimeInput() GoogleDataplexDatascanExecutionSpecTriggerOneTime
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerOneTime">GoogleDataplexDatascanExecutionSpecTriggerOneTime</a>
 
 ---
 
@@ -14112,7 +17252,7 @@ func InternalValue() GoogleDataplexDatascanExecutionSpecTrigger
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference
 ```
@@ -14383,7 +17523,7 @@ func InternalValue() GoogleDataplexDatascanExecutionSpecTriggerSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanExecutionStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexDatascanExecutionStatusList
 ```
@@ -14532,7 +17672,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanExecutionStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanExecutionStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexDatascanExecutionStatusOutputReference
 ```
@@ -14821,7 +17961,7 @@ func InternalValue() GoogleDataplexDatascanExecutionStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan"
 
 googledataplexdatascan.NewGoogleDataplexDatascanTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexDatascanTimeoutsOutputReference
 ```

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface GoogleVertexAiIndexConfig extends cdktn.TerraformMetaArguments 
   /**
   * The description of the Index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#description GoogleVertexAiIndex#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#description GoogleVertexAiIndex#description}
   */
   readonly description?: string;
   /**
   * The display name of the Index. The name can be up to 128 characters long and can consist of any UTF-8 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#display_name GoogleVertexAiIndex#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#display_name GoogleVertexAiIndex#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ export interface GoogleVertexAiIndexConfig extends cdktn.TerraformMetaArguments 
   * * BATCH_UPDATE: user can call indexes.patch with files on Cloud Storage of datapoints to update.
   * * STREAM_UPDATE: user can call indexes.upsertDatapoints/DeleteDatapoints to update the Index and the updates will be applied in corresponding DeployedIndexes in nearly real-time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#index_update_method GoogleVertexAiIndex#index_update_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#index_update_method GoogleVertexAiIndex#index_update_method}
   */
   readonly indexUpdateMethod?: string;
   /**
@@ -45,29 +45,35 @@ export interface GoogleVertexAiIndexConfig extends cdktn.TerraformMetaArguments 
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#labels GoogleVertexAiIndex#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#labels GoogleVertexAiIndex#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}
   */
   readonly project?: string;
   /**
   * The region of the index. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#region GoogleVertexAiIndex#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#region GoogleVertexAiIndex#region}
   */
   readonly region?: string;
   /**
+  * encryption_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#encryption_spec GoogleVertexAiIndex#encryption_spec}
+  */
+  readonly encryptionSpec?: GoogleVertexAiIndexEncryptionSpec;
+  /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#metadata GoogleVertexAiIndex#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#metadata GoogleVertexAiIndex#metadata}
   */
-  readonly metadata?: GoogleVertexAiIndexMetadata;
+  readonly metadata: GoogleVertexAiIndexMetadata;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#timeouts GoogleVertexAiIndex#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#timeouts GoogleVertexAiIndex#timeouts}
   */
   readonly timeouts?: GoogleVertexAiIndexTimeouts;
 }
@@ -231,6 +237,89 @@ export class GoogleVertexAiIndexIndexStatsList extends cdktn.ComplexList {
     return new GoogleVertexAiIndexIndexStatsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleVertexAiIndexEncryptionSpec {
+  /**
+  * Required. The Cloud KMS resource identifier of the customer managed encryption key used to protect a resource. Has the form: 'projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key'. The key needs to be in the same region as where the compute resource is created.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#kms_key_name GoogleVertexAiIndex#kms_key_name}
+  */
+  readonly kmsKeyName: string;
+}
+
+export function googleVertexAiIndexEncryptionSpecToTerraform(struct?: GoogleVertexAiIndexEncryptionSpecOutputReference | GoogleVertexAiIndexEncryptionSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
+  }
+}
+
+
+export function googleVertexAiIndexEncryptionSpecToHclTerraform(struct?: GoogleVertexAiIndexEncryptionSpecOutputReference | GoogleVertexAiIndexEncryptionSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kms_key_name: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiIndexEncryptionSpecOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiIndexEncryptionSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kmsKeyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeyName = this._kmsKeyName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiIndexEncryptionSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kmsKeyName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kmsKeyName = value.kmsKeyName;
+    }
+  }
+
+  // kms_key_name - computed: false, optional: false, required: true
+  private _kmsKeyName?: string; 
+  public get kmsKeyName() {
+    return this.getStringAttribute('kms_key_name');
+  }
+  public set kmsKeyName(value: string) {
+    this._kmsKeyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyNameInput() {
+    return this._kmsKeyName;
+  }
+}
 export interface GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfig {
 }
 
@@ -284,14 +373,14 @@ export interface GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig {
   /**
   * Number of embeddings on each leaf node. The default value is 1000 if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#leaf_node_embedding_count GoogleVertexAiIndex#leaf_node_embedding_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#leaf_node_embedding_count GoogleVertexAiIndex#leaf_node_embedding_count}
   */
   readonly leafNodeEmbeddingCount?: number;
   /**
   * The default percentage of leaf nodes that any query may be searched. Must be in
   * range 1-100, inclusive. The default value is 10 (means 10%) if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#leaf_nodes_to_search_percent GoogleVertexAiIndex#leaf_nodes_to_search_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#leaf_nodes_to_search_percent GoogleVertexAiIndex#leaf_nodes_to_search_percent}
   */
   readonly leafNodesToSearchPercent?: number;
 }
@@ -406,13 +495,13 @@ export interface GoogleVertexAiIndexMetadataConfigAlgorithmConfig {
   /**
   * brute_force_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#brute_force_config GoogleVertexAiIndex#brute_force_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#brute_force_config GoogleVertexAiIndex#brute_force_config}
   */
   readonly bruteForceConfig?: GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfig;
   /**
   * tree_ah_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#tree_ah_config GoogleVertexAiIndex#tree_ah_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#tree_ah_config GoogleVertexAiIndex#tree_ah_config}
   */
   readonly treeAhConfig?: GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig;
 }
@@ -530,13 +619,13 @@ export interface GoogleVertexAiIndexMetadataConfig {
   * approximate search algorithm are reordered via a more expensive distance computation.
   * Required if tree-AH algorithm is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#approximate_neighbors_count GoogleVertexAiIndex#approximate_neighbors_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#approximate_neighbors_count GoogleVertexAiIndex#approximate_neighbors_count}
   */
   readonly approximateNeighborsCount?: number;
   /**
   * The number of dimensions of the input vectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#dimensions GoogleVertexAiIndex#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#dimensions GoogleVertexAiIndex#dimensions}
   */
   readonly dimensions: number;
   /**
@@ -546,7 +635,7 @@ export interface GoogleVertexAiIndexMetadataConfig {
   * * COSINE_DISTANCE: Cosine Distance. Defined as 1 - cosine similarity.
   * * DOT_PRODUCT_DISTANCE: Dot Product Distance. Defined as a negative of the dot product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#distance_measure_type GoogleVertexAiIndex#distance_measure_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#distance_measure_type GoogleVertexAiIndex#distance_measure_type}
   */
   readonly distanceMeasureType?: string;
   /**
@@ -554,7 +643,7 @@ export interface GoogleVertexAiIndexMetadataConfig {
   * * UNIT_L2_NORM: Unit L2 normalization type
   * * NONE: No normalization type is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#feature_norm_type GoogleVertexAiIndex#feature_norm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#feature_norm_type GoogleVertexAiIndex#feature_norm_type}
   */
   readonly featureNormType?: string;
   /**
@@ -564,13 +653,13 @@ export interface GoogleVertexAiIndexMetadataConfig {
   * * SHARD_SIZE_MEDIUM: Medium (20GB)
   * * SHARD_SIZE_LARGE: Large (50GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#shard_size GoogleVertexAiIndex#shard_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#shard_size GoogleVertexAiIndex#shard_size}
   */
   readonly shardSize?: string;
   /**
   * algorithm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#algorithm_config GoogleVertexAiIndex#algorithm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#algorithm_config GoogleVertexAiIndex#algorithm_config}
   */
   readonly algorithmConfig?: GoogleVertexAiIndexMetadataConfigAlgorithmConfig;
 }
@@ -803,22 +892,22 @@ export interface GoogleVertexAiIndexMetadata {
   * The expected structure and format of the files this URI points to is
   * described at https://cloud.google.com/vertex-ai/docs/matching-engine/using-matching-engine#input-data-format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#contents_delta_uri GoogleVertexAiIndex#contents_delta_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#contents_delta_uri GoogleVertexAiIndex#contents_delta_uri}
   */
   readonly contentsDeltaUri?: string;
   /**
   * If this field is set together with contentsDeltaUri when calling IndexService.UpdateIndex,
   * then existing content of the Index will be replaced by the data from the contentsDeltaUri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#is_complete_overwrite GoogleVertexAiIndex#is_complete_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#is_complete_overwrite GoogleVertexAiIndex#is_complete_overwrite}
   */
   readonly isCompleteOverwrite?: boolean | cdktn.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#config GoogleVertexAiIndex#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#config GoogleVertexAiIndex#config}
   */
-  readonly config?: GoogleVertexAiIndexMetadataConfig;
+  readonly config: GoogleVertexAiIndexMetadataConfig;
 }
 
 export function googleVertexAiIndexMetadataToTerraform(struct?: GoogleVertexAiIndexMetadataOutputReference | GoogleVertexAiIndexMetadata): any {
@@ -940,16 +1029,13 @@ export class GoogleVertexAiIndexMetadataOutputReference extends cdktn.ComplexObj
     return this._isCompleteOverwrite;
   }
 
-  // config - computed: false, optional: true, required: false
+  // config - computed: false, optional: false, required: true
   private _config = new GoogleVertexAiIndexMetadataConfigOutputReference(this, "config");
   public get config() {
     return this._config;
   }
   public putConfig(value: GoogleVertexAiIndexMetadataConfig) {
     this._config.internalValue = value;
-  }
-  public resetConfig() {
-    this._config.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get configInput() {
@@ -958,15 +1044,15 @@ export class GoogleVertexAiIndexMetadataOutputReference extends cdktn.ComplexObj
 }
 export interface GoogleVertexAiIndexTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#create GoogleVertexAiIndex#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#create GoogleVertexAiIndex#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#delete GoogleVertexAiIndex#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#delete GoogleVertexAiIndex#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#update GoogleVertexAiIndex#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#update GoogleVertexAiIndex#update}
   */
   readonly update?: string;
 }
@@ -1118,7 +1204,7 @@ export class GoogleVertexAiIndexTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index google_vertex_ai_index}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index google_vertex_ai_index}
 */
 export class GoogleVertexAiIndex extends cdktn.TerraformResource {
 
@@ -1134,7 +1220,7 @@ export class GoogleVertexAiIndex extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVertexAiIndex resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiIndex to import
-  * @param importFromId The id of the existing GoogleVertexAiIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1146,7 +1232,7 @@ export class GoogleVertexAiIndex extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index google_vertex_ai_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index google_vertex_ai_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1157,8 +1243,8 @@ export class GoogleVertexAiIndex extends cdktn.TerraformResource {
       terraformResourceType: 'google_vertex_ai_index',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1175,6 +1261,7 @@ export class GoogleVertexAiIndex extends cdktn.TerraformResource {
     this._labels = config.labels;
     this._project = config.project;
     this._region = config.region;
+    this._encryptionSpec.internalValue = config.encryptionSpec;
     this._metadata.internalValue = config.metadata;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -1341,16 +1428,29 @@ export class GoogleVertexAiIndex extends cdktn.TerraformResource {
     return this.getStringAttribute('update_time');
   }
 
-  // metadata - computed: false, optional: true, required: false
+  // encryption_spec - computed: false, optional: true, required: false
+  private _encryptionSpec = new GoogleVertexAiIndexEncryptionSpecOutputReference(this, "encryption_spec");
+  public get encryptionSpec() {
+    return this._encryptionSpec;
+  }
+  public putEncryptionSpec(value: GoogleVertexAiIndexEncryptionSpec) {
+    this._encryptionSpec.internalValue = value;
+  }
+  public resetEncryptionSpec() {
+    this._encryptionSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionSpecInput() {
+    return this._encryptionSpec.internalValue;
+  }
+
+  // metadata - computed: false, optional: false, required: true
   private _metadata = new GoogleVertexAiIndexMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
   public putMetadata(value: GoogleVertexAiIndexMetadata) {
     this._metadata.internalValue = value;
-  }
-  public resetMetadata() {
-    this._metadata.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get metadataInput() {
@@ -1386,6 +1486,7 @@ export class GoogleVertexAiIndex extends cdktn.TerraformResource {
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
       project: cdktn.stringToTerraform(this._project),
       region: cdktn.stringToTerraform(this._region),
+      encryption_spec: googleVertexAiIndexEncryptionSpecToTerraform(this._encryptionSpec.internalValue),
       metadata: googleVertexAiIndexMetadataToTerraform(this._metadata.internalValue),
       timeouts: googleVertexAiIndexTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1434,6 +1535,12 @@ export class GoogleVertexAiIndex extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      encryption_spec: {
+        value: googleVertexAiIndexEncryptionSpecToHclTerraform(this._encryptionSpec.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleVertexAiIndexEncryptionSpecList",
       },
       metadata: {
         value: googleVertexAiIndexMetadataToHclTerraform(this._metadata.internalValue),

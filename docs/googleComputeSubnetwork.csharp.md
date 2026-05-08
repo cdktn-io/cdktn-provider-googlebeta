@@ -4,7 +4,7 @@
 
 ### GoogleComputeSubnetwork <a name="GoogleComputeSubnetwork" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork google_compute_subnetwork}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork google_compute_subnetwork}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.Initializer"></a>
 
@@ -80,9 +80,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetAllowSubnetCidrRoutesOverlap">ResetAllowSubnetCidrRoutesOverlap</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetDescription">ResetDescription</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetEnableFlowLogs">ResetEnableFlowLogs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetExternalIpv6Prefix">ResetExternalIpv6Prefix</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetInternalIpv6Prefix">ResetInternalIpv6Prefix</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetIpCidrRange">ResetIpCidrRange</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetIpCollection">ResetIpCollection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetIpv6AccessType">ResetIpv6AccessType</a></code> | *No description.* |
@@ -94,6 +94,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetPurpose">ResetPurpose</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetRegion">ResetRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetReservedInternalRange">ResetReservedInternalRange</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetResolveSubnetMask">ResetResolveSubnetMask</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetRole">ResetRole</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetSecondaryIpRange">ResetSecondaryIpRange</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetSendSecondaryIpRangeIfEmpty">ResetSendSecondaryIpRangeIfEmpty</a></code> | *No description.* |
@@ -471,12 +472,6 @@ private void ResetAllowSubnetCidrRoutesOverlap()
 private void ResetDescription()
 ```
 
-##### `ResetEnableFlowLogs` <a name="ResetEnableFlowLogs" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetEnableFlowLogs"></a>
-
-```csharp
-private void ResetEnableFlowLogs()
-```
-
 ##### `ResetExternalIpv6Prefix` <a name="ResetExternalIpv6Prefix" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetExternalIpv6Prefix"></a>
 
 ```csharp
@@ -487,6 +482,12 @@ private void ResetExternalIpv6Prefix()
 
 ```csharp
 private void ResetId()
+```
+
+##### `ResetInternalIpv6Prefix` <a name="ResetInternalIpv6Prefix" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetInternalIpv6Prefix"></a>
+
+```csharp
+private void ResetInternalIpv6Prefix()
 ```
 
 ##### `ResetIpCidrRange` <a name="ResetIpCidrRange" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetIpCidrRange"></a>
@@ -553,6 +554,12 @@ private void ResetRegion()
 
 ```csharp
 private void ResetReservedInternalRange()
+```
+
+##### `ResetResolveSubnetMask` <a name="ResetResolveSubnetMask" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetResolveSubnetMask"></a>
+
+```csharp
+private void ResetResolveSubnetMask()
 ```
 
 ##### `ResetRole` <a name="ResetRole" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.resetRole"></a>
@@ -688,7 +695,7 @@ The construct id used in the generated config for the GoogleComputeSubnetwork to
 
 The id of the existing GoogleComputeSubnetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -721,7 +728,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.creationTimestamp">CreationTimestamp</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.fingerprint">Fingerprint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.gatewayAddress">GatewayAddress</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.internalIpv6Prefix">InternalIpv6Prefix</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipv6CidrRange">Ipv6CidrRange</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipv6GceEndpoint">Ipv6GceEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.logConfig">LogConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkLogConfigOutputReference">GoogleComputeSubnetworkLogConfigOutputReference</a></code> | *No description.* |
@@ -733,9 +739,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeoutsOutputReference">GoogleComputeSubnetworkTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.allowSubnetCidrRoutesOverlapInput">AllowSubnetCidrRoutesOverlapInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.enableFlowLogsInput">EnableFlowLogsInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.externalIpv6PrefixInput">ExternalIpv6PrefixInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.internalIpv6PrefixInput">InternalIpv6PrefixInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipCidrRangeInput">IpCidrRangeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipCollectionInput">IpCollectionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipv6AccessTypeInput">Ipv6AccessTypeInput</a></code> | <code>string</code> | *No description.* |
@@ -749,6 +755,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.purposeInput">PurposeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.regionInput">RegionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.reservedInternalRangeInput">ReservedInternalRangeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.resolveSubnetMaskInput">ResolveSubnetMaskInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.roleInput">RoleInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.secondaryIpRangeInput">SecondaryIpRangeInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkSecondaryIpRange">GoogleComputeSubnetworkSecondaryIpRange</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.sendSecondaryIpRangeIfEmptyInput">SendSecondaryIpRangeIfEmptyInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
@@ -756,9 +763,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeouts">GoogleComputeSubnetworkTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.allowSubnetCidrRoutesOverlap">AllowSubnetCidrRoutesOverlap</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.description">Description</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.enableFlowLogs">EnableFlowLogs</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.externalIpv6Prefix">ExternalIpv6Prefix</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.id">Id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.internalIpv6Prefix">InternalIpv6Prefix</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipCidrRange">IpCidrRange</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipCollection">IpCollection</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipv6AccessType">Ipv6AccessType</a></code> | <code>string</code> | *No description.* |
@@ -770,6 +777,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.purpose">Purpose</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.region">Region</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.reservedInternalRange">ReservedInternalRange</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.resolveSubnetMask">ResolveSubnetMask</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.role">Role</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.sendSecondaryIpRangeIfEmpty">SendSecondaryIpRangeIfEmpty</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.stackType">StackType</a></code> | <code>string</code> | *No description.* |
@@ -948,16 +956,6 @@ public string GatewayAddress { get; }
 
 ---
 
-##### `InternalIpv6Prefix`<sup>Required</sup> <a name="InternalIpv6Prefix" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.internalIpv6Prefix"></a>
-
-```csharp
-public string InternalIpv6Prefix { get; }
-```
-
-- *Type:* string
-
----
-
 ##### `Ipv6CidrRange`<sup>Required</sup> <a name="Ipv6CidrRange" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.ipv6CidrRange"></a>
 
 ```csharp
@@ -1068,16 +1066,6 @@ public string DescriptionInput { get; }
 
 ---
 
-##### `EnableFlowLogsInput`<sup>Optional</sup> <a name="EnableFlowLogsInput" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.enableFlowLogsInput"></a>
-
-```csharp
-public bool|IResolvable EnableFlowLogsInput { get; }
-```
-
-- *Type:* bool|Io.Cdktn.IResolvable
-
----
-
 ##### `ExternalIpv6PrefixInput`<sup>Optional</sup> <a name="ExternalIpv6PrefixInput" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.externalIpv6PrefixInput"></a>
 
 ```csharp
@@ -1092,6 +1080,16 @@ public string ExternalIpv6PrefixInput { get; }
 
 ```csharp
 public string IdInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalIpv6PrefixInput`<sup>Optional</sup> <a name="InternalIpv6PrefixInput" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.internalIpv6PrefixInput"></a>
+
+```csharp
+public string InternalIpv6PrefixInput { get; }
 ```
 
 - *Type:* string
@@ -1228,6 +1226,16 @@ public string ReservedInternalRangeInput { get; }
 
 ---
 
+##### `ResolveSubnetMaskInput`<sup>Optional</sup> <a name="ResolveSubnetMaskInput" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.resolveSubnetMaskInput"></a>
+
+```csharp
+public string ResolveSubnetMaskInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `RoleInput`<sup>Optional</sup> <a name="RoleInput" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.roleInput"></a>
 
 ```csharp
@@ -1298,16 +1306,6 @@ public string Description { get; }
 
 ---
 
-##### `EnableFlowLogs`<sup>Required</sup> <a name="EnableFlowLogs" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.enableFlowLogs"></a>
-
-```csharp
-public bool|IResolvable EnableFlowLogs { get; }
-```
-
-- *Type:* bool|Io.Cdktn.IResolvable
-
----
-
 ##### `ExternalIpv6Prefix`<sup>Required</sup> <a name="ExternalIpv6Prefix" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.externalIpv6Prefix"></a>
 
 ```csharp
@@ -1322,6 +1320,16 @@ public string ExternalIpv6Prefix { get; }
 
 ```csharp
 public string Id { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalIpv6Prefix`<sup>Required</sup> <a name="InternalIpv6Prefix" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.internalIpv6Prefix"></a>
+
+```csharp
+public string InternalIpv6Prefix { get; }
 ```
 
 - *Type:* string
@@ -1438,6 +1446,16 @@ public string ReservedInternalRange { get; }
 
 ---
 
+##### `ResolveSubnetMask`<sup>Required</sup> <a name="ResolveSubnetMask" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.resolveSubnetMask"></a>
+
+```csharp
+public string ResolveSubnetMask { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Role`<sup>Required</sup> <a name="Role" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetwork.property.role"></a>
 
 ```csharp
@@ -1507,9 +1525,9 @@ new GoogleComputeSubnetworkConfig {
     string Network,
     bool|IResolvable AllowSubnetCidrRoutesOverlap = null,
     string Description = null,
-    bool|IResolvable EnableFlowLogs = null,
     string ExternalIpv6Prefix = null,
     string Id = null,
+    string InternalIpv6Prefix = null,
     string IpCidrRange = null,
     string IpCollection = null,
     string Ipv6AccessType = null,
@@ -1521,6 +1539,7 @@ new GoogleComputeSubnetworkConfig {
     string Purpose = null,
     string Region = null,
     string ReservedInternalRange = null,
+    string ResolveSubnetMask = null,
     string Role = null,
     IResolvable|GoogleComputeSubnetworkSecondaryIpRange[] SecondaryIpRange = null,
     bool|IResolvable SendSecondaryIpRangeIfEmpty = null,
@@ -1544,9 +1563,9 @@ new GoogleComputeSubnetworkConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.network">Network</a></code> | <code>string</code> | The network this subnet belongs to. Only networks that are in the distributed mode can have subnetworks. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.allowSubnetCidrRoutesOverlap">AllowSubnetCidrRoutesOverlap</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Typically packets destined to IPs within the subnetwork range that do not match existing resources are dropped and prevented from leaving the VPC. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.enableFlowLogs">EnableFlowLogs</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether to enable flow logging for this subnetwork. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.externalIpv6Prefix">ExternalIpv6Prefix</a></code> | <code>string</code> | The range of external IPv6 addresses that are owned by this subnetwork. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#id GoogleComputeSubnetwork#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#id GoogleComputeSubnetwork#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.internalIpv6Prefix">InternalIpv6Prefix</a></code> | <code>string</code> | The internal IPv6 address range that is assigned to this subnetwork. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.ipCidrRange">IpCidrRange</a></code> | <code>string</code> | The range of internal addresses that are owned by this subnetwork. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.ipCollection">IpCollection</a></code> | <code>string</code> | Resource reference of a PublicDelegatedPrefix. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.ipv6AccessType">Ipv6AccessType</a></code> | <code>string</code> | The access type of IPv6 address this subnet holds. |
@@ -1554,10 +1573,11 @@ new GoogleComputeSubnetworkConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkParams">GoogleComputeSubnetworkParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.privateIpGoogleAccess">PrivateIpGoogleAccess</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | When enabled, VMs in this subnetwork without external IP addresses can access Google APIs and services by using Private Google Access. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.privateIpv6GoogleAccess">PrivateIpv6GoogleAccess</a></code> | <code>string</code> | The private IPv6 google access type for the VMs in this subnet. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#project GoogleComputeSubnetwork#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#project GoogleComputeSubnetwork#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.purpose">Purpose</a></code> | <code>string</code> | The purpose of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.region">Region</a></code> | <code>string</code> | The GCP region for this subnetwork. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.reservedInternalRange">ReservedInternalRange</a></code> | <code>string</code> | The ID of the reserved internal range. Must be prefixed with 'networkconnectivity.googleapis.com' E.g. 'networkconnectivity.googleapis.com/projects/{project}/locations/global/internalRanges/{rangeId}'. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.resolveSubnetMask">ResolveSubnetMask</a></code> | <code>string</code> | 'Configures subnet mask resolution for this subnetwork.' Possible values: ["ARP_ALL_RANGES", "ARP_PRIMARY_RANGE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.role">Role</a></code> | <code>string</code> | The role of subnetwork. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.secondaryIpRange">SecondaryIpRange</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkSecondaryIpRange">GoogleComputeSubnetworkSecondaryIpRange</a>[]</code> | secondary_ip_range block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.sendSecondaryIpRangeIfEmpty">SendSecondaryIpRangeIfEmpty</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Controls the removal behavior of secondary_ip_range. |
@@ -1653,7 +1673,7 @@ means the first character must be a lowercase letter, and all
 following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#name GoogleComputeSubnetwork#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#name GoogleComputeSubnetwork#name}
 
 ---
 
@@ -1667,7 +1687,7 @@ public string Network { get; set; }
 
 The network this subnet belongs to. Only networks that are in the distributed mode can have subnetworks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#network GoogleComputeSubnetwork#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#network GoogleComputeSubnetwork#network}
 
 ---
 
@@ -1684,7 +1704,7 @@ Typically packets destined to IPs within the subnetwork range that do not match 
 Setting this field to true will allow these packets to match dynamic routes injected
 via BGP even if their destinations match existing subnet ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#allow_subnet_cidr_routes_overlap GoogleComputeSubnetwork#allow_subnet_cidr_routes_overlap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#allow_subnet_cidr_routes_overlap GoogleComputeSubnetwork#allow_subnet_cidr_routes_overlap}
 
 ---
 
@@ -1702,26 +1722,7 @@ Provide this property when
 you create the resource. This field can be set only at resource
 creation time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#description GoogleComputeSubnetwork#description}
-
----
-
-##### `EnableFlowLogs`<sup>Optional</sup> <a name="EnableFlowLogs" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.enableFlowLogs"></a>
-
-```csharp
-public bool|IResolvable EnableFlowLogs { get; set; }
-```
-
-- *Type:* bool|Io.Cdktn.IResolvable
-
-Whether to enable flow logging for this subnetwork.
-
-If this field is not explicitly set,
-it will not appear in get listings. If not set the default behavior is determined by the
-org policy, if there is no org policy specified, then it will default to disabled.
-This field isn't supported if the subnet purpose field is set to REGIONAL_MANAGED_PROXY.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#enable_flow_logs GoogleComputeSubnetwork#enable_flow_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#description GoogleComputeSubnetwork#description}
 
 ---
 
@@ -1735,7 +1736,7 @@ public string ExternalIpv6Prefix { get; set; }
 
 The range of external IPv6 addresses that are owned by this subnetwork.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#external_ipv6_prefix GoogleComputeSubnetwork#external_ipv6_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#external_ipv6_prefix GoogleComputeSubnetwork#external_ipv6_prefix}
 
 ---
 
@@ -1747,10 +1748,24 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#id GoogleComputeSubnetwork#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#id GoogleComputeSubnetwork#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `InternalIpv6Prefix`<sup>Optional</sup> <a name="InternalIpv6Prefix" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.internalIpv6Prefix"></a>
+
+```csharp
+public string InternalIpv6Prefix { get; set; }
+```
+
+- *Type:* string
+
+The internal IPv6 address range that is assigned to this subnetwork.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#internal_ipv6_prefix GoogleComputeSubnetwork#internal_ipv6_prefix}
 
 ---
 
@@ -1769,7 +1784,7 @@ Provide this property when you create the subnetwork. For example,
 non-overlapping within a network. Only IPv4 is supported.
 Field is optional when 'reserved_internal_range' is defined, otherwise required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#ip_cidr_range GoogleComputeSubnetwork#ip_cidr_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#ip_cidr_range GoogleComputeSubnetwork#ip_cidr_range}
 
 ---
 
@@ -1784,9 +1799,9 @@ public string IpCollection { get; set; }
 Resource reference of a PublicDelegatedPrefix.
 
 The PDP must be a sub-PDP
-in EXTERNAL_IPV6_SUBNETWORK_CREATION mode.
-Use one of the following formats to specify a sub-PDP when creating an
-IPv6 NetLB forwarding rule using BYOIP:
+in EXTERNAL_IPV6_SUBNETWORK_CREATION or INTERNAL_IPV6_SUBNETWORK_CREATION
+mode. Use one of the following formats to specify a sub-PDP when creating
+a dual stack or IPv6-only subnetwork using BYOIP:
 Full resource URL, as in:
 
 * 'https://www.googleapis.com/compute/v1/projects/{{projectId}}/regions/{{region}}/publicDelegatedPrefixes/{{sub-pdp-name}}'
@@ -1794,7 +1809,7 @@ Full resource URL, as in:
 * 'projects/{{projectId}}/regions/region/publicDelegatedPrefixes/{{sub-pdp-name}}'
 * 'regions/{{region}}/publicDelegatedPrefixes/{{sub-pdp-name}}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#ip_collection GoogleComputeSubnetwork#ip_collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#ip_collection GoogleComputeSubnetwork#ip_collection}
 
 ---
 
@@ -1812,7 +1827,7 @@ It's immutable and can only be specified during creation
 or the first time the subnet is updated into IPV4_IPV6 dual stack. If the ipv6_type is EXTERNAL then this subnet
 cannot enable direct path. Possible values: ["EXTERNAL", "INTERNAL"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#ipv6_access_type GoogleComputeSubnetwork#ipv6_access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#ipv6_access_type GoogleComputeSubnetwork#ipv6_access_type}
 
 ---
 
@@ -1826,7 +1841,7 @@ public GoogleComputeSubnetworkLogConfig LogConfig { get; set; }
 
 log_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#log_config GoogleComputeSubnetwork#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#log_config GoogleComputeSubnetwork#log_config}
 
 ---
 
@@ -1840,7 +1855,7 @@ public GoogleComputeSubnetworkParams Params { get; set; }
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#params GoogleComputeSubnetwork#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#params GoogleComputeSubnetwork#params}
 
 ---
 
@@ -1854,7 +1869,7 @@ public bool|IResolvable PrivateIpGoogleAccess { get; set; }
 
 When enabled, VMs in this subnetwork without external IP addresses can access Google APIs and services by using Private Google Access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#private_ip_google_access GoogleComputeSubnetwork#private_ip_google_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#private_ip_google_access GoogleComputeSubnetwork#private_ip_google_access}
 
 ---
 
@@ -1868,7 +1883,7 @@ public string PrivateIpv6GoogleAccess { get; set; }
 
 The private IPv6 google access type for the VMs in this subnet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#private_ipv6_google_access GoogleComputeSubnetwork#private_ipv6_google_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#private_ipv6_google_access GoogleComputeSubnetwork#private_ipv6_google_access}
 
 ---
 
@@ -1880,7 +1895,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#project GoogleComputeSubnetwork#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#project GoogleComputeSubnetwork#project}.
 
 ---
 
@@ -1894,7 +1909,7 @@ public string Purpose { get; set; }
 
 The purpose of the resource.
 
-This field can be either 'PRIVATE', 'REGIONAL_MANAGED_PROXY', 'GLOBAL_MANAGED_PROXY', 'PRIVATE_SERVICE_CONNECT', 'PEER_MIGRATION' or 'PRIVATE_NAT'([Beta](https://terraform.io/docs/providers/google/guides/provider_versions.html)).
+This field can be either 'PRIVATE', 'REGIONAL_MANAGED_PROXY', 'GLOBAL_MANAGED_PROXY', 'PRIVATE_SERVICE_CONNECT', 'PEER_MIGRATION' or 'PRIVATE_NAT'([Beta](../guides/provider_versions.html.markdown)).
 A subnet with purpose set to 'REGIONAL_MANAGED_PROXY' is a user-created subnetwork that is reserved for regional Envoy-based load balancers.
 A subnetwork in a given region with purpose set to 'GLOBAL_MANAGED_PROXY' is a proxy-only subnet and is shared between all the cross-regional Envoy-based load balancers.
 A subnetwork with purpose set to 'PRIVATE_SERVICE_CONNECT' reserves the subnet for hosting a Private Service Connect published service.
@@ -1903,7 +1918,7 @@ A subnetwork with purpose set to 'PRIVATE_NAT' is used as source range for Priva
 Note that 'REGIONAL_MANAGED_PROXY' is the preferred setting for all regional Envoy load balancers.
 If unspecified, the purpose defaults to 'PRIVATE'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#purpose GoogleComputeSubnetwork#purpose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#purpose GoogleComputeSubnetwork#purpose}
 
 ---
 
@@ -1917,7 +1932,7 @@ public string Region { get; set; }
 
 The GCP region for this subnetwork.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#region GoogleComputeSubnetwork#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#region GoogleComputeSubnetwork#region}
 
 ---
 
@@ -1931,7 +1946,21 @@ public string ReservedInternalRange { get; set; }
 
 The ID of the reserved internal range. Must be prefixed with 'networkconnectivity.googleapis.com' E.g. 'networkconnectivity.googleapis.com/projects/{project}/locations/global/internalRanges/{rangeId}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#reserved_internal_range GoogleComputeSubnetwork#reserved_internal_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#reserved_internal_range GoogleComputeSubnetwork#reserved_internal_range}
+
+---
+
+##### `ResolveSubnetMask`<sup>Optional</sup> <a name="ResolveSubnetMask" id="@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkConfig.property.resolveSubnetMask"></a>
+
+```csharp
+public string ResolveSubnetMask { get; set; }
+```
+
+- *Type:* string
+
+'Configures subnet mask resolution for this subnetwork.' Possible values: ["ARP_ALL_RANGES", "ARP_PRIMARY_RANGE"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#resolve_subnet_mask GoogleComputeSubnetwork#resolve_subnet_mask}
 
 ---
 
@@ -1950,7 +1979,7 @@ The value can be set to 'ACTIVE' or 'BACKUP'.
 An 'ACTIVE' subnetwork is one that is currently being used for Envoy-based load balancers in a region.
 A 'BACKUP' subnetwork is one that is ready to be promoted to 'ACTIVE' or is currently draining. Possible values: ["ACTIVE", "BACKUP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#role GoogleComputeSubnetwork#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#role GoogleComputeSubnetwork#role}
 
 ---
 
@@ -1964,7 +1993,7 @@ public IResolvable|GoogleComputeSubnetworkSecondaryIpRange[] SecondaryIpRange { 
 
 secondary_ip_range block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#secondary_ip_range GoogleComputeSubnetwork#secondary_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#secondary_ip_range GoogleComputeSubnetwork#secondary_ip_range}
 
 ---
 
@@ -1984,7 +2013,7 @@ When true, the provider will treat removing secondary_ip_range as sending an
 empty list of secondary IP ranges to the API.
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#send_secondary_ip_range_if_empty GoogleComputeSubnetwork#send_secondary_ip_range_if_empty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#send_secondary_ip_range_if_empty GoogleComputeSubnetwork#send_secondary_ip_range_if_empty}
 
 ---
 
@@ -2000,7 +2029,7 @@ The stack type for this subnet to identify whether the IPv6 feature is enabled o
 
 If not specified IPV4_ONLY will be used. Possible values: ["IPV4_ONLY", "IPV4_IPV6", "IPV6_ONLY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#stack_type GoogleComputeSubnetwork#stack_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#stack_type GoogleComputeSubnetwork#stack_type}
 
 ---
 
@@ -2014,7 +2043,7 @@ public GoogleComputeSubnetworkTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#timeouts GoogleComputeSubnetwork#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#timeouts GoogleComputeSubnetwork#timeouts}
 
 ---
 
@@ -2060,7 +2089,7 @@ Toggles the aggregation interval for collecting flow logs. Increasing the
 interval time will reduce the amount of generated flow logs for long
 lasting connections. Default is an interval of 5 seconds per connection. Default value: "INTERVAL_5_SEC" Possible values: ["INTERVAL_5_SEC", "INTERVAL_30_SEC", "INTERVAL_1_MIN", "INTERVAL_5_MIN", "INTERVAL_10_MIN", "INTERVAL_15_MIN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#aggregation_interval GoogleComputeSubnetwork#aggregation_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#aggregation_interval GoogleComputeSubnetwork#aggregation_interval}
 
 ---
 
@@ -2078,7 +2107,7 @@ See
 https://cloud.google.com/vpc/docs/flow-logs#filtering for details on how to format this field.
 The default value is 'true', which evaluates to include everything.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#filter_expr GoogleComputeSubnetwork#filter_expr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#filter_expr GoogleComputeSubnetwork#filter_expr}
 
 ---
 
@@ -2097,7 +2126,7 @@ flow logs within the subnetwork where 1.0 means all collected logs are
 reported and 0.0 means no logs are reported. Default is 0.5 which means
 half of all collected logs are reported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#flow_sampling GoogleComputeSubnetwork#flow_sampling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#flow_sampling GoogleComputeSubnetwork#flow_sampling}
 
 ---
 
@@ -2114,7 +2143,7 @@ Can only be specified if VPC flow logging for this subnetwork is enabled.
 Configures whether metadata fields should be added to the reported VPC
 flow logs. Default value: "INCLUDE_ALL_METADATA" Possible values: ["EXCLUDE_ALL_METADATA", "INCLUDE_ALL_METADATA", "CUSTOM_METADATA"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#metadata GoogleComputeSubnetwork#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#metadata GoogleComputeSubnetwork#metadata}
 
 ---
 
@@ -2130,7 +2159,7 @@ List of metadata fields that should be added to reported logs.
 
 Can only be specified if VPC flow logs for this subnetwork is enabled and "metadata" is set to CUSTOM_METADATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#metadata_fields GoogleComputeSubnetwork#metadata_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#metadata_fields GoogleComputeSubnetwork#metadata_fields}
 
 ---
 
@@ -2171,7 +2200,7 @@ The field is immutable and causes resource replacement when mutated. This field 
 set at create time and modifying this field after creation will trigger recreation.
 To apply tags to an existing resource, see the google_tags_tag_binding resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#resource_manager_tags GoogleComputeSubnetwork#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#resource_manager_tags GoogleComputeSubnetwork#resource_manager_tags}
 
 ---
 
@@ -2213,7 +2242,7 @@ The name must
 be 1-63 characters long, and comply with RFC1035. The name
 must be unique within the subnetwork.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#range_name GoogleComputeSubnetwork#range_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#range_name GoogleComputeSubnetwork#range_name}
 
 ---
 
@@ -2232,7 +2261,7 @@ Ranges must be unique and non-overlapping with all primary and
 secondary IP ranges within a network. Only IPv4 is supported.
 Field is optional when 'reserved_internal_range' is defined, otherwise required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#ip_cidr_range GoogleComputeSubnetwork#ip_cidr_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#ip_cidr_range GoogleComputeSubnetwork#ip_cidr_range}
 
 ---
 
@@ -2246,7 +2275,7 @@ public string ReservedInternalRange { get; set; }
 
 The ID of the reserved internal range. Must be prefixed with 'networkconnectivity.googleapis.com' E.g. 'networkconnectivity.googleapis.com/projects/{project}/locations/global/internalRanges/{rangeId}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#reserved_internal_range GoogleComputeSubnetwork#reserved_internal_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#reserved_internal_range GoogleComputeSubnetwork#reserved_internal_range}
 
 ---
 
@@ -2268,9 +2297,9 @@ new GoogleComputeSubnetworkTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#create GoogleComputeSubnetwork#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#delete GoogleComputeSubnetwork#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#update GoogleComputeSubnetwork#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#create GoogleComputeSubnetwork#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#delete GoogleComputeSubnetwork#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetwork.GoogleComputeSubnetworkTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#update GoogleComputeSubnetwork#update}. |
 
 ---
 
@@ -2282,7 +2311,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#create GoogleComputeSubnetwork#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#create GoogleComputeSubnetwork#create}.
 
 ---
 
@@ -2294,7 +2323,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#delete GoogleComputeSubnetwork#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#delete GoogleComputeSubnetwork#delete}.
 
 ---
 
@@ -2306,7 +2335,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#update GoogleComputeSubnetwork#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_subnetwork#update GoogleComputeSubnetwork#update}.
 
 ---
 

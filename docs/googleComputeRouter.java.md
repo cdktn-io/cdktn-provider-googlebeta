@@ -4,7 +4,7 @@
 
 ### GoogleComputeRouter <a name="GoogleComputeRouter" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router google_compute_router}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router google_compute_router}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer"></a>
 
@@ -20,12 +20,13 @@ GoogleComputeRouter.Builder.create(Construct scope, java.lang.String id)
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
-    .network(java.lang.String)
 //  .bgp(GoogleComputeRouterBgp)
 //  .description(java.lang.String)
 //  .encryptedInterconnectRouter(java.lang.Boolean|IResolvable)
 //  .id(java.lang.String)
 //  .md5AuthenticationKeys(GoogleComputeRouterMd5AuthenticationKeys)
+//  .nccGateway(java.lang.String)
+//  .network(java.lang.String)
 //  .params(GoogleComputeRouterParams)
 //  .project(java.lang.String)
 //  .region(java.lang.String)
@@ -45,14 +46,15 @@ GoogleComputeRouter.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.network">network</a></code> | <code>java.lang.String</code> | A reference to the network to which this router belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.bgp">bgp</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | bgp block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.encryptedInterconnectRouter">encryptedInterconnectRouter</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates if a router is dedicated for use with encrypted VLAN attachments (interconnectAttachments). |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.md5AuthenticationKeys">md5AuthenticationKeys</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | md5_authentication_keys block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.nccGateway">nccGateway</a></code> | <code>java.lang.String</code> | A URI of an NCC Gateway spoke. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.network">network</a></code> | <code>java.lang.String</code> | A reference to the network to which this router belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | params block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Region where the router resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | timeouts block. |
 
@@ -131,17 +133,7 @@ which means the first character must be a lowercase letter, and all
 following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#name GoogleComputeRouter#name}
-
----
-
-##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.network"></a>
-
-- *Type:* java.lang.String
-
-A reference to the network to which this router belongs.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#network GoogleComputeRouter#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#name GoogleComputeRouter#name}
 
 ---
 
@@ -151,7 +143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 bgp block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#bgp GoogleComputeRouter#bgp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#bgp GoogleComputeRouter#bgp}
 
 ---
 
@@ -161,7 +153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#description GoogleComputeRouter#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#description GoogleComputeRouter#description}
 
 ---
 
@@ -171,7 +163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates if a router is dedicated for use with encrypted VLAN attachments (interconnectAttachments).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#encrypted_interconnect_router GoogleComputeRouter#encrypted_interconnect_router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#encrypted_interconnect_router GoogleComputeRouter#encrypted_interconnect_router}
 
 ---
 
@@ -179,7 +171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -192,7 +184,27 @@ If you experience problems setting this value it might not be settable. Please t
 
 md5_authentication_keys block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#md5_authentication_keys GoogleComputeRouter#md5_authentication_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#md5_authentication_keys GoogleComputeRouter#md5_authentication_keys}
+
+---
+
+##### `nccGateway`<sup>Optional</sup> <a name="nccGateway" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.nccGateway"></a>
+
+- *Type:* java.lang.String
+
+A URI of an NCC Gateway spoke.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#ncc_gateway GoogleComputeRouter#ncc_gateway}
+
+---
+
+##### `network`<sup>Optional</sup> <a name="network" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.network"></a>
+
+- *Type:* java.lang.String
+
+A reference to the network to which this router belongs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#network GoogleComputeRouter#network}
 
 ---
 
@@ -202,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#params GoogleComputeRouter#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#params GoogleComputeRouter#params}
 
 ---
 
@@ -210,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}.
 
 ---
 
@@ -220,7 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Region where the router resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#region GoogleComputeRouter#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#region GoogleComputeRouter#region}
 
 ---
 
@@ -230,7 +242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#timeouts GoogleComputeRouter#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#timeouts GoogleComputeRouter#timeouts}
 
 ---
 
@@ -271,6 +283,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetEncryptedInterconnectRouter">resetEncryptedInterconnectRouter</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetMd5AuthenticationKeys">resetMd5AuthenticationKeys</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetNccGateway">resetNccGateway</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetNetwork">resetNetwork</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetParams">resetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetRegion">resetRegion</a></code> | *No description.* |
@@ -667,6 +681,18 @@ public void resetId()
 public void resetMd5AuthenticationKeys()
 ```
 
+##### `resetNccGateway` <a name="resetNccGateway" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetNccGateway"></a>
+
+```java
+public void resetNccGateway()
+```
+
+##### `resetNetwork` <a name="resetNetwork" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetNetwork"></a>
+
+```java
+public void resetNetwork()
+```
+
 ##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetParams"></a>
 
 ```java
@@ -794,7 +820,7 @@ The construct id used in the generated config for the GoogleComputeRouter to imp
 
 The id of the existing GoogleComputeRouter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -836,6 +862,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeysInput">md5AuthenticationKeysInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nccGatewayInput">nccGatewayInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.networkInput">networkInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -845,6 +872,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouter">encryptedInterconnectRouter</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nccGateway">nccGateway</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.network">network</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.region">region</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1113,6 +1141,16 @@ public java.lang.String getNameInput();
 
 ---
 
+##### `nccGatewayInput`<sup>Optional</sup> <a name="nccGatewayInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nccGatewayInput"></a>
+
+```java
+public java.lang.String getNccGatewayInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `networkInput`<sup>Optional</sup> <a name="networkInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.networkInput"></a>
 
 ```java
@@ -1197,6 +1235,16 @@ public java.lang.String getId();
 
 ```java
 public java.lang.String getName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `nccGateway`<sup>Required</sup> <a name="nccGateway" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nccGateway"></a>
+
+```java
+public java.lang.String getNccGateway();
 ```
 
 - *Type:* java.lang.String
@@ -1298,7 +1346,7 @@ private ASN, either 16-bit or 32-bit. The value will be fixed for
 this router resource. All VPN tunnels that link to this router
 will have the same local ASN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#asn GoogleComputeRouter#asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#asn GoogleComputeRouter#asn}
 
 ---
 
@@ -1319,7 +1367,7 @@ blank to advertise no custom groups.
 
 This enum field has the one valid value: ALL_SUBNETS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#advertised_groups GoogleComputeRouter#advertised_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#advertised_groups GoogleComputeRouter#advertised_groups}
 
 ---
 
@@ -1333,7 +1381,7 @@ public IResolvable|java.util.List<GoogleComputeRouterBgpAdvertisedIpRanges> getA
 
 advertised_ip_ranges block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#advertised_ip_ranges GoogleComputeRouter#advertised_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#advertised_ip_ranges GoogleComputeRouter#advertised_ip_ranges}
 
 ---
 
@@ -1347,7 +1395,7 @@ public java.lang.String getAdvertiseMode();
 
 User-specified flag to indicate which mode to use for advertisement. Default value: "DEFAULT" Possible values: ["DEFAULT", "CUSTOM"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#advertise_mode GoogleComputeRouter#advertise_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#advertise_mode GoogleComputeRouter#advertise_mode}
 
 ---
 
@@ -1366,7 +1414,7 @@ size at least /30, even if the BGP sessions are over IPv6. It must
 not overlap with any IPv4 BGP session ranges. Other vendors commonly
 call this router ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#identifier_range GoogleComputeRouter#identifier_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#identifier_range GoogleComputeRouter#identifier_range}
 
 ---
 
@@ -1390,7 +1438,7 @@ peer's hold time value as the hold time for the BGP connection
 between the two peers. If set, this value must be between 20 and 60.
 The default is 20.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#keepalive_interval GoogleComputeRouter#keepalive_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#keepalive_interval GoogleComputeRouter#keepalive_interval}
 
 ---
 
@@ -1426,7 +1474,7 @@ public java.lang.String getRange();
 
 The IP range to advertise. The value must be a CIDR-formatted string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#range GoogleComputeRouter#range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#range GoogleComputeRouter#range}
 
 ---
 
@@ -1440,7 +1488,7 @@ public java.lang.String getDescription();
 
 User-specified description for the IP range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#description GoogleComputeRouter#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#description GoogleComputeRouter#description}
 
 ---
 
@@ -1460,12 +1508,13 @@ GoogleComputeRouterConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
-    .network(java.lang.String)
 //  .bgp(GoogleComputeRouterBgp)
 //  .description(java.lang.String)
 //  .encryptedInterconnectRouter(java.lang.Boolean|IResolvable)
 //  .id(java.lang.String)
 //  .md5AuthenticationKeys(GoogleComputeRouterMd5AuthenticationKeys)
+//  .nccGateway(java.lang.String)
+//  .network(java.lang.String)
 //  .params(GoogleComputeRouterParams)
 //  .project(java.lang.String)
 //  .region(java.lang.String)
@@ -1485,14 +1534,15 @@ GoogleComputeRouterConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network">network</a></code> | <code>java.lang.String</code> | A reference to the network to which this router belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.bgp">bgp</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | bgp block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.encryptedInterconnectRouter">encryptedInterconnectRouter</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates if a router is dedicated for use with encrypted VLAN attachments (interconnectAttachments). |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.md5AuthenticationKeys">md5AuthenticationKeys</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | md5_authentication_keys block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.nccGateway">nccGateway</a></code> | <code>java.lang.String</code> | A URI of an NCC Gateway spoke. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network">network</a></code> | <code>java.lang.String</code> | A reference to the network to which this router belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | params block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.region">region</a></code> | <code>java.lang.String</code> | Region where the router resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | timeouts block. |
 
@@ -1585,21 +1635,7 @@ which means the first character must be a lowercase letter, and all
 following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#name GoogleComputeRouter#name}
-
----
-
-##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network"></a>
-
-```java
-public java.lang.String getNetwork();
-```
-
-- *Type:* java.lang.String
-
-A reference to the network to which this router belongs.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#network GoogleComputeRouter#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#name GoogleComputeRouter#name}
 
 ---
 
@@ -1613,7 +1649,7 @@ public GoogleComputeRouterBgp getBgp();
 
 bgp block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#bgp GoogleComputeRouter#bgp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#bgp GoogleComputeRouter#bgp}
 
 ---
 
@@ -1627,7 +1663,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#description GoogleComputeRouter#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#description GoogleComputeRouter#description}
 
 ---
 
@@ -1641,7 +1677,7 @@ public java.lang.Boolean|IResolvable getEncryptedInterconnectRouter();
 
 Indicates if a router is dedicated for use with encrypted VLAN attachments (interconnectAttachments).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#encrypted_interconnect_router GoogleComputeRouter#encrypted_interconnect_router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#encrypted_interconnect_router GoogleComputeRouter#encrypted_interconnect_router}
 
 ---
 
@@ -1653,7 +1689,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1670,7 +1706,35 @@ public GoogleComputeRouterMd5AuthenticationKeys getMd5AuthenticationKeys();
 
 md5_authentication_keys block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#md5_authentication_keys GoogleComputeRouter#md5_authentication_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#md5_authentication_keys GoogleComputeRouter#md5_authentication_keys}
+
+---
+
+##### `nccGateway`<sup>Optional</sup> <a name="nccGateway" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.nccGateway"></a>
+
+```java
+public java.lang.String getNccGateway();
+```
+
+- *Type:* java.lang.String
+
+A URI of an NCC Gateway spoke.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#ncc_gateway GoogleComputeRouter#ncc_gateway}
+
+---
+
+##### `network`<sup>Optional</sup> <a name="network" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network"></a>
+
+```java
+public java.lang.String getNetwork();
+```
+
+- *Type:* java.lang.String
+
+A reference to the network to which this router belongs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#network GoogleComputeRouter#network}
 
 ---
 
@@ -1684,7 +1748,7 @@ public GoogleComputeRouterParams getParams();
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#params GoogleComputeRouter#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#params GoogleComputeRouter#params}
 
 ---
 
@@ -1696,7 +1760,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}.
 
 ---
 
@@ -1710,7 +1774,7 @@ public java.lang.String getRegion();
 
 Region where the router resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#region GoogleComputeRouter#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#region GoogleComputeRouter#region}
 
 ---
 
@@ -1724,7 +1788,7 @@ public GoogleComputeRouterTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#timeouts GoogleComputeRouter#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#timeouts GoogleComputeRouter#timeouts}
 
 ---
 
@@ -1760,7 +1824,7 @@ public java.lang.String getKey();
 
 Value of the key used for MD5 authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#key GoogleComputeRouter#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#key GoogleComputeRouter#key}
 
 ---
 
@@ -1777,7 +1841,7 @@ Name used to identify the key.
 Must be unique within a router.
 Must be referenced by exactly one bgpPeer. Must comply with RFC1035.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#name GoogleComputeRouter#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#name GoogleComputeRouter#name}
 
 ---
 
@@ -1815,7 +1879,7 @@ Tag keys and values have the
 same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
 and values are in the format tagValues/456.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#resource_manager_tags GoogleComputeRouter#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#resource_manager_tags GoogleComputeRouter#resource_manager_tags}
 
 ---
 
@@ -1837,9 +1901,9 @@ GoogleComputeRouterTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#create GoogleComputeRouter#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#delete GoogleComputeRouter#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#update GoogleComputeRouter#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#create GoogleComputeRouter#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#delete GoogleComputeRouter#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#update GoogleComputeRouter#update}. |
 
 ---
 
@@ -1851,7 +1915,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#create GoogleComputeRouter#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#create GoogleComputeRouter#create}.
 
 ---
 
@@ -1863,7 +1927,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#delete GoogleComputeRouter#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#delete GoogleComputeRouter#delete}.
 
 ---
 
@@ -1875,7 +1939,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#update GoogleComputeRouter#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router#update GoogleComputeRouter#update}.
 
 ---
 

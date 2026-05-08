@@ -4,12 +4,12 @@
 
 ### GoogleDataCatalogPolicyTagIamMember <a name="GoogleDataCatalogPolicyTagIamMember" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member google_data_catalog_policy_tag_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member google_data_catalog_policy_tag_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 googledatacatalogpolicytagiammember.NewGoogleDataCatalogPolicyTagIamMember(scope Construct, id *string, config GoogleDataCatalogPolicyTagIamMemberConfig) GoogleDataCatalogPolicyTagIamMember
 ```
@@ -427,7 +427,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMember_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMember_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleDataCatalogPolicyTag
 
 The id of the existing GoogleDataCatalogPolicyTagIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 &googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMemberCondition {
 	Expression: *string,
@@ -850,9 +850,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#expression GoogleDataCatalogPolicyTagIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#title GoogleDataCatalogPolicyTagIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#description GoogleDataCatalogPolicyTagIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#expression GoogleDataCatalogPolicyTagIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#title GoogleDataCatalogPolicyTagIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#description GoogleDataCatalogPolicyTagIamMember#description}. |
 
 ---
 
@@ -864,7 +864,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#expression GoogleDataCatalogPolicyTagIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#expression GoogleDataCatalogPolicyTagIamMember#expression}.
 
 ---
 
@@ -876,7 +876,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#title GoogleDataCatalogPolicyTagIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#title GoogleDataCatalogPolicyTagIamMember#title}.
 
 ---
 
@@ -888,7 +888,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#description GoogleDataCatalogPolicyTagIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#description GoogleDataCatalogPolicyTagIamMember#description}.
 
 ---
 
@@ -897,7 +897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 &googledatacatalogpolicytagiammember.GoogleDataCatalogPolicyTagIamMemberConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	Member: *string,
 	PolicyTag: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition,
 	Id: *string,
 }
 ```
@@ -926,11 +926,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#member GoogleDataCatalogPolicyTagIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.policyTag">PolicyTag</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#policy_tag GoogleDataCatalogPolicyTagIamMember#policy_tag}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#role GoogleDataCatalogPolicyTagIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#member GoogleDataCatalogPolicyTagIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.policyTag">PolicyTag</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#policy_tag GoogleDataCatalogPolicyTagIamMember#policy_tag}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#role GoogleDataCatalogPolicyTagIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberCondition">GoogleDataCatalogPolicyTagIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#id GoogleDataCatalogPolicyTagIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#id GoogleDataCatalogPolicyTagIamMember#id}. |
 
 ---
 
@@ -1012,7 +1012,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#member GoogleDataCatalogPolicyTagIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#member GoogleDataCatalogPolicyTagIamMember#member}.
 
 ---
 
@@ -1024,7 +1024,7 @@ PolicyTag *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#policy_tag GoogleDataCatalogPolicyTagIamMember#policy_tag}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#policy_tag GoogleDataCatalogPolicyTagIamMember#policy_tag}.
 
 ---
 
@@ -1036,7 +1036,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#role GoogleDataCatalogPolicyTagIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#role GoogleDataCatalogPolicyTagIamMember#role}.
 
 ---
 
@@ -1050,7 +1050,7 @@ Condition GoogleDataCatalogPolicyTagIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#condition GoogleDataCatalogPolicyTagIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#condition GoogleDataCatalogPolicyTagIamMember#condition}
 
 ---
 
@@ -1062,7 +1062,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag_iam_member#id GoogleDataCatalogPolicyTagIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_policy_tag_iam_member#id GoogleDataCatalogPolicyTagIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1076,7 +1076,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogPolicyTagIamMember.GoogleDataCatalogPolicyTagIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogpolicytagiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogpolicytagiammember"
 
 googledatacatalogpolicytagiammember.NewGoogleDataCatalogPolicyTagIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataCatalogPolicyTagIamMemberConditionOutputReference
 ```

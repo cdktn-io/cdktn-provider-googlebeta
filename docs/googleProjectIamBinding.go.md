@@ -4,12 +4,12 @@
 
 ### GoogleProjectIamBinding <a name="GoogleProjectIamBinding" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding google_project_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding google_project_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 googleprojectiambinding.NewGoogleProjectIamBinding(scope Construct, id *string, config GoogleProjectIamBindingConfig) GoogleProjectIamBinding
 ```
@@ -427,7 +427,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googleprojectiambinding.GoogleProjectIamBinding_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleprojectiambinding.GoogleProjectIamBinding_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleProjectIamBinding to
 
 The id of the existing GoogleProjectIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 &googleprojectiambinding.GoogleProjectIamBindingCondition {
 	Expression: *string,
@@ -850,9 +850,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#expression GoogleProjectIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#title GoogleProjectIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#description GoogleProjectIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#expression GoogleProjectIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#title GoogleProjectIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#description GoogleProjectIamBinding#description}. |
 
 ---
 
@@ -864,7 +864,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#expression GoogleProjectIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#expression GoogleProjectIamBinding#expression}.
 
 ---
 
@@ -876,7 +876,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#title GoogleProjectIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#title GoogleProjectIamBinding#title}.
 
 ---
 
@@ -888,7 +888,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#description GoogleProjectIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#description GoogleProjectIamBinding#description}.
 
 ---
 
@@ -897,7 +897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 &googleprojectiambinding.GoogleProjectIamBindingConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepr
 	Members: *[]*string,
 	Project: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleProjectIamBinding.GoogleProjectIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleProjectIamBinding.GoogleProjectIamBindingCondition,
 	Id: *string,
 }
 ```
@@ -926,11 +926,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepr
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#members GoogleProjectIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#project GoogleProjectIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#role GoogleProjectIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#members GoogleProjectIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#project GoogleProjectIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#role GoogleProjectIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition">GoogleProjectIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#id GoogleProjectIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#id GoogleProjectIamBinding#id}. |
 
 ---
 
@@ -1012,7 +1012,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#members GoogleProjectIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#members GoogleProjectIamBinding#members}.
 
 ---
 
@@ -1024,7 +1024,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#project GoogleProjectIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#project GoogleProjectIamBinding#project}.
 
 ---
 
@@ -1036,7 +1036,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#role GoogleProjectIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#role GoogleProjectIamBinding#role}.
 
 ---
 
@@ -1050,7 +1050,7 @@ Condition GoogleProjectIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#condition GoogleProjectIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#condition GoogleProjectIamBinding#condition}
 
 ---
 
@@ -1062,7 +1062,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_binding#id GoogleProjectIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_binding#id GoogleProjectIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1076,7 +1076,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiambinding"
 
 googleprojectiambinding.NewGoogleProjectIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleProjectIamBindingConditionOutputReference
 ```

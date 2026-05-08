@@ -4,12 +4,12 @@
 
 ### GoogleApigeeSecurityAction <a name="GoogleApigeeSecurityAction" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action google_apigee_security_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action google_apigee_security_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityAction(scope Construct, id *string, config GoogleApigeeSecurityActionConfig) GoogleApigeeSecurityAction
 ```
@@ -528,7 +528,7 @@ func ResetTtl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_IsConstruct(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -617,7 +617,7 @@ The construct id used in the generated config for the GoogleApigeeSecurityAction
 
 The id of the existing GoogleApigeeSecurityAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1147,7 +1147,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionAllow {
 
@@ -1160,7 +1160,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionConditionConfig {
 	AccessTokens: *[]*string,
@@ -1205,7 +1205,7 @@ AccessTokens *[]*string
 
 A list of accessTokens. Limit 1000 per action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#access_tokens GoogleApigeeSecurityAction#access_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#access_tokens GoogleApigeeSecurityAction#access_tokens}
 
 ---
 
@@ -1219,7 +1219,7 @@ ApiKeys *[]*string
 
 A list of API keys. Limit 1000 per action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#api_keys GoogleApigeeSecurityAction#api_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#api_keys GoogleApigeeSecurityAction#api_keys}
 
 ---
 
@@ -1233,7 +1233,7 @@ ApiProducts *[]*string
 
 A list of API Products. Limit 1000 per action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#api_products GoogleApigeeSecurityAction#api_products}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#api_products GoogleApigeeSecurityAction#api_products}
 
 ---
 
@@ -1247,7 +1247,7 @@ Asns *[]*string
 
 A list of ASN numbers to act on, e.g. 23. https://en.wikipedia.org/wiki/Autonomous_system_(Internet) This uses int64 instead of uint32 because of https://linter.aip.dev/141/forbidden-types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#asns GoogleApigeeSecurityAction#asns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#asns GoogleApigeeSecurityAction#asns}
 
 ---
 
@@ -1265,7 +1265,7 @@ Current options: Flooder, Brute Guessor, Static Content Scraper,
 OAuth Abuser, Robot Abuser, TorListRule, Advanced Anomaly Detection, Advanced API Scraper,
 Search Engine Crawlers, Public Clouds, Public Cloud AWS, Public Cloud Azure, and Public Cloud Google.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#bot_reasons GoogleApigeeSecurityAction#bot_reasons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#bot_reasons GoogleApigeeSecurityAction#bot_reasons}
 
 ---
 
@@ -1279,7 +1279,7 @@ DeveloperApps *[]*string
 
 A list of developer apps. Limit 1000 per action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#developer_apps GoogleApigeeSecurityAction#developer_apps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#developer_apps GoogleApigeeSecurityAction#developer_apps}
 
 ---
 
@@ -1293,7 +1293,7 @@ Developers *[]*string
 
 A list of developers. Limit 1000 per action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#developers GoogleApigeeSecurityAction#developers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#developers GoogleApigeeSecurityAction#developers}
 
 ---
 
@@ -1310,7 +1310,7 @@ Act only on particular HTTP methods.
 E.g. A read-only API can block POST/PUT/DELETE methods.
 Accepted values are: GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE and PATCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#http_methods GoogleApigeeSecurityAction#http_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#http_methods GoogleApigeeSecurityAction#http_methods}
 
 ---
 
@@ -1324,7 +1324,7 @@ IpAddressRanges *[]*string
 
 A list of IP addresses. This could be either IPv4 or IPv6. Limited to 100 per action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#ip_address_ranges GoogleApigeeSecurityAction#ip_address_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#ip_address_ranges GoogleApigeeSecurityAction#ip_address_ranges}
 
 ---
 
@@ -1338,7 +1338,7 @@ RegionCodes *[]*string
 
 A list of countries/region codes to act on, e.g. US. This follows https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#region_codes GoogleApigeeSecurityAction#region_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#region_codes GoogleApigeeSecurityAction#region_codes}
 
 ---
 
@@ -1352,7 +1352,7 @@ UserAgents *[]*string
 
 A list of user agents to deny. We look for exact matches. Limit 50 per action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#user_agents GoogleApigeeSecurityAction#user_agents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#user_agents GoogleApigeeSecurityAction#user_agents}
 
 ---
 
@@ -1361,7 +1361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionConfig {
 	Connection: interface{},
@@ -1371,19 +1371,19 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ConditionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfig,
+	ConditionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfig,
 	EnvId: *string,
 	OrgId: *string,
 	SecurityActionId: *string,
 	State: *string,
-	Allow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllow,
+	Allow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllow,
 	ApiProxies: *[]*string,
-	Deny: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeSecurityAction.GoogleApigeeSecurityActionDeny,
+	Deny: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeSecurityAction.GoogleApigeeSecurityActionDeny,
 	Description: *string,
 	ExpireTime: *string,
-	Flag: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlag,
+	Flag: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlag,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts,
 	Ttl: *string,
 }
 ```
@@ -1410,7 +1410,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.property.description">Description</a></code> | <code>*string</code> | An optional user provided description of the SecurityAction. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.property.expireTime">ExpireTime</a></code> | <code>*string</code> | The expiration for this SecurityAction. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.property.flag">Flag</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlag">GoogleApigeeSecurityActionFlag</a></code> | flag block. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#id GoogleApigeeSecurityAction#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#id GoogleApigeeSecurityAction#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts">GoogleApigeeSecurityActionTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.property.ttl">Ttl</a></code> | <code>*string</code> | The TTL for this SecurityAction. A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s". |
 
@@ -1496,7 +1496,7 @@ ConditionConfig GoogleApigeeSecurityActionConditionConfig
 
 condition_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#condition_config GoogleApigeeSecurityAction#condition_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#condition_config GoogleApigeeSecurityAction#condition_config}
 
 ---
 
@@ -1510,7 +1510,7 @@ EnvId *string
 
 The Apigee environment that this security action applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#env_id GoogleApigeeSecurityAction#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#env_id GoogleApigeeSecurityAction#env_id}
 
 ---
 
@@ -1524,7 +1524,7 @@ OrgId *string
 
 The organization that this security action applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#org_id GoogleApigeeSecurityAction#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#org_id GoogleApigeeSecurityAction#org_id}
 
 ---
 
@@ -1540,7 +1540,7 @@ The ID to use for the SecurityAction, which will become the final component of t
 
 This value should be 0-61 characters, and valid format is (^a-z?$).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#security_action_id GoogleApigeeSecurityAction#security_action_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#security_action_id GoogleApigeeSecurityAction#security_action_id}
 
 ---
 
@@ -1556,7 +1556,7 @@ Only an ENABLED SecurityAction is enforced.
 
 An ENABLED SecurityAction past its expiration time will not be enforced. Possible values: ["ENABLED", "DISABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#state GoogleApigeeSecurityAction#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#state GoogleApigeeSecurityAction#state}
 
 ---
 
@@ -1570,7 +1570,7 @@ Allow GoogleApigeeSecurityActionAllow
 
 allow block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#allow GoogleApigeeSecurityAction#allow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#allow GoogleApigeeSecurityAction#allow}
 
 ---
 
@@ -1589,7 +1589,7 @@ list is deployed at the time of enforcement. If set, several restrictions are en
 There can be at most 100 enabled actions with proxies set in an env.
 Several other restrictions apply on conditions and are detailed later.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#api_proxies GoogleApigeeSecurityAction#api_proxies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#api_proxies GoogleApigeeSecurityAction#api_proxies}
 
 ---
 
@@ -1603,7 +1603,7 @@ Deny GoogleApigeeSecurityActionDeny
 
 deny block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#deny GoogleApigeeSecurityAction#deny}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#deny GoogleApigeeSecurityAction#deny}
 
 ---
 
@@ -1617,7 +1617,7 @@ Description *string
 
 An optional user provided description of the SecurityAction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#description GoogleApigeeSecurityAction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#description GoogleApigeeSecurityAction#description}
 
 ---
 
@@ -1635,7 +1635,7 @@ Uses RFC 3339, where generated output will always be Z-normalized and uses 0, 3,
 fractional digits. Offsets other than "Z" are also accepted.
 Examples: "2014-10-02T15:01:23Z", "2014-10-02T15:01:23.045123456Z" or "2014-10-02T15:01:23+05:30".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#expire_time GoogleApigeeSecurityAction#expire_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#expire_time GoogleApigeeSecurityAction#expire_time}
 
 ---
 
@@ -1649,7 +1649,7 @@ Flag GoogleApigeeSecurityActionFlag
 
 flag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#flag GoogleApigeeSecurityAction#flag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#flag GoogleApigeeSecurityAction#flag}
 
 ---
 
@@ -1661,7 +1661,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#id GoogleApigeeSecurityAction#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#id GoogleApigeeSecurityAction#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1678,7 +1678,7 @@ Timeouts GoogleApigeeSecurityActionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#timeouts GoogleApigeeSecurityAction#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#timeouts GoogleApigeeSecurityAction#timeouts}
 
 ---
 
@@ -1692,7 +1692,7 @@ Ttl *string
 
 The TTL for this SecurityAction. A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#ttl GoogleApigeeSecurityAction#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#ttl GoogleApigeeSecurityAction#ttl}
 
 ---
 
@@ -1701,7 +1701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionDeny.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionDeny {
 	ResponseCode: *f64,
@@ -1726,7 +1726,7 @@ ResponseCode *f64
 
 The HTTP response code if the Action = DENY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#response_code GoogleApigeeSecurityAction#response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#response_code GoogleApigeeSecurityAction#response_code}
 
 ---
 
@@ -1735,7 +1735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionFlag {
 	Headers: interface{},
@@ -1760,7 +1760,7 @@ Headers interface{}
 
 headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#headers GoogleApigeeSecurityAction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#headers GoogleApigeeSecurityAction#headers}
 
 ---
 
@@ -1769,7 +1769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionFlagHeaders {
 	Name: *string,
@@ -1796,7 +1796,7 @@ Name *string
 
 The header name to be sent to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#name GoogleApigeeSecurityAction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#name GoogleApigeeSecurityAction#name}
 
 ---
 
@@ -1810,7 +1810,7 @@ Value *string
 
 The header value to be sent to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#value GoogleApigeeSecurityAction#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#value GoogleApigeeSecurityAction#value}
 
 ---
 
@@ -1819,7 +1819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionTimeouts {
 	Create: *string,
@@ -1831,8 +1831,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#create GoogleApigeeSecurityAction#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#delete GoogleApigeeSecurityAction#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#create GoogleApigeeSecurityAction#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#delete GoogleApigeeSecurityAction#delete}. |
 
 ---
 
@@ -1844,7 +1844,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#create GoogleApigeeSecurityAction#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#create GoogleApigeeSecurityAction#create}.
 
 ---
 
@@ -1856,7 +1856,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_security_action#delete GoogleApigeeSecurityAction#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_action#delete GoogleApigeeSecurityAction#delete}.
 
 ---
 
@@ -1867,7 +1867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionAllowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionAllowOutputReference
 ```
@@ -2116,7 +2116,7 @@ func InternalValue() GoogleApigeeSecurityActionAllow
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionConditionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionConditionConfigOutputReference
 ```
@@ -2684,7 +2684,7 @@ func InternalValue() GoogleApigeeSecurityActionConditionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionDenyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionDenyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionDenyOutputReference
 ```
@@ -2962,7 +2962,7 @@ func InternalValue() GoogleApigeeSecurityActionDeny
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionFlagHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeSecurityActionFlagHeadersList
 ```
@@ -3122,7 +3122,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionFlagHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeSecurityActionFlagHeadersOutputReference
 ```
@@ -3447,7 +3447,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionFlagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionFlagOutputReference
 ```
@@ -3738,7 +3738,7 @@ func InternalValue() GoogleApigeeSecurityActionFlag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionTimeoutsOutputReference
 ```

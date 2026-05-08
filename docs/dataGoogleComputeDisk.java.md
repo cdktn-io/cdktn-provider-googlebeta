@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeDisk <a name="DataGoogleComputeDisk" id="@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk google_compute_disk}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk google_compute_disk}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer"></a>
 
@@ -38,8 +38,8 @@ DataGoogleComputeDisk.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.Initializer.parameter.zone">zone</a></code> | <code>java.lang.String</code> | A reference to the zone where the disk resides. |
 
 ---
@@ -118,7 +118,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#name DataGoogleComputeDisk#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#name DataGoogleComputeDisk#name}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}.
 
 ---
 
@@ -147,7 +147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A reference to the zone where the disk resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#zone DataGoogleComputeDisk#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#zone DataGoogleComputeDisk#zone}
 
 ---
 
@@ -513,7 +513,7 @@ The construct id used in the generated config for the DataGoogleComputeDisk to i
 
 The id of the existing DataGoogleComputeDisk that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -552,6 +552,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.diskId">diskId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.effectiveLabels">effectiveLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.enableConfidentialCompute">enableConfidentialCompute</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.eraseWindowsVssSignature">eraseWindowsVssSignature</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.guestOsFeatures">guestOsFeatures</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskGuestOsFeaturesList">DataGoogleComputeDiskGuestOsFeaturesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.image">image</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.interface">interface</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -819,6 +820,16 @@ public StringMap getEffectiveLabels();
 
 ```java
 public IResolvable getEnableConfidentialCompute();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable
+
+---
+
+##### `eraseWindowsVssSignature`<sup>Required</sup> <a name="eraseWindowsVssSignature" id="@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDisk.property.eraseWindowsVssSignature"></a>
+
+```java
+public IResolvable getEraseWindowsVssSignature();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable
@@ -1271,8 +1282,8 @@ DataGoogleComputeDiskConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeDisk.DataGoogleComputeDiskConfig.property.zone">zone</a></code> | <code>java.lang.String</code> | A reference to the zone where the disk resides. |
 
 ---
@@ -1365,7 +1376,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#name DataGoogleComputeDisk#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#name DataGoogleComputeDisk#name}
 
 ---
 
@@ -1377,7 +1388,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#id DataGoogleComputeDisk#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1392,7 +1403,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#project DataGoogleComputeDisk#project}.
 
 ---
 
@@ -1406,7 +1417,7 @@ public java.lang.String getZone();
 
 A reference to the zone where the disk resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_disk#zone DataGoogleComputeDisk#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_disk#zone DataGoogleComputeDisk#zone}
 
 ---
 

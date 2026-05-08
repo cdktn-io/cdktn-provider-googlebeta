@@ -4,12 +4,12 @@
 
 ### GoogleGkeBackupBackupChannel <a name="GoogleGkeBackupBackupChannel" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel google_gke_backup_backup_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel google_gke_backup_backup_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 googlegkebackupbackupchannel.NewGoogleGkeBackupBackupChannel(scope Construct, id *string, config GoogleGkeBackupBackupChannelConfig) GoogleGkeBackupBackupChannel
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 googlegkebackupbackupchannel.GoogleGkeBackupBackupChannel_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 googlegkebackupbackupchannel.GoogleGkeBackupBackupChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlegkebackupbackupchannel.GoogleGkeBackupBackupChannel_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 googlegkebackupbackupchannel.GoogleGkeBackupBackupChannel_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlegkebackupbackupchannel.GoogleGkeBackupBackupChannel_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 googlegkebackupbackupchannel.GoogleGkeBackupBackupChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleGkeBackupBackupChann
 
 The id of the existing GoogleGkeBackupBackupChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -968,7 +968,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 &googlegkebackupbackupchannel.GoogleGkeBackupBackupChannelConfig {
 	Connection: interface{},
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts,
 }
 ```
 
@@ -1004,9 +1004,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.location">Location</a></code> | <code>*string</code> | The region of the Backup Channel. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.name">Name</a></code> | <code>*string</code> | The full name of the BackupChannel Resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.description">Description</a></code> | <code>*string</code> | User specified descriptive string for this BackupChannel. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#id GoogleGkeBackupBackupChannel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#id GoogleGkeBackupBackupChannel#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Description: A set of custom labels supplied by the user. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#project GoogleGkeBackupBackupChannel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#project GoogleGkeBackupBackupChannel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts">GoogleGkeBackupBackupChannelTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1091,7 +1091,7 @@ DestinationProject *string
 
 The project where Backups are allowed to be stored. The format is 'projects/{project}'. {project} can be project number or project id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#destination_project GoogleGkeBackupBackupChannel#destination_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#destination_project GoogleGkeBackupBackupChannel#destination_project}
 
 ---
 
@@ -1105,7 +1105,7 @@ Location *string
 
 The region of the Backup Channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#location GoogleGkeBackupBackupChannel#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#location GoogleGkeBackupBackupChannel#location}
 
 ---
 
@@ -1119,7 +1119,7 @@ Name *string
 
 The full name of the BackupChannel Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#name GoogleGkeBackupBackupChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#name GoogleGkeBackupBackupChannel#name}
 
 ---
 
@@ -1133,7 +1133,7 @@ Description *string
 
 User specified descriptive string for this BackupChannel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#description GoogleGkeBackupBackupChannel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#description GoogleGkeBackupBackupChannel#description}
 
 ---
 
@@ -1145,7 +1145,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#id GoogleGkeBackupBackupChannel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#id GoogleGkeBackupBackupChannel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1168,7 +1168,7 @@ Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#labels GoogleGkeBackupBackupChannel#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#labels GoogleGkeBackupBackupChannel#labels}
 
 ---
 
@@ -1180,7 +1180,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#project GoogleGkeBackupBackupChannel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#project GoogleGkeBackupBackupChannel#project}.
 
 ---
 
@@ -1194,7 +1194,7 @@ Timeouts GoogleGkeBackupBackupChannelTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#timeouts GoogleGkeBackupBackupChannel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#timeouts GoogleGkeBackupBackupChannel#timeouts}
 
 ---
 
@@ -1203,7 +1203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 &googlegkebackupbackupchannel.GoogleGkeBackupBackupChannelTimeouts {
 	Create: *string,
@@ -1216,9 +1216,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#create GoogleGkeBackupBackupChannel#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#delete GoogleGkeBackupBackupChannel#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#update GoogleGkeBackupBackupChannel#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#create GoogleGkeBackupBackupChannel#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#delete GoogleGkeBackupBackupChannel#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#update GoogleGkeBackupBackupChannel#update}. |
 
 ---
 
@@ -1230,7 +1230,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#create GoogleGkeBackupBackupChannel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#create GoogleGkeBackupBackupChannel#create}.
 
 ---
 
@@ -1242,7 +1242,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#delete GoogleGkeBackupBackupChannel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#delete GoogleGkeBackupBackupChannel#delete}.
 
 ---
 
@@ -1254,7 +1254,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_channel#update GoogleGkeBackupBackupChannel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_channel#update GoogleGkeBackupBackupChannel#update}.
 
 ---
 
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeBackupBackupChannel.GoogleGkeBackupBackupChannelTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupchannel"
 
 googlegkebackupbackupchannel.NewGoogleGkeBackupBackupChannelTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeBackupBackupChannelTimeoutsOutputReference
 ```

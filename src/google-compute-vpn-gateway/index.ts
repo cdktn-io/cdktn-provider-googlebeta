@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface GoogleComputeVpnGatewayConfig extends cdktn.TerraformMetaArgume
   /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#description GoogleComputeVpnGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#description GoogleComputeVpnGateway#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#id GoogleComputeVpnGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#id GoogleComputeVpnGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,39 +34,133 @@ export interface GoogleComputeVpnGatewayConfig extends cdktn.TerraformMetaArgume
   * characters must be a dash, lowercase letter, or digit, except the last
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#name GoogleComputeVpnGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#name GoogleComputeVpnGateway#name}
   */
   readonly name: string;
   /**
   * The network this VPN gateway is accepting traffic for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#network GoogleComputeVpnGateway#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#network GoogleComputeVpnGateway#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#project GoogleComputeVpnGateway#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#project GoogleComputeVpnGateway#project}
   */
   readonly project?: string;
   /**
   * The region this gateway should sit in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#region GoogleComputeVpnGateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#region GoogleComputeVpnGateway#region}
   */
   readonly region?: string;
   /**
+  * params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#params GoogleComputeVpnGateway#params}
+  */
+  readonly params?: GoogleComputeVpnGatewayParams;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#timeouts GoogleComputeVpnGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#timeouts GoogleComputeVpnGateway#timeouts}
   */
   readonly timeouts?: GoogleComputeVpnGatewayTimeouts;
 }
+export interface GoogleComputeVpnGatewayParams {
+  /**
+  * Resource manager tags to be bound to the Vpn Gateway. Tag keys and values have the
+  * same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+  * and values are in the format tagValues/456.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#resource_manager_tags GoogleComputeVpnGateway#resource_manager_tags}
+  */
+  readonly resourceManagerTags?: { [key: string]: string };
+}
+
+export function googleComputeVpnGatewayParamsToTerraform(struct?: GoogleComputeVpnGatewayParamsOutputReference | GoogleComputeVpnGatewayParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
+  }
+}
+
+
+export function googleComputeVpnGatewayParamsToHclTerraform(struct?: GoogleComputeVpnGatewayParamsOutputReference | GoogleComputeVpnGatewayParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    resource_manager_tags: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.resourceManagerTags),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeVpnGatewayParamsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleComputeVpnGatewayParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._resourceManagerTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceManagerTags = this._resourceManagerTags;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeVpnGatewayParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._resourceManagerTags = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._resourceManagerTags = value.resourceManagerTags;
+    }
+  }
+
+  // resource_manager_tags - computed: false, optional: true, required: false
+  private _resourceManagerTags?: { [key: string]: string }; 
+  public get resourceManagerTags() {
+    return this.getStringMapAttribute('resource_manager_tags');
+  }
+  public set resourceManagerTags(value: { [key: string]: string }) {
+    this._resourceManagerTags = value;
+  }
+  public resetResourceManagerTags() {
+    this._resourceManagerTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceManagerTagsInput() {
+    return this._resourceManagerTags;
+  }
+}
 export interface GoogleComputeVpnGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#create GoogleComputeVpnGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#create GoogleComputeVpnGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#delete GoogleComputeVpnGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#delete GoogleComputeVpnGateway#delete}
   */
   readonly delete?: string;
 }
@@ -189,7 +283,7 @@ export class GoogleComputeVpnGatewayTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway google_compute_vpn_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway google_compute_vpn_gateway}
 */
 export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
 
@@ -205,7 +299,7 @@ export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeVpnGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeVpnGateway to import
-  * @param importFromId The id of the existing GoogleComputeVpnGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeVpnGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeVpnGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -217,7 +311,7 @@ export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_gateway google_compute_vpn_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_gateway google_compute_vpn_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +322,8 @@ export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_vpn_gateway',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -245,6 +339,7 @@ export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
     this._network = config.network;
     this._project = config.project;
     this._region = config.region;
+    this._params.internalValue = config.params;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -357,6 +452,22 @@ export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
     return this.getStringAttribute('self_link');
   }
 
+  // params - computed: false, optional: true, required: false
+  private _params = new GoogleComputeVpnGatewayParamsOutputReference(this, "params");
+  public get params() {
+    return this._params;
+  }
+  public putParams(value: GoogleComputeVpnGatewayParams) {
+    this._params.internalValue = value;
+  }
+  public resetParams() {
+    this._params.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get paramsInput() {
+    return this._params.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleComputeVpnGatewayTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -385,6 +496,7 @@ export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
       network: cdktn.stringToTerraform(this._network),
       project: cdktn.stringToTerraform(this._project),
       region: cdktn.stringToTerraform(this._region),
+      params: googleComputeVpnGatewayParamsToTerraform(this._params.internalValue),
       timeouts: googleComputeVpnGatewayTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -426,6 +538,12 @@ export class GoogleComputeVpnGateway extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      params: {
+        value: googleComputeVpnGatewayParamsToHclTerraform(this._params.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleComputeVpnGatewayParamsList",
       },
       timeouts: {
         value: googleComputeVpnGatewayTimeoutsToHclTerraform(this._timeouts.internalValue),

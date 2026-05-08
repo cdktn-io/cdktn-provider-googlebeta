@@ -4,12 +4,12 @@
 
 ### DataGoogleDataplexDataQualityRules <a name="DataGoogleDataplexDataQualityRules" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules google_dataplex_data_quality_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules google_dataplex_data_quality_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRules(scope Construct, id *string, config DataGoogleDataplexDataQualityRulesConfig) DataGoogleDataplexDataQualityRules
 ```
@@ -319,7 +319,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRules_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRules_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRules_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -408,7 +408,7 @@ The construct id used in the generated config for the DataGoogleDataplexDataQual
 
 The id of the existing DataGoogleDataplexDataQualityRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -685,7 +685,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesConfig {
 	Connection: interface{},
@@ -713,10 +713,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.dataScanId">DataScanId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#data_scan_id DataGoogleDataplexDataQualityRules#data_scan_id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#id DataGoogleDataplexDataQualityRules#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#location DataGoogleDataplexDataQualityRules#location}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#project DataGoogleDataplexDataQualityRules#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.dataScanId">DataScanId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#data_scan_id DataGoogleDataplexDataQualityRules#data_scan_id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#id DataGoogleDataplexDataQualityRules#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#location DataGoogleDataplexDataQualityRules#location}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#project DataGoogleDataplexDataQualityRules#project}. |
 
 ---
 
@@ -798,7 +798,7 @@ DataScanId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#data_scan_id DataGoogleDataplexDataQualityRules#data_scan_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#data_scan_id DataGoogleDataplexDataQualityRules#data_scan_id}.
 
 ---
 
@@ -810,7 +810,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#id DataGoogleDataplexDataQualityRules#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#id DataGoogleDataplexDataQualityRules#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -825,7 +825,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#location DataGoogleDataplexDataQualityRules#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#location DataGoogleDataplexDataQualityRules#location}.
 
 ---
 
@@ -837,7 +837,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dataplex_data_quality_rules#project DataGoogleDataplexDataQualityRules#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dataplex_data_quality_rules#project DataGoogleDataplexDataQualityRules#project}.
 
 ---
 
@@ -846,7 +846,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRules {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesNonNullExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesNonNullExpectation {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRangeExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesRangeExpectation {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRegexExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesRegexExpectation {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRowConditionExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesRowConditionExpectation {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesSetExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesSetExpectation {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesSqlAssertion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesSqlAssertion {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectation {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesTableConditionExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesTableConditionExpectation {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesUniquenessExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 &datagoogledataplexdataqualityrules.DataGoogleDataplexDataQualityRulesRulesUniquenessExpectation {
 
@@ -978,7 +978,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesList
 ```
@@ -1127,7 +1127,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesNonNullExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesNonNullExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesNonNullExpectationList
 ```
@@ -1276,7 +1276,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesNonNullExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesNonNullExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesNonNullExpectationOutputReference
 ```
@@ -1543,7 +1543,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesNonNullExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesOutputReference
 ```
@@ -1986,7 +1986,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRangeExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesRangeExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesRangeExpectationList
 ```
@@ -2135,7 +2135,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRangeExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesRangeExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesRangeExpectationOutputReference
 ```
@@ -2446,7 +2446,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesRangeExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRegexExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesRegexExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesRegexExpectationList
 ```
@@ -2595,7 +2595,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRegexExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesRegexExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesRegexExpectationOutputReference
 ```
@@ -2873,7 +2873,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesRegexExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRowConditionExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesRowConditionExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesRowConditionExpectationList
 ```
@@ -3022,7 +3022,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesRowConditionExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesRowConditionExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesRowConditionExpectationOutputReference
 ```
@@ -3300,7 +3300,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesRowConditionExpectat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesSetExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesSetExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesSetExpectationList
 ```
@@ -3449,7 +3449,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesSetExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesSetExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesSetExpectationOutputReference
 ```
@@ -3727,7 +3727,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesSetExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesSqlAssertionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesSqlAssertionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesSqlAssertionList
 ```
@@ -3876,7 +3876,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesSqlAssertionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesSqlAssertionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesSqlAssertionOutputReference
 ```
@@ -4154,7 +4154,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesSqlAssertion
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationList
 ```
@@ -4303,7 +4303,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference
 ```
@@ -4625,7 +4625,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesTableConditionExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesTableConditionExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesTableConditionExpectationList
 ```
@@ -4774,7 +4774,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesTableConditionExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesTableConditionExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesTableConditionExpectationOutputReference
 ```
@@ -5052,7 +5052,7 @@ func InternalValue() DataGoogleDataplexDataQualityRulesRulesTableConditionExpect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesUniquenessExpectationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesUniquenessExpectationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDataplexDataQualityRulesRulesUniquenessExpectationList
 ```
@@ -5201,7 +5201,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleDataplexDataQualityRules.DataGoogleDataplexDataQualityRulesRulesUniquenessExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogledataplexdataqualityrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogledataplexdataqualityrules"
 
 datagoogledataplexdataqualityrules.NewDataGoogleDataplexDataQualityRulesRulesUniquenessExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesUniquenessExpectationOutputReference
 ```

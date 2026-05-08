@@ -4,12 +4,12 @@
 
 ### GoogleVertexAiRagEngineConfig <a name="GoogleVertexAiRagEngineConfig" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config google_vertex_ai_rag_engine_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config google_vertex_ai_rag_engine_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfig(scope Construct, id *string, config GoogleVertexAiRagEngineConfigConfig) GoogleVertexAiRagEngineConfig
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the GoogleVertexAiRagEngineCon
 
 The id of the existing GoogleVertexAiRagEngineConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -864,7 +864,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigConfig {
 	Connection: interface{},
@@ -874,11 +874,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	RagManagedDbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig,
+	RagManagedDbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig,
 	Id: *string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts,
 }
 ```
 
@@ -894,8 +894,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.ragManagedDbConfig">RagManagedDbConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig">GoogleVertexAiRagEngineConfigRagManagedDbConfig</a></code> | rag_managed_db_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#id GoogleVertexAiRagEngineConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#project GoogleVertexAiRagEngineConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#id GoogleVertexAiRagEngineConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#project GoogleVertexAiRagEngineConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.region">Region</a></code> | <code>*string</code> | The region of the RagEngineConfig. eg us-central1. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts">GoogleVertexAiRagEngineConfigTimeouts</a></code> | timeouts block. |
 
@@ -981,7 +981,7 @@ RagManagedDbConfig GoogleVertexAiRagEngineConfigRagManagedDbConfig
 
 rag_managed_db_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#rag_managed_db_config GoogleVertexAiRagEngineConfig#rag_managed_db_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#rag_managed_db_config GoogleVertexAiRagEngineConfig#rag_managed_db_config}
 
 ---
 
@@ -993,7 +993,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#id GoogleVertexAiRagEngineConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#id GoogleVertexAiRagEngineConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1008,7 +1008,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#project GoogleVertexAiRagEngineConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#project GoogleVertexAiRagEngineConfig#project}.
 
 ---
 
@@ -1022,7 +1022,7 @@ Region *string
 
 The region of the RagEngineConfig. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#region GoogleVertexAiRagEngineConfig#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#region GoogleVertexAiRagEngineConfig#region}
 
 ---
 
@@ -1036,7 +1036,7 @@ Timeouts GoogleVertexAiRagEngineConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#timeouts GoogleVertexAiRagEngineConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#timeouts GoogleVertexAiRagEngineConfig#timeouts}
 
 ---
 
@@ -1045,12 +1045,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig {
-	Basic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic,
-	Scaled: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled,
-	Unprovisioned: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned,
+	Basic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic,
+	Scaled: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled,
+	Unprovisioned: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned,
 }
 ```
 
@@ -1074,7 +1074,7 @@ Basic GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic
 
 basic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#basic GoogleVertexAiRagEngineConfig#basic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#basic GoogleVertexAiRagEngineConfig#basic}
 
 ---
 
@@ -1088,7 +1088,7 @@ Scaled GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled
 
 scaled block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#scaled GoogleVertexAiRagEngineConfig#scaled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#scaled GoogleVertexAiRagEngineConfig#scaled}
 
 ---
 
@@ -1102,7 +1102,7 @@ Unprovisioned GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned
 
 unprovisioned block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#unprovisioned GoogleVertexAiRagEngineConfig#unprovisioned}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#unprovisioned GoogleVertexAiRagEngineConfig#unprovisioned}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic {
 
@@ -1124,7 +1124,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled {
 
@@ -1137,7 +1137,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned {
 
@@ -1150,7 +1150,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigTimeouts {
 	Create: *string,
@@ -1163,9 +1163,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#create GoogleVertexAiRagEngineConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#delete GoogleVertexAiRagEngineConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#update GoogleVertexAiRagEngineConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#create GoogleVertexAiRagEngineConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#delete GoogleVertexAiRagEngineConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#update GoogleVertexAiRagEngineConfig#update}. |
 
 ---
 
@@ -1177,7 +1177,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#create GoogleVertexAiRagEngineConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#create GoogleVertexAiRagEngineConfig#create}.
 
 ---
 
@@ -1189,7 +1189,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#delete GoogleVertexAiRagEngineConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#delete GoogleVertexAiRagEngineConfig#delete}.
 
 ---
 
@@ -1201,7 +1201,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#update GoogleVertexAiRagEngineConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_rag_engine_config#update GoogleVertexAiRagEngineConfig#update}.
 
 ---
 
@@ -1212,7 +1212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference
 ```
@@ -1461,7 +1461,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference
 ```
@@ -1836,7 +1836,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference
 ```
@@ -2085,7 +2085,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference
 ```
@@ -2334,7 +2334,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisione
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigTimeoutsOutputReference
 ```

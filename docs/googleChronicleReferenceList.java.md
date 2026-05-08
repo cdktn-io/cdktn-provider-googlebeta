@@ -4,7 +4,7 @@
 
 ### GoogleChronicleReferenceList <a name="GoogleChronicleReferenceList" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer"></a>
 
@@ -27,6 +27,7 @@ GoogleChronicleReferenceList.Builder.create(Construct scope, java.lang.String id
     .syntaxType(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
+//  .scopeInfo(GoogleChronicleReferenceListScopeInfo)
 //  .timeouts(GoogleChronicleReferenceListTimeouts)
     .build();
 ```
@@ -48,8 +49,9 @@ GoogleChronicleReferenceList.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.referenceListId">referenceListId</a></code> | <code>java.lang.String</code> | Required. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.syntaxType">syntaxType</a></code> | <code>java.lang.String</code> | Possible values: REFERENCE_LIST_SYNTAX_TYPE_PLAIN_TEXT_STRING REFERENCE_LIST_SYNTAX_TYPE_REGEX REFERENCE_LIST_SYNTAX_TYPE_CIDR. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.scopeInfo">scopeInfo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a></code> | scope_info block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts">GoogleChronicleReferenceListTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 Required. A user-provided description of the reference list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 entries block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
 
 ---
 
@@ -140,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
 
 ---
 
@@ -152,7 +154,7 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
 
 ---
 
@@ -170,7 +172,7 @@ the reference list. It must satisfy the following requirements:
 * Has length < 256.
 * Must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
 
 ---
 
@@ -180,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Possible values: REFERENCE_LIST_SYNTAX_TYPE_PLAIN_TEXT_STRING REFERENCE_LIST_SYNTAX_TYPE_REGEX REFERENCE_LIST_SYNTAX_TYPE_CIDR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
 
 ---
 
@@ -188,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +201,17 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}.
+
+---
+
+##### `scopeInfo`<sup>Optional</sup> <a name="scopeInfo" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer.parameter.scopeInfo"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a>
+
+scope_info block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#scope_info GoogleChronicleReferenceList#scope_info}
 
 ---
 
@@ -209,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
 
 ---
 
@@ -242,9 +254,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.putEntries">putEntries</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.putScopeInfo">putScopeInfo</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.resetScopeInfo">resetScopeInfo</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
 ---
@@ -572,6 +586,18 @@ public void putEntries(IResolvable|java.util.List<GoogleChronicleReferenceListEn
 
 ---
 
+##### `putScopeInfo` <a name="putScopeInfo" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.putScopeInfo"></a>
+
+```java
+public void putScopeInfo(GoogleChronicleReferenceListScopeInfo value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.putScopeInfo.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a>
+
+---
+
 ##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.putTimeouts"></a>
 
 ```java
@@ -594,6 +620,12 @@ public void resetId()
 
 ```java
 public void resetProject()
+```
+
+##### `resetScopeInfo` <a name="resetScopeInfo" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.resetScopeInfo"></a>
+
+```java
+public void resetScopeInfo()
 ```
 
 ##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.resetTimeouts"></a>
@@ -705,7 +737,7 @@ The construct id used in the generated config for the GoogleChronicleReferenceLi
 
 The id of the existing GoogleChronicleReferenceList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +773,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.revisionCreateTime">revisionCreateTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.ruleAssociationsCount">ruleAssociationsCount</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.rules">rules</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.scopeInfo">scopeInfo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList">GoogleChronicleReferenceListScopeInfoList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.scopeInfo">scopeInfo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference">GoogleChronicleReferenceListScopeInfoOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeoutsOutputReference">GoogleChronicleReferenceListTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.entriesInput">entriesInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListEntries">GoogleChronicleReferenceListEntries</a>></code> | *No description.* |
@@ -750,6 +782,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.locationInput">locationInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.referenceListIdInput">referenceListIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.scopeInfoInput">scopeInfoInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.syntaxTypeInput">syntaxTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts">GoogleChronicleReferenceListTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -967,10 +1000,10 @@ public java.util.List<java.lang.String> getRules();
 ##### `scopeInfo`<sup>Required</sup> <a name="scopeInfo" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.scopeInfo"></a>
 
 ```java
-public GoogleChronicleReferenceListScopeInfoList getScopeInfo();
+public GoogleChronicleReferenceListScopeInfoOutputReference getScopeInfo();
 ```
 
-- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList">GoogleChronicleReferenceListScopeInfoList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference">GoogleChronicleReferenceListScopeInfoOutputReference</a>
 
 ---
 
@@ -1051,6 +1084,16 @@ public java.lang.String getReferenceListIdInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `scopeInfoInput`<sup>Optional</sup> <a name="scopeInfoInput" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.property.scopeInfoInput"></a>
+
+```java
+public GoogleChronicleReferenceListScopeInfo getScopeInfoInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a>
 
 ---
 
@@ -1187,6 +1230,7 @@ GoogleChronicleReferenceListConfig.builder()
     .syntaxType(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
+//  .scopeInfo(GoogleChronicleReferenceListScopeInfo)
 //  .timeouts(GoogleChronicleReferenceListTimeouts)
     .build();
 ```
@@ -1208,8 +1252,9 @@ GoogleChronicleReferenceListConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.referenceListId">referenceListId</a></code> | <code>java.lang.String</code> | Required. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.syntaxType">syntaxType</a></code> | <code>java.lang.String</code> | Possible values: REFERENCE_LIST_SYNTAX_TYPE_PLAIN_TEXT_STRING REFERENCE_LIST_SYNTAX_TYPE_REGEX REFERENCE_LIST_SYNTAX_TYPE_CIDR. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.scopeInfo">scopeInfo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a></code> | scope_info block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts">GoogleChronicleReferenceListTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1294,7 +1339,7 @@ public java.lang.String getDescription();
 
 Required. A user-provided description of the reference list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
 
 ---
 
@@ -1308,7 +1353,7 @@ public IResolvable|java.util.List<GoogleChronicleReferenceListEntries> getEntrie
 
 entries block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
 
 ---
 
@@ -1322,7 +1367,7 @@ public java.lang.String getInstance();
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
 
 ---
 
@@ -1338,7 +1383,7 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
 
 ---
 
@@ -1360,7 +1405,7 @@ the reference list. It must satisfy the following requirements:
 * Has length < 256.
 * Must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
 
 ---
 
@@ -1374,7 +1419,7 @@ public java.lang.String getSyntaxType();
 
 Possible values: REFERENCE_LIST_SYNTAX_TYPE_PLAIN_TEXT_STRING REFERENCE_LIST_SYNTAX_TYPE_REGEX REFERENCE_LIST_SYNTAX_TYPE_CIDR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
 
 ---
 
@@ -1386,7 +1431,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1401,7 +1446,21 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}.
+
+---
+
+##### `scopeInfo`<sup>Optional</sup> <a name="scopeInfo" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.scopeInfo"></a>
+
+```java
+public GoogleChronicleReferenceListScopeInfo getScopeInfo();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a>
+
+scope_info block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#scope_info GoogleChronicleReferenceList#scope_info}
 
 ---
 
@@ -1415,7 +1474,7 @@ public GoogleChronicleReferenceListTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
 
 ---
 
@@ -1449,7 +1508,7 @@ public java.lang.String getValue();
 
 Required. The value of the entry. Maximum length is 512 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#value GoogleChronicleReferenceList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#value GoogleChronicleReferenceList#value}
 
 ---
 
@@ -1461,9 +1520,31 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import io.cdktn.providers.google_beta.google_chronicle_reference_list.GoogleChronicleReferenceListScopeInfo;
 
 GoogleChronicleReferenceListScopeInfo.builder()
+//  .referenceListScope(GoogleChronicleReferenceListScopeInfoReferenceListScope)
     .build();
 ```
 
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo.property.referenceListScope">referenceListScope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope">GoogleChronicleReferenceListScopeInfoReferenceListScope</a></code> | reference_list_scope block. |
+
+---
+
+##### `referenceListScope`<sup>Optional</sup> <a name="referenceListScope" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo.property.referenceListScope"></a>
+
+```java
+public GoogleChronicleReferenceListScopeInfoReferenceListScope getReferenceListScope();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope">GoogleChronicleReferenceListScopeInfoReferenceListScope</a>
+
+reference_list_scope block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#reference_list_scope GoogleChronicleReferenceList#reference_list_scope}
+
+---
 
 ### GoogleChronicleReferenceListScopeInfoReferenceListScope <a name="GoogleChronicleReferenceListScopeInfoReferenceListScope" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope"></a>
 
@@ -1473,9 +1554,35 @@ GoogleChronicleReferenceListScopeInfo.builder()
 import io.cdktn.providers.google_beta.google_chronicle_reference_list.GoogleChronicleReferenceListScopeInfoReferenceListScope;
 
 GoogleChronicleReferenceListScopeInfoReferenceListScope.builder()
+//  .scopeNames(java.util.List<java.lang.String>)
     .build();
 ```
 
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope.property.scopeNames">scopeNames</a></code> | <code>java.util.List<java.lang.String></code> | Optional. |
+
+---
+
+##### `scopeNames`<sup>Optional</sup> <a name="scopeNames" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope.property.scopeNames"></a>
+
+```java
+public java.util.List<java.lang.String> getScopeNames();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Optional.
+
+The list of scope names of the reference list. The scope names should be
+full resource names and should be of the format:
+"projects/{project}/locations/{location}/instances/{instance}/dataAccessScopes/{scope_name}".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#scope_names GoogleChronicleReferenceList#scope_names}
+
+---
 
 ### GoogleChronicleReferenceListTimeouts <a name="GoogleChronicleReferenceListTimeouts" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts"></a>
 
@@ -1495,9 +1602,9 @@ GoogleChronicleReferenceListTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}. |
 
 ---
 
@@ -1509,7 +1616,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}.
 
 ---
 
@@ -1521,7 +1628,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}.
 
 ---
 
@@ -1533,7 +1640,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}.
 
 ---
 
@@ -1988,155 +2095,6 @@ public IResolvable|GoogleChronicleReferenceListEntries getInternalValue();
 ---
 
 
-### GoogleChronicleReferenceListScopeInfoList <a name="GoogleChronicleReferenceListScopeInfoList" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList"></a>
-
-#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.Initializer"></a>
-
-```java
-import io.cdktn.providers.google_beta.google_chronicle_reference_list.GoogleChronicleReferenceListScopeInfoList;
-
-new GoogleChronicleReferenceListScopeInfoList(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Boolean wrapsSet);
-```
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
-
----
-
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.Initializer.parameter.terraformResource"></a>
-
-- *Type:* io.cdktn.cdktn.IInterpolatingParent
-
-The parent resource.
-
----
-
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.Initializer.parameter.terraformAttribute"></a>
-
-- *Type:* java.lang.String
-
-The attribute on the parent resource this class is referencing.
-
----
-
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.Initializer.parameter.wrapsSet"></a>
-
-- *Type:* java.lang.Boolean
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
-
----
-
-#### Methods <a name="Methods" id="Methods"></a>
-
-| **Name** | **Description** |
-| --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.get">get</a></code> | *No description.* |
-
----
-
-##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.allWithMapKey"></a>
-
-```java
-public DynamicListTerraformIterator allWithMapKey(java.lang.String mapKeyAttributeName)
-```
-
-Creating an iterator for this complex list.
-
-The list will be converted into a map with the mapKeyAttributeName as the key.
-
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.allWithMapKey.parameter.mapKeyAttributeName"></a>
-
-- *Type:* java.lang.String
-
----
-
-##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.computeFqn"></a>
-
-```java
-public java.lang.String computeFqn()
-```
-
-##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.resolve"></a>
-
-```java
-public java.lang.Object resolve(IResolveContext _context)
-```
-
-Produce the Token's value at resolution time.
-
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.resolve.parameter._context"></a>
-
-- *Type:* io.cdktn.cdktn.IResolveContext
-
----
-
-##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.toString"></a>
-
-```java
-public java.lang.String toString()
-```
-
-Return a string representation of this resolvable object.
-
-Returns a reversible string representation.
-
-##### `get` <a name="get" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.get"></a>
-
-```java
-public GoogleChronicleReferenceListScopeInfoOutputReference get(java.lang.Number index)
-```
-
-###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.get.parameter.index"></a>
-
-- *Type:* java.lang.Number
-
-the index of the item to return.
-
----
-
-
-#### Properties <a name="Properties" id="Properties"></a>
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
-
----
-
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.property.creationStack"></a>
-
-```java
-public java.util.List<java.lang.String> getCreationStack();
-```
-
-- *Type:* java.util.List<java.lang.String>
-
-The creation stack of this resolvable which will be appended to errors thrown during resolution.
-
-If this returns an empty array the stack will not be attached.
-
----
-
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoList.property.fqn"></a>
-
-```java
-public java.lang.String getFqn();
-```
-
-- *Type:* java.lang.String
-
----
-
-
 ### GoogleChronicleReferenceListScopeInfoOutputReference <a name="GoogleChronicleReferenceListScopeInfoOutputReference" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer"></a>
@@ -2144,15 +2102,13 @@ public java.lang.String getFqn();
 ```java
 import io.cdktn.providers.google_beta.google_chronicle_reference_list.GoogleChronicleReferenceListScopeInfoOutputReference;
 
-new GoogleChronicleReferenceListScopeInfoOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Number complexObjectIndex, java.lang.Boolean complexObjectIsFromSet);
+new GoogleChronicleReferenceListScopeInfoOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>java.lang.Number</code> | the index of this item in the list. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
@@ -2169,22 +2125,6 @@ The parent resource.
 - *Type:* java.lang.String
 
 The attribute on the parent resource this class is referencing.
-
----
-
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer.parameter.complexObjectIndex"></a>
-
-- *Type:* java.lang.Number
-
-the index of this item in the list.
-
----
-
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
-
-- *Type:* java.lang.Boolean
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 
 ---
 
@@ -2205,6 +2145,8 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.putReferenceListScope">putReferenceListScope</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.resetReferenceListScope">resetReferenceListScope</a></code> | *No description.* |
 
 ---
 
@@ -2358,6 +2300,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putReferenceListScope` <a name="putReferenceListScope" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.putReferenceListScope"></a>
+
+```java
+public void putReferenceListScope(GoogleChronicleReferenceListScopeInfoReferenceListScope value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.putReferenceListScope.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope">GoogleChronicleReferenceListScopeInfoReferenceListScope</a>
+
+---
+
+##### `resetReferenceListScope` <a name="resetReferenceListScope" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.resetReferenceListScope"></a>
+
+```java
+public void resetReferenceListScope()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2365,7 +2325,8 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.referenceListScope">referenceListScope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList">GoogleChronicleReferenceListScopeInfoReferenceListScopeList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.referenceListScope">referenceListScope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference">GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.referenceListScopeInput">referenceListScopeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope">GoogleChronicleReferenceListScopeInfoReferenceListScope</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a></code> | *No description.* |
 
 ---
@@ -2397,10 +2358,20 @@ public java.lang.String getFqn();
 ##### `referenceListScope`<sup>Required</sup> <a name="referenceListScope" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.referenceListScope"></a>
 
 ```java
-public GoogleChronicleReferenceListScopeInfoReferenceListScopeList getReferenceListScope();
+public GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference getReferenceListScope();
 ```
 
-- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList">GoogleChronicleReferenceListScopeInfoReferenceListScopeList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference">GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference</a>
+
+---
+
+##### `referenceListScopeInput`<sup>Optional</sup> <a name="referenceListScopeInput" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.property.referenceListScopeInput"></a>
+
+```java
+public GoogleChronicleReferenceListScopeInfoReferenceListScope getReferenceListScopeInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope">GoogleChronicleReferenceListScopeInfoReferenceListScope</a>
 
 ---
 
@@ -2415,155 +2386,6 @@ public GoogleChronicleReferenceListScopeInfo getInternalValue();
 ---
 
 
-### GoogleChronicleReferenceListScopeInfoReferenceListScopeList <a name="GoogleChronicleReferenceListScopeInfoReferenceListScopeList" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList"></a>
-
-#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.Initializer"></a>
-
-```java
-import io.cdktn.providers.google_beta.google_chronicle_reference_list.GoogleChronicleReferenceListScopeInfoReferenceListScopeList;
-
-new GoogleChronicleReferenceListScopeInfoReferenceListScopeList(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Boolean wrapsSet);
-```
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
-
----
-
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.Initializer.parameter.terraformResource"></a>
-
-- *Type:* io.cdktn.cdktn.IInterpolatingParent
-
-The parent resource.
-
----
-
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.Initializer.parameter.terraformAttribute"></a>
-
-- *Type:* java.lang.String
-
-The attribute on the parent resource this class is referencing.
-
----
-
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.Initializer.parameter.wrapsSet"></a>
-
-- *Type:* java.lang.Boolean
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
-
----
-
-#### Methods <a name="Methods" id="Methods"></a>
-
-| **Name** | **Description** |
-| --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.get">get</a></code> | *No description.* |
-
----
-
-##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.allWithMapKey"></a>
-
-```java
-public DynamicListTerraformIterator allWithMapKey(java.lang.String mapKeyAttributeName)
-```
-
-Creating an iterator for this complex list.
-
-The list will be converted into a map with the mapKeyAttributeName as the key.
-
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.allWithMapKey.parameter.mapKeyAttributeName"></a>
-
-- *Type:* java.lang.String
-
----
-
-##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.computeFqn"></a>
-
-```java
-public java.lang.String computeFqn()
-```
-
-##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.resolve"></a>
-
-```java
-public java.lang.Object resolve(IResolveContext _context)
-```
-
-Produce the Token's value at resolution time.
-
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.resolve.parameter._context"></a>
-
-- *Type:* io.cdktn.cdktn.IResolveContext
-
----
-
-##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.toString"></a>
-
-```java
-public java.lang.String toString()
-```
-
-Return a string representation of this resolvable object.
-
-Returns a reversible string representation.
-
-##### `get` <a name="get" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.get"></a>
-
-```java
-public GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference get(java.lang.Number index)
-```
-
-###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.get.parameter.index"></a>
-
-- *Type:* java.lang.Number
-
-the index of the item to return.
-
----
-
-
-#### Properties <a name="Properties" id="Properties"></a>
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
-
----
-
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.property.creationStack"></a>
-
-```java
-public java.util.List<java.lang.String> getCreationStack();
-```
-
-- *Type:* java.util.List<java.lang.String>
-
-The creation stack of this resolvable which will be appended to errors thrown during resolution.
-
-If this returns an empty array the stack will not be attached.
-
----
-
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeList.property.fqn"></a>
-
-```java
-public java.lang.String getFqn();
-```
-
-- *Type:* java.lang.String
-
----
-
-
 ### GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference <a name="GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer"></a>
@@ -2571,15 +2393,13 @@ public java.lang.String getFqn();
 ```java
 import io.cdktn.providers.google_beta.google_chronicle_reference_list.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference;
 
-new GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Number complexObjectIndex, java.lang.Boolean complexObjectIsFromSet);
+new GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>java.lang.Number</code> | the index of this item in the list. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
@@ -2596,22 +2416,6 @@ The parent resource.
 - *Type:* java.lang.String
 
 The attribute on the parent resource this class is referencing.
-
----
-
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer.parameter.complexObjectIndex"></a>
-
-- *Type:* java.lang.Number
-
-the index of this item in the list.
-
----
-
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
-
-- *Type:* java.lang.Boolean
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 
 ---
 
@@ -2632,6 +2436,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.resetScopeNames">resetScopeNames</a></code> | *No description.* |
 
 ---
 
@@ -2785,6 +2590,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetScopeNames` <a name="resetScopeNames" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.resetScopeNames"></a>
+
+```java
+public void resetScopeNames()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2792,6 +2603,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.property.scopeNamesInput">scopeNamesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.property.scopeNames">scopeNames</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope">GoogleChronicleReferenceListScopeInfoReferenceListScope</a></code> | *No description.* |
 
@@ -2818,6 +2630,16 @@ public java.lang.String getFqn();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `scopeNamesInput`<sup>Optional</sup> <a name="scopeNamesInput" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.property.scopeNamesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getScopeNamesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
 
 ---
 

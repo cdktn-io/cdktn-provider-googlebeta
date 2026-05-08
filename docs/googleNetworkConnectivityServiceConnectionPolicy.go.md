@@ -4,12 +4,12 @@
 
 ### GoogleNetworkConnectivityServiceConnectionPolicy <a name="GoogleNetworkConnectivityServiceConnectionPolicy" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicy(scope Construct, id *string, config GoogleNetworkConnectivityServiceConnectionPolicyConfig) GoogleNetworkConnectivityServiceConnectionPolicy
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServic
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServic
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleNetworkConnectivityS
 
 The id of the existing GoogleNetworkConnectivityServiceConnectionPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1054,7 +1054,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 &googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig {
 	Connection: interface{},
@@ -1072,8 +1072,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	PscConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts,
+	PscConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts,
 }
 ```
 
@@ -1093,9 +1093,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.network">Network</a></code> | <code>*string</code> | The resource path of the consumer network. Example: - projects/{projectNumOrId}/global/networks/{resourceId}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.serviceClass">ServiceClass</a></code> | <code>*string</code> | The service class identifier for which this ServiceConnectionPolicy is for. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.description">Description</a></code> | <code>*string</code> | Free-text description of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#id GoogleNetworkConnectivityServiceConnectionPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#id GoogleNetworkConnectivityServiceConnectionPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | User-defined labels. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#project GoogleNetworkConnectivityServiceConnectionPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#project GoogleNetworkConnectivityServiceConnectionPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.pscConfig">PscConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConfig">GoogleNetworkConnectivityServiceConnectionPolicyPscConfig</a></code> | psc_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts">GoogleNetworkConnectivityServiceConnectionPolicyTimeouts</a></code> | timeouts block. |
 
@@ -1181,7 +1181,7 @@ Location *string
 
 The location of the ServiceConnectionPolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#location GoogleNetworkConnectivityServiceConnectionPolicy#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#location GoogleNetworkConnectivityServiceConnectionPolicy#location}
 
 ---
 
@@ -1195,7 +1195,7 @@ Name *string
 
 The name of a ServiceConnectionPolicy. Format: projects/{project}/locations/{location}/serviceConnectionPolicies/{service_connection_policy} See: https://google.aip.dev/122#fields-representing-resource-names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#name GoogleNetworkConnectivityServiceConnectionPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#name GoogleNetworkConnectivityServiceConnectionPolicy#name}
 
 ---
 
@@ -1209,7 +1209,7 @@ Network *string
 
 The resource path of the consumer network. Example: - projects/{projectNumOrId}/global/networks/{resourceId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#network GoogleNetworkConnectivityServiceConnectionPolicy#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#network GoogleNetworkConnectivityServiceConnectionPolicy#network}
 
 ---
 
@@ -1224,9 +1224,11 @@ ServiceClass *string
 The service class identifier for which this ServiceConnectionPolicy is for.
 
 The service class identifier is a unique, symbolic representation of a ServiceClass.
-It is provided by the Service Producer. Google services have a prefix of gcp. For example, gcp-cloud-sql. 3rd party services do not. For example, test-service-a3dfcx.
+It is provided by the Service Producer. Google services have a prefix of gcp. For example, google-cloud-sql. 3rd party services do not. For example, test-service-a3dfcx.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#service_class GoogleNetworkConnectivityServiceConnectionPolicy#service_class}
+For a list of supported services, see [Supported Services](https://docs.cloud.google.com/vpc/docs/about-service-connectivity-automation#supported-services).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#service_class GoogleNetworkConnectivityServiceConnectionPolicy#service_class}
 
 ---
 
@@ -1240,7 +1242,7 @@ Description *string
 
 Free-text description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#description GoogleNetworkConnectivityServiceConnectionPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#description GoogleNetworkConnectivityServiceConnectionPolicy#description}
 
 ---
 
@@ -1252,7 +1254,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#id GoogleNetworkConnectivityServiceConnectionPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#id GoogleNetworkConnectivityServiceConnectionPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1272,7 +1274,7 @@ User-defined labels.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#labels GoogleNetworkConnectivityServiceConnectionPolicy#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#labels GoogleNetworkConnectivityServiceConnectionPolicy#labels}
 
 ---
 
@@ -1284,7 +1286,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#project GoogleNetworkConnectivityServiceConnectionPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#project GoogleNetworkConnectivityServiceConnectionPolicy#project}.
 
 ---
 
@@ -1298,7 +1300,7 @@ PscConfig GoogleNetworkConnectivityServiceConnectionPolicyPscConfig
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#psc_config GoogleNetworkConnectivityServiceConnectionPolicy#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#psc_config GoogleNetworkConnectivityServiceConnectionPolicy#psc_config}
 
 ---
 
@@ -1312,7 +1314,7 @@ Timeouts GoogleNetworkConnectivityServiceConnectionPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#timeouts GoogleNetworkConnectivityServiceConnectionPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#timeouts GoogleNetworkConnectivityServiceConnectionPolicy#timeouts}
 
 ---
 
@@ -1321,7 +1323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 &googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConfig {
 	Subnetworks: *[]*string,
@@ -1352,7 +1354,7 @@ Subnetworks *[]*string
 
 IDs of the subnetworks or fully qualified identifiers for the subnetworks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#subnetworks GoogleNetworkConnectivityServiceConnectionPolicy#subnetworks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#subnetworks GoogleNetworkConnectivityServiceConnectionPolicy#subnetworks}
 
 ---
 
@@ -1376,7 +1378,7 @@ and is either the ID or the number of the resource type. Format for each
 allowedGoogleProducersResourceHierarchyLevel value: 'projects/' or 'folders/' or 'organizations/' Eg.
 [projects/my-project-id, projects/567, folders/891, organizations/123]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#allowed_google_producers_resource_hierarchy_level GoogleNetworkConnectivityServiceConnectionPolicy#allowed_google_producers_resource_hierarchy_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#allowed_google_producers_resource_hierarchy_level GoogleNetworkConnectivityServiceConnectionPolicy#allowed_google_producers_resource_hierarchy_level}
 
 ---
 
@@ -1390,7 +1392,7 @@ Limit *string
 
 Max number of PSC connections for this policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#limit GoogleNetworkConnectivityServiceConnectionPolicy#limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#limit GoogleNetworkConnectivityServiceConnectionPolicy#limit}
 
 ---
 
@@ -1406,7 +1408,7 @@ ProducerInstanceLocation is used to specify which authorization mechanism to use
 
 Possible values: ["PRODUCER_INSTANCE_LOCATION_UNSPECIFIED", "CUSTOM_RESOURCE_HIERARCHY_LEVELS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#producer_instance_location GoogleNetworkConnectivityServiceConnectionPolicy#producer_instance_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#producer_instance_location GoogleNetworkConnectivityServiceConnectionPolicy#producer_instance_location}
 
 ---
 
@@ -1415,7 +1417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 &googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnections {
 
@@ -1428,7 +1430,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 &googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsError {
 
@@ -1441,7 +1443,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 &googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfo {
 
@@ -1454,7 +1456,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 &googlenetworkconnectivityserviceconnectionpolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts {
 	Create: *string,
@@ -1467,9 +1469,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#create GoogleNetworkConnectivityServiceConnectionPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#delete GoogleNetworkConnectivityServiceConnectionPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#update GoogleNetworkConnectivityServiceConnectionPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#create GoogleNetworkConnectivityServiceConnectionPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#delete GoogleNetworkConnectivityServiceConnectionPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#update GoogleNetworkConnectivityServiceConnectionPolicy#update}. |
 
 ---
 
@@ -1481,7 +1483,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#create GoogleNetworkConnectivityServiceConnectionPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#create GoogleNetworkConnectivityServiceConnectionPolicy#create}.
 
 ---
 
@@ -1493,7 +1495,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#delete GoogleNetworkConnectivityServiceConnectionPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#delete GoogleNetworkConnectivityServiceConnectionPolicy#delete}.
 
 ---
 
@@ -1505,7 +1507,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_service_connection_policy#update GoogleNetworkConnectivityServiceConnectionPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_service_connection_policy#update GoogleNetworkConnectivityServiceConnectionPolicy#update}.
 
 ---
 
@@ -1516,7 +1518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyPscConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityServiceConnectionPolicyPscConfigOutputReference
 ```
@@ -1874,7 +1876,7 @@ func InternalValue() GoogleNetworkConnectivityServiceConnectionPolicyPscConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfoList
 ```
@@ -2023,7 +2025,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorInfoOutputReference
 ```
@@ -2323,7 +2325,7 @@ func InternalValue() GoogleNetworkConnectivityServiceConnectionPolicyPscConnecti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorList
 ```
@@ -2472,7 +2474,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference
 ```
@@ -2772,7 +2774,7 @@ func InternalValue() GoogleNetworkConnectivityServiceConnectionPolicyPscConnecti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsList
 ```
@@ -2921,7 +2923,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkConnectivityServiceConnectionPolicyPscConnectionsOutputReference
 ```
@@ -3287,7 +3289,7 @@ func InternalValue() GoogleNetworkConnectivityServiceConnectionPolicyPscConnecti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityServiceConnectionPolicy.GoogleNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityserviceconnectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityserviceconnectionpolicy"
 
 googlenetworkconnectivityserviceconnectionpolicy.NewGoogleNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference
 ```

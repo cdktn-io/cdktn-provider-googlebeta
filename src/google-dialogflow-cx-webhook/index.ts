@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,29 @@ export interface GoogleDialogflowCxWebhookConfig extends cdktn.TerraformMetaArgu
   /**
   * Indicates whether the webhook is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#disabled GoogleDialogflowCxWebhook#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#disabled GoogleDialogflowCxWebhook#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The human-readable name of the webhook, unique within the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#display_name GoogleDialogflowCxWebhook#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#display_name GoogleDialogflowCxWebhook#display_name}
   */
   readonly displayName: string;
   /**
   * Deprecated. Indicates if automatic spell correction is enabled in detect intent requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#enable_spell_correction GoogleDialogflowCxWebhook#enable_spell_correction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#enable_spell_correction GoogleDialogflowCxWebhook#enable_spell_correction}
   */
   readonly enableSpellCorrection?: boolean | cdktn.IResolvable;
   /**
   * Deprecated. Determines whether this agent should log conversation queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#enable_stackdriver_logging GoogleDialogflowCxWebhook#enable_stackdriver_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#enable_stackdriver_logging GoogleDialogflowCxWebhook#enable_stackdriver_logging}
   */
   readonly enableStackdriverLogging?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#id GoogleDialogflowCxWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#id GoogleDialogflowCxWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface GoogleDialogflowCxWebhookConfig extends cdktn.TerraformMetaArgu
   * The agent to create a webhook for.
   * Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#parent GoogleDialogflowCxWebhook#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#parent GoogleDialogflowCxWebhook#parent}
   */
   readonly parent?: string;
   /**
   * Deprecated. Name of the SecuritySettings reference for the agent. Format: projects/<Project ID>/locations/<Location ID>/securitySettings/<Security Settings ID>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#security_settings GoogleDialogflowCxWebhook#security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#security_settings GoogleDialogflowCxWebhook#security_settings}
   */
   readonly securitySettings?: string;
   /**
   * Webhook execution timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#timeout GoogleDialogflowCxWebhook#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#timeout GoogleDialogflowCxWebhook#timeout}
   */
   readonly timeout?: string;
   /**
   * generic_web_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#generic_web_service GoogleDialogflowCxWebhook#generic_web_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#generic_web_service GoogleDialogflowCxWebhook#generic_web_service}
   */
   readonly genericWebService?: GoogleDialogflowCxWebhookGenericWebService;
   /**
   * service_directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#service_directory GoogleDialogflowCxWebhook#service_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service_directory GoogleDialogflowCxWebhook#service_directory}
   */
   readonly serviceDirectory?: GoogleDialogflowCxWebhookServiceDirectory;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#timeouts GoogleDialogflowCxWebhook#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#timeouts GoogleDialogflowCxWebhook#timeouts}
   */
   readonly timeouts?: GoogleDialogflowCxWebhookTimeouts;
 }
@@ -85,7 +85,7 @@ export interface GoogleDialogflowCxWebhookGenericWebServiceOauthConfig {
   /**
   * The client ID provided by the 3rd party platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#client_id GoogleDialogflowCxWebhook#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#client_id GoogleDialogflowCxWebhook#client_id}
   */
   readonly clientId: string;
   /**
@@ -93,13 +93,13 @@ export interface GoogleDialogflowCxWebhookGenericWebServiceOauthConfig {
   * 'secret_version_for_client_secret' field is set, this field will be
   * ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#client_secret GoogleDialogflowCxWebhook#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#client_secret GoogleDialogflowCxWebhook#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth scopes to grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#scopes GoogleDialogflowCxWebhook#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#scopes GoogleDialogflowCxWebhook#scopes}
   */
   readonly scopes?: string[];
   /**
@@ -108,14 +108,14 @@ export interface GoogleDialogflowCxWebhookGenericWebServiceOauthConfig {
   * ignored.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_client_secret GoogleDialogflowCxWebhook#secret_version_for_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_client_secret GoogleDialogflowCxWebhook#secret_version_for_client_secret}
   */
   readonly secretVersionForClientSecret?: string;
   /**
   * The token endpoint provided by the 3rd party platform to exchange an
   * access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#token_endpoint GoogleDialogflowCxWebhook#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#token_endpoint GoogleDialogflowCxWebhook#token_endpoint}
   */
   readonly tokenEndpoint: string;
 }
@@ -309,14 +309,14 @@ export class GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenc
 }
 export interface GoogleDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#key GoogleDialogflowCxWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#key GoogleDialogflowCxWebhook#key}
   */
   readonly key: string;
   /**
   * The SecretManager secret version resource storing the header value.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_version GoogleDialogflowCxWebhook#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_version GoogleDialogflowCxWebhook#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -453,6 +453,95 @@ export class GoogleDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestH
     return new GoogleDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig {
+  /**
+  * The email address of the service account used to authenticate the webhook call.
+  * Dialogflow uses this service account to exchange an access token and the access
+  * token is then sent in the **Authorization** header of the webhook request.
+  * 
+  * The service account must have the **roles/iam.serviceAccountTokenCreator** role
+  * granted to the
+  * [Dialogflow service agent](https://cloud.google.com/iam/docs/service-agents?_gl=1*1jsujvh*_ga*NjYxMzU3OTg2LjE3Njc3MzQ4NjM.*_ga_WH2QY8WWF5*czE3Njc3MzQ2MjgkbzIkZzEkdDE3Njc3MzQ3NzQkajYwJGwwJGgw#dialogflow-service-agent).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service_account GoogleDialogflowCxWebhook#service_account}
+  */
+  readonly serviceAccount: string;
+}
+
+export function googleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigToTerraform(struct?: GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigOutputReference | GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
+  }
+}
+
+
+export function googleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigToHclTerraform(struct?: GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigOutputReference | GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    service_account: {
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._serviceAccount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccount = this._serviceAccount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._serviceAccount = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._serviceAccount = value.serviceAccount;
+    }
+  }
+
+  // service_account - computed: false, optional: false, required: true
+  private _serviceAccount?: string; 
+  public get serviceAccount() {
+    return this.getStringAttribute('service_account');
+  }
+  public set serviceAccount(value: string) {
+    this._serviceAccount = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountInput() {
+    return this._serviceAccount;
+  }
+}
 export interface GoogleDialogflowCxWebhookGenericWebService {
   /**
   * Specifies a list of allowed custom CA certificates (in DER format) for
@@ -467,14 +556,14 @@ export interface GoogleDialogflowCxWebhookGenericWebService {
   * -out example.com.crt \
   * -extfile <(printf "\nsubjectAltName='DNS:www.example.com'")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#allowed_ca_certs GoogleDialogflowCxWebhook#allowed_ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#allowed_ca_certs GoogleDialogflowCxWebhook#allowed_ca_certs}
   */
   readonly allowedCaCerts?: string[];
   /**
   * HTTP method for the flexible webhook calls. Standard webhook always uses
   * POST. Possible values: ["POST", "GET", "HEAD", "PUT", "DELETE", "PATCH", "OPTIONS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#http_method GoogleDialogflowCxWebhook#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#http_method GoogleDialogflowCxWebhook#http_method}
   */
   readonly httpMethod?: string;
   /**
@@ -483,19 +572,19 @@ export interface GoogleDialogflowCxWebhookGenericWebService {
   * - Key: session parameter name
   * - Value: field path in the webhook response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#parameter_mapping GoogleDialogflowCxWebhook#parameter_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#parameter_mapping GoogleDialogflowCxWebhook#parameter_mapping}
   */
   readonly parameterMapping?: { [key: string]: string };
   /**
   * Defines a custom JSON object as request body to send to flexible webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#request_body GoogleDialogflowCxWebhook#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#request_body GoogleDialogflowCxWebhook#request_body}
   */
   readonly requestBody?: string;
   /**
   * The HTTP request headers to send together with webhook requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#request_headers GoogleDialogflowCxWebhook#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#request_headers GoogleDialogflowCxWebhook#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
@@ -503,7 +592,7 @@ export interface GoogleDialogflowCxWebhookGenericWebService {
   * pair for HTTP Basic authentication.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_username_password GoogleDialogflowCxWebhook#secret_version_for_username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_username_password GoogleDialogflowCxWebhook#secret_version_for_username_password}
   */
   readonly secretVersionForUsernamePassword?: string;
   /**
@@ -511,33 +600,39 @@ export interface GoogleDialogflowCxWebhookGenericWebService {
   * agent](https://cloud.google.com/iam/docs/service-agents#dialogflow-service-agent).
   * The generated token is sent in the Authorization header. Possible values: ["NONE", "ID_TOKEN", "ACCESS_TOKEN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#service_agent_auth GoogleDialogflowCxWebhook#service_agent_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service_agent_auth GoogleDialogflowCxWebhook#service_agent_auth}
   */
   readonly serviceAgentAuth?: string;
   /**
   * The webhook URI for receiving POST requests. It must use https protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#uri GoogleDialogflowCxWebhook#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#uri GoogleDialogflowCxWebhook#uri}
   */
   readonly uri: string;
   /**
   * Type of the webhook. Possible values: ["STANDARD", "FLEXIBLE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#webhook_type GoogleDialogflowCxWebhook#webhook_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#webhook_type GoogleDialogflowCxWebhook#webhook_type}
   */
   readonly webhookType?: string;
   /**
   * oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#oauth_config GoogleDialogflowCxWebhook#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#oauth_config GoogleDialogflowCxWebhook#oauth_config}
   */
   readonly oauthConfig?: GoogleDialogflowCxWebhookGenericWebServiceOauthConfig;
   /**
   * secret_versions_for_request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_versions_for_request_headers GoogleDialogflowCxWebhook#secret_versions_for_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_versions_for_request_headers GoogleDialogflowCxWebhook#secret_versions_for_request_headers}
   */
   readonly secretVersionsForRequestHeaders?: GoogleDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeaders[] | cdktn.IResolvable;
+  /**
+  * service_account_auth_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service_account_auth_config GoogleDialogflowCxWebhook#service_account_auth_config}
+  */
+  readonly serviceAccountAuthConfig?: GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig;
 }
 
 export function googleDialogflowCxWebhookGenericWebServiceToTerraform(struct?: GoogleDialogflowCxWebhookGenericWebServiceOutputReference | GoogleDialogflowCxWebhookGenericWebService): any {
@@ -557,6 +652,7 @@ export function googleDialogflowCxWebhookGenericWebServiceToTerraform(struct?: G
     webhook_type: cdktn.stringToTerraform(struct!.webhookType),
     oauth_config: googleDialogflowCxWebhookGenericWebServiceOauthConfigToTerraform(struct!.oauthConfig),
     secret_versions_for_request_headers: cdktn.listMapper(googleDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersToTerraform, true)(struct!.secretVersionsForRequestHeaders),
+    service_account_auth_config: googleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigToTerraform(struct!.serviceAccountAuthConfig),
   }
 }
 
@@ -633,6 +729,12 @@ export function googleDialogflowCxWebhookGenericWebServiceToHclTerraform(struct?
       type: "set",
       storageClassType: "GoogleDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersList",
     },
+    service_account_auth_config: {
+      value: googleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigToHclTerraform(struct!.serviceAccountAuthConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigList",
+    },
   };
 
   // remove undefined attributes
@@ -697,6 +799,10 @@ export class GoogleDialogflowCxWebhookGenericWebServiceOutputReference extends c
       hasAnyValues = true;
       internalValueResult.secretVersionsForRequestHeaders = this._secretVersionsForRequestHeaders?.internalValue;
     }
+    if (this._serviceAccountAuthConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccountAuthConfig = this._serviceAccountAuthConfig?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -714,6 +820,7 @@ export class GoogleDialogflowCxWebhookGenericWebServiceOutputReference extends c
       this._webhookType = undefined;
       this._oauthConfig.internalValue = undefined;
       this._secretVersionsForRequestHeaders.internalValue = undefined;
+      this._serviceAccountAuthConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -728,6 +835,7 @@ export class GoogleDialogflowCxWebhookGenericWebServiceOutputReference extends c
       this._webhookType = value.webhookType;
       this._oauthConfig.internalValue = value.oauthConfig;
       this._secretVersionsForRequestHeaders.internalValue = value.secretVersionsForRequestHeaders;
+      this._serviceAccountAuthConfig.internalValue = value.serviceAccountAuthConfig;
     }
   }
 
@@ -903,12 +1011,28 @@ export class GoogleDialogflowCxWebhookGenericWebServiceOutputReference extends c
   public get secretVersionsForRequestHeadersInput() {
     return this._secretVersionsForRequestHeaders.internalValue;
   }
+
+  // service_account_auth_config - computed: false, optional: true, required: false
+  private _serviceAccountAuthConfig = new GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigOutputReference(this, "service_account_auth_config");
+  public get serviceAccountAuthConfig() {
+    return this._serviceAccountAuthConfig;
+  }
+  public putServiceAccountAuthConfig(value: GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig) {
+    this._serviceAccountAuthConfig.internalValue = value;
+  }
+  public resetServiceAccountAuthConfig() {
+    this._serviceAccountAuthConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountAuthConfigInput() {
+    return this._serviceAccountAuthConfig.internalValue;
+  }
 }
 export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOauthConfig {
   /**
   * The client ID provided by the 3rd party platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#client_id GoogleDialogflowCxWebhook#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#client_id GoogleDialogflowCxWebhook#client_id}
   */
   readonly clientId: string;
   /**
@@ -916,13 +1040,13 @@ export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOauth
   * 'secret_version_for_client_secret' field is set, this field will be
   * ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#client_secret GoogleDialogflowCxWebhook#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#client_secret GoogleDialogflowCxWebhook#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth scopes to grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#scopes GoogleDialogflowCxWebhook#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#scopes GoogleDialogflowCxWebhook#scopes}
   */
   readonly scopes?: string[];
   /**
@@ -931,14 +1055,14 @@ export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOauth
   * ignored.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_client_secret GoogleDialogflowCxWebhook#secret_version_for_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_client_secret GoogleDialogflowCxWebhook#secret_version_for_client_secret}
   */
   readonly secretVersionForClientSecret?: string;
   /**
   * The token endpoint provided by the 3rd party platform to exchange an
   * access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#token_endpoint GoogleDialogflowCxWebhook#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#token_endpoint GoogleDialogflowCxWebhook#token_endpoint}
   */
   readonly tokenEndpoint: string;
 }
@@ -1132,14 +1256,14 @@ export class GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOauthConf
 }
 export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#key GoogleDialogflowCxWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#key GoogleDialogflowCxWebhook#key}
   */
   readonly key: string;
   /**
   * The SecretManager secret version resource storing the header value.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_version GoogleDialogflowCxWebhook#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_version GoogleDialogflowCxWebhook#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -1276,6 +1400,95 @@ export class GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVer
     return new GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeadersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig {
+  /**
+  * The email address of the service account used to authenticate the webhook call.
+  * Dialogflow uses this service account to exchange an access token and the access
+  * token is then sent in the **Authorization** header of the webhook request.
+  * 
+  * The service account must have the **roles/iam.serviceAccountTokenCreator** role
+  * granted to the
+  * [Dialogflow service agent](https://cloud.google.com/iam/docs/service-agents?_gl=1*1jsujvh*_ga*NjYxMzU3OTg2LjE3Njc3MzQ4NjM.*_ga_WH2QY8WWF5*czE3Njc3MzQ2MjgkbzIkZzEkdDE3Njc3MzQ3NzQkajYwJGwwJGgw#dialogflow-service-agent).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service_account GoogleDialogflowCxWebhook#service_account}
+  */
+  readonly serviceAccount: string;
+}
+
+export function googleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigToTerraform(struct?: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigOutputReference | GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
+  }
+}
+
+
+export function googleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigToHclTerraform(struct?: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigOutputReference | GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    service_account: {
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._serviceAccount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccount = this._serviceAccount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._serviceAccount = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._serviceAccount = value.serviceAccount;
+    }
+  }
+
+  // service_account - computed: false, optional: false, required: true
+  private _serviceAccount?: string; 
+  public get serviceAccount() {
+    return this.getStringAttribute('service_account');
+  }
+  public set serviceAccount(value: string) {
+    this._serviceAccount = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountInput() {
+    return this._serviceAccount;
+  }
+}
 export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebService {
   /**
   * Specifies a list of allowed custom CA certificates (in DER format) for
@@ -1290,14 +1503,14 @@ export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebService {
   * -out example.com.crt \
   * -extfile <(printf "\nsubjectAltName='DNS:www.example.com'")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#allowed_ca_certs GoogleDialogflowCxWebhook#allowed_ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#allowed_ca_certs GoogleDialogflowCxWebhook#allowed_ca_certs}
   */
   readonly allowedCaCerts?: string[];
   /**
   * HTTP method for the flexible webhook calls. Standard webhook always uses
   * POST. Possible values: ["POST", "GET", "HEAD", "PUT", "DELETE", "PATCH", "OPTIONS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#http_method GoogleDialogflowCxWebhook#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#http_method GoogleDialogflowCxWebhook#http_method}
   */
   readonly httpMethod?: string;
   /**
@@ -1306,19 +1519,19 @@ export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebService {
   * - Key: session parameter name
   * - Value: field path in the webhook response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#parameter_mapping GoogleDialogflowCxWebhook#parameter_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#parameter_mapping GoogleDialogflowCxWebhook#parameter_mapping}
   */
   readonly parameterMapping?: { [key: string]: string };
   /**
   * Defines a custom JSON object as request body to send to flexible webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#request_body GoogleDialogflowCxWebhook#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#request_body GoogleDialogflowCxWebhook#request_body}
   */
   readonly requestBody?: string;
   /**
   * The HTTP request headers to send together with webhook requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#request_headers GoogleDialogflowCxWebhook#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#request_headers GoogleDialogflowCxWebhook#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
@@ -1326,7 +1539,7 @@ export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebService {
   * pair for HTTP Basic authentication.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_username_password GoogleDialogflowCxWebhook#secret_version_for_username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_version_for_username_password GoogleDialogflowCxWebhook#secret_version_for_username_password}
   */
   readonly secretVersionForUsernamePassword?: string;
   /**
@@ -1334,33 +1547,39 @@ export interface GoogleDialogflowCxWebhookServiceDirectoryGenericWebService {
   * agent](https://cloud.google.com/iam/docs/service-agents#dialogflow-service-agent).
   * The generated token is sent in the Authorization header. Possible values: ["NONE", "ID_TOKEN", "ACCESS_TOKEN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#service_agent_auth GoogleDialogflowCxWebhook#service_agent_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service_agent_auth GoogleDialogflowCxWebhook#service_agent_auth}
   */
   readonly serviceAgentAuth?: string;
   /**
   * The webhook URI for receiving POST requests. It must use https protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#uri GoogleDialogflowCxWebhook#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#uri GoogleDialogflowCxWebhook#uri}
   */
   readonly uri: string;
   /**
   * Type of the webhook. Possible values: ["STANDARD", "FLEXIBLE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#webhook_type GoogleDialogflowCxWebhook#webhook_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#webhook_type GoogleDialogflowCxWebhook#webhook_type}
   */
   readonly webhookType?: string;
   /**
   * oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#oauth_config GoogleDialogflowCxWebhook#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#oauth_config GoogleDialogflowCxWebhook#oauth_config}
   */
   readonly oauthConfig?: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOauthConfig;
   /**
   * secret_versions_for_request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#secret_versions_for_request_headers GoogleDialogflowCxWebhook#secret_versions_for_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#secret_versions_for_request_headers GoogleDialogflowCxWebhook#secret_versions_for_request_headers}
   */
   readonly secretVersionsForRequestHeaders?: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeaders[] | cdktn.IResolvable;
+  /**
+  * service_account_auth_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service_account_auth_config GoogleDialogflowCxWebhook#service_account_auth_config}
+  */
+  readonly serviceAccountAuthConfig?: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig;
 }
 
 export function googleDialogflowCxWebhookServiceDirectoryGenericWebServiceToTerraform(struct?: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference | GoogleDialogflowCxWebhookServiceDirectoryGenericWebService): any {
@@ -1380,6 +1599,7 @@ export function googleDialogflowCxWebhookServiceDirectoryGenericWebServiceToTerr
     webhook_type: cdktn.stringToTerraform(struct!.webhookType),
     oauth_config: googleDialogflowCxWebhookServiceDirectoryGenericWebServiceOauthConfigToTerraform(struct!.oauthConfig),
     secret_versions_for_request_headers: cdktn.listMapper(googleDialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeadersToTerraform, true)(struct!.secretVersionsForRequestHeaders),
+    service_account_auth_config: googleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigToTerraform(struct!.serviceAccountAuthConfig),
   }
 }
 
@@ -1456,6 +1676,12 @@ export function googleDialogflowCxWebhookServiceDirectoryGenericWebServiceToHclT
       type: "set",
       storageClassType: "GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeadersList",
     },
+    service_account_auth_config: {
+      value: googleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigToHclTerraform(struct!.serviceAccountAuthConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigList",
+    },
   };
 
   // remove undefined attributes
@@ -1520,6 +1746,10 @@ export class GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
       hasAnyValues = true;
       internalValueResult.secretVersionsForRequestHeaders = this._secretVersionsForRequestHeaders?.internalValue;
     }
+    if (this._serviceAccountAuthConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccountAuthConfig = this._serviceAccountAuthConfig?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1537,6 +1767,7 @@ export class GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
       this._webhookType = undefined;
       this._oauthConfig.internalValue = undefined;
       this._secretVersionsForRequestHeaders.internalValue = undefined;
+      this._serviceAccountAuthConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -1551,6 +1782,7 @@ export class GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
       this._webhookType = value.webhookType;
       this._oauthConfig.internalValue = value.oauthConfig;
       this._secretVersionsForRequestHeaders.internalValue = value.secretVersionsForRequestHeaders;
+      this._serviceAccountAuthConfig.internalValue = value.serviceAccountAuthConfig;
     }
   }
 
@@ -1726,18 +1958,34 @@ export class GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
   public get secretVersionsForRequestHeadersInput() {
     return this._secretVersionsForRequestHeaders.internalValue;
   }
+
+  // service_account_auth_config - computed: false, optional: true, required: false
+  private _serviceAccountAuthConfig = new GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigOutputReference(this, "service_account_auth_config");
+  public get serviceAccountAuthConfig() {
+    return this._serviceAccountAuthConfig;
+  }
+  public putServiceAccountAuthConfig(value: GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig) {
+    this._serviceAccountAuthConfig.internalValue = value;
+  }
+  public resetServiceAccountAuthConfig() {
+    this._serviceAccountAuthConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountAuthConfigInput() {
+    return this._serviceAccountAuthConfig.internalValue;
+  }
 }
 export interface GoogleDialogflowCxWebhookServiceDirectory {
   /**
   * The name of Service Directory service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#service GoogleDialogflowCxWebhook#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#service GoogleDialogflowCxWebhook#service}
   */
   readonly service: string;
   /**
   * generic_web_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#generic_web_service GoogleDialogflowCxWebhook#generic_web_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#generic_web_service GoogleDialogflowCxWebhook#generic_web_service}
   */
   readonly genericWebService?: GoogleDialogflowCxWebhookServiceDirectoryGenericWebService;
 }
@@ -1847,15 +2095,15 @@ export class GoogleDialogflowCxWebhookServiceDirectoryOutputReference extends cd
 }
 export interface GoogleDialogflowCxWebhookTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#create GoogleDialogflowCxWebhook#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#create GoogleDialogflowCxWebhook#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#delete GoogleDialogflowCxWebhook#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#delete GoogleDialogflowCxWebhook#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#update GoogleDialogflowCxWebhook#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#update GoogleDialogflowCxWebhook#update}
   */
   readonly update?: string;
 }
@@ -2007,7 +2255,7 @@ export class GoogleDialogflowCxWebhookTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook}
 */
 export class GoogleDialogflowCxWebhook extends cdktn.TerraformResource {
 
@@ -2023,7 +2271,7 @@ export class GoogleDialogflowCxWebhook extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDialogflowCxWebhook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDialogflowCxWebhook to import
-  * @param importFromId The id of the existing GoogleDialogflowCxWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDialogflowCxWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDialogflowCxWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2035,7 +2283,7 @@ export class GoogleDialogflowCxWebhook extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2046,8 +2294,8 @@ export class GoogleDialogflowCxWebhook extends cdktn.TerraformResource {
       terraformResourceType: 'google_dialogflow_cx_webhook',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

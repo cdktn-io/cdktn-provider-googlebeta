@@ -4,12 +4,12 @@
 
 ### GoogleOsLoginSshPublicKey <a name="GoogleOsLoginSshPublicKey" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 googleosloginsshpublickey.NewGoogleOsLoginSshPublicKey(scope Construct, id *string, config GoogleOsLoginSshPublicKeyConfig) GoogleOsLoginSshPublicKey
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 googleosloginsshpublickey.GoogleOsLoginSshPublicKey_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 googleosloginsshpublickey.GoogleOsLoginSshPublicKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleosloginsshpublickey.GoogleOsLoginSshPublicKey_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 googleosloginsshpublickey.GoogleOsLoginSshPublicKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleosloginsshpublickey.GoogleOsLoginSshPublicKey_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 googleosloginsshpublickey.GoogleOsLoginSshPublicKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleOsLoginSshPublicKey 
 
 The id of the existing GoogleOsLoginSshPublicKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 &googleosloginsshpublickey.GoogleOsLoginSshPublicKeyConfig {
 	Connection: interface{},
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 	ExpirationTimeUsec: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts,
 }
 ```
 
@@ -906,7 +906,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 | <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.property.key">Key</a></code> | <code>*string</code> | Public key text in SSH format, defined by RFC4253 section 6.6. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.property.user">User</a></code> | <code>*string</code> | The user email. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.property.expirationTimeUsec">ExpirationTimeUsec</a></code> | <code>*string</code> | An expiration time in microseconds since epoch. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#id GoogleOsLoginSshPublicKey#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#id GoogleOsLoginSshPublicKey#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.property.project">Project</a></code> | <code>*string</code> | The project ID of the Google Cloud Platform project. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts">GoogleOsLoginSshPublicKeyTimeouts</a></code> | timeouts block. |
 
@@ -992,7 +992,7 @@ Key *string
 
 Public key text in SSH format, defined by RFC4253 section 6.6.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#key GoogleOsLoginSshPublicKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#key GoogleOsLoginSshPublicKey#key}
 
 ---
 
@@ -1006,7 +1006,7 @@ User *string
 
 The user email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#user GoogleOsLoginSshPublicKey#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#user GoogleOsLoginSshPublicKey#user}
 
 ---
 
@@ -1020,7 +1020,7 @@ ExpirationTimeUsec *string
 
 An expiration time in microseconds since epoch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#expiration_time_usec GoogleOsLoginSshPublicKey#expiration_time_usec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#expiration_time_usec GoogleOsLoginSshPublicKey#expiration_time_usec}
 
 ---
 
@@ -1032,7 +1032,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#id GoogleOsLoginSshPublicKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#id GoogleOsLoginSshPublicKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1049,7 +1049,7 @@ Project *string
 
 The project ID of the Google Cloud Platform project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#project GoogleOsLoginSshPublicKey#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#project GoogleOsLoginSshPublicKey#project}
 
 ---
 
@@ -1063,7 +1063,7 @@ Timeouts GoogleOsLoginSshPublicKeyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#timeouts GoogleOsLoginSshPublicKey#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#timeouts GoogleOsLoginSshPublicKey#timeouts}
 
 ---
 
@@ -1072,7 +1072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 &googleosloginsshpublickey.GoogleOsLoginSshPublicKeyTimeouts {
 	Create: *string,
@@ -1085,9 +1085,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleos
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#create GoogleOsLoginSshPublicKey#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#delete GoogleOsLoginSshPublicKey#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#update GoogleOsLoginSshPublicKey#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#create GoogleOsLoginSshPublicKey#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#delete GoogleOsLoginSshPublicKey#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#update GoogleOsLoginSshPublicKey#update}. |
 
 ---
 
@@ -1099,7 +1099,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#create GoogleOsLoginSshPublicKey#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#create GoogleOsLoginSshPublicKey#create}.
 
 ---
 
@@ -1111,7 +1111,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#delete GoogleOsLoginSshPublicKey#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#delete GoogleOsLoginSshPublicKey#delete}.
 
 ---
 
@@ -1123,7 +1123,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key#update GoogleOsLoginSshPublicKey#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key#update GoogleOsLoginSshPublicKey#update}.
 
 ---
 
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsLoginSshPublicKey.GoogleOsLoginSshPublicKeyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey"
 
 googleosloginsshpublickey.NewGoogleOsLoginSshPublicKeyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsLoginSshPublicKeyTimeoutsOutputReference
 ```

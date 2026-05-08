@@ -4,12 +4,12 @@
 
 ### GoogleBigqueryCapacityCommitment <a name="GoogleBigqueryCapacityCommitment" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment google_bigquery_capacity_commitment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment google_bigquery_capacity_commitment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 googlebigquerycapacitycommitment.NewGoogleBigqueryCapacityCommitment(scope Construct, id *string, config GoogleBigqueryCapacityCommitmentConfig) GoogleBigqueryCapacityCommitment
 ```
@@ -469,7 +469,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitment_IsConstruct(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitment_IsTerraformElement(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitment_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitment_IsTerraformResource(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitment_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -558,7 +558,7 @@ The construct id used in the generated config for the GoogleBigqueryCapacityComm
 
 The id of the existing GoogleBigqueryCapacityCommitment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1022,7 +1022,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 &googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitmentConfig {
 	Connection: interface{},
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebi
 	Location: *string,
 	Project: *string,
 	RenewalPlan: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts,
 }
 ```
 
@@ -1061,9 +1061,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.capacityCommitmentId">CapacityCommitmentId</a></code> | <code>*string</code> | The optional capacity commitment ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.edition">Edition</a></code> | <code>*string</code> | The edition type. Valid values are STANDARD, ENTERPRISE, ENTERPRISE_PLUS. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.enforceSingleAdminProjectPerOrg">EnforceSingleAdminProjectPerOrg</a></code> | <code>*string</code> | If true, fail the request if another project in the organization has a capacity commitment. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#id GoogleBigqueryCapacityCommitment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#id GoogleBigqueryCapacityCommitment#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.location">Location</a></code> | <code>*string</code> | The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#project GoogleBigqueryCapacityCommitment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#project GoogleBigqueryCapacityCommitment#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.renewalPlan">RenewalPlan</a></code> | <code>*string</code> | The plan this capacity commitment is converted to after commitmentEndTime passes. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts">GoogleBigqueryCapacityCommitmentTimeouts</a></code> | timeouts block. |
 
@@ -1149,7 +1149,7 @@ Plan *string
 
 Capacity commitment plan. Valid values are at https://cloud.google.com/bigquery/docs/reference/reservations/rpc/google.cloud.bigquery.reservation.v1#commitmentplan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#plan GoogleBigqueryCapacityCommitment#plan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#plan GoogleBigqueryCapacityCommitment#plan}
 
 ---
 
@@ -1163,7 +1163,7 @@ SlotCount *f64
 
 Number of slots in this commitment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#slot_count GoogleBigqueryCapacityCommitment#slot_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#slot_count GoogleBigqueryCapacityCommitment#slot_count}
 
 ---
 
@@ -1182,7 +1182,7 @@ empty. This field must only contain lower case alphanumeric characters or dashes
 cannot be a dash. Max length is 64 characters. NOTE: this ID won't be kept if the capacity commitment is split
 or merged.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#capacity_commitment_id GoogleBigqueryCapacityCommitment#capacity_commitment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#capacity_commitment_id GoogleBigqueryCapacityCommitment#capacity_commitment_id}
 
 ---
 
@@ -1196,7 +1196,7 @@ Edition *string
 
 The edition type. Valid values are STANDARD, ENTERPRISE, ENTERPRISE_PLUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#edition GoogleBigqueryCapacityCommitment#edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#edition GoogleBigqueryCapacityCommitment#edition}
 
 ---
 
@@ -1210,7 +1210,7 @@ EnforceSingleAdminProjectPerOrg *string
 
 If true, fail the request if another project in the organization has a capacity commitment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#enforce_single_admin_project_per_org GoogleBigqueryCapacityCommitment#enforce_single_admin_project_per_org}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#enforce_single_admin_project_per_org GoogleBigqueryCapacityCommitment#enforce_single_admin_project_per_org}
 
 ---
 
@@ -1222,7 +1222,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#id GoogleBigqueryCapacityCommitment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#id GoogleBigqueryCapacityCommitment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1239,7 +1239,7 @@ Location *string
 
 The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#location GoogleBigqueryCapacityCommitment#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#location GoogleBigqueryCapacityCommitment#location}
 
 ---
 
@@ -1251,7 +1251,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#project GoogleBigqueryCapacityCommitment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#project GoogleBigqueryCapacityCommitment#project}.
 
 ---
 
@@ -1267,7 +1267,7 @@ The plan this capacity commitment is converted to after commitmentEndTime passes
 
 Once the plan is changed, committed period is extended according to commitment plan. Only applicable for some commitment plans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#renewal_plan GoogleBigqueryCapacityCommitment#renewal_plan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#renewal_plan GoogleBigqueryCapacityCommitment#renewal_plan}
 
 ---
 
@@ -1281,7 +1281,7 @@ Timeouts GoogleBigqueryCapacityCommitmentTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#timeouts GoogleBigqueryCapacityCommitment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#timeouts GoogleBigqueryCapacityCommitment#timeouts}
 
 ---
 
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 &googlebigquerycapacitycommitment.GoogleBigqueryCapacityCommitmentTimeouts {
 	Create: *string,
@@ -1303,9 +1303,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#create GoogleBigqueryCapacityCommitment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#delete GoogleBigqueryCapacityCommitment#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#update GoogleBigqueryCapacityCommitment#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#create GoogleBigqueryCapacityCommitment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#delete GoogleBigqueryCapacityCommitment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#update GoogleBigqueryCapacityCommitment#update}. |
 
 ---
 
@@ -1317,7 +1317,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#create GoogleBigqueryCapacityCommitment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#create GoogleBigqueryCapacityCommitment#create}.
 
 ---
 
@@ -1329,7 +1329,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#delete GoogleBigqueryCapacityCommitment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#delete GoogleBigqueryCapacityCommitment#delete}.
 
 ---
 
@@ -1341,7 +1341,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_capacity_commitment#update GoogleBigqueryCapacityCommitment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_capacity_commitment#update GoogleBigqueryCapacityCommitment#update}.
 
 ---
 
@@ -1352,7 +1352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryCapacityCommitment.GoogleBigqueryCapacityCommitmentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerycapacitycommitment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerycapacitycommitment"
 
 googlebigquerycapacitycommitment.NewGoogleBigqueryCapacityCommitmentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryCapacityCommitmentTimeoutsOutputReference
 ```

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,29 @@ export interface GoogleComputeRegionInstanceGroupManagerConfig extends cdktn.Ter
   /**
   * The base instance name to use for instances in this group. The value must be a valid RFC1035 name. Supported characters are lowercase letters, numbers, and hyphens (-). Instances are named by appending a hyphen and a random four-character string to the base instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#base_instance_name GoogleComputeRegionInstanceGroupManager#base_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#base_instance_name GoogleComputeRegionInstanceGroupManager#base_instance_name}
   */
   readonly baseInstanceName: string;
   /**
   * An optional textual description of the instance group manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#description GoogleComputeRegionInstanceGroupManager#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#description GoogleComputeRegionInstanceGroupManager#description}
   */
   readonly description?: string;
   /**
   * The shape to which the group converges either proactively or on resize events (depending on the value set in updatePolicy.instanceRedistributionType).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#distribution_policy_target_shape GoogleComputeRegionInstanceGroupManager#distribution_policy_target_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#distribution_policy_target_shape GoogleComputeRegionInstanceGroupManager#distribution_policy_target_shape}
   */
   readonly distributionPolicyTargetShape?: string;
   /**
   * The distribution policy for this managed instance group. You can specify one or more values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#distribution_policy_zones GoogleComputeRegionInstanceGroupManager#distribution_policy_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#distribution_policy_zones GoogleComputeRegionInstanceGroupManager#distribution_policy_zones}
   */
   readonly distributionPolicyZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#id GoogleComputeRegionInstanceGroupManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#id GoogleComputeRegionInstanceGroupManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,139 +46,151 @@ export interface GoogleComputeRegionInstanceGroupManagerConfig extends cdktn.Ter
   /**
   * Pagination behavior of the listManagedInstances API method for this managed instance group. Valid values are: "PAGELESS", "PAGINATED". If PAGELESS (default), Pagination is disabled for the group's listManagedInstances API method. maxResults and pageToken query parameters are ignored and all instances are returned in a single response. If PAGINATED, pagination is enabled, maxResults and pageToken query parameters are respected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#list_managed_instances_results GoogleComputeRegionInstanceGroupManager#list_managed_instances_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#list_managed_instances_results GoogleComputeRegionInstanceGroupManager#list_managed_instances_results}
   */
   readonly listManagedInstancesResults?: string;
   /**
   * The name of the instance group manager. Must be 1-63 characters long and comply with RFC1035. Supported characters include lowercase letters, numbers, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
   */
   readonly name: string;
   /**
   * The ID of the project in which the resource belongs. If it is not provided, the provider project is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#project GoogleComputeRegionInstanceGroupManager#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#project GoogleComputeRegionInstanceGroupManager#project}
   */
   readonly project?: string;
   /**
   * The region where the managed instance group resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#region GoogleComputeRegionInstanceGroupManager#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#region GoogleComputeRegionInstanceGroupManager#region}
   */
   readonly region?: string;
   /**
   * The full URL of all target pools to which new instances in the group are added. Updating the target pools attribute does not affect existing instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#target_pools GoogleComputeRegionInstanceGroupManager#target_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#target_pools GoogleComputeRegionInstanceGroupManager#target_pools}
   */
   readonly targetPools?: string[];
   /**
   * The target number of running instances for this managed instance group. This value should always be explicitly set unless this resource is attached to an autoscaler, in which case it should never be set. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#target_size GoogleComputeRegionInstanceGroupManager#target_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#target_size GoogleComputeRegionInstanceGroupManager#target_size}
   */
   readonly targetSize?: number;
   /**
   * The target number of stopped instances for this managed instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#target_stopped_size GoogleComputeRegionInstanceGroupManager#target_stopped_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#target_stopped_size GoogleComputeRegionInstanceGroupManager#target_stopped_size}
   */
   readonly targetStoppedSize?: number;
   /**
   * The target number of suspended instances for this managed instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#target_suspended_size GoogleComputeRegionInstanceGroupManager#target_suspended_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#target_suspended_size GoogleComputeRegionInstanceGroupManager#target_suspended_size}
   */
   readonly targetSuspendedSize?: number;
   /**
   * Whether to wait for all instances to be created/updated before returning. Note that if this is set to true and the operation does not succeed, Terraform will continue trying until it times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#wait_for_instances GoogleComputeRegionInstanceGroupManager#wait_for_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#wait_for_instances GoogleComputeRegionInstanceGroupManager#wait_for_instances}
   */
   readonly waitForInstances?: boolean | cdktn.IResolvable;
   /**
   * When used with wait_for_instances specifies the status to wait for. When STABLE is specified this resource will wait until the instances are stable before returning. When UPDATED is set, it will wait for the version target to be reached and any per instance configs to be effective and all instances configs to be effective as well as all instances to be stable before returning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#wait_for_instances_status GoogleComputeRegionInstanceGroupManager#wait_for_instances_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#wait_for_instances_status GoogleComputeRegionInstanceGroupManager#wait_for_instances_status}
   */
   readonly waitForInstancesStatus?: string;
   /**
   * all_instances_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#all_instances_config GoogleComputeRegionInstanceGroupManager#all_instances_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#all_instances_config GoogleComputeRegionInstanceGroupManager#all_instances_config}
   */
   readonly allInstancesConfig?: GoogleComputeRegionInstanceGroupManagerAllInstancesConfig;
   /**
   * auto_healing_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#auto_healing_policies GoogleComputeRegionInstanceGroupManager#auto_healing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#auto_healing_policies GoogleComputeRegionInstanceGroupManager#auto_healing_policies}
   */
   readonly autoHealingPolicies?: GoogleComputeRegionInstanceGroupManagerAutoHealingPolicies;
   /**
   * instance_flexibility_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#instance_flexibility_policy GoogleComputeRegionInstanceGroupManager#instance_flexibility_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#instance_flexibility_policy GoogleComputeRegionInstanceGroupManager#instance_flexibility_policy}
   */
   readonly instanceFlexibilityPolicy?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicy;
   /**
   * instance_lifecycle_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#instance_lifecycle_policy GoogleComputeRegionInstanceGroupManager#instance_lifecycle_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#instance_lifecycle_policy GoogleComputeRegionInstanceGroupManager#instance_lifecycle_policy}
   */
   readonly instanceLifecyclePolicy?: GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicy;
   /**
   * named_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#named_port GoogleComputeRegionInstanceGroupManager#named_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#named_port GoogleComputeRegionInstanceGroupManager#named_port}
   */
   readonly namedPort?: GoogleComputeRegionInstanceGroupManagerNamedPort[] | cdktn.IResolvable;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#params GoogleComputeRegionInstanceGroupManager#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#params GoogleComputeRegionInstanceGroupManager#params}
   */
   readonly params?: GoogleComputeRegionInstanceGroupManagerParams;
   /**
+  * resource_policies block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#resource_policies GoogleComputeRegionInstanceGroupManager#resource_policies}
+  */
+  readonly resourcePolicies?: GoogleComputeRegionInstanceGroupManagerResourcePolicies;
+  /**
   * standby_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#standby_policy GoogleComputeRegionInstanceGroupManager#standby_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#standby_policy GoogleComputeRegionInstanceGroupManager#standby_policy}
   */
   readonly standbyPolicy?: GoogleComputeRegionInstanceGroupManagerStandbyPolicy;
   /**
   * stateful_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#stateful_disk GoogleComputeRegionInstanceGroupManager#stateful_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#stateful_disk GoogleComputeRegionInstanceGroupManager#stateful_disk}
   */
   readonly statefulDisk?: GoogleComputeRegionInstanceGroupManagerStatefulDisk[] | cdktn.IResolvable;
   /**
   * stateful_external_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#stateful_external_ip GoogleComputeRegionInstanceGroupManager#stateful_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#stateful_external_ip GoogleComputeRegionInstanceGroupManager#stateful_external_ip}
   */
   readonly statefulExternalIp?: GoogleComputeRegionInstanceGroupManagerStatefulExternalIp[] | cdktn.IResolvable;
   /**
   * stateful_internal_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#stateful_internal_ip GoogleComputeRegionInstanceGroupManager#stateful_internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#stateful_internal_ip GoogleComputeRegionInstanceGroupManager#stateful_internal_ip}
   */
   readonly statefulInternalIp?: GoogleComputeRegionInstanceGroupManagerStatefulInternalIp[] | cdktn.IResolvable;
   /**
+  * target_size_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#target_size_policy GoogleComputeRegionInstanceGroupManager#target_size_policy}
+  */
+  readonly targetSizePolicy?: GoogleComputeRegionInstanceGroupManagerTargetSizePolicy[] | cdktn.IResolvable;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#timeouts GoogleComputeRegionInstanceGroupManager#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#timeouts GoogleComputeRegionInstanceGroupManager#timeouts}
   */
   readonly timeouts?: GoogleComputeRegionInstanceGroupManagerTimeouts;
   /**
   * update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#update_policy GoogleComputeRegionInstanceGroupManager#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#update_policy GoogleComputeRegionInstanceGroupManager#update_policy}
   */
   readonly updatePolicy?: GoogleComputeRegionInstanceGroupManagerUpdatePolicy;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#version GoogleComputeRegionInstanceGroupManager#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#version GoogleComputeRegionInstanceGroupManager#version}
   */
   readonly version: GoogleComputeRegionInstanceGroupManagerVersion[] | cdktn.IResolvable;
 }
@@ -590,13 +602,13 @@ export interface GoogleComputeRegionInstanceGroupManagerAllInstancesConfig {
   /**
   * The label key-value pairs that you want to patch onto the instance,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#labels GoogleComputeRegionInstanceGroupManager#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#labels GoogleComputeRegionInstanceGroupManager#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The metadata key-value pairs that you want to patch onto the instance. For more information, see Project and instance metadata,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#metadata GoogleComputeRegionInstanceGroupManager#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#metadata GoogleComputeRegionInstanceGroupManager#metadata}
   */
   readonly metadata?: { [key: string]: string };
 }
@@ -711,13 +723,13 @@ export interface GoogleComputeRegionInstanceGroupManagerAutoHealingPolicies {
   /**
   * The health check resource that signals autohealing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#health_check GoogleComputeRegionInstanceGroupManager#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#health_check GoogleComputeRegionInstanceGroupManager#health_check}
   */
   readonly healthCheck: string;
   /**
   * The number of seconds that the managed instance group waits before it applies autohealing policies to new instances or recently recreated instances. Between 0 and 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#initial_delay_sec GoogleComputeRegionInstanceGroupManager#initial_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#initial_delay_sec GoogleComputeRegionInstanceGroupManager#initial_delay_sec}
   */
   readonly initialDelaySec: number;
 }
@@ -822,25 +834,1757 @@ export class GoogleComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputRef
     return this._initialDelaySec;
   }
 }
+export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKey {
+  /**
+  * The self link of the encryption key that is stored in Google Cloud KMS.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#kms_key_self_link GoogleComputeRegionInstanceGroupManager#kms_key_self_link}
+  */
+  readonly kmsKeySelfLink?: string;
+  /**
+  * The service account being used for the encryption request for the given KMS key. If absent, the Compute Engine default service account is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#kms_key_service_account GoogleComputeRegionInstanceGroupManager#kms_key_service_account}
+  */
+  readonly kmsKeyServiceAccount?: string;
+  /**
+  * Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64 to either encrypt or decrypt this resource. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#raw_key GoogleComputeRegionInstanceGroupManager#raw_key}
+  */
+  readonly rawKey?: string;
+  /**
+  * Specifies an RFC 4648 base64 encoded, RSA-wrapped 2048-bit customer-supplied encryption key to either encrypt or decrypt this resource. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#rsa_encrypted_key GoogleComputeRegionInstanceGroupManager#rsa_encrypted_key}
+  */
+  readonly rsaEncryptedKey?: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kms_key_self_link: cdktn.stringToTerraform(struct!.kmsKeySelfLink),
+    kms_key_service_account: cdktn.stringToTerraform(struct!.kmsKeyServiceAccount),
+    raw_key: cdktn.stringToTerraform(struct!.rawKey),
+    rsa_encrypted_key: cdktn.stringToTerraform(struct!.rsaEncryptedKey),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kms_key_self_link: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeySelfLink),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    kms_key_service_account: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyServiceAccount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    raw_key: {
+      value: cdktn.stringToHclTerraform(struct!.rawKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rsa_encrypted_key: {
+      value: cdktn.stringToHclTerraform(struct!.rsaEncryptedKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kmsKeySelfLink !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeySelfLink = this._kmsKeySelfLink;
+    }
+    if (this._kmsKeyServiceAccount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeyServiceAccount = this._kmsKeyServiceAccount;
+    }
+    if (this._rawKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rawKey = this._rawKey;
+    }
+    if (this._rsaEncryptedKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rsaEncryptedKey = this._rsaEncryptedKey;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kmsKeySelfLink = undefined;
+      this._kmsKeyServiceAccount = undefined;
+      this._rawKey = undefined;
+      this._rsaEncryptedKey = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kmsKeySelfLink = value.kmsKeySelfLink;
+      this._kmsKeyServiceAccount = value.kmsKeyServiceAccount;
+      this._rawKey = value.rawKey;
+      this._rsaEncryptedKey = value.rsaEncryptedKey;
+    }
+  }
+
+  // kms_key_self_link - computed: false, optional: true, required: false
+  private _kmsKeySelfLink?: string; 
+  public get kmsKeySelfLink() {
+    return this.getStringAttribute('kms_key_self_link');
+  }
+  public set kmsKeySelfLink(value: string) {
+    this._kmsKeySelfLink = value;
+  }
+  public resetKmsKeySelfLink() {
+    this._kmsKeySelfLink = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeySelfLinkInput() {
+    return this._kmsKeySelfLink;
+  }
+
+  // kms_key_service_account - computed: false, optional: true, required: false
+  private _kmsKeyServiceAccount?: string; 
+  public get kmsKeyServiceAccount() {
+    return this.getStringAttribute('kms_key_service_account');
+  }
+  public set kmsKeyServiceAccount(value: string) {
+    this._kmsKeyServiceAccount = value;
+  }
+  public resetKmsKeyServiceAccount() {
+    this._kmsKeyServiceAccount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyServiceAccountInput() {
+    return this._kmsKeyServiceAccount;
+  }
+
+  // raw_key - computed: false, optional: true, required: false
+  private _rawKey?: string; 
+  public get rawKey() {
+    return this.getStringAttribute('raw_key');
+  }
+  public set rawKey(value: string) {
+    this._rawKey = value;
+  }
+  public resetRawKey() {
+    this._rawKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rawKeyInput() {
+    return this._rawKey;
+  }
+
+  // rsa_encrypted_key - computed: false, optional: true, required: false
+  private _rsaEncryptedKey?: string; 
+  public get rsaEncryptedKey() {
+    return this.getStringAttribute('rsa_encrypted_key');
+  }
+  public set rsaEncryptedKey(value: string) {
+    this._rsaEncryptedKey = value;
+  }
+  public resetRsaEncryptedKey() {
+    this._rsaEncryptedKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rsaEncryptedKeyInput() {
+    return this._rsaEncryptedKey;
+  }
+}
+export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels {
+  /**
+  * The unique key of the label to assign to disks.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#key GoogleComputeRegionInstanceGroupManager#key}
+  */
+  readonly key: string;
+  /**
+  * The value of the label to assign to disks.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#value GoogleComputeRegionInstanceGroupManager#value}
+  */
+  readonly value: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsOutputReference {
+    return new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags {
+  /**
+  * The unique key of the resource manager tag to assign to disks. Keys must be in the format tagKeys/{tag_key_id}.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#key GoogleComputeRegionInstanceGroupManager#key}
+  */
+  readonly key: string;
+  /**
+  * The value of the resource manager tag to assign to disks. Values must be in the format tagValues/456.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#value GoogleComputeRegionInstanceGroupManager#value}
+  */
+  readonly value: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsOutputReference {
+    return new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKey {
+  /**
+  * The self link of the encryption key that is stored in Google Cloud KMS. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#kms_key_self_link GoogleComputeRegionInstanceGroupManager#kms_key_self_link}
+  */
+  readonly kmsKeySelfLink?: string;
+  /**
+  * The service account being used for the encryption request for the given KMS key. If absent, the Compute Engine default service account is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#kms_key_service_account GoogleComputeRegionInstanceGroupManager#kms_key_service_account}
+  */
+  readonly kmsKeyServiceAccount?: string;
+  /**
+  * Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64 to either encrypt or decrypt this resource. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#raw_key GoogleComputeRegionInstanceGroupManager#raw_key}
+  */
+  readonly rawKey?: string;
+  /**
+  * Specifies an RFC 4648 base64 encoded, RSA-wrapped 2048-bit customer-supplied encryption key to either encrypt or decrypt this resource. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#rsa_encrypted_key GoogleComputeRegionInstanceGroupManager#rsa_encrypted_key}
+  */
+  readonly rsaEncryptedKey?: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kms_key_self_link: cdktn.stringToTerraform(struct!.kmsKeySelfLink),
+    kms_key_service_account: cdktn.stringToTerraform(struct!.kmsKeyServiceAccount),
+    raw_key: cdktn.stringToTerraform(struct!.rawKey),
+    rsa_encrypted_key: cdktn.stringToTerraform(struct!.rsaEncryptedKey),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kms_key_self_link: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeySelfLink),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    kms_key_service_account: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyServiceAccount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    raw_key: {
+      value: cdktn.stringToHclTerraform(struct!.rawKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rsa_encrypted_key: {
+      value: cdktn.stringToHclTerraform(struct!.rsaEncryptedKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kmsKeySelfLink !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeySelfLink = this._kmsKeySelfLink;
+    }
+    if (this._kmsKeyServiceAccount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeyServiceAccount = this._kmsKeyServiceAccount;
+    }
+    if (this._rawKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rawKey = this._rawKey;
+    }
+    if (this._rsaEncryptedKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rsaEncryptedKey = this._rsaEncryptedKey;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kmsKeySelfLink = undefined;
+      this._kmsKeyServiceAccount = undefined;
+      this._rawKey = undefined;
+      this._rsaEncryptedKey = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kmsKeySelfLink = value.kmsKeySelfLink;
+      this._kmsKeyServiceAccount = value.kmsKeyServiceAccount;
+      this._rawKey = value.rawKey;
+      this._rsaEncryptedKey = value.rsaEncryptedKey;
+    }
+  }
+
+  // kms_key_self_link - computed: false, optional: true, required: false
+  private _kmsKeySelfLink?: string; 
+  public get kmsKeySelfLink() {
+    return this.getStringAttribute('kms_key_self_link');
+  }
+  public set kmsKeySelfLink(value: string) {
+    this._kmsKeySelfLink = value;
+  }
+  public resetKmsKeySelfLink() {
+    this._kmsKeySelfLink = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeySelfLinkInput() {
+    return this._kmsKeySelfLink;
+  }
+
+  // kms_key_service_account - computed: false, optional: true, required: false
+  private _kmsKeyServiceAccount?: string; 
+  public get kmsKeyServiceAccount() {
+    return this.getStringAttribute('kms_key_service_account');
+  }
+  public set kmsKeyServiceAccount(value: string) {
+    this._kmsKeyServiceAccount = value;
+  }
+  public resetKmsKeyServiceAccount() {
+    this._kmsKeyServiceAccount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyServiceAccountInput() {
+    return this._kmsKeyServiceAccount;
+  }
+
+  // raw_key - computed: false, optional: true, required: false
+  private _rawKey?: string; 
+  public get rawKey() {
+    return this.getStringAttribute('raw_key');
+  }
+  public set rawKey(value: string) {
+    this._rawKey = value;
+  }
+  public resetRawKey() {
+    this._rawKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rawKeyInput() {
+    return this._rawKey;
+  }
+
+  // rsa_encrypted_key - computed: false, optional: true, required: false
+  private _rsaEncryptedKey?: string; 
+  public get rsaEncryptedKey() {
+    return this.getStringAttribute('rsa_encrypted_key');
+  }
+  public set rsaEncryptedKey(value: string) {
+    this._rsaEncryptedKey = value;
+  }
+  public resetRsaEncryptedKey() {
+    this._rsaEncryptedKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rsaEncryptedKeyInput() {
+    return this._rsaEncryptedKey;
+  }
+}
+export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKey {
+  /**
+  * The self link of the encryption key that is stored in Google Cloud KMS. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#kms_key_self_link GoogleComputeRegionInstanceGroupManager#kms_key_self_link}
+  */
+  readonly kmsKeySelfLink?: string;
+  /**
+  * The service account being used for the encryption request for the given KMS key. If absent, the Compute Engine default service account is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#kms_key_service_account GoogleComputeRegionInstanceGroupManager#kms_key_service_account}
+  */
+  readonly kmsKeyServiceAccount?: string;
+  /**
+  * Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64 to either encrypt or decrypt this resource. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#raw_key GoogleComputeRegionInstanceGroupManager#raw_key}
+  */
+  readonly rawKey?: string;
+  /**
+  * Specifies an RFC 4648 base64 encoded, RSA-wrapped 2048-bit customer-supplied encryption key to either encrypt or decrypt this resource. Only one of kms_key_self_link, rsa_encrypted_key and raw_key may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#rsa_encrypted_key GoogleComputeRegionInstanceGroupManager#rsa_encrypted_key}
+  */
+  readonly rsaEncryptedKey?: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kms_key_self_link: cdktn.stringToTerraform(struct!.kmsKeySelfLink),
+    kms_key_service_account: cdktn.stringToTerraform(struct!.kmsKeyServiceAccount),
+    raw_key: cdktn.stringToTerraform(struct!.rawKey),
+    rsa_encrypted_key: cdktn.stringToTerraform(struct!.rsaEncryptedKey),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kms_key_self_link: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeySelfLink),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    kms_key_service_account: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyServiceAccount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    raw_key: {
+      value: cdktn.stringToHclTerraform(struct!.rawKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rsa_encrypted_key: {
+      value: cdktn.stringToHclTerraform(struct!.rsaEncryptedKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kmsKeySelfLink !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeySelfLink = this._kmsKeySelfLink;
+    }
+    if (this._kmsKeyServiceAccount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeyServiceAccount = this._kmsKeyServiceAccount;
+    }
+    if (this._rawKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rawKey = this._rawKey;
+    }
+    if (this._rsaEncryptedKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rsaEncryptedKey = this._rsaEncryptedKey;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kmsKeySelfLink = undefined;
+      this._kmsKeyServiceAccount = undefined;
+      this._rawKey = undefined;
+      this._rsaEncryptedKey = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kmsKeySelfLink = value.kmsKeySelfLink;
+      this._kmsKeyServiceAccount = value.kmsKeyServiceAccount;
+      this._rawKey = value.rawKey;
+      this._rsaEncryptedKey = value.rsaEncryptedKey;
+    }
+  }
+
+  // kms_key_self_link - computed: false, optional: true, required: false
+  private _kmsKeySelfLink?: string; 
+  public get kmsKeySelfLink() {
+    return this.getStringAttribute('kms_key_self_link');
+  }
+  public set kmsKeySelfLink(value: string) {
+    this._kmsKeySelfLink = value;
+  }
+  public resetKmsKeySelfLink() {
+    this._kmsKeySelfLink = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeySelfLinkInput() {
+    return this._kmsKeySelfLink;
+  }
+
+  // kms_key_service_account - computed: false, optional: true, required: false
+  private _kmsKeyServiceAccount?: string; 
+  public get kmsKeyServiceAccount() {
+    return this.getStringAttribute('kms_key_service_account');
+  }
+  public set kmsKeyServiceAccount(value: string) {
+    this._kmsKeyServiceAccount = value;
+  }
+  public resetKmsKeyServiceAccount() {
+    this._kmsKeyServiceAccount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyServiceAccountInput() {
+    return this._kmsKeyServiceAccount;
+  }
+
+  // raw_key - computed: false, optional: true, required: false
+  private _rawKey?: string; 
+  public get rawKey() {
+    return this.getStringAttribute('raw_key');
+  }
+  public set rawKey(value: string) {
+    this._rawKey = value;
+  }
+  public resetRawKey() {
+    this._rawKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rawKeyInput() {
+    return this._rawKey;
+  }
+
+  // rsa_encrypted_key - computed: false, optional: true, required: false
+  private _rsaEncryptedKey?: string; 
+  public get rsaEncryptedKey() {
+    return this.getStringAttribute('rsa_encrypted_key');
+  }
+  public set rsaEncryptedKey(value: string) {
+    this._rsaEncryptedKey = value;
+  }
+  public resetRsaEncryptedKey() {
+    this._rsaEncryptedKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rsaEncryptedKeyInput() {
+    return this._rsaEncryptedKey;
+  }
+}
+export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks {
+  /**
+  * The architecture of the image. Allowed values are ARM64 or X86_64.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#architecture GoogleComputeRegionInstanceGroupManager#architecture}
+  */
+  readonly architecture?: string;
+  /**
+  * Whether or not the disk should be auto-deleted. This defaults to true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#auto_delete GoogleComputeRegionInstanceGroupManager#auto_delete}
+  */
+  readonly autoDelete?: boolean | cdktn.IResolvable;
+  /**
+  * Indicates that this is a boot disk. This defaults to false.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#boot GoogleComputeRegionInstanceGroupManager#boot}
+  */
+  readonly boot?: boolean | cdktn.IResolvable;
+  /**
+  * A unique device name that is reflected into the /dev/ tree of a Linux operating system running within the instance. If not specified, the server chooses a default device name to apply to this disk.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#device_name GoogleComputeRegionInstanceGroupManager#device_name}
+  */
+  readonly deviceName?: string;
+  /**
+  * Name of the disk. When not provided, this defaults to the name of the instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#disk_name GoogleComputeRegionInstanceGroupManager#disk_name}
+  */
+  readonly diskName?: string;
+  /**
+  * The size of the image in gigabytes. If not specified, it will inherit the size of its base image. For SCRATCH disks, the size must be one of 375 or 3000 GB, with a default of 375 GB.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#disk_size_gb GoogleComputeRegionInstanceGroupManager#disk_size_gb}
+  */
+  readonly diskSizeGb?: number;
+  /**
+  * The Google Compute Engine disk type. Such as "pd-ssd", "local-ssd", "pd-balanced" or "pd-standard".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#disk_type GoogleComputeRegionInstanceGroupManager#disk_type}
+  */
+  readonly diskType?: string;
+  /**
+  * A list of features to enable on the guest operating system. Applicable only for bootable images.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#guest_os_features GoogleComputeRegionInstanceGroupManager#guest_os_features}
+  */
+  readonly guestOsFeatures?: string[];
+  /**
+  * Specifies the disk interface to use for attaching this disk.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#interface GoogleComputeRegionInstanceGroupManager#interface}
+  */
+  readonly interface?: string;
+  /**
+  * The mode in which to attach this disk, either READ_WRITE or READ_ONLY. If you are attaching or creating a boot disk, this must read-write mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#mode GoogleComputeRegionInstanceGroupManager#mode}
+  */
+  readonly mode?: string;
+  /**
+  * Indicates how many IOPS to provision for the disk. This sets the number of I/O operations per second that the disk can handle. For more details, see the [Extreme persistent disk documentation](https://cloud.google.com/compute/docs/disks/extreme-persistent-disk) or the [Hyperdisk documentation](https://cloud.google.com/compute/docs/disks/hyperdisks) depending on the selected disk_type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#provisioned_iops GoogleComputeRegionInstanceGroupManager#provisioned_iops}
+  */
+  readonly provisionedIops?: number;
+  /**
+  * Indicates how much throughput to provision for the disk, in MB/s. This sets the amount of data that can be read or written from the disk per second. Values must greater than or equal to 1. For more details, see the [Hyperdisk documentation](https://cloud.google.com/compute/docs/disks/hyperdisks).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#provisioned_throughput GoogleComputeRegionInstanceGroupManager#provisioned_throughput}
+  */
+  readonly provisionedThroughput?: number;
+  /**
+  * A list (short name or id) of resource policies to attach to this disk. Currently a max of 1 resource policy is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#resource_policies GoogleComputeRegionInstanceGroupManager#resource_policies}
+  */
+  readonly resourcePolicies?: string[];
+  /**
+  * The name (not self_link) of the disk (such as those managed by google_compute_disk) to attach. ~> Note: Either source or source_image is required when creating a new instance except for when creating a local SSD.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#source GoogleComputeRegionInstanceGroupManager#source}
+  */
+  readonly source?: string;
+  /**
+  * The image from which to initialize this disk. This can be one of: the image's self_link, projects/{project}/global/images/{image}, projects/{project}/global/images/family/{family}, global/images/{image}, global/images/family/{family}, family/{family}, {project}/{family}, {project}/{image}, {family}, or {image}. ~> Note: Either source or source_image is required when creating a new instance except for when creating a local SSD.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#source_image GoogleComputeRegionInstanceGroupManager#source_image}
+  */
+  readonly sourceImage?: string;
+  /**
+  * The source snapshot to create this disk. When creating a new instance, one of initializeParams.sourceSnapshot, initializeParams.sourceImage, or disks.source is required except for local SSD.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#source_snapshot GoogleComputeRegionInstanceGroupManager#source_snapshot}
+  */
+  readonly sourceSnapshot?: string;
+  /**
+  * The type of Google Compute Engine disk, can be either "SCRATCH" or "PERSISTENT".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#type GoogleComputeRegionInstanceGroupManager#type}
+  */
+  readonly type?: string;
+  /**
+  * disk_encryption_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#disk_encryption_key GoogleComputeRegionInstanceGroupManager#disk_encryption_key}
+  */
+  readonly diskEncryptionKey?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKey;
+  /**
+  * labels block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#labels GoogleComputeRegionInstanceGroupManager#labels}
+  */
+  readonly labels?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels[] | cdktn.IResolvable;
+  /**
+  * resource_manager_tags block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#resource_manager_tags GoogleComputeRegionInstanceGroupManager#resource_manager_tags}
+  */
+  readonly resourceManagerTags?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags[] | cdktn.IResolvable;
+  /**
+  * source_image_encryption_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#source_image_encryption_key GoogleComputeRegionInstanceGroupManager#source_image_encryption_key}
+  */
+  readonly sourceImageEncryptionKey?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKey;
+  /**
+  * source_snapshot_encryption_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#source_snapshot_encryption_key GoogleComputeRegionInstanceGroupManager#source_snapshot_encryption_key}
+  */
+  readonly sourceSnapshotEncryptionKey?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKey;
+}
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    architecture: cdktn.stringToTerraform(struct!.architecture),
+    auto_delete: cdktn.booleanToTerraform(struct!.autoDelete),
+    boot: cdktn.booleanToTerraform(struct!.boot),
+    device_name: cdktn.stringToTerraform(struct!.deviceName),
+    disk_name: cdktn.stringToTerraform(struct!.diskName),
+    disk_size_gb: cdktn.numberToTerraform(struct!.diskSizeGb),
+    disk_type: cdktn.stringToTerraform(struct!.diskType),
+    guest_os_features: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.guestOsFeatures),
+    interface: cdktn.stringToTerraform(struct!.interface),
+    mode: cdktn.stringToTerraform(struct!.mode),
+    provisioned_iops: cdktn.numberToTerraform(struct!.provisionedIops),
+    provisioned_throughput: cdktn.numberToTerraform(struct!.provisionedThroughput),
+    resource_policies: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.resourcePolicies),
+    source: cdktn.stringToTerraform(struct!.source),
+    source_image: cdktn.stringToTerraform(struct!.sourceImage),
+    source_snapshot: cdktn.stringToTerraform(struct!.sourceSnapshot),
+    type: cdktn.stringToTerraform(struct!.type),
+    disk_encryption_key: googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyToTerraform(struct!.diskEncryptionKey),
+    labels: cdktn.listMapper(googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsToTerraform, true)(struct!.labels),
+    resource_manager_tags: cdktn.listMapper(googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsToTerraform, true)(struct!.resourceManagerTags),
+    source_image_encryption_key: googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyToTerraform(struct!.sourceImageEncryptionKey),
+    source_snapshot_encryption_key: googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyToTerraform(struct!.sourceSnapshotEncryptionKey),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    architecture: {
+      value: cdktn.stringToHclTerraform(struct!.architecture),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    auto_delete: {
+      value: cdktn.booleanToHclTerraform(struct!.autoDelete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    boot: {
+      value: cdktn.booleanToHclTerraform(struct!.boot),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    device_name: {
+      value: cdktn.stringToHclTerraform(struct!.deviceName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disk_name: {
+      value: cdktn.stringToHclTerraform(struct!.diskName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disk_size_gb: {
+      value: cdktn.numberToHclTerraform(struct!.diskSizeGb),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    disk_type: {
+      value: cdktn.stringToHclTerraform(struct!.diskType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    guest_os_features: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.guestOsFeatures),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    interface: {
+      value: cdktn.stringToHclTerraform(struct!.interface),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mode: {
+      value: cdktn.stringToHclTerraform(struct!.mode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provisioned_iops: {
+      value: cdktn.numberToHclTerraform(struct!.provisionedIops),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    provisioned_throughput: {
+      value: cdktn.numberToHclTerraform(struct!.provisionedThroughput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    resource_policies: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.resourcePolicies),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    source: {
+      value: cdktn.stringToHclTerraform(struct!.source),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_image: {
+      value: cdktn.stringToHclTerraform(struct!.sourceImage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_snapshot: {
+      value: cdktn.stringToHclTerraform(struct!.sourceSnapshot),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disk_encryption_key: {
+      value: googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyToHclTerraform(struct!.diskEncryptionKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyList",
+    },
+    labels: {
+      value: cdktn.listMapperHcl(googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsToHclTerraform, true)(struct!.labels),
+      isBlock: true,
+      type: "set",
+      storageClassType: "GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsList",
+    },
+    resource_manager_tags: {
+      value: cdktn.listMapperHcl(googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsToHclTerraform, true)(struct!.resourceManagerTags),
+      isBlock: true,
+      type: "set",
+      storageClassType: "GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsList",
+    },
+    source_image_encryption_key: {
+      value: googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyToHclTerraform(struct!.sourceImageEncryptionKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyList",
+    },
+    source_snapshot_encryption_key: {
+      value: googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyToHclTerraform(struct!.sourceSnapshotEncryptionKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._architecture !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.architecture = this._architecture;
+    }
+    if (this._autoDelete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoDelete = this._autoDelete;
+    }
+    if (this._boot !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.boot = this._boot;
+    }
+    if (this._deviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceName = this._deviceName;
+    }
+    if (this._diskName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskName = this._diskName;
+    }
+    if (this._diskSizeGb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskSizeGb = this._diskSizeGb;
+    }
+    if (this._diskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskType = this._diskType;
+    }
+    if (this._guestOsFeatures !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.guestOsFeatures = this._guestOsFeatures;
+    }
+    if (this._interface !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface;
+    }
+    if (this._mode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mode = this._mode;
+    }
+    if (this._provisionedIops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedIops = this._provisionedIops;
+    }
+    if (this._provisionedThroughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedThroughput = this._provisionedThroughput;
+    }
+    if (this._resourcePolicies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourcePolicies = this._resourcePolicies;
+    }
+    if (this._source !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source;
+    }
+    if (this._sourceImage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceImage = this._sourceImage;
+    }
+    if (this._sourceSnapshot !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceSnapshot = this._sourceSnapshot;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._diskEncryptionKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskEncryptionKey = this._diskEncryptionKey?.internalValue;
+    }
+    if (this._labels?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels?.internalValue;
+    }
+    if (this._resourceManagerTags?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceManagerTags = this._resourceManagerTags?.internalValue;
+    }
+    if (this._sourceImageEncryptionKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceImageEncryptionKey = this._sourceImageEncryptionKey?.internalValue;
+    }
+    if (this._sourceSnapshotEncryptionKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceSnapshotEncryptionKey = this._sourceSnapshotEncryptionKey?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._architecture = undefined;
+      this._autoDelete = undefined;
+      this._boot = undefined;
+      this._deviceName = undefined;
+      this._diskName = undefined;
+      this._diskSizeGb = undefined;
+      this._diskType = undefined;
+      this._guestOsFeatures = undefined;
+      this._interface = undefined;
+      this._mode = undefined;
+      this._provisionedIops = undefined;
+      this._provisionedThroughput = undefined;
+      this._resourcePolicies = undefined;
+      this._source = undefined;
+      this._sourceImage = undefined;
+      this._sourceSnapshot = undefined;
+      this._type = undefined;
+      this._diskEncryptionKey.internalValue = undefined;
+      this._labels.internalValue = undefined;
+      this._resourceManagerTags.internalValue = undefined;
+      this._sourceImageEncryptionKey.internalValue = undefined;
+      this._sourceSnapshotEncryptionKey.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._architecture = value.architecture;
+      this._autoDelete = value.autoDelete;
+      this._boot = value.boot;
+      this._deviceName = value.deviceName;
+      this._diskName = value.diskName;
+      this._diskSizeGb = value.diskSizeGb;
+      this._diskType = value.diskType;
+      this._guestOsFeatures = value.guestOsFeatures;
+      this._interface = value.interface;
+      this._mode = value.mode;
+      this._provisionedIops = value.provisionedIops;
+      this._provisionedThroughput = value.provisionedThroughput;
+      this._resourcePolicies = value.resourcePolicies;
+      this._source = value.source;
+      this._sourceImage = value.sourceImage;
+      this._sourceSnapshot = value.sourceSnapshot;
+      this._type = value.type;
+      this._diskEncryptionKey.internalValue = value.diskEncryptionKey;
+      this._labels.internalValue = value.labels;
+      this._resourceManagerTags.internalValue = value.resourceManagerTags;
+      this._sourceImageEncryptionKey.internalValue = value.sourceImageEncryptionKey;
+      this._sourceSnapshotEncryptionKey.internalValue = value.sourceSnapshotEncryptionKey;
+    }
+  }
+
+  // architecture - computed: false, optional: true, required: false
+  private _architecture?: string; 
+  public get architecture() {
+    return this.getStringAttribute('architecture');
+  }
+  public set architecture(value: string) {
+    this._architecture = value;
+  }
+  public resetArchitecture() {
+    this._architecture = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get architectureInput() {
+    return this._architecture;
+  }
+
+  // auto_delete - computed: false, optional: true, required: false
+  private _autoDelete?: boolean | cdktn.IResolvable; 
+  public get autoDelete() {
+    return this.getBooleanAttribute('auto_delete');
+  }
+  public set autoDelete(value: boolean | cdktn.IResolvable) {
+    this._autoDelete = value;
+  }
+  public resetAutoDelete() {
+    this._autoDelete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoDeleteInput() {
+    return this._autoDelete;
+  }
+
+  // boot - computed: false, optional: true, required: false
+  private _boot?: boolean | cdktn.IResolvable; 
+  public get boot() {
+    return this.getBooleanAttribute('boot');
+  }
+  public set boot(value: boolean | cdktn.IResolvable) {
+    this._boot = value;
+  }
+  public resetBoot() {
+    this._boot = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootInput() {
+    return this._boot;
+  }
+
+  // device_name - computed: false, optional: true, required: false
+  private _deviceName?: string; 
+  public get deviceName() {
+    return this.getStringAttribute('device_name');
+  }
+  public set deviceName(value: string) {
+    this._deviceName = value;
+  }
+  public resetDeviceName() {
+    this._deviceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceNameInput() {
+    return this._deviceName;
+  }
+
+  // disk_name - computed: false, optional: true, required: false
+  private _diskName?: string; 
+  public get diskName() {
+    return this.getStringAttribute('disk_name');
+  }
+  public set diskName(value: string) {
+    this._diskName = value;
+  }
+  public resetDiskName() {
+    this._diskName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskNameInput() {
+    return this._diskName;
+  }
+
+  // disk_size_gb - computed: false, optional: true, required: false
+  private _diskSizeGb?: number; 
+  public get diskSizeGb() {
+    return this.getNumberAttribute('disk_size_gb');
+  }
+  public set diskSizeGb(value: number) {
+    this._diskSizeGb = value;
+  }
+  public resetDiskSizeGb() {
+    this._diskSizeGb = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskSizeGbInput() {
+    return this._diskSizeGb;
+  }
+
+  // disk_type - computed: false, optional: true, required: false
+  private _diskType?: string; 
+  public get diskType() {
+    return this.getStringAttribute('disk_type');
+  }
+  public set diskType(value: string) {
+    this._diskType = value;
+  }
+  public resetDiskType() {
+    this._diskType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskTypeInput() {
+    return this._diskType;
+  }
+
+  // guest_os_features - computed: false, optional: true, required: false
+  private _guestOsFeatures?: string[]; 
+  public get guestOsFeatures() {
+    return this.getListAttribute('guest_os_features');
+  }
+  public set guestOsFeatures(value: string[]) {
+    this._guestOsFeatures = value;
+  }
+  public resetGuestOsFeatures() {
+    this._guestOsFeatures = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get guestOsFeaturesInput() {
+    return this._guestOsFeatures;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface?: string; 
+  public get interface() {
+    return this.getStringAttribute('interface');
+  }
+  public set interface(value: string) {
+    this._interface = value;
+  }
+  public resetInterface() {
+    this._interface = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface;
+  }
+
+  // mode - computed: false, optional: true, required: false
+  private _mode?: string; 
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+  public set mode(value: string) {
+    this._mode = value;
+  }
+  public resetMode() {
+    this._mode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modeInput() {
+    return this._mode;
+  }
+
+  // provisioned_iops - computed: false, optional: true, required: false
+  private _provisionedIops?: number; 
+  public get provisionedIops() {
+    return this.getNumberAttribute('provisioned_iops');
+  }
+  public set provisionedIops(value: number) {
+    this._provisionedIops = value;
+  }
+  public resetProvisionedIops() {
+    this._provisionedIops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedIopsInput() {
+    return this._provisionedIops;
+  }
+
+  // provisioned_throughput - computed: false, optional: true, required: false
+  private _provisionedThroughput?: number; 
+  public get provisionedThroughput() {
+    return this.getNumberAttribute('provisioned_throughput');
+  }
+  public set provisionedThroughput(value: number) {
+    this._provisionedThroughput = value;
+  }
+  public resetProvisionedThroughput() {
+    this._provisionedThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedThroughputInput() {
+    return this._provisionedThroughput;
+  }
+
+  // resource_policies - computed: false, optional: true, required: false
+  private _resourcePolicies?: string[]; 
+  public get resourcePolicies() {
+    return this.getListAttribute('resource_policies');
+  }
+  public set resourcePolicies(value: string[]) {
+    this._resourcePolicies = value;
+  }
+  public resetResourcePolicies() {
+    this._resourcePolicies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourcePoliciesInput() {
+    return this._resourcePolicies;
+  }
+
+  // source - computed: false, optional: true, required: false
+  private _source?: string; 
+  public get source() {
+    return this.getStringAttribute('source');
+  }
+  public set source(value: string) {
+    this._source = value;
+  }
+  public resetSource() {
+    this._source = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source;
+  }
+
+  // source_image - computed: false, optional: true, required: false
+  private _sourceImage?: string; 
+  public get sourceImage() {
+    return this.getStringAttribute('source_image');
+  }
+  public set sourceImage(value: string) {
+    this._sourceImage = value;
+  }
+  public resetSourceImage() {
+    this._sourceImage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceImageInput() {
+    return this._sourceImage;
+  }
+
+  // source_snapshot - computed: false, optional: true, required: false
+  private _sourceSnapshot?: string; 
+  public get sourceSnapshot() {
+    return this.getStringAttribute('source_snapshot');
+  }
+  public set sourceSnapshot(value: string) {
+    this._sourceSnapshot = value;
+  }
+  public resetSourceSnapshot() {
+    this._sourceSnapshot = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceSnapshotInput() {
+    return this._sourceSnapshot;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // disk_encryption_key - computed: false, optional: true, required: false
+  private _diskEncryptionKey = new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKeyOutputReference(this, "disk_encryption_key");
+  public get diskEncryptionKey() {
+    return this._diskEncryptionKey;
+  }
+  public putDiskEncryptionKey(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksDiskEncryptionKey) {
+    this._diskEncryptionKey.internalValue = value;
+  }
+  public resetDiskEncryptionKey() {
+    this._diskEncryptionKey.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskEncryptionKeyInput() {
+    return this._diskEncryptionKey.internalValue;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels = new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabelsList(this, "labels", true);
+  public get labels() {
+    return this._labels;
+  }
+  public putLabels(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksLabels[] | cdktn.IResolvable) {
+    this._labels.internalValue = value;
+  }
+  public resetLabels() {
+    this._labels.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels.internalValue;
+  }
+
+  // resource_manager_tags - computed: false, optional: true, required: false
+  private _resourceManagerTags = new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTagsList(this, "resource_manager_tags", true);
+  public get resourceManagerTags() {
+    return this._resourceManagerTags;
+  }
+  public putResourceManagerTags(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksResourceManagerTags[] | cdktn.IResolvable) {
+    this._resourceManagerTags.internalValue = value;
+  }
+  public resetResourceManagerTags() {
+    this._resourceManagerTags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceManagerTagsInput() {
+    return this._resourceManagerTags.internalValue;
+  }
+
+  // source_image_encryption_key - computed: false, optional: true, required: false
+  private _sourceImageEncryptionKey = new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKeyOutputReference(this, "source_image_encryption_key");
+  public get sourceImageEncryptionKey() {
+    return this._sourceImageEncryptionKey;
+  }
+  public putSourceImageEncryptionKey(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceImageEncryptionKey) {
+    this._sourceImageEncryptionKey.internalValue = value;
+  }
+  public resetSourceImageEncryptionKey() {
+    this._sourceImageEncryptionKey.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceImageEncryptionKeyInput() {
+    return this._sourceImageEncryptionKey.internalValue;
+  }
+
+  // source_snapshot_encryption_key - computed: false, optional: true, required: false
+  private _sourceSnapshotEncryptionKey = new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKeyOutputReference(this, "source_snapshot_encryption_key");
+  public get sourceSnapshotEncryptionKey() {
+    return this._sourceSnapshotEncryptionKey;
+  }
+  public putSourceSnapshotEncryptionKey(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksSourceSnapshotEncryptionKey) {
+    this._sourceSnapshotEncryptionKey.internalValue = value;
+  }
+  public resetSourceSnapshotEncryptionKey() {
+    this._sourceSnapshotEncryptionKey.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceSnapshotEncryptionKeyInput() {
+    return this._sourceSnapshotEncryptionKey.internalValue;
+  }
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksOutputReference {
+    return new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelections {
   /**
   * Full machine-type names, e.g. "n1-standard-16"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#machine_types GoogleComputeRegionInstanceGroupManager#machine_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#machine_types GoogleComputeRegionInstanceGroupManager#machine_types}
   */
   readonly machineTypes: string[];
   /**
+  * Name of the minimum CPU platform to be used by this instance selection. e.g. 'Intel Ice Lake'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#min_cpu_platform GoogleComputeRegionInstanceGroupManager#min_cpu_platform}
+  */
+  readonly minCpuPlatform?: string;
+  /**
   * Instance selection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
   */
   readonly name: string;
   /**
   * Preference of this instance selection. Lower number means higher preference. MIG will first try to create a VM based on the machine-type with lowest rank and fallback to next rank based on availability. Machine types and instance selections with the same rank have the same preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#rank GoogleComputeRegionInstanceGroupManager#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#rank GoogleComputeRegionInstanceGroupManager#rank}
   */
   readonly rank?: number;
+  /**
+  * disks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#disks GoogleComputeRegionInstanceGroupManager#disks}
+  */
+  readonly disks?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks[] | cdktn.IResolvable;
 }
 
 export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelections | cdktn.IResolvable): any {
@@ -850,8 +2594,10 @@ export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicy
   }
   return {
     machine_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.machineTypes),
+    min_cpu_platform: cdktn.stringToTerraform(struct!.minCpuPlatform),
     name: cdktn.stringToTerraform(struct!.name),
     rank: cdktn.numberToTerraform(struct!.rank),
+    disks: cdktn.listMapper(googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksToTerraform, true)(struct!.disks),
   }
 }
 
@@ -868,6 +2614,12 @@ export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicy
       type: "set",
       storageClassType: "stringList",
     },
+    min_cpu_platform: {
+      value: cdktn.stringToHclTerraform(struct!.minCpuPlatform),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     name: {
       value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
@@ -879,6 +2631,12 @@ export function googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicy
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    disks: {
+      value: cdktn.listMapperHcl(googleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksToHclTerraform, true)(struct!.disks),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList",
     },
   };
 
@@ -910,6 +2668,10 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
       hasAnyValues = true;
       internalValueResult.machineTypes = this._machineTypes;
     }
+    if (this._minCpuPlatform !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minCpuPlatform = this._minCpuPlatform;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -917,6 +2679,10 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
     if (this._rank !== undefined) {
       hasAnyValues = true;
       internalValueResult.rank = this._rank;
+    }
+    if (this._disks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disks = this._disks?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -926,8 +2692,10 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._machineTypes = undefined;
+      this._minCpuPlatform = undefined;
       this._name = undefined;
       this._rank = undefined;
+      this._disks.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -937,8 +2705,10 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._machineTypes = value.machineTypes;
+      this._minCpuPlatform = value.minCpuPlatform;
       this._name = value.name;
       this._rank = value.rank;
+      this._disks.internalValue = value.disks;
     }
   }
 
@@ -953,6 +2723,22 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
   // Temporarily expose input value. Use with caution.
   public get machineTypesInput() {
     return this._machineTypes;
+  }
+
+  // min_cpu_platform - computed: false, optional: true, required: false
+  private _minCpuPlatform?: string; 
+  public get minCpuPlatform() {
+    return this.getStringAttribute('min_cpu_platform');
+  }
+  public set minCpuPlatform(value: string) {
+    this._minCpuPlatform = value;
+  }
+  public resetMinCpuPlatform() {
+    this._minCpuPlatform = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minCpuPlatformInput() {
+    return this._minCpuPlatform;
   }
 
   // name - computed: false, optional: false, required: true
@@ -983,6 +2769,22 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
   public get rankInput() {
     return this._rank;
   }
+
+  // disks - computed: false, optional: true, required: false
+  private _disks = new GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList(this, "disks", false);
+  public get disks() {
+    return this._disks;
+  }
+  public putDisks(value: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisks[] | cdktn.IResolvable) {
+    this._disks.internalValue = value;
+  }
+  public resetDisks() {
+    this._disks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disksInput() {
+    return this._disks.internalValue;
+  }
 }
 
 export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsList extends cdktn.ComplexList {
@@ -1008,7 +2810,7 @@ export interface GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolic
   /**
   * instance_selections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#instance_selections GoogleComputeRegionInstanceGroupManager#instance_selections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#instance_selections GoogleComputeRegionInstanceGroupManager#instance_selections}
   */
   readonly instanceSelections?: GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelections[] | cdktn.IResolvable;
 }
@@ -1090,25 +2892,117 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyOut
     return this._instanceSelections.internalValue;
   }
 }
+export interface GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair {
+  /**
+  * Specifies whether the MIG can change a VM's zone during a repair. If "YES", MIG can select a different zone for the VM during a repair. Else if "NO", MIG cannot change a VM's zone during a repair. The default value of allow_changing_zone is "NO".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#allow_changing_zone GoogleComputeRegionInstanceGroupManager#allow_changing_zone}
+  */
+  readonly allowChangingZone?: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allow_changing_zone: cdktn.stringToTerraform(struct!.allowChangingZone),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allow_changing_zone: {
+      value: cdktn.stringToHclTerraform(struct!.allowChangingZone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowChangingZone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowChangingZone = this._allowChangingZone;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allowChangingZone = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowChangingZone = value.allowChangingZone;
+    }
+  }
+
+  // allow_changing_zone - computed: false, optional: true, required: false
+  private _allowChangingZone?: string; 
+  public get allowChangingZone() {
+    return this.getStringAttribute('allow_changing_zone');
+  }
+  public set allowChangingZone(value: string) {
+    this._allowChangingZone = value;
+  }
+  public resetAllowChangingZone() {
+    this._allowChangingZone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowChangingZoneInput() {
+    return this._allowChangingZone;
+  }
+}
 export interface GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicy {
   /**
   * Specifies the action that a MIG performs on a failed VM. If the value of the "on_failed_health_check" field is DEFAULT_ACTION, then the same action also applies to the VMs on which your application fails a health check. Valid values are: REPAIR, DO_NOTHING. If REPAIR (default), then MIG automatically repairs a failed VM by recreating it. For more information, see about repairing VMs in a MIG. If DO_NOTHING, then MIG does not repair a failed VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#default_action_on_failure GoogleComputeRegionInstanceGroupManager#default_action_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#default_action_on_failure GoogleComputeRegionInstanceGroupManager#default_action_on_failure}
   */
   readonly defaultActionOnFailure?: string;
   /**
   * Specifies whether to apply the group's latest configuration when repairing a VM. Valid options are: YES, NO. If YES and you updated the group's instance template or per-instance configurations after the VM was created, then these changes are applied when VM is repaired. If NO (default), then updates are applied in accordance with the group's update policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#force_update_on_repair GoogleComputeRegionInstanceGroupManager#force_update_on_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#force_update_on_repair GoogleComputeRegionInstanceGroupManager#force_update_on_repair}
   */
   readonly forceUpdateOnRepair?: string;
   /**
   * Specifies the action that a MIG performs on an unhealthy VM. A VM is marked as unhealthy when the application running on that VM fails a health check. Valid values are: DEFAULT_ACTION, DO_NOTHING, REPAIR. If DEFAULT_ACTION (default), then MIG uses the same action configured for the  "default_action_on_failure" field. If DO_NOTHING, then MIG does not repair unhealthy VM. If REPAIR, then MIG automatically repairs an unhealthy VM by recreating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#on_failed_health_check GoogleComputeRegionInstanceGroupManager#on_failed_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#on_failed_health_check GoogleComputeRegionInstanceGroupManager#on_failed_health_check}
   */
   readonly onFailedHealthCheck?: string;
+  /**
+  * on_repair block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#on_repair GoogleComputeRegionInstanceGroupManager#on_repair}
+  */
+  readonly onRepair?: GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair;
 }
 
 export function googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference | GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicy): any {
@@ -1120,6 +3014,7 @@ export function googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyTo
     default_action_on_failure: cdktn.stringToTerraform(struct!.defaultActionOnFailure),
     force_update_on_repair: cdktn.stringToTerraform(struct!.forceUpdateOnRepair),
     on_failed_health_check: cdktn.stringToTerraform(struct!.onFailedHealthCheck),
+    on_repair: googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairToTerraform(struct!.onRepair),
   }
 }
 
@@ -1147,6 +3042,12 @@ export function googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyTo
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    on_repair: {
+      value: googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairToHclTerraform(struct!.onRepair),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairList",
     },
   };
 
@@ -1180,6 +3081,10 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutpu
       hasAnyValues = true;
       internalValueResult.onFailedHealthCheck = this._onFailedHealthCheck;
     }
+    if (this._onRepair?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onRepair = this._onRepair?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1189,12 +3094,14 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutpu
       this._defaultActionOnFailure = undefined;
       this._forceUpdateOnRepair = undefined;
       this._onFailedHealthCheck = undefined;
+      this._onRepair.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._defaultActionOnFailure = value.defaultActionOnFailure;
       this._forceUpdateOnRepair = value.forceUpdateOnRepair;
       this._onFailedHealthCheck = value.onFailedHealthCheck;
+      this._onRepair.internalValue = value.onRepair;
     }
   }
 
@@ -1245,18 +3152,34 @@ export class GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutpu
   public get onFailedHealthCheckInput() {
     return this._onFailedHealthCheck;
   }
+
+  // on_repair - computed: false, optional: true, required: false
+  private _onRepair = new GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference(this, "on_repair");
+  public get onRepair() {
+    return this._onRepair;
+  }
+  public putOnRepair(value: GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair) {
+    this._onRepair.internalValue = value;
+  }
+  public resetOnRepair() {
+    this._onRepair.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onRepairInput() {
+    return this._onRepair.internalValue;
+  }
 }
 export interface GoogleComputeRegionInstanceGroupManagerNamedPort {
   /**
   * The name of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
   */
   readonly name: string;
   /**
   * The port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#port GoogleComputeRegionInstanceGroupManager#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#port GoogleComputeRegionInstanceGroupManager#port}
   */
   readonly port: number;
 }
@@ -1397,7 +3320,7 @@ export interface GoogleComputeRegionInstanceGroupManagerParams {
   /**
   * Resource manager tags to bind to the managed instance group. The tags are key-value pairs. Keys must be in the format tagKeys/123 and values in the format tagValues/456.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#resource_manager_tags GoogleComputeRegionInstanceGroupManager#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#resource_manager_tags GoogleComputeRegionInstanceGroupManager#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
 }
@@ -1479,17 +3402,103 @@ export class GoogleComputeRegionInstanceGroupManagerParamsOutputReference extend
     return this._resourceManagerTags;
   }
 }
+export interface GoogleComputeRegionInstanceGroupManagerResourcePolicies {
+  /**
+  * The URL of the workload policy that is specified for this managed instance group. It can be a full or partial URL.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#workload_policy GoogleComputeRegionInstanceGroupManager#workload_policy}
+  */
+  readonly workloadPolicy?: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerResourcePoliciesToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerResourcePoliciesOutputReference | GoogleComputeRegionInstanceGroupManagerResourcePolicies): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    workload_policy: cdktn.stringToTerraform(struct!.workloadPolicy),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerResourcePoliciesToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerResourcePoliciesOutputReference | GoogleComputeRegionInstanceGroupManagerResourcePolicies): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    workload_policy: {
+      value: cdktn.stringToHclTerraform(struct!.workloadPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerResourcePoliciesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerResourcePolicies | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._workloadPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.workloadPolicy = this._workloadPolicy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerResourcePolicies | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._workloadPolicy = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._workloadPolicy = value.workloadPolicy;
+    }
+  }
+
+  // workload_policy - computed: false, optional: true, required: false
+  private _workloadPolicy?: string; 
+  public get workloadPolicy() {
+    return this.getStringAttribute('workload_policy');
+  }
+  public set workloadPolicy(value: string) {
+    this._workloadPolicy = value;
+  }
+  public resetWorkloadPolicy() {
+    this._workloadPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workloadPolicyInput() {
+    return this._workloadPolicy;
+  }
+}
 export interface GoogleComputeRegionInstanceGroupManagerStandbyPolicy {
   /**
   * Specifies the number of seconds that the MIG should wait to suspend or stop a VM after that VM was created. The initial delay gives the initialization script the time to prepare your VM for a quick scale out. The value of initial delay must be between 0 and 3600 seconds. The default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#initial_delay_sec GoogleComputeRegionInstanceGroupManager#initial_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#initial_delay_sec GoogleComputeRegionInstanceGroupManager#initial_delay_sec}
   */
   readonly initialDelaySec?: number;
   /**
   * Defines how a MIG resumes or starts VMs from a standby pool when the group scales out. The default mode is "MANUAL".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#mode GoogleComputeRegionInstanceGroupManager#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#mode GoogleComputeRegionInstanceGroupManager#mode}
   */
   readonly mode?: string;
 }
@@ -1604,13 +3613,13 @@ export interface GoogleComputeRegionInstanceGroupManagerStatefulDisk {
   /**
   * A value that prescribes what should happen to the stateful disk when the VM instance is deleted. The available options are NEVER and ON_PERMANENT_INSTANCE_DELETION. NEVER - detach the disk when the VM is deleted, but do not delete the disk. ON_PERMANENT_INSTANCE_DELETION will delete the stateful disk when the VM is permanently deleted from the instance group. The default is NEVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#delete_rule GoogleComputeRegionInstanceGroupManager#delete_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#delete_rule GoogleComputeRegionInstanceGroupManager#delete_rule}
   */
   readonly deleteRule?: string;
   /**
   * The device name of the disk to be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#device_name GoogleComputeRegionInstanceGroupManager#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#device_name GoogleComputeRegionInstanceGroupManager#device_name}
   */
   readonly deviceName: string;
 }
@@ -1754,13 +3763,13 @@ export interface GoogleComputeRegionInstanceGroupManagerStatefulExternalIp {
   /**
   * A value that prescribes what should happen to an associated static Address resource when a VM instance is permanently deleted. The available options are NEVER and ON_PERMANENT_INSTANCE_DELETION. NEVER - detach the IP when the VM is deleted, but do not delete the address resource. ON_PERMANENT_INSTANCE_DELETION will delete the stateful address when the VM is permanently deleted from the instance group. The default is NEVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#delete_rule GoogleComputeRegionInstanceGroupManager#delete_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#delete_rule GoogleComputeRegionInstanceGroupManager#delete_rule}
   */
   readonly deleteRule?: string;
   /**
   * The network interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#interface_name GoogleComputeRegionInstanceGroupManager#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#interface_name GoogleComputeRegionInstanceGroupManager#interface_name}
   */
   readonly interfaceName?: string;
 }
@@ -1907,13 +3916,13 @@ export interface GoogleComputeRegionInstanceGroupManagerStatefulInternalIp {
   /**
   * A value that prescribes what should happen to an associated static Address resource when a VM instance is permanently deleted. The available options are NEVER and ON_PERMANENT_INSTANCE_DELETION. NEVER - detach the IP when the VM is deleted, but do not delete the address resource. ON_PERMANENT_INSTANCE_DELETION will delete the stateful address when the VM is permanently deleted from the instance group. The default is NEVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#delete_rule GoogleComputeRegionInstanceGroupManager#delete_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#delete_rule GoogleComputeRegionInstanceGroupManager#delete_rule}
   */
   readonly deleteRule?: string;
   /**
   * The network interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#interface_name GoogleComputeRegionInstanceGroupManager#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#interface_name GoogleComputeRegionInstanceGroupManager#interface_name}
   */
   readonly interfaceName?: string;
 }
@@ -2056,17 +4065,132 @@ export class GoogleComputeRegionInstanceGroupManagerStatefulInternalIpList exten
     return new GoogleComputeRegionInstanceGroupManagerStatefulInternalIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleComputeRegionInstanceGroupManagerTargetSizePolicy {
+  /**
+  * The mode of target size policy based on which the MIG creates its VMs individually or all at once.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#mode GoogleComputeRegionInstanceGroupManager#mode}
+  */
+  readonly mode: string;
+}
+
+export function googleComputeRegionInstanceGroupManagerTargetSizePolicyToTerraform(struct?: GoogleComputeRegionInstanceGroupManagerTargetSizePolicy | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    mode: cdktn.stringToTerraform(struct!.mode),
+  }
+}
+
+
+export function googleComputeRegionInstanceGroupManagerTargetSizePolicyToHclTerraform(struct?: GoogleComputeRegionInstanceGroupManagerTargetSizePolicy | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    mode: {
+      value: cdktn.stringToHclTerraform(struct!.mode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionInstanceGroupManagerTargetSizePolicyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleComputeRegionInstanceGroupManagerTargetSizePolicy | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._mode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mode = this._mode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionInstanceGroupManagerTargetSizePolicy | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._mode = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._mode = value.mode;
+    }
+  }
+
+  // mode - computed: false, optional: false, required: true
+  private _mode?: string; 
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+  public set mode(value: string) {
+    this._mode = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modeInput() {
+    return this._mode;
+  }
+}
+
+export class GoogleComputeRegionInstanceGroupManagerTargetSizePolicyList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRegionInstanceGroupManagerTargetSizePolicy[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleComputeRegionInstanceGroupManagerTargetSizePolicyOutputReference {
+    return new GoogleComputeRegionInstanceGroupManagerTargetSizePolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleComputeRegionInstanceGroupManagerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#create GoogleComputeRegionInstanceGroupManager#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#create GoogleComputeRegionInstanceGroupManager#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#delete GoogleComputeRegionInstanceGroupManager#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#delete GoogleComputeRegionInstanceGroupManager#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#update GoogleComputeRegionInstanceGroupManager#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#update GoogleComputeRegionInstanceGroupManager#update}
   */
   readonly update?: string;
 }
@@ -2220,61 +4344,61 @@ export interface GoogleComputeRegionInstanceGroupManagerUpdatePolicy {
   /**
   * The instance redistribution policy for regional managed instance groups. Valid values are: "PROACTIVE", "NONE". If PROACTIVE (default), the group attempts to maintain an even distribution of VM instances across zones in the region. If NONE, proactive redistribution is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#instance_redistribution_type GoogleComputeRegionInstanceGroupManager#instance_redistribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#instance_redistribution_type GoogleComputeRegionInstanceGroupManager#instance_redistribution_type}
   */
   readonly instanceRedistributionType?: string;
   /**
   * Specifies a fixed number of VM instances. This must be a positive integer. Conflicts with max_surge_percent. Both cannot be 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#max_surge_fixed GoogleComputeRegionInstanceGroupManager#max_surge_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#max_surge_fixed GoogleComputeRegionInstanceGroupManager#max_surge_fixed}
   */
   readonly maxSurgeFixed?: number;
   /**
   * Specifies a percentage of instances between 0 to 100%, inclusive. For example, specify 80 for 80%. Conflicts with max_surge_fixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#max_surge_percent GoogleComputeRegionInstanceGroupManager#max_surge_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#max_surge_percent GoogleComputeRegionInstanceGroupManager#max_surge_percent}
   */
   readonly maxSurgePercent?: number;
   /**
   * Specifies a fixed number of VM instances. This must be a positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#max_unavailable_fixed GoogleComputeRegionInstanceGroupManager#max_unavailable_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#max_unavailable_fixed GoogleComputeRegionInstanceGroupManager#max_unavailable_fixed}
   */
   readonly maxUnavailableFixed?: number;
   /**
   * Specifies a percentage of instances between 0 to 100%, inclusive. For example, specify 80 for 80%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#max_unavailable_percent GoogleComputeRegionInstanceGroupManager#max_unavailable_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#max_unavailable_percent GoogleComputeRegionInstanceGroupManager#max_unavailable_percent}
   */
   readonly maxUnavailablePercent?: number;
   /**
   * Minimum number of seconds to wait for after a newly created instance becomes available. This value must be from range [0, 3600].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#min_ready_sec GoogleComputeRegionInstanceGroupManager#min_ready_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#min_ready_sec GoogleComputeRegionInstanceGroupManager#min_ready_sec}
   */
   readonly minReadySec?: number;
   /**
   * Minimal action to be taken on an instance. You can specify either NONE to forbid any actions, REFRESH to update without stopping instances, RESTART to restart existing instances or REPLACE to delete and create new instances from the target template. If you specify a REFRESH, the Updater will attempt to perform that action only. However, if the Updater determines that the minimal action you specify is not enough to perform the update, it might perform a more disruptive action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#minimal_action GoogleComputeRegionInstanceGroupManager#minimal_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#minimal_action GoogleComputeRegionInstanceGroupManager#minimal_action}
   */
   readonly minimalAction: string;
   /**
   * Most disruptive action that is allowed to be taken on an instance. You can specify either NONE to forbid any actions, REFRESH to allow actions that do not need instance restart, RESTART to allow actions that can be applied without instance replacing or REPLACE to allow all possible actions. If the Updater determines that the minimal update action needed is more disruptive than most disruptive allowed action you specify it will not perform the update at all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#most_disruptive_allowed_action GoogleComputeRegionInstanceGroupManager#most_disruptive_allowed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#most_disruptive_allowed_action GoogleComputeRegionInstanceGroupManager#most_disruptive_allowed_action}
   */
   readonly mostDisruptiveAllowedAction?: string;
   /**
   * The instance replacement method for regional managed instance groups. Valid values are: "RECREATE", "SUBSTITUTE". If SUBSTITUTE (default), the group replaces VM instances with new instances that have randomly generated names. If RECREATE, instance names are preserved.  You must also set max_unavailable_fixed or max_unavailable_percent to be greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#replacement_method GoogleComputeRegionInstanceGroupManager#replacement_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#replacement_method GoogleComputeRegionInstanceGroupManager#replacement_method}
   */
   readonly replacementMethod?: string;
   /**
   * The type of update process. You can specify either PROACTIVE so that the instance group manager proactively executes actions in order to bring instances to their target versions or OPPORTUNISTIC so that no action is proactively executed but the update will be performed as part of other actions (for example, resizes or recreateInstances calls).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#type GoogleComputeRegionInstanceGroupManager#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#type GoogleComputeRegionInstanceGroupManager#type}
   */
   readonly type: string;
 }
@@ -2615,13 +4739,13 @@ export interface GoogleComputeRegionInstanceGroupManagerVersionTargetSize {
   /**
   * The number of instances which are managed for this version. Conflicts with percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#fixed GoogleComputeRegionInstanceGroupManager#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#fixed GoogleComputeRegionInstanceGroupManager#fixed}
   */
   readonly fixed?: number;
   /**
   * The number of instances (calculated as percentage) which are managed for this version. Conflicts with fixed. Note that when using percent, rounding will be in favor of explicitly set target_size values; a managed instance group with 2 instances and 2 versions, one of which has a target_size.percent of 60 will create 2 instances of that version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#percent GoogleComputeRegionInstanceGroupManager#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#percent GoogleComputeRegionInstanceGroupManager#percent}
   */
   readonly percent?: number;
 }
@@ -2736,19 +4860,19 @@ export interface GoogleComputeRegionInstanceGroupManagerVersion {
   /**
   * The full URL to an instance template from which all new instances of this version will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#instance_template GoogleComputeRegionInstanceGroupManager#instance_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#instance_template GoogleComputeRegionInstanceGroupManager#instance_template}
   */
   readonly instanceTemplate: string;
   /**
   * Version name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#name GoogleComputeRegionInstanceGroupManager#name}
   */
   readonly name?: string;
   /**
   * target_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#target_size GoogleComputeRegionInstanceGroupManager#target_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#target_size GoogleComputeRegionInstanceGroupManager#target_size}
   */
   readonly targetSize?: GoogleComputeRegionInstanceGroupManagerVersionTargetSize;
 }
@@ -2919,7 +5043,7 @@ export class GoogleComputeRegionInstanceGroupManagerVersionList extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager}
 */
 export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformResource {
 
@@ -2935,7 +5059,7 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
   * Generates CDKTN code for importing a GoogleComputeRegionInstanceGroupManager resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionInstanceGroupManager to import
-  * @param importFromId The id of the existing GoogleComputeRegionInstanceGroupManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeRegionInstanceGroupManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionInstanceGroupManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2947,7 +5071,7 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2958,8 +5082,8 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
       terraformResourceType: 'google_compute_region_instance_group_manager',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2990,10 +5114,12 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
     this._instanceLifecyclePolicy.internalValue = config.instanceLifecyclePolicy;
     this._namedPort.internalValue = config.namedPort;
     this._params.internalValue = config.params;
+    this._resourcePolicies.internalValue = config.resourcePolicies;
     this._standbyPolicy.internalValue = config.standbyPolicy;
     this._statefulDisk.internalValue = config.statefulDisk;
     this._statefulExternalIp.internalValue = config.statefulExternalIp;
     this._statefulInternalIp.internalValue = config.statefulInternalIp;
+    this._targetSizePolicy.internalValue = config.targetSizePolicy;
     this._timeouts.internalValue = config.timeouts;
     this._updatePolicy.internalValue = config.updatePolicy;
     this._version.internalValue = config.version;
@@ -3364,6 +5490,22 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
     return this._params.internalValue;
   }
 
+  // resource_policies - computed: false, optional: true, required: false
+  private _resourcePolicies = new GoogleComputeRegionInstanceGroupManagerResourcePoliciesOutputReference(this, "resource_policies");
+  public get resourcePolicies() {
+    return this._resourcePolicies;
+  }
+  public putResourcePolicies(value: GoogleComputeRegionInstanceGroupManagerResourcePolicies) {
+    this._resourcePolicies.internalValue = value;
+  }
+  public resetResourcePolicies() {
+    this._resourcePolicies.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourcePoliciesInput() {
+    return this._resourcePolicies.internalValue;
+  }
+
   // standby_policy - computed: false, optional: true, required: false
   private _standbyPolicy = new GoogleComputeRegionInstanceGroupManagerStandbyPolicyOutputReference(this, "standby_policy");
   public get standbyPolicy() {
@@ -3426,6 +5568,22 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
   // Temporarily expose input value. Use with caution.
   public get statefulInternalIpInput() {
     return this._statefulInternalIp.internalValue;
+  }
+
+  // target_size_policy - computed: false, optional: true, required: false
+  private _targetSizePolicy = new GoogleComputeRegionInstanceGroupManagerTargetSizePolicyList(this, "target_size_policy", false);
+  public get targetSizePolicy() {
+    return this._targetSizePolicy;
+  }
+  public putTargetSizePolicy(value: GoogleComputeRegionInstanceGroupManagerTargetSizePolicy[] | cdktn.IResolvable) {
+    this._targetSizePolicy.internalValue = value;
+  }
+  public resetTargetSizePolicy() {
+    this._targetSizePolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetSizePolicyInput() {
+    return this._targetSizePolicy.internalValue;
   }
 
   // timeouts - computed: false, optional: true, required: false
@@ -3500,10 +5658,12 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
       instance_lifecycle_policy: googleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyToTerraform(this._instanceLifecyclePolicy.internalValue),
       named_port: cdktn.listMapper(googleComputeRegionInstanceGroupManagerNamedPortToTerraform, true)(this._namedPort.internalValue),
       params: googleComputeRegionInstanceGroupManagerParamsToTerraform(this._params.internalValue),
+      resource_policies: googleComputeRegionInstanceGroupManagerResourcePoliciesToTerraform(this._resourcePolicies.internalValue),
       standby_policy: googleComputeRegionInstanceGroupManagerStandbyPolicyToTerraform(this._standbyPolicy.internalValue),
       stateful_disk: cdktn.listMapper(googleComputeRegionInstanceGroupManagerStatefulDiskToTerraform, true)(this._statefulDisk.internalValue),
       stateful_external_ip: cdktn.listMapper(googleComputeRegionInstanceGroupManagerStatefulExternalIpToTerraform, true)(this._statefulExternalIp.internalValue),
       stateful_internal_ip: cdktn.listMapper(googleComputeRegionInstanceGroupManagerStatefulInternalIpToTerraform, true)(this._statefulInternalIp.internalValue),
+      target_size_policy: cdktn.listMapper(googleComputeRegionInstanceGroupManagerTargetSizePolicyToTerraform, true)(this._targetSizePolicy.internalValue),
       timeouts: googleComputeRegionInstanceGroupManagerTimeoutsToTerraform(this._timeouts.internalValue),
       update_policy: googleComputeRegionInstanceGroupManagerUpdatePolicyToTerraform(this._updatePolicy.internalValue),
       version: cdktn.listMapper(googleComputeRegionInstanceGroupManagerVersionToTerraform, true)(this._version.internalValue),
@@ -3638,6 +5798,12 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
         type: "list",
         storageClassType: "GoogleComputeRegionInstanceGroupManagerParamsList",
       },
+      resource_policies: {
+        value: googleComputeRegionInstanceGroupManagerResourcePoliciesToHclTerraform(this._resourcePolicies.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleComputeRegionInstanceGroupManagerResourcePoliciesList",
+      },
       standby_policy: {
         value: googleComputeRegionInstanceGroupManagerStandbyPolicyToHclTerraform(this._standbyPolicy.internalValue),
         isBlock: true,
@@ -3661,6 +5827,12 @@ export class GoogleComputeRegionInstanceGroupManager extends cdktn.TerraformReso
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeRegionInstanceGroupManagerStatefulInternalIpList",
+      },
+      target_size_policy: {
+        value: cdktn.listMapperHcl(googleComputeRegionInstanceGroupManagerTargetSizePolicyToHclTerraform, true)(this._targetSizePolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleComputeRegionInstanceGroupManagerTargetSizePolicyList",
       },
       timeouts: {
         value: googleComputeRegionInstanceGroupManagerTimeoutsToHclTerraform(this._timeouts.internalValue),

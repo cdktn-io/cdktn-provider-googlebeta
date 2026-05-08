@@ -4,7 +4,7 @@
 
 ### GoogleNetworkConnectivitySpoke <a name="GoogleNetworkConnectivitySpoke" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleNetworkConnectivitySpoke.Builder.create(Construct scope, java.lang.String 
     .location(java.lang.String)
     .name(java.lang.String)
 //  .description(java.lang.String)
+//  .gateway(GoogleNetworkConnectivitySpokeGateway)
 //  .group(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -51,15 +52,16 @@ GoogleNetworkConnectivitySpoke.Builder.create(Construct scope, java.lang.String 
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Immutable. The name of the spoke. Spoke names must be unique. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of the spoke. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.gateway">gateway</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a></code> | gateway block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.group">group</a></code> | <code>java.lang.String</code> | The name of the group that this spoke is associated with. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://cloud.google.com/resource-manager/docs/creating-managing-labels#requirements). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.linkedInterconnectAttachments">linkedInterconnectAttachments</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments">GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments</a></code> | linked_interconnect_attachments block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.linkedProducerVpcNetwork">linkedProducerVpcNetwork</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedProducerVpcNetwork">GoogleNetworkConnectivitySpokeLinkedProducerVpcNetwork</a></code> | linked_producer_vpc_network block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.linkedRouterApplianceInstances">linkedRouterApplianceInstances</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances">GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances</a></code> | linked_router_appliance_instances block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.linkedVpcNetwork">linkedVpcNetwork</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpcNetwork">GoogleNetworkConnectivitySpokeLinkedVpcNetwork</a></code> | linked_vpc_network block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.linkedVpnTunnels">linkedVpnTunnels</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels">GoogleNetworkConnectivitySpokeLinkedVpnTunnels</a></code> | linked_vpn_tunnels block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts">GoogleNetworkConnectivitySpokeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -130,7 +132,7 @@ Must be unique amongst siblings in the same scope
 
 Immutable. The URI of the hub that this spoke is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#hub GoogleNetworkConnectivitySpoke#hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#hub GoogleNetworkConnectivitySpoke#hub}
 
 ---
 
@@ -140,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#location GoogleNetworkConnectivitySpoke#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#location GoogleNetworkConnectivitySpoke#location}
 
 ---
 
@@ -150,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Immutable. The name of the spoke. Spoke names must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#name GoogleNetworkConnectivitySpoke#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#name GoogleNetworkConnectivitySpoke#name}
 
 ---
 
@@ -160,7 +162,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of the spoke.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#description GoogleNetworkConnectivitySpoke#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#description GoogleNetworkConnectivitySpoke#description}
+
+---
+
+##### `gateway`<sup>Optional</sup> <a name="gateway" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.Initializer.parameter.gateway"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a>
+
+gateway block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#gateway GoogleNetworkConnectivitySpoke#gateway}
 
 ---
 
@@ -170,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the group that this spoke is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#group GoogleNetworkConnectivitySpoke#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#group GoogleNetworkConnectivitySpoke#group}
 
 ---
 
@@ -178,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -189,12 +201,12 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://cloud.google.com/resource-manager/docs/creating-managing-labels#requirements).
+Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements).
 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#labels GoogleNetworkConnectivitySpoke#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#labels GoogleNetworkConnectivitySpoke#labels}
 
 ---
 
@@ -204,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 linked_interconnect_attachments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_interconnect_attachments GoogleNetworkConnectivitySpoke#linked_interconnect_attachments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_interconnect_attachments GoogleNetworkConnectivitySpoke#linked_interconnect_attachments}
 
 ---
 
@@ -214,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 linked_producer_vpc_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_producer_vpc_network GoogleNetworkConnectivitySpoke#linked_producer_vpc_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_producer_vpc_network GoogleNetworkConnectivitySpoke#linked_producer_vpc_network}
 
 ---
 
@@ -224,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 linked_router_appliance_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_router_appliance_instances GoogleNetworkConnectivitySpoke#linked_router_appliance_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_router_appliance_instances GoogleNetworkConnectivitySpoke#linked_router_appliance_instances}
 
 ---
 
@@ -234,7 +246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 linked_vpc_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_vpc_network GoogleNetworkConnectivitySpoke#linked_vpc_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_vpc_network GoogleNetworkConnectivitySpoke#linked_vpc_network}
 
 ---
 
@@ -244,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 linked_vpn_tunnels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_vpn_tunnels GoogleNetworkConnectivitySpoke#linked_vpn_tunnels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_vpn_tunnels GoogleNetworkConnectivitySpoke#linked_vpn_tunnels}
 
 ---
 
@@ -252,7 +264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}.
 
 ---
 
@@ -262,7 +274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#timeouts GoogleNetworkConnectivitySpoke#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#timeouts GoogleNetworkConnectivitySpoke#timeouts}
 
 ---
 
@@ -294,6 +306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putGateway">putGateway</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putLinkedInterconnectAttachments">putLinkedInterconnectAttachments</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putLinkedProducerVpcNetwork">putLinkedProducerVpcNetwork</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putLinkedRouterApplianceInstances">putLinkedRouterApplianceInstances</a></code> | *No description.* |
@@ -301,6 +314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putLinkedVpnTunnels">putLinkedVpnTunnels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.resetGateway">resetGateway</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.resetGroup">resetGroup</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.resetLabels">resetLabels</a></code> | *No description.* |
@@ -625,6 +639,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putGateway` <a name="putGateway" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putGateway"></a>
+
+```java
+public void putGateway(GoogleNetworkConnectivitySpokeGateway value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putGateway.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a>
+
+---
+
 ##### `putLinkedInterconnectAttachments` <a name="putLinkedInterconnectAttachments" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.putLinkedInterconnectAttachments"></a>
 
 ```java
@@ -701,6 +727,12 @@ public void putTimeouts(GoogleNetworkConnectivitySpokeTimeouts value)
 
 ```java
 public void resetDescription()
+```
+
+##### `resetGateway` <a name="resetGateway" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.resetGateway"></a>
+
+```java
+public void resetGateway()
 ```
 
 ##### `resetGroup` <a name="resetGroup" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.resetGroup"></a>
@@ -866,7 +898,7 @@ The construct id used in the generated config for the GoogleNetworkConnectivityS
 
 The id of the existing GoogleNetworkConnectivitySpoke that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -898,6 +930,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.createTime">createTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.effectiveLabels">effectiveLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.gateway">gateway</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference">GoogleNetworkConnectivitySpokeGatewayOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.linkedInterconnectAttachments">linkedInterconnectAttachments</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference">GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.linkedProducerVpcNetwork">linkedProducerVpcNetwork</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedProducerVpcNetworkOutputReference">GoogleNetworkConnectivitySpokeLinkedProducerVpcNetworkOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.linkedRouterApplianceInstances">linkedRouterApplianceInstances</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference">GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference</a></code> | *No description.* |
@@ -910,6 +943,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.uniqueId">uniqueId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.gatewayInput">gatewayInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.groupInput">groupInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.hubInput">hubInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1096,6 +1130,16 @@ public StringMap getEffectiveLabels();
 
 ---
 
+##### `gateway`<sup>Required</sup> <a name="gateway" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.gateway"></a>
+
+```java
+public GoogleNetworkConnectivitySpokeGatewayOutputReference getGateway();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference">GoogleNetworkConnectivitySpokeGatewayOutputReference</a>
+
+---
+
 ##### `linkedInterconnectAttachments`<sup>Required</sup> <a name="linkedInterconnectAttachments" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.linkedInterconnectAttachments"></a>
 
 ```java
@@ -1213,6 +1257,16 @@ public java.lang.String getDescriptionInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `gatewayInput`<sup>Optional</sup> <a name="gatewayInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpoke.property.gatewayInput"></a>
+
+```java
+public GoogleNetworkConnectivitySpokeGateway getGatewayInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a>
 
 ---
 
@@ -1465,6 +1519,7 @@ GoogleNetworkConnectivitySpokeConfig.builder()
     .location(java.lang.String)
     .name(java.lang.String)
 //  .description(java.lang.String)
+//  .gateway(GoogleNetworkConnectivitySpokeGateway)
 //  .group(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -1493,15 +1548,16 @@ GoogleNetworkConnectivitySpokeConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.name">name</a></code> | <code>java.lang.String</code> | Immutable. The name of the spoke. Spoke names must be unique. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of the spoke. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.gateway">gateway</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a></code> | gateway block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.group">group</a></code> | <code>java.lang.String</code> | The name of the group that this spoke is associated with. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://cloud.google.com/resource-manager/docs/creating-managing-labels#requirements). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.linkedInterconnectAttachments">linkedInterconnectAttachments</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments">GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments</a></code> | linked_interconnect_attachments block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.linkedProducerVpcNetwork">linkedProducerVpcNetwork</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedProducerVpcNetwork">GoogleNetworkConnectivitySpokeLinkedProducerVpcNetwork</a></code> | linked_producer_vpc_network block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.linkedRouterApplianceInstances">linkedRouterApplianceInstances</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances">GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances</a></code> | linked_router_appliance_instances block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.linkedVpcNetwork">linkedVpcNetwork</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpcNetwork">GoogleNetworkConnectivitySpokeLinkedVpcNetwork</a></code> | linked_vpc_network block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.linkedVpnTunnels">linkedVpnTunnels</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels">GoogleNetworkConnectivitySpokeLinkedVpnTunnels</a></code> | linked_vpn_tunnels block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts">GoogleNetworkConnectivitySpokeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1586,7 +1642,7 @@ public java.lang.String getHub();
 
 Immutable. The URI of the hub that this spoke is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#hub GoogleNetworkConnectivitySpoke#hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#hub GoogleNetworkConnectivitySpoke#hub}
 
 ---
 
@@ -1600,7 +1656,7 @@ public java.lang.String getLocation();
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#location GoogleNetworkConnectivitySpoke#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#location GoogleNetworkConnectivitySpoke#location}
 
 ---
 
@@ -1614,7 +1670,7 @@ public java.lang.String getName();
 
 Immutable. The name of the spoke. Spoke names must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#name GoogleNetworkConnectivitySpoke#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#name GoogleNetworkConnectivitySpoke#name}
 
 ---
 
@@ -1628,7 +1684,21 @@ public java.lang.String getDescription();
 
 An optional description of the spoke.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#description GoogleNetworkConnectivitySpoke#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#description GoogleNetworkConnectivitySpoke#description}
+
+---
+
+##### `gateway`<sup>Optional</sup> <a name="gateway" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeConfig.property.gateway"></a>
+
+```java
+public GoogleNetworkConnectivitySpokeGateway getGateway();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a>
+
+gateway block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#gateway GoogleNetworkConnectivitySpoke#gateway}
 
 ---
 
@@ -1642,7 +1712,7 @@ public java.lang.String getGroup();
 
 The name of the group that this spoke is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#group GoogleNetworkConnectivitySpoke#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#group GoogleNetworkConnectivitySpoke#group}
 
 ---
 
@@ -1654,7 +1724,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#id GoogleNetworkConnectivitySpoke#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1669,12 +1739,12 @@ public java.util.Map<java.lang.String, java.lang.String> getLabels();
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://cloud.google.com/resource-manager/docs/creating-managing-labels#requirements).
+Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements).
 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#labels GoogleNetworkConnectivitySpoke#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#labels GoogleNetworkConnectivitySpoke#labels}
 
 ---
 
@@ -1688,7 +1758,7 @@ public GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments getLinkedInte
 
 linked_interconnect_attachments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_interconnect_attachments GoogleNetworkConnectivitySpoke#linked_interconnect_attachments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_interconnect_attachments GoogleNetworkConnectivitySpoke#linked_interconnect_attachments}
 
 ---
 
@@ -1702,7 +1772,7 @@ public GoogleNetworkConnectivitySpokeLinkedProducerVpcNetwork getLinkedProducerV
 
 linked_producer_vpc_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_producer_vpc_network GoogleNetworkConnectivitySpoke#linked_producer_vpc_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_producer_vpc_network GoogleNetworkConnectivitySpoke#linked_producer_vpc_network}
 
 ---
 
@@ -1716,7 +1786,7 @@ public GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances getLinkedRou
 
 linked_router_appliance_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_router_appliance_instances GoogleNetworkConnectivitySpoke#linked_router_appliance_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_router_appliance_instances GoogleNetworkConnectivitySpoke#linked_router_appliance_instances}
 
 ---
 
@@ -1730,7 +1800,7 @@ public GoogleNetworkConnectivitySpokeLinkedVpcNetwork getLinkedVpcNetwork();
 
 linked_vpc_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_vpc_network GoogleNetworkConnectivitySpoke#linked_vpc_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_vpc_network GoogleNetworkConnectivitySpoke#linked_vpc_network}
 
 ---
 
@@ -1744,7 +1814,7 @@ public GoogleNetworkConnectivitySpokeLinkedVpnTunnels getLinkedVpnTunnels();
 
 linked_vpn_tunnels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#linked_vpn_tunnels GoogleNetworkConnectivitySpoke#linked_vpn_tunnels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#linked_vpn_tunnels GoogleNetworkConnectivitySpoke#linked_vpn_tunnels}
 
 ---
 
@@ -1756,7 +1826,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#project GoogleNetworkConnectivitySpoke#project}.
 
 ---
 
@@ -1770,7 +1840,91 @@ public GoogleNetworkConnectivitySpokeTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#timeouts GoogleNetworkConnectivitySpoke#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#timeouts GoogleNetworkConnectivitySpoke#timeouts}
+
+---
+
+### GoogleNetworkConnectivitySpokeGateway <a name="GoogleNetworkConnectivitySpokeGateway" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNetworkConnectivitySpokeGateway;
+
+GoogleNetworkConnectivitySpokeGateway.builder()
+    .capacity(java.lang.String)
+    .ipRangeReservations(IResolvable|java.util.List<GoogleNetworkConnectivitySpokeGatewayIpRangeReservations>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway.property.capacity">capacity</a></code> | <code>java.lang.String</code> | the capacity of the gateway spoke, in Gbps. Possible values: ["CAPACITY_1_GBPS", "CAPACITY_10_GBPS", "CAPACITY_100_GBPS"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway.property.ipRangeReservations">ipRangeReservations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>></code> | ip_range_reservations block. |
+
+---
+
+##### `capacity`<sup>Required</sup> <a name="capacity" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway.property.capacity"></a>
+
+```java
+public java.lang.String getCapacity();
+```
+
+- *Type:* java.lang.String
+
+the capacity of the gateway spoke, in Gbps. Possible values: ["CAPACITY_1_GBPS", "CAPACITY_10_GBPS", "CAPACITY_100_GBPS"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#capacity GoogleNetworkConnectivitySpoke#capacity}
+
+---
+
+##### `ipRangeReservations`<sup>Required</sup> <a name="ipRangeReservations" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway.property.ipRangeReservations"></a>
+
+```java
+public IResolvable|java.util.List<GoogleNetworkConnectivitySpokeGatewayIpRangeReservations> getIpRangeReservations();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>>
+
+ip_range_reservations block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#ip_range_reservations GoogleNetworkConnectivitySpoke#ip_range_reservations}
+
+---
+
+### GoogleNetworkConnectivitySpokeGatewayIpRangeReservations <a name="GoogleNetworkConnectivitySpokeGatewayIpRangeReservations" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations;
+
+GoogleNetworkConnectivitySpokeGatewayIpRangeReservations.builder()
+    .ipRange(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations.property.ipRange">ipRange</a></code> | <code>java.lang.String</code> | A block of IP address ranges used to allocate supporting infrastructure for this gateway—for example, 10.1.2.0/23. The IP address block must be a /23 range. This IP address block must not overlap with subnets in any spoke or peer network that the gateway can communicate with. |
+
+---
+
+##### `ipRange`<sup>Required</sup> <a name="ipRange" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations.property.ipRange"></a>
+
+```java
+public java.lang.String getIpRange();
+```
+
+- *Type:* java.lang.String
+
+A block of IP address ranges used to allocate supporting infrastructure for this gateway—for example, 10.1.2.0/23. The IP address block must be a /23 range. This IP address block must not overlap with subnets in any spoke or peer network that the gateway can communicate with.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#ip_range GoogleNetworkConnectivitySpoke#ip_range}
 
 ---
 
@@ -1784,6 +1938,9 @@ import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNe
 GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.builder()
     .siteToSiteDataTransfer(java.lang.Boolean|IResolvable)
     .uris(java.util.List<java.lang.String>)
+//  .excludeExportRanges(java.util.List<java.lang.String>)
+//  .excludeImportRanges(java.util.List<java.lang.String>)
+//  .includeExportRanges(java.util.List<java.lang.String>)
 //  .includeImportRanges(java.util.List<java.lang.String>)
     .build();
 ```
@@ -1794,7 +1951,10 @@ GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.siteToSiteDataTransfer">siteToSiteDataTransfer</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | A value that controls whether site-to-site data transfer is enabled for these resources. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.uris">uris</a></code> | <code>java.util.List<java.lang.String></code> | The URIs of linked interconnect attachment resources. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | IP ranges allowed to be included during import from hub (does not control transit connectivity). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.excludeExportRanges">excludeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Dynamic routes overlapped/encompassed by exclude export ranges are excluded during export to hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.excludeImportRanges">excludeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Hub routes overlapped/encompassed by exclude import ranges are excluded during import from hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.includeExportRanges">includeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Dynamic routes fully encompassed by include export ranges are included during export to hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Hub routes fully encompassed by include import ranges are included during import from hub. |
 
 ---
 
@@ -1810,7 +1970,7 @@ A value that controls whether site-to-site data transfer is enabled for these re
 
 Note that data transfer is available only in supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#site_to_site_data_transfer GoogleNetworkConnectivitySpoke#site_to_site_data_transfer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#site_to_site_data_transfer GoogleNetworkConnectivitySpoke#site_to_site_data_transfer}
 
 ---
 
@@ -1824,7 +1984,49 @@ public java.util.List<java.lang.String> getUris();
 
 The URIs of linked interconnect attachment resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#uris GoogleNetworkConnectivitySpoke#uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#uris GoogleNetworkConnectivitySpoke#uris}
+
+---
+
+##### `excludeExportRanges`<sup>Optional</sup> <a name="excludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.excludeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Dynamic routes overlapped/encompassed by exclude export ranges are excluded during export to hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_export_ranges GoogleNetworkConnectivitySpoke#exclude_export_ranges}
+
+---
+
+##### `excludeImportRanges`<sup>Optional</sup> <a name="excludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.excludeImportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Hub routes overlapped/encompassed by exclude import ranges are excluded during import from hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_import_ranges GoogleNetworkConnectivitySpoke#exclude_import_ranges}
+
+---
+
+##### `includeExportRanges`<sup>Optional</sup> <a name="includeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments.property.includeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Dynamic routes fully encompassed by include export ranges are included during export to hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_export_ranges GoogleNetworkConnectivitySpoke#include_export_ranges}
 
 ---
 
@@ -1836,11 +2038,11 @@ public java.util.List<java.lang.String> getIncludeImportRanges();
 
 - *Type:* java.util.List<java.lang.String>
 
-IP ranges allowed to be included during import from hub (does not control transit connectivity).
+Hub routes fully encompassed by include import ranges are included during import from hub.
 
-The only allowed value for now is "ALL_IPV4_RANGES".
+"ALL_IPV4_RANGES" or IPv4 CIDR ranges are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#include_import_ranges GoogleNetworkConnectivitySpoke#include_import_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_import_ranges GoogleNetworkConnectivitySpoke#include_import_ranges}
 
 ---
 
@@ -1880,7 +2082,7 @@ public java.lang.String getNetwork();
 
 The URI of the Service Consumer VPC that the Producer VPC is peered with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#network GoogleNetworkConnectivitySpoke#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#network GoogleNetworkConnectivitySpoke#network}
 
 ---
 
@@ -1896,7 +2098,7 @@ The name of the VPC peering between the Service Consumer VPC and the Producer VP
 
 This peering must be in ACTIVE state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#peering GoogleNetworkConnectivitySpoke#peering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#peering GoogleNetworkConnectivitySpoke#peering}
 
 ---
 
@@ -1910,7 +2112,7 @@ public java.util.List<java.lang.String> getExcludeExportRanges();
 
 IP ranges encompassing the subnets to be excluded from peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#exclude_export_ranges GoogleNetworkConnectivitySpoke#exclude_export_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_export_ranges GoogleNetworkConnectivitySpoke#exclude_export_ranges}
 
 ---
 
@@ -1924,7 +2126,7 @@ public java.util.List<java.lang.String> getIncludeExportRanges();
 
 IP ranges allowed to be included from peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#include_export_ranges GoogleNetworkConnectivitySpoke#include_export_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_export_ranges GoogleNetworkConnectivitySpoke#include_export_ranges}
 
 ---
 
@@ -1938,6 +2140,9 @@ import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNe
 GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.builder()
     .instances(IResolvable|java.util.List<GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstances>)
     .siteToSiteDataTransfer(java.lang.Boolean|IResolvable)
+//  .excludeExportRanges(java.util.List<java.lang.String>)
+//  .excludeImportRanges(java.util.List<java.lang.String>)
+//  .includeExportRanges(java.util.List<java.lang.String>)
 //  .includeImportRanges(java.util.List<java.lang.String>)
     .build();
 ```
@@ -1948,7 +2153,10 @@ GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.instances">instances</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstances">GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstances</a>></code> | instances block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.siteToSiteDataTransfer">siteToSiteDataTransfer</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | A value that controls whether site-to-site data transfer is enabled for these resources. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | IP ranges allowed to be included during import from hub (does not control transit connectivity). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.excludeExportRanges">excludeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Dynamic routes overlapped/encompassed by exclude export ranges are excluded during export to hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.excludeImportRanges">excludeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Hub routes overlapped/encompassed by exclude import ranges are excluded during import from hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.includeExportRanges">includeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Dynamic routes fully encompassed by include export ranges are included during export to hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Hub routes fully encompassed by include import ranges are included during import from hub. |
 
 ---
 
@@ -1962,7 +2170,7 @@ public IResolvable|java.util.List<GoogleNetworkConnectivitySpokeLinkedRouterAppl
 
 instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#instances GoogleNetworkConnectivitySpoke#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#instances GoogleNetworkConnectivitySpoke#instances}
 
 ---
 
@@ -1978,7 +2186,49 @@ A value that controls whether site-to-site data transfer is enabled for these re
 
 Note that data transfer is available only in supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#site_to_site_data_transfer GoogleNetworkConnectivitySpoke#site_to_site_data_transfer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#site_to_site_data_transfer GoogleNetworkConnectivitySpoke#site_to_site_data_transfer}
+
+---
+
+##### `excludeExportRanges`<sup>Optional</sup> <a name="excludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.excludeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Dynamic routes overlapped/encompassed by exclude export ranges are excluded during export to hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_export_ranges GoogleNetworkConnectivitySpoke#exclude_export_ranges}
+
+---
+
+##### `excludeImportRanges`<sup>Optional</sup> <a name="excludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.excludeImportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Hub routes overlapped/encompassed by exclude import ranges are excluded during import from hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_import_ranges GoogleNetworkConnectivitySpoke#exclude_import_ranges}
+
+---
+
+##### `includeExportRanges`<sup>Optional</sup> <a name="includeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances.property.includeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Dynamic routes fully encompassed by include export ranges are included during export to hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_export_ranges GoogleNetworkConnectivitySpoke#include_export_ranges}
 
 ---
 
@@ -1990,11 +2240,11 @@ public java.util.List<java.lang.String> getIncludeImportRanges();
 
 - *Type:* java.util.List<java.lang.String>
 
-IP ranges allowed to be included during import from hub (does not control transit connectivity).
+Hub routes fully encompassed by include import ranges are included during import from hub.
 
-The only allowed value for now is "ALL_IPV4_RANGES".
+"ALL_IPV4_RANGES" or IPv4 CIDR ranges are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#include_import_ranges GoogleNetworkConnectivitySpoke#include_import_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_import_ranges GoogleNetworkConnectivitySpoke#include_import_ranges}
 
 ---
 
@@ -2030,7 +2280,7 @@ public java.lang.String getIpAddress();
 
 The IP address on the VM to use for peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#ip_address GoogleNetworkConnectivitySpoke#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#ip_address GoogleNetworkConnectivitySpoke#ip_address}
 
 ---
 
@@ -2044,7 +2294,7 @@ public java.lang.String getVirtualMachine();
 
 The URI of the virtual machine resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#virtual_machine GoogleNetworkConnectivitySpoke#virtual_machine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#virtual_machine GoogleNetworkConnectivitySpoke#virtual_machine}
 
 ---
 
@@ -2082,7 +2332,7 @@ public java.lang.String getUri();
 
 The URI of the VPC network resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#uri GoogleNetworkConnectivitySpoke#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#uri GoogleNetworkConnectivitySpoke#uri}
 
 ---
 
@@ -2096,7 +2346,7 @@ public java.util.List<java.lang.String> getExcludeExportRanges();
 
 IP ranges encompassing the subnets to be excluded from peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#exclude_export_ranges GoogleNetworkConnectivitySpoke#exclude_export_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_export_ranges GoogleNetworkConnectivitySpoke#exclude_export_ranges}
 
 ---
 
@@ -2110,7 +2360,7 @@ public java.util.List<java.lang.String> getIncludeExportRanges();
 
 IP ranges allowed to be included from peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#include_export_ranges GoogleNetworkConnectivitySpoke#include_export_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_export_ranges GoogleNetworkConnectivitySpoke#include_export_ranges}
 
 ---
 
@@ -2124,6 +2374,9 @@ import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNe
 GoogleNetworkConnectivitySpokeLinkedVpnTunnels.builder()
     .siteToSiteDataTransfer(java.lang.Boolean|IResolvable)
     .uris(java.util.List<java.lang.String>)
+//  .excludeExportRanges(java.util.List<java.lang.String>)
+//  .excludeImportRanges(java.util.List<java.lang.String>)
+//  .includeExportRanges(java.util.List<java.lang.String>)
 //  .includeImportRanges(java.util.List<java.lang.String>)
     .build();
 ```
@@ -2134,7 +2387,10 @@ GoogleNetworkConnectivitySpokeLinkedVpnTunnels.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.siteToSiteDataTransfer">siteToSiteDataTransfer</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | A value that controls whether site-to-site data transfer is enabled for these resources. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.uris">uris</a></code> | <code>java.util.List<java.lang.String></code> | The URIs of linked VPN tunnel resources. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | IP ranges allowed to be included during import from hub (does not control transit connectivity). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.excludeExportRanges">excludeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Dynamic routes overlapped/encompassed by exclude export ranges are excluded during export to hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.excludeImportRanges">excludeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Hub routes overlapped/encompassed by exclude import ranges are excluded during import from hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.includeExportRanges">includeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Dynamic routes fully encompassed by include export ranges are included during export to hub. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | Hub routes fully encompassed by include import ranges are included during import from hub. |
 
 ---
 
@@ -2150,7 +2406,7 @@ A value that controls whether site-to-site data transfer is enabled for these re
 
 Note that data transfer is available only in supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#site_to_site_data_transfer GoogleNetworkConnectivitySpoke#site_to_site_data_transfer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#site_to_site_data_transfer GoogleNetworkConnectivitySpoke#site_to_site_data_transfer}
 
 ---
 
@@ -2164,7 +2420,49 @@ public java.util.List<java.lang.String> getUris();
 
 The URIs of linked VPN tunnel resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#uris GoogleNetworkConnectivitySpoke#uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#uris GoogleNetworkConnectivitySpoke#uris}
+
+---
+
+##### `excludeExportRanges`<sup>Optional</sup> <a name="excludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.excludeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Dynamic routes overlapped/encompassed by exclude export ranges are excluded during export to hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_export_ranges GoogleNetworkConnectivitySpoke#exclude_export_ranges}
+
+---
+
+##### `excludeImportRanges`<sup>Optional</sup> <a name="excludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.excludeImportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Hub routes overlapped/encompassed by exclude import ranges are excluded during import from hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#exclude_import_ranges GoogleNetworkConnectivitySpoke#exclude_import_ranges}
+
+---
+
+##### `includeExportRanges`<sup>Optional</sup> <a name="includeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnels.property.includeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+Dynamic routes fully encompassed by include export ranges are included during export to hub.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_export_ranges GoogleNetworkConnectivitySpoke#include_export_ranges}
 
 ---
 
@@ -2176,11 +2474,11 @@ public java.util.List<java.lang.String> getIncludeImportRanges();
 
 - *Type:* java.util.List<java.lang.String>
 
-IP ranges allowed to be included during import from hub (does not control transit connectivity).
+Hub routes fully encompassed by include import ranges are included during import from hub.
 
-The only allowed value for now is "ALL_IPV4_RANGES".
+"ALL_IPV4_RANGES" or IPv4 CIDR ranges are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#include_import_ranges GoogleNetworkConnectivitySpoke#include_import_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#include_import_ranges GoogleNetworkConnectivitySpoke#include_import_ranges}
 
 ---
 
@@ -2214,9 +2512,9 @@ GoogleNetworkConnectivitySpokeTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#create GoogleNetworkConnectivitySpoke#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#delete GoogleNetworkConnectivitySpoke#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#update GoogleNetworkConnectivitySpoke#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#create GoogleNetworkConnectivitySpoke#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#delete GoogleNetworkConnectivitySpoke#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#update GoogleNetworkConnectivitySpoke#update}. |
 
 ---
 
@@ -2228,7 +2526,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#create GoogleNetworkConnectivitySpoke#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#create GoogleNetworkConnectivitySpoke#create}.
 
 ---
 
@@ -2240,7 +2538,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#delete GoogleNetworkConnectivitySpoke#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#delete GoogleNetworkConnectivitySpoke#delete}.
 
 ---
 
@@ -2252,11 +2550,777 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke#update GoogleNetworkConnectivitySpoke#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke#update GoogleNetworkConnectivitySpoke#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList <a name="GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList;
+
+new GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Boolean wrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.allWithMapKey"></a>
+
+```java
+public DynamicListTerraformIterator allWithMapKey(java.lang.String mapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.get"></a>
+
+```java
+public GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference get(java.lang.Number index)
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.get.parameter.index"></a>
+
+- *Type:* java.lang.Number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList.property.internalValue"></a>
+
+```java
+public IResolvable|java.util.List<GoogleNetworkConnectivitySpokeGatewayIpRangeReservations> getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>>
+
+---
+
+
+### GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference <a name="GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference;
+
+new GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Number complexObjectIndex, java.lang.Boolean complexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>java.lang.Number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* java.lang.Number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.ipRangeInput">ipRangeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.ipRange">ipRange</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ipRangeInput`<sup>Optional</sup> <a name="ipRangeInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.ipRangeInput"></a>
+
+```java
+public java.lang.String getIpRangeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ipRange`<sup>Required</sup> <a name="ipRange" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.ipRange"></a>
+
+```java
+public java.lang.String getIpRange();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|GoogleNetworkConnectivitySpokeGatewayIpRangeReservations getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>
+
+---
+
+
+### GoogleNetworkConnectivitySpokeGatewayOutputReference <a name="GoogleNetworkConnectivitySpokeGatewayOutputReference" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_network_connectivity_spoke.GoogleNetworkConnectivitySpokeGatewayOutputReference;
+
+new GoogleNetworkConnectivitySpokeGatewayOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.putIpRangeReservations">putIpRangeReservations</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putIpRangeReservations` <a name="putIpRangeReservations" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.putIpRangeReservations"></a>
+
+```java
+public void putIpRangeReservations(IResolvable|java.util.List<GoogleNetworkConnectivitySpokeGatewayIpRangeReservations> value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.putIpRangeReservations.parameter.value"></a>
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>>
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.ipRangeReservations">ipRangeReservations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList">GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.routers">routers</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.capacityInput">capacityInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.ipRangeReservationsInput">ipRangeReservationsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.capacity">capacity</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ipRangeReservations`<sup>Required</sup> <a name="ipRangeReservations" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.ipRangeReservations"></a>
+
+```java
+public GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList getIpRangeReservations();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList">GoogleNetworkConnectivitySpokeGatewayIpRangeReservationsList</a>
+
+---
+
+##### `routers`<sup>Required</sup> <a name="routers" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.routers"></a>
+
+```java
+public java.util.List<java.lang.String> getRouters();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `capacityInput`<sup>Optional</sup> <a name="capacityInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.capacityInput"></a>
+
+```java
+public java.lang.String getCapacityInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ipRangeReservationsInput`<sup>Optional</sup> <a name="ipRangeReservationsInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.ipRangeReservationsInput"></a>
+
+```java
+public IResolvable|java.util.List<GoogleNetworkConnectivitySpokeGatewayIpRangeReservations> getIpRangeReservationsInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayIpRangeReservations">GoogleNetworkConnectivitySpokeGatewayIpRangeReservations</a>>
+
+---
+
+##### `capacity`<sup>Required</sup> <a name="capacity" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.capacity"></a>
+
+```java
+public java.lang.String getCapacity();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGatewayOutputReference.property.internalValue"></a>
+
+```java
+public GoogleNetworkConnectivitySpokeGateway getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeGateway">GoogleNetworkConnectivitySpokeGateway</a>
+
+---
+
 
 ### GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference <a name="GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference"></a>
 
@@ -2308,6 +3372,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetExcludeExportRanges">resetExcludeExportRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetExcludeImportRanges">resetExcludeImportRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetIncludeExportRanges">resetIncludeExportRanges</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetIncludeImportRanges">resetIncludeImportRanges</a></code> | *No description.* |
 
 ---
@@ -2462,6 +3529,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetExcludeExportRanges` <a name="resetExcludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetExcludeExportRanges"></a>
+
+```java
+public void resetExcludeExportRanges()
+```
+
+##### `resetExcludeImportRanges` <a name="resetExcludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetExcludeImportRanges"></a>
+
+```java
+public void resetExcludeImportRanges()
+```
+
+##### `resetIncludeExportRanges` <a name="resetIncludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetIncludeExportRanges"></a>
+
+```java
+public void resetIncludeExportRanges()
+```
+
 ##### `resetIncludeImportRanges` <a name="resetIncludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.resetIncludeImportRanges"></a>
 
 ```java
@@ -2475,9 +3560,15 @@ public void resetIncludeImportRanges()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeExportRangesInput">excludeExportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeImportRangesInput">excludeImportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.includeExportRangesInput">includeExportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.includeImportRangesInput">includeImportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.siteToSiteDataTransferInput">siteToSiteDataTransferInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.urisInput">urisInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeExportRanges">excludeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeImportRanges">excludeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.includeExportRanges">includeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.siteToSiteDataTransfer">siteToSiteDataTransfer</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.uris">uris</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -2509,6 +3600,36 @@ public java.lang.String getFqn();
 
 ---
 
+##### `excludeExportRangesInput`<sup>Optional</sup> <a name="excludeExportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeExportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeImportRangesInput`<sup>Optional</sup> <a name="excludeImportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeImportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `includeExportRangesInput`<sup>Optional</sup> <a name="includeExportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.includeExportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
 ##### `includeImportRangesInput`<sup>Optional</sup> <a name="includeImportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.includeImportRangesInput"></a>
 
 ```java
@@ -2533,6 +3654,36 @@ public java.lang.Boolean|IResolvable getSiteToSiteDataTransferInput();
 
 ```java
 public java.util.List<java.lang.String> getUrisInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeExportRanges`<sup>Required</sup> <a name="excludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeImportRanges`<sup>Required</sup> <a name="excludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.excludeImportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `includeExportRanges`<sup>Required</sup> <a name="includeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference.property.includeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRanges();
 ```
 
 - *Type:* java.util.List<java.lang.String>
@@ -3464,6 +4615,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.putInstances">putInstances</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetExcludeExportRanges">resetExcludeExportRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetExcludeImportRanges">resetExcludeImportRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetIncludeExportRanges">resetIncludeExportRanges</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetIncludeImportRanges">resetIncludeImportRanges</a></code> | *No description.* |
 
 ---
@@ -3630,6 +4784,24 @@ public void putInstances(IResolvable|java.util.List<GoogleNetworkConnectivitySpo
 
 ---
 
+##### `resetExcludeExportRanges` <a name="resetExcludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetExcludeExportRanges"></a>
+
+```java
+public void resetExcludeExportRanges()
+```
+
+##### `resetExcludeImportRanges` <a name="resetExcludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetExcludeImportRanges"></a>
+
+```java
+public void resetExcludeImportRanges()
+```
+
+##### `resetIncludeExportRanges` <a name="resetIncludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetIncludeExportRanges"></a>
+
+```java
+public void resetIncludeExportRanges()
+```
+
 ##### `resetIncludeImportRanges` <a name="resetIncludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.resetIncludeImportRanges"></a>
 
 ```java
@@ -3644,9 +4816,15 @@ public void resetIncludeImportRanges()
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.instances">instances</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesList">GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeExportRangesInput">excludeExportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeImportRangesInput">excludeImportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.includeExportRangesInput">includeExportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.includeImportRangesInput">includeImportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.instancesInput">instancesInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstances">GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstances</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.siteToSiteDataTransferInput">siteToSiteDataTransferInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeExportRanges">excludeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeImportRanges">excludeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.includeExportRanges">includeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.siteToSiteDataTransfer">siteToSiteDataTransfer</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances">GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances</a></code> | *No description.* |
@@ -3687,6 +4865,36 @@ public GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesList
 
 ---
 
+##### `excludeExportRangesInput`<sup>Optional</sup> <a name="excludeExportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeExportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeImportRangesInput`<sup>Optional</sup> <a name="excludeImportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeImportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `includeExportRangesInput`<sup>Optional</sup> <a name="includeExportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.includeExportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
 ##### `includeImportRangesInput`<sup>Optional</sup> <a name="includeImportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.includeImportRangesInput"></a>
 
 ```java
@@ -3714,6 +4922,36 @@ public java.lang.Boolean|IResolvable getSiteToSiteDataTransferInput();
 ```
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `excludeExportRanges`<sup>Required</sup> <a name="excludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeImportRanges`<sup>Required</sup> <a name="excludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.excludeImportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `includeExportRanges`<sup>Required</sup> <a name="includeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference.property.includeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
 
 ---
 
@@ -4127,6 +5365,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetExcludeExportRanges">resetExcludeExportRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetExcludeImportRanges">resetExcludeImportRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetIncludeExportRanges">resetIncludeExportRanges</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetIncludeImportRanges">resetIncludeImportRanges</a></code> | *No description.* |
 
 ---
@@ -4281,6 +5522,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetExcludeExportRanges` <a name="resetExcludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetExcludeExportRanges"></a>
+
+```java
+public void resetExcludeExportRanges()
+```
+
+##### `resetExcludeImportRanges` <a name="resetExcludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetExcludeImportRanges"></a>
+
+```java
+public void resetExcludeImportRanges()
+```
+
+##### `resetIncludeExportRanges` <a name="resetIncludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetIncludeExportRanges"></a>
+
+```java
+public void resetIncludeExportRanges()
+```
+
 ##### `resetIncludeImportRanges` <a name="resetIncludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.resetIncludeImportRanges"></a>
 
 ```java
@@ -4294,9 +5553,15 @@ public void resetIncludeImportRanges()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeExportRangesInput">excludeExportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeImportRangesInput">excludeImportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.includeExportRangesInput">includeExportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.includeImportRangesInput">includeImportRangesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.siteToSiteDataTransferInput">siteToSiteDataTransferInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.urisInput">urisInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeExportRanges">excludeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeImportRanges">excludeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.includeExportRanges">includeExportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.includeImportRanges">includeImportRanges</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.siteToSiteDataTransfer">siteToSiteDataTransfer</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.uris">uris</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -4328,6 +5593,36 @@ public java.lang.String getFqn();
 
 ---
 
+##### `excludeExportRangesInput`<sup>Optional</sup> <a name="excludeExportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeExportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeImportRangesInput`<sup>Optional</sup> <a name="excludeImportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeImportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `includeExportRangesInput`<sup>Optional</sup> <a name="includeExportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.includeExportRangesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRangesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
 ##### `includeImportRangesInput`<sup>Optional</sup> <a name="includeImportRangesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.includeImportRangesInput"></a>
 
 ```java
@@ -4352,6 +5647,36 @@ public java.lang.Boolean|IResolvable getSiteToSiteDataTransferInput();
 
 ```java
 public java.util.List<java.lang.String> getUrisInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeExportRanges`<sup>Required</sup> <a name="excludeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeExportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `excludeImportRanges`<sup>Required</sup> <a name="excludeImportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.excludeImportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getExcludeImportRanges();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `includeExportRanges`<sup>Required</sup> <a name="includeExportRanges" id="@cdktn/provider-google-beta.googleNetworkConnectivitySpoke.GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference.property.includeExportRanges"></a>
+
+```java
+public java.util.List<java.lang.String> getIncludeExportRanges();
 ```
 
 - *Type:* java.util.List<java.lang.String>

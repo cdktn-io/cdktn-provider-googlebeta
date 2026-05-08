@@ -6,11 +6,11 @@
 import * as cdktn from 'cdktn';
 export interface GoogleContainerClusterAddonsConfigCloudrunConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#load_balancer_type GoogleContainerCluster#load_balancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#load_balancer_type GoogleContainerCluster#load_balancer_type}
   */
   readonly loadBalancerType?: string;
 }
@@ -120,7 +120,7 @@ export class GoogleContainerClusterAddonsConfigCloudrunConfigOutputReference ext
 }
 export interface GoogleContainerClusterAddonsConfigConfigConnectorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -201,7 +201,7 @@ export class GoogleContainerClusterAddonsConfigConfigConnectorConfigOutputRefere
 }
 export interface GoogleContainerClusterAddonsConfigDnsCacheConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -282,7 +282,7 @@ export class GoogleContainerClusterAddonsConfigDnsCacheConfigOutputReference ext
 }
 export interface GoogleContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -363,7 +363,7 @@ export class GoogleContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigO
 }
 export interface GoogleContainerClusterAddonsConfigGcpFilestoreCsiDriverConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -444,7 +444,7 @@ export class GoogleContainerClusterAddonsConfigGcpFilestoreCsiDriverConfigOutput
 }
 export interface GoogleContainerClusterAddonsConfigGcsFuseCsiDriverConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -525,7 +525,7 @@ export class GoogleContainerClusterAddonsConfigGcsFuseCsiDriverConfigOutputRefer
 }
 export interface GoogleContainerClusterAddonsConfigGkeBackupAgentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -606,7 +606,7 @@ export class GoogleContainerClusterAddonsConfigGkeBackupAgentConfigOutputReferen
 }
 export interface GoogleContainerClusterAddonsConfigHorizontalPodAutoscaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
 }
@@ -687,7 +687,7 @@ export class GoogleContainerClusterAddonsConfigHorizontalPodAutoscalingOutputRef
 }
 export interface GoogleContainerClusterAddonsConfigHttpLoadBalancing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
 }
@@ -770,13 +770,13 @@ export interface GoogleContainerClusterAddonsConfigIstioConfig {
   /**
   * The authentication type between services in Istio. Available options include AUTH_MUTUAL_TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auth GoogleContainerCluster#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#auth GoogleContainerCluster#auth}
   */
   readonly auth?: string;
   /**
   * The status of the Istio addon, which makes it easy to set up Istio for services in a cluster. It is disabled by default. Set disabled = false to enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
 }
@@ -886,7 +886,7 @@ export class GoogleContainerClusterAddonsConfigIstioConfigOutputReference extend
 }
 export interface GoogleContainerClusterAddonsConfigKalmConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -967,16 +967,23 @@ export class GoogleContainerClusterAddonsConfigKalmConfigOutputReference extends
 }
 export interface GoogleContainerClusterAddonsConfigLustreCsiDriverConfig {
   /**
+  * When set to true, this disables multi-NIC support for the Lustre CSI driver. By default, GKE enables multi-NIC support, which
+  * 										allows the Lustre CSI driver to automatically detect and configure all suitable network interfaces on a node to maximize I/O performance for demanding workloads.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disable_multi_nic GoogleContainerCluster#disable_multi_nic}
+  */
+  readonly disableMultiNic?: boolean | cdktn.IResolvable;
+  /**
   * If set to true, the Lustre CSI driver will initialize LNet (the virtual network layer for Lustre kernel module) using port 6988.
   * 										This flag is required to workaround a port conflict with the gke-metadata-server on GKE nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_legacy_lustre_port GoogleContainerCluster#enable_legacy_lustre_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_legacy_lustre_port GoogleContainerCluster#enable_legacy_lustre_port}
   */
   readonly enableLegacyLustrePort?: boolean | cdktn.IResolvable;
   /**
   * Whether the Lustre CSI driver is enabled for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -987,6 +994,7 @@ export function googleContainerClusterAddonsConfigLustreCsiDriverConfigToTerrafo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disable_multi_nic: cdktn.booleanToTerraform(struct!.disableMultiNic),
     enable_legacy_lustre_port: cdktn.booleanToTerraform(struct!.enableLegacyLustrePort),
     enabled: cdktn.booleanToTerraform(struct!.enabled),
   }
@@ -999,6 +1007,12 @@ export function googleContainerClusterAddonsConfigLustreCsiDriverConfigToHclTerr
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disable_multi_nic: {
+      value: cdktn.booleanToHclTerraform(struct!.disableMultiNic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     enable_legacy_lustre_port: {
       value: cdktn.booleanToHclTerraform(struct!.enableLegacyLustrePort),
       isBlock: false,
@@ -1031,6 +1045,10 @@ export class GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputRefere
   public get internalValue(): GoogleContainerClusterAddonsConfigLustreCsiDriverConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disableMultiNic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableMultiNic = this._disableMultiNic;
+    }
     if (this._enableLegacyLustrePort !== undefined) {
       hasAnyValues = true;
       internalValueResult.enableLegacyLustrePort = this._enableLegacyLustrePort;
@@ -1045,14 +1063,32 @@ export class GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputRefere
   public set internalValue(value: GoogleContainerClusterAddonsConfigLustreCsiDriverConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._disableMultiNic = undefined;
       this._enableLegacyLustrePort = undefined;
       this._enabled = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._disableMultiNic = value.disableMultiNic;
       this._enableLegacyLustrePort = value.enableLegacyLustrePort;
       this._enabled = value.enabled;
     }
+  }
+
+  // disable_multi_nic - computed: false, optional: true, required: false
+  private _disableMultiNic?: boolean | cdktn.IResolvable; 
+  public get disableMultiNic() {
+    return this.getBooleanAttribute('disable_multi_nic');
+  }
+  public set disableMultiNic(value: boolean | cdktn.IResolvable) {
+    this._disableMultiNic = value;
+  }
+  public resetDisableMultiNic() {
+    this._disableMultiNic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableMultiNicInput() {
+    return this._disableMultiNic;
   }
 
   // enable_legacy_lustre_port - computed: false, optional: true, required: false
@@ -1086,7 +1122,7 @@ export class GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputRefere
 }
 export interface GoogleContainerClusterAddonsConfigNetworkPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
 }
@@ -1167,7 +1203,7 @@ export class GoogleContainerClusterAddonsConfigNetworkPolicyConfigOutputReferenc
 }
 export interface GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1246,9 +1282,92 @@ export class GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutpu
     return this._enabled;
   }
 }
+export interface GoogleContainerClusterAddonsConfigPodSnapshotConfig {
+  /**
+  * Whether the Pod Snapshot feature is enabled for this cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  */
+  readonly enabled: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterAddonsConfigPodSnapshotConfigToTerraform(struct?: GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference | GoogleContainerClusterAddonsConfigPodSnapshotConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function googleContainerClusterAddonsConfigPodSnapshotConfigToHclTerraform(struct?: GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference | GoogleContainerClusterAddonsConfigPodSnapshotConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterAddonsConfigPodSnapshotConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterAddonsConfigPodSnapshotConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: false, required: true
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
 export interface GoogleContainerClusterAddonsConfigRayOperatorConfigRayClusterLoggingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1329,7 +1448,7 @@ export class GoogleContainerClusterAddonsConfigRayOperatorConfigRayClusterLoggin
 }
 export interface GoogleContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1410,19 +1529,19 @@ export class GoogleContainerClusterAddonsConfigRayOperatorConfigRayClusterMonito
 }
 export interface GoogleContainerClusterAddonsConfigRayOperatorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * ray_cluster_logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#ray_cluster_logging_config GoogleContainerCluster#ray_cluster_logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ray_cluster_logging_config GoogleContainerCluster#ray_cluster_logging_config}
   */
   readonly rayClusterLoggingConfig?: GoogleContainerClusterAddonsConfigRayOperatorConfigRayClusterLoggingConfig;
   /**
   * ray_cluster_monitoring_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#ray_cluster_monitoring_config GoogleContainerCluster#ray_cluster_monitoring_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ray_cluster_monitoring_config GoogleContainerCluster#ray_cluster_monitoring_config}
   */
   readonly rayClusterMonitoringConfig?: GoogleContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfig;
 }
@@ -1591,9 +1710,90 @@ export class GoogleContainerClusterAddonsConfigRayOperatorConfigList extends cdk
     return new GoogleContainerClusterAddonsConfigRayOperatorConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleContainerClusterAddonsConfigSliceControllerConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  */
+  readonly enabled: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterAddonsConfigSliceControllerConfigToTerraform(struct?: GoogleContainerClusterAddonsConfigSliceControllerConfigOutputReference | GoogleContainerClusterAddonsConfigSliceControllerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function googleContainerClusterAddonsConfigSliceControllerConfigToHclTerraform(struct?: GoogleContainerClusterAddonsConfigSliceControllerConfigOutputReference | GoogleContainerClusterAddonsConfigSliceControllerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterAddonsConfigSliceControllerConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterAddonsConfigSliceControllerConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterAddonsConfigSliceControllerConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: false, required: true
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
 export interface GoogleContainerClusterAddonsConfigStatefulHaConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1676,97 +1876,109 @@ export interface GoogleContainerClusterAddonsConfig {
   /**
   * cloudrun_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cloudrun_config GoogleContainerCluster#cloudrun_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cloudrun_config GoogleContainerCluster#cloudrun_config}
   */
   readonly cloudrunConfig?: GoogleContainerClusterAddonsConfigCloudrunConfig;
   /**
   * config_connector_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#config_connector_config GoogleContainerCluster#config_connector_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#config_connector_config GoogleContainerCluster#config_connector_config}
   */
   readonly configConnectorConfig?: GoogleContainerClusterAddonsConfigConfigConnectorConfig;
   /**
   * dns_cache_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#dns_cache_config GoogleContainerCluster#dns_cache_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#dns_cache_config GoogleContainerCluster#dns_cache_config}
   */
   readonly dnsCacheConfig?: GoogleContainerClusterAddonsConfigDnsCacheConfig;
   /**
   * gce_persistent_disk_csi_driver_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gce_persistent_disk_csi_driver_config GoogleContainerCluster#gce_persistent_disk_csi_driver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gce_persistent_disk_csi_driver_config GoogleContainerCluster#gce_persistent_disk_csi_driver_config}
   */
   readonly gcePersistentDiskCsiDriverConfig?: GoogleContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfig;
   /**
   * gcp_filestore_csi_driver_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gcp_filestore_csi_driver_config GoogleContainerCluster#gcp_filestore_csi_driver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcp_filestore_csi_driver_config GoogleContainerCluster#gcp_filestore_csi_driver_config}
   */
   readonly gcpFilestoreCsiDriverConfig?: GoogleContainerClusterAddonsConfigGcpFilestoreCsiDriverConfig;
   /**
   * gcs_fuse_csi_driver_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gcs_fuse_csi_driver_config GoogleContainerCluster#gcs_fuse_csi_driver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcs_fuse_csi_driver_config GoogleContainerCluster#gcs_fuse_csi_driver_config}
   */
   readonly gcsFuseCsiDriverConfig?: GoogleContainerClusterAddonsConfigGcsFuseCsiDriverConfig;
   /**
   * gke_backup_agent_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gke_backup_agent_config GoogleContainerCluster#gke_backup_agent_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gke_backup_agent_config GoogleContainerCluster#gke_backup_agent_config}
   */
   readonly gkeBackupAgentConfig?: GoogleContainerClusterAddonsConfigGkeBackupAgentConfig;
   /**
   * horizontal_pod_autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#horizontal_pod_autoscaling GoogleContainerCluster#horizontal_pod_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#horizontal_pod_autoscaling GoogleContainerCluster#horizontal_pod_autoscaling}
   */
   readonly horizontalPodAutoscaling?: GoogleContainerClusterAddonsConfigHorizontalPodAutoscaling;
   /**
   * http_load_balancing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#http_load_balancing GoogleContainerCluster#http_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#http_load_balancing GoogleContainerCluster#http_load_balancing}
   */
   readonly httpLoadBalancing?: GoogleContainerClusterAddonsConfigHttpLoadBalancing;
   /**
   * istio_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#istio_config GoogleContainerCluster#istio_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#istio_config GoogleContainerCluster#istio_config}
   */
   readonly istioConfig?: GoogleContainerClusterAddonsConfigIstioConfig;
   /**
   * kalm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#kalm_config GoogleContainerCluster#kalm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#kalm_config GoogleContainerCluster#kalm_config}
   */
   readonly kalmConfig?: GoogleContainerClusterAddonsConfigKalmConfig;
   /**
   * lustre_csi_driver_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#lustre_csi_driver_config GoogleContainerCluster#lustre_csi_driver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#lustre_csi_driver_config GoogleContainerCluster#lustre_csi_driver_config}
   */
   readonly lustreCsiDriverConfig?: GoogleContainerClusterAddonsConfigLustreCsiDriverConfig;
   /**
   * network_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#network_policy_config GoogleContainerCluster#network_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#network_policy_config GoogleContainerCluster#network_policy_config}
   */
   readonly networkPolicyConfig?: GoogleContainerClusterAddonsConfigNetworkPolicyConfig;
   /**
   * parallelstore_csi_driver_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#parallelstore_csi_driver_config GoogleContainerCluster#parallelstore_csi_driver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#parallelstore_csi_driver_config GoogleContainerCluster#parallelstore_csi_driver_config}
   */
   readonly parallelstoreCsiDriverConfig?: GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig;
   /**
+  * pod_snapshot_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pod_snapshot_config GoogleContainerCluster#pod_snapshot_config}
+  */
+  readonly podSnapshotConfig?: GoogleContainerClusterAddonsConfigPodSnapshotConfig;
+  /**
   * ray_operator_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#ray_operator_config GoogleContainerCluster#ray_operator_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ray_operator_config GoogleContainerCluster#ray_operator_config}
   */
   readonly rayOperatorConfig?: GoogleContainerClusterAddonsConfigRayOperatorConfig[] | cdktn.IResolvable;
   /**
+  * slice_controller_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#slice_controller_config GoogleContainerCluster#slice_controller_config}
+  */
+  readonly sliceControllerConfig?: GoogleContainerClusterAddonsConfigSliceControllerConfig;
+  /**
   * stateful_ha_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#stateful_ha_config GoogleContainerCluster#stateful_ha_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#stateful_ha_config GoogleContainerCluster#stateful_ha_config}
   */
   readonly statefulHaConfig?: GoogleContainerClusterAddonsConfigStatefulHaConfig;
 }
@@ -1791,7 +2003,9 @@ export function googleContainerClusterAddonsConfigToTerraform(struct?: GoogleCon
     lustre_csi_driver_config: googleContainerClusterAddonsConfigLustreCsiDriverConfigToTerraform(struct!.lustreCsiDriverConfig),
     network_policy_config: googleContainerClusterAddonsConfigNetworkPolicyConfigToTerraform(struct!.networkPolicyConfig),
     parallelstore_csi_driver_config: googleContainerClusterAddonsConfigParallelstoreCsiDriverConfigToTerraform(struct!.parallelstoreCsiDriverConfig),
+    pod_snapshot_config: googleContainerClusterAddonsConfigPodSnapshotConfigToTerraform(struct!.podSnapshotConfig),
     ray_operator_config: cdktn.listMapper(googleContainerClusterAddonsConfigRayOperatorConfigToTerraform, true)(struct!.rayOperatorConfig),
+    slice_controller_config: googleContainerClusterAddonsConfigSliceControllerConfigToTerraform(struct!.sliceControllerConfig),
     stateful_ha_config: googleContainerClusterAddonsConfigStatefulHaConfigToTerraform(struct!.statefulHaConfig),
   }
 }
@@ -1887,11 +2101,23 @@ export function googleContainerClusterAddonsConfigToHclTerraform(struct?: Google
       type: "list",
       storageClassType: "GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigList",
     },
+    pod_snapshot_config: {
+      value: googleContainerClusterAddonsConfigPodSnapshotConfigToHclTerraform(struct!.podSnapshotConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterAddonsConfigPodSnapshotConfigList",
+    },
     ray_operator_config: {
       value: cdktn.listMapperHcl(googleContainerClusterAddonsConfigRayOperatorConfigToHclTerraform, true)(struct!.rayOperatorConfig),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerClusterAddonsConfigRayOperatorConfigList",
+    },
+    slice_controller_config: {
+      value: googleContainerClusterAddonsConfigSliceControllerConfigToHclTerraform(struct!.sliceControllerConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterAddonsConfigSliceControllerConfigList",
     },
     stateful_ha_config: {
       value: googleContainerClusterAddonsConfigStatefulHaConfigToHclTerraform(struct!.statefulHaConfig),
@@ -1975,9 +2201,17 @@ export class GoogleContainerClusterAddonsConfigOutputReference extends cdktn.Com
       hasAnyValues = true;
       internalValueResult.parallelstoreCsiDriverConfig = this._parallelstoreCsiDriverConfig?.internalValue;
     }
+    if (this._podSnapshotConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.podSnapshotConfig = this._podSnapshotConfig?.internalValue;
+    }
     if (this._rayOperatorConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.rayOperatorConfig = this._rayOperatorConfig?.internalValue;
+    }
+    if (this._sliceControllerConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sliceControllerConfig = this._sliceControllerConfig?.internalValue;
     }
     if (this._statefulHaConfig?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -2003,7 +2237,9 @@ export class GoogleContainerClusterAddonsConfigOutputReference extends cdktn.Com
       this._lustreCsiDriverConfig.internalValue = undefined;
       this._networkPolicyConfig.internalValue = undefined;
       this._parallelstoreCsiDriverConfig.internalValue = undefined;
+      this._podSnapshotConfig.internalValue = undefined;
       this._rayOperatorConfig.internalValue = undefined;
+      this._sliceControllerConfig.internalValue = undefined;
       this._statefulHaConfig.internalValue = undefined;
     }
     else {
@@ -2022,7 +2258,9 @@ export class GoogleContainerClusterAddonsConfigOutputReference extends cdktn.Com
       this._lustreCsiDriverConfig.internalValue = value.lustreCsiDriverConfig;
       this._networkPolicyConfig.internalValue = value.networkPolicyConfig;
       this._parallelstoreCsiDriverConfig.internalValue = value.parallelstoreCsiDriverConfig;
+      this._podSnapshotConfig.internalValue = value.podSnapshotConfig;
       this._rayOperatorConfig.internalValue = value.rayOperatorConfig;
+      this._sliceControllerConfig.internalValue = value.sliceControllerConfig;
       this._statefulHaConfig.internalValue = value.statefulHaConfig;
     }
   }
@@ -2251,6 +2489,22 @@ export class GoogleContainerClusterAddonsConfigOutputReference extends cdktn.Com
     return this._parallelstoreCsiDriverConfig.internalValue;
   }
 
+  // pod_snapshot_config - computed: false, optional: true, required: false
+  private _podSnapshotConfig = new GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference(this, "pod_snapshot_config");
+  public get podSnapshotConfig() {
+    return this._podSnapshotConfig;
+  }
+  public putPodSnapshotConfig(value: GoogleContainerClusterAddonsConfigPodSnapshotConfig) {
+    this._podSnapshotConfig.internalValue = value;
+  }
+  public resetPodSnapshotConfig() {
+    this._podSnapshotConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get podSnapshotConfigInput() {
+    return this._podSnapshotConfig.internalValue;
+  }
+
   // ray_operator_config - computed: false, optional: true, required: false
   private _rayOperatorConfig = new GoogleContainerClusterAddonsConfigRayOperatorConfigList(this, "ray_operator_config", false);
   public get rayOperatorConfig() {
@@ -2265,6 +2519,22 @@ export class GoogleContainerClusterAddonsConfigOutputReference extends cdktn.Com
   // Temporarily expose input value. Use with caution.
   public get rayOperatorConfigInput() {
     return this._rayOperatorConfig.internalValue;
+  }
+
+  // slice_controller_config - computed: false, optional: true, required: false
+  private _sliceControllerConfig = new GoogleContainerClusterAddonsConfigSliceControllerConfigOutputReference(this, "slice_controller_config");
+  public get sliceControllerConfig() {
+    return this._sliceControllerConfig;
+  }
+  public putSliceControllerConfig(value: GoogleContainerClusterAddonsConfigSliceControllerConfig) {
+    this._sliceControllerConfig.internalValue = value;
+  }
+  public resetSliceControllerConfig() {
+    this._sliceControllerConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sliceControllerConfigInput() {
+    return this._sliceControllerConfig.internalValue;
   }
 
   // stateful_ha_config - computed: false, optional: true, required: false
@@ -2290,7 +2560,7 @@ export interface GoogleContainerClusterAnonymousAuthenticationConfig {
   * * ENABLED: Authentication of anonymous users is enabled for all endpoints.
   * * LIMITED: Anonymous access is only allowed for health check endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#mode GoogleContainerCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#mode GoogleContainerCluster#mode}
   */
   readonly mode: string;
 }
@@ -2373,7 +2643,7 @@ export interface GoogleContainerClusterAuthenticatorGroupsConfig {
   /**
   * The name of the RBAC security group for use with Google security groups in Kubernetes RBAC. Group name must be in format gke-security-groups@yourdomain.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#security_group GoogleContainerCluster#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#security_group GoogleContainerCluster#security_group}
   */
   readonly securityGroup: string;
 }
@@ -2452,17 +2722,208 @@ export class GoogleContainerClusterAuthenticatorGroupsConfigOutputReference exte
     return this._securityGroup;
   }
 }
+export interface GoogleContainerClusterAutopilotClusterPolicyConfig {
+  /**
+  * If true, prevents standard node pools and requires only autopilot node pools.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#no_standard_node_pools GoogleContainerCluster#no_standard_node_pools}
+  */
+  readonly noStandardNodePools?: boolean | cdktn.IResolvable;
+  /**
+  * If true, prevents impersonation and CSRs for GKE System users.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#no_system_impersonation GoogleContainerCluster#no_system_impersonation}
+  */
+  readonly noSystemImpersonation?: boolean | cdktn.IResolvable;
+  /**
+  * If true, prevents creation and mutation of resources in GKE managed namespaces and cluster-scoped GKE managed resources.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#no_system_mutation GoogleContainerCluster#no_system_mutation}
+  */
+  readonly noSystemMutation?: boolean | cdktn.IResolvable;
+  /**
+  * If true, unsafe webhooks are not allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#no_unsafe_webhooks GoogleContainerCluster#no_unsafe_webhooks}
+  */
+  readonly noUnsafeWebhooks?: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterAutopilotClusterPolicyConfigToTerraform(struct?: GoogleContainerClusterAutopilotClusterPolicyConfigOutputReference | GoogleContainerClusterAutopilotClusterPolicyConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    no_standard_node_pools: cdktn.booleanToTerraform(struct!.noStandardNodePools),
+    no_system_impersonation: cdktn.booleanToTerraform(struct!.noSystemImpersonation),
+    no_system_mutation: cdktn.booleanToTerraform(struct!.noSystemMutation),
+    no_unsafe_webhooks: cdktn.booleanToTerraform(struct!.noUnsafeWebhooks),
+  }
+}
+
+
+export function googleContainerClusterAutopilotClusterPolicyConfigToHclTerraform(struct?: GoogleContainerClusterAutopilotClusterPolicyConfigOutputReference | GoogleContainerClusterAutopilotClusterPolicyConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    no_standard_node_pools: {
+      value: cdktn.booleanToHclTerraform(struct!.noStandardNodePools),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    no_system_impersonation: {
+      value: cdktn.booleanToHclTerraform(struct!.noSystemImpersonation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    no_system_mutation: {
+      value: cdktn.booleanToHclTerraform(struct!.noSystemMutation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    no_unsafe_webhooks: {
+      value: cdktn.booleanToHclTerraform(struct!.noUnsafeWebhooks),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterAutopilotClusterPolicyConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterAutopilotClusterPolicyConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._noStandardNodePools !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noStandardNodePools = this._noStandardNodePools;
+    }
+    if (this._noSystemImpersonation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noSystemImpersonation = this._noSystemImpersonation;
+    }
+    if (this._noSystemMutation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noSystemMutation = this._noSystemMutation;
+    }
+    if (this._noUnsafeWebhooks !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noUnsafeWebhooks = this._noUnsafeWebhooks;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterAutopilotClusterPolicyConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._noStandardNodePools = undefined;
+      this._noSystemImpersonation = undefined;
+      this._noSystemMutation = undefined;
+      this._noUnsafeWebhooks = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._noStandardNodePools = value.noStandardNodePools;
+      this._noSystemImpersonation = value.noSystemImpersonation;
+      this._noSystemMutation = value.noSystemMutation;
+      this._noUnsafeWebhooks = value.noUnsafeWebhooks;
+    }
+  }
+
+  // no_standard_node_pools - computed: false, optional: true, required: false
+  private _noStandardNodePools?: boolean | cdktn.IResolvable; 
+  public get noStandardNodePools() {
+    return this.getBooleanAttribute('no_standard_node_pools');
+  }
+  public set noStandardNodePools(value: boolean | cdktn.IResolvable) {
+    this._noStandardNodePools = value;
+  }
+  public resetNoStandardNodePools() {
+    this._noStandardNodePools = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noStandardNodePoolsInput() {
+    return this._noStandardNodePools;
+  }
+
+  // no_system_impersonation - computed: false, optional: true, required: false
+  private _noSystemImpersonation?: boolean | cdktn.IResolvable; 
+  public get noSystemImpersonation() {
+    return this.getBooleanAttribute('no_system_impersonation');
+  }
+  public set noSystemImpersonation(value: boolean | cdktn.IResolvable) {
+    this._noSystemImpersonation = value;
+  }
+  public resetNoSystemImpersonation() {
+    this._noSystemImpersonation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noSystemImpersonationInput() {
+    return this._noSystemImpersonation;
+  }
+
+  // no_system_mutation - computed: false, optional: true, required: false
+  private _noSystemMutation?: boolean | cdktn.IResolvable; 
+  public get noSystemMutation() {
+    return this.getBooleanAttribute('no_system_mutation');
+  }
+  public set noSystemMutation(value: boolean | cdktn.IResolvable) {
+    this._noSystemMutation = value;
+  }
+  public resetNoSystemMutation() {
+    this._noSystemMutation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noSystemMutationInput() {
+    return this._noSystemMutation;
+  }
+
+  // no_unsafe_webhooks - computed: false, optional: true, required: false
+  private _noUnsafeWebhooks?: boolean | cdktn.IResolvable; 
+  public get noUnsafeWebhooks() {
+    return this.getBooleanAttribute('no_unsafe_webhooks');
+  }
+  public set noUnsafeWebhooks(value: boolean | cdktn.IResolvable) {
+    this._noUnsafeWebhooks = value;
+  }
+  public resetNoUnsafeWebhooks() {
+    this._noUnsafeWebhooks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noUnsafeWebhooksInput() {
+    return this._noUnsafeWebhooks;
+  }
+}
 export interface GoogleContainerClusterBinaryAuthorization {
   /**
   * Enable Binary Authorization for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Mode of operation for Binary Authorization policy evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#evaluation_mode GoogleContainerCluster#evaluation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#evaluation_mode GoogleContainerCluster#evaluation_mode}
   */
   readonly evaluationMode?: string;
 }
@@ -2657,13 +3118,13 @@ export interface GoogleContainerClusterClusterAutoscalingAutoProvisioningDefault
   /**
   * Specifies whether the node auto-repair is enabled for the node pool. If enabled, the nodes in this node pool will be monitored and, if they fail health checks too many times, an automatic repair action will be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auto_repair GoogleContainerCluster#auto_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#auto_repair GoogleContainerCluster#auto_repair}
   */
   readonly autoRepair?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether node auto-upgrade is enabled for the node pool. If enabled, node auto-upgrade helps keep the nodes in your node pool up to date with the latest release version of Kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auto_upgrade GoogleContainerCluster#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#auto_upgrade GoogleContainerCluster#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktn.IResolvable;
 }
@@ -2784,13 +3245,13 @@ export interface GoogleContainerClusterClusterAutoscalingAutoProvisioningDefault
   /**
   * Defines whether the instance has integrity monitoring enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_integrity_monitoring GoogleContainerCluster#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_integrity_monitoring GoogleContainerCluster#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Defines whether the instance has Secure Boot enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_secure_boot GoogleContainerCluster#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_secure_boot GoogleContainerCluster#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktn.IResolvable;
 }
@@ -2905,13 +3366,13 @@ export interface GoogleContainerClusterClusterAutoscalingAutoProvisioningDefault
   /**
   * Number of blue nodes to drain in a batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#batch_node_count GoogleContainerCluster#batch_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#batch_node_count GoogleContainerCluster#batch_node_count}
   */
   readonly batchNodeCount?: number;
   /**
   * Percentage of the bool pool nodes to drain in a batch. The range of this field should be (0.0, 1.0].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#batch_percentage GoogleContainerCluster#batch_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#batch_percentage GoogleContainerCluster#batch_percentage}
   */
   readonly batchPercentage?: number;
   /**
@@ -2919,7 +3380,7 @@ export interface GoogleContainerClusterClusterAutoscalingAutoProvisioningDefault
   * 
   * 																			A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#batch_soak_duration GoogleContainerCluster#batch_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#batch_soak_duration GoogleContainerCluster#batch_soak_duration}
   */
   readonly batchSoakDuration?: string;
 }
@@ -3065,13 +3526,13 @@ export interface GoogleContainerClusterClusterAutoscalingAutoProvisioningDefault
   * 
   * 																A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#node_pool_soak_duration GoogleContainerCluster#node_pool_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#node_pool_soak_duration GoogleContainerCluster#node_pool_soak_duration}
   */
   readonly nodePoolSoakDuration?: string;
   /**
   * standard_rollout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#standard_rollout_policy GoogleContainerCluster#standard_rollout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#standard_rollout_policy GoogleContainerCluster#standard_rollout_policy}
   */
   readonly standardRolloutPolicy?: GoogleContainerClusterClusterAutoscalingAutoProvisioningDefaultsUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy;
 }
@@ -3186,25 +3647,25 @@ export interface GoogleContainerClusterClusterAutoscalingAutoProvisioningDefault
   /**
   * The maximum number of nodes that can be created beyond the current size of the node pool during the upgrade process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_surge GoogleContainerCluster#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#max_surge GoogleContainerCluster#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * The maximum number of nodes that can be simultaneously unavailable during the upgrade process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_unavailable GoogleContainerCluster#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#max_unavailable GoogleContainerCluster#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * Update strategy of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#strategy GoogleContainerCluster#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#strategy GoogleContainerCluster#strategy}
   */
   readonly strategy?: string;
   /**
   * blue_green_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#blue_green_settings GoogleContainerCluster#blue_green_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#blue_green_settings GoogleContainerCluster#blue_green_settings}
   */
   readonly blueGreenSettings?: GoogleContainerClusterClusterAutoscalingAutoProvisioningDefaultsUpgradeSettingsBlueGreenSettings;
 }
@@ -3377,61 +3838,61 @@ export interface GoogleContainerClusterClusterAutoscalingAutoProvisioningDefault
   /**
   * The Customer Managed Encryption Key used to encrypt the boot disk attached to each node in the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#boot_disk_kms_key GoogleContainerCluster#boot_disk_kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#boot_disk_kms_key GoogleContainerCluster#boot_disk_kms_key}
   */
   readonly bootDiskKmsKey?: string;
   /**
   * Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disk_size GoogleContainerCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disk_size GoogleContainerCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Type of the disk attached to each node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disk_type GoogleContainerCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disk_type GoogleContainerCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * The default image type used by NAP once a new node pool is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#image_type GoogleContainerCluster#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#image_type GoogleContainerCluster#image_type}
   */
   readonly imageType?: string;
   /**
   * Minimum CPU platform to be used by this instance. The instance may be scheduled on the specified or newer CPU platform. Applicable values are the friendly names of CPU platforms, such as Intel Haswell.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#min_cpu_platform GoogleContainerCluster#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#min_cpu_platform GoogleContainerCluster#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * Scopes that are used by NAP when creating node pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#oauth_scopes GoogleContainerCluster#oauth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#oauth_scopes GoogleContainerCluster#oauth_scopes}
   */
   readonly oauthScopes?: string[];
   /**
   * The Google Cloud Platform Service Account to be used by the node VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#service_account GoogleContainerCluster#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#service_account GoogleContainerCluster#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#management GoogleContainerCluster#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#management GoogleContainerCluster#management}
   */
   readonly management?: GoogleContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagement;
   /**
   * shielded_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#shielded_instance_config GoogleContainerCluster#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#shielded_instance_config GoogleContainerCluster#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: GoogleContainerClusterClusterAutoscalingAutoProvisioningDefaultsShieldedInstanceConfig;
   /**
   * upgrade_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#upgrade_settings GoogleContainerCluster#upgrade_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#upgrade_settings GoogleContainerCluster#upgrade_settings}
   */
   readonly upgradeSettings?: GoogleContainerClusterClusterAutoscalingAutoProvisioningDefaultsUpgradeSettings;
 }
@@ -3778,19 +4239,19 @@ export interface GoogleContainerClusterClusterAutoscalingResourceLimits {
   /**
   * Maximum amount of the resource in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#maximum GoogleContainerCluster#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#maximum GoogleContainerCluster#maximum}
   */
   readonly maximum: number;
   /**
   * Minimum amount of the resource in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#minimum GoogleContainerCluster#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#minimum GoogleContainerCluster#minimum}
   */
   readonly minimum?: number;
   /**
   * The type of the resource. For example, cpu and memory. See the guide to using Node Auto-Provisioning for a list of types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#resource_type GoogleContainerCluster#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#resource_type GoogleContainerCluster#resource_type}
   */
   readonly resourceType: string;
 }
@@ -3960,31 +4421,37 @@ export interface GoogleContainerClusterClusterAutoscaling {
   /**
   * The list of Google Compute Engine zones in which the NodePool's nodes can be created by NAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auto_provisioning_locations GoogleContainerCluster#auto_provisioning_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#auto_provisioning_locations GoogleContainerCluster#auto_provisioning_locations}
   */
   readonly autoProvisioningLocations?: string[];
   /**
   * Configuration options for the Autoscaling profile feature, which lets you choose whether the cluster autoscaler should optimize for resource utilization or resource availability when deciding to remove nodes from a cluster. Can be BALANCED or OPTIMIZE_UTILIZATION. Defaults to BALANCED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#autoscaling_profile GoogleContainerCluster#autoscaling_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#autoscaling_profile GoogleContainerCluster#autoscaling_profile}
   */
   readonly autoscalingProfile?: string;
   /**
+  * Specifies whether default compute class behaviour is enabled. If enabled, cluster autoscaler will use Compute Class with name default for all the workloads, if not overriden.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#default_compute_class_enabled GoogleContainerCluster#default_compute_class_enabled}
+  */
+  readonly defaultComputeClassEnabled?: boolean | cdktn.IResolvable;
+  /**
   * Whether node auto-provisioning is enabled. Resource limits for cpu and memory must be defined to enable node auto-provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * auto_provisioning_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auto_provisioning_defaults GoogleContainerCluster#auto_provisioning_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#auto_provisioning_defaults GoogleContainerCluster#auto_provisioning_defaults}
   */
   readonly autoProvisioningDefaults?: GoogleContainerClusterClusterAutoscalingAutoProvisioningDefaults;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#resource_limits GoogleContainerCluster#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#resource_limits GoogleContainerCluster#resource_limits}
   */
   readonly resourceLimits?: GoogleContainerClusterClusterAutoscalingResourceLimits[] | cdktn.IResolvable;
 }
@@ -3997,6 +4464,7 @@ export function googleContainerClusterClusterAutoscalingToTerraform(struct?: Goo
   return {
     auto_provisioning_locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.autoProvisioningLocations),
     autoscaling_profile: cdktn.stringToTerraform(struct!.autoscalingProfile),
+    default_compute_class_enabled: cdktn.booleanToTerraform(struct!.defaultComputeClassEnabled),
     enabled: cdktn.booleanToTerraform(struct!.enabled),
     auto_provisioning_defaults: googleContainerClusterClusterAutoscalingAutoProvisioningDefaultsToTerraform(struct!.autoProvisioningDefaults),
     resource_limits: cdktn.listMapper(googleContainerClusterClusterAutoscalingResourceLimitsToTerraform, true)(struct!.resourceLimits),
@@ -4021,6 +4489,12 @@ export function googleContainerClusterClusterAutoscalingToHclTerraform(struct?: 
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    default_compute_class_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.defaultComputeClassEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     enabled: {
       value: cdktn.booleanToHclTerraform(struct!.enabled),
@@ -4068,6 +4542,10 @@ export class GoogleContainerClusterClusterAutoscalingOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.autoscalingProfile = this._autoscalingProfile;
     }
+    if (this._defaultComputeClassEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultComputeClassEnabled = this._defaultComputeClassEnabled;
+    }
     if (this._enabled !== undefined) {
       hasAnyValues = true;
       internalValueResult.enabled = this._enabled;
@@ -4088,6 +4566,7 @@ export class GoogleContainerClusterClusterAutoscalingOutputReference extends cdk
       this.isEmptyObject = false;
       this._autoProvisioningLocations = undefined;
       this._autoscalingProfile = undefined;
+      this._defaultComputeClassEnabled = undefined;
       this._enabled = undefined;
       this._autoProvisioningDefaults.internalValue = undefined;
       this._resourceLimits.internalValue = undefined;
@@ -4096,6 +4575,7 @@ export class GoogleContainerClusterClusterAutoscalingOutputReference extends cdk
       this.isEmptyObject = Object.keys(value).length === 0;
       this._autoProvisioningLocations = value.autoProvisioningLocations;
       this._autoscalingProfile = value.autoscalingProfile;
+      this._defaultComputeClassEnabled = value.defaultComputeClassEnabled;
       this._enabled = value.enabled;
       this._autoProvisioningDefaults.internalValue = value.autoProvisioningDefaults;
       this._resourceLimits.internalValue = value.resourceLimits;
@@ -4132,6 +4612,22 @@ export class GoogleContainerClusterClusterAutoscalingOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get autoscalingProfileInput() {
     return this._autoscalingProfile;
+  }
+
+  // default_compute_class_enabled - computed: false, optional: true, required: false
+  private _defaultComputeClassEnabled?: boolean | cdktn.IResolvable; 
+  public get defaultComputeClassEnabled() {
+    return this.getBooleanAttribute('default_compute_class_enabled');
+  }
+  public set defaultComputeClassEnabled(value: boolean | cdktn.IResolvable) {
+    this._defaultComputeClassEnabled = value;
+  }
+  public resetDefaultComputeClassEnabled() {
+    this._defaultComputeClassEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultComputeClassEnabledInput() {
+    return this._defaultComputeClassEnabled;
   }
 
   // enabled - computed: true, optional: true, required: false
@@ -4186,7 +4682,7 @@ export interface GoogleContainerClusterClusterTelemetry {
   /**
   * Type of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#type GoogleContainerCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#type GoogleContainerCluster#type}
   */
   readonly type: string;
 }
@@ -4269,13 +4765,13 @@ export interface GoogleContainerClusterConfidentialNodes {
   /**
   * Defines the type of technology used by the confidential node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#confidential_instance_type GoogleContainerCluster#confidential_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#confidential_instance_type GoogleContainerCluster#confidential_instance_type}
   */
   readonly confidentialInstanceType?: string;
   /**
   * Whether Confidential Nodes feature is enabled for all nodes in this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -4387,13 +4883,25 @@ export interface GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointCon
   /**
   * Controls whether user traffic is allowed over this endpoint. Note that GCP-managed services may still use the endpoint even if this is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#allow_external_traffic GoogleContainerCluster#allow_external_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#allow_external_traffic GoogleContainerCluster#allow_external_traffic}
   */
   readonly allowExternalTraffic?: boolean | cdktn.IResolvable;
   /**
+  * Controls whether the k8s certs auth is allowed via dns.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_k8s_certs_via_dns GoogleContainerCluster#enable_k8s_certs_via_dns}
+  */
+  readonly enableK8SCertsViaDns?: boolean | cdktn.IResolvable;
+  /**
+  * Controls whether the k8s token auth is allowed via dns.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_k8s_tokens_via_dns GoogleContainerCluster#enable_k8s_tokens_via_dns}
+  */
+  readonly enableK8STokensViaDns?: boolean | cdktn.IResolvable;
+  /**
   * The cluster's DNS endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#endpoint GoogleContainerCluster#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#endpoint GoogleContainerCluster#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -4405,6 +4913,8 @@ export function googleContainerClusterControlPlaneEndpointsConfigDnsEndpointConf
   }
   return {
     allow_external_traffic: cdktn.booleanToTerraform(struct!.allowExternalTraffic),
+    enable_k8s_certs_via_dns: cdktn.booleanToTerraform(struct!.enableK8SCertsViaDns),
+    enable_k8s_tokens_via_dns: cdktn.booleanToTerraform(struct!.enableK8STokensViaDns),
     endpoint: cdktn.stringToTerraform(struct!.endpoint),
   }
 }
@@ -4418,6 +4928,18 @@ export function googleContainerClusterControlPlaneEndpointsConfigDnsEndpointConf
   const attrs = {
     allow_external_traffic: {
       value: cdktn.booleanToHclTerraform(struct!.allowExternalTraffic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_k8s_certs_via_dns: {
+      value: cdktn.booleanToHclTerraform(struct!.enableK8SCertsViaDns),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_k8s_tokens_via_dns: {
+      value: cdktn.booleanToHclTerraform(struct!.enableK8STokensViaDns),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4452,6 +4974,14 @@ export class GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
       hasAnyValues = true;
       internalValueResult.allowExternalTraffic = this._allowExternalTraffic;
     }
+    if (this._enableK8SCertsViaDns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableK8SCertsViaDns = this._enableK8SCertsViaDns;
+    }
+    if (this._enableK8STokensViaDns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableK8STokensViaDns = this._enableK8STokensViaDns;
+    }
     if (this._endpoint !== undefined) {
       hasAnyValues = true;
       internalValueResult.endpoint = this._endpoint;
@@ -4463,11 +4993,15 @@ export class GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
     if (value === undefined) {
       this.isEmptyObject = false;
       this._allowExternalTraffic = undefined;
+      this._enableK8SCertsViaDns = undefined;
+      this._enableK8STokensViaDns = undefined;
       this._endpoint = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._allowExternalTraffic = value.allowExternalTraffic;
+      this._enableK8SCertsViaDns = value.enableK8SCertsViaDns;
+      this._enableK8STokensViaDns = value.enableK8STokensViaDns;
       this._endpoint = value.endpoint;
     }
   }
@@ -4486,6 +5020,38 @@ export class GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
   // Temporarily expose input value. Use with caution.
   public get allowExternalTrafficInput() {
     return this._allowExternalTraffic;
+  }
+
+  // enable_k8s_certs_via_dns - computed: false, optional: true, required: false
+  private _enableK8SCertsViaDns?: boolean | cdktn.IResolvable; 
+  public get enableK8SCertsViaDns() {
+    return this.getBooleanAttribute('enable_k8s_certs_via_dns');
+  }
+  public set enableK8SCertsViaDns(value: boolean | cdktn.IResolvable) {
+    this._enableK8SCertsViaDns = value;
+  }
+  public resetEnableK8SCertsViaDns() {
+    this._enableK8SCertsViaDns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableK8SCertsViaDnsInput() {
+    return this._enableK8SCertsViaDns;
+  }
+
+  // enable_k8s_tokens_via_dns - computed: false, optional: true, required: false
+  private _enableK8STokensViaDns?: boolean | cdktn.IResolvable; 
+  public get enableK8STokensViaDns() {
+    return this.getBooleanAttribute('enable_k8s_tokens_via_dns');
+  }
+  public set enableK8STokensViaDns(value: boolean | cdktn.IResolvable) {
+    this._enableK8STokensViaDns = value;
+  }
+  public resetEnableK8STokensViaDns() {
+    this._enableK8STokensViaDns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableK8STokensViaDnsInput() {
+    return this._enableK8STokensViaDns;
   }
 
   // endpoint - computed: true, optional: true, required: false
@@ -4508,7 +5074,7 @@ export interface GoogleContainerClusterControlPlaneEndpointsConfigIpEndpointsCon
   /**
   * Controls whether to allow direct IP access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -4594,13 +5160,13 @@ export interface GoogleContainerClusterControlPlaneEndpointsConfig {
   /**
   * dns_endpoint_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#dns_endpoint_config GoogleContainerCluster#dns_endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#dns_endpoint_config GoogleContainerCluster#dns_endpoint_config}
   */
   readonly dnsEndpointConfig?: GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfig;
   /**
   * ip_endpoints_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#ip_endpoints_config GoogleContainerCluster#ip_endpoints_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ip_endpoints_config GoogleContainerCluster#ip_endpoints_config}
   */
   readonly ipEndpointsConfig?: GoogleContainerClusterControlPlaneEndpointsConfigIpEndpointsConfig;
 }
@@ -4715,7 +5281,7 @@ export interface GoogleContainerClusterCostManagementConfig {
   /**
   * Whether to enable GKE cost allocation. When you enable GKE cost allocation, the cluster name and namespace of your GKE workloads appear in the labels field of the billing export to BigQuery. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -4798,13 +5364,13 @@ export interface GoogleContainerClusterDatabaseEncryption {
   /**
   * The key to use to encrypt/decrypt secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#key_name GoogleContainerCluster#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#key_name GoogleContainerCluster#key_name}
   */
   readonly keyName?: string;
   /**
-  * ENCRYPTED or DECRYPTED.
+  * ENCRYPTED, ALL_OBJECTS_ENCRYPTION_ENABLED or DECRYPTED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#state GoogleContainerCluster#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#state GoogleContainerCluster#state}
   */
   readonly state: string;
 }
@@ -4916,7 +5482,7 @@ export interface GoogleContainerClusterDefaultSnatStatus {
   /**
   * When disabled is set to false, default IP masquerade rules will be applied to the nodes to prevent sNAT on cluster internal traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
 }
@@ -4999,25 +5565,25 @@ export interface GoogleContainerClusterDnsConfig {
   /**
   * Enable additive VPC scope DNS in a GKE cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#additive_vpc_scope_dns_domain GoogleContainerCluster#additive_vpc_scope_dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#additive_vpc_scope_dns_domain GoogleContainerCluster#additive_vpc_scope_dns_domain}
   */
   readonly additiveVpcScopeDnsDomain?: string;
   /**
   * Which in-cluster DNS provider should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cluster_dns GoogleContainerCluster#cluster_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cluster_dns GoogleContainerCluster#cluster_dns}
   */
   readonly clusterDns?: string;
   /**
   * The suffix used for all cluster service records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cluster_dns_domain GoogleContainerCluster#cluster_dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cluster_dns_domain GoogleContainerCluster#cluster_dns_domain}
   */
   readonly clusterDnsDomain?: string;
   /**
   * The scope of access to cluster DNS records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cluster_dns_scope GoogleContainerCluster#cluster_dns_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cluster_dns_scope GoogleContainerCluster#cluster_dns_scope}
   */
   readonly clusterDnsScope?: string;
 }
@@ -5190,7 +5756,7 @@ export interface GoogleContainerClusterEnableK8SBetaApis {
   /**
   * Enabled Kubernetes Beta APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled_apis GoogleContainerCluster#enabled_apis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled_apis GoogleContainerCluster#enabled_apis}
   */
   readonly enabledApis: string[];
 }
@@ -5273,7 +5839,7 @@ export interface GoogleContainerClusterEnterpriseConfig {
   /**
   * Indicates the desired cluster tier. Available options include STANDARD and ENTERPRISE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#desired_tier GoogleContainerCluster#desired_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#desired_tier GoogleContainerCluster#desired_tier}
   */
   readonly desiredTier?: string;
 }
@@ -5362,9 +5928,15 @@ export class GoogleContainerClusterEnterpriseConfigOutputReference extends cdktn
 }
 export interface GoogleContainerClusterFleet {
   /**
+  * The type of the cluster's fleet membership.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#membership_type GoogleContainerCluster#membership_type}
+  */
+  readonly membershipType?: string;
+  /**
   * The Fleet host project of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#project GoogleContainerCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#project GoogleContainerCluster#project}
   */
   readonly project?: string;
 }
@@ -5375,6 +5947,7 @@ export function googleContainerClusterFleetToTerraform(struct?: GoogleContainerC
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    membership_type: cdktn.stringToTerraform(struct!.membershipType),
     project: cdktn.stringToTerraform(struct!.project),
   }
 }
@@ -5386,6 +5959,12 @@ export function googleContainerClusterFleetToHclTerraform(struct?: GoogleContain
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    membership_type: {
+      value: cdktn.stringToHclTerraform(struct!.membershipType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     project: {
       value: cdktn.stringToHclTerraform(struct!.project),
       isBlock: false,
@@ -5412,6 +5991,10 @@ export class GoogleContainerClusterFleetOutputReference extends cdktn.ComplexObj
   public get internalValue(): GoogleContainerClusterFleet | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._membershipType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.membershipType = this._membershipType;
+    }
     if (this._project !== undefined) {
       hasAnyValues = true;
       internalValueResult.project = this._project;
@@ -5422,10 +6005,12 @@ export class GoogleContainerClusterFleetOutputReference extends cdktn.ComplexObj
   public set internalValue(value: GoogleContainerClusterFleet | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._membershipType = undefined;
       this._project = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._membershipType = value.membershipType;
       this._project = value.project;
     }
   }
@@ -5443,6 +6028,22 @@ export class GoogleContainerClusterFleetOutputReference extends cdktn.ComplexObj
   // membership_location - computed: true, optional: false, required: false
   public get membershipLocation() {
     return this.getStringAttribute('membership_location');
+  }
+
+  // membership_type - computed: false, optional: true, required: false
+  private _membershipType?: string; 
+  public get membershipType() {
+    return this.getStringAttribute('membership_type');
+  }
+  public set membershipType(value: string) {
+    this._membershipType = value;
+  }
+  public resetMembershipType() {
+    this._membershipType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get membershipTypeInput() {
+    return this._membershipType;
   }
 
   // pre_registered - computed: true, optional: false, required: false
@@ -5470,7 +6071,7 @@ export interface GoogleContainerClusterGatewayApiConfig {
   /**
   * The Gateway API release channel to use for Gateway API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#channel GoogleContainerCluster#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#channel GoogleContainerCluster#channel}
   */
   readonly channel: string;
 }
@@ -5554,7 +6155,7 @@ export interface GoogleContainerClusterGkeAutoUpgradeConfig {
   * The selected auto-upgrade patch type. Accepted values are:
   * * ACCELERATED: Upgrades to the latest available patch version in a given minor and release channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#patch_mode GoogleContainerCluster#patch_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#patch_mode GoogleContainerCluster#patch_mode}
   */
   readonly patchMode: string;
 }
@@ -5637,7 +6238,7 @@ export interface GoogleContainerClusterIdentityServiceConfig {
   /**
   * Whether to enable the Identity Service component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -5723,13 +6324,19 @@ export interface GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfi
   /**
   * List of secondary ranges names within this subnetwork that can be used for pod IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pod_ipv4_range_names GoogleContainerCluster#pod_ipv4_range_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pod_ipv4_range_names GoogleContainerCluster#pod_ipv4_range_names}
   */
   readonly podIpv4RangeNames?: string[];
   /**
+  * Status of the subnetwork, If in draining status, subnet will not be selected for new node pools.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#status GoogleContainerCluster#status}
+  */
+  readonly status?: string;
+  /**
   * Name of the subnetwork. This can be the full path of the subnetwork or just the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#subnetwork GoogleContainerCluster#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#subnetwork GoogleContainerCluster#subnetwork}
   */
   readonly subnetwork: string;
 }
@@ -5741,6 +6348,7 @@ export function googleContainerClusterIpAllocationPolicyAdditionalIpRangesConfig
   }
   return {
     pod_ipv4_range_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.podIpv4RangeNames),
+    status: cdktn.stringToTerraform(struct!.status),
     subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
   }
 }
@@ -5757,6 +6365,12 @@ export function googleContainerClusterIpAllocationPolicyAdditionalIpRangesConfig
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    status: {
+      value: cdktn.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     subnetwork: {
       value: cdktn.stringToHclTerraform(struct!.subnetwork),
@@ -5794,6 +6408,10 @@ export class GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOut
       hasAnyValues = true;
       internalValueResult.podIpv4RangeNames = this._podIpv4RangeNames;
     }
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
     if (this._subnetwork !== undefined) {
       hasAnyValues = true;
       internalValueResult.subnetwork = this._subnetwork;
@@ -5806,6 +6424,7 @@ export class GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOut
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._podIpv4RangeNames = undefined;
+      this._status = undefined;
       this._subnetwork = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -5816,6 +6435,7 @@ export class GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOut
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._podIpv4RangeNames = value.podIpv4RangeNames;
+      this._status = value.status;
       this._subnetwork = value.subnetwork;
     }
   }
@@ -5834,6 +6454,22 @@ export class GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOut
   // Temporarily expose input value. Use with caution.
   public get podIpv4RangeNamesInput() {
     return this._podIpv4RangeNames;
+  }
+
+  // status - computed: false, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
   }
 
   // subnetwork - computed: false, optional: false, required: true
@@ -5873,7 +6509,7 @@ export interface GoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConf
   /**
   * Name for pod secondary ipv4 range which has the actual range defined ahead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pod_range_names GoogleContainerCluster#pod_range_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pod_range_names GoogleContainerCluster#pod_range_names}
   */
   readonly podRangeNames: string[];
 }
@@ -5952,9 +6588,175 @@ export class GoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConfigOu
     return this._podRangeNames;
   }
 }
+export interface GoogleContainerClusterIpAllocationPolicyAutoIpamConfig {
+  /**
+  * The flag that enables Auto IPAM on this cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  */
+  readonly enabled: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterIpAllocationPolicyAutoIpamConfigToTerraform(struct?: GoogleContainerClusterIpAllocationPolicyAutoIpamConfigOutputReference | GoogleContainerClusterIpAllocationPolicyAutoIpamConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function googleContainerClusterIpAllocationPolicyAutoIpamConfigToHclTerraform(struct?: GoogleContainerClusterIpAllocationPolicyAutoIpamConfigOutputReference | GoogleContainerClusterIpAllocationPolicyAutoIpamConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterIpAllocationPolicyAutoIpamConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterIpAllocationPolicyAutoIpamConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterIpAllocationPolicyAutoIpamConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: false, required: true
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
+export interface GoogleContainerClusterIpAllocationPolicyNetworkTierConfig {
+  /**
+  * Network tier configuration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#network_tier GoogleContainerCluster#network_tier}
+  */
+  readonly networkTier: string;
+}
+
+export function googleContainerClusterIpAllocationPolicyNetworkTierConfigToTerraform(struct?: GoogleContainerClusterIpAllocationPolicyNetworkTierConfigOutputReference | GoogleContainerClusterIpAllocationPolicyNetworkTierConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    network_tier: cdktn.stringToTerraform(struct!.networkTier),
+  }
+}
+
+
+export function googleContainerClusterIpAllocationPolicyNetworkTierConfigToHclTerraform(struct?: GoogleContainerClusterIpAllocationPolicyNetworkTierConfigOutputReference | GoogleContainerClusterIpAllocationPolicyNetworkTierConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    network_tier: {
+      value: cdktn.stringToHclTerraform(struct!.networkTier),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterIpAllocationPolicyNetworkTierConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterIpAllocationPolicyNetworkTierConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._networkTier !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkTier = this._networkTier;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterIpAllocationPolicyNetworkTierConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._networkTier = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._networkTier = value.networkTier;
+    }
+  }
+
+  // network_tier - computed: false, optional: false, required: true
+  private _networkTier?: string; 
+  public get networkTier() {
+    return this.getStringAttribute('network_tier');
+  }
+  public set networkTier(value: string) {
+    this._networkTier = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkTierInput() {
+    return this._networkTier;
+  }
+}
 export interface GoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
 }
@@ -6037,49 +6839,61 @@ export interface GoogleContainerClusterIpAllocationPolicy {
   /**
   * The IP address range for the cluster pod IPs. Set to blank to have a range chosen with the default size. Set to /netmask (e.g. /14) to have a range chosen with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) from the RFC-1918 private networks (e.g. 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) to pick a specific range to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cluster_ipv4_cidr_block GoogleContainerCluster#cluster_ipv4_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cluster_ipv4_cidr_block GoogleContainerCluster#cluster_ipv4_cidr_block}
   */
   readonly clusterIpv4CidrBlock?: string;
   /**
   * The name of the existing secondary range in the cluster's subnetwork to use for pod IP addresses. Alternatively, cluster_ipv4_cidr_block can be used to automatically create a GKE-managed one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cluster_secondary_range_name GoogleContainerCluster#cluster_secondary_range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cluster_secondary_range_name GoogleContainerCluster#cluster_secondary_range_name}
   */
   readonly clusterSecondaryRangeName?: string;
   /**
   * The IP address range of the services IPs in this cluster. Set to blank to have a range chosen with the default size. Set to /netmask (e.g. /14) to have a range chosen with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) from the RFC-1918 private networks (e.g. 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) to pick a specific range to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#services_ipv4_cidr_block GoogleContainerCluster#services_ipv4_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#services_ipv4_cidr_block GoogleContainerCluster#services_ipv4_cidr_block}
   */
   readonly servicesIpv4CidrBlock?: string;
   /**
   * The name of the existing secondary range in the cluster's subnetwork to use for service ClusterIPs. Alternatively, services_ipv4_cidr_block can be used to automatically create a GKE-managed one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#services_secondary_range_name GoogleContainerCluster#services_secondary_range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#services_secondary_range_name GoogleContainerCluster#services_secondary_range_name}
   */
   readonly servicesSecondaryRangeName?: string;
   /**
   * The IP Stack type of the cluster. Choose between IPV4 and IPV4_IPV6. Default type is IPV4 Only if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#stack_type GoogleContainerCluster#stack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#stack_type GoogleContainerCluster#stack_type}
   */
   readonly stackType?: string;
   /**
   * additional_ip_ranges_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#additional_ip_ranges_config GoogleContainerCluster#additional_ip_ranges_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#additional_ip_ranges_config GoogleContainerCluster#additional_ip_ranges_config}
   */
   readonly additionalIpRangesConfig?: GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfig[] | cdktn.IResolvable;
   /**
   * additional_pod_ranges_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#additional_pod_ranges_config GoogleContainerCluster#additional_pod_ranges_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#additional_pod_ranges_config GoogleContainerCluster#additional_pod_ranges_config}
   */
   readonly additionalPodRangesConfig?: GoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConfig;
   /**
+  * auto_ipam_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#auto_ipam_config GoogleContainerCluster#auto_ipam_config}
+  */
+  readonly autoIpamConfig?: GoogleContainerClusterIpAllocationPolicyAutoIpamConfig;
+  /**
+  * network_tier_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#network_tier_config GoogleContainerCluster#network_tier_config}
+  */
+  readonly networkTierConfig?: GoogleContainerClusterIpAllocationPolicyNetworkTierConfig;
+  /**
   * pod_cidr_overprovision_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pod_cidr_overprovision_config GoogleContainerCluster#pod_cidr_overprovision_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pod_cidr_overprovision_config GoogleContainerCluster#pod_cidr_overprovision_config}
   */
   readonly podCidrOverprovisionConfig?: GoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfig;
 }
@@ -6097,6 +6911,8 @@ export function googleContainerClusterIpAllocationPolicyToTerraform(struct?: Goo
     stack_type: cdktn.stringToTerraform(struct!.stackType),
     additional_ip_ranges_config: cdktn.listMapper(googleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigToTerraform, true)(struct!.additionalIpRangesConfig),
     additional_pod_ranges_config: googleContainerClusterIpAllocationPolicyAdditionalPodRangesConfigToTerraform(struct!.additionalPodRangesConfig),
+    auto_ipam_config: googleContainerClusterIpAllocationPolicyAutoIpamConfigToTerraform(struct!.autoIpamConfig),
+    network_tier_config: googleContainerClusterIpAllocationPolicyNetworkTierConfigToTerraform(struct!.networkTierConfig),
     pod_cidr_overprovision_config: googleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfigToTerraform(struct!.podCidrOverprovisionConfig),
   }
 }
@@ -6149,6 +6965,18 @@ export function googleContainerClusterIpAllocationPolicyToHclTerraform(struct?: 
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConfigList",
+    },
+    auto_ipam_config: {
+      value: googleContainerClusterIpAllocationPolicyAutoIpamConfigToHclTerraform(struct!.autoIpamConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterIpAllocationPolicyAutoIpamConfigList",
+    },
+    network_tier_config: {
+      value: googleContainerClusterIpAllocationPolicyNetworkTierConfigToHclTerraform(struct!.networkTierConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterIpAllocationPolicyNetworkTierConfigList",
     },
     pod_cidr_overprovision_config: {
       value: googleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfigToHclTerraform(struct!.podCidrOverprovisionConfig),
@@ -6204,6 +7032,14 @@ export class GoogleContainerClusterIpAllocationPolicyOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.additionalPodRangesConfig = this._additionalPodRangesConfig?.internalValue;
     }
+    if (this._autoIpamConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoIpamConfig = this._autoIpamConfig?.internalValue;
+    }
+    if (this._networkTierConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkTierConfig = this._networkTierConfig?.internalValue;
+    }
     if (this._podCidrOverprovisionConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.podCidrOverprovisionConfig = this._podCidrOverprovisionConfig?.internalValue;
@@ -6221,6 +7057,8 @@ export class GoogleContainerClusterIpAllocationPolicyOutputReference extends cdk
       this._stackType = undefined;
       this._additionalIpRangesConfig.internalValue = undefined;
       this._additionalPodRangesConfig.internalValue = undefined;
+      this._autoIpamConfig.internalValue = undefined;
+      this._networkTierConfig.internalValue = undefined;
       this._podCidrOverprovisionConfig.internalValue = undefined;
     }
     else {
@@ -6232,6 +7070,8 @@ export class GoogleContainerClusterIpAllocationPolicyOutputReference extends cdk
       this._stackType = value.stackType;
       this._additionalIpRangesConfig.internalValue = value.additionalIpRangesConfig;
       this._additionalPodRangesConfig.internalValue = value.additionalPodRangesConfig;
+      this._autoIpamConfig.internalValue = value.autoIpamConfig;
+      this._networkTierConfig.internalValue = value.networkTierConfig;
       this._podCidrOverprovisionConfig.internalValue = value.podCidrOverprovisionConfig;
     }
   }
@@ -6348,6 +7188,38 @@ export class GoogleContainerClusterIpAllocationPolicyOutputReference extends cdk
     return this._additionalPodRangesConfig.internalValue;
   }
 
+  // auto_ipam_config - computed: false, optional: true, required: false
+  private _autoIpamConfig = new GoogleContainerClusterIpAllocationPolicyAutoIpamConfigOutputReference(this, "auto_ipam_config");
+  public get autoIpamConfig() {
+    return this._autoIpamConfig;
+  }
+  public putAutoIpamConfig(value: GoogleContainerClusterIpAllocationPolicyAutoIpamConfig) {
+    this._autoIpamConfig.internalValue = value;
+  }
+  public resetAutoIpamConfig() {
+    this._autoIpamConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoIpamConfigInput() {
+    return this._autoIpamConfig.internalValue;
+  }
+
+  // network_tier_config - computed: false, optional: true, required: false
+  private _networkTierConfig = new GoogleContainerClusterIpAllocationPolicyNetworkTierConfigOutputReference(this, "network_tier_config");
+  public get networkTierConfig() {
+    return this._networkTierConfig;
+  }
+  public putNetworkTierConfig(value: GoogleContainerClusterIpAllocationPolicyNetworkTierConfig) {
+    this._networkTierConfig.internalValue = value;
+  }
+  public resetNetworkTierConfig() {
+    this._networkTierConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkTierConfigInput() {
+    return this._networkTierConfig.internalValue;
+  }
+
   // pod_cidr_overprovision_config - computed: false, optional: true, required: false
   private _podCidrOverprovisionConfig = new GoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfigOutputReference(this, "pod_cidr_overprovision_config");
   public get podCidrOverprovisionConfig() {
@@ -6368,7 +7240,7 @@ export interface GoogleContainerClusterLoggingConfig {
   /**
   * GKE components exposing logs. Valid values include SYSTEM_COMPONENTS, APISERVER, CONTROLLER_MANAGER, KCP_CONNECTION, KCP_SSHD, KCP_HPA, SCHEDULER, and WORKLOADS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_components GoogleContainerCluster#enable_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_components GoogleContainerCluster#enable_components}
   */
   readonly enableComponents: string[];
 }
@@ -6449,7 +7321,7 @@ export class GoogleContainerClusterLoggingConfigOutputReference extends cdktn.Co
 }
 export interface GoogleContainerClusterMaintenancePolicyDailyMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#start_time GoogleContainerCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#start_time GoogleContainerCluster#start_time}
   */
   readonly startTime: string;
 }
@@ -6533,11 +7405,144 @@ export class GoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowOutput
     return this._startTime;
   }
 }
+export interface GoogleContainerClusterMaintenancePolicyDisruptionBudget {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#minor_version_disruption_interval GoogleContainerCluster#minor_version_disruption_interval}
+  */
+  readonly minorVersionDisruptionInterval?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#patch_version_disruption_interval GoogleContainerCluster#patch_version_disruption_interval}
+  */
+  readonly patchVersionDisruptionInterval?: string;
+}
+
+export function googleContainerClusterMaintenancePolicyDisruptionBudgetToTerraform(struct?: GoogleContainerClusterMaintenancePolicyDisruptionBudgetOutputReference | GoogleContainerClusterMaintenancePolicyDisruptionBudget): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    minor_version_disruption_interval: cdktn.stringToTerraform(struct!.minorVersionDisruptionInterval),
+    patch_version_disruption_interval: cdktn.stringToTerraform(struct!.patchVersionDisruptionInterval),
+  }
+}
+
+
+export function googleContainerClusterMaintenancePolicyDisruptionBudgetToHclTerraform(struct?: GoogleContainerClusterMaintenancePolicyDisruptionBudgetOutputReference | GoogleContainerClusterMaintenancePolicyDisruptionBudget): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    minor_version_disruption_interval: {
+      value: cdktn.stringToHclTerraform(struct!.minorVersionDisruptionInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    patch_version_disruption_interval: {
+      value: cdktn.stringToHclTerraform(struct!.patchVersionDisruptionInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterMaintenancePolicyDisruptionBudgetOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterMaintenancePolicyDisruptionBudget | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._minorVersionDisruptionInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minorVersionDisruptionInterval = this._minorVersionDisruptionInterval;
+    }
+    if (this._patchVersionDisruptionInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.patchVersionDisruptionInterval = this._patchVersionDisruptionInterval;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterMaintenancePolicyDisruptionBudget | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._minorVersionDisruptionInterval = undefined;
+      this._patchVersionDisruptionInterval = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._minorVersionDisruptionInterval = value.minorVersionDisruptionInterval;
+      this._patchVersionDisruptionInterval = value.patchVersionDisruptionInterval;
+    }
+  }
+
+  // last_disruption_time - computed: true, optional: false, required: false
+  public get lastDisruptionTime() {
+    return this.getStringAttribute('last_disruption_time');
+  }
+
+  // last_minor_version_disruption_time - computed: true, optional: false, required: false
+  public get lastMinorVersionDisruptionTime() {
+    return this.getStringAttribute('last_minor_version_disruption_time');
+  }
+
+  // minor_version_disruption_interval - computed: false, optional: true, required: false
+  private _minorVersionDisruptionInterval?: string; 
+  public get minorVersionDisruptionInterval() {
+    return this.getStringAttribute('minor_version_disruption_interval');
+  }
+  public set minorVersionDisruptionInterval(value: string) {
+    this._minorVersionDisruptionInterval = value;
+  }
+  public resetMinorVersionDisruptionInterval() {
+    this._minorVersionDisruptionInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minorVersionDisruptionIntervalInput() {
+    return this._minorVersionDisruptionInterval;
+  }
+
+  // patch_version_disruption_interval - computed: false, optional: true, required: false
+  private _patchVersionDisruptionInterval?: string; 
+  public get patchVersionDisruptionInterval() {
+    return this.getStringAttribute('patch_version_disruption_interval');
+  }
+  public set patchVersionDisruptionInterval(value: string) {
+    this._patchVersionDisruptionInterval = value;
+  }
+  public resetPatchVersionDisruptionInterval() {
+    this._patchVersionDisruptionInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patchVersionDisruptionIntervalInput() {
+    return this._patchVersionDisruptionInterval;
+  }
+}
 export interface GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions {
+  /**
+  * The behavior of the exclusion end time.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#end_time_behavior GoogleContainerCluster#end_time_behavior}
+  */
+  readonly endTimeBehavior?: string;
   /**
   * The scope of automatic upgrades to restrict in the exclusion window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#scope GoogleContainerCluster#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#scope GoogleContainerCluster#scope}
   */
   readonly scope: string;
 }
@@ -6548,6 +7553,7 @@ export function googleContainerClusterMaintenancePolicyMaintenanceExclusionExclu
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    end_time_behavior: cdktn.stringToTerraform(struct!.endTimeBehavior),
     scope: cdktn.stringToTerraform(struct!.scope),
   }
 }
@@ -6559,6 +7565,12 @@ export function googleContainerClusterMaintenancePolicyMaintenanceExclusionExclu
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    end_time_behavior: {
+      value: cdktn.stringToHclTerraform(struct!.endTimeBehavior),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     scope: {
       value: cdktn.stringToHclTerraform(struct!.scope),
       isBlock: false,
@@ -6585,6 +7597,10 @@ export class GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusio
   public get internalValue(): GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._endTimeBehavior !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endTimeBehavior = this._endTimeBehavior;
+    }
     if (this._scope !== undefined) {
       hasAnyValues = true;
       internalValueResult.scope = this._scope;
@@ -6595,12 +7611,30 @@ export class GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusio
   public set internalValue(value: GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._endTimeBehavior = undefined;
       this._scope = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._endTimeBehavior = value.endTimeBehavior;
       this._scope = value.scope;
     }
+  }
+
+  // end_time_behavior - computed: false, optional: true, required: false
+  private _endTimeBehavior?: string; 
+  public get endTimeBehavior() {
+    return this.getStringAttribute('end_time_behavior');
+  }
+  public set endTimeBehavior(value: string) {
+    this._endTimeBehavior = value;
+  }
+  public resetEndTimeBehavior() {
+    this._endTimeBehavior = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endTimeBehaviorInput() {
+    return this._endTimeBehavior;
   }
 
   // scope - computed: false, optional: false, required: true
@@ -6618,21 +7652,21 @@ export class GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusio
 }
 export interface GoogleContainerClusterMaintenancePolicyMaintenanceExclusion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#end_time GoogleContainerCluster#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#end_time GoogleContainerCluster#end_time}
   */
-  readonly endTime: string;
+  readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#exclusion_name GoogleContainerCluster#exclusion_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#exclusion_name GoogleContainerCluster#exclusion_name}
   */
   readonly exclusionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#start_time GoogleContainerCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#start_time GoogleContainerCluster#start_time}
   */
   readonly startTime: string;
   /**
   * exclusion_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#exclusion_options GoogleContainerCluster#exclusion_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#exclusion_options GoogleContainerCluster#exclusion_options}
   */
   readonly exclusionOptions?: GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions;
 }
@@ -6749,13 +7783,16 @@ export class GoogleContainerClusterMaintenancePolicyMaintenanceExclusionOutputRe
     }
   }
 
-  // end_time - computed: false, optional: false, required: true
+  // end_time - computed: false, optional: true, required: false
   private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
   public set endTime(value: string) {
     this._endTime = value;
+  }
+  public resetEndTime() {
+    this._endTime = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get endTimeInput() {
@@ -6826,15 +7863,15 @@ export class GoogleContainerClusterMaintenancePolicyMaintenanceExclusionList ext
 }
 export interface GoogleContainerClusterMaintenancePolicyRecurringWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#end_time GoogleContainerCluster#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#end_time GoogleContainerCluster#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#recurrence GoogleContainerCluster#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#recurrence GoogleContainerCluster#recurrence}
   */
   readonly recurrence: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#start_time GoogleContainerCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#start_time GoogleContainerCluster#start_time}
   */
   readonly startTime: string;
 }
@@ -6969,19 +8006,25 @@ export interface GoogleContainerClusterMaintenancePolicy {
   /**
   * daily_maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#daily_maintenance_window GoogleContainerCluster#daily_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#daily_maintenance_window GoogleContainerCluster#daily_maintenance_window}
   */
   readonly dailyMaintenanceWindow?: GoogleContainerClusterMaintenancePolicyDailyMaintenanceWindow;
   /**
+  * disruption_budget block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disruption_budget GoogleContainerCluster#disruption_budget}
+  */
+  readonly disruptionBudget?: GoogleContainerClusterMaintenancePolicyDisruptionBudget;
+  /**
   * maintenance_exclusion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#maintenance_exclusion GoogleContainerCluster#maintenance_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#maintenance_exclusion GoogleContainerCluster#maintenance_exclusion}
   */
   readonly maintenanceExclusion?: GoogleContainerClusterMaintenancePolicyMaintenanceExclusion[] | cdktn.IResolvable;
   /**
   * recurring_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#recurring_window GoogleContainerCluster#recurring_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#recurring_window GoogleContainerCluster#recurring_window}
   */
   readonly recurringWindow?: GoogleContainerClusterMaintenancePolicyRecurringWindow;
 }
@@ -6993,6 +8036,7 @@ export function googleContainerClusterMaintenancePolicyToTerraform(struct?: Goog
   }
   return {
     daily_maintenance_window: googleContainerClusterMaintenancePolicyDailyMaintenanceWindowToTerraform(struct!.dailyMaintenanceWindow),
+    disruption_budget: googleContainerClusterMaintenancePolicyDisruptionBudgetToTerraform(struct!.disruptionBudget),
     maintenance_exclusion: cdktn.listMapper(googleContainerClusterMaintenancePolicyMaintenanceExclusionToTerraform, true)(struct!.maintenanceExclusion),
     recurring_window: googleContainerClusterMaintenancePolicyRecurringWindowToTerraform(struct!.recurringWindow),
   }
@@ -7010,6 +8054,12 @@ export function googleContainerClusterMaintenancePolicyToHclTerraform(struct?: G
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowList",
+    },
+    disruption_budget: {
+      value: googleContainerClusterMaintenancePolicyDisruptionBudgetToHclTerraform(struct!.disruptionBudget),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterMaintenancePolicyDisruptionBudgetList",
     },
     maintenance_exclusion: {
       value: cdktn.listMapperHcl(googleContainerClusterMaintenancePolicyMaintenanceExclusionToHclTerraform, true)(struct!.maintenanceExclusion),
@@ -7047,6 +8097,10 @@ export class GoogleContainerClusterMaintenancePolicyOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.dailyMaintenanceWindow = this._dailyMaintenanceWindow?.internalValue;
     }
+    if (this._disruptionBudget?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disruptionBudget = this._disruptionBudget?.internalValue;
+    }
     if (this._maintenanceExclusion?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.maintenanceExclusion = this._maintenanceExclusion?.internalValue;
@@ -7062,12 +8116,14 @@ export class GoogleContainerClusterMaintenancePolicyOutputReference extends cdkt
     if (value === undefined) {
       this.isEmptyObject = false;
       this._dailyMaintenanceWindow.internalValue = undefined;
+      this._disruptionBudget.internalValue = undefined;
       this._maintenanceExclusion.internalValue = undefined;
       this._recurringWindow.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._dailyMaintenanceWindow.internalValue = value.dailyMaintenanceWindow;
+      this._disruptionBudget.internalValue = value.disruptionBudget;
       this._maintenanceExclusion.internalValue = value.maintenanceExclusion;
       this._recurringWindow.internalValue = value.recurringWindow;
     }
@@ -7087,6 +8143,22 @@ export class GoogleContainerClusterMaintenancePolicyOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get dailyMaintenanceWindowInput() {
     return this._dailyMaintenanceWindow.internalValue;
+  }
+
+  // disruption_budget - computed: false, optional: true, required: false
+  private _disruptionBudget = new GoogleContainerClusterMaintenancePolicyDisruptionBudgetOutputReference(this, "disruption_budget");
+  public get disruptionBudget() {
+    return this._disruptionBudget;
+  }
+  public putDisruptionBudget(value: GoogleContainerClusterMaintenancePolicyDisruptionBudget) {
+    this._disruptionBudget.internalValue = value;
+  }
+  public resetDisruptionBudget() {
+    this._disruptionBudget.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disruptionBudgetInput() {
+    return this._disruptionBudget.internalValue;
   }
 
   // maintenance_exclusion - computed: false, optional: true, required: false
@@ -7121,11 +8193,183 @@ export class GoogleContainerClusterMaintenancePolicyOutputReference extends cdkt
     return this._recurringWindow.internalValue;
   }
 }
+export interface GoogleContainerClusterManagedMachineLearningDiagnosticsConfig {
+  /**
+  * Enable Managed Machine Learning Diagnostics.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  */
+  readonly enabled?: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterManagedMachineLearningDiagnosticsConfigToTerraform(struct?: GoogleContainerClusterManagedMachineLearningDiagnosticsConfigOutputReference | GoogleContainerClusterManagedMachineLearningDiagnosticsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function googleContainerClusterManagedMachineLearningDiagnosticsConfigToHclTerraform(struct?: GoogleContainerClusterManagedMachineLearningDiagnosticsConfigOutputReference | GoogleContainerClusterManagedMachineLearningDiagnosticsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterManagedMachineLearningDiagnosticsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterManagedMachineLearningDiagnosticsConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterManagedMachineLearningDiagnosticsConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
+export interface GoogleContainerClusterManagedOpentelemetryConfig {
+  /**
+  * The scope of the Managed OpenTelemetry pipeline. Available options include SCOPE_UNSPECIFIED, NONE, and COLLECTION_AND_INSTRUMENTATION_COMPONENTS.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#scope GoogleContainerCluster#scope}
+  */
+  readonly scope?: string;
+}
+
+export function googleContainerClusterManagedOpentelemetryConfigToTerraform(struct?: GoogleContainerClusterManagedOpentelemetryConfigOutputReference | GoogleContainerClusterManagedOpentelemetryConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    scope: cdktn.stringToTerraform(struct!.scope),
+  }
+}
+
+
+export function googleContainerClusterManagedOpentelemetryConfigToHclTerraform(struct?: GoogleContainerClusterManagedOpentelemetryConfigOutputReference | GoogleContainerClusterManagedOpentelemetryConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    scope: {
+      value: cdktn.stringToHclTerraform(struct!.scope),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterManagedOpentelemetryConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterManagedOpentelemetryConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scope !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scope = this._scope;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterManagedOpentelemetryConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._scope = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._scope = value.scope;
+    }
+  }
+
+  // scope - computed: false, optional: true, required: false
+  private _scope?: string; 
+  public get scope() {
+    return this.getStringAttribute('scope');
+  }
+  public set scope(value: string) {
+    this._scope = value;
+  }
+  public resetScope() {
+    this._scope = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInput() {
+    return this._scope;
+  }
+}
 export interface GoogleContainerClusterMasterAuthClientCertificateConfig {
   /**
   * Whether client certificate authorization is enabled for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#issue_client_certificate GoogleContainerCluster#issue_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#issue_client_certificate GoogleContainerCluster#issue_client_certificate}
   */
   readonly issueClientCertificate: boolean | cdktn.IResolvable;
 }
@@ -7208,7 +8452,7 @@ export interface GoogleContainerClusterMasterAuth {
   /**
   * client_certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#client_certificate_config GoogleContainerCluster#client_certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#client_certificate_config GoogleContainerCluster#client_certificate_config}
   */
   readonly clientCertificateConfig: GoogleContainerClusterMasterAuthClientCertificateConfig;
 }
@@ -7306,13 +8550,13 @@ export interface GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocks 
   /**
   * External network that can access Kubernetes master through HTTPS. Must be specified in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cidr_block GoogleContainerCluster#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cidr_block GoogleContainerCluster#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * Field for users to identify CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#display_name GoogleContainerCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#display_name GoogleContainerCluster#display_name}
   */
   readonly displayName?: string;
 }
@@ -7456,19 +8700,19 @@ export interface GoogleContainerClusterMasterAuthorizedNetworksConfig {
   /**
   * Whether Kubernetes master is accessible via Google Compute Engine Public IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gcp_public_cidrs_access_enabled GoogleContainerCluster#gcp_public_cidrs_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcp_public_cidrs_access_enabled GoogleContainerCluster#gcp_public_cidrs_access_enabled}
   */
   readonly gcpPublicCidrsAccessEnabled?: boolean | cdktn.IResolvable;
   /**
   * Whether authorized networks is enforced on the private endpoint or not. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#private_endpoint_enforcement_enabled GoogleContainerCluster#private_endpoint_enforcement_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#private_endpoint_enforcement_enabled GoogleContainerCluster#private_endpoint_enforcement_enabled}
   */
   readonly privateEndpointEnforcementEnabled?: boolean | cdktn.IResolvable;
   /**
   * cidr_blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cidr_blocks GoogleContainerCluster#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cidr_blocks GoogleContainerCluster#cidr_blocks}
   */
   readonly cidrBlocks?: GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocks[] | cdktn.IResolvable;
 }
@@ -7612,7 +8856,7 @@ export interface GoogleContainerClusterMeshCertificates {
   /**
   * When enabled the GKE Workload Identity Certificates controller and node agent will be deployed in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_certificates GoogleContainerCluster#enable_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_certificates GoogleContainerCluster#enable_certificates}
   */
   readonly enableCertificates: boolean | cdktn.IResolvable;
 }
@@ -7695,13 +8939,13 @@ export interface GoogleContainerClusterMonitoringConfigAdvancedDatapathObservabi
   /**
   * Whether or not the advanced datapath metrics are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_metrics GoogleContainerCluster#enable_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_metrics GoogleContainerCluster#enable_metrics}
   */
   readonly enableMetrics: boolean | cdktn.IResolvable;
   /**
   * Whether or not Relay is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_relay GoogleContainerCluster#enable_relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_relay GoogleContainerCluster#enable_relay}
   */
   readonly enableRelay: boolean | cdktn.IResolvable;
 }
@@ -7810,7 +9054,7 @@ export interface GoogleContainerClusterMonitoringConfigManagedPrometheusAutoMoni
   /**
   * The scope of auto-monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#scope GoogleContainerCluster#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#scope GoogleContainerCluster#scope}
   */
   readonly scope: string;
 }
@@ -7893,13 +9137,13 @@ export interface GoogleContainerClusterMonitoringConfigManagedPrometheus {
   /**
   * Whether or not the managed collection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * auto_monitoring_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auto_monitoring_config GoogleContainerCluster#auto_monitoring_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#auto_monitoring_config GoogleContainerCluster#auto_monitoring_config}
   */
   readonly autoMonitoringConfig?: GoogleContainerClusterMonitoringConfigManagedPrometheusAutoMonitoringConfig;
 }
@@ -8011,19 +9255,19 @@ export interface GoogleContainerClusterMonitoringConfig {
   /**
   * GKE components exposing metrics. Valid values include SYSTEM_COMPONENTS, APISERVER, SCHEDULER, CONTROLLER_MANAGER, STORAGE, HPA, POD, DAEMONSET, DEPLOYMENT, STATEFULSET, WORKLOADS, KUBELET, CADVISOR, DCGM and JOBSET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_components GoogleContainerCluster#enable_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_components GoogleContainerCluster#enable_components}
   */
   readonly enableComponents?: string[];
   /**
   * advanced_datapath_observability_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#advanced_datapath_observability_config GoogleContainerCluster#advanced_datapath_observability_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#advanced_datapath_observability_config GoogleContainerCluster#advanced_datapath_observability_config}
   */
   readonly advancedDatapathObservabilityConfig?: GoogleContainerClusterMonitoringConfigAdvancedDatapathObservabilityConfig;
   /**
   * managed_prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#managed_prometheus GoogleContainerCluster#managed_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#managed_prometheus GoogleContainerCluster#managed_prometheus}
   */
   readonly managedPrometheus?: GoogleContainerClusterMonitoringConfigManagedPrometheus;
 }
@@ -8167,7 +9411,7 @@ export interface GoogleContainerClusterNetworkPerformanceConfig {
   /**
   * Specifies the total network bandwidth tier for NodePools in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#total_egress_bandwidth_tier GoogleContainerCluster#total_egress_bandwidth_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#total_egress_bandwidth_tier GoogleContainerCluster#total_egress_bandwidth_tier}
   */
   readonly totalEgressBandwidthTier: string;
 }
@@ -8250,13 +9494,13 @@ export interface GoogleContainerClusterNetworkPolicy {
   /**
   * Whether network policy is enabled on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * The selected network policy provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#provider GoogleContainerCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#provider GoogleContainerCluster#provider}
   */
   readonly provider?: string;
 }
@@ -8453,19 +9697,19 @@ export interface GoogleContainerClusterNodeConfigAdvancedMachineFeatures {
   /**
   * Whether the node should have nested virtualization enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_nested_virtualization GoogleContainerCluster#enable_nested_virtualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_nested_virtualization GoogleContainerCluster#enable_nested_virtualization}
   */
   readonly enableNestedVirtualization?: boolean | cdktn.IResolvable;
   /**
   * Level of Performance Monitoring Unit (PMU) requested. If unset, no access to the PMU is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#performance_monitoring_unit GoogleContainerCluster#performance_monitoring_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#performance_monitoring_unit GoogleContainerCluster#performance_monitoring_unit}
   */
   readonly performanceMonitoringUnit?: string;
   /**
   * The number of threads per physical core. To disable simultaneous multithreading (SMT) set this to 1. If unset, the maximum number of threads supported per core by the underlying processor is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#threads_per_core GoogleContainerCluster#threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#threads_per_core GoogleContainerCluster#threads_per_core}
   */
   readonly threadsPerCore: number;
 }
@@ -8606,25 +9850,25 @@ export interface GoogleContainerClusterNodeConfigBootDisk {
   /**
   * Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disk_type GoogleContainerCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disk_type GoogleContainerCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Configured IOPs provisioning. Only valid with disk type hyperdisk-balanced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#provisioned_iops GoogleContainerCluster#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#provisioned_iops GoogleContainerCluster#provisioned_iops}
   */
   readonly provisionedIops?: number;
   /**
   * Configured throughput provisioning. Only valid with disk type hyperdisk-balanced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#provisioned_throughput GoogleContainerCluster#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#provisioned_throughput GoogleContainerCluster#provisioned_throughput}
   */
   readonly provisionedThroughput?: number;
   /**
   * Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#size_gb GoogleContainerCluster#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#size_gb GoogleContainerCluster#size_gb}
   */
   readonly sizeGb?: number;
 }
@@ -8797,13 +10041,13 @@ export interface GoogleContainerClusterNodeConfigConfidentialNodes {
   /**
   * Defines the type of technology used by the confidential node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#confidential_instance_type GoogleContainerCluster#confidential_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#confidential_instance_type GoogleContainerCluster#confidential_instance_type}
   */
   readonly confidentialInstanceType?: string;
   /**
   * Whether Confidential Nodes feature is enabled for all nodes in this pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -8915,7 +10159,7 @@ export interface GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistry
   /**
   * URI for the secret that hosts a certificate. Must be in the format 'projects/PROJECT_NUM/secrets/SECRET_NAME/versions/VERSION_OR_LATEST'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#secret_uri GoogleContainerCluster#secret_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#secret_uri GoogleContainerCluster#secret_uri}
   */
   readonly secretUri: string;
 }
@@ -8998,13 +10242,13 @@ export interface GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistry
   /**
   * List of fully-qualified-domain-names. IPv4s and port specification are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#fqdns GoogleContainerCluster#fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#fqdns GoogleContainerCluster#fqdns}
   */
   readonly fqdns: string[];
   /**
   * gcp_secret_manager_certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gcp_secret_manager_certificate_config GoogleContainerCluster#gcp_secret_manager_certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcp_secret_manager_certificate_config GoogleContainerCluster#gcp_secret_manager_certificate_config}
   */
   readonly gcpSecretManagerCertificateConfig: GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig;
 }
@@ -9145,13 +10389,13 @@ export interface GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistry
   /**
   * Whether or not private registries are configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * certificate_authority_domain_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#certificate_authority_domain_config GoogleContainerCluster#certificate_authority_domain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#certificate_authority_domain_config GoogleContainerCluster#certificate_authority_domain_config}
   */
   readonly certificateAuthorityDomainConfig?: GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig[] | cdktn.IResolvable;
 }
@@ -9259,13 +10503,1170 @@ export class GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAcce
     return this._certificateAuthorityDomainConfig.internalValue;
   }
 }
+export interface GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa {
+  /**
+  * URI for the Secret Manager secret that hosts the certificate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcp_secret_manager_secret_uri GoogleContainerCluster#gcp_secret_manager_secret_uri}
+  */
+  readonly gcpSecretManagerSecretUri?: string;
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    gcp_secret_manager_secret_uri: cdktn.stringToTerraform(struct!.gcpSecretManagerSecretUri),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    gcp_secret_manager_secret_uri: {
+      value: cdktn.stringToHclTerraform(struct!.gcpSecretManagerSecretUri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._gcpSecretManagerSecretUri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcpSecretManagerSecretUri = this._gcpSecretManagerSecretUri;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._gcpSecretManagerSecretUri = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._gcpSecretManagerSecretUri = value.gcpSecretManagerSecretUri;
+    }
+  }
+
+  // gcp_secret_manager_secret_uri - computed: false, optional: true, required: false
+  private _gcpSecretManagerSecretUri?: string; 
+  public get gcpSecretManagerSecretUri() {
+    return this.getStringAttribute('gcp_secret_manager_secret_uri');
+  }
+  public set gcpSecretManagerSecretUri(value: string) {
+    this._gcpSecretManagerSecretUri = value;
+  }
+  public resetGcpSecretManagerSecretUri() {
+    this._gcpSecretManagerSecretUri = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpSecretManagerSecretUriInput() {
+    return this._gcpSecretManagerSecretUri;
+  }
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference {
+    return new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCert {
+  /**
+  * URI for the Secret Manager secret that hosts the client certificate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcp_secret_manager_secret_uri GoogleContainerCluster#gcp_secret_manager_secret_uri}
+  */
+  readonly gcpSecretManagerSecretUri?: string;
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference | GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCert): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    gcp_secret_manager_secret_uri: cdktn.stringToTerraform(struct!.gcpSecretManagerSecretUri),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference | GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCert): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    gcp_secret_manager_secret_uri: {
+      value: cdktn.stringToHclTerraform(struct!.gcpSecretManagerSecretUri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCert | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._gcpSecretManagerSecretUri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcpSecretManagerSecretUri = this._gcpSecretManagerSecretUri;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCert | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._gcpSecretManagerSecretUri = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._gcpSecretManagerSecretUri = value.gcpSecretManagerSecretUri;
+    }
+  }
+
+  // gcp_secret_manager_secret_uri - computed: false, optional: true, required: false
+  private _gcpSecretManagerSecretUri?: string; 
+  public get gcpSecretManagerSecretUri() {
+    return this.getStringAttribute('gcp_secret_manager_secret_uri');
+  }
+  public set gcpSecretManagerSecretUri(value: string) {
+    this._gcpSecretManagerSecretUri = value;
+  }
+  public resetGcpSecretManagerSecretUri() {
+    this._gcpSecretManagerSecretUri = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpSecretManagerSecretUriInput() {
+    return this._gcpSecretManagerSecretUri;
+  }
+}
+export interface GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKey {
+  /**
+  * URI for the Secret Manager secret that hosts the private key.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcp_secret_manager_secret_uri GoogleContainerCluster#gcp_secret_manager_secret_uri}
+  */
+  readonly gcpSecretManagerSecretUri?: string;
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference | GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    gcp_secret_manager_secret_uri: cdktn.stringToTerraform(struct!.gcpSecretManagerSecretUri),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference | GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    gcp_secret_manager_secret_uri: {
+      value: cdktn.stringToHclTerraform(struct!.gcpSecretManagerSecretUri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._gcpSecretManagerSecretUri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcpSecretManagerSecretUri = this._gcpSecretManagerSecretUri;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._gcpSecretManagerSecretUri = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._gcpSecretManagerSecretUri = value.gcpSecretManagerSecretUri;
+    }
+  }
+
+  // gcp_secret_manager_secret_uri - computed: false, optional: true, required: false
+  private _gcpSecretManagerSecretUri?: string; 
+  public get gcpSecretManagerSecretUri() {
+    return this.getStringAttribute('gcp_secret_manager_secret_uri');
+  }
+  public set gcpSecretManagerSecretUri(value: string) {
+    this._gcpSecretManagerSecretUri = value;
+  }
+  public resetGcpSecretManagerSecretUri() {
+    this._gcpSecretManagerSecretUri = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpSecretManagerSecretUriInput() {
+    return this._gcpSecretManagerSecretUri;
+  }
+}
+export interface GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient {
+  /**
+  * cert block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cert GoogleContainerCluster#cert}
+  */
+  readonly cert: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCert;
+  /**
+  * key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
+  */
+  readonly key?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKey;
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cert: googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertToTerraform(struct!.cert),
+    key: googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyToTerraform(struct!.key),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cert: {
+      value: googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertToHclTerraform(struct!.cert),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertList",
+    },
+    key: {
+      value: googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyToHclTerraform(struct!.key),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cert?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cert = this._cert?.internalValue;
+    }
+    if (this._key?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cert.internalValue = undefined;
+      this._key.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cert.internalValue = value.cert;
+      this._key.internalValue = value.key;
+    }
+  }
+
+  // cert - computed: false, optional: false, required: true
+  private _cert = new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference(this, "cert");
+  public get cert() {
+    return this._cert;
+  }
+  public putCert(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientCert) {
+    this._cert.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certInput() {
+    return this._cert.internalValue;
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key = new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference(this, "key");
+  public get key() {
+    return this._key;
+  }
+  public putKey(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientKey) {
+    this._key.internalValue = value;
+  }
+  public resetKey() {
+    this._key.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key.internalValue;
+  }
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference {
+    return new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader {
+  /**
+  * Configures the header key.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
+  */
+  readonly key: string;
+  /**
+  * Configures the header value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#value GoogleContainerCluster#value}
+  */
+  readonly value: string[];
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.value),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.value),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string[]; 
+  public get value() {
+    return this.getListAttribute('value');
+  }
+  public set value(value: string[]) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference {
+    return new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts {
+  /**
+  * Represent the capabilities of the registry host, specifying what operations a host is capable of performing.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#capabilities GoogleContainerCluster#capabilities}
+  */
+  readonly capabilities?: string[];
+  /**
+  * Specifies the maximum duration allowed for a connection attempt to complete.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#dial_timeout GoogleContainerCluster#dial_timeout}
+  */
+  readonly dialTimeout?: string;
+  /**
+  * Configures the registry host/mirror.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#host GoogleContainerCluster#host}
+  */
+  readonly host: string;
+  /**
+  * Indicate the host's API root endpoint is defined in the URL path rather than by the API specification.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#override_path GoogleContainerCluster#override_path}
+  */
+  readonly overridePath?: boolean | cdktn.IResolvable;
+  /**
+  * ca block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ca GoogleContainerCluster#ca}
+  */
+  readonly ca?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa[] | cdktn.IResolvable;
+  /**
+  * client block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#client GoogleContainerCluster#client}
+  */
+  readonly client?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient[] | cdktn.IResolvable;
+  /**
+  * header block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#header GoogleContainerCluster#header}
+  */
+  readonly header?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader[] | cdktn.IResolvable;
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    capabilities: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.capabilities),
+    dial_timeout: cdktn.stringToTerraform(struct!.dialTimeout),
+    host: cdktn.stringToTerraform(struct!.host),
+    override_path: cdktn.booleanToTerraform(struct!.overridePath),
+    ca: cdktn.listMapper(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaToTerraform, true)(struct!.ca),
+    client: cdktn.listMapper(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientToTerraform, true)(struct!.client),
+    header: cdktn.listMapper(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderToTerraform, true)(struct!.header),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    capabilities: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.capabilities),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    dial_timeout: {
+      value: cdktn.stringToHclTerraform(struct!.dialTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    host: {
+      value: cdktn.stringToHclTerraform(struct!.host),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    override_path: {
+      value: cdktn.booleanToHclTerraform(struct!.overridePath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ca: {
+      value: cdktn.listMapperHcl(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaToHclTerraform, true)(struct!.ca),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaList",
+    },
+    client: {
+      value: cdktn.listMapperHcl(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientToHclTerraform, true)(struct!.client),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientList",
+    },
+    header: {
+      value: cdktn.listMapperHcl(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderToHclTerraform, true)(struct!.header),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._capabilities !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capabilities = this._capabilities;
+    }
+    if (this._dialTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dialTimeout = this._dialTimeout;
+    }
+    if (this._host !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.host = this._host;
+    }
+    if (this._overridePath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.overridePath = this._overridePath;
+    }
+    if (this._ca?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ca = this._ca?.internalValue;
+    }
+    if (this._client?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.client = this._client?.internalValue;
+    }
+    if (this._header?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.header = this._header?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._capabilities = undefined;
+      this._dialTimeout = undefined;
+      this._host = undefined;
+      this._overridePath = undefined;
+      this._ca.internalValue = undefined;
+      this._client.internalValue = undefined;
+      this._header.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._capabilities = value.capabilities;
+      this._dialTimeout = value.dialTimeout;
+      this._host = value.host;
+      this._overridePath = value.overridePath;
+      this._ca.internalValue = value.ca;
+      this._client.internalValue = value.client;
+      this._header.internalValue = value.header;
+    }
+  }
+
+  // capabilities - computed: false, optional: true, required: false
+  private _capabilities?: string[]; 
+  public get capabilities() {
+    return this.getListAttribute('capabilities');
+  }
+  public set capabilities(value: string[]) {
+    this._capabilities = value;
+  }
+  public resetCapabilities() {
+    this._capabilities = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capabilitiesInput() {
+    return this._capabilities;
+  }
+
+  // dial_timeout - computed: false, optional: true, required: false
+  private _dialTimeout?: string; 
+  public get dialTimeout() {
+    return this.getStringAttribute('dial_timeout');
+  }
+  public set dialTimeout(value: string) {
+    this._dialTimeout = value;
+  }
+  public resetDialTimeout() {
+    this._dialTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dialTimeoutInput() {
+    return this._dialTimeout;
+  }
+
+  // host - computed: false, optional: false, required: true
+  private _host?: string; 
+  public get host() {
+    return this.getStringAttribute('host');
+  }
+  public set host(value: string) {
+    this._host = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostInput() {
+    return this._host;
+  }
+
+  // override_path - computed: false, optional: true, required: false
+  private _overridePath?: boolean | cdktn.IResolvable; 
+  public get overridePath() {
+    return this.getBooleanAttribute('override_path');
+  }
+  public set overridePath(value: boolean | cdktn.IResolvable) {
+    this._overridePath = value;
+  }
+  public resetOverridePath() {
+    this._overridePath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overridePathInput() {
+    return this._overridePath;
+  }
+
+  // ca - computed: false, optional: true, required: false
+  private _ca = new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCaList(this, "ca", false);
+  public get ca() {
+    return this._ca;
+  }
+  public putCa(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsCa[] | cdktn.IResolvable) {
+    this._ca.internalValue = value;
+  }
+  public resetCa() {
+    this._ca.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get caInput() {
+    return this._ca.internalValue;
+  }
+
+  // client - computed: false, optional: true, required: false
+  private _client = new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClientList(this, "client", false);
+  public get client() {
+    return this._client;
+  }
+  public putClient(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsClient[] | cdktn.IResolvable) {
+    this._client.internalValue = value;
+  }
+  public resetClient() {
+    this._client.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientInput() {
+    return this._client.internalValue;
+  }
+
+  // header - computed: false, optional: true, required: false
+  private _header = new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeaderList(this, "header", false);
+  public get header() {
+    return this._header;
+  }
+  public putHeader(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsHeader[] | cdktn.IResolvable) {
+    this._header.internalValue = value;
+  }
+  public resetHeader() {
+    this._header.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get headerInput() {
+    return this._header.internalValue;
+  }
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsOutputReference {
+    return new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts {
+  /**
+  * Defines the host name of the registry server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#server GoogleContainerCluster#server}
+  */
+  readonly server: string;
+  /**
+  * hosts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#hosts GoogleContainerCluster#hosts}
+  */
+  readonly hosts?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts[] | cdktn.IResolvable;
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    server: cdktn.stringToTerraform(struct!.server),
+    hosts: cdktn.listMapper(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsToTerraform, true)(struct!.hosts),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigRegistryHostsToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    server: {
+      value: cdktn.stringToHclTerraform(struct!.server),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    hosts: {
+      value: cdktn.listMapperHcl(googleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsToHclTerraform, true)(struct!.hosts),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._server !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.server = this._server;
+    }
+    if (this._hosts?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hosts = this._hosts?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._server = undefined;
+      this._hosts.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._server = value.server;
+      this._hosts.internalValue = value.hosts;
+    }
+  }
+
+  // server - computed: false, optional: false, required: true
+  private _server?: string; 
+  public get server() {
+    return this.getStringAttribute('server');
+  }
+  public set server(value: string) {
+    this._server = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverInput() {
+    return this._server;
+  }
+
+  // hosts - computed: false, optional: true, required: false
+  private _hosts = new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHostsList(this, "hosts", false);
+  public get hosts() {
+    return this._hosts;
+  }
+  public putHosts(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsHosts[] | cdktn.IResolvable) {
+    this._hosts.internalValue = value;
+  }
+  public resetHosts() {
+    this._hosts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostsInput() {
+    return this._hosts.internalValue;
+  }
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsOutputReference {
+    return new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups {
+  /**
+  * Whether writable cgroups are enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  */
+  readonly enabled: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterNodeConfigContainerdConfigWritableCgroupsToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsOutputReference | GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigContainerdConfigWritableCgroupsToHclTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsOutputReference | GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: false, required: true
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
 export interface GoogleContainerClusterNodeConfigContainerdConfig {
   /**
   * private_registry_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#private_registry_access_config GoogleContainerCluster#private_registry_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#private_registry_access_config GoogleContainerCluster#private_registry_access_config}
   */
   readonly privateRegistryAccessConfig?: GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfig;
+  /**
+  * registry_hosts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#registry_hosts GoogleContainerCluster#registry_hosts}
+  */
+  readonly registryHosts?: GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts[] | cdktn.IResolvable;
+  /**
+  * writable_cgroups block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#writable_cgroups GoogleContainerCluster#writable_cgroups}
+  */
+  readonly writableCgroups?: GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups;
 }
 
 export function googleContainerClusterNodeConfigContainerdConfigToTerraform(struct?: GoogleContainerClusterNodeConfigContainerdConfigOutputReference | GoogleContainerClusterNodeConfigContainerdConfig): any {
@@ -9275,6 +11676,8 @@ export function googleContainerClusterNodeConfigContainerdConfigToTerraform(stru
   }
   return {
     private_registry_access_config: googleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfigToTerraform(struct!.privateRegistryAccessConfig),
+    registry_hosts: cdktn.listMapper(googleContainerClusterNodeConfigContainerdConfigRegistryHostsToTerraform, true)(struct!.registryHosts),
+    writable_cgroups: googleContainerClusterNodeConfigContainerdConfigWritableCgroupsToTerraform(struct!.writableCgroups),
   }
 }
 
@@ -9290,6 +11693,18 @@ export function googleContainerClusterNodeConfigContainerdConfigToHclTerraform(s
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfigList",
+    },
+    registry_hosts: {
+      value: cdktn.listMapperHcl(googleContainerClusterNodeConfigContainerdConfigRegistryHostsToHclTerraform, true)(struct!.registryHosts),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsList",
+    },
+    writable_cgroups: {
+      value: googleContainerClusterNodeConfigContainerdConfigWritableCgroupsToHclTerraform(struct!.writableCgroups),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsList",
     },
   };
 
@@ -9315,6 +11730,14 @@ export class GoogleContainerClusterNodeConfigContainerdConfigOutputReference ext
       hasAnyValues = true;
       internalValueResult.privateRegistryAccessConfig = this._privateRegistryAccessConfig?.internalValue;
     }
+    if (this._registryHosts?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.registryHosts = this._registryHosts?.internalValue;
+    }
+    if (this._writableCgroups?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.writableCgroups = this._writableCgroups?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -9322,10 +11745,14 @@ export class GoogleContainerClusterNodeConfigContainerdConfigOutputReference ext
     if (value === undefined) {
       this.isEmptyObject = false;
       this._privateRegistryAccessConfig.internalValue = undefined;
+      this._registryHosts.internalValue = undefined;
+      this._writableCgroups.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._privateRegistryAccessConfig.internalValue = value.privateRegistryAccessConfig;
+      this._registryHosts.internalValue = value.registryHosts;
+      this._writableCgroups.internalValue = value.writableCgroups;
     }
   }
 
@@ -9344,12 +11771,44 @@ export class GoogleContainerClusterNodeConfigContainerdConfigOutputReference ext
   public get privateRegistryAccessConfigInput() {
     return this._privateRegistryAccessConfig.internalValue;
   }
+
+  // registry_hosts - computed: false, optional: true, required: false
+  private _registryHosts = new GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsList(this, "registry_hosts", false);
+  public get registryHosts() {
+    return this._registryHosts;
+  }
+  public putRegistryHosts(value: GoogleContainerClusterNodeConfigContainerdConfigRegistryHosts[] | cdktn.IResolvable) {
+    this._registryHosts.internalValue = value;
+  }
+  public resetRegistryHosts() {
+    this._registryHosts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get registryHostsInput() {
+    return this._registryHosts.internalValue;
+  }
+
+  // writable_cgroups - computed: false, optional: true, required: false
+  private _writableCgroups = new GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsOutputReference(this, "writable_cgroups");
+  public get writableCgroups() {
+    return this._writableCgroups;
+  }
+  public putWritableCgroups(value: GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups) {
+    this._writableCgroups.internalValue = value;
+  }
+  public resetWritableCgroups() {
+    this._writableCgroups.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get writableCgroupsInput() {
+    return this._writableCgroups.internalValue;
+  }
 }
 export interface GoogleContainerClusterNodeConfigEphemeralStorageConfig {
   /**
   * Number of local SSDs to use to back ephemeral storage. Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
   */
   readonly localSsdCount: number;
 }
@@ -9432,13 +11891,13 @@ export interface GoogleContainerClusterNodeConfigEphemeralStorageLocalSsdConfig 
   /**
   * Number of local SSDs to be utilized for GKE Data Cache. Uses NVMe interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#data_cache_count GoogleContainerCluster#data_cache_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#data_cache_count GoogleContainerCluster#data_cache_count}
   */
   readonly dataCacheCount?: number;
   /**
   * Number of local SSDs to use to back ephemeral storage. Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
   */
   readonly localSsdCount: number;
 }
@@ -9550,7 +12009,7 @@ export interface GoogleContainerClusterNodeConfigFastSocket {
   /**
   * Whether or not NCCL Fast Socket is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -9633,7 +12092,7 @@ export interface GoogleContainerClusterNodeConfigGcfsConfig {
   /**
   * Whether or not GCFS is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -9716,7 +12175,7 @@ export interface GoogleContainerClusterNodeConfigGuestAcceleratorGpuDriverInstal
   /**
   * Mode for how the GPU driver is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_driver_version GoogleContainerCluster#gpu_driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gpu_driver_version GoogleContainerCluster#gpu_driver_version}
   */
   readonly gpuDriverVersion: string;
 }
@@ -9799,13 +12258,13 @@ export interface GoogleContainerClusterNodeConfigGuestAcceleratorGpuSharingConfi
   /**
   * The type of GPU sharing strategy to enable on the GPU node. Possible values are described in the API package (https://pkg.go.dev/google.golang.org/api/container/v1#GPUSharingConfig)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_sharing_strategy GoogleContainerCluster#gpu_sharing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gpu_sharing_strategy GoogleContainerCluster#gpu_sharing_strategy}
   */
   readonly gpuSharingStrategy: string;
   /**
   * The maximum number of containers that can share a GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_shared_clients_per_gpu GoogleContainerCluster#max_shared_clients_per_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#max_shared_clients_per_gpu GoogleContainerCluster#max_shared_clients_per_gpu}
   */
   readonly maxSharedClientsPerGpu: number;
 }
@@ -9914,31 +12373,31 @@ export interface GoogleContainerClusterNodeConfigGuestAccelerator {
   /**
   * The number of the accelerator cards exposed to an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#count GoogleContainerCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#count GoogleContainerCluster#count}
   */
   readonly count: number;
   /**
   * Size of partitions to create on the GPU. Valid values are described in the NVIDIA mig user guide (https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#partitioning)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_partition_size GoogleContainerCluster#gpu_partition_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gpu_partition_size GoogleContainerCluster#gpu_partition_size}
   */
   readonly gpuPartitionSize?: string;
   /**
   * The accelerator type resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#type GoogleContainerCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#type GoogleContainerCluster#type}
   */
   readonly type: string;
   /**
   * gpu_driver_installation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_driver_installation_config GoogleContainerCluster#gpu_driver_installation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gpu_driver_installation_config GoogleContainerCluster#gpu_driver_installation_config}
   */
   readonly gpuDriverInstallationConfig?: GoogleContainerClusterNodeConfigGuestAcceleratorGpuDriverInstallationConfig;
   /**
   * gpu_sharing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_sharing_config GoogleContainerCluster#gpu_sharing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gpu_sharing_config GoogleContainerCluster#gpu_sharing_config}
   */
   readonly gpuSharingConfig?: GoogleContainerClusterNodeConfigGuestAcceleratorGpuSharingConfig;
 }
@@ -10166,7 +12625,7 @@ export interface GoogleContainerClusterNodeConfigGvnic {
   /**
   * Whether or not gvnic is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -10249,7 +12708,7 @@ export interface GoogleContainerClusterNodeConfigHostMaintenancePolicy {
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#maintenance_interval GoogleContainerCluster#maintenance_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#maintenance_interval GoogleContainerCluster#maintenance_interval}
   */
   readonly maintenanceInterval: string;
 }
@@ -10332,37 +12791,37 @@ export interface GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumRec
   /**
   * Defines percentage of minimum reclaim for imagefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
   */
   readonly imagefsAvailable?: string;
   /**
   * Defines percentage of minimum reclaim for imagefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
   */
   readonly imagefsInodesFree?: string;
   /**
   * Defines percentage of minimum reclaim for memory.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
   */
   readonly memoryAvailable?: string;
   /**
   * Defines percentage of minimum reclaim for nodefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
   */
   readonly nodefsAvailable?: string;
   /**
   * Defines percentage of minimum reclaim for nodefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
   */
   readonly nodefsInodesFree?: string;
   /**
   * Defines percentage of minimum reclaim for pid.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
   */
   readonly pidAvailable?: string;
 }
@@ -10593,37 +13052,37 @@ export interface GoogleContainerClusterNodeConfigKubeletConfigEvictionSoft {
   /**
   * Defines percentage of soft eviction threshold for imagefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
   */
   readonly imagefsAvailable?: string;
   /**
   * Defines percentage of soft eviction threshold for imagefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
   */
   readonly imagefsInodesFree?: string;
   /**
   * Defines quantity of soft eviction threshold for memory.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
   */
   readonly memoryAvailable?: string;
   /**
   * Defines percentage of soft eviction threshold for nodefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
   */
   readonly nodefsAvailable?: string;
   /**
   * Defines percentage of soft eviction threshold for nodefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
   */
   readonly nodefsInodesFree?: string;
   /**
   * Defines percentage of soft eviction threshold for pid.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
   */
   readonly pidAvailable?: string;
 }
@@ -10854,37 +13313,37 @@ export interface GoogleContainerClusterNodeConfigKubeletConfigEvictionSoftGraceP
   /**
   * Defines grace period for the imagefs.available soft eviction threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
   */
   readonly imagefsAvailable?: string;
   /**
   * Defines grace period for the imagefs.inodesFree soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
   */
   readonly imagefsInodesFree?: string;
   /**
   * Defines grace period for the memory.available soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
   */
   readonly memoryAvailable?: string;
   /**
   * Defines grace period for the nodefs.available soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
   */
   readonly nodefsAvailable?: string;
   /**
   * Defines grace period for the nodefs.inodesFree soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
   */
   readonly nodefsInodesFree?: string;
   /**
   * Defines grace period for the pid.available soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
   */
   readonly pidAvailable?: string;
 }
@@ -11111,115 +13570,334 @@ export class GoogleContainerClusterNodeConfigKubeletConfigEvictionSoftGracePerio
     return this._pidAvailable;
   }
 }
+export interface GoogleContainerClusterNodeConfigKubeletConfigMemoryManager {
+  /**
+  * The Memory Manager policy to use. This policy guides how memory and hugepages are allocated and managed for pods on the node, influencing NUMA affinity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#policy GoogleContainerCluster#policy}
+  */
+  readonly policy?: string;
+}
+
+export function googleContainerClusterNodeConfigKubeletConfigMemoryManagerToTerraform(struct?: GoogleContainerClusterNodeConfigKubeletConfigMemoryManagerOutputReference | GoogleContainerClusterNodeConfigKubeletConfigMemoryManager): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    policy: cdktn.stringToTerraform(struct!.policy),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigKubeletConfigMemoryManagerToHclTerraform(struct?: GoogleContainerClusterNodeConfigKubeletConfigMemoryManagerOutputReference | GoogleContainerClusterNodeConfigKubeletConfigMemoryManager): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    policy: {
+      value: cdktn.stringToHclTerraform(struct!.policy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigKubeletConfigMemoryManagerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigKubeletConfigMemoryManager | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._policy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policy = this._policy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigKubeletConfigMemoryManager | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._policy = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._policy = value.policy;
+    }
+  }
+
+  // policy - computed: true, optional: true, required: false
+  private _policy?: string; 
+  public get policy() {
+    return this.getStringAttribute('policy');
+  }
+  public set policy(value: string) {
+    this._policy = value;
+  }
+  public resetPolicy() {
+    this._policy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyInput() {
+    return this._policy;
+  }
+}
+export interface GoogleContainerClusterNodeConfigKubeletConfigTopologyManager {
+  /**
+  * The Topology Manager policy to use. This policy dictates how resource alignment is handled on the node.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#policy GoogleContainerCluster#policy}
+  */
+  readonly policy?: string;
+  /**
+  * The Topology Manager scope, defining the granularity at which policy decisions are applied. Valid values are "container" (resources are aligned per container within a pod) or "pod" (resources are aligned for the entire pod).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#scope GoogleContainerCluster#scope}
+  */
+  readonly scope?: string;
+}
+
+export function googleContainerClusterNodeConfigKubeletConfigTopologyManagerToTerraform(struct?: GoogleContainerClusterNodeConfigKubeletConfigTopologyManagerOutputReference | GoogleContainerClusterNodeConfigKubeletConfigTopologyManager): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    policy: cdktn.stringToTerraform(struct!.policy),
+    scope: cdktn.stringToTerraform(struct!.scope),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigKubeletConfigTopologyManagerToHclTerraform(struct?: GoogleContainerClusterNodeConfigKubeletConfigTopologyManagerOutputReference | GoogleContainerClusterNodeConfigKubeletConfigTopologyManager): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    policy: {
+      value: cdktn.stringToHclTerraform(struct!.policy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scope: {
+      value: cdktn.stringToHclTerraform(struct!.scope),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigKubeletConfigTopologyManagerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigKubeletConfigTopologyManager | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._policy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policy = this._policy;
+    }
+    if (this._scope !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scope = this._scope;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigKubeletConfigTopologyManager | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._policy = undefined;
+      this._scope = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._policy = value.policy;
+      this._scope = value.scope;
+    }
+  }
+
+  // policy - computed: true, optional: true, required: false
+  private _policy?: string; 
+  public get policy() {
+    return this.getStringAttribute('policy');
+  }
+  public set policy(value: string) {
+    this._policy = value;
+  }
+  public resetPolicy() {
+    this._policy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyInput() {
+    return this._policy;
+  }
+
+  // scope - computed: true, optional: true, required: false
+  private _scope?: string; 
+  public get scope() {
+    return this.getStringAttribute('scope');
+  }
+  public set scope(value: string) {
+    this._scope = value;
+  }
+  public resetScope() {
+    this._scope = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInput() {
+    return this._scope;
+  }
+}
 export interface GoogleContainerClusterNodeConfigKubeletConfig {
   /**
   * Defines a comma-separated allowlist of unsafe sysctls or sysctl patterns which can be set on the Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#allowed_unsafe_sysctls GoogleContainerCluster#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#allowed_unsafe_sysctls GoogleContainerCluster#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
   * Defines the maximum number of container log files that can be present for a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#container_log_max_files GoogleContainerCluster#container_log_max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#container_log_max_files GoogleContainerCluster#container_log_max_files}
   */
   readonly containerLogMaxFiles?: number;
   /**
   * Defines the maximum size of the container log file before it is rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#container_log_max_size GoogleContainerCluster#container_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#container_log_max_size GoogleContainerCluster#container_log_max_size}
   */
   readonly containerLogMaxSize?: string;
   /**
   * Enable CPU CFS quota enforcement for containers that specify CPU limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cpu_cfs_quota GoogleContainerCluster#cpu_cfs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cpu_cfs_quota GoogleContainerCluster#cpu_cfs_quota}
   */
   readonly cpuCfsQuota?: boolean | cdktn.IResolvable;
   /**
   * Set the CPU CFS quota period value 'cpu.cfs_period_us'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cpu_cfs_quota_period GoogleContainerCluster#cpu_cfs_quota_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cpu_cfs_quota_period GoogleContainerCluster#cpu_cfs_quota_period}
   */
   readonly cpuCfsQuotaPeriod?: string;
   /**
   * Control the CPU management policy on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cpu_manager_policy GoogleContainerCluster#cpu_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cpu_manager_policy GoogleContainerCluster#cpu_manager_policy}
   */
   readonly cpuManagerPolicy?: string;
   /**
   * Defines the maximum allowed grace period (in seconds) to use when terminating pods in response to a soft eviction threshold being met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#eviction_max_pod_grace_period_seconds GoogleContainerCluster#eviction_max_pod_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#eviction_max_pod_grace_period_seconds GoogleContainerCluster#eviction_max_pod_grace_period_seconds}
   */
   readonly evictionMaxPodGracePeriodSeconds?: number;
   /**
   * Defines the percent of disk usage after which image garbage collection is always run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#image_gc_high_threshold_percent GoogleContainerCluster#image_gc_high_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#image_gc_high_threshold_percent GoogleContainerCluster#image_gc_high_threshold_percent}
   */
   readonly imageGcHighThresholdPercent?: number;
   /**
   * Defines the percent of disk usage before which image garbage collection is never run. Lowest disk usage to garbage collect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#image_gc_low_threshold_percent GoogleContainerCluster#image_gc_low_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#image_gc_low_threshold_percent GoogleContainerCluster#image_gc_low_threshold_percent}
   */
   readonly imageGcLowThresholdPercent?: number;
   /**
   * Defines the maximum age an image can be unused before it is garbage collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#image_maximum_gc_age GoogleContainerCluster#image_maximum_gc_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#image_maximum_gc_age GoogleContainerCluster#image_maximum_gc_age}
   */
   readonly imageMaximumGcAge?: string;
   /**
   * Defines the minimum age for an unused image before it is garbage collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#image_minimum_gc_age GoogleContainerCluster#image_minimum_gc_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#image_minimum_gc_age GoogleContainerCluster#image_minimum_gc_age}
   */
   readonly imageMinimumGcAge?: string;
   /**
   * Controls whether the kubelet read-only port is enabled. It is strongly recommended to set this to `FALSE`. Possible values: `TRUE`, `FALSE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#insecure_kubelet_readonly_port_enabled GoogleContainerCluster#insecure_kubelet_readonly_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#insecure_kubelet_readonly_port_enabled GoogleContainerCluster#insecure_kubelet_readonly_port_enabled}
   */
   readonly insecureKubeletReadonlyPortEnabled?: string;
   /**
   * Set the maximum number of image pulls in parallel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_parallel_image_pulls GoogleContainerCluster#max_parallel_image_pulls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#max_parallel_image_pulls GoogleContainerCluster#max_parallel_image_pulls}
   */
   readonly maxParallelImagePulls?: number;
   /**
   * Controls the maximum number of processes allowed to run in a pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pod_pids_limit GoogleContainerCluster#pod_pids_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#pod_pids_limit GoogleContainerCluster#pod_pids_limit}
   */
   readonly podPidsLimit?: number;
   /**
   * Defines whether to enable single process OOM killer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#single_process_oom_kill GoogleContainerCluster#single_process_oom_kill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#single_process_oom_kill GoogleContainerCluster#single_process_oom_kill}
   */
   readonly singleProcessOomKill?: boolean | cdktn.IResolvable;
   /**
   * eviction_minimum_reclaim block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#eviction_minimum_reclaim GoogleContainerCluster#eviction_minimum_reclaim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#eviction_minimum_reclaim GoogleContainerCluster#eviction_minimum_reclaim}
   */
   readonly evictionMinimumReclaim?: GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaim;
   /**
   * eviction_soft block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#eviction_soft GoogleContainerCluster#eviction_soft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#eviction_soft GoogleContainerCluster#eviction_soft}
   */
   readonly evictionSoft?: GoogleContainerClusterNodeConfigKubeletConfigEvictionSoft;
   /**
   * eviction_soft_grace_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#eviction_soft_grace_period GoogleContainerCluster#eviction_soft_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#eviction_soft_grace_period GoogleContainerCluster#eviction_soft_grace_period}
   */
   readonly evictionSoftGracePeriod?: GoogleContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriod;
+  /**
+  * memory_manager block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#memory_manager GoogleContainerCluster#memory_manager}
+  */
+  readonly memoryManager?: GoogleContainerClusterNodeConfigKubeletConfigMemoryManager;
+  /**
+  * topology_manager block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#topology_manager GoogleContainerCluster#topology_manager}
+  */
+  readonly topologyManager?: GoogleContainerClusterNodeConfigKubeletConfigTopologyManager;
 }
 
 export function googleContainerClusterNodeConfigKubeletConfigToTerraform(struct?: GoogleContainerClusterNodeConfigKubeletConfigOutputReference | GoogleContainerClusterNodeConfigKubeletConfig): any {
@@ -11246,6 +13924,8 @@ export function googleContainerClusterNodeConfigKubeletConfigToTerraform(struct?
     eviction_minimum_reclaim: googleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaimToTerraform(struct!.evictionMinimumReclaim),
     eviction_soft: googleContainerClusterNodeConfigKubeletConfigEvictionSoftToTerraform(struct!.evictionSoft),
     eviction_soft_grace_period: googleContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodToTerraform(struct!.evictionSoftGracePeriod),
+    memory_manager: googleContainerClusterNodeConfigKubeletConfigMemoryManagerToTerraform(struct!.memoryManager),
+    topology_manager: googleContainerClusterNodeConfigKubeletConfigTopologyManagerToTerraform(struct!.topologyManager),
   }
 }
 
@@ -11364,6 +14044,18 @@ export function googleContainerClusterNodeConfigKubeletConfigToHclTerraform(stru
       type: "list",
       storageClassType: "GoogleContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodList",
     },
+    memory_manager: {
+      value: googleContainerClusterNodeConfigKubeletConfigMemoryManagerToHclTerraform(struct!.memoryManager),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigKubeletConfigMemoryManagerList",
+    },
+    topology_manager: {
+      value: googleContainerClusterNodeConfigKubeletConfigTopologyManagerToHclTerraform(struct!.topologyManager),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigKubeletConfigTopologyManagerList",
+    },
   };
 
   // remove undefined attributes
@@ -11456,6 +14148,14 @@ export class GoogleContainerClusterNodeConfigKubeletConfigOutputReference extend
       hasAnyValues = true;
       internalValueResult.evictionSoftGracePeriod = this._evictionSoftGracePeriod?.internalValue;
     }
+    if (this._memoryManager?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryManager = this._memoryManager?.internalValue;
+    }
+    if (this._topologyManager?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.topologyManager = this._topologyManager?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -11480,6 +14180,8 @@ export class GoogleContainerClusterNodeConfigKubeletConfigOutputReference extend
       this._evictionMinimumReclaim.internalValue = undefined;
       this._evictionSoft.internalValue = undefined;
       this._evictionSoftGracePeriod.internalValue = undefined;
+      this._memoryManager.internalValue = undefined;
+      this._topologyManager.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -11501,6 +14203,8 @@ export class GoogleContainerClusterNodeConfigKubeletConfigOutputReference extend
       this._evictionMinimumReclaim.internalValue = value.evictionMinimumReclaim;
       this._evictionSoft.internalValue = value.evictionSoft;
       this._evictionSoftGracePeriod.internalValue = value.evictionSoftGracePeriod;
+      this._memoryManager.internalValue = value.memoryManager;
+      this._topologyManager.internalValue = value.topologyManager;
     }
   }
 
@@ -11552,7 +14256,7 @@ export class GoogleContainerClusterNodeConfigKubeletConfigOutputReference extend
     return this._containerLogMaxSize;
   }
 
-  // cpu_cfs_quota - computed: false, optional: true, required: false
+  // cpu_cfs_quota - computed: true, optional: true, required: false
   private _cpuCfsQuota?: boolean | cdktn.IResolvable; 
   public get cpuCfsQuota() {
     return this.getBooleanAttribute('cpu_cfs_quota');
@@ -11791,18 +14495,136 @@ export class GoogleContainerClusterNodeConfigKubeletConfigOutputReference extend
   public get evictionSoftGracePeriodInput() {
     return this._evictionSoftGracePeriod.internalValue;
   }
+
+  // memory_manager - computed: false, optional: true, required: false
+  private _memoryManager = new GoogleContainerClusterNodeConfigKubeletConfigMemoryManagerOutputReference(this, "memory_manager");
+  public get memoryManager() {
+    return this._memoryManager;
+  }
+  public putMemoryManager(value: GoogleContainerClusterNodeConfigKubeletConfigMemoryManager) {
+    this._memoryManager.internalValue = value;
+  }
+  public resetMemoryManager() {
+    this._memoryManager.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryManagerInput() {
+    return this._memoryManager.internalValue;
+  }
+
+  // topology_manager - computed: false, optional: true, required: false
+  private _topologyManager = new GoogleContainerClusterNodeConfigKubeletConfigTopologyManagerOutputReference(this, "topology_manager");
+  public get topologyManager() {
+    return this._topologyManager;
+  }
+  public putTopologyManager(value: GoogleContainerClusterNodeConfigKubeletConfigTopologyManager) {
+    this._topologyManager.internalValue = value;
+  }
+  public resetTopologyManager() {
+    this._topologyManager.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topologyManagerInput() {
+    return this._topologyManager.internalValue;
+  }
+}
+export interface GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig {
+  /**
+  * Whether to enable accurate time synchronization with PTP-KVM.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_ptp_kvm_time_sync GoogleContainerCluster#enable_ptp_kvm_time_sync}
+  */
+  readonly enablePtpKvmTimeSync?: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_ptp_kvm_time_sync: cdktn.booleanToTerraform(struct!.enablePtpKvmTimeSync),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigToHclTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_ptp_kvm_time_sync: {
+      value: cdktn.booleanToHclTerraform(struct!.enablePtpKvmTimeSync),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enablePtpKvmTimeSync !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enablePtpKvmTimeSync = this._enablePtpKvmTimeSync;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enablePtpKvmTimeSync = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enablePtpKvmTimeSync = value.enablePtpKvmTimeSync;
+    }
+  }
+
+  // enable_ptp_kvm_time_sync - computed: false, optional: true, required: false
+  private _enablePtpKvmTimeSync?: boolean | cdktn.IResolvable; 
+  public get enablePtpKvmTimeSync() {
+    return this.getBooleanAttribute('enable_ptp_kvm_time_sync');
+  }
+  public set enablePtpKvmTimeSync(value: boolean | cdktn.IResolvable) {
+    this._enablePtpKvmTimeSync = value;
+  }
+  public resetEnablePtpKvmTimeSync() {
+    this._enablePtpKvmTimeSync = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enablePtpKvmTimeSyncInput() {
+    return this._enablePtpKvmTimeSync;
+  }
 }
 export interface GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig {
   /**
   * Amount of 1G hugepages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#hugepage_size_1g GoogleContainerCluster#hugepage_size_1g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#hugepage_size_1g GoogleContainerCluster#hugepage_size_1g}
   */
   readonly hugepageSize1G?: number;
   /**
   * Amount of 2M hugepages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#hugepage_size_2m GoogleContainerCluster#hugepage_size_2m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#hugepage_size_2m GoogleContainerCluster#hugepage_size_2m}
   */
   readonly hugepageSize2M?: number;
 }
@@ -11913,37 +14735,781 @@ export class GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutpu
     return this._hugepageSize2M;
   }
 }
+export interface GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading {
+  /**
+  * The policy for kernel module loading.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#policy GoogleContainerCluster#policy}
+  */
+  readonly policy?: string;
+}
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    policy: cdktn.stringToTerraform(struct!.policy),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingToHclTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    policy: {
+      value: cdktn.stringToHclTerraform(struct!.policy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._policy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policy = this._policy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._policy = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._policy = value.policy;
+    }
+  }
+
+  // policy - computed: false, optional: true, required: false
+  private _policy?: string; 
+  public get policy() {
+    return this.getStringAttribute('policy');
+  }
+  public set policy(value: string) {
+    this._policy = value;
+  }
+  public resetPolicy() {
+    this._policy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyInput() {
+    return this._policy;
+  }
+}
+export interface GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile {
+  /**
+  * Specifies the size of the swap space in gibibytes (GiB).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#swap_size_gib GoogleContainerCluster#swap_size_gib}
+  */
+  readonly swapSizeGib?: number;
+  /**
+  * Specifies the size of the swap space as a percentage of the boot disk size.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#swap_size_percent GoogleContainerCluster#swap_size_percent}
+  */
+  readonly swapSizePercent?: number;
+}
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    swap_size_gib: cdktn.numberToTerraform(struct!.swapSizeGib),
+    swap_size_percent: cdktn.numberToTerraform(struct!.swapSizePercent),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileToHclTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    swap_size_gib: {
+      value: cdktn.numberToHclTerraform(struct!.swapSizeGib),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    swap_size_percent: {
+      value: cdktn.numberToHclTerraform(struct!.swapSizePercent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._swapSizeGib !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.swapSizeGib = this._swapSizeGib;
+    }
+    if (this._swapSizePercent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.swapSizePercent = this._swapSizePercent;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._swapSizeGib = undefined;
+      this._swapSizePercent = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._swapSizeGib = value.swapSizeGib;
+      this._swapSizePercent = value.swapSizePercent;
+    }
+  }
+
+  // swap_size_gib - computed: false, optional: true, required: false
+  private _swapSizeGib?: number; 
+  public get swapSizeGib() {
+    return this.getNumberAttribute('swap_size_gib');
+  }
+  public set swapSizeGib(value: number) {
+    this._swapSizeGib = value;
+  }
+  public resetSwapSizeGib() {
+    this._swapSizeGib = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swapSizeGibInput() {
+    return this._swapSizeGib;
+  }
+
+  // swap_size_percent - computed: false, optional: true, required: false
+  private _swapSizePercent?: number; 
+  public get swapSizePercent() {
+    return this.getNumberAttribute('swap_size_percent');
+  }
+  public set swapSizePercent(value: number) {
+    this._swapSizePercent = value;
+  }
+  public resetSwapSizePercent() {
+    this._swapSizePercent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swapSizePercentInput() {
+    return this._swapSizePercent;
+  }
+}
+export interface GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile {
+  /**
+  * The number of physical local NVMe SSD disks to attach.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disk_count GoogleContainerCluster#disk_count}
+  */
+  readonly diskCount?: number;
+}
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disk_count: cdktn.numberToTerraform(struct!.diskCount),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileToHclTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disk_count: {
+      value: cdktn.numberToHclTerraform(struct!.diskCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._diskCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskCount = this._diskCount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._diskCount = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._diskCount = value.diskCount;
+    }
+  }
+
+  // disk_count - computed: false, optional: true, required: false
+  private _diskCount?: number; 
+  public get diskCount() {
+    return this.getNumberAttribute('disk_count');
+  }
+  public set diskCount(value: number) {
+    this._diskCount = value;
+  }
+  public resetDiskCount() {
+    this._diskCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskCountInput() {
+    return this._diskCount;
+  }
+}
+export interface GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig {
+  /**
+  * If true, swap space will not be encrypted. Defaults to false (encrypted).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
+  */
+  readonly disabled?: boolean | cdktn.IResolvable;
+}
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigToHclTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disabled: {
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disabled = this._disabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disabled = value.disabled;
+    }
+  }
+
+  // disabled - computed: false, optional: true, required: false
+  private _disabled?: boolean | cdktn.IResolvable; 
+  public get disabled() {
+    return this.getBooleanAttribute('disabled');
+  }
+  public set disabled(value: boolean | cdktn.IResolvable) {
+    this._disabled = value;
+  }
+  public resetDisabled() {
+    this._disabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disabledInput() {
+    return this._disabled;
+  }
+}
+export interface GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile {
+  /**
+  * Specifies the size of the swap space in gibibytes (GiB).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#swap_size_gib GoogleContainerCluster#swap_size_gib}
+  */
+  readonly swapSizeGib?: number;
+  /**
+  * Specifies the size of the swap space as a percentage of the ephemeral local SSD capacity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#swap_size_percent GoogleContainerCluster#swap_size_percent}
+  */
+  readonly swapSizePercent?: number;
+}
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    swap_size_gib: cdktn.numberToTerraform(struct!.swapSizeGib),
+    swap_size_percent: cdktn.numberToTerraform(struct!.swapSizePercent),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileToHclTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    swap_size_gib: {
+      value: cdktn.numberToHclTerraform(struct!.swapSizeGib),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    swap_size_percent: {
+      value: cdktn.numberToHclTerraform(struct!.swapSizePercent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._swapSizeGib !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.swapSizeGib = this._swapSizeGib;
+    }
+    if (this._swapSizePercent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.swapSizePercent = this._swapSizePercent;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._swapSizeGib = undefined;
+      this._swapSizePercent = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._swapSizeGib = value.swapSizeGib;
+      this._swapSizePercent = value.swapSizePercent;
+    }
+  }
+
+  // swap_size_gib - computed: false, optional: true, required: false
+  private _swapSizeGib?: number; 
+  public get swapSizeGib() {
+    return this.getNumberAttribute('swap_size_gib');
+  }
+  public set swapSizeGib(value: number) {
+    this._swapSizeGib = value;
+  }
+  public resetSwapSizeGib() {
+    this._swapSizeGib = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swapSizeGibInput() {
+    return this._swapSizeGib;
+  }
+
+  // swap_size_percent - computed: false, optional: true, required: false
+  private _swapSizePercent?: number; 
+  public get swapSizePercent() {
+    return this.getNumberAttribute('swap_size_percent');
+  }
+  public set swapSizePercent(value: number) {
+    this._swapSizePercent = value;
+  }
+  public resetSwapSizePercent() {
+    this._swapSizePercent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swapSizePercentInput() {
+    return this._swapSizePercent;
+  }
+}
+export interface GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig {
+  /**
+  * Enables or disables swap for the node pool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
+  */
+  readonly enabled?: boolean | cdktn.IResolvable;
+  /**
+  * boot_disk_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#boot_disk_profile GoogleContainerCluster#boot_disk_profile}
+  */
+  readonly bootDiskProfile?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile;
+  /**
+  * dedicated_local_ssd_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#dedicated_local_ssd_profile GoogleContainerCluster#dedicated_local_ssd_profile}
+  */
+  readonly dedicatedLocalSsdProfile?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile;
+  /**
+  * encryption_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#encryption_config GoogleContainerCluster#encryption_config}
+  */
+  readonly encryptionConfig?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig;
+  /**
+  * ephemeral_local_ssd_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ephemeral_local_ssd_profile GoogleContainerCluster#ephemeral_local_ssd_profile}
+  */
+  readonly ephemeralLocalSsdProfile?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile;
+}
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+    boot_disk_profile: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileToTerraform(struct!.bootDiskProfile),
+    dedicated_local_ssd_profile: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileToTerraform(struct!.dedicatedLocalSsdProfile),
+    encryption_config: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigToTerraform(struct!.encryptionConfig),
+    ephemeral_local_ssd_profile: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileToTerraform(struct!.ephemeralLocalSsdProfile),
+  }
+}
+
+
+export function googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigToHclTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    boot_disk_profile: {
+      value: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileToHclTerraform(struct!.bootDiskProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileList",
+    },
+    dedicated_local_ssd_profile: {
+      value: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileToHclTerraform(struct!.dedicatedLocalSsdProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileList",
+    },
+    encryption_config: {
+      value: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigToHclTerraform(struct!.encryptionConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigList",
+    },
+    ephemeral_local_ssd_profile: {
+      value: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileToHclTerraform(struct!.ephemeralLocalSsdProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._bootDiskProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProfile = this._bootDiskProfile?.internalValue;
+    }
+    if (this._dedicatedLocalSsdProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dedicatedLocalSsdProfile = this._dedicatedLocalSsdProfile?.internalValue;
+    }
+    if (this._encryptionConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionConfig = this._encryptionConfig?.internalValue;
+    }
+    if (this._ephemeralLocalSsdProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ephemeralLocalSsdProfile = this._ephemeralLocalSsdProfile?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._bootDiskProfile.internalValue = undefined;
+      this._dedicatedLocalSsdProfile.internalValue = undefined;
+      this._encryptionConfig.internalValue = undefined;
+      this._ephemeralLocalSsdProfile.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._bootDiskProfile.internalValue = value.bootDiskProfile;
+      this._dedicatedLocalSsdProfile.internalValue = value.dedicatedLocalSsdProfile;
+      this._encryptionConfig.internalValue = value.encryptionConfig;
+      this._ephemeralLocalSsdProfile.internalValue = value.ephemeralLocalSsdProfile;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // boot_disk_profile - computed: false, optional: true, required: false
+  private _bootDiskProfile = new GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference(this, "boot_disk_profile");
+  public get bootDiskProfile() {
+    return this._bootDiskProfile;
+  }
+  public putBootDiskProfile(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile) {
+    this._bootDiskProfile.internalValue = value;
+  }
+  public resetBootDiskProfile() {
+    this._bootDiskProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProfileInput() {
+    return this._bootDiskProfile.internalValue;
+  }
+
+  // dedicated_local_ssd_profile - computed: false, optional: true, required: false
+  private _dedicatedLocalSsdProfile = new GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference(this, "dedicated_local_ssd_profile");
+  public get dedicatedLocalSsdProfile() {
+    return this._dedicatedLocalSsdProfile;
+  }
+  public putDedicatedLocalSsdProfile(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile) {
+    this._dedicatedLocalSsdProfile.internalValue = value;
+  }
+  public resetDedicatedLocalSsdProfile() {
+    this._dedicatedLocalSsdProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dedicatedLocalSsdProfileInput() {
+    return this._dedicatedLocalSsdProfile.internalValue;
+  }
+
+  // encryption_config - computed: false, optional: true, required: false
+  private _encryptionConfig = new GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference(this, "encryption_config");
+  public get encryptionConfig() {
+    return this._encryptionConfig;
+  }
+  public putEncryptionConfig(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig) {
+    this._encryptionConfig.internalValue = value;
+  }
+  public resetEncryptionConfig() {
+    this._encryptionConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionConfigInput() {
+    return this._encryptionConfig.internalValue;
+  }
+
+  // ephemeral_local_ssd_profile - computed: false, optional: true, required: false
+  private _ephemeralLocalSsdProfile = new GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference(this, "ephemeral_local_ssd_profile");
+  public get ephemeralLocalSsdProfile() {
+    return this._ephemeralLocalSsdProfile;
+  }
+  public putEphemeralLocalSsdProfile(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile) {
+    this._ephemeralLocalSsdProfile.internalValue = value;
+  }
+  public resetEphemeralLocalSsdProfile() {
+    this._ephemeralLocalSsdProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ephemeralLocalSsdProfileInput() {
+    return this._ephemeralLocalSsdProfile.internalValue;
+  }
+}
 export interface GoogleContainerClusterNodeConfigLinuxNodeConfig {
   /**
   * cgroupMode specifies the cgroup mode to be used on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#cgroup_mode GoogleContainerCluster#cgroup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#cgroup_mode GoogleContainerCluster#cgroup_mode}
   */
   readonly cgroupMode?: string;
   /**
   * The Linux kernel parameters to be applied to the nodes and all pods running on the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#sysctls GoogleContainerCluster#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#sysctls GoogleContainerCluster#sysctls}
   */
   readonly sysctls?: { [key: string]: string };
   /**
   * The Linux kernel transparent hugepage defrag setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#transparent_hugepage_defrag GoogleContainerCluster#transparent_hugepage_defrag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#transparent_hugepage_defrag GoogleContainerCluster#transparent_hugepage_defrag}
   */
   readonly transparentHugepageDefrag?: string;
   /**
   * The Linux kernel transparent hugepage setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#transparent_hugepage_enabled GoogleContainerCluster#transparent_hugepage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#transparent_hugepage_enabled GoogleContainerCluster#transparent_hugepage_enabled}
   */
   readonly transparentHugepageEnabled?: string;
   /**
+  * accurate_time_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#accurate_time_config GoogleContainerCluster#accurate_time_config}
+  */
+  readonly accurateTimeConfig?: GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig;
+  /**
   * hugepages_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#hugepages_config GoogleContainerCluster#hugepages_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#hugepages_config GoogleContainerCluster#hugepages_config}
   */
   readonly hugepagesConfig?: GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig;
+  /**
+  * node_kernel_module_loading block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#node_kernel_module_loading GoogleContainerCluster#node_kernel_module_loading}
+  */
+  readonly nodeKernelModuleLoading?: GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading;
+  /**
+  * swap_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#swap_config GoogleContainerCluster#swap_config}
+  */
+  readonly swapConfig?: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig;
 }
 
 export function googleContainerClusterNodeConfigLinuxNodeConfigToTerraform(struct?: GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference | GoogleContainerClusterNodeConfigLinuxNodeConfig): any {
@@ -11956,7 +15522,10 @@ export function googleContainerClusterNodeConfigLinuxNodeConfigToTerraform(struc
     sysctls: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.sysctls),
     transparent_hugepage_defrag: cdktn.stringToTerraform(struct!.transparentHugepageDefrag),
     transparent_hugepage_enabled: cdktn.stringToTerraform(struct!.transparentHugepageEnabled),
+    accurate_time_config: googleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigToTerraform(struct!.accurateTimeConfig),
     hugepages_config: googleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigToTerraform(struct!.hugepagesConfig),
+    node_kernel_module_loading: googleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingToTerraform(struct!.nodeKernelModuleLoading),
+    swap_config: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigToTerraform(struct!.swapConfig),
   }
 }
 
@@ -11991,11 +15560,29 @@ export function googleContainerClusterNodeConfigLinuxNodeConfigToHclTerraform(st
       type: "simple",
       storageClassType: "string",
     },
+    accurate_time_config: {
+      value: googleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigToHclTerraform(struct!.accurateTimeConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigList",
+    },
     hugepages_config: {
       value: googleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigToHclTerraform(struct!.hugepagesConfig),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigList",
+    },
+    node_kernel_module_loading: {
+      value: googleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingToHclTerraform(struct!.nodeKernelModuleLoading),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingList",
+    },
+    swap_config: {
+      value: googleContainerClusterNodeConfigLinuxNodeConfigSwapConfigToHclTerraform(struct!.swapConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigList",
     },
   };
 
@@ -12033,9 +15620,21 @@ export class GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference exte
       hasAnyValues = true;
       internalValueResult.transparentHugepageEnabled = this._transparentHugepageEnabled;
     }
+    if (this._accurateTimeConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accurateTimeConfig = this._accurateTimeConfig?.internalValue;
+    }
     if (this._hugepagesConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.hugepagesConfig = this._hugepagesConfig?.internalValue;
+    }
+    if (this._nodeKernelModuleLoading?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeKernelModuleLoading = this._nodeKernelModuleLoading?.internalValue;
+    }
+    if (this._swapConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.swapConfig = this._swapConfig?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -12047,7 +15646,10 @@ export class GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference exte
       this._sysctls = undefined;
       this._transparentHugepageDefrag = undefined;
       this._transparentHugepageEnabled = undefined;
+      this._accurateTimeConfig.internalValue = undefined;
       this._hugepagesConfig.internalValue = undefined;
+      this._nodeKernelModuleLoading.internalValue = undefined;
+      this._swapConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -12055,7 +15657,10 @@ export class GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference exte
       this._sysctls = value.sysctls;
       this._transparentHugepageDefrag = value.transparentHugepageDefrag;
       this._transparentHugepageEnabled = value.transparentHugepageEnabled;
+      this._accurateTimeConfig.internalValue = value.accurateTimeConfig;
       this._hugepagesConfig.internalValue = value.hugepagesConfig;
+      this._nodeKernelModuleLoading.internalValue = value.nodeKernelModuleLoading;
+      this._swapConfig.internalValue = value.swapConfig;
     }
   }
 
@@ -12123,6 +15728,22 @@ export class GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference exte
     return this._transparentHugepageEnabled;
   }
 
+  // accurate_time_config - computed: false, optional: true, required: false
+  private _accurateTimeConfig = new GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference(this, "accurate_time_config");
+  public get accurateTimeConfig() {
+    return this._accurateTimeConfig;
+  }
+  public putAccurateTimeConfig(value: GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig) {
+    this._accurateTimeConfig.internalValue = value;
+  }
+  public resetAccurateTimeConfig() {
+    this._accurateTimeConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accurateTimeConfigInput() {
+    return this._accurateTimeConfig.internalValue;
+  }
+
   // hugepages_config - computed: false, optional: true, required: false
   private _hugepagesConfig = new GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference(this, "hugepages_config");
   public get hugepagesConfig() {
@@ -12138,12 +15759,44 @@ export class GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference exte
   public get hugepagesConfigInput() {
     return this._hugepagesConfig.internalValue;
   }
+
+  // node_kernel_module_loading - computed: false, optional: true, required: false
+  private _nodeKernelModuleLoading = new GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference(this, "node_kernel_module_loading");
+  public get nodeKernelModuleLoading() {
+    return this._nodeKernelModuleLoading;
+  }
+  public putNodeKernelModuleLoading(value: GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading) {
+    this._nodeKernelModuleLoading.internalValue = value;
+  }
+  public resetNodeKernelModuleLoading() {
+    this._nodeKernelModuleLoading.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeKernelModuleLoadingInput() {
+    return this._nodeKernelModuleLoading.internalValue;
+  }
+
+  // swap_config - computed: false, optional: true, required: false
+  private _swapConfig = new GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigOutputReference(this, "swap_config");
+  public get swapConfig() {
+    return this._swapConfig;
+  }
+  public putSwapConfig(value: GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig) {
+    this._swapConfig.internalValue = value;
+  }
+  public resetSwapConfig() {
+    this._swapConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swapConfigInput() {
+    return this._swapConfig.internalValue;
+  }
 }
 export interface GoogleContainerClusterNodeConfigLocalNvmeSsdBlockConfig {
   /**
   * Number of raw-block local NVMe SSD disks to be attached to the node. Each local SSD is 375 GB in size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
   */
   readonly localSsdCount: number;
 }
@@ -12226,19 +15879,19 @@ export interface GoogleContainerClusterNodeConfigReservationAffinity {
   /**
   * Corresponds to the type of reservation consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#consume_reservation_type GoogleContainerCluster#consume_reservation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#consume_reservation_type GoogleContainerCluster#consume_reservation_type}
   */
   readonly consumeReservationType: string;
   /**
   * The label key of a reservation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
   */
   readonly key?: string;
   /**
   * The label values of the reservation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#values GoogleContainerCluster#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#values GoogleContainerCluster#values}
   */
   readonly values?: string[];
 }
@@ -12377,11 +16030,17 @@ export class GoogleContainerClusterNodeConfigReservationAffinityOutputReference 
 }
 export interface GoogleContainerClusterNodeConfigSandboxConfig {
   /**
-  * Type of the sandbox to use for the node (e.g. 'gvisor')
+  * Type of the sandbox to use for the node (e.g. 'gvisor'). Deprecated in favor of type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#sandbox_type GoogleContainerCluster#sandbox_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#sandbox_type GoogleContainerCluster#sandbox_type}
   */
-  readonly sandboxType: string;
+  readonly sandboxType?: string;
+  /**
+  * Type of the sandbox to use for the node (e.g. 'GVISOR').
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#type GoogleContainerCluster#type}
+  */
+  readonly type?: string;
 }
 
 export function googleContainerClusterNodeConfigSandboxConfigToTerraform(struct?: GoogleContainerClusterNodeConfigSandboxConfigOutputReference | GoogleContainerClusterNodeConfigSandboxConfig): any {
@@ -12391,6 +16050,7 @@ export function googleContainerClusterNodeConfigSandboxConfigToTerraform(struct?
   }
   return {
     sandbox_type: cdktn.stringToTerraform(struct!.sandboxType),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
@@ -12403,6 +16063,12 @@ export function googleContainerClusterNodeConfigSandboxConfigToHclTerraform(stru
   const attrs = {
     sandbox_type: {
       value: cdktn.stringToHclTerraform(struct!.sandboxType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -12431,6 +16097,10 @@ export class GoogleContainerClusterNodeConfigSandboxConfigOutputReference extend
       hasAnyValues = true;
       internalValueResult.sandboxType = this._sandboxType;
     }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -12438,14 +16108,16 @@ export class GoogleContainerClusterNodeConfigSandboxConfigOutputReference extend
     if (value === undefined) {
       this.isEmptyObject = false;
       this._sandboxType = undefined;
+      this._type = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._sandboxType = value.sandboxType;
+      this._type = value.type;
     }
   }
 
-  // sandbox_type - computed: false, optional: false, required: true
+  // sandbox_type - computed: false, optional: true, required: false
   private _sandboxType?: string; 
   public get sandboxType() {
     return this.getStringAttribute('sandbox_type');
@@ -12453,22 +16125,41 @@ export class GoogleContainerClusterNodeConfigSandboxConfigOutputReference extend
   public set sandboxType(value: string) {
     this._sandboxType = value;
   }
+  public resetSandboxType() {
+    this._sandboxType = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get sandboxTypeInput() {
     return this._sandboxType;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
   }
 }
 export interface GoogleContainerClusterNodeConfigSecondaryBootDisks {
   /**
   * Disk image to create the secondary boot disk from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disk_image GoogleContainerCluster#disk_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disk_image GoogleContainerCluster#disk_image}
   */
   readonly diskImage: string;
   /**
   * Mode for how the secondary boot disk is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#mode GoogleContainerCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#mode GoogleContainerCluster#mode}
   */
   readonly mode?: string;
 }
@@ -12612,13 +16303,13 @@ export interface GoogleContainerClusterNodeConfigShieldedInstanceConfig {
   /**
   * Defines whether the instance has integrity monitoring enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_integrity_monitoring GoogleContainerCluster#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_integrity_monitoring GoogleContainerCluster#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Defines whether the instance has Secure Boot enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_secure_boot GoogleContainerCluster#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_secure_boot GoogleContainerCluster#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktn.IResolvable;
 }
@@ -12733,19 +16424,19 @@ export interface GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinity {
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
   */
   readonly key: string;
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#operator GoogleContainerCluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#operator GoogleContainerCluster#operator}
   */
   readonly operator: string;
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#values GoogleContainerCluster#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#values GoogleContainerCluster#values}
   */
   readonly values: string[];
 }
@@ -12912,13 +16603,13 @@ export interface GoogleContainerClusterNodeConfigSoleTenantConfig {
   /**
   * Specifies the minimum number of vCPUs that each sole tenant node must have to use CPU overcommit. If not specified, the CPU overcommit feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#min_node_cpus GoogleContainerCluster#min_node_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#min_node_cpus GoogleContainerCluster#min_node_cpus}
   */
   readonly minNodeCpus?: number;
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#node_affinity GoogleContainerCluster#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#node_affinity GoogleContainerCluster#node_affinity}
   */
   readonly nodeAffinity: GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinity[] | cdktn.IResolvable;
 }
@@ -13030,19 +16721,19 @@ export interface GoogleContainerClusterNodeConfigTaint {
   /**
   * Effect for taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#effect GoogleContainerCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#effect GoogleContainerCluster#effect}
   */
   readonly effect: string;
   /**
   * Key for taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#key GoogleContainerCluster#key}
   */
   readonly key: string;
   /**
   * Value for taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#value GoogleContainerCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#value GoogleContainerCluster#value}
   */
   readonly value: string;
 }
@@ -13209,7 +16900,7 @@ export interface GoogleContainerClusterNodeConfigWindowsNodeConfig {
   /**
   * The OS Version of the windows nodepool.Values are OS_VERSION_UNSPECIFIED,OS_VERSION_LTSC2019 and OS_VERSION_LTSC2022
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#osversion GoogleContainerCluster#osversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#osversion GoogleContainerCluster#osversion}
   */
   readonly osversion?: string;
 }
@@ -13295,7 +16986,7 @@ export interface GoogleContainerClusterNodeConfigWorkloadMetadataConfig {
   /**
   * Mode is the configuration for how to expose metadata to workloads running on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#mode GoogleContainerCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#mode GoogleContainerCluster#mode}
   */
   readonly mode: string;
 }
@@ -13378,271 +17069,271 @@ export interface GoogleContainerClusterNodeConfig {
   /**
   * The Customer Managed Encryption Key used to encrypt the boot disk attached to each node in the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#boot_disk_kms_key GoogleContainerCluster#boot_disk_kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#boot_disk_kms_key GoogleContainerCluster#boot_disk_kms_key}
   */
   readonly bootDiskKmsKey?: string;
   /**
   * Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disk_size_gb GoogleContainerCluster#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disk_size_gb GoogleContainerCluster#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disk_type GoogleContainerCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#disk_type GoogleContainerCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * If enabled boot disks are configured with confidential mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_confidential_storage GoogleContainerCluster#enable_confidential_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#enable_confidential_storage GoogleContainerCluster#enable_confidential_storage}
   */
   readonly enableConfidentialStorage?: boolean | cdktn.IResolvable;
   /**
   * Enables Flex Start provisioning model for the node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#flex_start GoogleContainerCluster#flex_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#flex_start GoogleContainerCluster#flex_start}
   */
   readonly flexStart?: boolean | cdktn.IResolvable;
   /**
   * The image type to use for this node. Note that for a given image type, the latest version of it will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#image_type GoogleContainerCluster#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#image_type GoogleContainerCluster#image_type}
   */
   readonly imageType?: string;
   /**
   * The map of Kubernetes labels (key/value pairs) to be applied to each node. These will added in addition to any default label(s) that Kubernetes may apply to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#labels GoogleContainerCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#labels GoogleContainerCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The number of local SSD disks to be attached to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
   */
   readonly localSsdCount?: number;
   /**
   * LocalSsdEncryptionMode specified the method used for encrypting the local SSDs attached to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_ssd_encryption_mode GoogleContainerCluster#local_ssd_encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#local_ssd_encryption_mode GoogleContainerCluster#local_ssd_encryption_mode}
   */
   readonly localSsdEncryptionMode?: string;
   /**
   * Type of logging agent that is used as the default value for node pools in the cluster. Valid values include DEFAULT and MAX_THROUGHPUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#logging_variant GoogleContainerCluster#logging_variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#logging_variant GoogleContainerCluster#logging_variant}
   */
   readonly loggingVariant?: string;
   /**
   * The name of a Google Compute Engine machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#machine_type GoogleContainerCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#machine_type GoogleContainerCluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * The runtime of each node in the node pool in seconds, terminated by 's'. Example: "3600s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_run_duration GoogleContainerCluster#max_run_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#max_run_duration GoogleContainerCluster#max_run_duration}
   */
   readonly maxRunDuration?: string;
   /**
   * The metadata key/value pairs assigned to instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#metadata GoogleContainerCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#metadata GoogleContainerCluster#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Minimum CPU platform to be used by this instance. The instance may be scheduled on the specified or newer CPU platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#min_cpu_platform GoogleContainerCluster#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#min_cpu_platform GoogleContainerCluster#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * Setting this field will assign instances of this pool to run on the specified node group. This is useful for running workloads on sole tenant nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#node_group GoogleContainerCluster#node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#node_group GoogleContainerCluster#node_group}
   */
   readonly nodeGroup?: string;
   /**
   * The set of Google API scopes to be made available on all of the node VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#oauth_scopes GoogleContainerCluster#oauth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#oauth_scopes GoogleContainerCluster#oauth_scopes}
   */
   readonly oauthScopes?: string[];
   /**
   * Whether the nodes are created as preemptible VM instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#preemptible GoogleContainerCluster#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#preemptible GoogleContainerCluster#preemptible}
   */
   readonly preemptible?: boolean | cdktn.IResolvable;
   /**
   * The GCE resource labels (a map of key/value pairs) to be applied to the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#resource_labels GoogleContainerCluster#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#resource_labels GoogleContainerCluster#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * A map of resource manager tags. Resource manager tag keys and values have the same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/456. The field is ignored (both PUT & PATCH) when empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#resource_manager_tags GoogleContainerCluster#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#resource_manager_tags GoogleContainerCluster#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
   /**
   * The Google Cloud Platform Service Account to be used by the node VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#service_account GoogleContainerCluster#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#service_account GoogleContainerCluster#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Whether the nodes are created as spot VM instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#spot GoogleContainerCluster#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#spot GoogleContainerCluster#spot}
   */
   readonly spot?: boolean | cdktn.IResolvable;
   /**
   * The list of Storage Pools where boot disks are provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#storage_pools GoogleContainerCluster#storage_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#storage_pools GoogleContainerCluster#storage_pools}
   */
   readonly storagePools?: string[];
   /**
   * The list of instance tags applied to all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#tags GoogleContainerCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#tags GoogleContainerCluster#tags}
   */
   readonly tags?: string[];
   /**
   * advanced_machine_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#advanced_machine_features GoogleContainerCluster#advanced_machine_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#advanced_machine_features GoogleContainerCluster#advanced_machine_features}
   */
   readonly advancedMachineFeatures?: GoogleContainerClusterNodeConfigAdvancedMachineFeatures;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#boot_disk GoogleContainerCluster#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#boot_disk GoogleContainerCluster#boot_disk}
   */
   readonly bootDisk?: GoogleContainerClusterNodeConfigBootDisk;
   /**
   * confidential_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#confidential_nodes GoogleContainerCluster#confidential_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#confidential_nodes GoogleContainerCluster#confidential_nodes}
   */
   readonly confidentialNodes?: GoogleContainerClusterNodeConfigConfidentialNodes;
   /**
   * containerd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#containerd_config GoogleContainerCluster#containerd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#containerd_config GoogleContainerCluster#containerd_config}
   */
   readonly containerdConfig?: GoogleContainerClusterNodeConfigContainerdConfig;
   /**
   * ephemeral_storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#ephemeral_storage_config GoogleContainerCluster#ephemeral_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ephemeral_storage_config GoogleContainerCluster#ephemeral_storage_config}
   */
   readonly ephemeralStorageConfig?: GoogleContainerClusterNodeConfigEphemeralStorageConfig;
   /**
   * ephemeral_storage_local_ssd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#ephemeral_storage_local_ssd_config GoogleContainerCluster#ephemeral_storage_local_ssd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#ephemeral_storage_local_ssd_config GoogleContainerCluster#ephemeral_storage_local_ssd_config}
   */
   readonly ephemeralStorageLocalSsdConfig?: GoogleContainerClusterNodeConfigEphemeralStorageLocalSsdConfig;
   /**
   * fast_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#fast_socket GoogleContainerCluster#fast_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#fast_socket GoogleContainerCluster#fast_socket}
   */
   readonly fastSocket?: GoogleContainerClusterNodeConfigFastSocket;
   /**
   * gcfs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gcfs_config GoogleContainerCluster#gcfs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gcfs_config GoogleContainerCluster#gcfs_config}
   */
   readonly gcfsConfig?: GoogleContainerClusterNodeConfigGcfsConfig;
   /**
   * guest_accelerator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#guest_accelerator GoogleContainerCluster#guest_accelerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#guest_accelerator GoogleContainerCluster#guest_accelerator}
   */
   readonly guestAccelerator?: GoogleContainerClusterNodeConfigGuestAccelerator[] | cdktn.IResolvable;
   /**
   * gvnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gvnic GoogleContainerCluster#gvnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#gvnic GoogleContainerCluster#gvnic}
   */
   readonly gvnic?: GoogleContainerClusterNodeConfigGvnic;
   /**
   * host_maintenance_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#host_maintenance_policy GoogleContainerCluster#host_maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#host_maintenance_policy GoogleContainerCluster#host_maintenance_policy}
   */
   readonly hostMaintenancePolicy?: GoogleContainerClusterNodeConfigHostMaintenancePolicy;
   /**
   * kubelet_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#kubelet_config GoogleContainerCluster#kubelet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#kubelet_config GoogleContainerCluster#kubelet_config}
   */
   readonly kubeletConfig?: GoogleContainerClusterNodeConfigKubeletConfig;
   /**
   * linux_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#linux_node_config GoogleContainerCluster#linux_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#linux_node_config GoogleContainerCluster#linux_node_config}
   */
   readonly linuxNodeConfig?: GoogleContainerClusterNodeConfigLinuxNodeConfig;
   /**
   * local_nvme_ssd_block_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_nvme_ssd_block_config GoogleContainerCluster#local_nvme_ssd_block_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#local_nvme_ssd_block_config GoogleContainerCluster#local_nvme_ssd_block_config}
   */
   readonly localNvmeSsdBlockConfig?: GoogleContainerClusterNodeConfigLocalNvmeSsdBlockConfig;
   /**
   * reservation_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#reservation_affinity GoogleContainerCluster#reservation_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#reservation_affinity GoogleContainerCluster#reservation_affinity}
   */
   readonly reservationAffinity?: GoogleContainerClusterNodeConfigReservationAffinity;
   /**
   * sandbox_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#sandbox_config GoogleContainerCluster#sandbox_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#sandbox_config GoogleContainerCluster#sandbox_config}
   */
   readonly sandboxConfig?: GoogleContainerClusterNodeConfigSandboxConfig;
   /**
   * secondary_boot_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#secondary_boot_disks GoogleContainerCluster#secondary_boot_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#secondary_boot_disks GoogleContainerCluster#secondary_boot_disks}
   */
   readonly secondaryBootDisks?: GoogleContainerClusterNodeConfigSecondaryBootDisks[] | cdktn.IResolvable;
   /**
   * shielded_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#shielded_instance_config GoogleContainerCluster#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#shielded_instance_config GoogleContainerCluster#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: GoogleContainerClusterNodeConfigShieldedInstanceConfig;
   /**
   * sole_tenant_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#sole_tenant_config GoogleContainerCluster#sole_tenant_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#sole_tenant_config GoogleContainerCluster#sole_tenant_config}
   */
   readonly soleTenantConfig?: GoogleContainerClusterNodeConfigSoleTenantConfig;
   /**
   * taint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#taint GoogleContainerCluster#taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#taint GoogleContainerCluster#taint}
   */
   readonly taint?: GoogleContainerClusterNodeConfigTaint[] | cdktn.IResolvable;
   /**
   * windows_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#windows_node_config GoogleContainerCluster#windows_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#windows_node_config GoogleContainerCluster#windows_node_config}
   */
   readonly windowsNodeConfig?: GoogleContainerClusterNodeConfigWindowsNodeConfig;
   /**
   * workload_metadata_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#workload_metadata_config GoogleContainerCluster#workload_metadata_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#workload_metadata_config GoogleContainerCluster#workload_metadata_config}
   */
   readonly workloadMetadataConfig?: GoogleContainerClusterNodeConfigWorkloadMetadataConfig;
 }
@@ -15010,31 +18701,31 @@ export interface GoogleContainerClusterNodePoolAutoscaling {
   /**
   * Location policy specifies the algorithm used when scaling-up the node pool. "BALANCED" - Is a best effort policy that aims to balance the sizes of available zones. "ANY" - Instructs the cluster autoscaler to prioritize utilization of unused reservations, and reduces preemption risk for Spot VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#location_policy GoogleContainerCluster#location_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#location_policy GoogleContainerCluster#location_policy}
   */
   readonly locationPolicy?: string;
   /**
   * Maximum number of nodes per zone in the node pool. Must be >= min_node_count. Cannot be used with total limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_node_count GoogleContainerCluster#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#max_node_count GoogleContainerCluster#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * Minimum number of nodes per zone in the node pool. Must be >=0 and <= max_node_count. Cannot be used with total limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#min_node_count GoogleContainerCluster#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#min_node_count GoogleContainerCluster#min_node_count}
   */
   readonly minNodeCount?: number;
   /**
   * Maximum number of all nodes in the node pool. Must be >= total_min_node_count. Cannot be used with per zone limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#total_max_node_count GoogleContainerCluster#total_max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#total_max_node_count GoogleContainerCluster#total_max_node_count}
   */
   readonly totalMaxNodeCount?: number;
   /**
   * Minimum number of all nodes in the node pool. Must be >=0 and <= total_max_node_count. Cannot be used with per zone limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#total_min_node_count GoogleContainerCluster#total_min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_cluster#total_min_node_count GoogleContainerCluster#total_min_node_count}
   */
   readonly totalMinNodeCount?: number;
 }
@@ -15230,3453 +18921,5 @@ export class GoogleContainerClusterNodePoolAutoscalingOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get totalMinNodeCountInput() {
     return this._totalMinNodeCount;
-  }
-}
-export interface GoogleContainerClusterNodePoolManagement {
-  /**
-  * Whether the nodes will be automatically repaired. Enabled by default.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auto_repair GoogleContainerCluster#auto_repair}
-  */
-  readonly autoRepair?: boolean | cdktn.IResolvable;
-  /**
-  * Whether the nodes will be automatically upgraded. Enabled by default.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#auto_upgrade GoogleContainerCluster#auto_upgrade}
-  */
-  readonly autoUpgrade?: boolean | cdktn.IResolvable;
-}
-
-export function googleContainerClusterNodePoolManagementToTerraform(struct?: GoogleContainerClusterNodePoolManagementOutputReference | GoogleContainerClusterNodePoolManagement): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    auto_repair: cdktn.booleanToTerraform(struct!.autoRepair),
-    auto_upgrade: cdktn.booleanToTerraform(struct!.autoUpgrade),
-  }
-}
-
-
-export function googleContainerClusterNodePoolManagementToHclTerraform(struct?: GoogleContainerClusterNodePoolManagementOutputReference | GoogleContainerClusterNodePoolManagement): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    auto_repair: {
-      value: cdktn.booleanToHclTerraform(struct!.autoRepair),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    auto_upgrade: {
-      value: cdktn.booleanToHclTerraform(struct!.autoUpgrade),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolManagementOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolManagement | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._autoRepair !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.autoRepair = this._autoRepair;
-    }
-    if (this._autoUpgrade !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.autoUpgrade = this._autoUpgrade;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolManagement | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._autoRepair = undefined;
-      this._autoUpgrade = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._autoRepair = value.autoRepair;
-      this._autoUpgrade = value.autoUpgrade;
-    }
-  }
-
-  // auto_repair - computed: false, optional: true, required: false
-  private _autoRepair?: boolean | cdktn.IResolvable; 
-  public get autoRepair() {
-    return this.getBooleanAttribute('auto_repair');
-  }
-  public set autoRepair(value: boolean | cdktn.IResolvable) {
-    this._autoRepair = value;
-  }
-  public resetAutoRepair() {
-    this._autoRepair = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoRepairInput() {
-    return this._autoRepair;
-  }
-
-  // auto_upgrade - computed: false, optional: true, required: false
-  private _autoUpgrade?: boolean | cdktn.IResolvable; 
-  public get autoUpgrade() {
-    return this.getBooleanAttribute('auto_upgrade');
-  }
-  public set autoUpgrade(value: boolean | cdktn.IResolvable) {
-    this._autoUpgrade = value;
-  }
-  public resetAutoUpgrade() {
-    this._autoUpgrade = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoUpgradeInput() {
-    return this._autoUpgrade;
-  }
-}
-export interface GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs {
-  /**
-  * Name of the VPC where the additional interface belongs.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#network GoogleContainerCluster#network}
-  */
-  readonly network?: string;
-  /**
-  * Name of the subnetwork where the additional interface belongs.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#subnetwork GoogleContainerCluster#subnetwork}
-  */
-  readonly subnetwork?: string;
-}
-
-export function googleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsToTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    network: cdktn.stringToTerraform(struct!.network),
-    subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsToHclTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    network: {
-      value: cdktn.stringToHclTerraform(struct!.network),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    subnetwork: {
-      value: cdktn.stringToHclTerraform(struct!.subnetwork),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktn.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs | cdktn.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._network !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.network = this._network;
-    }
-    if (this._subnetwork !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetwork = this._subnetwork;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs | cdktn.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._network = undefined;
-      this._subnetwork = undefined;
-    }
-    else if (cdktn.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._network = value.network;
-      this._subnetwork = value.subnetwork;
-    }
-  }
-
-  // network - computed: false, optional: true, required: false
-  private _network?: string; 
-  public get network() {
-    return this.getStringAttribute('network');
-  }
-  public set network(value: string) {
-    this._network = value;
-  }
-  public resetNetwork() {
-    this._network = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get networkInput() {
-    return this._network;
-  }
-
-  // subnetwork - computed: false, optional: true, required: false
-  private _subnetwork?: string; 
-  public get subnetwork() {
-    return this.getStringAttribute('subnetwork');
-  }
-  public set subnetwork(value: string) {
-    this._subnetwork = value;
-  }
-  public resetSubnetwork() {
-    this._subnetwork = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetworkInput() {
-    return this._subnetwork;
-  }
-}
-
-export class GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsList extends cdktn.ComplexList {
-  public internalValue? : GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs[] | cdktn.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference {
-    return new GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs {
-  /**
-  * The maximum number of pods per node which use this pod network.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_pods_per_node GoogleContainerCluster#max_pods_per_node}
-  */
-  readonly maxPodsPerNode?: number;
-  /**
-  * The name of the secondary range on the subnet which provides IP address for this pod range.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#secondary_pod_range GoogleContainerCluster#secondary_pod_range}
-  */
-  readonly secondaryPodRange?: string;
-  /**
-  * Name of the subnetwork where the additional pod network belongs.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#subnetwork GoogleContainerCluster#subnetwork}
-  */
-  readonly subnetwork?: string;
-}
-
-export function googleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsToTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    max_pods_per_node: cdktn.numberToTerraform(struct!.maxPodsPerNode),
-    secondary_pod_range: cdktn.stringToTerraform(struct!.secondaryPodRange),
-    subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsToHclTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    max_pods_per_node: {
-      value: cdktn.numberToHclTerraform(struct!.maxPodsPerNode),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    secondary_pod_range: {
-      value: cdktn.stringToHclTerraform(struct!.secondaryPodRange),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    subnetwork: {
-      value: cdktn.stringToHclTerraform(struct!.subnetwork),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktn.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs | cdktn.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._maxPodsPerNode !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maxPodsPerNode = this._maxPodsPerNode;
-    }
-    if (this._secondaryPodRange !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secondaryPodRange = this._secondaryPodRange;
-    }
-    if (this._subnetwork !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetwork = this._subnetwork;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs | cdktn.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._maxPodsPerNode = undefined;
-      this._secondaryPodRange = undefined;
-      this._subnetwork = undefined;
-    }
-    else if (cdktn.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._maxPodsPerNode = value.maxPodsPerNode;
-      this._secondaryPodRange = value.secondaryPodRange;
-      this._subnetwork = value.subnetwork;
-    }
-  }
-
-  // max_pods_per_node - computed: true, optional: true, required: false
-  private _maxPodsPerNode?: number; 
-  public get maxPodsPerNode() {
-    return this.getNumberAttribute('max_pods_per_node');
-  }
-  public set maxPodsPerNode(value: number) {
-    this._maxPodsPerNode = value;
-  }
-  public resetMaxPodsPerNode() {
-    this._maxPodsPerNode = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maxPodsPerNodeInput() {
-    return this._maxPodsPerNode;
-  }
-
-  // secondary_pod_range - computed: false, optional: true, required: false
-  private _secondaryPodRange?: string; 
-  public get secondaryPodRange() {
-    return this.getStringAttribute('secondary_pod_range');
-  }
-  public set secondaryPodRange(value: string) {
-    this._secondaryPodRange = value;
-  }
-  public resetSecondaryPodRange() {
-    this._secondaryPodRange = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secondaryPodRangeInput() {
-    return this._secondaryPodRange;
-  }
-
-  // subnetwork - computed: false, optional: true, required: false
-  private _subnetwork?: string; 
-  public get subnetwork() {
-    return this.getStringAttribute('subnetwork');
-  }
-  public set subnetwork(value: string) {
-    this._subnetwork = value;
-  }
-  public resetSubnetwork() {
-    this._subnetwork = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetworkInput() {
-    return this._subnetwork;
-  }
-}
-
-export class GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsList extends cdktn.ComplexList {
-  public internalValue? : GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs[] | cdktn.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsOutputReference {
-    return new GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfig {
-  /**
-  * Specifies the total network bandwidth tier for the NodePool. [Valid values](https://cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools#NodePool.Tier) include: "TIER_1" and "TIER_UNSPECIFIED".
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#total_egress_bandwidth_tier GoogleContainerCluster#total_egress_bandwidth_tier}
-  */
-  readonly totalEgressBandwidthTier: string;
-}
-
-export function googleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigToTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigOutputReference | GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    total_egress_bandwidth_tier: cdktn.stringToTerraform(struct!.totalEgressBandwidthTier),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigOutputReference | GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    total_egress_bandwidth_tier: {
-      value: cdktn.stringToHclTerraform(struct!.totalEgressBandwidthTier),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._totalEgressBandwidthTier !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.totalEgressBandwidthTier = this._totalEgressBandwidthTier;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._totalEgressBandwidthTier = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._totalEgressBandwidthTier = value.totalEgressBandwidthTier;
-    }
-  }
-
-  // total_egress_bandwidth_tier - computed: false, optional: false, required: true
-  private _totalEgressBandwidthTier?: string; 
-  public get totalEgressBandwidthTier() {
-    return this.getStringAttribute('total_egress_bandwidth_tier');
-  }
-  public set totalEgressBandwidthTier(value: string) {
-    this._totalEgressBandwidthTier = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get totalEgressBandwidthTierInput() {
-    return this._totalEgressBandwidthTier;
-  }
-}
-export interface GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfig {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disabled GoogleContainerCluster#disabled}
-  */
-  readonly disabled: boolean | cdktn.IResolvable;
-}
-
-export function googleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigToTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference | GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    disabled: cdktn.booleanToTerraform(struct!.disabled),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference | GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    disabled: {
-      value: cdktn.booleanToHclTerraform(struct!.disabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._disabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.disabled = this._disabled;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._disabled = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._disabled = value.disabled;
-    }
-  }
-
-  // disabled - computed: false, optional: false, required: true
-  private _disabled?: boolean | cdktn.IResolvable; 
-  public get disabled() {
-    return this.getBooleanAttribute('disabled');
-  }
-  public set disabled(value: boolean | cdktn.IResolvable) {
-    this._disabled = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get disabledInput() {
-    return this._disabled;
-  }
-}
-export interface GoogleContainerClusterNodePoolNetworkConfig {
-  /**
-  * Whether to create a new range for pod IPs in this node pool. Defaults are provided for pod_range and pod_ipv4_cidr_block if they are not specified.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#create_pod_range GoogleContainerCluster#create_pod_range}
-  */
-  readonly createPodRange?: boolean | cdktn.IResolvable;
-  /**
-  * Whether nodes have internal IP addresses only.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_private_nodes GoogleContainerCluster#enable_private_nodes}
-  */
-  readonly enablePrivateNodes?: boolean | cdktn.IResolvable;
-  /**
-  * The IP address range for pod IPs in this node pool. Only applicable if create_pod_range is true. Set to blank to have a range chosen with the default size. Set to /netmask (e.g. /14) to have a range chosen with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) to pick a specific range to use.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pod_ipv4_cidr_block GoogleContainerCluster#pod_ipv4_cidr_block}
-  */
-  readonly podIpv4CidrBlock?: string;
-  /**
-  * The ID of the secondary range for pod IPs. If create_pod_range is true, this ID is used for the new range. If create_pod_range is false, uses an existing secondary range with this ID.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pod_range GoogleContainerCluster#pod_range}
-  */
-  readonly podRange?: string;
-  /**
-  * additional_node_network_configs block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#additional_node_network_configs GoogleContainerCluster#additional_node_network_configs}
-  */
-  readonly additionalNodeNetworkConfigs?: GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs[] | cdktn.IResolvable;
-  /**
-  * additional_pod_network_configs block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#additional_pod_network_configs GoogleContainerCluster#additional_pod_network_configs}
-  */
-  readonly additionalPodNetworkConfigs?: GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs[] | cdktn.IResolvable;
-  /**
-  * network_performance_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#network_performance_config GoogleContainerCluster#network_performance_config}
-  */
-  readonly networkPerformanceConfig?: GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfig;
-  /**
-  * pod_cidr_overprovision_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pod_cidr_overprovision_config GoogleContainerCluster#pod_cidr_overprovision_config}
-  */
-  readonly podCidrOverprovisionConfig?: GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfig;
-}
-
-export function googleContainerClusterNodePoolNetworkConfigToTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigOutputReference | GoogleContainerClusterNodePoolNetworkConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    create_pod_range: cdktn.booleanToTerraform(struct!.createPodRange),
-    enable_private_nodes: cdktn.booleanToTerraform(struct!.enablePrivateNodes),
-    pod_ipv4_cidr_block: cdktn.stringToTerraform(struct!.podIpv4CidrBlock),
-    pod_range: cdktn.stringToTerraform(struct!.podRange),
-    additional_node_network_configs: cdktn.listMapper(googleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsToTerraform, true)(struct!.additionalNodeNetworkConfigs),
-    additional_pod_network_configs: cdktn.listMapper(googleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsToTerraform, true)(struct!.additionalPodNetworkConfigs),
-    network_performance_config: googleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigToTerraform(struct!.networkPerformanceConfig),
-    pod_cidr_overprovision_config: googleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigToTerraform(struct!.podCidrOverprovisionConfig),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNetworkConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNetworkConfigOutputReference | GoogleContainerClusterNodePoolNetworkConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    create_pod_range: {
-      value: cdktn.booleanToHclTerraform(struct!.createPodRange),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    enable_private_nodes: {
-      value: cdktn.booleanToHclTerraform(struct!.enablePrivateNodes),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    pod_ipv4_cidr_block: {
-      value: cdktn.stringToHclTerraform(struct!.podIpv4CidrBlock),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    pod_range: {
-      value: cdktn.stringToHclTerraform(struct!.podRange),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    additional_node_network_configs: {
-      value: cdktn.listMapperHcl(googleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsToHclTerraform, true)(struct!.additionalNodeNetworkConfigs),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsList",
-    },
-    additional_pod_network_configs: {
-      value: cdktn.listMapperHcl(googleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsToHclTerraform, true)(struct!.additionalPodNetworkConfigs),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsList",
-    },
-    network_performance_config: {
-      value: googleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigToHclTerraform(struct!.networkPerformanceConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigList",
-    },
-    pod_cidr_overprovision_config: {
-      value: googleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigToHclTerraform(struct!.podCidrOverprovisionConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNetworkConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNetworkConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._createPodRange !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.createPodRange = this._createPodRange;
-    }
-    if (this._enablePrivateNodes !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enablePrivateNodes = this._enablePrivateNodes;
-    }
-    if (this._podIpv4CidrBlock !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.podIpv4CidrBlock = this._podIpv4CidrBlock;
-    }
-    if (this._podRange !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.podRange = this._podRange;
-    }
-    if (this._additionalNodeNetworkConfigs?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.additionalNodeNetworkConfigs = this._additionalNodeNetworkConfigs?.internalValue;
-    }
-    if (this._additionalPodNetworkConfigs?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.additionalPodNetworkConfigs = this._additionalPodNetworkConfigs?.internalValue;
-    }
-    if (this._networkPerformanceConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.networkPerformanceConfig = this._networkPerformanceConfig?.internalValue;
-    }
-    if (this._podCidrOverprovisionConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.podCidrOverprovisionConfig = this._podCidrOverprovisionConfig?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNetworkConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._createPodRange = undefined;
-      this._enablePrivateNodes = undefined;
-      this._podIpv4CidrBlock = undefined;
-      this._podRange = undefined;
-      this._additionalNodeNetworkConfigs.internalValue = undefined;
-      this._additionalPodNetworkConfigs.internalValue = undefined;
-      this._networkPerformanceConfig.internalValue = undefined;
-      this._podCidrOverprovisionConfig.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._createPodRange = value.createPodRange;
-      this._enablePrivateNodes = value.enablePrivateNodes;
-      this._podIpv4CidrBlock = value.podIpv4CidrBlock;
-      this._podRange = value.podRange;
-      this._additionalNodeNetworkConfigs.internalValue = value.additionalNodeNetworkConfigs;
-      this._additionalPodNetworkConfigs.internalValue = value.additionalPodNetworkConfigs;
-      this._networkPerformanceConfig.internalValue = value.networkPerformanceConfig;
-      this._podCidrOverprovisionConfig.internalValue = value.podCidrOverprovisionConfig;
-    }
-  }
-
-  // create_pod_range - computed: false, optional: true, required: false
-  private _createPodRange?: boolean | cdktn.IResolvable; 
-  public get createPodRange() {
-    return this.getBooleanAttribute('create_pod_range');
-  }
-  public set createPodRange(value: boolean | cdktn.IResolvable) {
-    this._createPodRange = value;
-  }
-  public resetCreatePodRange() {
-    this._createPodRange = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get createPodRangeInput() {
-    return this._createPodRange;
-  }
-
-  // enable_private_nodes - computed: true, optional: true, required: false
-  private _enablePrivateNodes?: boolean | cdktn.IResolvable; 
-  public get enablePrivateNodes() {
-    return this.getBooleanAttribute('enable_private_nodes');
-  }
-  public set enablePrivateNodes(value: boolean | cdktn.IResolvable) {
-    this._enablePrivateNodes = value;
-  }
-  public resetEnablePrivateNodes() {
-    this._enablePrivateNodes = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enablePrivateNodesInput() {
-    return this._enablePrivateNodes;
-  }
-
-  // pod_ipv4_cidr_block - computed: true, optional: true, required: false
-  private _podIpv4CidrBlock?: string; 
-  public get podIpv4CidrBlock() {
-    return this.getStringAttribute('pod_ipv4_cidr_block');
-  }
-  public set podIpv4CidrBlock(value: string) {
-    this._podIpv4CidrBlock = value;
-  }
-  public resetPodIpv4CidrBlock() {
-    this._podIpv4CidrBlock = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get podIpv4CidrBlockInput() {
-    return this._podIpv4CidrBlock;
-  }
-
-  // pod_range - computed: true, optional: true, required: false
-  private _podRange?: string; 
-  public get podRange() {
-    return this.getStringAttribute('pod_range');
-  }
-  public set podRange(value: string) {
-    this._podRange = value;
-  }
-  public resetPodRange() {
-    this._podRange = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get podRangeInput() {
-    return this._podRange;
-  }
-
-  // subnetwork - computed: true, optional: false, required: false
-  public get subnetwork() {
-    return this.getStringAttribute('subnetwork');
-  }
-
-  // additional_node_network_configs - computed: false, optional: true, required: false
-  private _additionalNodeNetworkConfigs = new GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsList(this, "additional_node_network_configs", false);
-  public get additionalNodeNetworkConfigs() {
-    return this._additionalNodeNetworkConfigs;
-  }
-  public putAdditionalNodeNetworkConfigs(value: GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs[] | cdktn.IResolvable) {
-    this._additionalNodeNetworkConfigs.internalValue = value;
-  }
-  public resetAdditionalNodeNetworkConfigs() {
-    this._additionalNodeNetworkConfigs.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get additionalNodeNetworkConfigsInput() {
-    return this._additionalNodeNetworkConfigs.internalValue;
-  }
-
-  // additional_pod_network_configs - computed: false, optional: true, required: false
-  private _additionalPodNetworkConfigs = new GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsList(this, "additional_pod_network_configs", false);
-  public get additionalPodNetworkConfigs() {
-    return this._additionalPodNetworkConfigs;
-  }
-  public putAdditionalPodNetworkConfigs(value: GoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigs[] | cdktn.IResolvable) {
-    this._additionalPodNetworkConfigs.internalValue = value;
-  }
-  public resetAdditionalPodNetworkConfigs() {
-    this._additionalPodNetworkConfigs.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get additionalPodNetworkConfigsInput() {
-    return this._additionalPodNetworkConfigs.internalValue;
-  }
-
-  // network_performance_config - computed: false, optional: true, required: false
-  private _networkPerformanceConfig = new GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfigOutputReference(this, "network_performance_config");
-  public get networkPerformanceConfig() {
-    return this._networkPerformanceConfig;
-  }
-  public putNetworkPerformanceConfig(value: GoogleContainerClusterNodePoolNetworkConfigNetworkPerformanceConfig) {
-    this._networkPerformanceConfig.internalValue = value;
-  }
-  public resetNetworkPerformanceConfig() {
-    this._networkPerformanceConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get networkPerformanceConfigInput() {
-    return this._networkPerformanceConfig.internalValue;
-  }
-
-  // pod_cidr_overprovision_config - computed: false, optional: true, required: false
-  private _podCidrOverprovisionConfig = new GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference(this, "pod_cidr_overprovision_config");
-  public get podCidrOverprovisionConfig() {
-    return this._podCidrOverprovisionConfig;
-  }
-  public putPodCidrOverprovisionConfig(value: GoogleContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfig) {
-    this._podCidrOverprovisionConfig.internalValue = value;
-  }
-  public resetPodCidrOverprovisionConfig() {
-    this._podCidrOverprovisionConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get podCidrOverprovisionConfigInput() {
-    return this._podCidrOverprovisionConfig.internalValue;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigEffectiveTaints {
-}
-
-export function googleContainerClusterNodePoolNodeConfigEffectiveTaintsToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigEffectiveTaints): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigEffectiveTaintsToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigEffectiveTaints): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigEffectiveTaintsOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigEffectiveTaints | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigEffectiveTaints | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // effect - computed: true, optional: false, required: false
-  public get effect() {
-    return this.getStringAttribute('effect');
-  }
-
-  // key - computed: true, optional: false, required: false
-  public get key() {
-    return this.getStringAttribute('key');
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigEffectiveTaintsList extends cdktn.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GoogleContainerClusterNodePoolNodeConfigEffectiveTaintsOutputReference {
-    return new GoogleContainerClusterNodePoolNodeConfigEffectiveTaintsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeatures {
-  /**
-  * Whether the node should have nested virtualization enabled.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_nested_virtualization GoogleContainerCluster#enable_nested_virtualization}
-  */
-  readonly enableNestedVirtualization?: boolean | cdktn.IResolvable;
-  /**
-  * Level of Performance Monitoring Unit (PMU) requested. If unset, no access to the PMU is assumed.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#performance_monitoring_unit GoogleContainerCluster#performance_monitoring_unit}
-  */
-  readonly performanceMonitoringUnit?: string;
-  /**
-  * The number of threads per physical core. To disable simultaneous multithreading (SMT) set this to 1. If unset, the maximum number of threads supported per core by the underlying processor is assumed.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#threads_per_core GoogleContainerCluster#threads_per_core}
-  */
-  readonly threadsPerCore: number;
-}
-
-export function googleContainerClusterNodePoolNodeConfigAdvancedMachineFeaturesToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeaturesOutputReference | GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeatures): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enable_nested_virtualization: cdktn.booleanToTerraform(struct!.enableNestedVirtualization),
-    performance_monitoring_unit: cdktn.stringToTerraform(struct!.performanceMonitoringUnit),
-    threads_per_core: cdktn.numberToTerraform(struct!.threadsPerCore),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigAdvancedMachineFeaturesToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeaturesOutputReference | GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeatures): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enable_nested_virtualization: {
-      value: cdktn.booleanToHclTerraform(struct!.enableNestedVirtualization),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    performance_monitoring_unit: {
-      value: cdktn.stringToHclTerraform(struct!.performanceMonitoringUnit),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    threads_per_core: {
-      value: cdktn.numberToHclTerraform(struct!.threadsPerCore),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeaturesOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeatures | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enableNestedVirtualization !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enableNestedVirtualization = this._enableNestedVirtualization;
-    }
-    if (this._performanceMonitoringUnit !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.performanceMonitoringUnit = this._performanceMonitoringUnit;
-    }
-    if (this._threadsPerCore !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.threadsPerCore = this._threadsPerCore;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeatures | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._enableNestedVirtualization = undefined;
-      this._performanceMonitoringUnit = undefined;
-      this._threadsPerCore = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._enableNestedVirtualization = value.enableNestedVirtualization;
-      this._performanceMonitoringUnit = value.performanceMonitoringUnit;
-      this._threadsPerCore = value.threadsPerCore;
-    }
-  }
-
-  // enable_nested_virtualization - computed: false, optional: true, required: false
-  private _enableNestedVirtualization?: boolean | cdktn.IResolvable; 
-  public get enableNestedVirtualization() {
-    return this.getBooleanAttribute('enable_nested_virtualization');
-  }
-  public set enableNestedVirtualization(value: boolean | cdktn.IResolvable) {
-    this._enableNestedVirtualization = value;
-  }
-  public resetEnableNestedVirtualization() {
-    this._enableNestedVirtualization = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableNestedVirtualizationInput() {
-    return this._enableNestedVirtualization;
-  }
-
-  // performance_monitoring_unit - computed: false, optional: true, required: false
-  private _performanceMonitoringUnit?: string; 
-  public get performanceMonitoringUnit() {
-    return this.getStringAttribute('performance_monitoring_unit');
-  }
-  public set performanceMonitoringUnit(value: string) {
-    this._performanceMonitoringUnit = value;
-  }
-  public resetPerformanceMonitoringUnit() {
-    this._performanceMonitoringUnit = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get performanceMonitoringUnitInput() {
-    return this._performanceMonitoringUnit;
-  }
-
-  // threads_per_core - computed: false, optional: false, required: true
-  private _threadsPerCore?: number; 
-  public get threadsPerCore() {
-    return this.getNumberAttribute('threads_per_core');
-  }
-  public set threadsPerCore(value: number) {
-    this._threadsPerCore = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get threadsPerCoreInput() {
-    return this._threadsPerCore;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigBootDisk {
-  /**
-  * Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disk_type GoogleContainerCluster#disk_type}
-  */
-  readonly diskType?: string;
-  /**
-  * Configured IOPs provisioning. Only valid with disk type hyperdisk-balanced.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#provisioned_iops GoogleContainerCluster#provisioned_iops}
-  */
-  readonly provisionedIops?: number;
-  /**
-  * Configured throughput provisioning. Only valid with disk type hyperdisk-balanced.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#provisioned_throughput GoogleContainerCluster#provisioned_throughput}
-  */
-  readonly provisionedThroughput?: number;
-  /**
-  * Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#size_gb GoogleContainerCluster#size_gb}
-  */
-  readonly sizeGb?: number;
-}
-
-export function googleContainerClusterNodePoolNodeConfigBootDiskToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigBootDiskOutputReference | GoogleContainerClusterNodePoolNodeConfigBootDisk): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    disk_type: cdktn.stringToTerraform(struct!.diskType),
-    provisioned_iops: cdktn.numberToTerraform(struct!.provisionedIops),
-    provisioned_throughput: cdktn.numberToTerraform(struct!.provisionedThroughput),
-    size_gb: cdktn.numberToTerraform(struct!.sizeGb),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigBootDiskToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigBootDiskOutputReference | GoogleContainerClusterNodePoolNodeConfigBootDisk): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    disk_type: {
-      value: cdktn.stringToHclTerraform(struct!.diskType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    provisioned_iops: {
-      value: cdktn.numberToHclTerraform(struct!.provisionedIops),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    provisioned_throughput: {
-      value: cdktn.numberToHclTerraform(struct!.provisionedThroughput),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    size_gb: {
-      value: cdktn.numberToHclTerraform(struct!.sizeGb),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigBootDiskOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigBootDisk | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._diskType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.diskType = this._diskType;
-    }
-    if (this._provisionedIops !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.provisionedIops = this._provisionedIops;
-    }
-    if (this._provisionedThroughput !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.provisionedThroughput = this._provisionedThroughput;
-    }
-    if (this._sizeGb !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sizeGb = this._sizeGb;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigBootDisk | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._diskType = undefined;
-      this._provisionedIops = undefined;
-      this._provisionedThroughput = undefined;
-      this._sizeGb = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._diskType = value.diskType;
-      this._provisionedIops = value.provisionedIops;
-      this._provisionedThroughput = value.provisionedThroughput;
-      this._sizeGb = value.sizeGb;
-    }
-  }
-
-  // disk_type - computed: true, optional: true, required: false
-  private _diskType?: string; 
-  public get diskType() {
-    return this.getStringAttribute('disk_type');
-  }
-  public set diskType(value: string) {
-    this._diskType = value;
-  }
-  public resetDiskType() {
-    this._diskType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get diskTypeInput() {
-    return this._diskType;
-  }
-
-  // provisioned_iops - computed: true, optional: true, required: false
-  private _provisionedIops?: number; 
-  public get provisionedIops() {
-    return this.getNumberAttribute('provisioned_iops');
-  }
-  public set provisionedIops(value: number) {
-    this._provisionedIops = value;
-  }
-  public resetProvisionedIops() {
-    this._provisionedIops = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get provisionedIopsInput() {
-    return this._provisionedIops;
-  }
-
-  // provisioned_throughput - computed: true, optional: true, required: false
-  private _provisionedThroughput?: number; 
-  public get provisionedThroughput() {
-    return this.getNumberAttribute('provisioned_throughput');
-  }
-  public set provisionedThroughput(value: number) {
-    this._provisionedThroughput = value;
-  }
-  public resetProvisionedThroughput() {
-    this._provisionedThroughput = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get provisionedThroughputInput() {
-    return this._provisionedThroughput;
-  }
-
-  // size_gb - computed: true, optional: true, required: false
-  private _sizeGb?: number; 
-  public get sizeGb() {
-    return this.getNumberAttribute('size_gb');
-  }
-  public set sizeGb(value: number) {
-    this._sizeGb = value;
-  }
-  public resetSizeGb() {
-    this._sizeGb = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sizeGbInput() {
-    return this._sizeGb;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigConfidentialNodes {
-  /**
-  * Defines the type of technology used by the confidential node.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#confidential_instance_type GoogleContainerCluster#confidential_instance_type}
-  */
-  readonly confidentialInstanceType?: string;
-  /**
-  * Whether Confidential Nodes feature is enabled for all nodes in this pool.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
-  */
-  readonly enabled: boolean | cdktn.IResolvable;
-}
-
-export function googleContainerClusterNodePoolNodeConfigConfidentialNodesToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigConfidentialNodesOutputReference | GoogleContainerClusterNodePoolNodeConfigConfidentialNodes): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    confidential_instance_type: cdktn.stringToTerraform(struct!.confidentialInstanceType),
-    enabled: cdktn.booleanToTerraform(struct!.enabled),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigConfidentialNodesToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigConfidentialNodesOutputReference | GoogleContainerClusterNodePoolNodeConfigConfidentialNodes): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    confidential_instance_type: {
-      value: cdktn.stringToHclTerraform(struct!.confidentialInstanceType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    enabled: {
-      value: cdktn.booleanToHclTerraform(struct!.enabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigConfidentialNodesOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigConfidentialNodes | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._confidentialInstanceType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.confidentialInstanceType = this._confidentialInstanceType;
-    }
-    if (this._enabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enabled = this._enabled;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigConfidentialNodes | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._confidentialInstanceType = undefined;
-      this._enabled = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._confidentialInstanceType = value.confidentialInstanceType;
-      this._enabled = value.enabled;
-    }
-  }
-
-  // confidential_instance_type - computed: false, optional: true, required: false
-  private _confidentialInstanceType?: string; 
-  public get confidentialInstanceType() {
-    return this.getStringAttribute('confidential_instance_type');
-  }
-  public set confidentialInstanceType(value: string) {
-    this._confidentialInstanceType = value;
-  }
-  public resetConfidentialInstanceType() {
-    this._confidentialInstanceType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get confidentialInstanceTypeInput() {
-    return this._confidentialInstanceType;
-  }
-
-  // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
-  public get enabled() {
-    return this.getBooleanAttribute('enabled');
-  }
-  public set enabled(value: boolean | cdktn.IResolvable) {
-    this._enabled = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enabledInput() {
-    return this._enabled;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig {
-  /**
-  * URI for the secret that hosts a certificate. Must be in the format 'projects/PROJECT_NUM/secrets/SECRET_NAME/versions/VERSION_OR_LATEST'.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#secret_uri GoogleContainerCluster#secret_uri}
-  */
-  readonly secretUri: string;
-}
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    secret_uri: cdktn.stringToTerraform(struct!.secretUri),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    secret_uri: {
-      value: cdktn.stringToHclTerraform(struct!.secretUri),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._secretUri !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secretUri = this._secretUri;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._secretUri = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._secretUri = value.secretUri;
-    }
-  }
-
-  // secret_uri - computed: false, optional: false, required: true
-  private _secretUri?: string; 
-  public get secretUri() {
-    return this.getStringAttribute('secret_uri');
-  }
-  public set secretUri(value: string) {
-    this._secretUri = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secretUriInput() {
-    return this._secretUri;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig {
-  /**
-  * List of fully-qualified-domain-names. IPv4s and port specification are supported.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#fqdns GoogleContainerCluster#fqdns}
-  */
-  readonly fqdns: string[];
-  /**
-  * gcp_secret_manager_certificate_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gcp_secret_manager_certificate_config GoogleContainerCluster#gcp_secret_manager_certificate_config}
-  */
-  readonly gcpSecretManagerCertificateConfig: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig;
-}
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    fqdns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fqdns),
-    gcp_secret_manager_certificate_config: googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigToTerraform(struct!.gcpSecretManagerCertificateConfig),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    fqdns: {
-      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.fqdns),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    gcp_secret_manager_certificate_config: {
-      value: googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigToHclTerraform(struct!.gcpSecretManagerCertificateConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktn.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig | cdktn.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._fqdns !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fqdns = this._fqdns;
-    }
-    if (this._gcpSecretManagerCertificateConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gcpSecretManagerCertificateConfig = this._gcpSecretManagerCertificateConfig?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig | cdktn.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._fqdns = undefined;
-      this._gcpSecretManagerCertificateConfig.internalValue = undefined;
-    }
-    else if (cdktn.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._fqdns = value.fqdns;
-      this._gcpSecretManagerCertificateConfig.internalValue = value.gcpSecretManagerCertificateConfig;
-    }
-  }
-
-  // fqdns - computed: false, optional: false, required: true
-  private _fqdns?: string[]; 
-  public get fqdns() {
-    return this.getListAttribute('fqdns');
-  }
-  public set fqdns(value: string[]) {
-    this._fqdns = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fqdnsInput() {
-    return this._fqdns;
-  }
-
-  // gcp_secret_manager_certificate_config - computed: false, optional: false, required: true
-  private _gcpSecretManagerCertificateConfig = new GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigOutputReference(this, "gcp_secret_manager_certificate_config");
-  public get gcpSecretManagerCertificateConfig() {
-    return this._gcpSecretManagerCertificateConfig;
-  }
-  public putGcpSecretManagerCertificateConfig(value: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig) {
-    this._gcpSecretManagerCertificateConfig.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gcpSecretManagerCertificateConfigInput() {
-    return this._gcpSecretManagerCertificateConfig.internalValue;
-  }
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigList extends cdktn.ComplexList {
-  public internalValue? : GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig[] | cdktn.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigOutputReference {
-    return new GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig {
-  /**
-  * Whether or not private registries are configured.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
-  */
-  readonly enabled: boolean | cdktn.IResolvable;
-  /**
-  * certificate_authority_domain_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#certificate_authority_domain_config GoogleContainerCluster#certificate_authority_domain_config}
-  */
-  readonly certificateAuthorityDomainConfig?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig[] | cdktn.IResolvable;
-}
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enabled: cdktn.booleanToTerraform(struct!.enabled),
-    certificate_authority_domain_config: cdktn.listMapper(googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigToTerraform, true)(struct!.certificateAuthorityDomainConfig),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enabled: {
-      value: cdktn.booleanToHclTerraform(struct!.enabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    certificate_authority_domain_config: {
-      value: cdktn.listMapperHcl(googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigToHclTerraform, true)(struct!.certificateAuthorityDomainConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enabled = this._enabled;
-    }
-    if (this._certificateAuthorityDomainConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.certificateAuthorityDomainConfig = this._certificateAuthorityDomainConfig?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._enabled = undefined;
-      this._certificateAuthorityDomainConfig.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._enabled = value.enabled;
-      this._certificateAuthorityDomainConfig.internalValue = value.certificateAuthorityDomainConfig;
-    }
-  }
-
-  // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
-  public get enabled() {
-    return this.getBooleanAttribute('enabled');
-  }
-  public set enabled(value: boolean | cdktn.IResolvable) {
-    this._enabled = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enabledInput() {
-    return this._enabled;
-  }
-
-  // certificate_authority_domain_config - computed: false, optional: true, required: false
-  private _certificateAuthorityDomainConfig = new GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigList(this, "certificate_authority_domain_config", false);
-  public get certificateAuthorityDomainConfig() {
-    return this._certificateAuthorityDomainConfig;
-  }
-  public putCertificateAuthorityDomainConfig(value: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig[] | cdktn.IResolvable) {
-    this._certificateAuthorityDomainConfig.internalValue = value;
-  }
-  public resetCertificateAuthorityDomainConfig() {
-    this._certificateAuthorityDomainConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get certificateAuthorityDomainConfigInput() {
-    return this._certificateAuthorityDomainConfig.internalValue;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigContainerdConfig {
-  /**
-  * private_registry_access_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#private_registry_access_config GoogleContainerCluster#private_registry_access_config}
-  */
-  readonly privateRegistryAccessConfig?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig;
-}
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigContainerdConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    private_registry_access_config: googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigToTerraform(struct!.privateRegistryAccessConfig),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigContainerdConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigContainerdConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigContainerdConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    private_registry_access_config: {
-      value: googleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigToHclTerraform(struct!.privateRegistryAccessConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigContainerdConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigContainerdConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._privateRegistryAccessConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.privateRegistryAccessConfig = this._privateRegistryAccessConfig?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigContainerdConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._privateRegistryAccessConfig.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._privateRegistryAccessConfig.internalValue = value.privateRegistryAccessConfig;
-    }
-  }
-
-  // private_registry_access_config - computed: false, optional: true, required: false
-  private _privateRegistryAccessConfig = new GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference(this, "private_registry_access_config");
-  public get privateRegistryAccessConfig() {
-    return this._privateRegistryAccessConfig;
-  }
-  public putPrivateRegistryAccessConfig(value: GoogleContainerClusterNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig) {
-    this._privateRegistryAccessConfig.internalValue = value;
-  }
-  public resetPrivateRegistryAccessConfig() {
-    this._privateRegistryAccessConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get privateRegistryAccessConfigInput() {
-    return this._privateRegistryAccessConfig.internalValue;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfig {
-  /**
-  * Number of local SSDs to use to back ephemeral storage. Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
-  */
-  readonly localSsdCount: number;
-}
-
-export function googleContainerClusterNodePoolNodeConfigEphemeralStorageConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    local_ssd_count: cdktn.numberToTerraform(struct!.localSsdCount),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigEphemeralStorageConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    local_ssd_count: {
-      value: cdktn.numberToHclTerraform(struct!.localSsdCount),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._localSsdCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.localSsdCount = this._localSsdCount;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigEphemeralStorageConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._localSsdCount = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._localSsdCount = value.localSsdCount;
-    }
-  }
-
-  // local_ssd_count - computed: false, optional: false, required: true
-  private _localSsdCount?: number; 
-  public get localSsdCount() {
-    return this.getNumberAttribute('local_ssd_count');
-  }
-  public set localSsdCount(value: number) {
-    this._localSsdCount = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get localSsdCountInput() {
-    return this._localSsdCount;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfig {
-  /**
-  * Number of local SSDs to be utilized for GKE Data Cache. Uses NVMe interfaces.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#data_cache_count GoogleContainerCluster#data_cache_count}
-  */
-  readonly dataCacheCount?: number;
-  /**
-  * Number of local SSDs to use to back ephemeral storage. Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#local_ssd_count GoogleContainerCluster#local_ssd_count}
-  */
-  readonly localSsdCount: number;
-}
-
-export function googleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    data_cache_count: cdktn.numberToTerraform(struct!.dataCacheCount),
-    local_ssd_count: cdktn.numberToTerraform(struct!.localSsdCount),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    data_cache_count: {
-      value: cdktn.numberToHclTerraform(struct!.dataCacheCount),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    local_ssd_count: {
-      value: cdktn.numberToHclTerraform(struct!.localSsdCount),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._dataCacheCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dataCacheCount = this._dataCacheCount;
-    }
-    if (this._localSsdCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.localSsdCount = this._localSsdCount;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._dataCacheCount = undefined;
-      this._localSsdCount = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._dataCacheCount = value.dataCacheCount;
-      this._localSsdCount = value.localSsdCount;
-    }
-  }
-
-  // data_cache_count - computed: false, optional: true, required: false
-  private _dataCacheCount?: number; 
-  public get dataCacheCount() {
-    return this.getNumberAttribute('data_cache_count');
-  }
-  public set dataCacheCount(value: number) {
-    this._dataCacheCount = value;
-  }
-  public resetDataCacheCount() {
-    this._dataCacheCount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dataCacheCountInput() {
-    return this._dataCacheCount;
-  }
-
-  // local_ssd_count - computed: false, optional: false, required: true
-  private _localSsdCount?: number; 
-  public get localSsdCount() {
-    return this.getNumberAttribute('local_ssd_count');
-  }
-  public set localSsdCount(value: number) {
-    this._localSsdCount = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get localSsdCountInput() {
-    return this._localSsdCount;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigFastSocket {
-  /**
-  * Whether or not NCCL Fast Socket is enabled
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
-  */
-  readonly enabled: boolean | cdktn.IResolvable;
-}
-
-export function googleContainerClusterNodePoolNodeConfigFastSocketToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigFastSocketOutputReference | GoogleContainerClusterNodePoolNodeConfigFastSocket): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enabled: cdktn.booleanToTerraform(struct!.enabled),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigFastSocketToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigFastSocketOutputReference | GoogleContainerClusterNodePoolNodeConfigFastSocket): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enabled: {
-      value: cdktn.booleanToHclTerraform(struct!.enabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigFastSocketOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigFastSocket | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enabled = this._enabled;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigFastSocket | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._enabled = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._enabled = value.enabled;
-    }
-  }
-
-  // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
-  public get enabled() {
-    return this.getBooleanAttribute('enabled');
-  }
-  public set enabled(value: boolean | cdktn.IResolvable) {
-    this._enabled = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enabledInput() {
-    return this._enabled;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigGcfsConfig {
-  /**
-  * Whether or not GCFS is enabled
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
-  */
-  readonly enabled: boolean | cdktn.IResolvable;
-}
-
-export function googleContainerClusterNodePoolNodeConfigGcfsConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGcfsConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigGcfsConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enabled: cdktn.booleanToTerraform(struct!.enabled),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigGcfsConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGcfsConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigGcfsConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enabled: {
-      value: cdktn.booleanToHclTerraform(struct!.enabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigGcfsConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigGcfsConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enabled = this._enabled;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigGcfsConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._enabled = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._enabled = value.enabled;
-    }
-  }
-
-  // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
-  public get enabled() {
-    return this.getBooleanAttribute('enabled');
-  }
-  public set enabled(value: boolean | cdktn.IResolvable) {
-    this._enabled = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enabledInput() {
-    return this._enabled;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig {
-  /**
-  * Mode for how the GPU driver is installed.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_driver_version GoogleContainerCluster#gpu_driver_version}
-  */
-  readonly gpuDriverVersion: string;
-}
-
-export function googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    gpu_driver_version: cdktn.stringToTerraform(struct!.gpuDriverVersion),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    gpu_driver_version: {
-      value: cdktn.stringToHclTerraform(struct!.gpuDriverVersion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._gpuDriverVersion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gpuDriverVersion = this._gpuDriverVersion;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._gpuDriverVersion = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._gpuDriverVersion = value.gpuDriverVersion;
-    }
-  }
-
-  // gpu_driver_version - computed: false, optional: false, required: true
-  private _gpuDriverVersion?: string; 
-  public get gpuDriverVersion() {
-    return this.getStringAttribute('gpu_driver_version');
-  }
-  public set gpuDriverVersion(value: string) {
-    this._gpuDriverVersion = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gpuDriverVersionInput() {
-    return this._gpuDriverVersion;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfig {
-  /**
-  * The type of GPU sharing strategy to enable on the GPU node. Possible values are described in the API package (https://pkg.go.dev/google.golang.org/api/container/v1#GPUSharingConfig)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_sharing_strategy GoogleContainerCluster#gpu_sharing_strategy}
-  */
-  readonly gpuSharingStrategy: string;
-  /**
-  * The maximum number of containers that can share a GPU.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#max_shared_clients_per_gpu GoogleContainerCluster#max_shared_clients_per_gpu}
-  */
-  readonly maxSharedClientsPerGpu: number;
-}
-
-export function googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    gpu_sharing_strategy: cdktn.stringToTerraform(struct!.gpuSharingStrategy),
-    max_shared_clients_per_gpu: cdktn.numberToTerraform(struct!.maxSharedClientsPerGpu),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigOutputReference | GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfig): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    gpu_sharing_strategy: {
-      value: cdktn.stringToHclTerraform(struct!.gpuSharingStrategy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    max_shared_clients_per_gpu: {
-      value: cdktn.numberToHclTerraform(struct!.maxSharedClientsPerGpu),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._gpuSharingStrategy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gpuSharingStrategy = this._gpuSharingStrategy;
-    }
-    if (this._maxSharedClientsPerGpu !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maxSharedClientsPerGpu = this._maxSharedClientsPerGpu;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._gpuSharingStrategy = undefined;
-      this._maxSharedClientsPerGpu = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._gpuSharingStrategy = value.gpuSharingStrategy;
-      this._maxSharedClientsPerGpu = value.maxSharedClientsPerGpu;
-    }
-  }
-
-  // gpu_sharing_strategy - computed: false, optional: false, required: true
-  private _gpuSharingStrategy?: string; 
-  public get gpuSharingStrategy() {
-    return this.getStringAttribute('gpu_sharing_strategy');
-  }
-  public set gpuSharingStrategy(value: string) {
-    this._gpuSharingStrategy = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gpuSharingStrategyInput() {
-    return this._gpuSharingStrategy;
-  }
-
-  // max_shared_clients_per_gpu - computed: false, optional: false, required: true
-  private _maxSharedClientsPerGpu?: number; 
-  public get maxSharedClientsPerGpu() {
-    return this.getNumberAttribute('max_shared_clients_per_gpu');
-  }
-  public set maxSharedClientsPerGpu(value: number) {
-    this._maxSharedClientsPerGpu = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maxSharedClientsPerGpuInput() {
-    return this._maxSharedClientsPerGpu;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigGuestAccelerator {
-  /**
-  * The number of the accelerator cards exposed to an instance.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#count GoogleContainerCluster#count}
-  */
-  readonly count: number;
-  /**
-  * Size of partitions to create on the GPU. Valid values are described in the NVIDIA mig user guide (https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#partitioning)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_partition_size GoogleContainerCluster#gpu_partition_size}
-  */
-  readonly gpuPartitionSize?: string;
-  /**
-  * The accelerator type resource name.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#type GoogleContainerCluster#type}
-  */
-  readonly type: string;
-  /**
-  * gpu_driver_installation_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_driver_installation_config GoogleContainerCluster#gpu_driver_installation_config}
-  */
-  readonly gpuDriverInstallationConfig?: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig;
-  /**
-  * gpu_sharing_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#gpu_sharing_config GoogleContainerCluster#gpu_sharing_config}
-  */
-  readonly gpuSharingConfig?: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfig;
-}
-
-export function googleContainerClusterNodePoolNodeConfigGuestAcceleratorToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGuestAccelerator | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    count: cdktn.numberToTerraform(struct!.count),
-    gpu_partition_size: cdktn.stringToTerraform(struct!.gpuPartitionSize),
-    type: cdktn.stringToTerraform(struct!.type),
-    gpu_driver_installation_config: googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigToTerraform(struct!.gpuDriverInstallationConfig),
-    gpu_sharing_config: googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigToTerraform(struct!.gpuSharingConfig),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigGuestAcceleratorToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGuestAccelerator | cdktn.IResolvable): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    count: {
-      value: cdktn.numberToHclTerraform(struct!.count),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    gpu_partition_size: {
-      value: cdktn.stringToHclTerraform(struct!.gpuPartitionSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    type: {
-      value: cdktn.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    gpu_driver_installation_config: {
-      value: googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigToHclTerraform(struct!.gpuDriverInstallationConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigList",
-    },
-    gpu_sharing_config: {
-      value: googleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigToHclTerraform(struct!.gpuSharingConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktn.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigGuestAccelerator | cdktn.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._count !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.count = this._count;
-    }
-    if (this._gpuPartitionSize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gpuPartitionSize = this._gpuPartitionSize;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    if (this._gpuDriverInstallationConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gpuDriverInstallationConfig = this._gpuDriverInstallationConfig?.internalValue;
-    }
-    if (this._gpuSharingConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gpuSharingConfig = this._gpuSharingConfig?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigGuestAccelerator | cdktn.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._count = undefined;
-      this._gpuPartitionSize = undefined;
-      this._type = undefined;
-      this._gpuDriverInstallationConfig.internalValue = undefined;
-      this._gpuSharingConfig.internalValue = undefined;
-    }
-    else if (cdktn.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._count = value.count;
-      this._gpuPartitionSize = value.gpuPartitionSize;
-      this._type = value.type;
-      this._gpuDriverInstallationConfig.internalValue = value.gpuDriverInstallationConfig;
-      this._gpuSharingConfig.internalValue = value.gpuSharingConfig;
-    }
-  }
-
-  // count - computed: false, optional: false, required: true
-  private _count?: number; 
-  public get count() {
-    return this.getNumberAttribute('count');
-  }
-  public set count(value: number) {
-    this._count = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get countInput() {
-    return this._count;
-  }
-
-  // gpu_partition_size - computed: false, optional: true, required: false
-  private _gpuPartitionSize?: string; 
-  public get gpuPartitionSize() {
-    return this.getStringAttribute('gpu_partition_size');
-  }
-  public set gpuPartitionSize(value: string) {
-    this._gpuPartitionSize = value;
-  }
-  public resetGpuPartitionSize() {
-    this._gpuPartitionSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gpuPartitionSizeInput() {
-    return this._gpuPartitionSize;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
-  // gpu_driver_installation_config - computed: false, optional: true, required: false
-  private _gpuDriverInstallationConfig = new GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigOutputReference(this, "gpu_driver_installation_config");
-  public get gpuDriverInstallationConfig() {
-    return this._gpuDriverInstallationConfig;
-  }
-  public putGpuDriverInstallationConfig(value: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig) {
-    this._gpuDriverInstallationConfig.internalValue = value;
-  }
-  public resetGpuDriverInstallationConfig() {
-    this._gpuDriverInstallationConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gpuDriverInstallationConfigInput() {
-    return this._gpuDriverInstallationConfig.internalValue;
-  }
-
-  // gpu_sharing_config - computed: false, optional: true, required: false
-  private _gpuSharingConfig = new GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfigOutputReference(this, "gpu_sharing_config");
-  public get gpuSharingConfig() {
-    return this._gpuSharingConfig;
-  }
-  public putGpuSharingConfig(value: GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorGpuSharingConfig) {
-    this._gpuSharingConfig.internalValue = value;
-  }
-  public resetGpuSharingConfig() {
-    this._gpuSharingConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gpuSharingConfigInput() {
-    return this._gpuSharingConfig.internalValue;
-  }
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorList extends cdktn.ComplexList {
-  public internalValue? : GoogleContainerClusterNodePoolNodeConfigGuestAccelerator[] | cdktn.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorOutputReference {
-    return new GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigGvnic {
-  /**
-  * Whether or not gvnic is enabled
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}
-  */
-  readonly enabled: boolean | cdktn.IResolvable;
-}
-
-export function googleContainerClusterNodePoolNodeConfigGvnicToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGvnicOutputReference | GoogleContainerClusterNodePoolNodeConfigGvnic): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enabled: cdktn.booleanToTerraform(struct!.enabled),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigGvnicToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigGvnicOutputReference | GoogleContainerClusterNodePoolNodeConfigGvnic): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enabled: {
-      value: cdktn.booleanToHclTerraform(struct!.enabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigGvnicOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigGvnic | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enabled = this._enabled;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigGvnic | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._enabled = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._enabled = value.enabled;
-    }
-  }
-
-  // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
-  public get enabled() {
-    return this.getBooleanAttribute('enabled');
-  }
-  public set enabled(value: boolean | cdktn.IResolvable) {
-    this._enabled = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enabledInput() {
-    return this._enabled;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicy {
-  /**
-  * .
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#maintenance_interval GoogleContainerCluster#maintenance_interval}
-  */
-  readonly maintenanceInterval: string;
-}
-
-export function googleContainerClusterNodePoolNodeConfigHostMaintenancePolicyToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOutputReference | GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicy): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    maintenance_interval: cdktn.stringToTerraform(struct!.maintenanceInterval),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigHostMaintenancePolicyToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOutputReference | GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicy): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    maintenance_interval: {
-      value: cdktn.stringToHclTerraform(struct!.maintenanceInterval),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicy | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._maintenanceInterval !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maintenanceInterval = this._maintenanceInterval;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicy | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._maintenanceInterval = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._maintenanceInterval = value.maintenanceInterval;
-    }
-  }
-
-  // maintenance_interval - computed: false, optional: false, required: true
-  private _maintenanceInterval?: string; 
-  public get maintenanceInterval() {
-    return this.getStringAttribute('maintenance_interval');
-  }
-  public set maintenanceInterval(value: string) {
-    this._maintenanceInterval = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maintenanceIntervalInput() {
-    return this._maintenanceInterval;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim {
-  /**
-  * Defines percentage of minimum reclaim for imagefs.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
-  */
-  readonly imagefsAvailable?: string;
-  /**
-  * Defines percentage of minimum reclaim for imagefs.inodesFree.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
-  */
-  readonly imagefsInodesFree?: string;
-  /**
-  * Defines percentage of minimum reclaim for memory.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
-  */
-  readonly memoryAvailable?: string;
-  /**
-  * Defines percentage of minimum reclaim for nodefs.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
-  */
-  readonly nodefsAvailable?: string;
-  /**
-  * Defines percentage of minimum reclaim for nodefs.inodesFree.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
-  */
-  readonly nodefsInodesFree?: string;
-  /**
-  * Defines percentage of minimum reclaim for pid.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
-  */
-  readonly pidAvailable?: string;
-}
-
-export function googleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference | GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    imagefs_available: cdktn.stringToTerraform(struct!.imagefsAvailable),
-    imagefs_inodes_free: cdktn.stringToTerraform(struct!.imagefsInodesFree),
-    memory_available: cdktn.stringToTerraform(struct!.memoryAvailable),
-    nodefs_available: cdktn.stringToTerraform(struct!.nodefsAvailable),
-    nodefs_inodes_free: cdktn.stringToTerraform(struct!.nodefsInodesFree),
-    pid_available: cdktn.stringToTerraform(struct!.pidAvailable),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference | GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    imagefs_available: {
-      value: cdktn.stringToHclTerraform(struct!.imagefsAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    imagefs_inodes_free: {
-      value: cdktn.stringToHclTerraform(struct!.imagefsInodesFree),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    memory_available: {
-      value: cdktn.stringToHclTerraform(struct!.memoryAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    nodefs_available: {
-      value: cdktn.stringToHclTerraform(struct!.nodefsAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    nodefs_inodes_free: {
-      value: cdktn.stringToHclTerraform(struct!.nodefsInodesFree),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    pid_available: {
-      value: cdktn.stringToHclTerraform(struct!.pidAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._imagefsAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imagefsAvailable = this._imagefsAvailable;
-    }
-    if (this._imagefsInodesFree !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imagefsInodesFree = this._imagefsInodesFree;
-    }
-    if (this._memoryAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.memoryAvailable = this._memoryAvailable;
-    }
-    if (this._nodefsAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodefsAvailable = this._nodefsAvailable;
-    }
-    if (this._nodefsInodesFree !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodefsInodesFree = this._nodefsInodesFree;
-    }
-    if (this._pidAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.pidAvailable = this._pidAvailable;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._imagefsAvailable = undefined;
-      this._imagefsInodesFree = undefined;
-      this._memoryAvailable = undefined;
-      this._nodefsAvailable = undefined;
-      this._nodefsInodesFree = undefined;
-      this._pidAvailable = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._imagefsAvailable = value.imagefsAvailable;
-      this._imagefsInodesFree = value.imagefsInodesFree;
-      this._memoryAvailable = value.memoryAvailable;
-      this._nodefsAvailable = value.nodefsAvailable;
-      this._nodefsInodesFree = value.nodefsInodesFree;
-      this._pidAvailable = value.pidAvailable;
-    }
-  }
-
-  // imagefs_available - computed: false, optional: true, required: false
-  private _imagefsAvailable?: string; 
-  public get imagefsAvailable() {
-    return this.getStringAttribute('imagefs_available');
-  }
-  public set imagefsAvailable(value: string) {
-    this._imagefsAvailable = value;
-  }
-  public resetImagefsAvailable() {
-    this._imagefsAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imagefsAvailableInput() {
-    return this._imagefsAvailable;
-  }
-
-  // imagefs_inodes_free - computed: false, optional: true, required: false
-  private _imagefsInodesFree?: string; 
-  public get imagefsInodesFree() {
-    return this.getStringAttribute('imagefs_inodes_free');
-  }
-  public set imagefsInodesFree(value: string) {
-    this._imagefsInodesFree = value;
-  }
-  public resetImagefsInodesFree() {
-    this._imagefsInodesFree = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imagefsInodesFreeInput() {
-    return this._imagefsInodesFree;
-  }
-
-  // memory_available - computed: false, optional: true, required: false
-  private _memoryAvailable?: string; 
-  public get memoryAvailable() {
-    return this.getStringAttribute('memory_available');
-  }
-  public set memoryAvailable(value: string) {
-    this._memoryAvailable = value;
-  }
-  public resetMemoryAvailable() {
-    this._memoryAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get memoryAvailableInput() {
-    return this._memoryAvailable;
-  }
-
-  // nodefs_available - computed: false, optional: true, required: false
-  private _nodefsAvailable?: string; 
-  public get nodefsAvailable() {
-    return this.getStringAttribute('nodefs_available');
-  }
-  public set nodefsAvailable(value: string) {
-    this._nodefsAvailable = value;
-  }
-  public resetNodefsAvailable() {
-    this._nodefsAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodefsAvailableInput() {
-    return this._nodefsAvailable;
-  }
-
-  // nodefs_inodes_free - computed: false, optional: true, required: false
-  private _nodefsInodesFree?: string; 
-  public get nodefsInodesFree() {
-    return this.getStringAttribute('nodefs_inodes_free');
-  }
-  public set nodefsInodesFree(value: string) {
-    this._nodefsInodesFree = value;
-  }
-  public resetNodefsInodesFree() {
-    this._nodefsInodesFree = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodefsInodesFreeInput() {
-    return this._nodefsInodesFree;
-  }
-
-  // pid_available - computed: false, optional: true, required: false
-  private _pidAvailable?: string; 
-  public get pidAvailable() {
-    return this.getStringAttribute('pid_available');
-  }
-  public set pidAvailable(value: string) {
-    this._pidAvailable = value;
-  }
-  public resetPidAvailable() {
-    this._pidAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pidAvailableInput() {
-    return this._pidAvailable;
-  }
-}
-export interface GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoft {
-  /**
-  * Defines percentage of soft eviction threshold for imagefs.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_available GoogleContainerCluster#imagefs_available}
-  */
-  readonly imagefsAvailable?: string;
-  /**
-  * Defines percentage of soft eviction threshold for imagefs.inodesFree.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#imagefs_inodes_free GoogleContainerCluster#imagefs_inodes_free}
-  */
-  readonly imagefsInodesFree?: string;
-  /**
-  * Defines quantity of soft eviction threshold for memory.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#memory_available GoogleContainerCluster#memory_available}
-  */
-  readonly memoryAvailable?: string;
-  /**
-  * Defines percentage of soft eviction threshold for nodefs.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_available GoogleContainerCluster#nodefs_available}
-  */
-  readonly nodefsAvailable?: string;
-  /**
-  * Defines percentage of soft eviction threshold for nodefs.inodesFree.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#nodefs_inodes_free GoogleContainerCluster#nodefs_inodes_free}
-  */
-  readonly nodefsInodesFree?: string;
-  /**
-  * Defines percentage of soft eviction threshold for pid.available.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#pid_available GoogleContainerCluster#pid_available}
-  */
-  readonly pidAvailable?: string;
-}
-
-export function googleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoftToTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoftOutputReference | GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoft): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    imagefs_available: cdktn.stringToTerraform(struct!.imagefsAvailable),
-    imagefs_inodes_free: cdktn.stringToTerraform(struct!.imagefsInodesFree),
-    memory_available: cdktn.stringToTerraform(struct!.memoryAvailable),
-    nodefs_available: cdktn.stringToTerraform(struct!.nodefsAvailable),
-    nodefs_inodes_free: cdktn.stringToTerraform(struct!.nodefsInodesFree),
-    pid_available: cdktn.stringToTerraform(struct!.pidAvailable),
-  }
-}
-
-
-export function googleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoftToHclTerraform(struct?: GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoftOutputReference | GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoft): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    imagefs_available: {
-      value: cdktn.stringToHclTerraform(struct!.imagefsAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    imagefs_inodes_free: {
-      value: cdktn.stringToHclTerraform(struct!.imagefsInodesFree),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    memory_available: {
-      value: cdktn.stringToHclTerraform(struct!.memoryAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    nodefs_available: {
-      value: cdktn.stringToHclTerraform(struct!.nodefsAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    nodefs_inodes_free: {
-      value: cdktn.stringToHclTerraform(struct!.nodefsInodesFree),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    pid_available: {
-      value: cdktn.stringToHclTerraform(struct!.pidAvailable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoftOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoft | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._imagefsAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imagefsAvailable = this._imagefsAvailable;
-    }
-    if (this._imagefsInodesFree !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imagefsInodesFree = this._imagefsInodesFree;
-    }
-    if (this._memoryAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.memoryAvailable = this._memoryAvailable;
-    }
-    if (this._nodefsAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodefsAvailable = this._nodefsAvailable;
-    }
-    if (this._nodefsInodesFree !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodefsInodesFree = this._nodefsInodesFree;
-    }
-    if (this._pidAvailable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.pidAvailable = this._pidAvailable;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleContainerClusterNodePoolNodeConfigKubeletConfigEvictionSoft | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._imagefsAvailable = undefined;
-      this._imagefsInodesFree = undefined;
-      this._memoryAvailable = undefined;
-      this._nodefsAvailable = undefined;
-      this._nodefsInodesFree = undefined;
-      this._pidAvailable = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._imagefsAvailable = value.imagefsAvailable;
-      this._imagefsInodesFree = value.imagefsInodesFree;
-      this._memoryAvailable = value.memoryAvailable;
-      this._nodefsAvailable = value.nodefsAvailable;
-      this._nodefsInodesFree = value.nodefsInodesFree;
-      this._pidAvailable = value.pidAvailable;
-    }
-  }
-
-  // imagefs_available - computed: false, optional: true, required: false
-  private _imagefsAvailable?: string; 
-  public get imagefsAvailable() {
-    return this.getStringAttribute('imagefs_available');
-  }
-  public set imagefsAvailable(value: string) {
-    this._imagefsAvailable = value;
-  }
-  public resetImagefsAvailable() {
-    this._imagefsAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imagefsAvailableInput() {
-    return this._imagefsAvailable;
-  }
-
-  // imagefs_inodes_free - computed: false, optional: true, required: false
-  private _imagefsInodesFree?: string; 
-  public get imagefsInodesFree() {
-    return this.getStringAttribute('imagefs_inodes_free');
-  }
-  public set imagefsInodesFree(value: string) {
-    this._imagefsInodesFree = value;
-  }
-  public resetImagefsInodesFree() {
-    this._imagefsInodesFree = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imagefsInodesFreeInput() {
-    return this._imagefsInodesFree;
-  }
-
-  // memory_available - computed: false, optional: true, required: false
-  private _memoryAvailable?: string; 
-  public get memoryAvailable() {
-    return this.getStringAttribute('memory_available');
-  }
-  public set memoryAvailable(value: string) {
-    this._memoryAvailable = value;
-  }
-  public resetMemoryAvailable() {
-    this._memoryAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get memoryAvailableInput() {
-    return this._memoryAvailable;
-  }
-
-  // nodefs_available - computed: false, optional: true, required: false
-  private _nodefsAvailable?: string; 
-  public get nodefsAvailable() {
-    return this.getStringAttribute('nodefs_available');
-  }
-  public set nodefsAvailable(value: string) {
-    this._nodefsAvailable = value;
-  }
-  public resetNodefsAvailable() {
-    this._nodefsAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodefsAvailableInput() {
-    return this._nodefsAvailable;
-  }
-
-  // nodefs_inodes_free - computed: false, optional: true, required: false
-  private _nodefsInodesFree?: string; 
-  public get nodefsInodesFree() {
-    return this.getStringAttribute('nodefs_inodes_free');
-  }
-  public set nodefsInodesFree(value: string) {
-    this._nodefsInodesFree = value;
-  }
-  public resetNodefsInodesFree() {
-    this._nodefsInodesFree = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodefsInodesFreeInput() {
-    return this._nodefsInodesFree;
-  }
-
-  // pid_available - computed: false, optional: true, required: false
-  private _pidAvailable?: string; 
-  public get pidAvailable() {
-    return this.getStringAttribute('pid_available');
-  }
-  public set pidAvailable(value: string) {
-    this._pidAvailable = value;
-  }
-  public resetPidAvailable() {
-    this._pidAvailable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pidAvailableInput() {
-    return this._pidAvailable;
   }
 }

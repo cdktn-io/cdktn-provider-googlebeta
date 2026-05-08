@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface GoogleStorageTransferJobConfig extends cdktn.TerraformMetaArgum
   /**
   * Unique description to identify the Transfer Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#description GoogleStorageTransferJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#description GoogleStorageTransferJob#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#id GoogleStorageTransferJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#id GoogleStorageTransferJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,55 +28,61 @@ export interface GoogleStorageTransferJobConfig extends cdktn.TerraformMetaArgum
   /**
   * The name of the Transfer Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#name GoogleStorageTransferJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#name GoogleStorageTransferJob#name}
   */
   readonly name?: string;
   /**
   * The project in which the resource belongs. If it is not provided, the provider project is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#project GoogleStorageTransferJob#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#project GoogleStorageTransferJob#project}
   */
   readonly project?: string;
   /**
+  * The user-managed service account to run the job. If this field is specified, the given service account is granted the necessary permissions to all applicable resources (e.g. GCS buckets) required by the job.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#service_account GoogleStorageTransferJob#service_account}
+  */
+  readonly serviceAccount?: string;
+  /**
   * Status of the job. Default: ENABLED. NOTE: The effect of the new job status takes place during a subsequent job run. For example, if you change the job status from ENABLED to DISABLED, and an operation spawned by the transfer is running, the status change would not affect the current operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#status GoogleStorageTransferJob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#status GoogleStorageTransferJob#status}
   */
   readonly status?: string;
   /**
   * event_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#event_stream GoogleStorageTransferJob#event_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#event_stream GoogleStorageTransferJob#event_stream}
   */
   readonly eventStream?: GoogleStorageTransferJobEventStream;
   /**
   * logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#logging_config GoogleStorageTransferJob#logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#logging_config GoogleStorageTransferJob#logging_config}
   */
   readonly loggingConfig?: GoogleStorageTransferJobLoggingConfig;
   /**
   * notification_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#notification_config GoogleStorageTransferJob#notification_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#notification_config GoogleStorageTransferJob#notification_config}
   */
   readonly notificationConfig?: GoogleStorageTransferJobNotificationConfig;
   /**
   * replication_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#replication_spec GoogleStorageTransferJob#replication_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#replication_spec GoogleStorageTransferJob#replication_spec}
   */
   readonly replicationSpec?: GoogleStorageTransferJobReplicationSpec;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#schedule GoogleStorageTransferJob#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#schedule GoogleStorageTransferJob#schedule}
   */
   readonly schedule?: GoogleStorageTransferJobSchedule;
   /**
   * transfer_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#transfer_spec GoogleStorageTransferJob#transfer_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#transfer_spec GoogleStorageTransferJob#transfer_spec}
   */
   readonly transferSpec?: GoogleStorageTransferJobTransferSpec;
 }
@@ -84,19 +90,19 @@ export interface GoogleStorageTransferJobEventStream {
   /**
   * Specifies the data and time at which Storage Transfer Service stops listening for events from this stream. After this time, any transfers in progress will complete, but no new transfers are initiated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#event_stream_expiration_time GoogleStorageTransferJob#event_stream_expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#event_stream_expiration_time GoogleStorageTransferJob#event_stream_expiration_time}
   */
   readonly eventStreamExpirationTime?: string;
   /**
   * Specifies the date and time that Storage Transfer Service starts listening for events from this stream. If no start time is specified or start time is in the past, Storage Transfer Service starts listening immediately
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#event_stream_start_time GoogleStorageTransferJob#event_stream_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#event_stream_start_time GoogleStorageTransferJob#event_stream_start_time}
   */
   readonly eventStreamStartTime?: string;
   /**
   * Specifies a unique name of the resource such as AWS SQS ARN in the form 'arn:aws:sqs:region:account_id:queue_name', or Pub/Sub subscription resource name in the form 'projects/{project}/subscriptions/{sub}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#name GoogleStorageTransferJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#name GoogleStorageTransferJob#name}
   */
   readonly name: string;
 }
@@ -237,19 +243,19 @@ export interface GoogleStorageTransferJobLoggingConfig {
   /**
   * For transfers with a PosixFilesystem source, this option enables the Cloud Storage transfer logs for this transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#enable_on_prem_gcs_transfer_logs GoogleStorageTransferJob#enable_on_prem_gcs_transfer_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#enable_on_prem_gcs_transfer_logs GoogleStorageTransferJob#enable_on_prem_gcs_transfer_logs}
   */
   readonly enableOnPremGcsTransferLogs?: boolean | cdktn.IResolvable;
   /**
   * States in which logActions are logged. Not supported for transfers with PosifxFilesystem data sources; use enable_on_prem_gcs_transfer_logs instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#log_action_states GoogleStorageTransferJob#log_action_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#log_action_states GoogleStorageTransferJob#log_action_states}
   */
   readonly logActionStates?: string[];
   /**
   * Specifies the actions to be logged. Not supported for transfers with PosifxFilesystem data sources; use enable_on_prem_gcs_transfer_logs instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#log_actions GoogleStorageTransferJob#log_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#log_actions GoogleStorageTransferJob#log_actions}
   */
   readonly logActions?: string[];
 }
@@ -393,19 +399,19 @@ export interface GoogleStorageTransferJobNotificationConfig {
   /**
   * Event types for which a notification is desired. If empty, send notifications for all event types. The valid types are "TRANSFER_OPERATION_SUCCESS", "TRANSFER_OPERATION_FAILED", "TRANSFER_OPERATION_ABORTED".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#event_types GoogleStorageTransferJob#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#event_types GoogleStorageTransferJob#event_types}
   */
   readonly eventTypes?: string[];
   /**
   * The desired format of the notification message payloads. One of "NONE" or "JSON".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#payload_format GoogleStorageTransferJob#payload_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#payload_format GoogleStorageTransferJob#payload_format}
   */
   readonly payloadFormat: string;
   /**
   * The Topic.name of the Pub/Sub topic to which to publish notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#pubsub_topic GoogleStorageTransferJob#pubsub_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#pubsub_topic GoogleStorageTransferJob#pubsub_topic}
   */
   readonly pubsubTopic: string;
 }
@@ -543,13 +549,13 @@ export interface GoogleStorageTransferJobReplicationSpecGcsDataSink {
   /**
   * Google Cloud Storage bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Google Cloud Storage path in bucket to transfer
+  * Google Cloud Storage path in bucket to transfer. Must be an empty string or full path name that ends with a '/'. This field is treated as an object prefix. As such, it should not begin with a '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
   */
   readonly path?: string;
 }
@@ -641,7 +647,7 @@ export class GoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference e
     return this._bucketName;
   }
 
-  // path - computed: true, optional: true, required: false
+  // path - computed: false, optional: true, required: false
   private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
@@ -661,13 +667,13 @@ export interface GoogleStorageTransferJobReplicationSpecGcsDataSource {
   /**
   * Google Cloud Storage bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Google Cloud Storage path in bucket to transfer
+  * Google Cloud Storage path in bucket to transfer. Must be an empty string or full path name that ends with a '/'. This field is treated as an object prefix. As such, it should not begin with a '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
   */
   readonly path?: string;
 }
@@ -759,7 +765,7 @@ export class GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference
     return this._bucketName;
   }
 
-  // path - computed: true, optional: true, required: false
+  // path - computed: false, optional: true, required: false
   private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
@@ -779,37 +785,37 @@ export interface GoogleStorageTransferJobReplicationSpecObjectConditions {
   /**
   * exclude_prefixes must follow the requirements described for include_prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#exclude_prefixes GoogleStorageTransferJob#exclude_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#exclude_prefixes GoogleStorageTransferJob#exclude_prefixes}
   */
   readonly excludePrefixes?: string[];
   /**
   * If include_refixes is specified, objects that satisfy the object conditions must have names that start with one of the include_prefixes and that do not start with any of the exclude_prefixes. If include_prefixes is not specified, all objects except those that have names starting with one of the exclude_prefixes must satisfy the object conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#include_prefixes GoogleStorageTransferJob#include_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#include_prefixes GoogleStorageTransferJob#include_prefixes}
   */
   readonly includePrefixes?: string[];
   /**
   * If specified, only objects with a "last modification time" before this timestamp and objects that don't have a "last modification time" are transferred. A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#last_modified_before GoogleStorageTransferJob#last_modified_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#last_modified_before GoogleStorageTransferJob#last_modified_before}
   */
   readonly lastModifiedBefore?: string;
   /**
   * If specified, only objects with a "last modification time" on or after this timestamp and objects that don't have a "last modification time" are transferred. A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#last_modified_since GoogleStorageTransferJob#last_modified_since}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#last_modified_since GoogleStorageTransferJob#last_modified_since}
   */
   readonly lastModifiedSince?: string;
   /**
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#max_time_elapsed_since_last_modification GoogleStorageTransferJob#max_time_elapsed_since_last_modification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#max_time_elapsed_since_last_modification GoogleStorageTransferJob#max_time_elapsed_since_last_modification}
   */
   readonly maxTimeElapsedSinceLastModification?: string;
   /**
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#min_time_elapsed_since_last_modification GoogleStorageTransferJob#min_time_elapsed_since_last_modification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#min_time_elapsed_since_last_modification GoogleStorageTransferJob#min_time_elapsed_since_last_modification}
   */
   readonly minTimeElapsedSinceLastModification?: string;
 }
@@ -1040,55 +1046,55 @@ export interface GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataO
   /**
   * Specifies how each object's ACLs should be preserved for transfers between Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#acl GoogleStorageTransferJob#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#acl GoogleStorageTransferJob#acl}
   */
   readonly acl?: string;
   /**
   * Specifies how each file's POSIX group ID (GID) attribute should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#gid GoogleStorageTransferJob#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#gid GoogleStorageTransferJob#gid}
   */
   readonly gid?: string;
   /**
   * Specifies how each object's Cloud KMS customer-managed encryption key (CMEK) is preserved for transfers between Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#kms_key GoogleStorageTransferJob#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#kms_key GoogleStorageTransferJob#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * Specifies how each file's mode attribute should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#mode GoogleStorageTransferJob#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#mode GoogleStorageTransferJob#mode}
   */
   readonly mode?: string;
   /**
   * Specifies the storage class to set on objects being transferred to Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#storage_class GoogleStorageTransferJob#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#storage_class GoogleStorageTransferJob#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Specifies how symlinks should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#symlink GoogleStorageTransferJob#symlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#symlink GoogleStorageTransferJob#symlink}
   */
   readonly symlink?: string;
   /**
   * SSpecifies how each object's temporary hold status should be preserved for transfers between Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#temporary_hold GoogleStorageTransferJob#temporary_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#temporary_hold GoogleStorageTransferJob#temporary_hold}
   */
   readonly temporaryHold?: string;
   /**
   * Specifies how each object's timeCreated metadata is preserved for transfers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#time_created GoogleStorageTransferJob#time_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#time_created GoogleStorageTransferJob#time_created}
   */
   readonly timeCreated?: string;
   /**
   * Specifies how each file's POSIX user ID (UID) attribute should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#uid GoogleStorageTransferJob#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#uid GoogleStorageTransferJob#uid}
   */
   readonly uid?: string;
 }
@@ -1406,31 +1412,31 @@ export interface GoogleStorageTransferJobReplicationSpecTransferOptions {
   /**
   * Whether objects should be deleted from the source after they are transferred to the sink. Note that this option and delete_objects_unique_in_sink are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_from_source_after_transfer GoogleStorageTransferJob#delete_objects_from_source_after_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#delete_objects_from_source_after_transfer GoogleStorageTransferJob#delete_objects_from_source_after_transfer}
   */
   readonly deleteObjectsFromSourceAfterTransfer?: boolean | cdktn.IResolvable;
   /**
   * Whether objects that exist only in the sink should be deleted. Note that this option and delete_objects_from_source_after_transfer are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_unique_in_sink GoogleStorageTransferJob#delete_objects_unique_in_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#delete_objects_unique_in_sink GoogleStorageTransferJob#delete_objects_unique_in_sink}
   */
   readonly deleteObjectsUniqueInSink?: boolean | cdktn.IResolvable;
   /**
   * Whether overwriting objects that already exist in the sink is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#overwrite_objects_already_existing_in_sink GoogleStorageTransferJob#overwrite_objects_already_existing_in_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#overwrite_objects_already_existing_in_sink GoogleStorageTransferJob#overwrite_objects_already_existing_in_sink}
   */
   readonly overwriteObjectsAlreadyExistingInSink?: boolean | cdktn.IResolvable;
   /**
   * When to overwrite objects that already exist in the sink. If not set, overwrite behavior is determined by overwriteObjectsAlreadyExistingInSink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#overwrite_when GoogleStorageTransferJob#overwrite_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#overwrite_when GoogleStorageTransferJob#overwrite_when}
   */
   readonly overwriteWhen?: string;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#metadata_options GoogleStorageTransferJob#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#metadata_options GoogleStorageTransferJob#metadata_options}
   */
   readonly metadataOptions?: GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptions;
 }
@@ -1632,25 +1638,25 @@ export interface GoogleStorageTransferJobReplicationSpec {
   /**
   * gcs_data_sink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#gcs_data_sink GoogleStorageTransferJob#gcs_data_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#gcs_data_sink GoogleStorageTransferJob#gcs_data_sink}
   */
   readonly gcsDataSink?: GoogleStorageTransferJobReplicationSpecGcsDataSink;
   /**
   * gcs_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#gcs_data_source GoogleStorageTransferJob#gcs_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#gcs_data_source GoogleStorageTransferJob#gcs_data_source}
   */
   readonly gcsDataSource?: GoogleStorageTransferJobReplicationSpecGcsDataSource;
   /**
   * object_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#object_conditions GoogleStorageTransferJob#object_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#object_conditions GoogleStorageTransferJob#object_conditions}
   */
   readonly objectConditions?: GoogleStorageTransferJobReplicationSpecObjectConditions;
   /**
   * transfer_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#transfer_options GoogleStorageTransferJob#transfer_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#transfer_options GoogleStorageTransferJob#transfer_options}
   */
   readonly transferOptions?: GoogleStorageTransferJobReplicationSpecTransferOptions;
 }
@@ -1823,19 +1829,19 @@ export interface GoogleStorageTransferJobScheduleScheduleEndDate {
   /**
   * Day of month. Must be from 1 to 31 and valid for the year and month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#day GoogleStorageTransferJob#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#day GoogleStorageTransferJob#day}
   */
   readonly day: number;
   /**
   * Month of year. Must be from 1 to 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#month GoogleStorageTransferJob#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#month GoogleStorageTransferJob#month}
   */
   readonly month: number;
   /**
   * Year of date. Must be from 1 to 9999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#year GoogleStorageTransferJob#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#year GoogleStorageTransferJob#year}
   */
   readonly year: number;
 }
@@ -1970,19 +1976,19 @@ export interface GoogleStorageTransferJobScheduleScheduleStartDate {
   /**
   * Day of month. Must be from 1 to 31 and valid for the year and month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#day GoogleStorageTransferJob#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#day GoogleStorageTransferJob#day}
   */
   readonly day: number;
   /**
   * Month of year. Must be from 1 to 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#month GoogleStorageTransferJob#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#month GoogleStorageTransferJob#month}
   */
   readonly month: number;
   /**
   * Year of date. Must be from 1 to 9999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#year GoogleStorageTransferJob#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#year GoogleStorageTransferJob#year}
   */
   readonly year: number;
 }
@@ -2117,25 +2123,25 @@ export interface GoogleStorageTransferJobScheduleStartTimeOfDay {
   /**
   * Hours of day in 24 hour format. Should be from 0 to 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#hours GoogleStorageTransferJob#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#hours GoogleStorageTransferJob#hours}
   */
   readonly hours: number;
   /**
   * Minutes of hour of day. Must be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#minutes GoogleStorageTransferJob#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#minutes GoogleStorageTransferJob#minutes}
   */
   readonly minutes: number;
   /**
   * Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#nanos GoogleStorageTransferJob#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#nanos GoogleStorageTransferJob#nanos}
   */
   readonly nanos: number;
   /**
   * Seconds of minutes of the time. Must normally be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#seconds GoogleStorageTransferJob#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#seconds GoogleStorageTransferJob#seconds}
   */
   readonly seconds: number;
 }
@@ -2296,25 +2302,25 @@ export interface GoogleStorageTransferJobSchedule {
   /**
   * Interval between the start of each scheduled transfer. If unspecified, the default value is 24 hours. This value may not be less than 1 hour. A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#repeat_interval GoogleStorageTransferJob#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#repeat_interval GoogleStorageTransferJob#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
   * schedule_end_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#schedule_end_date GoogleStorageTransferJob#schedule_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#schedule_end_date GoogleStorageTransferJob#schedule_end_date}
   */
   readonly scheduleEndDate?: GoogleStorageTransferJobScheduleScheduleEndDate;
   /**
   * schedule_start_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#schedule_start_date GoogleStorageTransferJob#schedule_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#schedule_start_date GoogleStorageTransferJob#schedule_start_date}
   */
   readonly scheduleStartDate: GoogleStorageTransferJobScheduleScheduleStartDate;
   /**
   * start_time_of_day block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#start_time_of_day GoogleStorageTransferJob#start_time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#start_time_of_day GoogleStorageTransferJob#start_time_of_day}
   */
   readonly startTimeOfDay?: GoogleStorageTransferJobScheduleStartTimeOfDay;
 }
@@ -2480,17 +2486,428 @@ export class GoogleStorageTransferJobScheduleOutputReference extends cdktn.Compl
     return this._startTimeOfDay.internalValue;
   }
 }
+export interface GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata {
+  /**
+  * Authentication and authorization method used by the storage service. When not specified, Transfer Service will attempt to determine right auth method to use.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#auth_method GoogleStorageTransferJob#auth_method}
+  */
+  readonly authMethod?: string;
+  /**
+  * The Listing API to use for discovering objects. When not specified, Transfer Service will attempt to determine the right API to use.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#list_api GoogleStorageTransferJob#list_api}
+  */
+  readonly listApi?: string;
+  /**
+  * The network protocol of the agent. When not specified, the default value of NetworkProtocol NETWORK_PROTOCOL_HTTPS is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#protocol GoogleStorageTransferJob#protocol}
+  */
+  readonly protocol?: string;
+  /**
+  * API request model used to call the storage service. When not specified, the default value of RequestModel REQUEST_MODEL_VIRTUAL_HOSTED_STYLE is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#request_model GoogleStorageTransferJob#request_model}
+  */
+  readonly requestModel?: string;
+}
+
+export function googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataToTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataOutputReference | GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    auth_method: cdktn.stringToTerraform(struct!.authMethod),
+    list_api: cdktn.stringToTerraform(struct!.listApi),
+    protocol: cdktn.stringToTerraform(struct!.protocol),
+    request_model: cdktn.stringToTerraform(struct!.requestModel),
+  }
+}
+
+
+export function googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataOutputReference | GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    auth_method: {
+      value: cdktn.stringToHclTerraform(struct!.authMethod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    list_api: {
+      value: cdktn.stringToHclTerraform(struct!.listApi),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    protocol: {
+      value: cdktn.stringToHclTerraform(struct!.protocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    request_model: {
+      value: cdktn.stringToHclTerraform(struct!.requestModel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._authMethod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authMethod = this._authMethod;
+    }
+    if (this._listApi !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.listApi = this._listApi;
+    }
+    if (this._protocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocol = this._protocol;
+    }
+    if (this._requestModel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestModel = this._requestModel;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._authMethod = undefined;
+      this._listApi = undefined;
+      this._protocol = undefined;
+      this._requestModel = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._authMethod = value.authMethod;
+      this._listApi = value.listApi;
+      this._protocol = value.protocol;
+      this._requestModel = value.requestModel;
+    }
+  }
+
+  // auth_method - computed: false, optional: true, required: false
+  private _authMethod?: string; 
+  public get authMethod() {
+    return this.getStringAttribute('auth_method');
+  }
+  public set authMethod(value: string) {
+    this._authMethod = value;
+  }
+  public resetAuthMethod() {
+    this._authMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authMethodInput() {
+    return this._authMethod;
+  }
+
+  // list_api - computed: false, optional: true, required: false
+  private _listApi?: string; 
+  public get listApi() {
+    return this.getStringAttribute('list_api');
+  }
+  public set listApi(value: string) {
+    this._listApi = value;
+  }
+  public resetListApi() {
+    this._listApi = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listApiInput() {
+    return this._listApi;
+  }
+
+  // protocol - computed: false, optional: true, required: false
+  private _protocol?: string; 
+  public get protocol() {
+    return this.getStringAttribute('protocol');
+  }
+  public set protocol(value: string) {
+    this._protocol = value;
+  }
+  public resetProtocol() {
+    this._protocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInput() {
+    return this._protocol;
+  }
+
+  // request_model - computed: false, optional: true, required: false
+  private _requestModel?: string; 
+  public get requestModel() {
+    return this.getStringAttribute('request_model');
+  }
+  public set requestModel(value: string) {
+    this._requestModel = value;
+  }
+  public resetRequestModel() {
+    this._requestModel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestModelInput() {
+    return this._requestModel;
+  }
+}
+export interface GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSource {
+  /**
+  * Name of the bucket.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
+  */
+  readonly bucketName: string;
+  /**
+  * Endpoint of the storage service.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#endpoint GoogleStorageTransferJob#endpoint}
+  */
+  readonly endpoint: string;
+  /**
+  * Specifies the path to transfer objects.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  */
+  readonly path?: string;
+  /**
+  * Specifies the region to sign requests with. This can be left blank if requests should be signed with an empty region.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#region GoogleStorageTransferJob#region}
+  */
+  readonly region?: string;
+  /**
+  * s3_metadata block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#s3_metadata GoogleStorageTransferJob#s3_metadata}
+  */
+  readonly s3Metadata?: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata;
+}
+
+export function googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceToTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference | GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    endpoint: cdktn.stringToTerraform(struct!.endpoint),
+    path: cdktn.stringToTerraform(struct!.path),
+    region: cdktn.stringToTerraform(struct!.region),
+    s3_metadata: googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataToTerraform(struct!.s3Metadata),
+  }
+}
+
+
+export function googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference | GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    bucket_name: {
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    endpoint: {
+      value: cdktn.stringToHclTerraform(struct!.endpoint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktn.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    region: {
+      value: cdktn.stringToHclTerraform(struct!.region),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    s3_metadata: {
+      value: googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataToHclTerraform(struct!.s3Metadata),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._bucketName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bucketName = this._bucketName;
+    }
+    if (this._endpoint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endpoint = this._endpoint;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
+    if (this._region !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.region = this._region;
+    }
+    if (this._s3Metadata?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.s3Metadata = this._s3Metadata?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._bucketName = undefined;
+      this._endpoint = undefined;
+      this._path = undefined;
+      this._region = undefined;
+      this._s3Metadata.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._bucketName = value.bucketName;
+      this._endpoint = value.endpoint;
+      this._path = value.path;
+      this._region = value.region;
+      this._s3Metadata.internalValue = value.s3Metadata;
+    }
+  }
+
+  // bucket_name - computed: false, optional: false, required: true
+  private _bucketName?: string; 
+  public get bucketName() {
+    return this.getStringAttribute('bucket_name');
+  }
+  public set bucketName(value: string) {
+    this._bucketName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bucketNameInput() {
+    return this._bucketName;
+  }
+
+  // endpoint - computed: false, optional: false, required: true
+  private _endpoint?: string; 
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+  public set endpoint(value: string) {
+    this._endpoint = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointInput() {
+    return this._endpoint;
+  }
+
+  // path - computed: false, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
+  // region - computed: false, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
+  // s3_metadata - computed: false, optional: true, required: false
+  private _s3Metadata = new GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3MetadataOutputReference(this, "s3_metadata");
+  public get s3Metadata() {
+    return this._s3Metadata;
+  }
+  public putS3Metadata(value: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata) {
+    this._s3Metadata.internalValue = value;
+  }
+  public resetS3Metadata() {
+    this._s3Metadata.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get s3MetadataInput() {
+    return this._s3Metadata.internalValue;
+  }
+}
 export interface GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey {
   /**
   * AWS Key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#access_key_id GoogleStorageTransferJob#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#access_key_id GoogleStorageTransferJob#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * AWS Secret Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#secret_access_key GoogleStorageTransferJob#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#secret_access_key GoogleStorageTransferJob#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -2599,37 +3016,43 @@ export interface GoogleStorageTransferJobTransferSpecAwsS3DataSource {
   /**
   * S3 Bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The CloudFront distribution domain name pointing to this bucket, to use when fetching. See [Transfer from S3 via CloudFront](https://cloud.google.com/storage-transfer/docs/s3-cloudfront) for more information. Format: https://{id}.cloudfront.net or any valid custom domain. Must begin with https://.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#cloudfront_domain GoogleStorageTransferJob#cloudfront_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#cloudfront_domain GoogleStorageTransferJob#cloudfront_domain}
   */
   readonly cloudfrontDomain?: string;
   /**
+  * The Resource name of a secret in Secret Manager. AWS credentials must be stored in Secret Manager in JSON format. If credentials_secret is specified, do not specify role_arn or aws_access_key. Format: projects/{projectNumber}/secrets/{secret_name}.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#credentials_secret GoogleStorageTransferJob#credentials_secret}
+  */
+  readonly credentialsSecret?: string;
+  /**
   * Egress bytes over a Google-managed private network. This network is shared between other users of Storage Transfer Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#managed_private_network GoogleStorageTransferJob#managed_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#managed_private_network GoogleStorageTransferJob#managed_private_network}
   */
   readonly managedPrivateNetwork?: boolean | cdktn.IResolvable;
   /**
   * S3 Bucket path in bucket to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
   */
   readonly path?: string;
   /**
   * The Amazon Resource Name (ARN) of the role to support temporary credentials via 'AssumeRoleWithWebIdentity'. For more information about ARNs, see [IAM ARNs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-arns). When a role ARN is provided, Transfer Service fetches temporary credentials for the session using a 'AssumeRoleWithWebIdentity' call for the provided role using the [GoogleServiceAccount][] for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#role_arn GoogleStorageTransferJob#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#role_arn GoogleStorageTransferJob#role_arn}
   */
   readonly roleArn?: string;
   /**
   * aws_access_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#aws_access_key GoogleStorageTransferJob#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#aws_access_key GoogleStorageTransferJob#aws_access_key}
   */
   readonly awsAccessKey?: GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey;
 }
@@ -2642,6 +3065,7 @@ export function googleStorageTransferJobTransferSpecAwsS3DataSourceToTerraform(s
   return {
     bucket_name: cdktn.stringToTerraform(struct!.bucketName),
     cloudfront_domain: cdktn.stringToTerraform(struct!.cloudfrontDomain),
+    credentials_secret: cdktn.stringToTerraform(struct!.credentialsSecret),
     managed_private_network: cdktn.booleanToTerraform(struct!.managedPrivateNetwork),
     path: cdktn.stringToTerraform(struct!.path),
     role_arn: cdktn.stringToTerraform(struct!.roleArn),
@@ -2664,6 +3088,12 @@ export function googleStorageTransferJobTransferSpecAwsS3DataSourceToHclTerrafor
     },
     cloudfront_domain: {
       value: cdktn.stringToHclTerraform(struct!.cloudfrontDomain),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    credentials_secret: {
+      value: cdktn.stringToHclTerraform(struct!.credentialsSecret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2720,6 +3150,10 @@ export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference 
       hasAnyValues = true;
       internalValueResult.cloudfrontDomain = this._cloudfrontDomain;
     }
+    if (this._credentialsSecret !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.credentialsSecret = this._credentialsSecret;
+    }
     if (this._managedPrivateNetwork !== undefined) {
       hasAnyValues = true;
       internalValueResult.managedPrivateNetwork = this._managedPrivateNetwork;
@@ -2744,6 +3178,7 @@ export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference 
       this.isEmptyObject = false;
       this._bucketName = undefined;
       this._cloudfrontDomain = undefined;
+      this._credentialsSecret = undefined;
       this._managedPrivateNetwork = undefined;
       this._path = undefined;
       this._roleArn = undefined;
@@ -2753,6 +3188,7 @@ export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference 
       this.isEmptyObject = Object.keys(value).length === 0;
       this._bucketName = value.bucketName;
       this._cloudfrontDomain = value.cloudfrontDomain;
+      this._credentialsSecret = value.credentialsSecret;
       this._managedPrivateNetwork = value.managedPrivateNetwork;
       this._path = value.path;
       this._roleArn = value.roleArn;
@@ -2787,6 +3223,22 @@ export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference 
   // Temporarily expose input value. Use with caution.
   public get cloudfrontDomainInput() {
     return this._cloudfrontDomain;
+  }
+
+  // credentials_secret - computed: false, optional: true, required: false
+  private _credentialsSecret?: string; 
+  public get credentialsSecret() {
+    return this.getStringAttribute('credentials_secret');
+  }
+  public set credentialsSecret(value: string) {
+    this._credentialsSecret = value;
+  }
+  public resetCredentialsSecret() {
+    this._credentialsSecret = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get credentialsSecretInput() {
+    return this._credentialsSecret;
   }
 
   // managed_private_network - computed: false, optional: true, required: false
@@ -2857,7 +3309,7 @@ export interface GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceA
   /**
   * Azure shared access signature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#sas_token GoogleStorageTransferJob#sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#sas_token GoogleStorageTransferJob#sas_token}
   */
   readonly sasToken: string;
 }
@@ -2940,13 +3392,13 @@ export interface GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceF
   /**
   * The client (application) ID of the application with federated credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#client_id GoogleStorageTransferJob#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#client_id GoogleStorageTransferJob#client_id}
   */
   readonly clientId: string;
   /**
   * The tenant (directory) ID of the application with federated credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#tenant_id GoogleStorageTransferJob#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#tenant_id GoogleStorageTransferJob#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -3055,37 +3507,37 @@ export interface GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource 
   /**
   * The container to transfer from the Azure Storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#container GoogleStorageTransferJob#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#container GoogleStorageTransferJob#container}
   */
   readonly container: string;
   /**
   * The Resource name of a secret in Secret Manager containing SAS Credentials in JSON form. Service Agent must have permissions to access secret. If credentials_secret is specified, do not specify azure_credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#credentials_secret GoogleStorageTransferJob#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#credentials_secret GoogleStorageTransferJob#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * Root path to transfer objects. Must be an empty string or full path name that ends with a '/'. This field is treated as an object prefix. As such, it should generally not begin with a '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
   */
   readonly path?: string;
   /**
   * The name of the Azure Storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#storage_account GoogleStorageTransferJob#storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#storage_account GoogleStorageTransferJob#storage_account}
   */
   readonly storageAccount: string;
   /**
   * azure_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#azure_credentials GoogleStorageTransferJob#azure_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#azure_credentials GoogleStorageTransferJob#azure_credentials}
   */
   readonly azureCredentials?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentials;
   /**
   * federated_identity_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#federated_identity_config GoogleStorageTransferJob#federated_identity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#federated_identity_config GoogleStorageTransferJob#federated_identity_config}
   */
   readonly federatedIdentityConfig?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfig;
 }
@@ -3310,13 +3762,13 @@ export interface GoogleStorageTransferJobTransferSpecGcsDataSink {
   /**
   * Google Cloud Storage bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Google Cloud Storage path in bucket to transfer
+  * Google Cloud Storage path in bucket to transfer. Must be an empty string or full path name that ends with a '/'. This field is treated as an object prefix. As such, it should not begin with a '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
   */
   readonly path?: string;
 }
@@ -3408,7 +3860,7 @@ export class GoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference exte
     return this._bucketName;
   }
 
-  // path - computed: true, optional: true, required: false
+  // path - computed: false, optional: true, required: false
   private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
@@ -3428,13 +3880,13 @@ export interface GoogleStorageTransferJobTransferSpecGcsDataSource {
   /**
   * Google Cloud Storage bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#bucket_name GoogleStorageTransferJob#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Google Cloud Storage path in bucket to transfer
+  * Google Cloud Storage path in bucket to transfer. Must be an empty string or full path name that ends with a '/'. This field is treated as an object prefix. As such, it should not begin with a '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
   */
   readonly path?: string;
 }
@@ -3526,7 +3978,7 @@ export class GoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference ex
     return this._bucketName;
   }
 
-  // path - computed: true, optional: true, required: false
+  // path - computed: false, optional: true, required: false
   private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
@@ -3546,7 +3998,7 @@ export interface GoogleStorageTransferJobTransferSpecHdfsDataSource {
   /**
   * Directory path to the filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#path GoogleStorageTransferJob#path}
   */
   readonly path: string;
 }
@@ -3629,7 +4081,7 @@ export interface GoogleStorageTransferJobTransferSpecHttpDataSource {
   /**
   * The URL that points to the file that stores the object list entries. This file must allow public access. Currently, only URLs with HTTP and HTTPS schemes are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#list_url GoogleStorageTransferJob#list_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#list_url GoogleStorageTransferJob#list_url}
   */
   readonly listUrl: string;
 }
@@ -3712,37 +4164,37 @@ export interface GoogleStorageTransferJobTransferSpecObjectConditions {
   /**
   * exclude_prefixes must follow the requirements described for include_prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#exclude_prefixes GoogleStorageTransferJob#exclude_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#exclude_prefixes GoogleStorageTransferJob#exclude_prefixes}
   */
   readonly excludePrefixes?: string[];
   /**
   * If include_refixes is specified, objects that satisfy the object conditions must have names that start with one of the include_prefixes and that do not start with any of the exclude_prefixes. If include_prefixes is not specified, all objects except those that have names starting with one of the exclude_prefixes must satisfy the object conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#include_prefixes GoogleStorageTransferJob#include_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#include_prefixes GoogleStorageTransferJob#include_prefixes}
   */
   readonly includePrefixes?: string[];
   /**
   * If specified, only objects with a "last modification time" before this timestamp and objects that don't have a "last modification time" are transferred. A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#last_modified_before GoogleStorageTransferJob#last_modified_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#last_modified_before GoogleStorageTransferJob#last_modified_before}
   */
   readonly lastModifiedBefore?: string;
   /**
   * If specified, only objects with a "last modification time" on or after this timestamp and objects that don't have a "last modification time" are transferred. A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#last_modified_since GoogleStorageTransferJob#last_modified_since}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#last_modified_since GoogleStorageTransferJob#last_modified_since}
   */
   readonly lastModifiedSince?: string;
   /**
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#max_time_elapsed_since_last_modification GoogleStorageTransferJob#max_time_elapsed_since_last_modification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#max_time_elapsed_since_last_modification GoogleStorageTransferJob#max_time_elapsed_since_last_modification}
   */
   readonly maxTimeElapsedSinceLastModification?: string;
   /**
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#min_time_elapsed_since_last_modification GoogleStorageTransferJob#min_time_elapsed_since_last_modification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#min_time_elapsed_since_last_modification GoogleStorageTransferJob#min_time_elapsed_since_last_modification}
   */
   readonly minTimeElapsedSinceLastModification?: string;
 }
@@ -3973,7 +4425,7 @@ export interface GoogleStorageTransferJobTransferSpecPosixDataSink {
   /**
   * Root directory path to the filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#root_directory GoogleStorageTransferJob#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#root_directory GoogleStorageTransferJob#root_directory}
   */
   readonly rootDirectory: string;
 }
@@ -4056,7 +4508,7 @@ export interface GoogleStorageTransferJobTransferSpecPosixDataSource {
   /**
   * Root directory path to the filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#root_directory GoogleStorageTransferJob#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#root_directory GoogleStorageTransferJob#root_directory}
   */
   readonly rootDirectory: string;
 }
@@ -4135,59 +4587,142 @@ export class GoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference 
     return this._rootDirectory;
   }
 }
+export interface GoogleStorageTransferJobTransferSpecTransferManifest {
+  /**
+  * Cloud Storage path to the manifest CSV.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#location GoogleStorageTransferJob#location}
+  */
+  readonly location: string;
+}
+
+export function googleStorageTransferJobTransferSpecTransferManifestToTerraform(struct?: GoogleStorageTransferJobTransferSpecTransferManifestOutputReference | GoogleStorageTransferJobTransferSpecTransferManifest): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    location: cdktn.stringToTerraform(struct!.location),
+  }
+}
+
+
+export function googleStorageTransferJobTransferSpecTransferManifestToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecTransferManifestOutputReference | GoogleStorageTransferJobTransferSpecTransferManifest): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    location: {
+      value: cdktn.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleStorageTransferJobTransferSpecTransferManifestOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleStorageTransferJobTransferSpecTransferManifest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleStorageTransferJobTransferSpecTransferManifest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._location = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._location = value.location;
+    }
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+}
 export interface GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions {
   /**
   * Specifies how each object's ACLs should be preserved for transfers between Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#acl GoogleStorageTransferJob#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#acl GoogleStorageTransferJob#acl}
   */
   readonly acl?: string;
   /**
   * Specifies how each file's POSIX group ID (GID) attribute should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#gid GoogleStorageTransferJob#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#gid GoogleStorageTransferJob#gid}
   */
   readonly gid?: string;
   /**
   * Specifies how each object's Cloud KMS customer-managed encryption key (CMEK) is preserved for transfers between Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#kms_key GoogleStorageTransferJob#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#kms_key GoogleStorageTransferJob#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * Specifies how each file's mode attribute should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#mode GoogleStorageTransferJob#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#mode GoogleStorageTransferJob#mode}
   */
   readonly mode?: string;
   /**
   * Specifies the storage class to set on objects being transferred to Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#storage_class GoogleStorageTransferJob#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#storage_class GoogleStorageTransferJob#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Specifies how symlinks should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#symlink GoogleStorageTransferJob#symlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#symlink GoogleStorageTransferJob#symlink}
   */
   readonly symlink?: string;
   /**
   * SSpecifies how each object's temporary hold status should be preserved for transfers between Google Cloud Storage buckets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#temporary_hold GoogleStorageTransferJob#temporary_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#temporary_hold GoogleStorageTransferJob#temporary_hold}
   */
   readonly temporaryHold?: string;
   /**
   * Specifies how each object's timeCreated metadata is preserved for transfers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#time_created GoogleStorageTransferJob#time_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#time_created GoogleStorageTransferJob#time_created}
   */
   readonly timeCreated?: string;
   /**
   * Specifies how each file's POSIX user ID (UID) attribute should be handled by the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#uid GoogleStorageTransferJob#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#uid GoogleStorageTransferJob#uid}
   */
   readonly uid?: string;
 }
@@ -4505,31 +5040,31 @@ export interface GoogleStorageTransferJobTransferSpecTransferOptions {
   /**
   * Whether objects should be deleted from the source after they are transferred to the sink. Note that this option and delete_objects_unique_in_sink are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_from_source_after_transfer GoogleStorageTransferJob#delete_objects_from_source_after_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#delete_objects_from_source_after_transfer GoogleStorageTransferJob#delete_objects_from_source_after_transfer}
   */
   readonly deleteObjectsFromSourceAfterTransfer?: boolean | cdktn.IResolvable;
   /**
   * Whether objects that exist only in the sink should be deleted. Note that this option and delete_objects_from_source_after_transfer are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_unique_in_sink GoogleStorageTransferJob#delete_objects_unique_in_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#delete_objects_unique_in_sink GoogleStorageTransferJob#delete_objects_unique_in_sink}
   */
   readonly deleteObjectsUniqueInSink?: boolean | cdktn.IResolvable;
   /**
   * Whether overwriting objects that already exist in the sink is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#overwrite_objects_already_existing_in_sink GoogleStorageTransferJob#overwrite_objects_already_existing_in_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#overwrite_objects_already_existing_in_sink GoogleStorageTransferJob#overwrite_objects_already_existing_in_sink}
   */
   readonly overwriteObjectsAlreadyExistingInSink?: boolean | cdktn.IResolvable;
   /**
   * When to overwrite objects that already exist in the sink. If not set, overwrite behavior is determined by overwriteObjectsAlreadyExistingInSink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#overwrite_when GoogleStorageTransferJob#overwrite_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#overwrite_when GoogleStorageTransferJob#overwrite_when}
   */
   readonly overwriteWhen?: string;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#metadata_options GoogleStorageTransferJob#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#metadata_options GoogleStorageTransferJob#metadata_options}
   */
   readonly metadataOptions?: GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions;
 }
@@ -4731,73 +5266,85 @@ export interface GoogleStorageTransferJobTransferSpec {
   /**
   * Specifies the agent pool name associated with the posix data source. When unspecified, the default name is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#sink_agent_pool_name GoogleStorageTransferJob#sink_agent_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#sink_agent_pool_name GoogleStorageTransferJob#sink_agent_pool_name}
   */
   readonly sinkAgentPoolName?: string;
   /**
   * Specifies the agent pool name associated with the posix data source. When unspecified, the default name is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#source_agent_pool_name GoogleStorageTransferJob#source_agent_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#source_agent_pool_name GoogleStorageTransferJob#source_agent_pool_name}
   */
   readonly sourceAgentPoolName?: string;
   /**
+  * aws_s3_compatible_data_source block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#aws_s3_compatible_data_source GoogleStorageTransferJob#aws_s3_compatible_data_source}
+  */
+  readonly awsS3CompatibleDataSource?: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSource;
+  /**
   * aws_s3_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#aws_s3_data_source GoogleStorageTransferJob#aws_s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#aws_s3_data_source GoogleStorageTransferJob#aws_s3_data_source}
   */
   readonly awsS3DataSource?: GoogleStorageTransferJobTransferSpecAwsS3DataSource;
   /**
   * azure_blob_storage_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#azure_blob_storage_data_source GoogleStorageTransferJob#azure_blob_storage_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#azure_blob_storage_data_source GoogleStorageTransferJob#azure_blob_storage_data_source}
   */
   readonly azureBlobStorageDataSource?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource;
   /**
   * gcs_data_sink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#gcs_data_sink GoogleStorageTransferJob#gcs_data_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#gcs_data_sink GoogleStorageTransferJob#gcs_data_sink}
   */
   readonly gcsDataSink?: GoogleStorageTransferJobTransferSpecGcsDataSink;
   /**
   * gcs_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#gcs_data_source GoogleStorageTransferJob#gcs_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#gcs_data_source GoogleStorageTransferJob#gcs_data_source}
   */
   readonly gcsDataSource?: GoogleStorageTransferJobTransferSpecGcsDataSource;
   /**
   * hdfs_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#hdfs_data_source GoogleStorageTransferJob#hdfs_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#hdfs_data_source GoogleStorageTransferJob#hdfs_data_source}
   */
   readonly hdfsDataSource?: GoogleStorageTransferJobTransferSpecHdfsDataSource;
   /**
   * http_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#http_data_source GoogleStorageTransferJob#http_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#http_data_source GoogleStorageTransferJob#http_data_source}
   */
   readonly httpDataSource?: GoogleStorageTransferJobTransferSpecHttpDataSource;
   /**
   * object_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#object_conditions GoogleStorageTransferJob#object_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#object_conditions GoogleStorageTransferJob#object_conditions}
   */
   readonly objectConditions?: GoogleStorageTransferJobTransferSpecObjectConditions;
   /**
   * posix_data_sink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#posix_data_sink GoogleStorageTransferJob#posix_data_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#posix_data_sink GoogleStorageTransferJob#posix_data_sink}
   */
   readonly posixDataSink?: GoogleStorageTransferJobTransferSpecPosixDataSink;
   /**
   * posix_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#posix_data_source GoogleStorageTransferJob#posix_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#posix_data_source GoogleStorageTransferJob#posix_data_source}
   */
   readonly posixDataSource?: GoogleStorageTransferJobTransferSpecPosixDataSource;
   /**
+  * transfer_manifest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#transfer_manifest GoogleStorageTransferJob#transfer_manifest}
+  */
+  readonly transferManifest?: GoogleStorageTransferJobTransferSpecTransferManifest;
+  /**
   * transfer_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#transfer_options GoogleStorageTransferJob#transfer_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#transfer_options GoogleStorageTransferJob#transfer_options}
   */
   readonly transferOptions?: GoogleStorageTransferJobTransferSpecTransferOptions;
 }
@@ -4810,6 +5357,7 @@ export function googleStorageTransferJobTransferSpecToTerraform(struct?: GoogleS
   return {
     sink_agent_pool_name: cdktn.stringToTerraform(struct!.sinkAgentPoolName),
     source_agent_pool_name: cdktn.stringToTerraform(struct!.sourceAgentPoolName),
+    aws_s3_compatible_data_source: googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceToTerraform(struct!.awsS3CompatibleDataSource),
     aws_s3_data_source: googleStorageTransferJobTransferSpecAwsS3DataSourceToTerraform(struct!.awsS3DataSource),
     azure_blob_storage_data_source: googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceToTerraform(struct!.azureBlobStorageDataSource),
     gcs_data_sink: googleStorageTransferJobTransferSpecGcsDataSinkToTerraform(struct!.gcsDataSink),
@@ -4819,6 +5367,7 @@ export function googleStorageTransferJobTransferSpecToTerraform(struct?: GoogleS
     object_conditions: googleStorageTransferJobTransferSpecObjectConditionsToTerraform(struct!.objectConditions),
     posix_data_sink: googleStorageTransferJobTransferSpecPosixDataSinkToTerraform(struct!.posixDataSink),
     posix_data_source: googleStorageTransferJobTransferSpecPosixDataSourceToTerraform(struct!.posixDataSource),
+    transfer_manifest: googleStorageTransferJobTransferSpecTransferManifestToTerraform(struct!.transferManifest),
     transfer_options: googleStorageTransferJobTransferSpecTransferOptionsToTerraform(struct!.transferOptions),
   }
 }
@@ -4841,6 +5390,12 @@ export function googleStorageTransferJobTransferSpecToHclTerraform(struct?: Goog
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    aws_s3_compatible_data_source: {
+      value: googleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceToHclTerraform(struct!.awsS3CompatibleDataSource),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceList",
     },
     aws_s3_data_source: {
       value: googleStorageTransferJobTransferSpecAwsS3DataSourceToHclTerraform(struct!.awsS3DataSource),
@@ -4896,6 +5451,12 @@ export function googleStorageTransferJobTransferSpecToHclTerraform(struct?: Goog
       type: "list",
       storageClassType: "GoogleStorageTransferJobTransferSpecPosixDataSourceList",
     },
+    transfer_manifest: {
+      value: googleStorageTransferJobTransferSpecTransferManifestToHclTerraform(struct!.transferManifest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleStorageTransferJobTransferSpecTransferManifestList",
+    },
     transfer_options: {
       value: googleStorageTransferJobTransferSpecTransferOptionsToHclTerraform(struct!.transferOptions),
       isBlock: true,
@@ -4929,6 +5490,10 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
     if (this._sourceAgentPoolName !== undefined) {
       hasAnyValues = true;
       internalValueResult.sourceAgentPoolName = this._sourceAgentPoolName;
+    }
+    if (this._awsS3CompatibleDataSource?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsS3CompatibleDataSource = this._awsS3CompatibleDataSource?.internalValue;
     }
     if (this._awsS3DataSource?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -4966,6 +5531,10 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
       hasAnyValues = true;
       internalValueResult.posixDataSource = this._posixDataSource?.internalValue;
     }
+    if (this._transferManifest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.transferManifest = this._transferManifest?.internalValue;
+    }
     if (this._transferOptions?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.transferOptions = this._transferOptions?.internalValue;
@@ -4978,6 +5547,7 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
       this.isEmptyObject = false;
       this._sinkAgentPoolName = undefined;
       this._sourceAgentPoolName = undefined;
+      this._awsS3CompatibleDataSource.internalValue = undefined;
       this._awsS3DataSource.internalValue = undefined;
       this._azureBlobStorageDataSource.internalValue = undefined;
       this._gcsDataSink.internalValue = undefined;
@@ -4987,12 +5557,14 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
       this._objectConditions.internalValue = undefined;
       this._posixDataSink.internalValue = undefined;
       this._posixDataSource.internalValue = undefined;
+      this._transferManifest.internalValue = undefined;
       this._transferOptions.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._sinkAgentPoolName = value.sinkAgentPoolName;
       this._sourceAgentPoolName = value.sourceAgentPoolName;
+      this._awsS3CompatibleDataSource.internalValue = value.awsS3CompatibleDataSource;
       this._awsS3DataSource.internalValue = value.awsS3DataSource;
       this._azureBlobStorageDataSource.internalValue = value.azureBlobStorageDataSource;
       this._gcsDataSink.internalValue = value.gcsDataSink;
@@ -5002,6 +5574,7 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
       this._objectConditions.internalValue = value.objectConditions;
       this._posixDataSink.internalValue = value.posixDataSink;
       this._posixDataSource.internalValue = value.posixDataSource;
+      this._transferManifest.internalValue = value.transferManifest;
       this._transferOptions.internalValue = value.transferOptions;
     }
   }
@@ -5036,6 +5609,22 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
   // Temporarily expose input value. Use with caution.
   public get sourceAgentPoolNameInput() {
     return this._sourceAgentPoolName;
+  }
+
+  // aws_s3_compatible_data_source - computed: false, optional: true, required: false
+  private _awsS3CompatibleDataSource = new GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference(this, "aws_s3_compatible_data_source");
+  public get awsS3CompatibleDataSource() {
+    return this._awsS3CompatibleDataSource;
+  }
+  public putAwsS3CompatibleDataSource(value: GoogleStorageTransferJobTransferSpecAwsS3CompatibleDataSource) {
+    this._awsS3CompatibleDataSource.internalValue = value;
+  }
+  public resetAwsS3CompatibleDataSource() {
+    this._awsS3CompatibleDataSource.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsS3CompatibleDataSourceInput() {
+    return this._awsS3CompatibleDataSource.internalValue;
   }
 
   // aws_s3_data_source - computed: false, optional: true, required: false
@@ -5182,6 +5771,22 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
     return this._posixDataSource.internalValue;
   }
 
+  // transfer_manifest - computed: false, optional: true, required: false
+  private _transferManifest = new GoogleStorageTransferJobTransferSpecTransferManifestOutputReference(this, "transfer_manifest");
+  public get transferManifest() {
+    return this._transferManifest;
+  }
+  public putTransferManifest(value: GoogleStorageTransferJobTransferSpecTransferManifest) {
+    this._transferManifest.internalValue = value;
+  }
+  public resetTransferManifest() {
+    this._transferManifest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transferManifestInput() {
+    return this._transferManifest.internalValue;
+  }
+
   // transfer_options - computed: false, optional: true, required: false
   private _transferOptions = new GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference(this, "transfer_options");
   public get transferOptions() {
@@ -5200,7 +5805,7 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job google_storage_transfer_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job google_storage_transfer_job}
 */
 export class GoogleStorageTransferJob extends cdktn.TerraformResource {
 
@@ -5216,7 +5821,7 @@ export class GoogleStorageTransferJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleStorageTransferJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageTransferJob to import
-  * @param importFromId The id of the existing GoogleStorageTransferJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleStorageTransferJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageTransferJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5228,7 +5833,7 @@ export class GoogleStorageTransferJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job google_storage_transfer_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_job google_storage_transfer_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5239,8 +5844,8 @@ export class GoogleStorageTransferJob extends cdktn.TerraformResource {
       terraformResourceType: 'google_storage_transfer_job',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5254,6 +5859,7 @@ export class GoogleStorageTransferJob extends cdktn.TerraformResource {
     this._id = config.id;
     this._name = config.name;
     this._project = config.project;
+    this._serviceAccount = config.serviceAccount;
     this._status = config.status;
     this._eventStream.internalValue = config.eventStream;
     this._loggingConfig.internalValue = config.loggingConfig;
@@ -5341,6 +5947,22 @@ export class GoogleStorageTransferJob extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get projectInput() {
     return this._project;
+  }
+
+  // service_account - computed: false, optional: true, required: false
+  private _serviceAccount?: string; 
+  public get serviceAccount() {
+    return this.getStringAttribute('service_account');
+  }
+  public set serviceAccount(value: string) {
+    this._serviceAccount = value;
+  }
+  public resetServiceAccount() {
+    this._serviceAccount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountInput() {
+    return this._serviceAccount;
   }
 
   // status - computed: false, optional: true, required: false
@@ -5465,6 +6087,7 @@ export class GoogleStorageTransferJob extends cdktn.TerraformResource {
       id: cdktn.stringToTerraform(this._id),
       name: cdktn.stringToTerraform(this._name),
       project: cdktn.stringToTerraform(this._project),
+      service_account: cdktn.stringToTerraform(this._serviceAccount),
       status: cdktn.stringToTerraform(this._status),
       event_stream: googleStorageTransferJobEventStreamToTerraform(this._eventStream.internalValue),
       logging_config: googleStorageTransferJobLoggingConfigToTerraform(this._loggingConfig.internalValue),
@@ -5497,6 +6120,12 @@ export class GoogleStorageTransferJob extends cdktn.TerraformResource {
       },
       project: {
         value: cdktn.stringToHclTerraform(this._project),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      service_account: {
+        value: cdktn.stringToHclTerraform(this._serviceAccount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

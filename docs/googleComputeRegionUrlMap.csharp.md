@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionUrlMap <a name="GoogleComputeRegionUrlMap" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putDefaultRouteAction">PutDefaultRouteAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putDefaultUrlRedirect">PutDefaultUrlRedirect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putHeaderAction">PutHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putHostRule">PutHostRule</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putPathMatcher">PutPathMatcher</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putTest">PutTest</a></code> | *No description.* |
@@ -84,6 +85,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDefaultService">ResetDefaultService</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDefaultUrlRedirect">ResetDefaultUrlRedirect</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetHeaderAction">ResetHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetHostRule">ResetHostRule</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetPathMatcher">ResetPathMatcher</a></code> | *No description.* |
@@ -427,6 +429,18 @@ private void PutDefaultUrlRedirect(GoogleComputeRegionUrlMapDefaultUrlRedirect V
 
 ---
 
+##### `PutHeaderAction` <a name="PutHeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putHeaderAction"></a>
+
+```csharp
+private void PutHeaderAction(GoogleComputeRegionUrlMapHeaderAction Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putHeaderAction.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a>
+
+---
+
 ##### `PutHostRule` <a name="PutHostRule" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.putHostRule"></a>
 
 ```csharp
@@ -497,6 +511,12 @@ private void ResetDefaultUrlRedirect()
 
 ```csharp
 private void ResetDescription()
+```
+
+##### `ResetHeaderAction` <a name="ResetHeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetHeaderAction"></a>
+
+```csharp
+private void ResetHeaderAction()
 ```
 
 ##### `ResetHostRule` <a name="ResetHostRule" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetHostRule"></a>
@@ -644,7 +664,7 @@ The construct id used in the generated config for the GoogleComputeRegionUrlMap 
 
 The id of the existing GoogleComputeRegionUrlMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -678,6 +698,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultRouteAction">DefaultRouteAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultRouteActionOutputReference">GoogleComputeRegionUrlMapDefaultRouteActionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultUrlRedirect">DefaultUrlRedirect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultUrlRedirectOutputReference">GoogleComputeRegionUrlMapDefaultUrlRedirectOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.fingerprint">Fingerprint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.headerAction">HeaderAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference">GoogleComputeRegionUrlMapHeaderActionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.hostRule">HostRule</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHostRuleList">GoogleComputeRegionUrlMapHostRuleList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.mapId">MapId</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.pathMatcher">PathMatcher</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherList">GoogleComputeRegionUrlMapPathMatcherList</a></code> | *No description.* |
@@ -688,6 +709,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultServiceInput">DefaultServiceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultUrlRedirectInput">DefaultUrlRedirectInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultUrlRedirect">GoogleComputeRegionUrlMapDefaultUrlRedirect</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.headerActionInput">HeaderActionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.hostRuleInput">HostRuleInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHostRule">GoogleComputeRegionUrlMapHostRule</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
@@ -887,6 +909,16 @@ public string Fingerprint { get; }
 
 ---
 
+##### `HeaderAction`<sup>Required</sup> <a name="HeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.headerAction"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapHeaderActionOutputReference HeaderAction { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference">GoogleComputeRegionUrlMapHeaderActionOutputReference</a>
+
+---
+
 ##### `HostRule`<sup>Required</sup> <a name="HostRule" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.hostRule"></a>
 
 ```csharp
@@ -984,6 +1016,16 @@ public string DescriptionInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `HeaderActionInput`<sup>Optional</sup> <a name="HeaderActionInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.headerActionInput"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapHeaderAction HeaderActionInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a>
 
 ---
 
@@ -1167,6 +1209,7 @@ new GoogleComputeRegionUrlMapConfig {
     string DefaultService = null,
     GoogleComputeRegionUrlMapDefaultUrlRedirect DefaultUrlRedirect = null,
     string Description = null,
+    GoogleComputeRegionUrlMapHeaderAction HeaderAction = null,
     IResolvable|GoogleComputeRegionUrlMapHostRule[] HostRule = null,
     string Id = null,
     IResolvable|GoogleComputeRegionUrlMapPathMatcher[] PathMatcher = null,
@@ -1193,10 +1236,11 @@ new GoogleComputeRegionUrlMapConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.defaultService">DefaultService</a></code> | <code>string</code> | The full or partial URL of the defaultService resource to which traffic is directed if none of the hostRules match. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.defaultUrlRedirect">DefaultUrlRedirect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultUrlRedirect">GoogleComputeRegionUrlMapDefaultUrlRedirect</a></code> | default_url_redirect block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. Provide this property when you create the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.headerAction">HeaderAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a></code> | header_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.hostRule">HostRule</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHostRule">GoogleComputeRegionUrlMapHostRule</a>[]</code> | host_rule block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.pathMatcher">PathMatcher</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher">GoogleComputeRegionUrlMapPathMatcher</a>[]</code> | path_matcher block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.region">Region</a></code> | <code>string</code> | The Region in which the url map should reside. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.test">Test</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTest">GoogleComputeRegionUrlMapTest</a>[]</code> | test block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts">GoogleComputeRegionUrlMapTimeouts</a></code> | timeouts block. |
@@ -1291,7 +1335,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -1305,7 +1349,7 @@ public GoogleComputeRegionUrlMapDefaultRouteAction DefaultRouteAction { get; set
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
 
 ---
 
@@ -1326,7 +1370,7 @@ weightedBackendServices. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified.  Only one of defaultService,
 defaultUrlRedirect or defaultRouteAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
 
 ---
 
@@ -1340,7 +1384,7 @@ public GoogleComputeRegionUrlMapDefaultUrlRedirect DefaultUrlRedirect { get; set
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
 
 ---
 
@@ -1354,7 +1398,21 @@ public string Description { get; set; }
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+
+---
+
+##### `HeaderAction`<sup>Optional</sup> <a name="HeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.headerAction"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapHeaderAction HeaderAction { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a>
+
+header_action block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -1368,7 +1426,7 @@ public IResolvable|GoogleComputeRegionUrlMapHostRule[] HostRule { get; set; }
 
 host_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_rule GoogleComputeRegionUrlMap#host_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_rule GoogleComputeRegionUrlMap#host_rule}
 
 ---
 
@@ -1380,7 +1438,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1397,7 +1455,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcher[] PathMatcher { get; set
 
 path_matcher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
 
 ---
 
@@ -1409,7 +1467,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}.
 
 ---
 
@@ -1423,7 +1481,7 @@ public string Region { get; set; }
 
 The Region in which the url map should reside. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#region GoogleComputeRegionUrlMap#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#region GoogleComputeRegionUrlMap#region}
 
 ---
 
@@ -1437,7 +1495,7 @@ public IResolvable|GoogleComputeRegionUrlMapTest[] Test { get; set; }
 
 test block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#test GoogleComputeRegionUrlMap#test}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#test GoogleComputeRegionUrlMap#test}
 
 ---
 
@@ -1451,7 +1509,7 @@ public GoogleComputeRegionUrlMapTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#timeouts GoogleComputeRegionUrlMap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#timeouts GoogleComputeRegionUrlMap#timeouts}
 
 ---
 
@@ -1497,7 +1555,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionCorsPolicy CorsPolicy { get; s
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -1511,7 +1569,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicy FaultInje
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -1525,7 +1583,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionRequestMirrorPolicy RequestMir
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -1539,7 +1597,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionRetryPolicy RetryPolicy { get;
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -1553,7 +1611,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionTimeout Timeout { get; set; }
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -1567,7 +1625,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionUrlRewrite UrlRewrite { get; s
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -1581,7 +1639,7 @@ public IResolvable|GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendSer
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -1632,7 +1690,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This field translates to the Access-Control-Allow-Credentials header.
 Default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -1646,7 +1704,7 @@ public string[] AllowHeaders { get; set; }
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -1660,7 +1718,7 @@ public string[] AllowMethods { get; set; }
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -1678,7 +1736,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -1694,7 +1752,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -1710,7 +1768,7 @@ If true, the setting specifies the CORS policy is disabled.
 
 The default value of false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -1724,7 +1782,7 @@ public string[] ExposeHeaders { get; set; }
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -1738,7 +1796,7 @@ public double MaxAge { get; set; }
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -1774,7 +1832,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyAbort Abor
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -1788,7 +1846,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyDelay Dela
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -1824,7 +1882,7 @@ public double HttpStatus { get; set; }
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -1840,7 +1898,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -1876,7 +1934,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixed
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -1892,7 +1950,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -1931,7 +1989,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -1948,7 +2006,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -1987,7 +2045,7 @@ The full or partial URL to the RegionBackendService resource being mirrored to.
 The backend service configured for a mirroring policy must reference backends that are of the same type as the original backend service matched in the URL map.
 Serverless NEG backends are not currently supported as a mirrored backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -2001,7 +2059,7 @@ public double MirrorPercent { get; set; }
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -2039,7 +2097,7 @@ public double NumRetries { get; set; }
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -2053,7 +2111,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionRetryPolicyPerTryTimeout PerTr
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -2080,7 +2138,7 @@ Valid values are listed below. Only the following codes are supported when the U
 * resource-exhausted : a retry is attempted if the gRPC status code in the response header is set to resource-exhausted.
 * unavailable : a retry is attempted if the gRPC status code in the response header is set to unavailable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -2119,7 +2177,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -2136,7 +2194,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -2174,7 +2232,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 
 Durations less than one second are represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -2190,7 +2248,7 @@ Span of time at a resolution of a second.
 
 Must be from 0 to 315,576,000,000 inclusive. Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -2228,7 +2286,7 @@ Before forwarding the request to the selected service, the request's host header
 
 The value must be from 1 to 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -2244,7 +2302,7 @@ Before forwarding the request to the selected backend service, the matching port
 
 The value must be from 1 to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -2284,7 +2342,7 @@ The full or partial URL to the default BackendService resource.
 
 Before forwarding the request to backendService, the load balancer applies any relevant headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -2298,7 +2356,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -2315,7 +2373,7 @@ Specifies the fraction of traffic sent to a backend service, computed as weight 
 The selection of a backend service is determined only for new traffic. Once a user's request has been directed to a backend service, subsequent requests are sent to the same backend service as determined by the backend service's session affinity policy.
 The value must be from 0 to 1000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -2355,7 +2413,7 @@ public IResolvable|GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendSer
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -2369,7 +2427,7 @@ public string[] RequestHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the request before forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -2383,7 +2441,7 @@ public IResolvable|GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendSer
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -2397,7 +2455,7 @@ public string[] ResponseHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the response before sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -2435,7 +2493,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -2449,7 +2507,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -2466,7 +2524,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -2504,7 +2562,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -2518,7 +2576,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -2535,7 +2593,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -2583,7 +2641,7 @@ If set to false, the query portion of the original URL is
 retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -2599,7 +2657,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -2618,7 +2676,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -2637,7 +2695,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -2655,7 +2713,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -2677,7 +2735,227 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+
+---
+
+### GoogleComputeRegionUrlMapHeaderAction <a name="GoogleComputeRegionUrlMapHeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderAction {
+    IResolvable|GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd[] RequestHeadersToAdd = null,
+    string[] RequestHeadersToRemove = null,
+    IResolvable|GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd[] ResponseHeadersToAdd = null,
+    string[] ResponseHeadersToRemove = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.requestHeadersToAdd">RequestHeadersToAdd</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>[]</code> | request_headers_to_add block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.requestHeadersToRemove">RequestHeadersToRemove</a></code> | <code>string[]</code> | A list of header names for headers that need to be removed from the request before forwarding the request to the backendService. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.responseHeadersToAdd">ResponseHeadersToAdd</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>[]</code> | response_headers_to_add block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.responseHeadersToRemove">ResponseHeadersToRemove</a></code> | <code>string[]</code> | A list of header names for headers that need to be removed from the response before sending the response back to the client. |
+
+---
+
+##### `RequestHeadersToAdd`<sup>Optional</sup> <a name="RequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.requestHeadersToAdd"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd[] RequestHeadersToAdd { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>[]
+
+request_headers_to_add block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+
+---
+
+##### `RequestHeadersToRemove`<sup>Optional</sup> <a name="RequestHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.requestHeadersToRemove"></a>
+
+```csharp
+public string[] RequestHeadersToRemove { get; set; }
+```
+
+- *Type:* string[]
+
+A list of header names for headers that need to be removed from the request before forwarding the request to the backendService.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+
+---
+
+##### `ResponseHeadersToAdd`<sup>Optional</sup> <a name="ResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.responseHeadersToAdd"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd[] ResponseHeadersToAdd { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>[]
+
+response_headers_to_add block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+
+---
+
+##### `ResponseHeadersToRemove`<sup>Optional</sup> <a name="ResponseHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction.property.responseHeadersToRemove"></a>
+
+```csharp
+public string[] ResponseHeadersToRemove { get; set; }
+```
+
+- *Type:* string[]
+
+A list of header names for headers that need to be removed from the response before sending the response back to the client.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+
+---
+
+### GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd <a name="GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd {
+    string HeaderName = null,
+    string HeaderValue = null,
+    bool|IResolvable Replace = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd.property.headerName">HeaderName</a></code> | <code>string</code> | The name of the header. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd.property.headerValue">HeaderValue</a></code> | <code>string</code> | The value of the header to add. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If false, headerValue is appended to any values that already exist for the header. |
+
+---
+
+##### `HeaderName`<sup>Optional</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; set; }
+```
+
+- *Type:* string
+
+The name of the header.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+
+---
+
+##### `HeaderValue`<sup>Optional</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; set; }
+```
+
+- *Type:* string
+
+The value of the header to add.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+
+---
+
+##### `Replace`<sup>Optional</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If false, headerValue is appended to any values that already exist for the header.
+
+If true, headerValue is set for the header, discarding any values that were set for that header.
+The default value is false.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+
+---
+
+### GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd <a name="GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd {
+    string HeaderName = null,
+    string HeaderValue = null,
+    bool|IResolvable Replace = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd.property.headerName">HeaderName</a></code> | <code>string</code> | The name of the header. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd.property.headerValue">HeaderValue</a></code> | <code>string</code> | The value of the header to add. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If false, headerValue is appended to any values that already exist for the header. |
+
+---
+
+##### `HeaderName`<sup>Optional</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; set; }
+```
+
+- *Type:* string
+
+The name of the header.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+
+---
+
+##### `HeaderValue`<sup>Optional</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; set; }
+```
+
+- *Type:* string
+
+The value of the header to add.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+
+---
+
+##### `Replace`<sup>Optional</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If false, headerValue is appended to any values that already exist for the header.
+
+If true, headerValue is set for the header, discarding any values that were set for that header.
+The default value is false.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -2720,7 +2998,7 @@ hostnames, except * will match any string of ([a-z0-9-.]*). In
 that case, * must be the first character and must be followed in
 the pattern by either - or ..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#hosts GoogleComputeRegionUrlMap#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#hosts GoogleComputeRegionUrlMap#hosts}
 
 ---
 
@@ -2734,7 +3012,7 @@ public string PathMatcher { get; set; }
 
 The name of the PathMatcher to use to match the path portion of the URL if the hostRule matches the URL's host portion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
 
 ---
 
@@ -2748,7 +3026,7 @@ public string Description { get; set; }
 
 An optional description of this HostRule. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
 
 ---
 
@@ -2765,6 +3043,7 @@ new GoogleComputeRegionUrlMapPathMatcher {
     string DefaultService = null,
     GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect DefaultUrlRedirect = null,
     string Description = null,
+    GoogleComputeRegionUrlMapPathMatcherHeaderAction HeaderAction = null,
     IResolvable|GoogleComputeRegionUrlMapPathMatcherPathRule[] PathRule = null,
     IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRules[] RouteRules = null
 };
@@ -2779,6 +3058,7 @@ new GoogleComputeRegionUrlMapPathMatcher {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher.property.defaultService">DefaultService</a></code> | <code>string</code> | A reference to a RegionBackendService resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher.property.defaultUrlRedirect">DefaultUrlRedirect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect">GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect</a></code> | default_url_redirect block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher.property.headerAction">HeaderAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction">GoogleComputeRegionUrlMapPathMatcherHeaderAction</a></code> | header_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher.property.pathRule">PathRule</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherPathRule">GoogleComputeRegionUrlMapPathMatcherPathRule</a>[]</code> | path_rule block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher.property.routeRules">RouteRules</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherRouteRules">GoogleComputeRegionUrlMapPathMatcherRouteRules</a>[]</code> | route_rules block. |
 
@@ -2794,7 +3074,7 @@ public string Name { get; set; }
 
 The name to which this PathMatcher is referred by the HostRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -2808,7 +3088,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteAction DefaultRouteAction
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
 
 ---
 
@@ -2826,7 +3106,7 @@ This will be used if
 none of the pathRules defined by this PathMatcher is matched by
 the URL's path portion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
 
 ---
 
@@ -2840,7 +3120,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect DefaultUrlRedirect
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
 
 ---
 
@@ -2854,7 +3134,21 @@ public string Description { get; set; }
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+
+---
+
+##### `HeaderAction`<sup>Optional</sup> <a name="HeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher.property.headerAction"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapPathMatcherHeaderAction HeaderAction { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction">GoogleComputeRegionUrlMapPathMatcherHeaderAction</a>
+
+header_action block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -2868,7 +3162,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherPathRule[] PathRule { get
 
 path_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_rule GoogleComputeRegionUrlMap#path_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_rule GoogleComputeRegionUrlMap#path_rule}
 
 ---
 
@@ -2882,7 +3176,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRules[] RouteRules {
 
 route_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#route_rules GoogleComputeRegionUrlMap#route_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#route_rules GoogleComputeRegionUrlMap#route_rules}
 
 ---
 
@@ -2930,7 +3224,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionCorsPolicy CorsPoli
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -2944,7 +3238,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -2958,7 +3252,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionMaxStreamDuration M
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#max_stream_duration GoogleComputeRegionUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#max_stream_duration GoogleComputeRegionUrlMap#max_stream_duration}
 
 ---
 
@@ -2972,7 +3266,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -2986,7 +3280,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionRetryPolicy RetryPo
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -3000,7 +3294,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionTimeout Timeout { g
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -3014,7 +3308,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionUrlRewrite UrlRewri
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -3028,7 +3322,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionWeighte
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -3078,7 +3372,7 @@ In response to a preflight request, setting this to true indicates that the actu
 
 This translates to the Access-Control-Allow-Credentials header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -3092,7 +3386,7 @@ public string[] AllowHeaders { get; set; }
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -3106,7 +3400,7 @@ public string[] AllowMethods { get; set; }
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -3124,7 +3418,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -3140,7 +3434,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -3156,7 +3450,7 @@ If true, specifies the CORS policy is disabled.
 
 The default value is false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -3170,7 +3464,7 @@ public string[] ExposeHeaders { get; set; }
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -3184,7 +3478,7 @@ public double MaxAge { get; set; }
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -3220,7 +3514,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -3234,7 +3528,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -3270,7 +3564,7 @@ public double HttpStatus { get; set; }
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -3286,7 +3580,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -3322,7 +3616,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -3338,7 +3632,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -3377,7 +3671,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -3394,7 +3688,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -3433,7 +3727,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -3450,7 +3744,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -3486,7 +3780,7 @@ public string BackendService { get; set; }
 
 The full or partial URL to the BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -3500,7 +3794,7 @@ public double MirrorPercent { get; set; }
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -3538,7 +3832,7 @@ public double NumRetries { get; set; }
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -3552,7 +3846,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTi
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -3581,7 +3875,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
 * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -3620,7 +3914,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -3637,7 +3931,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -3676,7 +3970,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -3693,7 +3987,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -3733,7 +4027,7 @@ Prior to forwarding the request to the selected service, the request's host head
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -3749,7 +4043,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -3777,7 +4071,7 @@ At least one non-empty routeRules[].matchRules[].path_template_match is required
 
 Only one of pathPrefixRewrite or pathTemplateRewrite may be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
 
 ---
 
@@ -3819,7 +4113,7 @@ Before forwarding the
 request to backendService, the loadbalancer applies any relevant headerActions
 specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -3833,7 +4127,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -3853,7 +4147,7 @@ as determined by the BackendService's session affinity policy.
 
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -3893,7 +4187,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionWeighte
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -3907,7 +4201,7 @@ public string[] RequestHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -3921,7 +4215,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionWeighte
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -3935,7 +4229,7 @@ public string[] ResponseHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -3973,7 +4267,7 @@ public string HeaderName { get; set; }
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -3987,7 +4281,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -4003,7 +4297,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -4041,7 +4335,7 @@ public string HeaderName { get; set; }
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -4055,7 +4349,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -4071,7 +4365,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -4119,7 +4413,7 @@ If set to false, the query portion of the original URL is
 retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -4135,7 +4429,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -4154,7 +4448,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -4173,7 +4467,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -4191,7 +4485,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -4213,7 +4507,227 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+
+---
+
+### GoogleComputeRegionUrlMapPathMatcherHeaderAction <a name="GoogleComputeRegionUrlMapPathMatcherHeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderAction {
+    IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] RequestHeadersToAdd = null,
+    string[] RequestHeadersToRemove = null,
+    IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] ResponseHeadersToAdd = null,
+    string[] ResponseHeadersToRemove = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.requestHeadersToAdd">RequestHeadersToAdd</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>[]</code> | request_headers_to_add block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.requestHeadersToRemove">RequestHeadersToRemove</a></code> | <code>string[]</code> | A list of header names for headers that need to be removed from the request before forwarding the request to the backendService. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.responseHeadersToAdd">ResponseHeadersToAdd</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>[]</code> | response_headers_to_add block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.responseHeadersToRemove">ResponseHeadersToRemove</a></code> | <code>string[]</code> | A list of header names for headers that need to be removed from the response before sending the response back to the client. |
+
+---
+
+##### `RequestHeadersToAdd`<sup>Optional</sup> <a name="RequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.requestHeadersToAdd"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] RequestHeadersToAdd { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>[]
+
+request_headers_to_add block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+
+---
+
+##### `RequestHeadersToRemove`<sup>Optional</sup> <a name="RequestHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.requestHeadersToRemove"></a>
+
+```csharp
+public string[] RequestHeadersToRemove { get; set; }
+```
+
+- *Type:* string[]
+
+A list of header names for headers that need to be removed from the request before forwarding the request to the backendService.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+
+---
+
+##### `ResponseHeadersToAdd`<sup>Optional</sup> <a name="ResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.responseHeadersToAdd"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] ResponseHeadersToAdd { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>[]
+
+response_headers_to_add block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+
+---
+
+##### `ResponseHeadersToRemove`<sup>Optional</sup> <a name="ResponseHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction.property.responseHeadersToRemove"></a>
+
+```csharp
+public string[] ResponseHeadersToRemove { get; set; }
+```
+
+- *Type:* string[]
+
+A list of header names for headers that need to be removed from the response before sending the response back to the client.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+
+---
+
+### GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd <a name="GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd {
+    string HeaderName = null,
+    string HeaderValue = null,
+    bool|IResolvable Replace = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd.property.headerName">HeaderName</a></code> | <code>string</code> | The name of the header. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd.property.headerValue">HeaderValue</a></code> | <code>string</code> | The value of the header to add. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If false, headerValue is appended to any values that already exist for the header. |
+
+---
+
+##### `HeaderName`<sup>Optional</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; set; }
+```
+
+- *Type:* string
+
+The name of the header.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+
+---
+
+##### `HeaderValue`<sup>Optional</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; set; }
+```
+
+- *Type:* string
+
+The value of the header to add.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+
+---
+
+##### `Replace`<sup>Optional</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If false, headerValue is appended to any values that already exist for the header.
+
+If true, headerValue is set for the header, discarding any values that were set for that header.
+The default value is false.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+
+---
+
+### GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd <a name="GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd {
+    string HeaderName = null,
+    string HeaderValue = null,
+    bool|IResolvable Replace = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd.property.headerName">HeaderName</a></code> | <code>string</code> | The name of the header. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd.property.headerValue">HeaderValue</a></code> | <code>string</code> | The value of the header to add. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If false, headerValue is appended to any values that already exist for the header. |
+
+---
+
+##### `HeaderName`<sup>Optional</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; set; }
+```
+
+- *Type:* string
+
+The name of the header.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+
+---
+
+##### `HeaderValue`<sup>Optional</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; set; }
+```
+
+- *Type:* string
+
+The value of the header to add.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+
+---
+
+##### `Replace`<sup>Optional</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If false, headerValue is appended to any values that already exist for the header.
+
+If true, headerValue is set for the header, discarding any values that were set for that header.
+The default value is false.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -4258,7 +4772,7 @@ Each must start with / and the only place a
 does not include any text after the first ? or #, and those chars are not
 allowed here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#paths GoogleComputeRegionUrlMap#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#paths GoogleComputeRegionUrlMap#paths}
 
 ---
 
@@ -4272,7 +4786,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteAction RouteAction { get
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
 
 ---
 
@@ -4293,7 +4807,7 @@ contain any weightedBackendService s. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified. Only one of urlRedirect,
 service or routeAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
 
 ---
 
@@ -4307,7 +4821,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleUrlRedirect UrlRedirect { get
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
 
 ---
 
@@ -4353,7 +4867,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionCorsPolicy CorsPol
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -4367,7 +4881,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -4381,7 +4895,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolic
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -4395,7 +4909,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionRetryPolicy RetryP
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -4409,7 +4923,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionTimeout Timeout { 
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -4423,7 +4937,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionUrlRewrite UrlRewr
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -4437,7 +4951,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionWeight
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -4485,7 +4999,7 @@ public bool|IResolvable Disabled { get; set; }
 
 If true, specifies the CORS policy is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -4502,7 +5016,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -4516,7 +5030,7 @@ public string[] AllowHeaders { get; set; }
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -4530,7 +5044,7 @@ public string[] AllowMethods { get; set; }
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -4548,7 +5062,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -4565,7 +5079,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -4579,7 +5093,7 @@ public string[] ExposeHeaders { get; set; }
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -4596,7 +5110,7 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -4632,7 +5146,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -4646,7 +5160,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -4682,7 +5196,7 @@ public double HttpStatus { get; set; }
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -4699,7 +5213,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -4735,7 +5249,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -4752,7 +5266,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -4788,7 +5302,7 @@ public string Seconds { get; set; }
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -4806,7 +5320,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -4842,7 +5356,7 @@ public string BackendService { get; set; }
 
 The RegionBackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -4856,7 +5370,7 @@ public double MirrorPercent { get; set; }
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -4894,7 +5408,7 @@ public double NumRetries { get; set; }
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -4908,7 +5422,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryT
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -4943,7 +5457,7 @@ Specifies one or more conditions when this retry rule applies. Valid values are:
 * unavailable: Loadbalancer will retry if
   the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -4979,7 +5493,7 @@ public string Seconds { get; set; }
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -4997,7 +5511,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -5033,7 +5547,7 @@ public string Seconds { get; set; }
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -5051,7 +5565,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -5090,7 +5604,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -5107,7 +5621,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 The value must
 be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -5149,7 +5663,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -5169,7 +5683,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -5183,7 +5697,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -5223,7 +5737,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionWeight
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -5237,7 +5751,7 @@ public string[] RequestHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -5251,7 +5765,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionWeight
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -5265,7 +5779,7 @@ public string[] ResponseHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -5303,7 +5817,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -5317,7 +5831,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -5334,7 +5848,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -5372,7 +5886,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -5386,7 +5900,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -5403,7 +5917,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -5451,7 +5965,7 @@ If set to false, the query portion of the
 original URL is retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -5468,7 +5982,7 @@ The host that will be used in the redirect response instead of the one that was 
 The value must be between 1 and 255
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -5487,7 +6001,7 @@ same as that of the request. This must only be set for UrlMaps used in
 TargetHttpProxys. Setting this true for TargetHttpsProxy is not
 permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -5506,7 +6020,7 @@ together with prefixRedirect. Supply one alone or neither. If neither is
 supplied, the path of the original request will be used for the redirect.
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -5525,7 +6039,7 @@ pathRedirect. Supply one alone or neither. If neither is supplied, the
 path of the original request will be used for the redirect. The value
 must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -5547,7 +6061,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
 
 ---
 
@@ -5606,7 +6120,7 @@ in the future without affecting the rest of the rules. For example,
 you could add rules numbered from 6 to 8, 10 to 11, and 13 to 15 in the
 future without any impact on existing rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#priority GoogleComputeRegionUrlMap#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#priority GoogleComputeRegionUrlMap#priority}
 
 ---
 
@@ -5620,7 +6134,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesHeaderAction HeaderAction {
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -5634,7 +6148,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesMatchRules[] Ma
 
 match_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#match_rules GoogleComputeRegionUrlMap#match_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#match_rules GoogleComputeRegionUrlMap#match_rules}
 
 ---
 
@@ -5648,7 +6162,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteAction RouteAction { g
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
 
 ---
 
@@ -5669,7 +6183,7 @@ contain any weightedBackendService s. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified. Only one of urlRedirect,
 service or routeAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
 
 ---
 
@@ -5683,7 +6197,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesUrlRedirect UrlRedirect { g
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
 
 ---
 
@@ -5723,7 +6237,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesHeaderActionReq
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -5737,7 +6251,7 @@ public string[] RequestHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -5751,7 +6265,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesHeaderActionRes
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -5765,7 +6279,7 @@ public string[] ResponseHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -5803,7 +6317,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -5817,7 +6331,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -5834,7 +6348,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -5872,7 +6386,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -5886,7 +6400,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -5903,7 +6417,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -5955,7 +6469,7 @@ FullPathMatch must be between 1
 and 1024 characters. Only one of prefixMatch, fullPathMatch or regexMatch must
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#full_path_match GoogleComputeRegionUrlMap#full_path_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#full_path_match GoogleComputeRegionUrlMap#full_path_match}
 
 ---
 
@@ -5969,7 +6483,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesMatchRulesHeade
 
 header_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_matches GoogleComputeRegionUrlMap#header_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_matches GoogleComputeRegionUrlMap#header_matches}
 
 ---
 
@@ -5983,7 +6497,7 @@ public bool|IResolvable IgnoreCase { get; set; }
 
 Specifies that prefixMatch and fullPathMatch matches are case sensitive. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#ignore_case GoogleComputeRegionUrlMap#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#ignore_case GoogleComputeRegionUrlMap#ignore_case}
 
 ---
 
@@ -5997,7 +6511,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesMatchRulesMetad
 
 metadata_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#metadata_filters GoogleComputeRegionUrlMap#metadata_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#metadata_filters GoogleComputeRegionUrlMap#metadata_filters}
 
 ---
 
@@ -6016,7 +6530,7 @@ pathTemplateMatch must be between 1 and 255 characters
 have at most 5 wildcard operators and at most 5 variable
 captures in total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_template_match GoogleComputeRegionUrlMap#path_template_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_template_match GoogleComputeRegionUrlMap#path_template_match}
 
 ---
 
@@ -6034,7 +6548,7 @@ prefixMatch must begin with a /. The value must be
 between 1 and 1024 characters. Only one of prefixMatch, fullPathMatch or
 regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
 
 ---
 
@@ -6048,7 +6562,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesMatchRulesQuery
 
 query_parameter_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#query_parameter_matches GoogleComputeRegionUrlMap#query_parameter_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#query_parameter_matches GoogleComputeRegionUrlMap#query_parameter_matches}
 
 ---
 
@@ -6066,7 +6580,7 @@ For regular expression grammar please
 see en.cppreference.com/w/cpp/regex/ecmascript  Only one of prefixMatch,
 fullPathMatch or regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
 
 ---
 
@@ -6118,7 +6632,7 @@ For matching against the HTTP request's
 authority, use a headerMatch with the header name ":authority". For matching a
 request's method, use the headerName ":method".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -6135,7 +6649,7 @@ The value should exactly match contents of exactMatch.
 Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
 
 ---
 
@@ -6152,7 +6666,7 @@ If set to false, the headerMatch is considered a match if the match criteria abo
 If set to true, the headerMatch is considered a match if the
 match criteria above are NOT met. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#invert_match GoogleComputeRegionUrlMap#invert_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#invert_match GoogleComputeRegionUrlMap#invert_match}
 
 ---
 
@@ -6170,7 +6684,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
 
 ---
 
@@ -6188,7 +6702,7 @@ The match takes place
 whether or not the request's header has a value or not. Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
 
 ---
 
@@ -6202,7 +6716,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRang
 
 range_match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#range_match GoogleComputeRegionUrlMap#range_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#range_match GoogleComputeRegionUrlMap#range_match}
 
 ---
 
@@ -6223,7 +6737,7 @@ a regular expression that satisfies the RFC2616 Host header's port specifier.
 Only one of exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or
 rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
 
 ---
 
@@ -6241,7 +6755,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#suffix_match GoogleComputeRegionUrlMap#suffix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#suffix_match GoogleComputeRegionUrlMap#suffix_match}
 
 ---
 
@@ -6277,7 +6791,7 @@ public double RangeEnd { get; set; }
 
 The end of the range (exclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#range_end GoogleComputeRegionUrlMap#range_end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#range_end GoogleComputeRegionUrlMap#range_end}
 
 ---
 
@@ -6291,7 +6805,7 @@ public double RangeStart { get; set; }
 
 The start of the range (inclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#range_start GoogleComputeRegionUrlMap#range_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#range_start GoogleComputeRegionUrlMap#range_start}
 
 ---
 
@@ -6327,7 +6841,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesMatchRulesMetad
 
 filter_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#filter_labels GoogleComputeRegionUrlMap#filter_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#filter_labels GoogleComputeRegionUrlMap#filter_labels}
 
 ---
 
@@ -6346,7 +6860,7 @@ Specifies how individual filterLabel matches within the list of filterLabels con
 * MATCH_ALL: All filterLabels must have matching labels in
   the provided metadata. Possible values: ["MATCH_ALL", "MATCH_ANY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#filter_match_criteria GoogleComputeRegionUrlMap#filter_match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#filter_match_criteria GoogleComputeRegionUrlMap#filter_match_criteria}
 
 ---
 
@@ -6385,7 +6899,7 @@ Name of metadata label.
 The name can have a maximum length of 1024 characters
 and must be at least 1 character long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -6399,7 +6913,7 @@ public string Value { get; set; }
 
 The value of the label must match the specified value. value can have a maximum length of 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#value GoogleComputeRegionUrlMap#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#value GoogleComputeRegionUrlMap#value}
 
 ---
 
@@ -6442,7 +6956,7 @@ The name of the query parameter to match.
 The query parameter must exist in the
 request, in the absence of which the request match fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -6459,7 +6973,7 @@ The queryParameterMatch matches if the value of the parameter exactly matches th
 Only one of presentMatch, exactMatch and regexMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
 
 ---
 
@@ -6476,7 +6990,7 @@ Specifies that the queryParameterMatch matches if the request contains the query
 Only one of
 presentMatch, exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
 
 ---
 
@@ -6494,7 +7008,7 @@ For the regular expression grammar,
 please see en.cppreference.com/w/cpp/regex/ecmascript  Only one of presentMatch,
 exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
 
 ---
 
@@ -6540,7 +7054,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionCorsPolicy CorsP
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -6554,7 +7068,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -6568,7 +7082,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPol
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -6582,7 +7096,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionRetryPolicy Retr
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -6596,7 +7110,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionTimeout Timeout 
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -6610,7 +7124,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewrite UrlRe
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -6624,7 +7138,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeig
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -6675,7 +7189,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -6689,7 +7203,7 @@ public string[] AllowHeaders { get; set; }
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -6703,7 +7217,7 @@ public string[] AllowMethods { get; set; }
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -6721,7 +7235,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -6738,7 +7252,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -6752,7 +7266,7 @@ public bool|IResolvable Disabled { get; set; }
 
 If true, specifies the CORS policy is disabled. which indicates that the CORS policy is in effect. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -6766,7 +7280,7 @@ public string[] ExposeHeaders { get; set; }
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -6783,7 +7297,7 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -6819,7 +7333,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -6833,7 +7347,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -6869,7 +7383,7 @@ public double HttpStatus { get; set; }
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -6886,7 +7400,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -6922,7 +7436,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -6939,7 +7453,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -6975,7 +7489,7 @@ public string Seconds { get; set; }
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -6993,7 +7507,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -7029,7 +7543,7 @@ public string BackendService { get; set; }
 
 The RegionBackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -7043,7 +7557,7 @@ public double MirrorPercent { get; set; }
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -7081,7 +7595,7 @@ public double NumRetries { get; set; }
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -7095,7 +7609,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTr
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -7130,7 +7644,7 @@ Specifies one or more conditions when this retry rule applies. Valid values are:
 * unavailable: Loadbalancer will retry if the gRPC status code in
   the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -7166,7 +7680,7 @@ public string Seconds { get; set; }
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -7184,7 +7698,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -7220,7 +7734,7 @@ public string Seconds { get; set; }
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -7238,7 +7752,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -7279,7 +7793,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -7296,7 +7810,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 The value must
 be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -7320,7 +7834,7 @@ MatchRules specify pathTemplate.
 Only one of pathPrefixRewrite and pathTemplateRewrite may be
 specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
 
 ---
 
@@ -7362,7 +7876,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -7382,7 +7896,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -7396,7 +7910,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -7436,7 +7950,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeig
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -7450,7 +7964,7 @@ public string[] RequestHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -7464,7 +7978,7 @@ public IResolvable|GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeig
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -7478,7 +7992,7 @@ public string[] ResponseHeadersToRemove { get; set; }
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -7516,7 +8030,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -7530,7 +8044,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -7547,7 +8061,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -7585,7 +8099,7 @@ public string HeaderName { get; set; }
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -7599,7 +8113,7 @@ public string HeaderValue { get; set; }
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -7616,7 +8130,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -7663,7 +8177,7 @@ The host that will be used in the redirect response instead of the one that was 
 The value must be between 1 and 255
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -7682,7 +8196,7 @@ same as that of the request. This must only be set for UrlMaps used in
 TargetHttpProxys. Setting this true for TargetHttpsProxy is not
 permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -7701,7 +8215,7 @@ together with prefixRedirect. Supply one alone or neither. If neither is
 supplied, the path of the original request will be used for the redirect.
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -7720,7 +8234,7 @@ pathRedirect. Supply one alone or neither. If neither is supplied, the
 path of the original request will be used for the redirect. The value
 must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -7742,7 +8256,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
 
 ---
 
@@ -7759,7 +8273,7 @@ If set to true, any accompanying query portion of the original URL is removed pr
 If set to false, the query
 portion of the original URL is retained. The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -7799,7 +8313,7 @@ public string Host { get; set; }
 
 Host portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#host GoogleComputeRegionUrlMap#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#host GoogleComputeRegionUrlMap#host}
 
 ---
 
@@ -7813,7 +8327,7 @@ public string Path { get; set; }
 
 Path portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#path GoogleComputeRegionUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#path GoogleComputeRegionUrlMap#path}
 
 ---
 
@@ -7827,7 +8341,7 @@ public string Service { get; set; }
 
 A reference to expected RegionBackendService resource the given URL should be mapped to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
 
 ---
 
@@ -7841,7 +8355,7 @@ public string Description { get; set; }
 
 Description of this test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
 
 ---
 
@@ -7863,9 +8377,9 @@ new GoogleComputeRegionUrlMapTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}. |
 
 ---
 
@@ -7877,7 +8391,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}.
 
 ---
 
@@ -7889,7 +8403,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}.
 
 ---
 
@@ -7901,7 +8415,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}.
 
 ---
 
@@ -14133,6 +14647,1425 @@ public GoogleComputeRegionUrlMapDefaultUrlRedirect InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultUrlRedirect">GoogleComputeRegionUrlMapDefaultUrlRedirect</a>
+
+---
+
+
+### GoogleComputeRegionUrlMapHeaderActionOutputReference <a name="GoogleComputeRegionUrlMapHeaderActionOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderActionOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.putRequestHeadersToAdd">PutRequestHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.putResponseHeadersToAdd">PutResponseHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetRequestHeadersToAdd">ResetRequestHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetRequestHeadersToRemove">ResetRequestHeadersToRemove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetResponseHeadersToAdd">ResetResponseHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetResponseHeadersToRemove">ResetResponseHeadersToRemove</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutRequestHeadersToAdd` <a name="PutRequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.putRequestHeadersToAdd"></a>
+
+```csharp
+private void PutRequestHeadersToAdd(IResolvable|GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.putRequestHeadersToAdd.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>[]
+
+---
+
+##### `PutResponseHeadersToAdd` <a name="PutResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.putResponseHeadersToAdd"></a>
+
+```csharp
+private void PutResponseHeadersToAdd(IResolvable|GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.putResponseHeadersToAdd.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>[]
+
+---
+
+##### `ResetRequestHeadersToAdd` <a name="ResetRequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetRequestHeadersToAdd"></a>
+
+```csharp
+private void ResetRequestHeadersToAdd()
+```
+
+##### `ResetRequestHeadersToRemove` <a name="ResetRequestHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetRequestHeadersToRemove"></a>
+
+```csharp
+private void ResetRequestHeadersToRemove()
+```
+
+##### `ResetResponseHeadersToAdd` <a name="ResetResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetResponseHeadersToAdd"></a>
+
+```csharp
+private void ResetResponseHeadersToAdd()
+```
+
+##### `ResetResponseHeadersToRemove` <a name="ResetResponseHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.resetResponseHeadersToRemove"></a>
+
+```csharp
+private void ResetResponseHeadersToRemove()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToAdd">RequestHeadersToAdd</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToAdd">ResponseHeadersToAdd</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToAddInput">RequestHeadersToAddInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToRemoveInput">RequestHeadersToRemoveInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToAddInput">ResponseHeadersToAddInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToRemoveInput">ResponseHeadersToRemoveInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToRemove">RequestHeadersToRemove</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToRemove">ResponseHeadersToRemove</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RequestHeadersToAdd`<sup>Required</sup> <a name="RequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToAdd"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList RequestHeadersToAdd { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList</a>
+
+---
+
+##### `ResponseHeadersToAdd`<sup>Required</sup> <a name="ResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToAdd"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList ResponseHeadersToAdd { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList</a>
+
+---
+
+##### `RequestHeadersToAddInput`<sup>Optional</sup> <a name="RequestHeadersToAddInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToAddInput"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd[] RequestHeadersToAddInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>[]
+
+---
+
+##### `RequestHeadersToRemoveInput`<sup>Optional</sup> <a name="RequestHeadersToRemoveInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToRemoveInput"></a>
+
+```csharp
+public string[] RequestHeadersToRemoveInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ResponseHeadersToAddInput`<sup>Optional</sup> <a name="ResponseHeadersToAddInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToAddInput"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd[] ResponseHeadersToAddInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>[]
+
+---
+
+##### `ResponseHeadersToRemoveInput`<sup>Optional</sup> <a name="ResponseHeadersToRemoveInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToRemoveInput"></a>
+
+```csharp
+public string[] ResponseHeadersToRemoveInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `RequestHeadersToRemove`<sup>Required</sup> <a name="RequestHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.requestHeadersToRemove"></a>
+
+```csharp
+public string[] RequestHeadersToRemove { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ResponseHeadersToRemove`<sup>Required</sup> <a name="ResponseHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.responseHeadersToRemove"></a>
+
+```csharp
+public string[] ResponseHeadersToRemove { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapHeaderAction InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a>
+
+---
+
+
+### GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList <a name="GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.get"></a>
+
+```csharp
+private GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddList.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>[]
+
+---
+
+
+### GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference <a name="GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resetHeaderName">ResetHeaderName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resetHeaderValue">ResetHeaderValue</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resetReplace">ResetReplace</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetHeaderName` <a name="ResetHeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resetHeaderName"></a>
+
+```csharp
+private void ResetHeaderName()
+```
+
+##### `ResetHeaderValue` <a name="ResetHeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resetHeaderValue"></a>
+
+```csharp
+private void ResetHeaderValue()
+```
+
+##### `ResetReplace` <a name="ResetReplace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.resetReplace"></a>
+
+```csharp
+private void ResetReplace()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerNameInput">HeaderNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerValueInput">HeaderValueInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.replaceInput">ReplaceInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerName">HeaderName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerValue">HeaderValue</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderNameInput`<sup>Optional</sup> <a name="HeaderNameInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerNameInput"></a>
+
+```csharp
+public string HeaderNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValueInput`<sup>Optional</sup> <a name="HeaderValueInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerValueInput"></a>
+
+```csharp
+public string HeaderValueInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ReplaceInput`<sup>Optional</sup> <a name="ReplaceInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.replaceInput"></a>
+
+```csharp
+public bool|IResolvable ReplaceInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `HeaderName`<sup>Required</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValue`<sup>Required</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Replace`<sup>Required</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAddOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionRequestHeadersToAdd</a>
+
+---
+
+
+### GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList <a name="GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.get"></a>
+
+```csharp
+private GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddList.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>[]
+
+---
+
+
+### GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference <a name="GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resetHeaderName">ResetHeaderName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resetHeaderValue">ResetHeaderValue</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resetReplace">ResetReplace</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetHeaderName` <a name="ResetHeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resetHeaderName"></a>
+
+```csharp
+private void ResetHeaderName()
+```
+
+##### `ResetHeaderValue` <a name="ResetHeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resetHeaderValue"></a>
+
+```csharp
+private void ResetHeaderValue()
+```
+
+##### `ResetReplace` <a name="ResetReplace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.resetReplace"></a>
+
+```csharp
+private void ResetReplace()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerNameInput">HeaderNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerValueInput">HeaderValueInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.replaceInput">ReplaceInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerName">HeaderName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerValue">HeaderValue</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderNameInput`<sup>Optional</sup> <a name="HeaderNameInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerNameInput"></a>
+
+```csharp
+public string HeaderNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValueInput`<sup>Optional</sup> <a name="HeaderValueInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerValueInput"></a>
+
+```csharp
+public string HeaderValueInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ReplaceInput`<sup>Optional</sup> <a name="ReplaceInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.replaceInput"></a>
+
+```csharp
+public bool|IResolvable ReplaceInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `HeaderName`<sup>Required</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValue`<sup>Required</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Replace`<sup>Required</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAddOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapHeaderActionResponseHeadersToAdd</a>
 
 ---
 
@@ -21231,6 +23164,1425 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect InternalValue { ge
 ---
 
 
+### GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference <a name="GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.putRequestHeadersToAdd">PutRequestHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.putResponseHeadersToAdd">PutResponseHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetRequestHeadersToAdd">ResetRequestHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetRequestHeadersToRemove">ResetRequestHeadersToRemove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetResponseHeadersToAdd">ResetResponseHeadersToAdd</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetResponseHeadersToRemove">ResetResponseHeadersToRemove</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutRequestHeadersToAdd` <a name="PutRequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.putRequestHeadersToAdd"></a>
+
+```csharp
+private void PutRequestHeadersToAdd(IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.putRequestHeadersToAdd.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>[]
+
+---
+
+##### `PutResponseHeadersToAdd` <a name="PutResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.putResponseHeadersToAdd"></a>
+
+```csharp
+private void PutResponseHeadersToAdd(IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.putResponseHeadersToAdd.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>[]
+
+---
+
+##### `ResetRequestHeadersToAdd` <a name="ResetRequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetRequestHeadersToAdd"></a>
+
+```csharp
+private void ResetRequestHeadersToAdd()
+```
+
+##### `ResetRequestHeadersToRemove` <a name="ResetRequestHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetRequestHeadersToRemove"></a>
+
+```csharp
+private void ResetRequestHeadersToRemove()
+```
+
+##### `ResetResponseHeadersToAdd` <a name="ResetResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetResponseHeadersToAdd"></a>
+
+```csharp
+private void ResetResponseHeadersToAdd()
+```
+
+##### `ResetResponseHeadersToRemove` <a name="ResetResponseHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.resetResponseHeadersToRemove"></a>
+
+```csharp
+private void ResetResponseHeadersToRemove()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToAdd">RequestHeadersToAdd</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToAdd">ResponseHeadersToAdd</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToAddInput">RequestHeadersToAddInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToRemoveInput">RequestHeadersToRemoveInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToAddInput">ResponseHeadersToAddInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToRemoveInput">ResponseHeadersToRemoveInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToRemove">RequestHeadersToRemove</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToRemove">ResponseHeadersToRemove</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction">GoogleComputeRegionUrlMapPathMatcherHeaderAction</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RequestHeadersToAdd`<sup>Required</sup> <a name="RequestHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToAdd"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList RequestHeadersToAdd { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList</a>
+
+---
+
+##### `ResponseHeadersToAdd`<sup>Required</sup> <a name="ResponseHeadersToAdd" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToAdd"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList ResponseHeadersToAdd { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList</a>
+
+---
+
+##### `RequestHeadersToAddInput`<sup>Optional</sup> <a name="RequestHeadersToAddInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToAddInput"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] RequestHeadersToAddInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>[]
+
+---
+
+##### `RequestHeadersToRemoveInput`<sup>Optional</sup> <a name="RequestHeadersToRemoveInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToRemoveInput"></a>
+
+```csharp
+public string[] RequestHeadersToRemoveInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ResponseHeadersToAddInput`<sup>Optional</sup> <a name="ResponseHeadersToAddInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToAddInput"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] ResponseHeadersToAddInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>[]
+
+---
+
+##### `ResponseHeadersToRemoveInput`<sup>Optional</sup> <a name="ResponseHeadersToRemoveInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToRemoveInput"></a>
+
+```csharp
+public string[] ResponseHeadersToRemoveInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `RequestHeadersToRemove`<sup>Required</sup> <a name="RequestHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.requestHeadersToRemove"></a>
+
+```csharp
+public string[] RequestHeadersToRemove { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ResponseHeadersToRemove`<sup>Required</sup> <a name="ResponseHeadersToRemove" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.responseHeadersToRemove"></a>
+
+```csharp
+public string[] ResponseHeadersToRemove { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapPathMatcherHeaderAction InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction">GoogleComputeRegionUrlMapPathMatcherHeaderAction</a>
+
+---
+
+
+### GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList <a name="GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.get"></a>
+
+```csharp
+private GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddList.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>[]
+
+---
+
+
+### GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference <a name="GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resetHeaderName">ResetHeaderName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resetHeaderValue">ResetHeaderValue</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resetReplace">ResetReplace</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetHeaderName` <a name="ResetHeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resetHeaderName"></a>
+
+```csharp
+private void ResetHeaderName()
+```
+
+##### `ResetHeaderValue` <a name="ResetHeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resetHeaderValue"></a>
+
+```csharp
+private void ResetHeaderValue()
+```
+
+##### `ResetReplace` <a name="ResetReplace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.resetReplace"></a>
+
+```csharp
+private void ResetReplace()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerNameInput">HeaderNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerValueInput">HeaderValueInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.replaceInput">ReplaceInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerName">HeaderName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerValue">HeaderValue</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderNameInput`<sup>Optional</sup> <a name="HeaderNameInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerNameInput"></a>
+
+```csharp
+public string HeaderNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValueInput`<sup>Optional</sup> <a name="HeaderValueInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerValueInput"></a>
+
+```csharp
+public string HeaderValueInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ReplaceInput`<sup>Optional</sup> <a name="ReplaceInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.replaceInput"></a>
+
+```csharp
+public bool|IResolvable ReplaceInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `HeaderName`<sup>Required</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValue`<sup>Required</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Replace`<sup>Required</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionRequestHeadersToAdd</a>
+
+---
+
+
+### GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList <a name="GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.get"></a>
+
+```csharp
+private GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddList.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>[]
+
+---
+
+
+### GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference <a name="GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resetHeaderName">ResetHeaderName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resetHeaderValue">ResetHeaderValue</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resetReplace">ResetReplace</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetHeaderName` <a name="ResetHeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resetHeaderName"></a>
+
+```csharp
+private void ResetHeaderName()
+```
+
+##### `ResetHeaderValue` <a name="ResetHeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resetHeaderValue"></a>
+
+```csharp
+private void ResetHeaderValue()
+```
+
+##### `ResetReplace` <a name="ResetReplace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.resetReplace"></a>
+
+```csharp
+private void ResetReplace()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerNameInput">HeaderNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerValueInput">HeaderValueInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.replaceInput">ReplaceInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerName">HeaderName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerValue">HeaderValue</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.replace">Replace</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderNameInput`<sup>Optional</sup> <a name="HeaderNameInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerNameInput"></a>
+
+```csharp
+public string HeaderNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValueInput`<sup>Optional</sup> <a name="HeaderValueInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerValueInput"></a>
+
+```csharp
+public string HeaderValueInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ReplaceInput`<sup>Optional</sup> <a name="ReplaceInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.replaceInput"></a>
+
+```csharp
+public bool|IResolvable ReplaceInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `HeaderName`<sup>Required</sup> <a name="HeaderName" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerName"></a>
+
+```csharp
+public string HeaderName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HeaderValue`<sup>Required</sup> <a name="HeaderValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.headerValue"></a>
+
+```csharp
+public string HeaderValue { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Replace`<sup>Required</sup> <a name="Replace" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.replace"></a>
+
+```csharp
+public bool|IResolvable Replace { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd">GoogleComputeRegionUrlMapPathMatcherHeaderActionResponseHeadersToAdd</a>
+
+---
+
+
 ### GoogleComputeRegionUrlMapPathMatcherList <a name="GoogleComputeRegionUrlMapPathMatcherList" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherList.Initializer"></a>
@@ -21461,12 +24813,14 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putDefaultRouteAction">PutDefaultRouteAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putDefaultUrlRedirect">PutDefaultUrlRedirect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putHeaderAction">PutHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putPathRule">PutPathRule</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putRouteRules">PutRouteRules</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetDefaultRouteAction">ResetDefaultRouteAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetDefaultService">ResetDefaultService</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetDefaultUrlRedirect">ResetDefaultUrlRedirect</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetHeaderAction">ResetHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetPathRule">ResetPathRule</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetRouteRules">ResetRouteRules</a></code> | *No description.* |
 
@@ -21646,6 +25000,18 @@ private void PutDefaultUrlRedirect(GoogleComputeRegionUrlMapPathMatcherDefaultUr
 
 ---
 
+##### `PutHeaderAction` <a name="PutHeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putHeaderAction"></a>
+
+```csharp
+private void PutHeaderAction(GoogleComputeRegionUrlMapPathMatcherHeaderAction Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putHeaderAction.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction">GoogleComputeRegionUrlMapPathMatcherHeaderAction</a>
+
+---
+
 ##### `PutPathRule` <a name="PutPathRule" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.putPathRule"></a>
 
 ```csharp
@@ -21694,6 +25060,12 @@ private void ResetDefaultUrlRedirect()
 private void ResetDescription()
 ```
 
+##### `ResetHeaderAction` <a name="ResetHeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetHeaderAction"></a>
+
+```csharp
+private void ResetHeaderAction()
+```
+
 ##### `ResetPathRule` <a name="ResetPathRule" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.resetPathRule"></a>
 
 ```csharp
@@ -21715,12 +25087,14 @@ private void ResetRouteRules()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.defaultRouteAction">DefaultRouteAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionOutputReference">GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.defaultUrlRedirect">DefaultUrlRedirect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirectOutputReference">GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirectOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.headerAction">HeaderAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference">GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.pathRule">PathRule</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherPathRuleList">GoogleComputeRegionUrlMapPathMatcherPathRuleList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.routeRules">RouteRules</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherRouteRulesList">GoogleComputeRegionUrlMapPathMatcherRouteRulesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.defaultRouteActionInput">DefaultRouteActionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherDefaultRouteAction">GoogleComputeRegionUrlMapPathMatcherDefaultRouteAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.defaultServiceInput">DefaultServiceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.defaultUrlRedirectInput">DefaultUrlRedirectInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect">GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.headerActionInput">HeaderActionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction">GoogleComputeRegionUrlMapPathMatcherHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.pathRuleInput">PathRuleInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherPathRule">GoogleComputeRegionUrlMapPathMatcherPathRule</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.routeRulesInput">RouteRulesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherRouteRules">GoogleComputeRegionUrlMapPathMatcherRouteRules</a>[]</code> | *No description.* |
@@ -21772,6 +25146,16 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirectOutputReference Def
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirectOutputReference">GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirectOutputReference</a>
+
+---
+
+##### `HeaderAction`<sup>Required</sup> <a name="HeaderAction" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.headerAction"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference HeaderAction { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference">GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference</a>
 
 ---
 
@@ -21832,6 +25216,16 @@ public string DescriptionInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `HeaderActionInput`<sup>Optional</sup> <a name="HeaderActionInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherOutputReference.property.headerActionInput"></a>
+
+```csharp
+public GoogleComputeRegionUrlMapPathMatcherHeaderAction HeaderActionInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherHeaderAction">GoogleComputeRegionUrlMapPathMatcherHeaderAction</a>
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleNetappVolumeSnapshot <a name="GoogleNetappVolumeSnapshot" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 googlenetappvolumesnapshot.NewGoogleNetappVolumeSnapshot(scope Construct, id *string, config GoogleNetappVolumeSnapshotConfig) GoogleNetappVolumeSnapshot
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 googlenetappvolumesnapshot.GoogleNetappVolumeSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 googlenetappvolumesnapshot.GoogleNetappVolumeSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlenetappvolumesnapshot.GoogleNetappVolumeSnapshot_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 googlenetappvolumesnapshot.GoogleNetappVolumeSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlenetappvolumesnapshot.GoogleNetappVolumeSnapshot_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 googlenetappvolumesnapshot.GoogleNetappVolumeSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleNetappVolumeSnapshot
 
 The id of the existing GoogleNetappVolumeSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -946,7 +946,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 &googlenetappvolumesnapshot.GoogleNetappVolumeSnapshotConfig {
 	Connection: interface{},
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts,
 }
 ```
 
@@ -982,9 +982,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.name">Name</a></code> | <code>*string</code> | The name of the snapshot. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.volumeName">VolumeName</a></code> | <code>*string</code> | The name of the volume to create the snapshot in. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.description">Description</a></code> | <code>*string</code> | Description for the snapshot. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts">GoogleNetappVolumeSnapshotTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1069,7 +1069,7 @@ Location *string
 
 Name of the snapshot location. Snapshots are child resources of volumes and live in the same location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#location GoogleNetappVolumeSnapshot#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#location GoogleNetappVolumeSnapshot#location}
 
 ---
 
@@ -1083,7 +1083,7 @@ Name *string
 
 The name of the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#name GoogleNetappVolumeSnapshot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#name GoogleNetappVolumeSnapshot#name}
 
 ---
 
@@ -1097,7 +1097,7 @@ VolumeName *string
 
 The name of the volume to create the snapshot in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#volume_name GoogleNetappVolumeSnapshot#volume_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#volume_name GoogleNetappVolumeSnapshot#volume_name}
 
 ---
 
@@ -1111,7 +1111,7 @@ Description *string
 
 Description for the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#description GoogleNetappVolumeSnapshot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#description GoogleNetappVolumeSnapshot#description}
 
 ---
 
@@ -1123,7 +1123,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1143,7 +1143,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#labels GoogleNetappVolumeSnapshot#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#labels GoogleNetappVolumeSnapshot#labels}
 
 ---
 
@@ -1155,7 +1155,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}.
 
 ---
 
@@ -1169,7 +1169,7 @@ Timeouts GoogleNetappVolumeSnapshotTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#timeouts GoogleNetappVolumeSnapshot#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#timeouts GoogleNetappVolumeSnapshot#timeouts}
 
 ---
 
@@ -1178,7 +1178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 &googlenetappvolumesnapshot.GoogleNetappVolumeSnapshotTimeouts {
 	Create: *string,
@@ -1191,9 +1191,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}. |
 
 ---
 
@@ -1205,7 +1205,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}.
 
 ---
 
@@ -1217,7 +1217,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}.
 
 ---
 
@@ -1229,7 +1229,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}.
 
 ---
 
@@ -1240,7 +1240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolumesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolumesnapshot"
 
 googlenetappvolumesnapshot.NewGoogleNetappVolumeSnapshotTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetappVolumeSnapshotTimeoutsOutputReference
 ```

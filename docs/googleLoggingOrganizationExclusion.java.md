@@ -4,7 +4,7 @@
 
 ### GoogleLoggingOrganizationExclusion <a name="GoogleLoggingOrganizationExclusion" id="@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer"></a>
 
@@ -41,10 +41,10 @@ GoogleLoggingOrganizationExclusion.Builder.create(Construct scope, java.lang.Str
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.filter">filter</a></code> | <code>java.lang.String</code> | The filter to apply when excluding logs. Only log entries that match the filter are excluded. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The name of the logging exclusion. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.orgId">orgId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.orgId">orgId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | A human-readable description. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.disabled">disabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether this exclusion rule should be disabled or not. This defaults to false. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusion.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The filter to apply when excluding logs. Only log entries that match the filter are excluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#filter GoogleLoggingOrganizationExclusion#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#filter GoogleLoggingOrganizationExclusion#filter}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the logging exclusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#name GoogleLoggingOrganizationExclusion#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#name GoogleLoggingOrganizationExclusion#name}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A human-readable description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#description GoogleLoggingOrganizationExclusion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#description GoogleLoggingOrganizationExclusion#description}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether this exclusion rule should be disabled or not. This defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#disabled GoogleLoggingOrganizationExclusion#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#disabled GoogleLoggingOrganizationExclusion#disabled}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -633,7 +633,7 @@ The construct id used in the generated config for the GoogleLoggingOrganizationE
 
 The id of the existing GoogleLoggingOrganizationExclusion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,10 +997,10 @@ GoogleLoggingOrganizationExclusionConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.filter">filter</a></code> | <code>java.lang.String</code> | The filter to apply when excluding logs. Only log entries that match the filter are excluded. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.name">name</a></code> | <code>java.lang.String</code> | The name of the logging exclusion. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.orgId">orgId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.orgId">orgId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.description">description</a></code> | <code>java.lang.String</code> | A human-readable description. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.disabled">disabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether this exclusion rule should be disabled or not. This defaults to false. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingOrganizationExclusion.GoogleLoggingOrganizationExclusionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}. |
 
 ---
 
@@ -1084,7 +1084,7 @@ public java.lang.String getFilter();
 
 The filter to apply when excluding logs. Only log entries that match the filter are excluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#filter GoogleLoggingOrganizationExclusion#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#filter GoogleLoggingOrganizationExclusion#filter}
 
 ---
 
@@ -1098,7 +1098,7 @@ public java.lang.String getName();
 
 The name of the logging exclusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#name GoogleLoggingOrganizationExclusion#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#name GoogleLoggingOrganizationExclusion#name}
 
 ---
 
@@ -1110,7 +1110,7 @@ public java.lang.String getOrgId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#org_id GoogleLoggingOrganizationExclusion#org_id}.
 
 ---
 
@@ -1124,7 +1124,7 @@ public java.lang.String getDescription();
 
 A human-readable description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#description GoogleLoggingOrganizationExclusion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#description GoogleLoggingOrganizationExclusion#description}
 
 ---
 
@@ -1138,7 +1138,7 @@ public java.lang.Boolean|IResolvable getDisabled();
 
 Whether this exclusion rule should be disabled or not. This defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#disabled GoogleLoggingOrganizationExclusion#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#disabled GoogleLoggingOrganizationExclusion#disabled}
 
 ---
 
@@ -1150,7 +1150,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_organization_exclusion#id GoogleLoggingOrganizationExclusion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

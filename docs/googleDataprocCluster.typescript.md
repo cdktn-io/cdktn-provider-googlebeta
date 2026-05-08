@@ -4,7 +4,7 @@
 
 ### GoogleDataprocCluster <a name="GoogleDataprocCluster" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster google_dataproc_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster google_dataproc_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster.Initializer"></a>
 
@@ -584,7 +584,7 @@ The construct id used in the generated config for the GoogleDataprocCluster to i
 
 The id of the existing GoogleDataprocCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1016,9 +1016,11 @@ const googleDataprocClusterClusterConfig: googleDataprocCluster.GoogleDataprocCl
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.autoscalingConfig">autoscalingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAutoscalingConfig">GoogleDataprocClusterClusterConfigAutoscalingConfig</a></code> | autoscaling_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.auxiliaryNodeGroups">auxiliaryNodeGroups</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups">GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups</a>[]</code> | auxiliary_node_groups block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.clusterTier">clusterTier</a></code> | <code>string</code> | Specifies the tier of the cluster created. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.clusterType">clusterType</a></code> | <code>string</code> | The type of the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.dataprocMetricConfig">dataprocMetricConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfig">GoogleDataprocClusterClusterConfigDataprocMetricConfig</a></code> | dataproc_metric_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.encryptionConfig">encryptionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEncryptionConfig">GoogleDataprocClusterClusterConfigEncryptionConfig</a></code> | encryption_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.endpointConfig">endpointConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEndpointConfig">GoogleDataprocClusterClusterConfigEndpointConfig</a></code> | endpoint_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.engine">engine</a></code> | <code>string</code> | Specifies the engine of the cluster created. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.gceClusterConfig">gceClusterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig">GoogleDataprocClusterClusterConfigGceClusterConfig</a></code> | gce_cluster_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.initializationAction">initializationAction</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigInitializationAction">GoogleDataprocClusterClusterConfigInitializationAction</a>[]</code> | initialization_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.lifecycleConfig">lifecycleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig">GoogleDataprocClusterClusterConfigLifecycleConfig</a></code> | lifecycle_config block. |
@@ -1043,7 +1045,7 @@ public readonly autoscalingConfig: GoogleDataprocClusterClusterConfigAutoscaling
 
 autoscaling_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#autoscaling_config GoogleDataprocCluster#autoscaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#autoscaling_config GoogleDataprocCluster#autoscaling_config}
 
 ---
 
@@ -1057,7 +1059,7 @@ public readonly auxiliaryNodeGroups: IResolvable | GoogleDataprocClusterClusterC
 
 auxiliary_node_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#auxiliary_node_groups GoogleDataprocCluster#auxiliary_node_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auxiliary_node_groups GoogleDataprocCluster#auxiliary_node_groups}
 
 ---
 
@@ -1071,7 +1073,21 @@ public readonly clusterTier: string;
 
 Specifies the tier of the cluster created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cluster_tier GoogleDataprocCluster#cluster_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cluster_tier GoogleDataprocCluster#cluster_tier}
+
+---
+
+##### `clusterType`<sup>Optional</sup> <a name="clusterType" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.clusterType"></a>
+
+```typescript
+public readonly clusterType: string;
+```
+
+- *Type:* string
+
+The type of the cluster.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cluster_type GoogleDataprocCluster#cluster_type}
 
 ---
 
@@ -1085,7 +1101,7 @@ public readonly dataprocMetricConfig: GoogleDataprocClusterClusterConfigDataproc
 
 dataproc_metric_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_metric_config GoogleDataprocCluster#dataproc_metric_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_metric_config GoogleDataprocCluster#dataproc_metric_config}
 
 ---
 
@@ -1099,7 +1115,7 @@ public readonly encryptionConfig: GoogleDataprocClusterClusterConfigEncryptionCo
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#encryption_config GoogleDataprocCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#encryption_config GoogleDataprocCluster#encryption_config}
 
 ---
 
@@ -1113,7 +1129,21 @@ public readonly endpointConfig: GoogleDataprocClusterClusterConfigEndpointConfig
 
 endpoint_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#endpoint_config GoogleDataprocCluster#endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#endpoint_config GoogleDataprocCluster#endpoint_config}
+
+---
+
+##### `engine`<sup>Optional</sup> <a name="engine" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.engine"></a>
+
+```typescript
+public readonly engine: string;
+```
+
+- *Type:* string
+
+Specifies the engine of the cluster created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#engine GoogleDataprocCluster#engine}
 
 ---
 
@@ -1127,7 +1157,7 @@ public readonly gceClusterConfig: GoogleDataprocClusterClusterConfigGceClusterCo
 
 gce_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#gce_cluster_config GoogleDataprocCluster#gce_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#gce_cluster_config GoogleDataprocCluster#gce_cluster_config}
 
 ---
 
@@ -1141,7 +1171,7 @@ public readonly initializationAction: IResolvable | GoogleDataprocClusterCluster
 
 initialization_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#initialization_action GoogleDataprocCluster#initialization_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#initialization_action GoogleDataprocCluster#initialization_action}
 
 ---
 
@@ -1155,7 +1185,7 @@ public readonly lifecycleConfig: GoogleDataprocClusterClusterConfigLifecycleConf
 
 lifecycle_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#lifecycle_config GoogleDataprocCluster#lifecycle_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#lifecycle_config GoogleDataprocCluster#lifecycle_config}
 
 ---
 
@@ -1169,7 +1199,7 @@ public readonly masterConfig: GoogleDataprocClusterClusterConfigMasterConfig;
 
 master_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#master_config GoogleDataprocCluster#master_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#master_config GoogleDataprocCluster#master_config}
 
 ---
 
@@ -1183,7 +1213,7 @@ public readonly metastoreConfig: GoogleDataprocClusterClusterConfigMetastoreConf
 
 metastore_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
 
 ---
 
@@ -1197,7 +1227,7 @@ public readonly preemptibleWorkerConfig: GoogleDataprocClusterClusterConfigPreem
 
 preemptible_worker_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#preemptible_worker_config GoogleDataprocCluster#preemptible_worker_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#preemptible_worker_config GoogleDataprocCluster#preemptible_worker_config}
 
 ---
 
@@ -1211,7 +1241,7 @@ public readonly securityConfig: GoogleDataprocClusterClusterConfigSecurityConfig
 
 security_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#security_config GoogleDataprocCluster#security_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#security_config GoogleDataprocCluster#security_config}
 
 ---
 
@@ -1225,7 +1255,7 @@ public readonly softwareConfig: GoogleDataprocClusterClusterConfigSoftwareConfig
 
 software_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#software_config GoogleDataprocCluster#software_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#software_config GoogleDataprocCluster#software_config}
 
 ---
 
@@ -1241,7 +1271,7 @@ The Cloud Storage staging bucket used to stage files, such as Hadoop jars, betwe
 
 Note: If you don't explicitly specify a staging_bucket then GCP will auto create / assign one for you. However, you are not guaranteed an auto generated bucket which is solely dedicated to your cluster; it may be shared with other clusters in the same region/zone also choosing to use the auto generation option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
 
 ---
 
@@ -1257,7 +1287,7 @@ The Cloud Storage temp bucket used to store ephemeral cluster and jobs data, suc
 
 Note: If you don't explicitly specify a temp_bucket then GCP will auto create / assign one for you.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#temp_bucket GoogleDataprocCluster#temp_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#temp_bucket GoogleDataprocCluster#temp_bucket}
 
 ---
 
@@ -1271,7 +1301,7 @@ public readonly workerConfig: GoogleDataprocClusterClusterConfigWorkerConfig;
 
 worker_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#worker_config GoogleDataprocCluster#worker_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#worker_config GoogleDataprocCluster#worker_config}
 
 ---
 
@@ -1303,7 +1333,7 @@ public readonly policyUri: string;
 
 The autoscaling policy used by the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#policy_uri GoogleDataprocCluster#policy_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#policy_uri GoogleDataprocCluster#policy_uri}
 
 ---
 
@@ -1336,7 +1366,7 @@ public readonly nodeGroup: IResolvable | GoogleDataprocClusterClusterConfigAuxil
 
 node_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group GoogleDataprocCluster#node_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group GoogleDataprocCluster#node_group}
 
 ---
 
@@ -1352,7 +1382,7 @@ A node group ID.
 
 Generated if not specified. The ID must contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens (-). Cannot begin or end with underscore or hyphen. Must consist of from 3 to 33 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_id GoogleDataprocCluster#node_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_id GoogleDataprocCluster#node_group_id}
 
 ---
 
@@ -1385,7 +1415,7 @@ public readonly roles: string[];
 
 Node group roles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
 
 ---
 
@@ -1399,7 +1429,7 @@ public readonly nodeGroupConfig: GoogleDataprocClusterClusterConfigAuxiliaryNode
 
 node_group_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_config GoogleDataprocCluster#node_group_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_config GoogleDataprocCluster#node_group_config}
 
 ---
 
@@ -1435,7 +1465,7 @@ public readonly accelerators: IResolvable | GoogleDataprocClusterClusterConfigAu
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
 
 ---
 
@@ -1449,7 +1479,7 @@ public readonly diskConfig: GoogleDataprocClusterClusterConfigAuxiliaryNodeGroup
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -1463,7 +1493,7 @@ public readonly machineType: string;
 
 The name of a Google Compute Engine machine type to create for the master.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -1479,7 +1509,7 @@ The name of a minimum generation of CPU family for the auxiliary node group.
 
 If not specified, GCP will default to a predetermined computed value for each zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -1493,7 +1523,7 @@ public readonly numInstances: number;
 
 Specifies the number of auxiliary nodes to create. If not specified, GCP will default to a predetermined computed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -1528,7 +1558,7 @@ The number of the accelerator cards of this type exposed to this instance.
 
 Often restricted to one of 1, 2, 4, or 8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
 
 ---
 
@@ -1542,7 +1572,7 @@ public readonly acceleratorType: string;
 
 The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
 
 ---
 
@@ -1560,10 +1590,44 @@ const googleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupCon
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | Indicates how many IOPS to provision for the disk. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | Indicates how much throughput to provision for the disk. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | Size of the primary disk attached to each node, specified in GB. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard". |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express). |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.numLocalSsds">numLocalSsds</a></code> | <code>number</code> | The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0. |
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Optional</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+Indicates how many IOPS to provision for the disk.
+
+This sets the number of I/O operations per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
+```
+
+- *Type:* number
+
+Indicates how much throughput to provision for the disk.
+
+This sets the number of throughput mb per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -1579,7 +1643,7 @@ Size of the primary disk attached to each node, specified in GB.
 
 The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -1593,7 +1657,7 @@ public readonly bootDiskType: string;
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -1607,7 +1671,7 @@ public readonly localSsdInterface: string;
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -1621,7 +1685,7 @@ public readonly numLocalSsds: number;
 
 The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -1653,7 +1717,7 @@ public readonly metrics: IResolvable | GoogleDataprocClusterClusterConfigDatapro
 
 metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metrics GoogleDataprocCluster#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metrics GoogleDataprocCluster#metrics}
 
 ---
 
@@ -1686,7 +1750,7 @@ public readonly metricSource: string;
 
 A source for the collection of Dataproc OSS metrics (see [available OSS metrics] (https://cloud.google.com//dataproc/docs/guides/monitoring#available_oss_metrics)).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metric_source GoogleDataprocCluster#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metric_source GoogleDataprocCluster#metric_source}
 
 ---
 
@@ -1700,7 +1764,7 @@ public readonly metricOverrides: string[];
 
 Specify one or more [available OSS metrics] (https://cloud.google.com/dataproc/docs/guides/monitoring#available_oss_metrics) to collect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metric_overrides GoogleDataprocCluster#metric_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metric_overrides GoogleDataprocCluster#metric_overrides}
 
 ---
 
@@ -1732,7 +1796,7 @@ public readonly kmsKeyName: string;
 
 The Cloud KMS key name to use for PD disk encryption for all instances in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kms_key_name GoogleDataprocCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kms_key_name GoogleDataprocCluster#kms_key_name}
 
 ---
 
@@ -1766,7 +1830,7 @@ The flag to enable http access to specific ports on the cluster from external so
 
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_http_port_access GoogleDataprocCluster#enable_http_port_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_http_port_access GoogleDataprocCluster#enable_http_port_access}
 
 ---
 
@@ -1790,6 +1854,7 @@ const googleDataprocClusterClusterConfigGceClusterConfig: googleDataprocCluster.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.network">network</a></code> | <code>string</code> | The name or self_link of the Google Compute Engine network to the cluster will be part of. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.nodeGroupAffinity">nodeGroupAffinity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity">GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity</a></code> | node_group_affinity block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.reservationAffinity">reservationAffinity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity">GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity</a></code> | reservation_affinity block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | A map of resource manager tags to add to all instances. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.serviceAccount">serviceAccount</a></code> | <code>string</code> | The service account to be used by the Node VMs. If not specified, the "default" service account is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.serviceAccountScopes">serviceAccountScopes</a></code> | <code>string[]</code> | The set of Google API scopes to be made available on all of the node VMs under the service_account specified. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.shieldedInstanceConfig">shieldedInstanceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig">GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig</a></code> | shielded_instance_config block. |
@@ -1809,7 +1874,7 @@ public readonly confidentialInstanceConfig: GoogleDataprocClusterClusterConfigGc
 
 confidential_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#confidential_instance_config GoogleDataprocCluster#confidential_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#confidential_instance_config GoogleDataprocCluster#confidential_instance_config}
 
 ---
 
@@ -1825,7 +1890,7 @@ By default, clusters are not restricted to internal IP addresses, and will have 
 
 If set to true, all instances in the cluster will only have internal IP addresses. Note: Private Google Access (also known as privateIpGoogleAccess) must be enabled on the subnetwork that the cluster will be launched in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#internal_ip_only GoogleDataprocCluster#internal_ip_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#internal_ip_only GoogleDataprocCluster#internal_ip_only}
 
 ---
 
@@ -1839,7 +1904,7 @@ public readonly metadata: {[ key: string ]: string};
 
 A map of the Compute Engine metadata entries to add to all instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metadata GoogleDataprocCluster#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metadata GoogleDataprocCluster#metadata}
 
 ---
 
@@ -1855,7 +1920,7 @@ The name or self_link of the Google Compute Engine network to the cluster will b
 
 Conflicts with subnetwork. If neither is specified, this defaults to the "default" network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#network GoogleDataprocCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#network GoogleDataprocCluster#network}
 
 ---
 
@@ -1869,7 +1934,7 @@ public readonly nodeGroupAffinity: GoogleDataprocClusterClusterConfigGceClusterC
 
 node_group_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_affinity GoogleDataprocCluster#node_group_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_affinity GoogleDataprocCluster#node_group_affinity}
 
 ---
 
@@ -1883,7 +1948,23 @@ public readonly reservationAffinity: GoogleDataprocClusterClusterConfigGceCluste
 
 reservation_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#reservation_affinity GoogleDataprocCluster#reservation_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#reservation_affinity GoogleDataprocCluster#reservation_affinity}
+
+---
+
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+A map of resource manager tags to add to all instances.
+
+Keys must be in the format tagKeys/{tag_key_id} and values in the format tagValues/{tag_value_id}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#resource_manager_tags GoogleDataprocCluster#resource_manager_tags}
 
 ---
 
@@ -1897,7 +1978,7 @@ public readonly serviceAccount: string;
 
 The service account to be used by the Node VMs. If not specified, the "default" service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#service_account GoogleDataprocCluster#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#service_account GoogleDataprocCluster#service_account}
 
 ---
 
@@ -1913,7 +1994,7 @@ The set of Google API scopes to be made available on all of the node VMs under t
 
 These can be either FQDNs, or scope aliases.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#service_account_scopes GoogleDataprocCluster#service_account_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#service_account_scopes GoogleDataprocCluster#service_account_scopes}
 
 ---
 
@@ -1927,7 +2008,7 @@ public readonly shieldedInstanceConfig: GoogleDataprocClusterClusterConfigGceClu
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#shielded_instance_config GoogleDataprocCluster#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#shielded_instance_config GoogleDataprocCluster#shielded_instance_config}
 
 ---
 
@@ -1941,7 +2022,7 @@ public readonly subnetwork: string;
 
 The name or self_link of the Google Compute Engine subnetwork the cluster will be part of. Conflicts with network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#subnetwork GoogleDataprocCluster#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#subnetwork GoogleDataprocCluster#subnetwork}
 
 ---
 
@@ -1957,7 +2038,7 @@ The list of instance tags applied to instances in the cluster.
 
 Tags are used to identify valid sources or targets for network firewalls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#tags GoogleDataprocCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#tags GoogleDataprocCluster#tags}
 
 ---
 
@@ -1971,7 +2052,7 @@ public readonly zone: string;
 
 The GCP zone where your data is stored and used (i.e. where the master and the worker nodes will be created in). If region is set to 'global' (default) then zone is mandatory, otherwise GCP is able to make use of Auto Zone Placement to determine this automatically for you. Note: This setting additionally determines and restricts which computing resources are available for use with other configs such as cluster_config.master_config.machine_type and cluster_config.worker_config.machine_type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#zone GoogleDataprocCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#zone GoogleDataprocCluster#zone}
 
 ---
 
@@ -2003,7 +2084,7 @@ public readonly enableConfidentialCompute: boolean | IResolvable;
 
 Defines whether the instance should have confidential compute enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_confidential_compute GoogleDataprocCluster#enable_confidential_compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_confidential_compute GoogleDataprocCluster#enable_confidential_compute}
 
 ---
 
@@ -2035,7 +2116,7 @@ public readonly nodeGroupUri: string;
 
 The URI of a sole-tenant that the cluster will be created on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_uri GoogleDataprocCluster#node_group_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_uri GoogleDataprocCluster#node_group_uri}
 
 ---
 
@@ -2069,7 +2150,7 @@ public readonly consumeReservationType: string;
 
 Type of reservation to consume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#consume_reservation_type GoogleDataprocCluster#consume_reservation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#consume_reservation_type GoogleDataprocCluster#consume_reservation_type}
 
 ---
 
@@ -2083,7 +2164,7 @@ public readonly key: string;
 
 Corresponds to the label key of reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#key GoogleDataprocCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#key GoogleDataprocCluster#key}
 
 ---
 
@@ -2097,7 +2178,7 @@ public readonly values: string[];
 
 Corresponds to the label values of reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#values GoogleDataprocCluster#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#values GoogleDataprocCluster#values}
 
 ---
 
@@ -2131,7 +2212,7 @@ public readonly enableIntegrityMonitoring: boolean | IResolvable;
 
 Defines whether instances have integrity monitoring enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_integrity_monitoring GoogleDataprocCluster#enable_integrity_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_integrity_monitoring GoogleDataprocCluster#enable_integrity_monitoring}
 
 ---
 
@@ -2145,7 +2226,7 @@ public readonly enableSecureBoot: boolean | IResolvable;
 
 Defines whether instances have Secure Boot enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_secure_boot GoogleDataprocCluster#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_secure_boot GoogleDataprocCluster#enable_secure_boot}
 
 ---
 
@@ -2159,7 +2240,7 @@ public readonly enableVtpm: boolean | IResolvable;
 
 Defines whether instances have the vTPM enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_vtpm GoogleDataprocCluster#enable_vtpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_vtpm GoogleDataprocCluster#enable_vtpm}
 
 ---
 
@@ -2194,7 +2275,7 @@ The script to be executed during initialization of the cluster.
 
 The script must be a GCS file with a gs:// prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#script GoogleDataprocCluster#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#script GoogleDataprocCluster#script}
 
 ---
 
@@ -2210,7 +2291,7 @@ The maximum duration (in seconds) which script is allowed to take to execute its
 
 GCP will default to a predetermined computed value if not set (currently 300).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#timeout_sec GoogleDataprocCluster#timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#timeout_sec GoogleDataprocCluster#timeout_sec}
 
 ---
 
@@ -2229,7 +2310,9 @@ const googleDataprocClusterClusterConfigLifecycleConfig: googleDataprocCluster.G
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig.property.autoDeleteTime">autoDeleteTime</a></code> | <code>string</code> | The time when cluster will be auto-deleted. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z". |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig.property.autoStopTime">autoStopTime</a></code> | <code>string</code> | The time when cluster will be auto-stopped. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z". |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig.property.idleDeleteTtl">idleDeleteTtl</a></code> | <code>string</code> | The duration to keep the cluster alive while idling (no jobs running). |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig.property.idleStopTtl">idleStopTtl</a></code> | <code>string</code> | The duration to keep the cluster started while idling (no jobs running). |
 
 ---
 
@@ -2243,7 +2326,21 @@ public readonly autoDeleteTime: string;
 
 The time when cluster will be auto-deleted. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#auto_delete_time GoogleDataprocCluster#auto_delete_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auto_delete_time GoogleDataprocCluster#auto_delete_time}
+
+---
+
+##### `autoStopTime`<sup>Optional</sup> <a name="autoStopTime" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig.property.autoStopTime"></a>
+
+```typescript
+public readonly autoStopTime: string;
+```
+
+- *Type:* string
+
+The time when cluster will be auto-stopped. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auto_stop_time GoogleDataprocCluster#auto_stop_time}
 
 ---
 
@@ -2257,9 +2354,25 @@ public readonly idleDeleteTtl: string;
 
 The duration to keep the cluster alive while idling (no jobs running).
 
-After this TTL, the cluster will be deleted. Valid range: [10m, 14d].
+After this TTL, the cluster will be deleted. Valid range: [300s, 1209600s].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#idle_delete_ttl GoogleDataprocCluster#idle_delete_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#idle_delete_ttl GoogleDataprocCluster#idle_delete_ttl}
+
+---
+
+##### `idleStopTtl`<sup>Optional</sup> <a name="idleStopTtl" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig.property.idleStopTtl"></a>
+
+```typescript
+public readonly idleStopTtl: string;
+```
+
+- *Type:* string
+
+The duration to keep the cluster started while idling (no jobs running).
+
+After this TTL, the cluster will be stopped. Valid range: [10m, 14d].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#idle_stop_ttl GoogleDataprocCluster#idle_stop_ttl}
 
 ---
 
@@ -2280,6 +2393,7 @@ const googleDataprocClusterClusterConfigMasterConfig: googleDataprocCluster.Goog
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.accelerators">accelerators</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigAccelerators">GoogleDataprocClusterClusterConfigMasterConfigAccelerators</a>[]</code> | accelerators block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.diskConfig">diskConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig">GoogleDataprocClusterClusterConfigMasterConfigDiskConfig</a></code> | disk_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.imageUri">imageUri</a></code> | <code>string</code> | The URI for the image to use for this master. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.instanceFlexibilityPolicy">instanceFlexibilityPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy</a></code> | instance_flexibility_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.machineType">machineType</a></code> | <code>string</code> | The name of a Google Compute Engine machine type to create for the master. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.minCpuPlatform">minCpuPlatform</a></code> | <code>string</code> | The name of a minimum generation of CPU family for the master. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.numInstances">numInstances</a></code> | <code>number</code> | Specifies the number of master nodes to create. If not specified, GCP will default to a predetermined computed value. |
@@ -2296,7 +2410,7 @@ public readonly accelerators: IResolvable | GoogleDataprocClusterClusterConfigMa
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
 
 ---
 
@@ -2310,7 +2424,7 @@ public readonly diskConfig: GoogleDataprocClusterClusterConfigMasterConfigDiskCo
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -2324,7 +2438,21 @@ public readonly imageUri: string;
 
 The URI for the image to use for this master.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+
+---
+
+##### `instanceFlexibilityPolicy`<sup>Optional</sup> <a name="instanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.property.instanceFlexibilityPolicy"></a>
+
+```typescript
+public readonly instanceFlexibilityPolicy: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy</a>
+
+instance_flexibility_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
 
 ---
 
@@ -2338,7 +2466,7 @@ public readonly machineType: string;
 
 The name of a Google Compute Engine machine type to create for the master.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -2354,7 +2482,7 @@ The name of a minimum generation of CPU family for the master.
 
 If not specified, GCP will default to a predetermined computed value for each zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -2368,7 +2496,7 @@ public readonly numInstances: number;
 
 Specifies the number of master nodes to create. If not specified, GCP will default to a predetermined computed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -2403,7 +2531,7 @@ The number of the accelerator cards of this type exposed to this instance.
 
 Often restricted to one of 1, 2, 4, or 8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
 
 ---
 
@@ -2417,7 +2545,7 @@ public readonly acceleratorType: string;
 
 The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
 
 ---
 
@@ -2435,10 +2563,44 @@ const googleDataprocClusterClusterConfigMasterConfigDiskConfig: googleDataprocCl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | Indicates how many IOPS to provision for the disk. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | Indicates how much throughput to provision for the disk. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | Size of the primary disk attached to each node, specified in GB. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard". |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express). |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.numLocalSsds">numLocalSsds</a></code> | <code>number</code> | The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0. |
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Optional</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+Indicates how many IOPS to provision for the disk.
+
+This sets the number of I/O operations per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
+```
+
+- *Type:* number
+
+Indicates how much throughput to provision for the disk.
+
+This sets the number of throughput mb per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -2454,7 +2616,7 @@ Size of the primary disk attached to each node, specified in GB.
 
 The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -2468,7 +2630,7 @@ public readonly bootDiskType: string;
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -2482,7 +2644,7 @@ public readonly localSsdInterface: string;
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -2496,9 +2658,101 @@ public readonly numLocalSsds: number;
 
 The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
+
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+const googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy: googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy.property.instanceSelectionList">instanceSelectionList</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]</code> | instance_selection_list block. |
+
+---
+
+##### `instanceSelectionList`<sup>Optional</sup> <a name="instanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy.property.instanceSelectionList"></a>
+
+```typescript
+public readonly instanceSelectionList: IResolvable | GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+instance_selection_list block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+
+---
+
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+const googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct: googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.machineTypes">machineTypes</a></code> | <code>string[]</code> | Full machine-type names, e.g. "n1-standard-16". |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.rank">rank</a></code> | <code>number</code> | Preference of this instance selection. |
+
+---
+
+##### `machineTypes`<sup>Optional</sup> <a name="machineTypes" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.machineTypes"></a>
+
+```typescript
+public readonly machineTypes: string[];
+```
+
+- *Type:* string[]
+
+Full machine-type names, e.g. "n1-standard-16".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+
+---
+
+##### `rank`<sup>Optional</sup> <a name="rank" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.rank"></a>
+
+```typescript
+public readonly rank: number;
+```
+
+- *Type:* number
+
+Preference of this instance selection.
+
+Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+
+---
+
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+const googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults: googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults = { ... }
+```
+
 
 ### GoogleDataprocClusterClusterConfigMetastoreConfig <a name="GoogleDataprocClusterClusterConfigMetastoreConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfig"></a>
 
@@ -2528,7 +2782,7 @@ public readonly dataprocMetastoreService: string;
 
 Resource name of an existing Dataproc Metastore service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
 
 ---
 
@@ -2563,7 +2817,7 @@ public readonly diskConfig: GoogleDataprocClusterClusterConfigPreemptibleWorkerC
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -2577,7 +2831,7 @@ public readonly instanceFlexibilityPolicy: GoogleDataprocClusterClusterConfigPre
 
 instance_flexibility_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
 
 ---
 
@@ -2591,7 +2845,7 @@ public readonly numInstances: number;
 
 Specifies the number of preemptible nodes to create. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -2605,7 +2859,7 @@ public readonly preemptibility: string;
 
 Specifies the preemptibility of the secondary nodes. Defaults to PREEMPTIBLE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#preemptibility GoogleDataprocCluster#preemptibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#preemptibility GoogleDataprocCluster#preemptibility}
 
 ---
 
@@ -2623,10 +2877,44 @@ const googleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig: googl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | Indicates how many IOPS to provision for the disk. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | Indicates how much throughput to provision for the disk. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | Size of the primary disk attached to each preemptible worker node, specified in GB. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | The disk type of the primary disk attached to each preemptible worker node. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express). |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.numLocalSsds">numLocalSsds</a></code> | <code>number</code> | The amount of local SSD disks that will be attached to each preemptible worker node. Defaults to 0. |
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Optional</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+Indicates how many IOPS to provision for the disk.
+
+This sets the number of I/O operations per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
+```
+
+- *Type:* number
+
+Indicates how much throughput to provision for the disk.
+
+This sets the number of throughput mb per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -2642,7 +2930,7 @@ Size of the primary disk attached to each preemptible worker node, specified in 
 
 The smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -2658,7 +2946,7 @@ The disk type of the primary disk attached to each preemptible worker node.
 
 Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -2672,7 +2960,7 @@ public readonly localSsdInterface: string;
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -2686,7 +2974,7 @@ public readonly numLocalSsds: number;
 
 The amount of local SSD disks that will be attached to each preemptible worker node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -2719,7 +3007,7 @@ public readonly instanceSelectionList: IResolvable | GoogleDataprocClusterCluste
 
 instance_selection_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
 
 ---
 
@@ -2733,7 +3021,7 @@ public readonly provisioningModelMix: GoogleDataprocClusterClusterConfigPreempti
 
 provisioning_model_mix block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#provisioning_model_mix GoogleDataprocCluster#provisioning_model_mix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#provisioning_model_mix GoogleDataprocCluster#provisioning_model_mix}
 
 ---
 
@@ -2766,7 +3054,7 @@ public readonly machineTypes: string[];
 
 Full machine-type names, e.g. "n1-standard-16".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
 
 ---
 
@@ -2782,7 +3070,7 @@ Preference of this instance selection.
 
 Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
 
 ---
 
@@ -2826,7 +3114,7 @@ public readonly standardCapacityBase: number;
 
 The base capacity that will always use Standard VMs to avoid risk of more preemption than the minimum capacity you need.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#standard_capacity_base GoogleDataprocCluster#standard_capacity_base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#standard_capacity_base GoogleDataprocCluster#standard_capacity_base}
 
 ---
 
@@ -2840,7 +3128,7 @@ public readonly standardCapacityPercentAboveBase: number;
 
 The percentage of target capacity that should use Standard VM. The remaining percentage will use Spot VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#standard_capacity_percent_above_base GoogleDataprocCluster#standard_capacity_percent_above_base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#standard_capacity_percent_above_base GoogleDataprocCluster#standard_capacity_percent_above_base}
 
 ---
 
@@ -2873,7 +3161,7 @@ public readonly identityConfig: GoogleDataprocClusterClusterConfigSecurityConfig
 
 identity_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#identity_config GoogleDataprocCluster#identity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#identity_config GoogleDataprocCluster#identity_config}
 
 ---
 
@@ -2887,7 +3175,7 @@ public readonly kerberosConfig: GoogleDataprocClusterClusterConfigSecurityConfig
 
 kerberos_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kerberos_config GoogleDataprocCluster#kerberos_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kerberos_config GoogleDataprocCluster#kerberos_config}
 
 ---
 
@@ -2919,7 +3207,7 @@ public readonly userServiceAccountMapping: {[ key: string ]: string};
 
 User to service account mappings for multi-tenancy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#user_service_account_mapping GoogleDataprocCluster#user_service_account_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#user_service_account_mapping GoogleDataprocCluster#user_service_account_mapping}
 
 ---
 
@@ -2965,7 +3253,7 @@ public readonly kmsKeyUri: string;
 
 The uri of the KMS key used to encrypt various sensitive files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kms_key_uri GoogleDataprocCluster#kms_key_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kms_key_uri GoogleDataprocCluster#kms_key_uri}
 
 ---
 
@@ -2979,7 +3267,7 @@ public readonly rootPrincipalPasswordUri: string;
 
 The cloud Storage URI of a KMS encrypted file containing the root principal password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#root_principal_password_uri GoogleDataprocCluster#root_principal_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#root_principal_password_uri GoogleDataprocCluster#root_principal_password_uri}
 
 ---
 
@@ -2993,7 +3281,7 @@ public readonly crossRealmTrustAdminServer: string;
 
 The admin server (IP or hostname) for the remote trusted realm in a cross realm trust relationship.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_admin_server GoogleDataprocCluster#cross_realm_trust_admin_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_admin_server GoogleDataprocCluster#cross_realm_trust_admin_server}
 
 ---
 
@@ -3007,7 +3295,7 @@ public readonly crossRealmTrustKdc: string;
 
 The KDC (IP or hostname) for the remote trusted realm in a cross realm trust relationship.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_kdc GoogleDataprocCluster#cross_realm_trust_kdc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_kdc GoogleDataprocCluster#cross_realm_trust_kdc}
 
 ---
 
@@ -3021,7 +3309,7 @@ public readonly crossRealmTrustRealm: string;
 
 The remote realm the Dataproc on-cluster KDC will trust, should the user enable cross realm trust.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_realm GoogleDataprocCluster#cross_realm_trust_realm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_realm GoogleDataprocCluster#cross_realm_trust_realm}
 
 ---
 
@@ -3035,7 +3323,7 @@ public readonly crossRealmTrustSharedPasswordUri: string;
 
 The Cloud Storage URI of a KMS encrypted file containing the shared password between the on-cluster Kerberos realm and the remote trusted realm, in a cross realm trust relationship.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_shared_password_uri GoogleDataprocCluster#cross_realm_trust_shared_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_shared_password_uri GoogleDataprocCluster#cross_realm_trust_shared_password_uri}
 
 ---
 
@@ -3049,7 +3337,7 @@ public readonly enableKerberos: boolean | IResolvable;
 
 Flag to indicate whether to Kerberize the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_kerberos GoogleDataprocCluster#enable_kerberos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_kerberos GoogleDataprocCluster#enable_kerberos}
 
 ---
 
@@ -3063,7 +3351,7 @@ public readonly kdcDbKeyUri: string;
 
 The Cloud Storage URI of a KMS encrypted file containing the master key of the KDC database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kdc_db_key_uri GoogleDataprocCluster#kdc_db_key_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kdc_db_key_uri GoogleDataprocCluster#kdc_db_key_uri}
 
 ---
 
@@ -3079,7 +3367,7 @@ The Cloud Storage URI of a KMS encrypted file containing the password to the use
 
 For the self-signed certificate, this password is generated by Dataproc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#key_password_uri GoogleDataprocCluster#key_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#key_password_uri GoogleDataprocCluster#key_password_uri}
 
 ---
 
@@ -3096,7 +3384,7 @@ The Cloud Storage URI of a KMS encrypted file containing the password to the use
 For the self-signed certificate, this password is generated
 by Dataproc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#keystore_password_uri GoogleDataprocCluster#keystore_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#keystore_password_uri GoogleDataprocCluster#keystore_password_uri}
 
 ---
 
@@ -3112,7 +3400,7 @@ The Cloud Storage URI of the keystore file used for SSL encryption.
 
 If not provided, Dataproc will provide a self-signed certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#keystore_uri GoogleDataprocCluster#keystore_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#keystore_uri GoogleDataprocCluster#keystore_uri}
 
 ---
 
@@ -3126,7 +3414,7 @@ public readonly realm: string;
 
 The name of the on-cluster Kerberos realm. If not specified, the uppercased domain of hostnames will be the realm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#realm GoogleDataprocCluster#realm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#realm GoogleDataprocCluster#realm}
 
 ---
 
@@ -3140,7 +3428,7 @@ public readonly tgtLifetimeHours: number;
 
 The lifetime of the ticket granting ticket, in hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#tgt_lifetime_hours GoogleDataprocCluster#tgt_lifetime_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#tgt_lifetime_hours GoogleDataprocCluster#tgt_lifetime_hours}
 
 ---
 
@@ -3156,7 +3444,7 @@ The Cloud Storage URI of a KMS encrypted file containing the password to the use
 
 For the self-signed certificate, this password is generated by Dataproc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#truststore_password_uri GoogleDataprocCluster#truststore_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#truststore_password_uri GoogleDataprocCluster#truststore_password_uri}
 
 ---
 
@@ -3172,7 +3460,7 @@ The Cloud Storage URI of the truststore file used for SSL encryption.
 
 If not provided, Dataproc will provide a self-signed certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#truststore_uri GoogleDataprocCluster#truststore_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#truststore_uri GoogleDataprocCluster#truststore_uri}
 
 ---
 
@@ -3208,7 +3496,7 @@ The Cloud Dataproc image version to use for the cluster - this controls the sets
 
 If not specified, defaults to the latest version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#image_version GoogleDataprocCluster#image_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#image_version GoogleDataprocCluster#image_version}
 
 ---
 
@@ -3222,7 +3510,7 @@ public readonly optionalComponents: string[];
 
 The set of optional components to activate on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#optional_components GoogleDataprocCluster#optional_components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#optional_components GoogleDataprocCluster#optional_components}
 
 ---
 
@@ -3236,7 +3524,7 @@ public readonly overrideProperties: {[ key: string ]: string};
 
 A list of override and additional properties (key/value pairs) used to modify various aspects of the common configuration files used when creating a cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#override_properties GoogleDataprocCluster#override_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#override_properties GoogleDataprocCluster#override_properties}
 
 ---
 
@@ -3257,6 +3545,7 @@ const googleDataprocClusterClusterConfigWorkerConfig: googleDataprocCluster.Goog
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.accelerators">accelerators</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigAccelerators">GoogleDataprocClusterClusterConfigWorkerConfigAccelerators</a>[]</code> | accelerators block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.diskConfig">diskConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig">GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig</a></code> | disk_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.imageUri">imageUri</a></code> | <code>string</code> | The URI for the image to use for this master/worker. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.instanceFlexibilityPolicy">instanceFlexibilityPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy</a></code> | instance_flexibility_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.machineType">machineType</a></code> | <code>string</code> | The name of a Google Compute Engine machine type to create for the master/worker. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.minCpuPlatform">minCpuPlatform</a></code> | <code>string</code> | The name of a minimum generation of CPU family for the master/worker. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.minNumInstances">minNumInstances</a></code> | <code>number</code> | The minimum number of primary worker instances to create. |
@@ -3274,7 +3563,7 @@ public readonly accelerators: IResolvable | GoogleDataprocClusterClusterConfigWo
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
 
 ---
 
@@ -3288,7 +3577,7 @@ public readonly diskConfig: GoogleDataprocClusterClusterConfigWorkerConfigDiskCo
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -3302,7 +3591,21 @@ public readonly imageUri: string;
 
 The URI for the image to use for this master/worker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+
+---
+
+##### `instanceFlexibilityPolicy`<sup>Optional</sup> <a name="instanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.property.instanceFlexibilityPolicy"></a>
+
+```typescript
+public readonly instanceFlexibilityPolicy: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy</a>
+
+instance_flexibility_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
 
 ---
 
@@ -3316,7 +3619,7 @@ public readonly machineType: string;
 
 The name of a Google Compute Engine machine type to create for the master/worker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -3332,7 +3635,7 @@ The name of a minimum generation of CPU family for the master/worker.
 
 If not specified, GCP will default to a predetermined computed value for each zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -3346,7 +3649,7 @@ public readonly minNumInstances: number;
 
 The minimum number of primary worker instances to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_num_instances GoogleDataprocCluster#min_num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_num_instances GoogleDataprocCluster#min_num_instances}
 
 ---
 
@@ -3360,7 +3663,7 @@ public readonly numInstances: number;
 
 Specifies the number of worker nodes to create. If not specified, GCP will default to a predetermined computed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -3395,7 +3698,7 @@ The number of the accelerator cards of this type exposed to this instance.
 
 Often restricted to one of 1, 2, 4, or 8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
 
 ---
 
@@ -3409,7 +3712,7 @@ public readonly acceleratorType: string;
 
 The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
 
 ---
 
@@ -3427,10 +3730,44 @@ const googleDataprocClusterClusterConfigWorkerConfigDiskConfig: googleDataprocCl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | Indicates how many IOPS to provision for the disk. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | Indicates how much throughput to provision for the disk. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | Size of the primary disk attached to each node, specified in GB. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard". |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express). |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.numLocalSsds">numLocalSsds</a></code> | <code>number</code> | The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0. |
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Optional</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+Indicates how many IOPS to provision for the disk.
+
+This sets the number of I/O operations per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
+```
+
+- *Type:* number
+
+Indicates how much throughput to provision for the disk.
+
+This sets the number of throughput mb per second that the disk can handle.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -3446,7 +3783,7 @@ Size of the primary disk attached to each node, specified in GB.
 
 The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -3460,7 +3797,7 @@ public readonly bootDiskType: string;
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -3474,7 +3811,7 @@ public readonly localSsdInterface: string;
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -3488,9 +3825,101 @@ public readonly numLocalSsds: number;
 
 The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
+
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+const googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy: googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy.property.instanceSelectionList">instanceSelectionList</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]</code> | instance_selection_list block. |
+
+---
+
+##### `instanceSelectionList`<sup>Optional</sup> <a name="instanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy.property.instanceSelectionList"></a>
+
+```typescript
+public readonly instanceSelectionList: IResolvable | GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+instance_selection_list block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+
+---
+
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+const googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct: googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.machineTypes">machineTypes</a></code> | <code>string[]</code> | Full machine-type names, e.g. "n1-standard-16". |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.rank">rank</a></code> | <code>number</code> | Preference of this instance selection. |
+
+---
+
+##### `machineTypes`<sup>Optional</sup> <a name="machineTypes" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.machineTypes"></a>
+
+```typescript
+public readonly machineTypes: string[];
+```
+
+- *Type:* string[]
+
+Full machine-type names, e.g. "n1-standard-16".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+
+---
+
+##### `rank`<sup>Optional</sup> <a name="rank" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.property.rank"></a>
+
+```typescript
+public readonly rank: number;
+```
+
+- *Type:* number
+
+Preference of this instance selection.
+
+Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+
+---
+
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+const googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults: googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults = { ... }
+```
+
 
 ### GoogleDataprocClusterConfig <a name="GoogleDataprocClusterConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig"></a>
 
@@ -3516,7 +3945,7 @@ const googleDataprocClusterConfig: googleDataprocCluster.GoogleDataprocClusterCo
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.name">name</a></code> | <code>string</code> | The name of the cluster, unique within the project and zone. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.clusterConfig">clusterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig">GoogleDataprocClusterClusterConfig</a></code> | cluster_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.gracefulDecommissionTimeout">gracefulDecommissionTimeout</a></code> | <code>string</code> | The timeout duration which allows graceful decomissioning when you change the number of worker nodes directly through a terraform apply. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | The list of the labels (key/value pairs) configured on the resource and to be applied to instances in the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.project">project</a></code> | <code>string</code> | The ID of the project in which the cluster will exist. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.region">region</a></code> | <code>string</code> | The region in which the cluster and associated nodes will be created in. Defaults to global. |
@@ -3605,7 +4034,7 @@ public readonly name: string;
 
 The name of the cluster, unique within the project and zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#name GoogleDataprocCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#name GoogleDataprocCluster#name}
 
 ---
 
@@ -3619,7 +4048,7 @@ public readonly clusterConfig: GoogleDataprocClusterClusterConfig;
 
 cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cluster_config GoogleDataprocCluster#cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cluster_config GoogleDataprocCluster#cluster_config}
 
 ---
 
@@ -3633,7 +4062,7 @@ public readonly gracefulDecommissionTimeout: string;
 
 The timeout duration which allows graceful decomissioning when you change the number of worker nodes directly through a terraform apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#graceful_decommission_timeout GoogleDataprocCluster#graceful_decommission_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#graceful_decommission_timeout GoogleDataprocCluster#graceful_decommission_timeout}
 
 ---
 
@@ -3645,7 +4074,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3665,7 +4094,7 @@ The list of the labels (key/value pairs) configured on the resource and to be ap
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 				Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#labels GoogleDataprocCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#labels GoogleDataprocCluster#labels}
 
 ---
 
@@ -3681,7 +4110,7 @@ The ID of the project in which the cluster will exist.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#project GoogleDataprocCluster#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#project GoogleDataprocCluster#project}
 
 ---
 
@@ -3695,7 +4124,7 @@ public readonly region: string;
 
 The region in which the cluster and associated nodes will be created in. Defaults to global.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#region GoogleDataprocCluster#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#region GoogleDataprocCluster#region}
 
 ---
 
@@ -3709,7 +4138,7 @@ public readonly timeouts: GoogleDataprocClusterTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#timeouts GoogleDataprocCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#timeouts GoogleDataprocCluster#timeouts}
 
 ---
 
@@ -3723,7 +4152,7 @@ public readonly virtualClusterConfig: GoogleDataprocClusterVirtualClusterConfig;
 
 virtual_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#virtual_cluster_config GoogleDataprocCluster#virtual_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#virtual_cluster_config GoogleDataprocCluster#virtual_cluster_config}
 
 ---
 
@@ -3741,9 +4170,9 @@ const googleDataprocClusterTimeouts: googleDataprocCluster.GoogleDataprocCluster
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}. |
 
 ---
 
@@ -3755,7 +4184,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}.
 
 ---
 
@@ -3767,7 +4196,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}.
 
 ---
 
@@ -3779,7 +4208,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}.
 
 ---
 
@@ -3813,7 +4242,7 @@ public readonly auxiliaryServicesConfig: GoogleDataprocClusterVirtualClusterConf
 
 auxiliary_services_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#auxiliary_services_config GoogleDataprocCluster#auxiliary_services_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auxiliary_services_config GoogleDataprocCluster#auxiliary_services_config}
 
 ---
 
@@ -3827,7 +4256,7 @@ public readonly kubernetesClusterConfig: GoogleDataprocClusterVirtualClusterConf
 
 kubernetes_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kubernetes_cluster_config GoogleDataprocCluster#kubernetes_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kubernetes_cluster_config GoogleDataprocCluster#kubernetes_cluster_config}
 
 ---
 
@@ -3843,7 +4272,7 @@ A Cloud Storage bucket used to stage job dependencies, config files, and job dri
 
 If you do not specify a staging bucket, Cloud Dataproc will determine a Cloud Storage location (US, ASIA, or EU) for your cluster's staging bucket according to the Compute Engine zone where your cluster is deployed, and then create and manage this project-level, per-location bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
 
 ---
 
@@ -3876,7 +4305,7 @@ public readonly metastoreConfig: GoogleDataprocClusterVirtualClusterConfigAuxili
 
 metastore_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
 
 ---
 
@@ -3890,7 +4319,7 @@ public readonly sparkHistoryServerConfig: GoogleDataprocClusterVirtualClusterCon
 
 spark_history_server_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#spark_history_server_config GoogleDataprocCluster#spark_history_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#spark_history_server_config GoogleDataprocCluster#spark_history_server_config}
 
 ---
 
@@ -3922,7 +4351,7 @@ public readonly dataprocMetastoreService: string;
 
 The Hive Metastore configuration for this workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
 
 ---
 
@@ -3954,7 +4383,7 @@ public readonly dataprocCluster: string;
 
 Resource name of an existing Dataproc Cluster to act as a Spark History Server for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_cluster GoogleDataprocCluster#dataproc_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_cluster GoogleDataprocCluster#dataproc_cluster}
 
 ---
 
@@ -3988,7 +4417,7 @@ public readonly gkeClusterConfig: GoogleDataprocClusterVirtualClusterConfigKuber
 
 gke_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#gke_cluster_config GoogleDataprocCluster#gke_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#gke_cluster_config GoogleDataprocCluster#gke_cluster_config}
 
 ---
 
@@ -4002,7 +4431,7 @@ public readonly kubernetesSoftwareConfig: GoogleDataprocClusterVirtualClusterCon
 
 kubernetes_software_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kubernetes_software_config GoogleDataprocCluster#kubernetes_software_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kubernetes_software_config GoogleDataprocCluster#kubernetes_software_config}
 
 ---
 
@@ -4018,7 +4447,7 @@ A namespace within the Kubernetes cluster to deploy into.
 
 If this namespace does not exist, it is created. If it exists, Dataproc verifies that another Dataproc VirtualCluster is not installed into it. If not specified, the name of the Dataproc Cluster is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kubernetes_namespace GoogleDataprocCluster#kubernetes_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kubernetes_namespace GoogleDataprocCluster#kubernetes_namespace}
 
 ---
 
@@ -4053,7 +4482,7 @@ A target GKE cluster to deploy to.
 
 It must be in the same project and region as the Dataproc cluster (the GKE cluster can be zonal or regional). Format: 'projects/{project}/locations/{location}/clusters/{cluster_id}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#gke_cluster_target GoogleDataprocCluster#gke_cluster_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#gke_cluster_target GoogleDataprocCluster#gke_cluster_target}
 
 ---
 
@@ -4067,7 +4496,7 @@ public readonly nodePoolTarget: IResolvable | GoogleDataprocClusterVirtualCluste
 
 node_pool_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_pool_target GoogleDataprocCluster#node_pool_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_pool_target GoogleDataprocCluster#node_pool_target}
 
 ---
 
@@ -4101,7 +4530,7 @@ public readonly nodePool: string;
 
 The target GKE node pool. Format: 'projects/{project}/locations/{location}/clusters/{cluster}/nodePools/{nodePool}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_pool GoogleDataprocCluster#node_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_pool GoogleDataprocCluster#node_pool}
 
 ---
 
@@ -4115,7 +4544,7 @@ public readonly roles: string[];
 
 The roles associated with the GKE node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
 
 ---
 
@@ -4129,7 +4558,7 @@ public readonly nodePoolConfig: GoogleDataprocClusterVirtualClusterConfigKuberne
 
 node_pool_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_pool_config GoogleDataprocCluster#node_pool_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_pool_config GoogleDataprocCluster#node_pool_config}
 
 ---
 
@@ -4163,7 +4592,7 @@ public readonly locations: string[];
 
 The list of Compute Engine zones where node pool nodes associated with a Dataproc on GKE virtual cluster will be located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#locations GoogleDataprocCluster#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#locations GoogleDataprocCluster#locations}
 
 ---
 
@@ -4177,7 +4606,7 @@ public readonly autoscaling: GoogleDataprocClusterVirtualClusterConfigKubernetes
 
 autoscaling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#autoscaling GoogleDataprocCluster#autoscaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#autoscaling GoogleDataprocCluster#autoscaling}
 
 ---
 
@@ -4191,7 +4620,7 @@ public readonly config: GoogleDataprocClusterVirtualClusterConfigKubernetesClust
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#config GoogleDataprocCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#config GoogleDataprocCluster#config}
 
 ---
 
@@ -4224,7 +4653,7 @@ public readonly maxNodeCount: number;
 
 The maximum number of nodes in the node pool. Must be >= minNodeCount, and must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#max_node_count GoogleDataprocCluster#max_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#max_node_count GoogleDataprocCluster#max_node_count}
 
 ---
 
@@ -4238,7 +4667,7 @@ public readonly minNodeCount: number;
 
 The minimum number of nodes in the node pool. Must be >= 0 and <= maxNodeCount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_node_count GoogleDataprocCluster#min_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_node_count GoogleDataprocCluster#min_node_count}
 
 ---
 
@@ -4274,7 +4703,7 @@ public readonly localSsdCount: number;
 
 The minimum number of nodes in the node pool. Must be >= 0 and <= maxNodeCount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_count GoogleDataprocCluster#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_count GoogleDataprocCluster#local_ssd_count}
 
 ---
 
@@ -4288,7 +4717,7 @@ public readonly machineType: string;
 
 The name of a Compute Engine machine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -4304,7 +4733,7 @@ Minimum CPU platform to be used by this instance.
 
 The instance may be scheduled on the specified or a newer CPU platform. Specify the friendly names of CPU platforms, such as "Intel Haswell" or "Intel Sandy Bridge".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -4320,7 +4749,7 @@ Whether the nodes are created as preemptible VM instances.
 
 Preemptible nodes cannot be used in a node pool with the CONTROLLER role or in the DEFAULT node pool if the CONTROLLER role is not assigned (the DEFAULT node pool will assume the CONTROLLER role).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#preemptible GoogleDataprocCluster#preemptible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#preemptible GoogleDataprocCluster#preemptible}
 
 ---
 
@@ -4334,7 +4763,7 @@ public readonly spot: boolean | IResolvable;
 
 Spot flag for enabling Spot VM, which is a rebrand of the existing preemptible flag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#spot GoogleDataprocCluster#spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#spot GoogleDataprocCluster#spot}
 
 ---
 
@@ -4369,7 +4798,7 @@ The components that should be installed in this Dataproc cluster.
 
 The key must be a string from the KubernetesComponent enumeration. The value is the version of the software to be installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#component_version GoogleDataprocCluster#component_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#component_version GoogleDataprocCluster#component_version}
 
 ---
 
@@ -4383,7 +4812,7 @@ public readonly properties: {[ key: string ]: string};
 
 The properties to set on daemon config files. Property keys are specified in prefix:property format, for example spark:spark.kubernetes.container.image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#properties GoogleDataprocCluster#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#properties GoogleDataprocCluster#properties}
 
 ---
 
@@ -5501,6 +5930,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetBootDiskProvisionedIops">resetBootDiskProvisionedIops</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput">resetBootDiskProvisionedThroughput</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetBootDiskSizeGb">resetBootDiskSizeGb</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetBootDiskType">resetBootDiskType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetLocalSsdInterface">resetLocalSsdInterface</a></code> | *No description.* |
@@ -5658,6 +6089,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetBootDiskProvisionedIops` <a name="resetBootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetBootDiskProvisionedIops"></a>
+
+```typescript
+public resetBootDiskProvisionedIops(): void
+```
+
+##### `resetBootDiskProvisionedThroughput` <a name="resetBootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput"></a>
+
+```typescript
+public resetBootDiskProvisionedThroughput(): void
+```
+
 ##### `resetBootDiskSizeGb` <a name="resetBootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.resetBootDiskSizeGb"></a>
 
 ```typescript
@@ -5689,10 +6132,14 @@ public resetNumLocalSsds(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput">bootDiskProvisionedIopsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput">bootDiskProvisionedThroughputInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskSizeGbInput">bootDiskSizeGbInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskTypeInput">bootDiskTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.localSsdInterfaceInput">localSsdInterfaceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.numLocalSsdsInput">numLocalSsdsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | *No description.* |
@@ -5722,6 +6169,26 @@ public readonly fqn: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `bootDiskProvisionedIopsInput`<sup>Optional</sup> <a name="bootDiskProvisionedIopsInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedIopsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughputInput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughputInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughputInput: number;
+```
+
+- *Type:* number
 
 ---
 
@@ -5759,6 +6226,26 @@ public readonly localSsdInterfaceInput: string;
 
 ```typescript
 public readonly numLocalSsdsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Required</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Required</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
 ```
 
 - *Type:* number
@@ -8844,6 +9331,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetNetwork">resetNetwork</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetNodeGroupAffinity">resetNodeGroupAffinity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetReservationAffinity">resetReservationAffinity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetServiceAccount">resetServiceAccount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetServiceAccountScopes">resetServiceAccountScopes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetShieldedInstanceConfig">resetShieldedInstanceConfig</a></code> | *No description.* |
@@ -9087,6 +9575,12 @@ public resetNodeGroupAffinity(): void
 public resetReservationAffinity(): void
 ```
 
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetResourceManagerTags"></a>
+
+```typescript
+public resetResourceManagerTags(): void
+```
+
 ##### `resetServiceAccount` <a name="resetServiceAccount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.resetServiceAccount"></a>
 
 ```typescript
@@ -9140,6 +9634,7 @@ public resetZone(): void
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.networkInput">networkInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.nodeGroupAffinityInput">nodeGroupAffinityInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity">GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.reservationAffinityInput">reservationAffinityInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity">GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.serviceAccountInput">serviceAccountInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.serviceAccountScopesInput">serviceAccountScopesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.shieldedInstanceConfigInput">shieldedInstanceConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig">GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig</a></code> | *No description.* |
@@ -9149,6 +9644,7 @@ public resetZone(): void
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.internalIpOnly">internalIpOnly</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.metadata">metadata</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.network">network</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.serviceAccount">serviceAccount</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.serviceAccountScopes">serviceAccountScopes</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.subnetwork">subnetwork</a></code> | <code>string</code> | *No description.* |
@@ -9282,6 +9778,16 @@ public readonly reservationAffinityInput: GoogleDataprocClusterClusterConfigGceC
 
 ---
 
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.resourceManagerTagsInput"></a>
+
+```typescript
+public readonly resourceManagerTagsInput: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
 ##### `serviceAccountInput`<sup>Optional</sup> <a name="serviceAccountInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.serviceAccountInput"></a>
 
 ```typescript
@@ -9369,6 +9875,16 @@ public readonly network: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
 
 ---
 
@@ -10634,7 +11150,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resetAutoDeleteTime">resetAutoDeleteTime</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resetAutoStopTime">resetAutoStopTime</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resetIdleDeleteTtl">resetIdleDeleteTtl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resetIdleStopTtl">resetIdleStopTtl</a></code> | *No description.* |
 
 ---
 
@@ -10794,10 +11312,22 @@ Returns a reversible string representation.
 public resetAutoDeleteTime(): void
 ```
 
+##### `resetAutoStopTime` <a name="resetAutoStopTime" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resetAutoStopTime"></a>
+
+```typescript
+public resetAutoStopTime(): void
+```
+
 ##### `resetIdleDeleteTtl` <a name="resetIdleDeleteTtl" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resetIdleDeleteTtl"></a>
 
 ```typescript
 public resetIdleDeleteTtl(): void
+```
+
+##### `resetIdleStopTtl` <a name="resetIdleStopTtl" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.resetIdleStopTtl"></a>
+
+```typescript
+public resetIdleStopTtl(): void
 ```
 
 
@@ -10809,9 +11339,13 @@ public resetIdleDeleteTtl(): void
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleStartTime">idleStartTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.autoDeleteTimeInput">autoDeleteTimeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.autoStopTimeInput">autoStopTimeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleDeleteTtlInput">idleDeleteTtlInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleStopTtlInput">idleStopTtlInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.autoDeleteTime">autoDeleteTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.autoStopTime">autoStopTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleDeleteTtl">idleDeleteTtl</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleStopTtl">idleStopTtl</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig">GoogleDataprocClusterClusterConfigLifecycleConfig</a></code> | *No description.* |
 
 ---
@@ -10860,10 +11394,30 @@ public readonly autoDeleteTimeInput: string;
 
 ---
 
+##### `autoStopTimeInput`<sup>Optional</sup> <a name="autoStopTimeInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.autoStopTimeInput"></a>
+
+```typescript
+public readonly autoStopTimeInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idleDeleteTtlInput`<sup>Optional</sup> <a name="idleDeleteTtlInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleDeleteTtlInput"></a>
 
 ```typescript
 public readonly idleDeleteTtlInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `idleStopTtlInput`<sup>Optional</sup> <a name="idleStopTtlInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleStopTtlInput"></a>
+
+```typescript
+public readonly idleStopTtlInput: string;
 ```
 
 - *Type:* string
@@ -10880,10 +11434,30 @@ public readonly autoDeleteTime: string;
 
 ---
 
+##### `autoStopTime`<sup>Required</sup> <a name="autoStopTime" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.autoStopTime"></a>
+
+```typescript
+public readonly autoStopTime: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idleDeleteTtl`<sup>Required</sup> <a name="idleDeleteTtl" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleDeleteTtl"></a>
 
 ```typescript
 public readonly idleDeleteTtl: string;
+```
+
+- *Type:* string
+
+---
+
+##### `idleStopTtl`<sup>Required</sup> <a name="idleStopTtl" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.property.idleStopTtl"></a>
+
+```typescript
+public readonly idleStopTtl: string;
 ```
 
 - *Type:* string
@@ -11422,6 +11996,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetBootDiskProvisionedIops">resetBootDiskProvisionedIops</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput">resetBootDiskProvisionedThroughput</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetBootDiskSizeGb">resetBootDiskSizeGb</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetBootDiskType">resetBootDiskType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetLocalSsdInterface">resetLocalSsdInterface</a></code> | *No description.* |
@@ -11579,6 +12155,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetBootDiskProvisionedIops` <a name="resetBootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetBootDiskProvisionedIops"></a>
+
+```typescript
+public resetBootDiskProvisionedIops(): void
+```
+
+##### `resetBootDiskProvisionedThroughput` <a name="resetBootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput"></a>
+
+```typescript
+public resetBootDiskProvisionedThroughput(): void
+```
+
 ##### `resetBootDiskSizeGb` <a name="resetBootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.resetBootDiskSizeGb"></a>
 
 ```typescript
@@ -11610,10 +12198,14 @@ public resetNumLocalSsds(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput">bootDiskProvisionedIopsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput">bootDiskProvisionedThroughputInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskSizeGbInput">bootDiskSizeGbInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskTypeInput">bootDiskTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.localSsdInterfaceInput">localSsdInterfaceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.numLocalSsdsInput">numLocalSsdsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | *No description.* |
@@ -11643,6 +12235,26 @@ public readonly fqn: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `bootDiskProvisionedIopsInput`<sup>Optional</sup> <a name="bootDiskProvisionedIopsInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedIopsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughputInput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughputInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughputInput: number;
+```
+
+- *Type:* number
 
 ---
 
@@ -11680,6 +12292,26 @@ public readonly localSsdInterfaceInput: string;
 
 ```typescript
 public readonly numLocalSsdsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Required</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Required</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
 ```
 
 - *Type:* number
@@ -11737,6 +12369,1231 @@ public readonly internalValue: GoogleDataprocClusterClusterConfigMasterConfigDis
 ---
 
 
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.get"></a>
+
+```typescript
+public get(index: number): GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+---
+
+
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetMachineTypes">resetMachineTypes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetRank">resetRank</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetMachineTypes` <a name="resetMachineTypes" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetMachineTypes"></a>
+
+```typescript
+public resetMachineTypes(): void
+```
+
+##### `resetRank` <a name="resetRank" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetRank"></a>
+
+```typescript
+public resetRank(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypesInput">machineTypesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rankInput">rankInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypes">machineTypes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rank">rank</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `machineTypesInput`<sup>Optional</sup> <a name="machineTypesInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypesInput"></a>
+
+```typescript
+public readonly machineTypesInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `rankInput`<sup>Optional</sup> <a name="rankInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rankInput"></a>
+
+```typescript
+public readonly rankInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `machineTypes`<sup>Required</sup> <a name="machineTypes" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypes"></a>
+
+```typescript
+public readonly machineTypes: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `rank`<sup>Required</sup> <a name="rank" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rank"></a>
+
+```typescript
+public readonly rank: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>
+
+---
+
+
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.get"></a>
+
+```typescript
+public get(index: number): GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.machineType">machineType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.vmCount">vmCount</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `machineType`<sup>Required</sup> <a name="machineType" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.machineType"></a>
+
+```typescript
+public readonly machineType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `vmCount`<sup>Required</sup> <a name="vmCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.vmCount"></a>
+
+```typescript
+public readonly vmCount: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults</a>
+
+---
+
+
+### GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference <a name="GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.putInstanceSelectionList">putInstanceSelectionList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.resetInstanceSelectionList">resetInstanceSelectionList</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putInstanceSelectionList` <a name="putInstanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.putInstanceSelectionList"></a>
+
+```typescript
+public putInstanceSelectionList(value: IResolvable | GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.putInstanceSelectionList.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+---
+
+##### `resetInstanceSelectionList` <a name="resetInstanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.resetInstanceSelectionList"></a>
+
+```typescript
+public resetInstanceSelectionList(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionList">instanceSelectionList</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionResults">instanceSelectionResults</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionListInput">instanceSelectionListInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `instanceSelectionList`<sup>Required</sup> <a name="instanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionList"></a>
+
+```typescript
+public readonly instanceSelectionList: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList</a>
+
+---
+
+##### `instanceSelectionResults`<sup>Required</sup> <a name="instanceSelectionResults" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionResults"></a>
+
+```typescript
+public readonly instanceSelectionResults: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList</a>
+
+---
+
+##### `instanceSelectionListInput`<sup>Optional</sup> <a name="instanceSelectionListInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionListInput"></a>
+
+```typescript
+public readonly instanceSelectionListInput: IResolvable | GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy</a>
+
+---
+
+
 ### GoogleDataprocClusterClusterConfigMasterConfigOutputReference <a name="GoogleDataprocClusterClusterConfigMasterConfigOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.Initializer"></a>
@@ -11789,9 +13646,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.putAccelerators">putAccelerators</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.putDiskConfig">putDiskConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.putInstanceFlexibilityPolicy">putInstanceFlexibilityPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetAccelerators">resetAccelerators</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetDiskConfig">resetDiskConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetImageUri">resetImageUri</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetInstanceFlexibilityPolicy">resetInstanceFlexibilityPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetMachineType">resetMachineType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetMinCpuPlatform">resetMinCpuPlatform</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetNumInstances">resetNumInstances</a></code> | *No description.* |
@@ -11972,6 +13831,18 @@ public putDiskConfig(value: GoogleDataprocClusterClusterConfigMasterConfigDiskCo
 
 ---
 
+##### `putInstanceFlexibilityPolicy` <a name="putInstanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.putInstanceFlexibilityPolicy"></a>
+
+```typescript
+public putInstanceFlexibilityPolicy(value: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.putInstanceFlexibilityPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy</a>
+
+---
+
 ##### `resetAccelerators` <a name="resetAccelerators" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetAccelerators"></a>
 
 ```typescript
@@ -11988,6 +13859,12 @@ public resetDiskConfig(): void
 
 ```typescript
 public resetImageUri(): void
+```
+
+##### `resetInstanceFlexibilityPolicy` <a name="resetInstanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetInstanceFlexibilityPolicy"></a>
+
+```typescript
+public resetInstanceFlexibilityPolicy(): void
 ```
 
 ##### `resetMachineType` <a name="resetMachineType" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.resetMachineType"></a>
@@ -12017,10 +13894,12 @@ public resetNumInstances(): void
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.accelerators">accelerators</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigAcceleratorsList">GoogleDataprocClusterClusterConfigMasterConfigAcceleratorsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.diskConfig">diskConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference">GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.instanceFlexibilityPolicy">instanceFlexibilityPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.instanceNames">instanceNames</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.acceleratorsInput">acceleratorsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigAccelerators">GoogleDataprocClusterClusterConfigMasterConfigAccelerators</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.diskConfigInput">diskConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig">GoogleDataprocClusterClusterConfigMasterConfigDiskConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.imageUriInput">imageUriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.instanceFlexibilityPolicyInput">instanceFlexibilityPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.machineTypeInput">machineTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.minCpuPlatformInput">minCpuPlatformInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.numInstancesInput">numInstancesInput</a></code> | <code>number</code> | *No description.* |
@@ -12076,6 +13955,16 @@ public readonly diskConfig: GoogleDataprocClusterClusterConfigMasterConfigDiskCo
 
 ---
 
+##### `instanceFlexibilityPolicy`<sup>Required</sup> <a name="instanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.instanceFlexibilityPolicy"></a>
+
+```typescript
+public readonly instanceFlexibilityPolicy: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference</a>
+
+---
+
 ##### `instanceNames`<sup>Required</sup> <a name="instanceNames" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.instanceNames"></a>
 
 ```typescript
@@ -12113,6 +14002,16 @@ public readonly imageUriInput: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `instanceFlexibilityPolicyInput`<sup>Optional</sup> <a name="instanceFlexibilityPolicyInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.property.instanceFlexibilityPolicyInput"></a>
+
+```typescript
+public readonly instanceFlexibilityPolicyInput: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy</a>
 
 ---
 
@@ -12535,9 +14434,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetAutoscalingConfig">resetAutoscalingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetAuxiliaryNodeGroups">resetAuxiliaryNodeGroups</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetClusterTier">resetClusterTier</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetClusterType">resetClusterType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetDataprocMetricConfig">resetDataprocMetricConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetEncryptionConfig">resetEncryptionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetEndpointConfig">resetEndpointConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetEngine">resetEngine</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetGceClusterConfig">resetGceClusterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetInitializationAction">resetInitializationAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetLifecycleConfig">resetLifecycleConfig</a></code> | *No description.* |
@@ -12888,6 +14789,12 @@ public resetAuxiliaryNodeGroups(): void
 public resetClusterTier(): void
 ```
 
+##### `resetClusterType` <a name="resetClusterType" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetClusterType"></a>
+
+```typescript
+public resetClusterType(): void
+```
+
 ##### `resetDataprocMetricConfig` <a name="resetDataprocMetricConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetDataprocMetricConfig"></a>
 
 ```typescript
@@ -12904,6 +14811,12 @@ public resetEncryptionConfig(): void
 
 ```typescript
 public resetEndpointConfig(): void
+```
+
+##### `resetEngine` <a name="resetEngine" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetEngine"></a>
+
+```typescript
+public resetEngine(): void
 ```
 
 ##### `resetGceClusterConfig` <a name="resetGceClusterConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetGceClusterConfig"></a>
@@ -12997,9 +14910,11 @@ public resetWorkerConfig(): void
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.autoscalingConfigInput">autoscalingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAutoscalingConfig">GoogleDataprocClusterClusterConfigAutoscalingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.auxiliaryNodeGroupsInput">auxiliaryNodeGroupsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups">GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterTierInput">clusterTierInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterTypeInput">clusterTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.dataprocMetricConfigInput">dataprocMetricConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfig">GoogleDataprocClusterClusterConfigDataprocMetricConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.encryptionConfigInput">encryptionConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEncryptionConfig">GoogleDataprocClusterClusterConfigEncryptionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.endpointConfigInput">endpointConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEndpointConfig">GoogleDataprocClusterClusterConfigEndpointConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.engineInput">engineInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.gceClusterConfigInput">gceClusterConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig">GoogleDataprocClusterClusterConfigGceClusterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.initializationActionInput">initializationActionInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigInitializationAction">GoogleDataprocClusterClusterConfigInitializationAction</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.lifecycleConfigInput">lifecycleConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig">GoogleDataprocClusterClusterConfigLifecycleConfig</a></code> | *No description.* |
@@ -13012,6 +14927,8 @@ public resetWorkerConfig(): void
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.tempBucketInput">tempBucketInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.workerConfigInput">workerConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig">GoogleDataprocClusterClusterConfigWorkerConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterTier">clusterTier</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterType">clusterType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.engine">engine</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.stagingBucket">stagingBucket</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.tempBucket">tempBucket</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig">GoogleDataprocClusterClusterConfig</a></code> | *No description.* |
@@ -13222,6 +15139,16 @@ public readonly clusterTierInput: string;
 
 ---
 
+##### `clusterTypeInput`<sup>Optional</sup> <a name="clusterTypeInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterTypeInput"></a>
+
+```typescript
+public readonly clusterTypeInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `dataprocMetricConfigInput`<sup>Optional</sup> <a name="dataprocMetricConfigInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.dataprocMetricConfigInput"></a>
 
 ```typescript
@@ -13249,6 +15176,16 @@ public readonly endpointConfigInput: GoogleDataprocClusterClusterConfigEndpointC
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEndpointConfig">GoogleDataprocClusterClusterConfigEndpointConfig</a>
+
+---
+
+##### `engineInput`<sup>Optional</sup> <a name="engineInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.engineInput"></a>
+
+```typescript
+public readonly engineInput: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -13372,6 +15309,26 @@ public readonly clusterTier: string;
 
 ---
 
+##### `clusterType`<sup>Required</sup> <a name="clusterType" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterType"></a>
+
+```typescript
+public readonly clusterType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `engine`<sup>Required</sup> <a name="engine" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.engine"></a>
+
+```typescript
+public readonly engine: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `stagingBucket`<sup>Required</sup> <a name="stagingBucket" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.stagingBucket"></a>
 
 ```typescript
@@ -13453,6 +15410,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedIops">resetBootDiskProvisionedIops</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput">resetBootDiskProvisionedThroughput</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetBootDiskSizeGb">resetBootDiskSizeGb</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetBootDiskType">resetBootDiskType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetLocalSsdInterface">resetLocalSsdInterface</a></code> | *No description.* |
@@ -13610,6 +15569,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetBootDiskProvisionedIops` <a name="resetBootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedIops"></a>
+
+```typescript
+public resetBootDiskProvisionedIops(): void
+```
+
+##### `resetBootDiskProvisionedThroughput` <a name="resetBootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput"></a>
+
+```typescript
+public resetBootDiskProvisionedThroughput(): void
+```
+
 ##### `resetBootDiskSizeGb` <a name="resetBootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.resetBootDiskSizeGb"></a>
 
 ```typescript
@@ -13641,10 +15612,14 @@ public resetNumLocalSsds(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput">bootDiskProvisionedIopsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput">bootDiskProvisionedThroughputInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskSizeGbInput">bootDiskSizeGbInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskTypeInput">bootDiskTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.localSsdInterfaceInput">localSsdInterfaceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.numLocalSsdsInput">numLocalSsdsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | *No description.* |
@@ -13674,6 +15649,26 @@ public readonly fqn: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `bootDiskProvisionedIopsInput`<sup>Optional</sup> <a name="bootDiskProvisionedIopsInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedIopsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughputInput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughputInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughputInput: number;
+```
+
+- *Type:* number
 
 ---
 
@@ -13711,6 +15706,26 @@ public readonly localSsdInterfaceInput: string;
 
 ```typescript
 public readonly numLocalSsdsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Required</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Required</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
 ```
 
 - *Type:* number
@@ -17886,6 +19901,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedIops">resetBootDiskProvisionedIops</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput">resetBootDiskProvisionedThroughput</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetBootDiskSizeGb">resetBootDiskSizeGb</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetBootDiskType">resetBootDiskType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetLocalSsdInterface">resetLocalSsdInterface</a></code> | *No description.* |
@@ -18043,6 +20060,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetBootDiskProvisionedIops` <a name="resetBootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedIops"></a>
+
+```typescript
+public resetBootDiskProvisionedIops(): void
+```
+
+##### `resetBootDiskProvisionedThroughput` <a name="resetBootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetBootDiskProvisionedThroughput"></a>
+
+```typescript
+public resetBootDiskProvisionedThroughput(): void
+```
+
 ##### `resetBootDiskSizeGb` <a name="resetBootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.resetBootDiskSizeGb"></a>
 
 ```typescript
@@ -18074,10 +20103,14 @@ public resetNumLocalSsds(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput">bootDiskProvisionedIopsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput">bootDiskProvisionedThroughputInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskSizeGbInput">bootDiskSizeGbInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskTypeInput">bootDiskTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.localSsdInterfaceInput">localSsdInterfaceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.numLocalSsdsInput">numLocalSsdsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIops">bootDiskProvisionedIops</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput">bootDiskProvisionedThroughput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskSizeGb">bootDiskSizeGb</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskType">bootDiskType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.localSsdInterface">localSsdInterface</a></code> | <code>string</code> | *No description.* |
@@ -18107,6 +20140,26 @@ public readonly fqn: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `bootDiskProvisionedIopsInput`<sup>Optional</sup> <a name="bootDiskProvisionedIopsInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIopsInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedIopsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughputInput`<sup>Optional</sup> <a name="bootDiskProvisionedThroughputInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughputInput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughputInput: number;
+```
+
+- *Type:* number
 
 ---
 
@@ -18144,6 +20197,26 @@ public readonly localSsdInterfaceInput: string;
 
 ```typescript
 public readonly numLocalSsdsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedIops`<sup>Required</sup> <a name="bootDiskProvisionedIops" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedIops"></a>
+
+```typescript
+public readonly bootDiskProvisionedIops: number;
+```
+
+- *Type:* number
+
+---
+
+##### `bootDiskProvisionedThroughput`<sup>Required</sup> <a name="bootDiskProvisionedThroughput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.property.bootDiskProvisionedThroughput"></a>
+
+```typescript
+public readonly bootDiskProvisionedThroughput: number;
 ```
 
 - *Type:* number
@@ -18201,6 +20274,1231 @@ public readonly internalValue: GoogleDataprocClusterClusterConfigWorkerConfigDis
 ---
 
 
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.get"></a>
+
+```typescript
+public get(index: number): GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+---
+
+
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetMachineTypes">resetMachineTypes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetRank">resetRank</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetMachineTypes` <a name="resetMachineTypes" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetMachineTypes"></a>
+
+```typescript
+public resetMachineTypes(): void
+```
+
+##### `resetRank` <a name="resetRank" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.resetRank"></a>
+
+```typescript
+public resetRank(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypesInput">machineTypesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rankInput">rankInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypes">machineTypes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rank">rank</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `machineTypesInput`<sup>Optional</sup> <a name="machineTypesInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypesInput"></a>
+
+```typescript
+public readonly machineTypesInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `rankInput`<sup>Optional</sup> <a name="rankInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rankInput"></a>
+
+```typescript
+public readonly rankInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `machineTypes`<sup>Required</sup> <a name="machineTypes" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.machineTypes"></a>
+
+```typescript
+public readonly machineTypes: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `rank`<sup>Required</sup> <a name="rank" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.rank"></a>
+
+```typescript
+public readonly rank: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>
+
+---
+
+
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.get"></a>
+
+```typescript
+public get(index: number): GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.machineType">machineType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.vmCount">vmCount</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `machineType`<sup>Required</sup> <a name="machineType" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.machineType"></a>
+
+```typescript
+public readonly machineType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `vmCount`<sup>Required</sup> <a name="vmCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.vmCount"></a>
+
+```typescript
+public readonly vmCount: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults</a>
+
+---
+
+
+### GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference <a name="GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleDataprocCluster } from '@cdktn/provider-google-beta'
+
+new googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.putInstanceSelectionList">putInstanceSelectionList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.resetInstanceSelectionList">resetInstanceSelectionList</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putInstanceSelectionList` <a name="putInstanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.putInstanceSelectionList"></a>
+
+```typescript
+public putInstanceSelectionList(value: IResolvable | GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.putInstanceSelectionList.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+---
+
+##### `resetInstanceSelectionList` <a name="resetInstanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.resetInstanceSelectionList"></a>
+
+```typescript
+public resetInstanceSelectionList(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionList">instanceSelectionList</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionResults">instanceSelectionResults</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionListInput">instanceSelectionListInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `instanceSelectionList`<sup>Required</sup> <a name="instanceSelectionList" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionList"></a>
+
+```typescript
+public readonly instanceSelectionList: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList</a>
+
+---
+
+##### `instanceSelectionResults`<sup>Required</sup> <a name="instanceSelectionResults" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionResults"></a>
+
+```typescript
+public readonly instanceSelectionResults: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList</a>
+
+---
+
+##### `instanceSelectionListInput`<sup>Optional</sup> <a name="instanceSelectionListInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.instanceSelectionListInput"></a>
+
+```typescript
+public readonly instanceSelectionListInput: IResolvable | GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct</a>[]
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy</a>
+
+---
+
+
 ### GoogleDataprocClusterClusterConfigWorkerConfigOutputReference <a name="GoogleDataprocClusterClusterConfigWorkerConfigOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.Initializer"></a>
@@ -18253,9 +21551,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.putAccelerators">putAccelerators</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.putDiskConfig">putDiskConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.putInstanceFlexibilityPolicy">putInstanceFlexibilityPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetAccelerators">resetAccelerators</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetDiskConfig">resetDiskConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetImageUri">resetImageUri</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetInstanceFlexibilityPolicy">resetInstanceFlexibilityPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetMachineType">resetMachineType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetMinCpuPlatform">resetMinCpuPlatform</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetMinNumInstances">resetMinNumInstances</a></code> | *No description.* |
@@ -18437,6 +21737,18 @@ public putDiskConfig(value: GoogleDataprocClusterClusterConfigWorkerConfigDiskCo
 
 ---
 
+##### `putInstanceFlexibilityPolicy` <a name="putInstanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.putInstanceFlexibilityPolicy"></a>
+
+```typescript
+public putInstanceFlexibilityPolicy(value: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.putInstanceFlexibilityPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy</a>
+
+---
+
 ##### `resetAccelerators` <a name="resetAccelerators" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetAccelerators"></a>
 
 ```typescript
@@ -18453,6 +21765,12 @@ public resetDiskConfig(): void
 
 ```typescript
 public resetImageUri(): void
+```
+
+##### `resetInstanceFlexibilityPolicy` <a name="resetInstanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetInstanceFlexibilityPolicy"></a>
+
+```typescript
+public resetInstanceFlexibilityPolicy(): void
 ```
 
 ##### `resetMachineType` <a name="resetMachineType" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.resetMachineType"></a>
@@ -18488,10 +21806,12 @@ public resetNumInstances(): void
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.accelerators">accelerators</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsList">GoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.diskConfig">diskConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference">GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.instanceFlexibilityPolicy">instanceFlexibilityPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.instanceNames">instanceNames</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.acceleratorsInput">acceleratorsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigAccelerators">GoogleDataprocClusterClusterConfigWorkerConfigAccelerators</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.diskConfigInput">diskConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig">GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.imageUriInput">imageUriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.instanceFlexibilityPolicyInput">instanceFlexibilityPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.machineTypeInput">machineTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.minCpuPlatformInput">minCpuPlatformInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.minNumInstancesInput">minNumInstancesInput</a></code> | <code>number</code> | *No description.* |
@@ -18549,6 +21869,16 @@ public readonly diskConfig: GoogleDataprocClusterClusterConfigWorkerConfigDiskCo
 
 ---
 
+##### `instanceFlexibilityPolicy`<sup>Required</sup> <a name="instanceFlexibilityPolicy" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.instanceFlexibilityPolicy"></a>
+
+```typescript
+public readonly instanceFlexibilityPolicy: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference</a>
+
+---
+
 ##### `instanceNames`<sup>Required</sup> <a name="instanceNames" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.instanceNames"></a>
 
 ```typescript
@@ -18586,6 +21916,16 @@ public readonly imageUriInput: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `instanceFlexibilityPolicyInput`<sup>Optional</sup> <a name="instanceFlexibilityPolicyInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.property.instanceFlexibilityPolicyInput"></a>
+
+```typescript
+public readonly instanceFlexibilityPolicyInput: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy">GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy</a>
 
 ---
 

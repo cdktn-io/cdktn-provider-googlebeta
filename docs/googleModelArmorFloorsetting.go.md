@@ -4,12 +4,12 @@
 
 ### GoogleModelArmorFloorsetting <a name="GoogleModelArmorFloorsetting" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsetting(scope Construct, id *string, config GoogleModelArmorFloorsettingConfig) GoogleModelArmorFloorsetting
 ```
@@ -77,10 +77,12 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putAiPlatformFloorSetting">PutAiPlatformFloorSetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putFilterConfig">PutFilterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putFloorSettingMetadata">PutFloorSettingMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putGoogleMcpServerFloorSetting">PutGoogleMcpServerFloorSetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetAiPlatformFloorSetting">ResetAiPlatformFloorSetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetEnableFloorSettingEnforcement">ResetEnableFloorSettingEnforcement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetFloorSettingMetadata">ResetFloorSettingMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetGoogleMcpServerFloorSetting">ResetGoogleMcpServerFloorSetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetIntegratedServices">ResetIntegratedServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
@@ -432,6 +434,18 @@ func PutFloorSettingMetadata(value GoogleModelArmorFloorsettingFloorSettingMetad
 
 ---
 
+##### `PutGoogleMcpServerFloorSetting` <a name="PutGoogleMcpServerFloorSetting" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putGoogleMcpServerFloorSetting"></a>
+
+```go
+func PutGoogleMcpServerFloorSetting(value GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putGoogleMcpServerFloorSetting.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting">GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting</a>
+
+---
+
 ##### `PutTimeouts` <a name="PutTimeouts" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.putTimeouts"></a>
 
 ```go
@@ -460,6 +474,12 @@ func ResetEnableFloorSettingEnforcement()
 
 ```go
 func ResetFloorSettingMetadata()
+```
+
+##### `ResetGoogleMcpServerFloorSetting` <a name="ResetGoogleMcpServerFloorSetting" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetGoogleMcpServerFloorSetting"></a>
+
+```go
+func ResetGoogleMcpServerFloorSetting()
 ```
 
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.resetId"></a>
@@ -494,7 +514,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.GoogleModelArmorFloorsetting_IsConstruct(x interface{}) *bool
 ```
@@ -526,7 +546,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.GoogleModelArmorFloorsetting_IsTerraformElement(x interface{}) *bool
 ```
@@ -540,7 +560,7 @@ googlemodelarmorfloorsetting.GoogleModelArmorFloorsetting_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.GoogleModelArmorFloorsetting_IsTerraformResource(x interface{}) *bool
 ```
@@ -554,7 +574,7 @@ googlemodelarmorfloorsetting.GoogleModelArmorFloorsetting_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.GoogleModelArmorFloorsetting_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -583,7 +603,7 @@ The construct id used in the generated config for the GoogleModelArmorFloorsetti
 
 The id of the existing GoogleModelArmorFloorsetting that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -617,6 +637,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.createTime">CreateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.filterConfig">FilterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigOutputReference">GoogleModelArmorFloorsettingFilterConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.floorSettingMetadata">FloorSettingMetadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference">GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.googleMcpServerFloorSetting">GoogleMcpServerFloorSetting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference">GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.name">Name</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeoutsOutputReference">GoogleModelArmorFloorsettingTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.updateTime">UpdateTime</a></code> | <code>*string</code> | *No description.* |
@@ -624,6 +645,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.enableFloorSettingEnforcementInput">EnableFloorSettingEnforcementInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.filterConfigInput">FilterConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfig">GoogleModelArmorFloorsettingFilterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.floorSettingMetadataInput">FloorSettingMetadataInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadata">GoogleModelArmorFloorsettingFloorSettingMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.googleMcpServerFloorSettingInput">GoogleMcpServerFloorSettingInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting">GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.integratedServicesInput">IntegratedServicesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
@@ -819,6 +841,16 @@ func FloorSettingMetadata() GoogleModelArmorFloorsettingFloorSettingMetadataOutp
 
 ---
 
+##### `GoogleMcpServerFloorSetting`<sup>Required</sup> <a name="GoogleMcpServerFloorSetting" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.googleMcpServerFloorSetting"></a>
+
+```go
+func GoogleMcpServerFloorSetting() GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference">GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference</a>
+
+---
+
 ##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.name"></a>
 
 ```go
@@ -886,6 +918,16 @@ func FloorSettingMetadataInput() GoogleModelArmorFloorsettingFloorSettingMetadat
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadata">GoogleModelArmorFloorsettingFloorSettingMetadata</a>
+
+---
+
+##### `GoogleMcpServerFloorSettingInput`<sup>Optional</sup> <a name="GoogleMcpServerFloorSettingInput" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsetting.property.googleMcpServerFloorSettingInput"></a>
+
+```go
+func GoogleMcpServerFloorSettingInput() GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting">GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting</a>
 
 ---
 
@@ -1014,7 +1056,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingAiPlatformFloorSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingAiPlatformFloorSetting {
 	EnableCloudLogging: interface{},
@@ -1043,7 +1085,7 @@ EnableCloudLogging interface{}
 
 If true, log Model Armor filter results to Cloud Logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#enable_cloud_logging GoogleModelArmorFloorsetting#enable_cloud_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#enable_cloud_logging GoogleModelArmorFloorsetting#enable_cloud_logging}
 
 ---
 
@@ -1059,7 +1101,7 @@ If true, Model Armor filters will be run in inspect and block mode.
 
 Requests that trip Model Armor filters will be blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#inspect_and_block GoogleModelArmorFloorsetting#inspect_and_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#inspect_and_block GoogleModelArmorFloorsetting#inspect_and_block}
 
 ---
 
@@ -1073,7 +1115,7 @@ InspectOnly interface{}
 
 If true, Model Armor filters will be run in inspect only mode. No action will be taken on the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#inspect_only GoogleModelArmorFloorsetting#inspect_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#inspect_only GoogleModelArmorFloorsetting#inspect_only}
 
 ---
 
@@ -1082,7 +1124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingConfig {
 	Connection: interface{},
@@ -1092,15 +1134,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemo
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	FilterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfig,
+	FilterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfig,
 	Location: *string,
 	Parent: *string,
-	AiPlatformFloorSetting: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingAiPlatformFloorSetting,
+	AiPlatformFloorSetting: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingAiPlatformFloorSetting,
 	EnableFloorSettingEnforcement: interface{},
-	FloorSettingMetadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadata,
+	FloorSettingMetadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadata,
+	GoogleMcpServerFloorSetting: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting,
 	Id: *string,
 	IntegratedServices: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts,
 }
 ```
 
@@ -1121,7 +1164,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemo
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.aiPlatformFloorSetting">AiPlatformFloorSetting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingAiPlatformFloorSetting">GoogleModelArmorFloorsettingAiPlatformFloorSetting</a></code> | ai_platform_floor_setting block. |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.enableFloorSettingEnforcement">EnableFloorSettingEnforcement</a></code> | <code>interface{}</code> | Floor Settings enforcement status. |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.floorSettingMetadata">FloorSettingMetadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadata">GoogleModelArmorFloorsettingFloorSettingMetadata</a></code> | floor_setting_metadata block. |
-| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#id GoogleModelArmorFloorsetting#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.googleMcpServerFloorSetting">GoogleMcpServerFloorSetting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting">GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting</a></code> | google_mcp_server_floor_setting block. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#id GoogleModelArmorFloorsetting#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.integratedServices">IntegratedServices</a></code> | <code>*[]*string</code> | List of integrated services for which the floor setting is applicable. |
 | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts">GoogleModelArmorFloorsettingTimeouts</a></code> | timeouts block. |
 
@@ -1207,7 +1251,7 @@ FilterConfig GoogleModelArmorFloorsettingFilterConfig
 
 filter_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#filter_config GoogleModelArmorFloorsetting#filter_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#filter_config GoogleModelArmorFloorsetting#filter_config}
 
 ---
 
@@ -1221,7 +1265,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#location GoogleModelArmorFloorsetting#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#location GoogleModelArmorFloorsetting#location}
 
 ---
 
@@ -1239,7 +1283,7 @@ Will be any one of these:.
 * 'folders/{folder}'
 * 'organizations/{organizationId}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#parent GoogleModelArmorFloorsetting#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#parent GoogleModelArmorFloorsetting#parent}
 
 ---
 
@@ -1253,7 +1297,7 @@ AiPlatformFloorSetting GoogleModelArmorFloorsettingAiPlatformFloorSetting
 
 ai_platform_floor_setting block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#ai_platform_floor_setting GoogleModelArmorFloorsetting#ai_platform_floor_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#ai_platform_floor_setting GoogleModelArmorFloorsetting#ai_platform_floor_setting}
 
 ---
 
@@ -1267,7 +1311,7 @@ EnableFloorSettingEnforcement interface{}
 
 Floor Settings enforcement status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#enable_floor_setting_enforcement GoogleModelArmorFloorsetting#enable_floor_setting_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#enable_floor_setting_enforcement GoogleModelArmorFloorsetting#enable_floor_setting_enforcement}
 
 ---
 
@@ -1281,7 +1325,21 @@ FloorSettingMetadata GoogleModelArmorFloorsettingFloorSettingMetadata
 
 floor_setting_metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#floor_setting_metadata GoogleModelArmorFloorsetting#floor_setting_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#floor_setting_metadata GoogleModelArmorFloorsetting#floor_setting_metadata}
+
+---
+
+##### `GoogleMcpServerFloorSetting`<sup>Optional</sup> <a name="GoogleMcpServerFloorSetting" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingConfig.property.googleMcpServerFloorSetting"></a>
+
+```go
+GoogleMcpServerFloorSetting GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting">GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting</a>
+
+google_mcp_server_floor_setting block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#google_mcp_server_floor_setting GoogleModelArmorFloorsetting#google_mcp_server_floor_setting}
 
 ---
 
@@ -1293,7 +1351,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#id GoogleModelArmorFloorsetting#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#id GoogleModelArmorFloorsetting#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1310,7 +1368,7 @@ IntegratedServices *[]*string
 
 List of integrated services for which the floor setting is applicable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#integrated_services GoogleModelArmorFloorsetting#integrated_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#integrated_services GoogleModelArmorFloorsetting#integrated_services}
 
 ---
 
@@ -1324,7 +1382,7 @@ Timeouts GoogleModelArmorFloorsettingTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#timeouts GoogleModelArmorFloorsetting#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#timeouts GoogleModelArmorFloorsetting#timeouts}
 
 ---
 
@@ -1333,13 +1391,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfig {
-	MaliciousUriFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterSettings,
-	PiAndJailbreakFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettings,
-	RaiSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettings,
-	SdpSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettings,
+	MaliciousUriFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterSettings,
+	PiAndJailbreakFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettings,
+	RaiSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettings,
+	SdpSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettings,
 }
 ```
 
@@ -1364,7 +1422,7 @@ MaliciousUriFilterSettings GoogleModelArmorFloorsettingFilterConfigMaliciousUriF
 
 malicious_uri_filter_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#malicious_uri_filter_settings GoogleModelArmorFloorsetting#malicious_uri_filter_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#malicious_uri_filter_settings GoogleModelArmorFloorsetting#malicious_uri_filter_settings}
 
 ---
 
@@ -1378,7 +1436,7 @@ PiAndJailbreakFilterSettings GoogleModelArmorFloorsettingFilterConfigPiAndJailbr
 
 pi_and_jailbreak_filter_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#pi_and_jailbreak_filter_settings GoogleModelArmorFloorsetting#pi_and_jailbreak_filter_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#pi_and_jailbreak_filter_settings GoogleModelArmorFloorsetting#pi_and_jailbreak_filter_settings}
 
 ---
 
@@ -1392,7 +1450,7 @@ RaiSettings GoogleModelArmorFloorsettingFilterConfigRaiSettings
 
 rai_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#rai_settings GoogleModelArmorFloorsetting#rai_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#rai_settings GoogleModelArmorFloorsetting#rai_settings}
 
 ---
 
@@ -1406,7 +1464,7 @@ SdpSettings GoogleModelArmorFloorsettingFilterConfigSdpSettings
 
 sdp_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#sdp_settings GoogleModelArmorFloorsetting#sdp_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#sdp_settings GoogleModelArmorFloorsetting#sdp_settings}
 
 ---
 
@@ -1415,7 +1473,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterSettings {
 	FilterEnforcement: *string,
@@ -1440,7 +1498,7 @@ FilterEnforcement *string
 
 Tells whether the Malicious URI filter is enabled or disabled. Possible values: ENABLED DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#filter_enforcement GoogleModelArmorFloorsetting#filter_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#filter_enforcement GoogleModelArmorFloorsetting#filter_enforcement}
 
 ---
 
@@ -1449,7 +1507,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettings {
 	ConfidenceLevel: *string,
@@ -1476,7 +1534,7 @@ ConfidenceLevel *string
 
 Possible values: LOW_AND_ABOVE MEDIUM_AND_ABOVE HIGH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#confidence_level GoogleModelArmorFloorsetting#confidence_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#confidence_level GoogleModelArmorFloorsetting#confidence_level}
 
 ---
 
@@ -1490,7 +1548,7 @@ FilterEnforcement *string
 
 Tells whether Prompt injection and Jailbreak filter is enabled or disabled. Possible values: ENABLED DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#filter_enforcement GoogleModelArmorFloorsetting#filter_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#filter_enforcement GoogleModelArmorFloorsetting#filter_enforcement}
 
 ---
 
@@ -1499,7 +1557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettings {
 	RaiFilters: interface{},
@@ -1524,7 +1582,7 @@ RaiFilters interface{}
 
 rai_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#rai_filters GoogleModelArmorFloorsetting#rai_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#rai_filters GoogleModelArmorFloorsetting#rai_filters}
 
 ---
 
@@ -1533,7 +1591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFilters {
 	FilterType: *string,
@@ -1560,7 +1618,7 @@ FilterType *string
 
 Possible values: SEXUALLY_EXPLICIT HATE_SPEECH HARASSMENT DANGEROUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#filter_type GoogleModelArmorFloorsetting#filter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#filter_type GoogleModelArmorFloorsetting#filter_type}
 
 ---
 
@@ -1574,7 +1632,7 @@ ConfidenceLevel *string
 
 Possible values: LOW_AND_ABOVE MEDIUM_AND_ABOVE HIGH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#confidence_level GoogleModelArmorFloorsetting#confidence_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#confidence_level GoogleModelArmorFloorsetting#confidence_level}
 
 ---
 
@@ -1583,11 +1641,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettings {
-	AdvancedConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfig,
-	BasicConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfig,
+	AdvancedConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfig,
+	BasicConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfig,
 }
 ```
 
@@ -1610,7 +1668,7 @@ AdvancedConfig GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfig
 
 advanced_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#advanced_config GoogleModelArmorFloorsetting#advanced_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#advanced_config GoogleModelArmorFloorsetting#advanced_config}
 
 ---
 
@@ -1624,7 +1682,7 @@ BasicConfig GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfig
 
 basic_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#basic_config GoogleModelArmorFloorsetting#basic_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#basic_config GoogleModelArmorFloorsetting#basic_config}
 
 ---
 
@@ -1633,7 +1691,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfig {
 	DeidentifyTemplate: *string,
@@ -1669,7 +1727,7 @@ in inspect template.
 e.g.
 'projects/{project}/locations/{location}/deidentifyTemplates/{deidentify_template}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#deidentify_template GoogleModelArmorFloorsetting#deidentify_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#deidentify_template GoogleModelArmorFloorsetting#deidentify_template}
 
 ---
 
@@ -1691,7 +1749,7 @@ inspection will be returned as SdpFinding in SdpInsepctionResult.
 e.g:-
 'projects/{project}/locations/{location}/inspectTemplates/{inspect_template}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#inspect_template GoogleModelArmorFloorsetting#inspect_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#inspect_template GoogleModelArmorFloorsetting#inspect_template}
 
 ---
 
@@ -1700,7 +1758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfig {
 	FilterEnforcement: *string,
@@ -1725,7 +1783,7 @@ FilterEnforcement *string
 
 Tells whether the Sensitive Data Protection basic config is enabled or disabled. Possible values: ENABLED DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#filter_enforcement GoogleModelArmorFloorsetting#filter_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#filter_enforcement GoogleModelArmorFloorsetting#filter_enforcement}
 
 ---
 
@@ -1734,10 +1792,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadata {
-	MultiLanguageDetection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetection,
+	MultiLanguageDetection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetection,
 }
 ```
 
@@ -1759,7 +1817,7 @@ MultiLanguageDetection GoogleModelArmorFloorsettingFloorSettingMetadataMultiLang
 
 multi_language_detection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#multi_language_detection GoogleModelArmorFloorsetting#multi_language_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#multi_language_detection GoogleModelArmorFloorsetting#multi_language_detection}
 
 ---
 
@@ -1768,7 +1826,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetection {
 	EnableMultiLanguageDetection: interface{},
@@ -1793,7 +1851,75 @@ EnableMultiLanguageDetection interface{}
 
 If true, multi language detection will be enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#enable_multi_language_detection GoogleModelArmorFloorsetting#enable_multi_language_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#enable_multi_language_detection GoogleModelArmorFloorsetting#enable_multi_language_detection}
+
+---
+
+### GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting <a name="GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
+
+&googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting {
+	EnableCloudLogging: interface{},
+	InspectAndBlock: interface{},
+	InspectOnly: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting.property.enableCloudLogging">EnableCloudLogging</a></code> | <code>interface{}</code> | If true, log Model Armor filter results to Cloud Logging. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting.property.inspectAndBlock">InspectAndBlock</a></code> | <code>interface{}</code> | If true, Model Armor filters will be run in inspect and block mode. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting.property.inspectOnly">InspectOnly</a></code> | <code>interface{}</code> | If true, Model Armor filters will be run in inspect only mode. No action will be taken on the request. |
+
+---
+
+##### `EnableCloudLogging`<sup>Optional</sup> <a name="EnableCloudLogging" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting.property.enableCloudLogging"></a>
+
+```go
+EnableCloudLogging interface{}
+```
+
+- *Type:* interface{}
+
+If true, log Model Armor filter results to Cloud Logging.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#enable_cloud_logging GoogleModelArmorFloorsetting#enable_cloud_logging}
+
+---
+
+##### `InspectAndBlock`<sup>Optional</sup> <a name="InspectAndBlock" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting.property.inspectAndBlock"></a>
+
+```go
+InspectAndBlock interface{}
+```
+
+- *Type:* interface{}
+
+If true, Model Armor filters will be run in inspect and block mode.
+
+Requests that trip Model Armor filters will be blocked.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#inspect_and_block GoogleModelArmorFloorsetting#inspect_and_block}
+
+---
+
+##### `InspectOnly`<sup>Optional</sup> <a name="InspectOnly" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting.property.inspectOnly"></a>
+
+```go
+InspectOnly interface{}
+```
+
+- *Type:* interface{}
+
+If true, Model Armor filters will be run in inspect only mode. No action will be taken on the request.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#inspect_only GoogleModelArmorFloorsetting#inspect_only}
 
 ---
 
@@ -1802,7 +1928,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 &googlemodelarmorfloorsetting.GoogleModelArmorFloorsettingTimeouts {
 	Create: *string,
@@ -1815,9 +1941,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#create GoogleModelArmorFloorsetting#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#delete GoogleModelArmorFloorsetting#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#update GoogleModelArmorFloorsetting#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#create GoogleModelArmorFloorsetting#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#delete GoogleModelArmorFloorsetting#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#update GoogleModelArmorFloorsetting#update}. |
 
 ---
 
@@ -1829,7 +1955,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#create GoogleModelArmorFloorsetting#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#create GoogleModelArmorFloorsetting#create}.
 
 ---
 
@@ -1841,7 +1967,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#delete GoogleModelArmorFloorsetting#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#delete GoogleModelArmorFloorsetting#delete}.
 
 ---
 
@@ -1853,7 +1979,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_model_armor_floorsetting#update GoogleModelArmorFloorsetting#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting#update GoogleModelArmorFloorsetting#update}.
 
 ---
 
@@ -1864,7 +1990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingAiPlatformFloorSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingAiPlatformFloorSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingAiPlatformFloorSettingOutputReference
 ```
@@ -2200,7 +2326,7 @@ func InternalValue() GoogleModelArmorFloorsettingAiPlatformFloorSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterSettingsOutputReference
 ```
@@ -2478,7 +2604,7 @@ func InternalValue() GoogleModelArmorFloorsettingFilterConfigMaliciousUriFilterS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFilterConfigOutputReference
 ```
@@ -2895,7 +3021,7 @@ func InternalValue() GoogleModelArmorFloorsettingFilterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference
 ```
@@ -3202,7 +3328,7 @@ func InternalValue() GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilte
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigRaiSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFilterConfigRaiSettingsOutputReference
 ```
@@ -3486,7 +3612,7 @@ func InternalValue() GoogleModelArmorFloorsettingFilterConfigRaiSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList
 ```
@@ -3646,7 +3772,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference
 ```
@@ -3964,7 +4090,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfigOutputReference
 ```
@@ -4271,7 +4397,7 @@ func InternalValue() GoogleModelArmorFloorsettingFilterConfigSdpSettingsAdvanced
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicConfigOutputReference
 ```
@@ -4549,7 +4675,7 @@ func InternalValue() GoogleModelArmorFloorsettingFilterConfigSdpSettingsBasicCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFilterConfigSdpSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFilterConfigSdpSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFilterConfigSdpSettingsOutputReference
 ```
@@ -4882,7 +5008,7 @@ func InternalValue() GoogleModelArmorFloorsettingFilterConfigSdpSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference
 ```
@@ -5153,7 +5279,7 @@ func InternalValue() GoogleModelArmorFloorsettingFloorSettingMetadataMultiLangua
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingFloorSettingMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference
 ```
@@ -5439,12 +5565,348 @@ func InternalValue() GoogleModelArmorFloorsettingFloorSettingMetadata
 ---
 
 
+### GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference <a name="GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
+
+googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resetEnableCloudLogging">ResetEnableCloudLogging</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resetInspectAndBlock">ResetInspectAndBlock</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resetInspectOnly">ResetInspectOnly</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEnableCloudLogging` <a name="ResetEnableCloudLogging" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resetEnableCloudLogging"></a>
+
+```go
+func ResetEnableCloudLogging()
+```
+
+##### `ResetInspectAndBlock` <a name="ResetInspectAndBlock" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resetInspectAndBlock"></a>
+
+```go
+func ResetInspectAndBlock()
+```
+
+##### `ResetInspectOnly` <a name="ResetInspectOnly" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.resetInspectOnly"></a>
+
+```go
+func ResetInspectOnly()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.enableCloudLoggingInput">EnableCloudLoggingInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectAndBlockInput">InspectAndBlockInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectOnlyInput">InspectOnlyInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.enableCloudLogging">EnableCloudLogging</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectAndBlock">InspectAndBlock</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectOnly">InspectOnly</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting">GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EnableCloudLoggingInput`<sup>Optional</sup> <a name="EnableCloudLoggingInput" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.enableCloudLoggingInput"></a>
+
+```go
+func EnableCloudLoggingInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InspectAndBlockInput`<sup>Optional</sup> <a name="InspectAndBlockInput" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectAndBlockInput"></a>
+
+```go
+func InspectAndBlockInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InspectOnlyInput`<sup>Optional</sup> <a name="InspectOnlyInput" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectOnlyInput"></a>
+
+```go
+func InspectOnlyInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `EnableCloudLogging`<sup>Required</sup> <a name="EnableCloudLogging" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.enableCloudLogging"></a>
+
+```go
+func EnableCloudLogging() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InspectAndBlock`<sup>Required</sup> <a name="InspectAndBlock" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectAndBlock"></a>
+
+```go
+func InspectAndBlock() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InspectOnly`<sup>Required</sup> <a name="InspectOnly" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.inspectOnly"></a>
+
+```go
+func InspectOnly() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSettingOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting">GoogleModelArmorFloorsettingGoogleMcpServerFloorSetting</a>
+
+---
+
+
 ### GoogleModelArmorFloorsettingTimeoutsOutputReference <a name="GoogleModelArmorFloorsettingTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeoutsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorFloorsetting.GoogleModelArmorFloorsettingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemodelarmorfloorsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmorfloorsetting"
 
 googlemodelarmorfloorsetting.NewGoogleModelArmorFloorsettingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorFloorsettingTimeoutsOutputReference
 ```

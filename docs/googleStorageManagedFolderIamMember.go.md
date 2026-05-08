@@ -4,12 +4,12 @@
 
 ### GoogleStorageManagedFolderIamMember <a name="GoogleStorageManagedFolderIamMember" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member google_storage_managed_folder_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member google_storage_managed_folder_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 googlestoragemanagedfolderiammember.NewGoogleStorageManagedFolderIamMember(scope Construct, id *string, config GoogleStorageManagedFolderIamMemberConfig) GoogleStorageManagedFolderIamMember
 ```
@@ -427,7 +427,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMember_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMember_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleStorageManagedFolder
 
 The id of the existing GoogleStorageManagedFolderIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -859,7 +859,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 &googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMemberCondition {
 	Expression: *string,
@@ -872,9 +872,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#expression GoogleStorageManagedFolderIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#title GoogleStorageManagedFolderIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#description GoogleStorageManagedFolderIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#expression GoogleStorageManagedFolderIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#title GoogleStorageManagedFolderIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#description GoogleStorageManagedFolderIamMember#description}. |
 
 ---
 
@@ -886,7 +886,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#expression GoogleStorageManagedFolderIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#expression GoogleStorageManagedFolderIamMember#expression}.
 
 ---
 
@@ -898,7 +898,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#title GoogleStorageManagedFolderIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#title GoogleStorageManagedFolderIamMember#title}.
 
 ---
 
@@ -910,7 +910,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#description GoogleStorageManagedFolderIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#description GoogleStorageManagedFolderIamMember#description}.
 
 ---
 
@@ -919,7 +919,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 &googlestoragemanagedfolderiammember.GoogleStorageManagedFolderIamMemberConfig {
 	Connection: interface{},
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 	ManagedFolder: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition,
 	Id: *string,
 }
 ```
@@ -949,12 +949,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#bucket GoogleStorageManagedFolderIamMember#bucket}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.managedFolder">ManagedFolder</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#managed_folder GoogleStorageManagedFolderIamMember#managed_folder}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#member GoogleStorageManagedFolderIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#role GoogleStorageManagedFolderIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#bucket GoogleStorageManagedFolderIamMember#bucket}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.managedFolder">ManagedFolder</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#managed_folder GoogleStorageManagedFolderIamMember#managed_folder}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#member GoogleStorageManagedFolderIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#role GoogleStorageManagedFolderIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberCondition">GoogleStorageManagedFolderIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#id GoogleStorageManagedFolderIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#id GoogleStorageManagedFolderIamMember#id}. |
 
 ---
 
@@ -1036,7 +1036,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#bucket GoogleStorageManagedFolderIamMember#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#bucket GoogleStorageManagedFolderIamMember#bucket}.
 
 ---
 
@@ -1048,7 +1048,7 @@ ManagedFolder *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#managed_folder GoogleStorageManagedFolderIamMember#managed_folder}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#managed_folder GoogleStorageManagedFolderIamMember#managed_folder}.
 
 ---
 
@@ -1060,7 +1060,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#member GoogleStorageManagedFolderIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#member GoogleStorageManagedFolderIamMember#member}.
 
 ---
 
@@ -1072,7 +1072,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#role GoogleStorageManagedFolderIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#role GoogleStorageManagedFolderIamMember#role}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Condition GoogleStorageManagedFolderIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#condition GoogleStorageManagedFolderIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#condition GoogleStorageManagedFolderIamMember#condition}
 
 ---
 
@@ -1098,7 +1098,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member#id GoogleStorageManagedFolderIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_managed_folder_iam_member#id GoogleStorageManagedFolderIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1112,7 +1112,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragemanagedfolderiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragemanagedfolderiammember"
 
 googlestoragemanagedfolderiammember.NewGoogleStorageManagedFolderIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageManagedFolderIamMemberConditionOutputReference
 ```

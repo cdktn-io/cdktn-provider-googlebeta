@@ -4,12 +4,12 @@
 
 ### GoogleDataformRepositoryIamBinding <a name="GoogleDataformRepositoryIamBinding" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding google_dataform_repository_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding google_dataform_repository_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 googledataformrepositoryiambinding.NewGoogleDataformRepositoryIamBinding(scope Construct, id *string, config GoogleDataformRepositoryIamBindingConfig) GoogleDataformRepositoryIamBinding
 ```
@@ -441,7 +441,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 googledataformrepositoryiambinding.GoogleDataformRepositoryIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 googledataformrepositoryiambinding.GoogleDataformRepositoryIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googledataformrepositoryiambinding.GoogleDataformRepositoryIamBinding_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 googledataformrepositoryiambinding.GoogleDataformRepositoryIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googledataformrepositoryiambinding.GoogleDataformRepositoryIamBinding_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 googledataformrepositoryiambinding.GoogleDataformRepositoryIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDataformRepositoryIa
 
 The id of the existing GoogleDataformRepositoryIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 &googledataformrepositoryiambinding.GoogleDataformRepositoryIamBindingCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#expression GoogleDataformRepositoryIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#title GoogleDataformRepositoryIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#description GoogleDataformRepositoryIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#expression GoogleDataformRepositoryIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#title GoogleDataformRepositoryIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#description GoogleDataformRepositoryIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#expression GoogleDataformRepositoryIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#expression GoogleDataformRepositoryIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#title GoogleDataformRepositoryIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#title GoogleDataformRepositoryIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#description GoogleDataformRepositoryIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#description GoogleDataformRepositoryIamBinding#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 &googledataformrepositoryiambinding.GoogleDataformRepositoryIamBindingConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	Members: *[]*string,
 	Repository: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition,
 	Id: *string,
 	Project: *string,
 	Region: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#members GoogleDataformRepositoryIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.repository">Repository</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#repository GoogleDataformRepositoryIamBinding#repository}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#role GoogleDataformRepositoryIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#members GoogleDataformRepositoryIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.repository">Repository</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#repository GoogleDataformRepositoryIamBinding#repository}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#role GoogleDataformRepositoryIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition">GoogleDataformRepositoryIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#id GoogleDataformRepositoryIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#project GoogleDataformRepositoryIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#region GoogleDataformRepositoryIamBinding#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#id GoogleDataformRepositoryIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#project GoogleDataformRepositoryIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#region GoogleDataformRepositoryIamBinding#region}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#members GoogleDataformRepositoryIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#members GoogleDataformRepositoryIamBinding#members}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Repository *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#repository GoogleDataformRepositoryIamBinding#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#repository GoogleDataformRepositoryIamBinding#repository}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#role GoogleDataformRepositoryIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#role GoogleDataformRepositoryIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleDataformRepositoryIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#condition GoogleDataformRepositoryIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#condition GoogleDataformRepositoryIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#id GoogleDataformRepositoryIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#id GoogleDataformRepositoryIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#project GoogleDataformRepositoryIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#project GoogleDataformRepositoryIamBinding#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_binding#region GoogleDataformRepositoryIamBinding#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_binding#region GoogleDataformRepositoryIamBinding#region}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryiambinding"
 
 googledataformrepositoryiambinding.NewGoogleDataformRepositoryIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryIamBindingConditionOutputReference
 ```

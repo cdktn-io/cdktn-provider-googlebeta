@@ -4,7 +4,7 @@
 
 ### GoogleClouddeployCustomTargetType <a name="GoogleClouddeployCustomTargetType" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type google_clouddeploy_custom_target_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type google_clouddeploy_custom_target_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer"></a>
 
@@ -29,6 +29,7 @@ googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType(
   id: str = None,
   labels: typing.Mapping[str] = None,
   project: str = None,
+  tasks: GoogleClouddeployCustomTargetTypeTasks = None,
   timeouts: GoogleClouddeployCustomTargetTypeTimeouts = None
 )
 ```
@@ -49,9 +50,10 @@ googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType(
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.annotations">annotations</a></code> | <code>typing.Mapping[str]</code> | User annotations. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.customActions">custom_actions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActions">GoogleClouddeployCustomTargetTypeCustomActions</a></code> | custom_actions block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.description">description</a></code> | <code>str</code> | Description of the 'CustomTargetType'. Max length is 255 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels are attributes that can be set and used by both the user and by Cloud Deploy. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.tasks">tasks</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a></code> | tasks block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts">GoogleClouddeployCustomTargetTypeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -122,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The location of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#location GoogleClouddeployCustomTargetType#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#location GoogleClouddeployCustomTargetType#location}
 
 ---
 
@@ -132,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the 'CustomTargetType'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#name GoogleClouddeployCustomTargetType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#name GoogleClouddeployCustomTargetType#name}
 
 ---
 
@@ -147,7 +149,7 @@ These attributes can only be set and used by the user, and not by Cloud Deploy. 
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#annotations GoogleClouddeployCustomTargetType#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#annotations GoogleClouddeployCustomTargetType#annotations}
 
 ---
 
@@ -157,7 +159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 custom_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#custom_actions GoogleClouddeployCustomTargetType#custom_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#custom_actions GoogleClouddeployCustomTargetType#custom_actions}
 
 ---
 
@@ -167,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the 'CustomTargetType'. Max length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#description GoogleClouddeployCustomTargetType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#description GoogleClouddeployCustomTargetType#description}
 
 ---
 
@@ -175,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -193,7 +195,7 @@ Labels must meet the following constraints: * Keys and values can contain only l
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#labels GoogleClouddeployCustomTargetType#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#labels GoogleClouddeployCustomTargetType#labels}
 
 ---
 
@@ -201,7 +203,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}.
+
+---
+
+##### `tasks`<sup>Optional</sup> <a name="tasks" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer.parameter.tasks"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a>
+
+tasks block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#tasks GoogleClouddeployCustomTargetType#tasks}
 
 ---
 
@@ -211,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#timeouts GoogleClouddeployCustomTargetType#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#timeouts GoogleClouddeployCustomTargetType#timeouts}
 
 ---
 
@@ -244,6 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.putCustomActions">put_custom_actions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.putTasks">put_tasks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetAnnotations">reset_annotations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetCustomActions">reset_custom_actions</a></code> | *No description.* |
@@ -251,6 +264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetLabels">reset_labels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetProject">reset_project</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetTasks">reset_tasks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
 ---
@@ -619,7 +633,7 @@ def put_custom_actions(
 
 The Skaffold custom action responsible for deploy operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#deploy_action GoogleClouddeployCustomTargetType#deploy_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#deploy_action GoogleClouddeployCustomTargetType#deploy_action}
 
 ---
 
@@ -629,7 +643,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 include_skaffold_modules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#include_skaffold_modules GoogleClouddeployCustomTargetType#include_skaffold_modules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#include_skaffold_modules GoogleClouddeployCustomTargetType#include_skaffold_modules}
 
 ---
 
@@ -641,7 +655,36 @@ The Skaffold custom action responsible for render operations.
 
 If not provided then Cloud Deploy will perform the render operations via 'skaffold render'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#render_action GoogleClouddeployCustomTargetType#render_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#render_action GoogleClouddeployCustomTargetType#render_action}
+
+---
+
+##### `put_tasks` <a name="put_tasks" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.putTasks"></a>
+
+```python
+def put_tasks(
+  deploy: GoogleClouddeployCustomTargetTypeTasksDeploy,
+  render: GoogleClouddeployCustomTargetTypeTasksRender = None
+) -> None
+```
+
+###### `deploy`<sup>Required</sup> <a name="deploy" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.putTasks.parameter.deploy"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy">GoogleClouddeployCustomTargetTypeTasksDeploy</a>
+
+deploy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#deploy GoogleClouddeployCustomTargetType#deploy}
+
+---
+
+###### `render`<sup>Optional</sup> <a name="render" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.putTasks.parameter.render"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender">GoogleClouddeployCustomTargetTypeTasksRender</a>
+
+render block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#render GoogleClouddeployCustomTargetType#render}
 
 ---
 
@@ -659,7 +702,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}.
 
 ---
 
@@ -667,7 +710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}.
 
 ---
 
@@ -675,7 +718,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}.
 
 ---
 
@@ -713,6 +756,12 @@ def reset_labels() -> None
 
 ```python
 def reset_project() -> None
+```
+
+##### `reset_tasks` <a name="reset_tasks" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetTasks"></a>
+
+```python
+def reset_tasks() -> None
 ```
 
 ##### `reset_timeouts` <a name="reset_timeouts" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.resetTimeouts"></a>
@@ -835,7 +884,7 @@ The construct id used in the generated config for the GoogleClouddeployCustomTar
 
 The id of the existing GoogleClouddeployCustomTargetType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -871,6 +920,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.effectiveAnnotations">effective_annotations</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.effectiveLabels">effective_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.etag">etag</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.tasks">tasks</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference">GoogleClouddeployCustomTargetTypeTasksOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.terraformLabels">terraform_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeoutsOutputReference">GoogleClouddeployCustomTargetTypeTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.uid">uid</a></code> | <code>str</code> | *No description.* |
@@ -883,6 +933,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.tasksInput">tasks_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts">GoogleClouddeployCustomTargetTypeTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.annotations">annotations</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.description">description</a></code> | <code>str</code> | *No description.* |
@@ -1096,6 +1147,16 @@ etag: str
 
 ---
 
+##### `tasks`<sup>Required</sup> <a name="tasks" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.tasks"></a>
+
+```python
+tasks: GoogleClouddeployCustomTargetTypeTasksOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference">GoogleClouddeployCustomTargetTypeTasksOutputReference</a>
+
+---
+
 ##### `terraform_labels`<sup>Required</sup> <a name="terraform_labels" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.terraformLabels"></a>
 
 ```python
@@ -1213,6 +1274,16 @@ project_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `tasks_input`<sup>Optional</sup> <a name="tasks_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.property.tasksInput"></a>
+
+```python
+tasks_input: GoogleClouddeployCustomTargetTypeTasks
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a>
 
 ---
 
@@ -1339,6 +1410,7 @@ googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig(
   id: str = None,
   labels: typing.Mapping[str] = None,
   project: str = None,
+  tasks: GoogleClouddeployCustomTargetTypeTasks = None,
   timeouts: GoogleClouddeployCustomTargetTypeTimeouts = None
 )
 ```
@@ -1359,9 +1431,10 @@ googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.annotations">annotations</a></code> | <code>typing.Mapping[str]</code> | User annotations. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.customActions">custom_actions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActions">GoogleClouddeployCustomTargetTypeCustomActions</a></code> | custom_actions block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.description">description</a></code> | <code>str</code> | Description of the 'CustomTargetType'. Max length is 255 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels are attributes that can be set and used by both the user and by Cloud Deploy. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.tasks">tasks</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a></code> | tasks block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts">GoogleClouddeployCustomTargetTypeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1446,7 +1519,7 @@ location: str
 
 The location of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#location GoogleClouddeployCustomTargetType#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#location GoogleClouddeployCustomTargetType#location}
 
 ---
 
@@ -1460,7 +1533,7 @@ name: str
 
 Name of the 'CustomTargetType'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#name GoogleClouddeployCustomTargetType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#name GoogleClouddeployCustomTargetType#name}
 
 ---
 
@@ -1479,7 +1552,7 @@ These attributes can only be set and used by the user, and not by Cloud Deploy. 
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#annotations GoogleClouddeployCustomTargetType#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#annotations GoogleClouddeployCustomTargetType#annotations}
 
 ---
 
@@ -1493,7 +1566,7 @@ custom_actions: GoogleClouddeployCustomTargetTypeCustomActions
 
 custom_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#custom_actions GoogleClouddeployCustomTargetType#custom_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#custom_actions GoogleClouddeployCustomTargetType#custom_actions}
 
 ---
 
@@ -1507,7 +1580,7 @@ description: str
 
 Description of the 'CustomTargetType'. Max length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#description GoogleClouddeployCustomTargetType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#description GoogleClouddeployCustomTargetType#description}
 
 ---
 
@@ -1519,7 +1592,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1541,7 +1614,7 @@ Labels must meet the following constraints: * Keys and values can contain only l
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#labels GoogleClouddeployCustomTargetType#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#labels GoogleClouddeployCustomTargetType#labels}
 
 ---
 
@@ -1553,7 +1626,21 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}.
+
+---
+
+##### `tasks`<sup>Optional</sup> <a name="tasks" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.property.tasks"></a>
+
+```python
+tasks: GoogleClouddeployCustomTargetTypeTasks
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a>
+
+tasks block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#tasks GoogleClouddeployCustomTargetType#tasks}
 
 ---
 
@@ -1567,7 +1654,7 @@ timeouts: GoogleClouddeployCustomTargetTypeTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#timeouts GoogleClouddeployCustomTargetType#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#timeouts GoogleClouddeployCustomTargetType#timeouts}
 
 ---
 
@@ -1605,7 +1692,7 @@ deploy_action: str
 
 The Skaffold custom action responsible for deploy operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#deploy_action GoogleClouddeployCustomTargetType#deploy_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#deploy_action GoogleClouddeployCustomTargetType#deploy_action}
 
 ---
 
@@ -1619,7 +1706,7 @@ include_skaffold_modules: IResolvable | typing.List[GoogleClouddeployCustomTarge
 
 include_skaffold_modules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#include_skaffold_modules GoogleClouddeployCustomTargetType#include_skaffold_modules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#include_skaffold_modules GoogleClouddeployCustomTargetType#include_skaffold_modules}
 
 ---
 
@@ -1635,7 +1722,7 @@ The Skaffold custom action responsible for render operations.
 
 If not provided then Cloud Deploy will perform the render operations via 'skaffold render'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#render_action GoogleClouddeployCustomTargetType#render_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#render_action GoogleClouddeployCustomTargetType#render_action}
 
 ---
 
@@ -1675,7 +1762,7 @@ configs: typing.List[str]
 
 The Skaffold Config modules to use from the specified source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#configs GoogleClouddeployCustomTargetType#configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#configs GoogleClouddeployCustomTargetType#configs}
 
 ---
 
@@ -1689,7 +1776,7 @@ git: GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGit
 
 git block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#git GoogleClouddeployCustomTargetType#git}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#git GoogleClouddeployCustomTargetType#git}
 
 ---
 
@@ -1703,7 +1790,7 @@ google_cloud_build_repo: GoogleClouddeployCustomTargetTypeCustomActionsIncludeSk
 
 google_cloud_build_repo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_build_repo GoogleClouddeployCustomTargetType#google_cloud_build_repo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_build_repo GoogleClouddeployCustomTargetType#google_cloud_build_repo}
 
 ---
 
@@ -1717,7 +1804,7 @@ google_cloud_storage: GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaff
 
 google_cloud_storage block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_storage GoogleClouddeployCustomTargetType#google_cloud_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_storage GoogleClouddeployCustomTargetType#google_cloud_storage}
 
 ---
 
@@ -1755,7 +1842,7 @@ repo: str
 
 Git repository the package should be cloned from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#repo GoogleClouddeployCustomTargetType#repo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#repo GoogleClouddeployCustomTargetType#repo}
 
 ---
 
@@ -1769,7 +1856,7 @@ path: str
 
 Relative path from the repository root to the Skaffold file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
 
 ---
 
@@ -1783,7 +1870,7 @@ ref: str
 
 Git ref the package should be cloned from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
 
 ---
 
@@ -1821,7 +1908,7 @@ repository: str
 
 Cloud Build 2nd gen repository in the format of 'projects/<project>/locations/<location>/connections/<connection>/repositories/<repository>'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#repository GoogleClouddeployCustomTargetType#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#repository GoogleClouddeployCustomTargetType#repository}
 
 ---
 
@@ -1835,7 +1922,7 @@ path: str
 
 Relative path from the repository root to the Skaffold file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
 
 ---
 
@@ -1849,7 +1936,7 @@ ref: str
 
 Branch or tag to use when cloning the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
 
 ---
 
@@ -1887,7 +1974,7 @@ Cloud Storage source paths to copy recursively.
 
 For example, providing 'gs://my-bucket/dir/configs/*' will result in Skaffold copying all files within the 'dir/configs' directory in the bucket 'my-bucket'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#source GoogleClouddeployCustomTargetType#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#source GoogleClouddeployCustomTargetType#source}
 
 ---
 
@@ -1901,7 +1988,289 @@ path: str
 
 Relative path from the source to the Skaffold file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+
+---
+
+### GoogleClouddeployCustomTargetTypeTasks <a name="GoogleClouddeployCustomTargetTypeTasks" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks(
+  deploy: GoogleClouddeployCustomTargetTypeTasksDeploy,
+  render: GoogleClouddeployCustomTargetTypeTasksRender = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks.property.deploy">deploy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy">GoogleClouddeployCustomTargetTypeTasksDeploy</a></code> | deploy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks.property.render">render</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender">GoogleClouddeployCustomTargetTypeTasksRender</a></code> | render block. |
+
+---
+
+##### `deploy`<sup>Required</sup> <a name="deploy" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks.property.deploy"></a>
+
+```python
+deploy: GoogleClouddeployCustomTargetTypeTasksDeploy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy">GoogleClouddeployCustomTargetTypeTasksDeploy</a>
+
+deploy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#deploy GoogleClouddeployCustomTargetType#deploy}
+
+---
+
+##### `render`<sup>Optional</sup> <a name="render" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks.property.render"></a>
+
+```python
+render: GoogleClouddeployCustomTargetTypeTasksRender
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender">GoogleClouddeployCustomTargetTypeTasksRender</a>
+
+render block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#render GoogleClouddeployCustomTargetType#render}
+
+---
+
+### GoogleClouddeployCustomTargetTypeTasksDeploy <a name="GoogleClouddeployCustomTargetTypeTasksDeploy" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy(
+  container: GoogleClouddeployCustomTargetTypeTasksDeployContainer = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy.property.container">container</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer">GoogleClouddeployCustomTargetTypeTasksDeployContainer</a></code> | container block. |
+
+---
+
+##### `container`<sup>Optional</sup> <a name="container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy.property.container"></a>
+
+```python
+container: GoogleClouddeployCustomTargetTypeTasksDeployContainer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer">GoogleClouddeployCustomTargetTypeTasksDeployContainer</a>
+
+container block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#container GoogleClouddeployCustomTargetType#container}
+
+---
+
+### GoogleClouddeployCustomTargetTypeTasksDeployContainer <a name="GoogleClouddeployCustomTargetTypeTasksDeployContainer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer(
+  image: str,
+  args: typing.List[str] = None,
+  command: typing.List[str] = None,
+  env: typing.Mapping[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.image">image</a></code> | <code>str</code> | Image is the container image to use. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.args">args</a></code> | <code>typing.List[str]</code> | Args is the container arguments to use. This overrides the default arguments defined in the container image. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.command">command</a></code> | <code>typing.List[str]</code> | Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.env">env</a></code> | <code>typing.Mapping[str]</code> | Environment variables that are set in the container. |
+
+---
+
+##### `image`<sup>Required</sup> <a name="image" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.image"></a>
+
+```python
+image: str
+```
+
+- *Type:* str
+
+Image is the container image to use.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#image GoogleClouddeployCustomTargetType#image}
+
+---
+
+##### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.args"></a>
+
+```python
+args: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Args is the container arguments to use. This overrides the default arguments defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#args GoogleClouddeployCustomTargetType#args}
+
+---
+
+##### `command`<sup>Optional</sup> <a name="command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.command"></a>
+
+```python
+command: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#command GoogleClouddeployCustomTargetType#command}
+
+---
+
+##### `env`<sup>Optional</sup> <a name="env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.property.env"></a>
+
+```python
+env: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Environment variables that are set in the container.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#env GoogleClouddeployCustomTargetType#env}
+
+---
+
+### GoogleClouddeployCustomTargetTypeTasksRender <a name="GoogleClouddeployCustomTargetTypeTasksRender" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender(
+  container: GoogleClouddeployCustomTargetTypeTasksRenderContainer = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender.property.container">container</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer">GoogleClouddeployCustomTargetTypeTasksRenderContainer</a></code> | container block. |
+
+---
+
+##### `container`<sup>Optional</sup> <a name="container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender.property.container"></a>
+
+```python
+container: GoogleClouddeployCustomTargetTypeTasksRenderContainer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer">GoogleClouddeployCustomTargetTypeTasksRenderContainer</a>
+
+container block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#container GoogleClouddeployCustomTargetType#container}
+
+---
+
+### GoogleClouddeployCustomTargetTypeTasksRenderContainer <a name="GoogleClouddeployCustomTargetTypeTasksRenderContainer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer(
+  image: str,
+  args: typing.List[str] = None,
+  command: typing.List[str] = None,
+  env: typing.Mapping[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.image">image</a></code> | <code>str</code> | Image is the container image to use. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.args">args</a></code> | <code>typing.List[str]</code> | Args is the container arguments to use. This overrides the default arguments defined in the container image. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.command">command</a></code> | <code>typing.List[str]</code> | Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.env">env</a></code> | <code>typing.Mapping[str]</code> | Environment variables that are set in the container. |
+
+---
+
+##### `image`<sup>Required</sup> <a name="image" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.image"></a>
+
+```python
+image: str
+```
+
+- *Type:* str
+
+Image is the container image to use.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#image GoogleClouddeployCustomTargetType#image}
+
+---
+
+##### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.args"></a>
+
+```python
+args: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Args is the container arguments to use. This overrides the default arguments defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#args GoogleClouddeployCustomTargetType#args}
+
+---
+
+##### `command`<sup>Optional</sup> <a name="command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.command"></a>
+
+```python
+command: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#command GoogleClouddeployCustomTargetType#command}
+
+---
+
+##### `env`<sup>Optional</sup> <a name="env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.property.env"></a>
+
+```python
+env: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Environment variables that are set in the container.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#env GoogleClouddeployCustomTargetType#env}
 
 ---
 
@@ -1923,9 +2292,9 @@ googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}. |
 
 ---
 
@@ -1937,7 +2306,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}.
 
 ---
 
@@ -1949,7 +2318,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}.
 
 ---
 
@@ -1961,7 +2330,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}.
 
 ---
 
@@ -3441,7 +3810,7 @@ def put_git(
 
 Git repository the package should be cloned from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#repo GoogleClouddeployCustomTargetType#repo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#repo GoogleClouddeployCustomTargetType#repo}
 
 ---
 
@@ -3451,7 +3820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Relative path from the repository root to the Skaffold file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
 
 ---
 
@@ -3461,7 +3830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Git ref the package should be cloned from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
 
 ---
 
@@ -3481,7 +3850,7 @@ def put_google_cloud_build_repo(
 
 Cloud Build 2nd gen repository in the format of 'projects/<project>/locations/<location>/connections/<connection>/repositories/<repository>'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#repository GoogleClouddeployCustomTargetType#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#repository GoogleClouddeployCustomTargetType#repository}
 
 ---
 
@@ -3491,7 +3860,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Relative path from the repository root to the Skaffold file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
 
 ---
 
@@ -3501,7 +3870,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Branch or tag to use when cloning the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
 
 ---
 
@@ -3522,7 +3891,7 @@ Cloud Storage source paths to copy recursively.
 
 For example, providing 'gs://my-bucket/dir/configs/*' will result in Skaffold copying all files within the 'dir/configs' directory in the bucket 'my-bucket'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#source GoogleClouddeployCustomTargetType#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#source GoogleClouddeployCustomTargetType#source}
 
 ---
 
@@ -3532,7 +3901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Relative path from the source to the Skaffold file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
 
 ---
 
@@ -4059,6 +4428,1845 @@ internal_value: GoogleClouddeployCustomTargetTypeCustomActions
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActions">GoogleClouddeployCustomTargetTypeCustomActions</a>
+
+---
+
+
+### GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference <a name="GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resetArgs">reset_args</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resetCommand">reset_command</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resetEnv">reset_env</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_args` <a name="reset_args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resetArgs"></a>
+
+```python
+def reset_args() -> None
+```
+
+##### `reset_command` <a name="reset_command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resetCommand"></a>
+
+```python
+def reset_command() -> None
+```
+
+##### `reset_env` <a name="reset_env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.resetEnv"></a>
+
+```python
+def reset_env() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.argsInput">args_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.commandInput">command_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.envInput">env_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.imageInput">image_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.args">args</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.command">command</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.env">env</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.image">image</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer">GoogleClouddeployCustomTargetTypeTasksDeployContainer</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `args_input`<sup>Optional</sup> <a name="args_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.argsInput"></a>
+
+```python
+args_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `command_input`<sup>Optional</sup> <a name="command_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.commandInput"></a>
+
+```python
+command_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `env_input`<sup>Optional</sup> <a name="env_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.envInput"></a>
+
+```python
+env_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `image_input`<sup>Optional</sup> <a name="image_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.imageInput"></a>
+
+```python
+image_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `args`<sup>Required</sup> <a name="args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.args"></a>
+
+```python
+args: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `command`<sup>Required</sup> <a name="command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.command"></a>
+
+```python
+command: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `env`<sup>Required</sup> <a name="env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.env"></a>
+
+```python
+env: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `image`<sup>Required</sup> <a name="image" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.image"></a>
+
+```python
+image: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleClouddeployCustomTargetTypeTasksDeployContainer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer">GoogleClouddeployCustomTargetTypeTasksDeployContainer</a>
+
+---
+
+
+### GoogleClouddeployCustomTargetTypeTasksDeployOutputReference <a name="GoogleClouddeployCustomTargetTypeTasksDeployOutputReference" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.putContainer">put_container</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.resetContainer">reset_container</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_container` <a name="put_container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.putContainer"></a>
+
+```python
+def put_container(
+  image: str,
+  args: typing.List[str] = None,
+  command: typing.List[str] = None,
+  env: typing.Mapping[str] = None
+) -> None
+```
+
+###### `image`<sup>Required</sup> <a name="image" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.putContainer.parameter.image"></a>
+
+- *Type:* str
+
+Image is the container image to use.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#image GoogleClouddeployCustomTargetType#image}
+
+---
+
+###### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.putContainer.parameter.args"></a>
+
+- *Type:* typing.List[str]
+
+Args is the container arguments to use. This overrides the default arguments defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#args GoogleClouddeployCustomTargetType#args}
+
+---
+
+###### `command`<sup>Optional</sup> <a name="command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.putContainer.parameter.command"></a>
+
+- *Type:* typing.List[str]
+
+Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#command GoogleClouddeployCustomTargetType#command}
+
+---
+
+###### `env`<sup>Optional</sup> <a name="env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.putContainer.parameter.env"></a>
+
+- *Type:* typing.Mapping[str]
+
+Environment variables that are set in the container.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#env GoogleClouddeployCustomTargetType#env}
+
+---
+
+##### `reset_container` <a name="reset_container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.resetContainer"></a>
+
+```python
+def reset_container() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.container">container</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference">GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.containerInput">container_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer">GoogleClouddeployCustomTargetTypeTasksDeployContainer</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy">GoogleClouddeployCustomTargetTypeTasksDeploy</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `container`<sup>Required</sup> <a name="container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.container"></a>
+
+```python
+container: GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference">GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference</a>
+
+---
+
+##### `container_input`<sup>Optional</sup> <a name="container_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.containerInput"></a>
+
+```python
+container_input: GoogleClouddeployCustomTargetTypeTasksDeployContainer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer">GoogleClouddeployCustomTargetTypeTasksDeployContainer</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleClouddeployCustomTargetTypeTasksDeploy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy">GoogleClouddeployCustomTargetTypeTasksDeploy</a>
+
+---
+
+
+### GoogleClouddeployCustomTargetTypeTasksOutputReference <a name="GoogleClouddeployCustomTargetTypeTasksOutputReference" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.putDeploy">put_deploy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.putRender">put_render</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.resetRender">reset_render</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_deploy` <a name="put_deploy" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.putDeploy"></a>
+
+```python
+def put_deploy(
+  container: GoogleClouddeployCustomTargetTypeTasksDeployContainer = None
+) -> None
+```
+
+###### `container`<sup>Optional</sup> <a name="container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.putDeploy.parameter.container"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer">GoogleClouddeployCustomTargetTypeTasksDeployContainer</a>
+
+container block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#container GoogleClouddeployCustomTargetType#container}
+
+---
+
+##### `put_render` <a name="put_render" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.putRender"></a>
+
+```python
+def put_render(
+  container: GoogleClouddeployCustomTargetTypeTasksRenderContainer = None
+) -> None
+```
+
+###### `container`<sup>Optional</sup> <a name="container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.putRender.parameter.container"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer">GoogleClouddeployCustomTargetTypeTasksRenderContainer</a>
+
+container block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#container GoogleClouddeployCustomTargetType#container}
+
+---
+
+##### `reset_render` <a name="reset_render" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.resetRender"></a>
+
+```python
+def reset_render() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.deploy">deploy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference">GoogleClouddeployCustomTargetTypeTasksDeployOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.render">render</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference">GoogleClouddeployCustomTargetTypeTasksRenderOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.deployInput">deploy_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy">GoogleClouddeployCustomTargetTypeTasksDeploy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.renderInput">render_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender">GoogleClouddeployCustomTargetTypeTasksRender</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `deploy`<sup>Required</sup> <a name="deploy" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.deploy"></a>
+
+```python
+deploy: GoogleClouddeployCustomTargetTypeTasksDeployOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference">GoogleClouddeployCustomTargetTypeTasksDeployOutputReference</a>
+
+---
+
+##### `render`<sup>Required</sup> <a name="render" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.render"></a>
+
+```python
+render: GoogleClouddeployCustomTargetTypeTasksRenderOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference">GoogleClouddeployCustomTargetTypeTasksRenderOutputReference</a>
+
+---
+
+##### `deploy_input`<sup>Optional</sup> <a name="deploy_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.deployInput"></a>
+
+```python
+deploy_input: GoogleClouddeployCustomTargetTypeTasksDeploy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy">GoogleClouddeployCustomTargetTypeTasksDeploy</a>
+
+---
+
+##### `render_input`<sup>Optional</sup> <a name="render_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.renderInput"></a>
+
+```python
+render_input: GoogleClouddeployCustomTargetTypeTasksRender
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender">GoogleClouddeployCustomTargetTypeTasksRender</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleClouddeployCustomTargetTypeTasks
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks">GoogleClouddeployCustomTargetTypeTasks</a>
+
+---
+
+
+### GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference <a name="GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resetArgs">reset_args</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resetCommand">reset_command</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resetEnv">reset_env</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_args` <a name="reset_args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resetArgs"></a>
+
+```python
+def reset_args() -> None
+```
+
+##### `reset_command` <a name="reset_command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resetCommand"></a>
+
+```python
+def reset_command() -> None
+```
+
+##### `reset_env` <a name="reset_env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.resetEnv"></a>
+
+```python
+def reset_env() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.argsInput">args_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.commandInput">command_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.envInput">env_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.imageInput">image_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.args">args</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.command">command</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.env">env</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.image">image</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer">GoogleClouddeployCustomTargetTypeTasksRenderContainer</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `args_input`<sup>Optional</sup> <a name="args_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.argsInput"></a>
+
+```python
+args_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `command_input`<sup>Optional</sup> <a name="command_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.commandInput"></a>
+
+```python
+command_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `env_input`<sup>Optional</sup> <a name="env_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.envInput"></a>
+
+```python
+env_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `image_input`<sup>Optional</sup> <a name="image_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.imageInput"></a>
+
+```python
+image_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `args`<sup>Required</sup> <a name="args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.args"></a>
+
+```python
+args: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `command`<sup>Required</sup> <a name="command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.command"></a>
+
+```python
+command: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `env`<sup>Required</sup> <a name="env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.env"></a>
+
+```python
+env: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `image`<sup>Required</sup> <a name="image" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.image"></a>
+
+```python
+image: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleClouddeployCustomTargetTypeTasksRenderContainer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer">GoogleClouddeployCustomTargetTypeTasksRenderContainer</a>
+
+---
+
+
+### GoogleClouddeployCustomTargetTypeTasksRenderOutputReference <a name="GoogleClouddeployCustomTargetTypeTasksRenderOutputReference" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_clouddeploy_custom_target_type
+
+googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.putContainer">put_container</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.resetContainer">reset_container</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_container` <a name="put_container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.putContainer"></a>
+
+```python
+def put_container(
+  image: str,
+  args: typing.List[str] = None,
+  command: typing.List[str] = None,
+  env: typing.Mapping[str] = None
+) -> None
+```
+
+###### `image`<sup>Required</sup> <a name="image" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.putContainer.parameter.image"></a>
+
+- *Type:* str
+
+Image is the container image to use.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#image GoogleClouddeployCustomTargetType#image}
+
+---
+
+###### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.putContainer.parameter.args"></a>
+
+- *Type:* typing.List[str]
+
+Args is the container arguments to use. This overrides the default arguments defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#args GoogleClouddeployCustomTargetType#args}
+
+---
+
+###### `command`<sup>Optional</sup> <a name="command" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.putContainer.parameter.command"></a>
+
+- *Type:* typing.List[str]
+
+Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#command GoogleClouddeployCustomTargetType#command}
+
+---
+
+###### `env`<sup>Optional</sup> <a name="env" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.putContainer.parameter.env"></a>
+
+- *Type:* typing.Mapping[str]
+
+Environment variables that are set in the container.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#env GoogleClouddeployCustomTargetType#env}
+
+---
+
+##### `reset_container` <a name="reset_container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.resetContainer"></a>
+
+```python
+def reset_container() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.container">container</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference">GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.containerInput">container_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer">GoogleClouddeployCustomTargetTypeTasksRenderContainer</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender">GoogleClouddeployCustomTargetTypeTasksRender</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `container`<sup>Required</sup> <a name="container" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.container"></a>
+
+```python
+container: GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference">GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference</a>
+
+---
+
+##### `container_input`<sup>Optional</sup> <a name="container_input" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.containerInput"></a>
+
+```python
+container_input: GoogleClouddeployCustomTargetTypeTasksRenderContainer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer">GoogleClouddeployCustomTargetTypeTasksRenderContainer</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleClouddeployCustomTargetTypeTasksRender
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender">GoogleClouddeployCustomTargetTypeTasksRender</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeBackendService <a name="GoogleComputeBackendService" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service google_compute_backend_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service google_compute_backend_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.Initializer"></a>
 
@@ -86,6 +86,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putMaxStreamDuration">putMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putNetworkPassThroughLbTrafficPolicy">putNetworkPassThroughLbTrafficPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putOutlierDetection">putOutlierDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putParams">putParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putSecuritySettings">putSecuritySettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putStrongSessionAffinityCookie">putStrongSessionAffinityCookie</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putTimeouts">putTimeouts</a></code> | *No description.* |
@@ -117,6 +118,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetMaxStreamDuration">resetMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetNetworkPassThroughLbTrafficPolicy">resetNetworkPassThroughLbTrafficPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetOutlierDetection">resetOutlierDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetParams">resetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetPortName">resetPortName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetProtocol">resetProtocol</a></code> | *No description.* |
@@ -584,6 +586,18 @@ public putOutlierDetection(value: GoogleComputeBackendServiceOutlierDetection): 
 
 ---
 
+##### `putParams` <a name="putParams" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putParams"></a>
+
+```typescript
+public putParams(value: GoogleComputeBackendServiceParams): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams">GoogleComputeBackendServiceParams</a>
+
+---
+
 ##### `putSecuritySettings` <a name="putSecuritySettings" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.putSecuritySettings"></a>
 
 ```typescript
@@ -794,6 +808,12 @@ public resetNetworkPassThroughLbTrafficPolicy(): void
 public resetOutlierDetection(): void
 ```
 
+##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetParams"></a>
+
+```typescript
+public resetParams(): void
+```
+
 ##### `resetPortName` <a name="resetPortName" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.resetPortName"></a>
 
 ```typescript
@@ -963,7 +983,7 @@ The construct id used in the generated config for the GoogleComputeBackendServic
 
 The id of the existing GoogleComputeBackendService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1008,6 +1028,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceMaxStreamDurationOutputReference">GoogleComputeBackendServiceMaxStreamDurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.networkPassThroughLbTrafficPolicy">networkPassThroughLbTrafficPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference">GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.outlierDetection">outlierDetection</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceOutlierDetectionOutputReference">GoogleComputeBackendServiceOutlierDetectionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference">GoogleComputeBackendServiceParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.securitySettings">securitySettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceSecuritySettingsOutputReference">GoogleComputeBackendServiceSecuritySettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.selfLink">selfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.strongSessionAffinityCookie">strongSessionAffinityCookie</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceStrongSessionAffinityCookieOutputReference">GoogleComputeBackendServiceStrongSessionAffinityCookieOutputReference</a></code> | *No description.* |
@@ -1041,6 +1062,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.networkPassThroughLbTrafficPolicyInput">networkPassThroughLbTrafficPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.outlierDetectionInput">outlierDetectionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceOutlierDetection">GoogleComputeBackendServiceOutlierDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams">GoogleComputeBackendServiceParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.portNameInput">portNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.protocolInput">protocolInput</a></code> | <code>string</code> | *No description.* |
@@ -1367,6 +1389,16 @@ public readonly outlierDetection: GoogleComputeBackendServiceOutlierDetectionOut
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceOutlierDetectionOutputReference">GoogleComputeBackendServiceOutlierDetectionOutputReference</a>
+
+---
+
+##### `params`<sup>Required</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.params"></a>
+
+```typescript
+public readonly params: GoogleComputeBackendServiceParamsOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference">GoogleComputeBackendServiceParamsOutputReference</a>
 
 ---
 
@@ -1697,6 +1729,16 @@ public readonly outlierDetectionInput: GoogleComputeBackendServiceOutlierDetecti
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceOutlierDetection">GoogleComputeBackendServiceOutlierDetection</a>
+
+---
+
+##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendService.property.paramsInput"></a>
+
+```typescript
+public readonly paramsInput: GoogleComputeBackendServiceParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams">GoogleComputeBackendServiceParams</a>
 
 ---
 
@@ -2082,11 +2124,15 @@ const googleComputeBackendServiceBackend: googleComputeBackendService.GoogleComp
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxConnections">maxConnections</a></code> | <code>number</code> | The max number of simultaneous connections for the group. Can be used with either CONNECTION or UTILIZATION balancing modes. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxConnectionsPerEndpoint">maxConnectionsPerEndpoint</a></code> | <code>number</code> | The max number of simultaneous connections that a single backend network endpoint can handle. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxConnectionsPerInstance">maxConnectionsPerInstance</a></code> | <code>number</code> | The max number of simultaneous connections that a single backend instance can handle. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxInFlightRequests">maxInFlightRequests</a></code> | <code>number</code> | Defines a maximum number of in-flight requests for the whole NEG or instance group. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxInFlightRequestsPerEndpoint">maxInFlightRequestsPerEndpoint</a></code> | <code>number</code> | Defines a maximum number of in-flight requests for a single endpoint. Not available if backend's balancingMode is RATE or CONNECTION. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxInFlightRequestsPerInstance">maxInFlightRequestsPerInstance</a></code> | <code>number</code> | Defines a maximum number of in-flight requests for a single VM. Not available if backend's balancingMode is RATE or CONNECTION. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxRate">maxRate</a></code> | <code>number</code> | The max requests per second (RPS) of the group. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxRatePerEndpoint">maxRatePerEndpoint</a></code> | <code>number</code> | The max requests per second (RPS) that a single backend network endpoint can handle. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxRatePerInstance">maxRatePerInstance</a></code> | <code>number</code> | The max requests per second (RPS) that a single backend instance can handle. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxUtilization">maxUtilization</a></code> | <code>number</code> | Used when balancingMode is UTILIZATION. This ratio defines the CPU utilization target for the group. Valid range is [0.0, 1.0]. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.preference">preference</a></code> | <code>string</code> | This field indicates whether this backend should be fully utilized before sending traffic to backends with default preference. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.trafficDuration">trafficDuration</a></code> | <code>string</code> | This field specifies how long a connection should be kept alive for: - LONG: Most of the requests are expected to take more than multiple   seconds to finish. |
 
 ---
 
@@ -2117,7 +2163,7 @@ Note that you must specify an Instance Group or Network Endpoint
 Group resource using the fully-qualified URL, rather than a
 partial URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#group GoogleComputeBackendService#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#group GoogleComputeBackendService#group}
 
 ---
 
@@ -2136,9 +2182,9 @@ UTILIZATION. Valid values are UTILIZATION, RATE (for HTTP(S)),
 CUSTOM_METRICS (for HTTP(s)) and CONNECTION (for TCP/SSL).
 
 See the [Backend Services Overview](https://cloud.google.com/load-balancing/docs/backend-service#balancing-mode)
-for an explanation of load balancing modes. Default value: "UTILIZATION" Possible values: ["UTILIZATION", "RATE", "CONNECTION", "CUSTOM_METRICS"]
+for an explanation of load balancing modes. Default value: "UTILIZATION" Possible values: ["UTILIZATION", "RATE", "CONNECTION", "CUSTOM_METRICS", "IN_FLIGHT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#balancing_mode GoogleComputeBackendService#balancing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#balancing_mode GoogleComputeBackendService#balancing_mode}
 
 ---
 
@@ -2157,7 +2203,7 @@ of its configured capacity (depending on balancingMode). A
 setting of 0 means the group is completely drained, offering
 0% of its available Capacity. Valid range is [0.0,1.0].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#capacity_scaler GoogleComputeBackendService#capacity_scaler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#capacity_scaler GoogleComputeBackendService#capacity_scaler}
 
 ---
 
@@ -2171,7 +2217,7 @@ public readonly customMetrics: IResolvable | GoogleComputeBackendServiceBackendC
 
 custom_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#custom_metrics GoogleComputeBackendService#custom_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#custom_metrics GoogleComputeBackendService#custom_metrics}
 
 ---
 
@@ -2185,7 +2231,7 @@ public readonly description: string;
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#description GoogleComputeBackendService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#description GoogleComputeBackendService#description}
 
 ---
 
@@ -2203,7 +2249,7 @@ For CONNECTION mode, either maxConnections or one
 of maxConnectionsPerInstance or maxConnectionsPerEndpoint,
 as appropriate for group type, must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_connections GoogleComputeBackendService#max_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_connections GoogleComputeBackendService#max_connections}
 
 ---
 
@@ -2224,7 +2270,7 @@ UTILIZATION balancing modes.
 For CONNECTION mode, either
 maxConnections or maxConnectionsPerEndpoint must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_connections_per_endpoint GoogleComputeBackendService#max_connections_per_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_connections_per_endpoint GoogleComputeBackendService#max_connections_per_endpoint}
 
 ---
 
@@ -2245,7 +2291,52 @@ UTILIZATION balancing modes.
 For CONNECTION mode, either maxConnections or
 maxConnectionsPerInstance must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_connections_per_instance GoogleComputeBackendService#max_connections_per_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_connections_per_instance GoogleComputeBackendService#max_connections_per_instance}
+
+---
+
+##### `maxInFlightRequests`<sup>Optional</sup> <a name="maxInFlightRequests" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxInFlightRequests"></a>
+
+```typescript
+public readonly maxInFlightRequests: number;
+```
+
+- *Type:* number
+
+Defines a maximum number of in-flight requests for the whole NEG or instance group.
+
+Not available if backend's balancingMode is RATE
+or CONNECTION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_in_flight_requests GoogleComputeBackendService#max_in_flight_requests}
+
+---
+
+##### `maxInFlightRequestsPerEndpoint`<sup>Optional</sup> <a name="maxInFlightRequestsPerEndpoint" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxInFlightRequestsPerEndpoint"></a>
+
+```typescript
+public readonly maxInFlightRequestsPerEndpoint: number;
+```
+
+- *Type:* number
+
+Defines a maximum number of in-flight requests for a single endpoint. Not available if backend's balancingMode is RATE or CONNECTION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_in_flight_requests_per_endpoint GoogleComputeBackendService#max_in_flight_requests_per_endpoint}
+
+---
+
+##### `maxInFlightRequestsPerInstance`<sup>Optional</sup> <a name="maxInFlightRequestsPerInstance" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.maxInFlightRequestsPerInstance"></a>
+
+```typescript
+public readonly maxInFlightRequestsPerInstance: number;
+```
+
+- *Type:* number
+
+Defines a maximum number of in-flight requests for a single VM. Not available if backend's balancingMode is RATE or CONNECTION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_in_flight_requests_per_instance GoogleComputeBackendService#max_in_flight_requests_per_instance}
 
 ---
 
@@ -2264,7 +2355,7 @@ but required if RATE mode. For RATE mode, either maxRate or one
 of maxRatePerInstance or maxRatePerEndpoint, as appropriate for
 group type, must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_rate GoogleComputeBackendService#max_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_rate GoogleComputeBackendService#max_rate}
 
 ---
 
@@ -2282,7 +2373,7 @@ This is used to calculate the capacity of
 the group. Can be used in either balancing mode. For RATE mode,
 either maxRate or maxRatePerEndpoint must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_rate_per_endpoint GoogleComputeBackendService#max_rate_per_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_rate_per_endpoint GoogleComputeBackendService#max_rate_per_endpoint}
 
 ---
 
@@ -2300,7 +2391,7 @@ This is used to calculate the capacity of
 the group. Can be used in either balancing mode. For RATE mode,
 either maxRate or maxRatePerInstance must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_rate_per_instance GoogleComputeBackendService#max_rate_per_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_rate_per_instance GoogleComputeBackendService#max_rate_per_instance}
 
 ---
 
@@ -2314,7 +2405,7 @@ public readonly maxUtilization: number;
 
 Used when balancingMode is UTILIZATION. This ratio defines the CPU utilization target for the group. Valid range is [0.0, 1.0].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_utilization GoogleComputeBackendService#max_utilization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_utilization GoogleComputeBackendService#max_utilization}
 
 ---
 
@@ -2334,7 +2425,23 @@ This field cannot be set when loadBalancingScheme is set to 'EXTERNAL'. The poss
   - DEFAULT: If preferred backends don't have enough capacity, backends in this layer would be used and
     traffic would be assigned based on the load balancing algorithm you use. This is the default Possible values: ["PREFERRED", "DEFAULT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#preference GoogleComputeBackendService#preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#preference GoogleComputeBackendService#preference}
+
+---
+
+##### `trafficDuration`<sup>Optional</sup> <a name="trafficDuration" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend.property.trafficDuration"></a>
+
+```typescript
+public readonly trafficDuration: string;
+```
+
+- *Type:* string
+
+This field specifies how long a connection should be kept alive for: - LONG: Most of the requests are expected to take more than multiple   seconds to finish.
+
+SHORT: Most requests are expected to finish with a sub-second latency. Possible values: ["LONG", "SHORT"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#traffic_duration GoogleComputeBackendService#traffic_duration}
 
 ---
 
@@ -2368,7 +2475,7 @@ public readonly dryRun: boolean | IResolvable;
 
 If true, the metric data is collected and reported to Cloud Monitoring, but is not used for load balancing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#dry_run GoogleComputeBackendService#dry_run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#dry_run GoogleComputeBackendService#dry_run}
 
 ---
 
@@ -2392,7 +2499,7 @@ field can only be used for a global or regional backend service with the
 loadBalancingScheme set to <code>EXTERNAL_MANAGED</code>,
 <code>INTERNAL_MANAGED</code> <code>INTERNAL_SELF_MANAGED</code>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
 
 ---
 
@@ -2406,7 +2513,7 @@ public readonly maxUtilization: number;
 
 Optional parameter to define a target utilization for the Custom Metrics balancing mode. The valid range is <code>[0.0, 1.0]</code>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_utilization GoogleComputeBackendService#max_utilization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_utilization GoogleComputeBackendService#max_utilization}
 
 ---
 
@@ -2448,7 +2555,7 @@ public readonly bypassCacheOnRequestHeaders: IResolvable | GoogleComputeBackendS
 
 bypass_cache_on_request_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#bypass_cache_on_request_headers GoogleComputeBackendService#bypass_cache_on_request_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#bypass_cache_on_request_headers GoogleComputeBackendService#bypass_cache_on_request_headers}
 
 ---
 
@@ -2462,7 +2569,7 @@ public readonly cacheKeyPolicy: GoogleComputeBackendServiceCdnPolicyCacheKeyPoli
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#cache_key_policy GoogleComputeBackendService#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#cache_key_policy GoogleComputeBackendService#cache_key_policy}
 
 ---
 
@@ -2478,7 +2585,7 @@ Specifies the cache setting for all responses from this backend.
 
 The possible values are: USE_ORIGIN_HEADERS, FORCE_CACHE_ALL and CACHE_ALL_STATIC Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#cache_mode GoogleComputeBackendService#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#cache_mode GoogleComputeBackendService#cache_mode}
 
 ---
 
@@ -2492,7 +2599,7 @@ public readonly clientTtl: number;
 
 Specifies the maximum allowed TTL for cached content served by this origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#client_ttl GoogleComputeBackendService#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#client_ttl GoogleComputeBackendService#client_ttl}
 
 ---
 
@@ -2506,7 +2613,7 @@ public readonly defaultTtl: number;
 
 Specifies the default TTL for cached content served by this origin for responses that do not have an existing valid TTL (max-age or s-max-age).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#default_ttl GoogleComputeBackendService#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#default_ttl GoogleComputeBackendService#default_ttl}
 
 ---
 
@@ -2520,7 +2627,7 @@ public readonly maxTtl: number;
 
 Specifies the maximum allowed TTL for cached content served by this origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_ttl GoogleComputeBackendService#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_ttl GoogleComputeBackendService#max_ttl}
 
 ---
 
@@ -2534,7 +2641,7 @@ public readonly negativeCaching: boolean | IResolvable;
 
 Negative caching allows per-status code TTLs to be set, in order to apply fine-grained caching for common errors or redirects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#negative_caching GoogleComputeBackendService#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#negative_caching GoogleComputeBackendService#negative_caching}
 
 ---
 
@@ -2548,7 +2655,7 @@ public readonly negativeCachingPolicy: IResolvable | GoogleComputeBackendService
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#negative_caching_policy GoogleComputeBackendService#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#negative_caching_policy GoogleComputeBackendService#negative_caching_policy}
 
 ---
 
@@ -2562,7 +2669,7 @@ public readonly requestCoalescing: boolean | IResolvable;
 
 If true then Cloud CDN will combine multiple concurrent cache fill requests into a small number of requests to the origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#request_coalescing GoogleComputeBackendService#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#request_coalescing GoogleComputeBackendService#request_coalescing}
 
 ---
 
@@ -2576,7 +2683,7 @@ public readonly serveWhileStale: number;
 
 Serve existing content from the cache (if available) when revalidating content with the origin, or when an error is encountered when refreshing the cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#serve_while_stale GoogleComputeBackendService#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#serve_while_stale GoogleComputeBackendService#serve_while_stale}
 
 ---
 
@@ -2600,7 +2707,7 @@ internally behave as though all responses from this backend had a
 existing Cache-Control header. The actual headers served in
 responses will not be altered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#signed_url_cache_max_age_sec GoogleComputeBackendService#signed_url_cache_max_age_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#signed_url_cache_max_age_sec GoogleComputeBackendService#signed_url_cache_max_age_sec}
 
 ---
 
@@ -2632,7 +2739,7 @@ public readonly headerName: string;
 
 The header field name to match on when bypassing cache. Values are case-insensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#header_name GoogleComputeBackendService#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#header_name GoogleComputeBackendService#header_name}
 
 ---
 
@@ -2670,7 +2777,7 @@ public readonly includeHost: boolean | IResolvable;
 
 If true requests to different hosts will be cached separately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#include_host GoogleComputeBackendService#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#include_host GoogleComputeBackendService#include_host}
 
 ---
 
@@ -2684,7 +2791,7 @@ public readonly includeHttpHeaders: string[];
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#include_http_headers GoogleComputeBackendService#include_http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#include_http_headers GoogleComputeBackendService#include_http_headers}
 
 ---
 
@@ -2698,7 +2805,7 @@ public readonly includeNamedCookies: string[];
 
 Names of cookies to include in cache keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#include_named_cookies GoogleComputeBackendService#include_named_cookies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#include_named_cookies GoogleComputeBackendService#include_named_cookies}
 
 ---
 
@@ -2712,7 +2819,7 @@ public readonly includeProtocol: boolean | IResolvable;
 
 If true, http and https requests will be cached separately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#include_protocol GoogleComputeBackendService#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#include_protocol GoogleComputeBackendService#include_protocol}
 
 ---
 
@@ -2732,7 +2839,7 @@ string will be included.
 If false, the query string will be excluded from the cache
 key entirely.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#include_query_string GoogleComputeBackendService#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#include_query_string GoogleComputeBackendService#include_query_string}
 
 ---
 
@@ -2751,7 +2858,7 @@ query_string_whitelist or query_string_blacklist, not both.
 '&' and '=' will be percent encoded and not treated as
 delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#query_string_blacklist GoogleComputeBackendService#query_string_blacklist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#query_string_blacklist GoogleComputeBackendService#query_string_blacklist}
 
 ---
 
@@ -2770,7 +2877,7 @@ query_string_whitelist or query_string_blacklist, not both.
 '&' and '=' will be percent encoded and not treated as
 delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#query_string_whitelist GoogleComputeBackendService#query_string_whitelist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#query_string_whitelist GoogleComputeBackendService#query_string_whitelist}
 
 ---
 
@@ -2806,7 +2913,7 @@ The HTTP status code to define a TTL against.
 Only HTTP status codes 300, 301, 308, 404, 405, 410, 421, 451 and 501
 can be specified as values, and you cannot specify a status code more than once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#code GoogleComputeBackendService#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#code GoogleComputeBackendService#code}
 
 ---
 
@@ -2823,7 +2930,7 @@ The TTL (in seconds) for which to cache responses with the corresponding status 
 The maximum allowed value is 1800s
 (30 minutes), noting that infrequently accessed objects may be evicted from the cache before the defined TTL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#ttl GoogleComputeBackendService#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#ttl GoogleComputeBackendService#ttl}
 
 ---
 
@@ -2860,7 +2967,7 @@ public readonly connectTimeout: GoogleComputeBackendServiceCircuitBreakersConnec
 
 connect_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#connect_timeout GoogleComputeBackendService#connect_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#connect_timeout GoogleComputeBackendService#connect_timeout}
 
 ---
 
@@ -2874,7 +2981,7 @@ public readonly maxConnections: number;
 
 The maximum number of connections to the backend cluster. Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_connections GoogleComputeBackendService#max_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_connections GoogleComputeBackendService#max_connections}
 
 ---
 
@@ -2888,7 +2995,7 @@ public readonly maxPendingRequests: number;
 
 The maximum number of pending requests to the backend cluster. Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_pending_requests GoogleComputeBackendService#max_pending_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_pending_requests GoogleComputeBackendService#max_pending_requests}
 
 ---
 
@@ -2902,7 +3009,7 @@ public readonly maxRequests: number;
 
 The maximum number of parallel requests to the backend cluster. Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_requests GoogleComputeBackendService#max_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_requests GoogleComputeBackendService#max_requests}
 
 ---
 
@@ -2921,7 +3028,7 @@ is respected by both the HTTP/1.1 and HTTP/2 implementations. If
 not specified, there is no limit. Setting this parameter to 1
 will effectively disable keep alive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_requests_per_connection GoogleComputeBackendService#max_requests_per_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_requests_per_connection GoogleComputeBackendService#max_requests_per_connection}
 
 ---
 
@@ -2935,7 +3042,7 @@ public readonly maxRetries: number;
 
 The maximum number of parallel retries to the backend cluster. Defaults to 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_retries GoogleComputeBackendService#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_retries GoogleComputeBackendService#max_retries}
 
 ---
 
@@ -2968,7 +3075,7 @@ public readonly seconds: number;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
 
 ---
 
@@ -2986,7 +3093,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
 
 ---
 
@@ -3030,7 +3137,7 @@ const googleComputeBackendServiceConfig: googleComputeBackendService.GoogleCompu
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.externalManagedMigrationTestingPercentage">externalManagedMigrationTestingPercentage</a></code> | <code>number</code> | Determines the fraction of requests that should be processed by the Global external Application Load Balancer. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.healthChecks">healthChecks</a></code> | <code>string[]</code> | The set of URLs to the HttpHealthCheck or HttpsHealthCheck resource for health checking this BackendService. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.iap">iap</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceIap">GoogleComputeBackendServiceIap</a></code> | iap block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#id GoogleComputeBackendService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#id GoogleComputeBackendService#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.ipAddressSelectionPolicy">ipAddressSelectionPolicy</a></code> | <code>string</code> | Specifies preference of traffic to the backend (from the proxy and from the client for proxyless gRPC). |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.loadBalancingScheme">loadBalancingScheme</a></code> | <code>string</code> | Indicates whether the backend service will be used with internal or external load balancing. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.localityLbPolicies">localityLbPolicies</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceLocalityLbPolicies">GoogleComputeBackendServiceLocalityLbPolicies</a>[]</code> | locality_lb_policies block. |
@@ -3039,8 +3146,9 @@ const googleComputeBackendServiceConfig: googleComputeBackendService.GoogleCompu
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceMaxStreamDuration">GoogleComputeBackendServiceMaxStreamDuration</a></code> | max_stream_duration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.networkPassThroughLbTrafficPolicy">networkPassThroughLbTrafficPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicy</a></code> | network_pass_through_lb_traffic_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.outlierDetection">outlierDetection</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceOutlierDetection">GoogleComputeBackendServiceOutlierDetection</a></code> | outlier_detection block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams">GoogleComputeBackendServiceParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.portName">portName</a></code> | <code>string</code> | Name of backend port. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#project GoogleComputeBackendService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#project GoogleComputeBackendService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.protocol">protocol</a></code> | <code>string</code> | The protocol this BackendService uses to communicate with backends. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.securityPolicy">securityPolicy</a></code> | <code>string</code> | The security policy associated with this backend service. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.securitySettings">securitySettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceSecuritySettings">GoogleComputeBackendServiceSecuritySettings</a></code> | security_settings block. |
@@ -3141,7 +3249,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
 
 ---
 
@@ -3161,7 +3269,7 @@ maximum allowed value for TTL is one day.
 
 When the load balancing scheme is INTERNAL, this field is not used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#affinity_cookie_ttl_sec GoogleComputeBackendService#affinity_cookie_ttl_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#affinity_cookie_ttl_sec GoogleComputeBackendService#affinity_cookie_ttl_sec}
 
 ---
 
@@ -3175,7 +3283,7 @@ public readonly backend: IResolvable | GoogleComputeBackendServiceBackend[];
 
 backend block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#backend GoogleComputeBackendService#backend}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#backend GoogleComputeBackendService#backend}
 
 ---
 
@@ -3189,7 +3297,7 @@ public readonly cdnPolicy: GoogleComputeBackendServiceCdnPolicy;
 
 cdn_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#cdn_policy GoogleComputeBackendService#cdn_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#cdn_policy GoogleComputeBackendService#cdn_policy}
 
 ---
 
@@ -3203,7 +3311,7 @@ public readonly circuitBreakers: GoogleComputeBackendServiceCircuitBreakers;
 
 circuit_breakers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#circuit_breakers GoogleComputeBackendService#circuit_breakers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#circuit_breakers GoogleComputeBackendService#circuit_breakers}
 
 ---
 
@@ -3217,7 +3325,7 @@ public readonly compressionMode: string;
 
 Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#compression_mode GoogleComputeBackendService#compression_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#compression_mode GoogleComputeBackendService#compression_mode}
 
 ---
 
@@ -3231,7 +3339,7 @@ public readonly connectionDrainingTimeoutSec: number;
 
 Time for which instance will be drained (not accept new connections, but still work to finish started).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#connection_draining_timeout_sec GoogleComputeBackendService#connection_draining_timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#connection_draining_timeout_sec GoogleComputeBackendService#connection_draining_timeout_sec}
 
 ---
 
@@ -3245,7 +3353,7 @@ public readonly consistentHash: GoogleComputeBackendServiceConsistentHash;
 
 consistent_hash block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#consistent_hash GoogleComputeBackendService#consistent_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#consistent_hash GoogleComputeBackendService#consistent_hash}
 
 ---
 
@@ -3259,7 +3367,7 @@ public readonly customMetrics: IResolvable | GoogleComputeBackendServiceCustomMe
 
 custom_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#custom_metrics GoogleComputeBackendService#custom_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#custom_metrics GoogleComputeBackendService#custom_metrics}
 
 ---
 
@@ -3273,7 +3381,7 @@ public readonly customRequestHeaders: string[];
 
 Headers that the HTTP/S load balancer should add to proxied requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#custom_request_headers GoogleComputeBackendService#custom_request_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#custom_request_headers GoogleComputeBackendService#custom_request_headers}
 
 ---
 
@@ -3287,7 +3395,7 @@ public readonly customResponseHeaders: string[];
 
 Headers that the HTTP/S load balancer should add to proxied responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#custom_response_headers GoogleComputeBackendService#custom_response_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#custom_response_headers GoogleComputeBackendService#custom_response_headers}
 
 ---
 
@@ -3301,7 +3409,7 @@ public readonly description: string;
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#description GoogleComputeBackendService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#description GoogleComputeBackendService#description}
 
 ---
 
@@ -3315,7 +3423,7 @@ public readonly dynamicForwarding: GoogleComputeBackendServiceDynamicForwarding;
 
 dynamic_forwarding block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#dynamic_forwarding GoogleComputeBackendService#dynamic_forwarding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#dynamic_forwarding GoogleComputeBackendService#dynamic_forwarding}
 
 ---
 
@@ -3329,7 +3437,7 @@ public readonly edgeSecurityPolicy: string;
 
 The resource URL for the edge security policy associated with this backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#edge_security_policy GoogleComputeBackendService#edge_security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#edge_security_policy GoogleComputeBackendService#edge_security_policy}
 
 ---
 
@@ -3343,7 +3451,7 @@ public readonly enableCdn: boolean | IResolvable;
 
 If true, enable Cloud CDN for this BackendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#enable_cdn GoogleComputeBackendService#enable_cdn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#enable_cdn GoogleComputeBackendService#enable_cdn}
 
 ---
 
@@ -3367,7 +3475,7 @@ scheme from EXTERNAL_MANAGED to EXTERNAL requires the state to be set to TEST_AL
 the same time. Optionally, the TEST_BY_PERCENTAGE state can be used to migrate some traffic
 back to EXTERNAL or PREPARE can be used to migrate all traffic back to EXTERNAL. Possible values: ["PREPARE", "TEST_BY_PERCENTAGE", "TEST_ALL_TRAFFIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#external_managed_migration_state GoogleComputeBackendService#external_managed_migration_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#external_managed_migration_state GoogleComputeBackendService#external_managed_migration_state}
 
 ---
 
@@ -3389,7 +3497,7 @@ see: Session Affinity.
 This value can only be set if the loadBalancingScheme in the backend service is set to
 EXTERNAL (when using the Classic ALB) and the migration state is TEST_BY_PERCENTAGE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#external_managed_migration_testing_percentage GoogleComputeBackendService#external_managed_migration_testing_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#external_managed_migration_testing_percentage GoogleComputeBackendService#external_managed_migration_testing_percentage}
 
 ---
 
@@ -3411,7 +3519,7 @@ or serverless NEG as a backend.
 
 For internal load balancing, a URL to a HealthCheck resource must be specified instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#health_checks GoogleComputeBackendService#health_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#health_checks GoogleComputeBackendService#health_checks}
 
 ---
 
@@ -3425,7 +3533,7 @@ public readonly iap: GoogleComputeBackendServiceIap;
 
 iap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#iap GoogleComputeBackendService#iap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#iap GoogleComputeBackendService#iap}
 
 ---
 
@@ -3437,7 +3545,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#id GoogleComputeBackendService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#id GoogleComputeBackendService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3456,7 +3564,7 @@ Specifies preference of traffic to the backend (from the proxy and from the clie
 
 Possible values: ["IPV4_ONLY", "PREFER_IPV6", "IPV6_ONLY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#ip_address_selection_policy GoogleComputeBackendService#ip_address_selection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#ip_address_selection_policy GoogleComputeBackendService#ip_address_selection_policy}
 
 ---
 
@@ -3474,7 +3582,7 @@ A backend service created for one type of
 load balancing cannot be used with the other. For more information, refer to
 [Choosing a load balancer](https://cloud.google.com/load-balancing/docs/backend-service). Default value: "EXTERNAL" Possible values: ["EXTERNAL", "INTERNAL_SELF_MANAGED", "INTERNAL_MANAGED", "EXTERNAL_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#load_balancing_scheme GoogleComputeBackendService#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#load_balancing_scheme GoogleComputeBackendService#load_balancing_scheme}
 
 ---
 
@@ -3488,7 +3596,7 @@ public readonly localityLbPolicies: IResolvable | GoogleComputeBackendServiceLoc
 
 locality_lb_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#locality_lb_policies GoogleComputeBackendService#locality_lb_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#locality_lb_policies GoogleComputeBackendService#locality_lb_policies}
 
 ---
 
@@ -3563,7 +3671,7 @@ Only ROUND_ROBIN and RING_HASH are supported when the backend service is referen
 by a URL map that is bound to target gRPC proxy that has validate_for_proxyless
 field set to true. Possible values: ["ROUND_ROBIN", "LEAST_REQUEST", "RING_HASH", "RANDOM", "ORIGINAL_DESTINATION", "MAGLEV", "WEIGHTED_MAGLEV", "WEIGHTED_ROUND_ROBIN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#locality_lb_policy GoogleComputeBackendService#locality_lb_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#locality_lb_policy GoogleComputeBackendService#locality_lb_policy}
 
 ---
 
@@ -3577,7 +3685,7 @@ public readonly logConfig: GoogleComputeBackendServiceLogConfig;
 
 log_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#log_config GoogleComputeBackendService#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#log_config GoogleComputeBackendService#log_config}
 
 ---
 
@@ -3591,7 +3699,7 @@ public readonly maxStreamDuration: GoogleComputeBackendServiceMaxStreamDuration;
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_stream_duration GoogleComputeBackendService#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_stream_duration GoogleComputeBackendService#max_stream_duration}
 
 ---
 
@@ -3605,7 +3713,7 @@ public readonly networkPassThroughLbTrafficPolicy: GoogleComputeBackendServiceNe
 
 network_pass_through_lb_traffic_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#network_pass_through_lb_traffic_policy GoogleComputeBackendService#network_pass_through_lb_traffic_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#network_pass_through_lb_traffic_policy GoogleComputeBackendService#network_pass_through_lb_traffic_policy}
 
 ---
 
@@ -3619,7 +3727,21 @@ public readonly outlierDetection: GoogleComputeBackendServiceOutlierDetection;
 
 outlier_detection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#outlier_detection GoogleComputeBackendService#outlier_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#outlier_detection GoogleComputeBackendService#outlier_detection}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceConfig.property.params"></a>
+
+```typescript
+public readonly params: GoogleComputeBackendServiceParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams">GoogleComputeBackendServiceParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#params GoogleComputeBackendService#params}
 
 ---
 
@@ -3637,7 +3759,7 @@ The same name should appear in the instance
 groups referenced by this service. Required when the load balancing
 scheme is EXTERNAL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#port_name GoogleComputeBackendService#port_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#port_name GoogleComputeBackendService#port_name}
 
 ---
 
@@ -3649,7 +3771,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#project GoogleComputeBackendService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#project GoogleComputeBackendService#project}.
 
 ---
 
@@ -3668,7 +3790,7 @@ or GRPC. Refer to the documentation for the load balancers or for Traffic Direct
 for more information. Must be set to GRPC when the backend service is referenced
 by a URL map that is bound to target gRPC proxy. Possible values: ["HTTP", "HTTPS", "HTTP2", "TCP", "SSL", "UDP", "GRPC", "UNSPECIFIED", "H2C"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#protocol GoogleComputeBackendService#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#protocol GoogleComputeBackendService#protocol}
 
 ---
 
@@ -3682,7 +3804,7 @@ public readonly securityPolicy: string;
 
 The security policy associated with this backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#security_policy GoogleComputeBackendService#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#security_policy GoogleComputeBackendService#security_policy}
 
 ---
 
@@ -3696,7 +3818,7 @@ public readonly securitySettings: GoogleComputeBackendServiceSecuritySettings;
 
 security_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#security_settings GoogleComputeBackendService#security_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#security_settings GoogleComputeBackendService#security_settings}
 
 ---
 
@@ -3710,7 +3832,7 @@ public readonly serviceLbPolicy: string;
 
 URL to networkservices.ServiceLbPolicy resource. Can only be set if load balancing scheme is EXTERNAL, EXTERNAL_MANAGED, INTERNAL_MANAGED or INTERNAL_SELF_MANAGED and the scope is global.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#service_lb_policy GoogleComputeBackendService#service_lb_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#service_lb_policy GoogleComputeBackendService#service_lb_policy}
 
 ---
 
@@ -3727,7 +3849,7 @@ Type of session affinity to use.
 The default is NONE. Session affinity is
 not applicable if the protocol is UDP. Possible values: ["NONE", "CLIENT_IP", "CLIENT_IP_PORT_PROTO", "CLIENT_IP_PROTO", "GENERATED_COOKIE", "HEADER_FIELD", "HTTP_COOKIE", "STRONG_COOKIE_AFFINITY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#session_affinity GoogleComputeBackendService#session_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#session_affinity GoogleComputeBackendService#session_affinity}
 
 ---
 
@@ -3741,7 +3863,7 @@ public readonly strongSessionAffinityCookie: GoogleComputeBackendServiceStrongSe
 
 strong_session_affinity_cookie block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#strong_session_affinity_cookie GoogleComputeBackendService#strong_session_affinity_cookie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#strong_session_affinity_cookie GoogleComputeBackendService#strong_session_affinity_cookie}
 
 ---
 
@@ -3755,7 +3877,7 @@ public readonly timeouts: GoogleComputeBackendServiceTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#timeouts GoogleComputeBackendService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#timeouts GoogleComputeBackendService#timeouts}
 
 ---
 
@@ -3773,7 +3895,7 @@ For more information see, [Backend service settings](https://cloud.google.com/co
 The default is 30 seconds.
 The full range of timeout values allowed goes from 1 through 2,147,483,647 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#timeout_sec GoogleComputeBackendService#timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#timeout_sec GoogleComputeBackendService#timeout_sec}
 
 ---
 
@@ -3787,7 +3909,7 @@ public readonly tlsSettings: GoogleComputeBackendServiceTlsSettings;
 
 tls_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#tls_settings GoogleComputeBackendService#tls_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#tls_settings GoogleComputeBackendService#tls_settings}
 
 ---
 
@@ -3821,7 +3943,7 @@ public readonly httpCookie: GoogleComputeBackendServiceConsistentHashHttpCookie;
 
 http_cookie block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#http_cookie GoogleComputeBackendService#http_cookie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#http_cookie GoogleComputeBackendService#http_cookie}
 
 ---
 
@@ -3837,7 +3959,7 @@ The hash based on the value of the specified header field.
 
 This field is applicable if the sessionAffinity is set to HEADER_FIELD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#http_header_name GoogleComputeBackendService#http_header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#http_header_name GoogleComputeBackendService#http_header_name}
 
 ---
 
@@ -3857,7 +3979,7 @@ is larger than the ring size, each host will be assigned a single
 virtual node.
 Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#minimum_ring_size GoogleComputeBackendService#minimum_ring_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#minimum_ring_size GoogleComputeBackendService#minimum_ring_size}
 
 ---
 
@@ -3891,7 +4013,7 @@ public readonly name: string;
 
 Name of the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
 
 ---
 
@@ -3905,7 +4027,7 @@ public readonly path: string;
 
 Path to set for the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#path GoogleComputeBackendService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#path GoogleComputeBackendService#path}
 
 ---
 
@@ -3919,7 +4041,7 @@ public readonly ttl: GoogleComputeBackendServiceConsistentHashHttpCookieTtl;
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#ttl GoogleComputeBackendService#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#ttl GoogleComputeBackendService#ttl}
 
 ---
 
@@ -3952,7 +4074,7 @@ public readonly seconds: number;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
 
 ---
 
@@ -3970,7 +4092,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
 
 ---
 
@@ -4003,7 +4125,7 @@ public readonly dryRun: boolean | IResolvable;
 
 If true, the metric data is not used for load balancing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#dry_run GoogleComputeBackendService#dry_run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#dry_run GoogleComputeBackendService#dry_run}
 
 ---
 
@@ -4027,7 +4149,7 @@ field can only be used for a global or regional backend service with the
 loadBalancingScheme set to <code>EXTERNAL_MANAGED</code>,
 <code>INTERNAL_MANAGED</code> <code>INTERNAL_SELF_MANAGED</code>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
 
 ---
 
@@ -4059,7 +4181,7 @@ public readonly ipPortSelection: GoogleComputeBackendServiceDynamicForwardingIpP
 
 ip_port_selection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#ip_port_selection GoogleComputeBackendService#ip_port_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#ip_port_selection GoogleComputeBackendService#ip_port_selection}
 
 ---
 
@@ -4091,7 +4213,7 @@ public readonly enabled: boolean | IResolvable;
 
 A boolean flag enabling IP:PORT based dynamic forwarding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#enabled GoogleComputeBackendService#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#enabled GoogleComputeBackendService#enabled}
 
 ---
 
@@ -4125,7 +4247,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether the serving infrastructure will authenticate and authorize all incoming requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#enabled GoogleComputeBackendService#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#enabled GoogleComputeBackendService#enabled}
 
 ---
 
@@ -4139,7 +4261,7 @@ public readonly oauth2ClientId: string;
 
 OAuth2 Client ID for IAP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#oauth2_client_id GoogleComputeBackendService#oauth2_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#oauth2_client_id GoogleComputeBackendService#oauth2_client_id}
 
 ---
 
@@ -4153,7 +4275,7 @@ public readonly oauth2ClientSecret: string;
 
 OAuth2 Client Secret for IAP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#oauth2_client_secret GoogleComputeBackendService#oauth2_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#oauth2_client_secret GoogleComputeBackendService#oauth2_client_secret}
 
 ---
 
@@ -4186,7 +4308,7 @@ public readonly customPolicy: GoogleComputeBackendServiceLocalityLbPoliciesCusto
 
 custom_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#custom_policy GoogleComputeBackendService#custom_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#custom_policy GoogleComputeBackendService#custom_policy}
 
 ---
 
@@ -4200,7 +4322,7 @@ public readonly policy: GoogleComputeBackendServiceLocalityLbPoliciesPolicy;
 
 policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#policy GoogleComputeBackendService#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#policy GoogleComputeBackendService#policy}
 
 ---
 
@@ -4241,7 +4363,7 @@ myorg.CustomLbPolicy). The maximum length is 256 characters.
 Note that specifying the same custom policy more than once for a
 backend is not a valid configuration and will be rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
 
 ---
 
@@ -4255,7 +4377,7 @@ public readonly data: string;
 
 An optional, arbitrary JSON object with configuration data, understood by a locally installed custom policy implementation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#data GoogleComputeBackendService#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#data GoogleComputeBackendService#data}
 
 ---
 
@@ -4323,7 +4445,7 @@ The possible values are:
             build times and host selection times. For more information about
             Maglev, refer to https://ai.google/research/pubs/pub44824 Possible values: ["ROUND_ROBIN", "LEAST_REQUEST", "RING_HASH", "RANDOM", "ORIGINAL_DESTINATION", "MAGLEV"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
 
 ---
 
@@ -4358,7 +4480,7 @@ public readonly enable: boolean | IResolvable;
 
 Whether to enable logging for the load balancer traffic served by this backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#enable GoogleComputeBackendService#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#enable GoogleComputeBackendService#enable}
 
 ---
 
@@ -4372,7 +4494,7 @@ public readonly optionalFields: string[];
 
 This field can only be specified if logging is enabled for this backend service and "logConfig.optionalMode" was set to CUSTOM. Contains a list of optional fields you want to include in the logs. For example: serverInstance, serverGkeDetails.cluster, serverGkeDetails.pod.podNamespace For example: orca_load_report, tls.protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#optional_fields GoogleComputeBackendService#optional_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#optional_fields GoogleComputeBackendService#optional_fields}
 
 ---
 
@@ -4386,7 +4508,7 @@ public readonly optionalMode: string;
 
 Specifies the optional logging mode for the load balancer traffic. Supported values: INCLUDE_ALL_OPTIONAL, EXCLUDE_ALL_OPTIONAL, CUSTOM. Possible values: ["INCLUDE_ALL_OPTIONAL", "EXCLUDE_ALL_OPTIONAL", "CUSTOM"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#optional_mode GoogleComputeBackendService#optional_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#optional_mode GoogleComputeBackendService#optional_mode}
 
 ---
 
@@ -4405,7 +4527,7 @@ the field must be in [0, 1]. This configures the sampling rate of requests to th
 where 1.0 means all logged requests are reported and 0.0 means no logged requests are reported.
 The default value is 1.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#sample_rate GoogleComputeBackendService#sample_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#sample_rate GoogleComputeBackendService#sample_rate}
 
 ---
 
@@ -4438,7 +4560,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
 
 ---
 
@@ -4455,7 +4577,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented with a 0 seconds field and a positive nanos field.
 Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
 
 ---
 
@@ -4487,7 +4609,7 @@ public readonly zonalAffinity: GoogleComputeBackendServiceNetworkPassThroughLbTr
 
 zonal_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#zonal_affinity GoogleComputeBackendService#zonal_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#zonal_affinity GoogleComputeBackendService#zonal_affinity}
 
 ---
 
@@ -4520,7 +4642,7 @@ public readonly spillover: string;
 
 This field indicates whether zonal affinity is enabled or not. Default value: "ZONAL_AFFINITY_DISABLED" Possible values: ["ZONAL_AFFINITY_DISABLED", "ZONAL_AFFINITY_SPILL_CROSS_ZONE", "ZONAL_AFFINITY_STAY_WITHIN_ZONE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#spillover GoogleComputeBackendService#spillover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#spillover GoogleComputeBackendService#spillover}
 
 ---
 
@@ -4540,7 +4662,7 @@ distributes new connections to all healthy endpoints in the local zone only. Whe
 of healthy backend endpoints in a zone to the count of backend endpoints in that same zone is below this
 threshold, the load balancer distributes all new connections to all healthy endpoints across all zones.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#spillover_ratio GoogleComputeBackendService#spillover_ratio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#spillover_ratio GoogleComputeBackendService#spillover_ratio}
 
 ---
 
@@ -4582,7 +4704,7 @@ public readonly baseEjectionTime: GoogleComputeBackendServiceOutlierDetectionBas
 
 base_ejection_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#base_ejection_time GoogleComputeBackendService#base_ejection_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#base_ejection_time GoogleComputeBackendService#base_ejection_time}
 
 ---
 
@@ -4600,7 +4722,7 @@ When the
 backend host is accessed over HTTP, a 5xx return code qualifies as an error.
 Defaults to 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#consecutive_errors GoogleComputeBackendService#consecutive_errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#consecutive_errors GoogleComputeBackendService#consecutive_errors}
 
 ---
 
@@ -4616,7 +4738,7 @@ The number of consecutive gateway failures (502, 503, 504 status or connection e
 
 Defaults to 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#consecutive_gateway_failure GoogleComputeBackendService#consecutive_gateway_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#consecutive_gateway_failure GoogleComputeBackendService#consecutive_gateway_failure}
 
 ---
 
@@ -4633,7 +4755,7 @@ The percentage chance that a host will be actually ejected when an outlier statu
 This setting can be used to disable
 ejection or to ramp it up slowly. Defaults to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#enforcing_consecutive_errors GoogleComputeBackendService#enforcing_consecutive_errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#enforcing_consecutive_errors GoogleComputeBackendService#enforcing_consecutive_errors}
 
 ---
 
@@ -4650,7 +4772,7 @@ The percentage chance that a host will be actually ejected when an outlier statu
 This setting can be
 used to disable ejection or to ramp it up slowly. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#enforcing_consecutive_gateway_failure GoogleComputeBackendService#enforcing_consecutive_gateway_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#enforcing_consecutive_gateway_failure GoogleComputeBackendService#enforcing_consecutive_gateway_failure}
 
 ---
 
@@ -4667,7 +4789,7 @@ The percentage chance that a host will be actually ejected when an outlier statu
 This setting can be used to
 disable ejection or to ramp it up slowly. Defaults to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#enforcing_success_rate GoogleComputeBackendService#enforcing_success_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#enforcing_success_rate GoogleComputeBackendService#enforcing_success_rate}
 
 ---
 
@@ -4681,7 +4803,7 @@ public readonly interval: GoogleComputeBackendServiceOutlierDetectionInterval;
 
 interval block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#interval GoogleComputeBackendService#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#interval GoogleComputeBackendService#interval}
 
 ---
 
@@ -4695,7 +4817,7 @@ public readonly maxEjectionPercent: number;
 
 Maximum percentage of hosts in the load balancing pool for the backend service that can be ejected. Defaults to 10%.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#max_ejection_percent GoogleComputeBackendService#max_ejection_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#max_ejection_percent GoogleComputeBackendService#max_ejection_percent}
 
 ---
 
@@ -4713,7 +4835,7 @@ If the number of hosts is less than this setting, outlier
 detection via success rate statistics is not performed for any host in the
 cluster. Defaults to 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#success_rate_minimum_hosts GoogleComputeBackendService#success_rate_minimum_hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#success_rate_minimum_hosts GoogleComputeBackendService#success_rate_minimum_hosts}
 
 ---
 
@@ -4731,7 +4853,7 @@ If the volume is lower than this setting, outlier
 detection via success rate statistics is not performed for that host. Defaults
 to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#success_rate_request_volume GoogleComputeBackendService#success_rate_request_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#success_rate_request_volume GoogleComputeBackendService#success_rate_request_volume}
 
 ---
 
@@ -4751,7 +4873,7 @@ success rate: mean - (stdev * success_rate_stdev_factor). This factor is divided
 by a thousand to get a double. That is, if the desired factor is 1.9, the
 runtime value should be 1900. Defaults to 1900.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#success_rate_stdev_factor GoogleComputeBackendService#success_rate_stdev_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#success_rate_stdev_factor GoogleComputeBackendService#success_rate_stdev_factor}
 
 ---
 
@@ -4784,7 +4906,7 @@ public readonly seconds: number;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
 
 ---
 
@@ -4802,7 +4924,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
 
 ---
 
@@ -4835,7 +4957,7 @@ public readonly seconds: number;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
 
 ---
 
@@ -4853,7 +4975,43 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
+
+---
+
+### GoogleComputeBackendServiceParams <a name="GoogleComputeBackendServiceParams" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams.Initializer"></a>
+
+```typescript
+import { googleComputeBackendService } from '@cdktn/provider-google-beta'
+
+const googleComputeBackendServiceParams: googleComputeBackendService.GoogleComputeBackendServiceParams = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | Resource manager tags to be bound to the backend service. |
+
+---
+
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+Resource manager tags to be bound to the backend service.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+and values are in the format tagValues/456.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#resource_manager_tags GoogleComputeBackendService#resource_manager_tags}
 
 ---
 
@@ -4887,7 +5045,7 @@ public readonly awsV4Authentication: GoogleComputeBackendServiceSecuritySettings
 
 aws_v4_authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#aws_v4_authentication GoogleComputeBackendService#aws_v4_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#aws_v4_authentication GoogleComputeBackendService#aws_v4_authentication}
 
 ---
 
@@ -4904,7 +5062,7 @@ ClientTlsPolicy is a resource that specifies how a client should authenticate co
 This resource itself does not affect
 configuration unless it is attached to a backend service resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#client_tls_policy GoogleComputeBackendService#client_tls_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#client_tls_policy GoogleComputeBackendService#client_tls_policy}
 
 ---
 
@@ -4921,7 +5079,7 @@ A list of alternate names to verify the subject identity in the certificate.
 If specified, the client will verify that the server certificate's subject
 alt name matches one of the specified values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#subject_alt_names GoogleComputeBackendService#subject_alt_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#subject_alt_names GoogleComputeBackendService#subject_alt_names}
 
 ---
 
@@ -4958,7 +5116,7 @@ The access key used for s3 bucket authentication.
 
 Required for updating or creating a backend that uses AWS v4 signature authentication, but will not be returned as part of the configuration when queried with a REST API GET request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#access_key GoogleComputeBackendService#access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#access_key GoogleComputeBackendService#access_key}
 
 ---
 
@@ -4972,7 +5130,7 @@ public readonly accessKeyId: string;
 
 The identifier of an access key used for s3 bucket authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#access_key_id GoogleComputeBackendService#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#access_key_id GoogleComputeBackendService#access_key_id}
 
 ---
 
@@ -4988,7 +5146,7 @@ The optional version identifier for the access key.
 
 You can use this to keep track of different iterations of your access key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#access_key_version GoogleComputeBackendService#access_key_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#access_key_version GoogleComputeBackendService#access_key_version}
 
 ---
 
@@ -5005,7 +5163,7 @@ The name of the cloud region of your origin.
 This is a free-form field with the name of the region your cloud uses to host your origin.
 For example, "us-east-1" for AWS or "us-ashburn-1" for OCI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#origin_region GoogleComputeBackendService#origin_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#origin_region GoogleComputeBackendService#origin_region}
 
 ---
 
@@ -5039,7 +5197,7 @@ public readonly name: string;
 
 Name of the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#name GoogleComputeBackendService#name}
 
 ---
 
@@ -5053,7 +5211,7 @@ public readonly path: string;
 
 Path to set for the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#path GoogleComputeBackendService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#path GoogleComputeBackendService#path}
 
 ---
 
@@ -5067,7 +5225,7 @@ public readonly ttl: GoogleComputeBackendServiceStrongSessionAffinityCookieTtl;
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#ttl GoogleComputeBackendService#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#ttl GoogleComputeBackendService#ttl}
 
 ---
 
@@ -5100,7 +5258,7 @@ public readonly seconds: number;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#seconds GoogleComputeBackendService#seconds}
 
 ---
 
@@ -5118,7 +5276,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#nanos GoogleComputeBackendService#nanos}
 
 ---
 
@@ -5136,9 +5294,9 @@ const googleComputeBackendServiceTimeouts: googleComputeBackendService.GoogleCom
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#create GoogleComputeBackendService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#delete GoogleComputeBackendService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#update GoogleComputeBackendService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#create GoogleComputeBackendService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#delete GoogleComputeBackendService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#update GoogleComputeBackendService#update}. |
 
 ---
 
@@ -5150,7 +5308,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#create GoogleComputeBackendService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#create GoogleComputeBackendService#create}.
 
 ---
 
@@ -5162,7 +5320,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#delete GoogleComputeBackendService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#delete GoogleComputeBackendService#delete}.
 
 ---
 
@@ -5174,7 +5332,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#update GoogleComputeBackendService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#update GoogleComputeBackendService#update}.
 
 ---
 
@@ -5208,7 +5366,7 @@ public readonly authenticationConfig: string;
 
 Reference to the BackendAuthenticationConfig resource from the networksecurity.googleapis.com namespace. Can be used in authenticating TLS connections to the backend, as specified by the authenticationMode field. Can only be specified if authenticationMode is not NONE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#authentication_config GoogleComputeBackendService#authentication_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#authentication_config GoogleComputeBackendService#authentication_config}
 
 ---
 
@@ -5222,7 +5380,7 @@ public readonly sni: string;
 
 Server Name Indication - see RFC3546 section 3.1. If set, the load balancer sends this string as the SNI hostname in the TLS connection to the backend, and requires that this string match a Subject Alternative Name (SAN) in the backend's server certificate. With a Regional Internet NEG backend, if the SNI is specified here, the load balancer uses it regardless of whether the Regional Internet NEG is specified with FQDN or IP address and port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#sni GoogleComputeBackendService#sni}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#sni GoogleComputeBackendService#sni}
 
 ---
 
@@ -5236,7 +5394,7 @@ public readonly subjectAltNames: IResolvable | GoogleComputeBackendServiceTlsSet
 
 subject_alt_names block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#subject_alt_names GoogleComputeBackendService#subject_alt_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#subject_alt_names GoogleComputeBackendService#subject_alt_names}
 
 ---
 
@@ -5269,7 +5427,7 @@ public readonly dnsName: string;
 
 The SAN specified as a DNS Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#dns_name GoogleComputeBackendService#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#dns_name GoogleComputeBackendService#dns_name}
 
 ---
 
@@ -5283,7 +5441,7 @@ public readonly uniformResourceIdentifier: string;
 
 The SAN specified as a URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service#uniform_resource_identifier GoogleComputeBackendService#uniform_resource_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service#uniform_resource_identifier GoogleComputeBackendService#uniform_resource_identifier}
 
 ---
 
@@ -6025,11 +6183,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxConnections">resetMaxConnections</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxConnectionsPerEndpoint">resetMaxConnectionsPerEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxConnectionsPerInstance">resetMaxConnectionsPerInstance</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxInFlightRequests">resetMaxInFlightRequests</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerEndpoint">resetMaxInFlightRequestsPerEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerInstance">resetMaxInFlightRequestsPerInstance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxRate">resetMaxRate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxRatePerEndpoint">resetMaxRatePerEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxRatePerInstance">resetMaxRatePerInstance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxUtilization">resetMaxUtilization</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetPreference">resetPreference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetTrafficDuration">resetTrafficDuration</a></code> | *No description.* |
 
 ---
 
@@ -6237,6 +6399,24 @@ public resetMaxConnectionsPerEndpoint(): void
 public resetMaxConnectionsPerInstance(): void
 ```
 
+##### `resetMaxInFlightRequests` <a name="resetMaxInFlightRequests" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxInFlightRequests"></a>
+
+```typescript
+public resetMaxInFlightRequests(): void
+```
+
+##### `resetMaxInFlightRequestsPerEndpoint` <a name="resetMaxInFlightRequestsPerEndpoint" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerEndpoint"></a>
+
+```typescript
+public resetMaxInFlightRequestsPerEndpoint(): void
+```
+
+##### `resetMaxInFlightRequestsPerInstance` <a name="resetMaxInFlightRequestsPerInstance" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerInstance"></a>
+
+```typescript
+public resetMaxInFlightRequestsPerInstance(): void
+```
+
 ##### `resetMaxRate` <a name="resetMaxRate" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetMaxRate"></a>
 
 ```typescript
@@ -6267,6 +6447,12 @@ public resetMaxUtilization(): void
 public resetPreference(): void
 ```
 
+##### `resetTrafficDuration` <a name="resetTrafficDuration" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.resetTrafficDuration"></a>
+
+```typescript
+public resetTrafficDuration(): void
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -6283,11 +6469,15 @@ public resetPreference(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxConnectionsInput">maxConnectionsInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxConnectionsPerEndpointInput">maxConnectionsPerEndpointInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxConnectionsPerInstanceInput">maxConnectionsPerInstanceInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsInput">maxInFlightRequestsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpointInput">maxInFlightRequestsPerEndpointInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstanceInput">maxInFlightRequestsPerInstanceInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRateInput">maxRateInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRatePerEndpointInput">maxRatePerEndpointInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRatePerInstanceInput">maxRatePerInstanceInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxUtilizationInput">maxUtilizationInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.preferenceInput">preferenceInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.trafficDurationInput">trafficDurationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.balancingMode">balancingMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.capacityScaler">capacityScaler</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
@@ -6295,11 +6485,15 @@ public resetPreference(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxConnections">maxConnections</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxConnectionsPerEndpoint">maxConnectionsPerEndpoint</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxConnectionsPerInstance">maxConnectionsPerInstance</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequests">maxInFlightRequests</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpoint">maxInFlightRequestsPerEndpoint</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstance">maxInFlightRequestsPerInstance</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRate">maxRate</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRatePerEndpoint">maxRatePerEndpoint</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRatePerInstance">maxRatePerInstance</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxUtilization">maxUtilization</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.preference">preference</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.trafficDuration">trafficDuration</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackend">GoogleComputeBackendServiceBackend</a></code> | *No description.* |
 
 ---
@@ -6418,6 +6612,36 @@ public readonly maxConnectionsPerInstanceInput: number;
 
 ---
 
+##### `maxInFlightRequestsInput`<sup>Optional</sup> <a name="maxInFlightRequestsInput" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsInput"></a>
+
+```typescript
+public readonly maxInFlightRequestsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `maxInFlightRequestsPerEndpointInput`<sup>Optional</sup> <a name="maxInFlightRequestsPerEndpointInput" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpointInput"></a>
+
+```typescript
+public readonly maxInFlightRequestsPerEndpointInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `maxInFlightRequestsPerInstanceInput`<sup>Optional</sup> <a name="maxInFlightRequestsPerInstanceInput" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstanceInput"></a>
+
+```typescript
+public readonly maxInFlightRequestsPerInstanceInput: number;
+```
+
+- *Type:* number
+
+---
+
 ##### `maxRateInput`<sup>Optional</sup> <a name="maxRateInput" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRateInput"></a>
 
 ```typescript
@@ -6462,6 +6686,16 @@ public readonly maxUtilizationInput: number;
 
 ```typescript
 public readonly preferenceInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficDurationInput`<sup>Optional</sup> <a name="trafficDurationInput" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.trafficDurationInput"></a>
+
+```typescript
+public readonly trafficDurationInput: string;
 ```
 
 - *Type:* string
@@ -6538,6 +6772,36 @@ public readonly maxConnectionsPerInstance: number;
 
 ---
 
+##### `maxInFlightRequests`<sup>Required</sup> <a name="maxInFlightRequests" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequests"></a>
+
+```typescript
+public readonly maxInFlightRequests: number;
+```
+
+- *Type:* number
+
+---
+
+##### `maxInFlightRequestsPerEndpoint`<sup>Required</sup> <a name="maxInFlightRequestsPerEndpoint" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpoint"></a>
+
+```typescript
+public readonly maxInFlightRequestsPerEndpoint: number;
+```
+
+- *Type:* number
+
+---
+
+##### `maxInFlightRequestsPerInstance`<sup>Required</sup> <a name="maxInFlightRequestsPerInstance" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstance"></a>
+
+```typescript
+public readonly maxInFlightRequestsPerInstance: number;
+```
+
+- *Type:* number
+
+---
+
 ##### `maxRate`<sup>Required</sup> <a name="maxRate" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.maxRate"></a>
 
 ```typescript
@@ -6582,6 +6846,16 @@ public readonly maxUtilization: number;
 
 ```typescript
 public readonly preference: string;
+```
+
+- *Type:* string
+
+---
+
+##### `trafficDuration`<sup>Required</sup> <a name="trafficDuration" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceBackendOutputReference.property.trafficDuration"></a>
+
+```typescript
+public readonly trafficDuration: string;
 ```
 
 - *Type:* string
@@ -15241,6 +15515,284 @@ public readonly internalValue: GoogleComputeBackendServiceOutlierDetection;
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceOutlierDetection">GoogleComputeBackendServiceOutlierDetection</a>
+
+---
+
+
+### GoogleComputeBackendServiceParamsOutputReference <a name="GoogleComputeBackendServiceParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeBackendService } from '@cdktn/provider-google-beta'
+
+new googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.resetResourceManagerTags"></a>
+
+```typescript
+public resetResourceManagerTags(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams">GoogleComputeBackendServiceParams</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```typescript
+public readonly resourceManagerTagsInput: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParamsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeBackendServiceParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendService.GoogleComputeBackendServiceParams">GoogleComputeBackendServiceParams</a>
 
 ---
 

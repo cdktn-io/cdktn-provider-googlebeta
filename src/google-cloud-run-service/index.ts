@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,11 +19,11 @@ export interface GoogleCloudRunServiceConfig extends cdktn.TerraformMetaArgument
   * (For legacy support, if 'template.metadata.name' is unset in state while
   * this field is set to false, the revision name will still autogenerate.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#autogenerate_revision_name GoogleCloudRunService#autogenerate_revision_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#autogenerate_revision_name GoogleCloudRunService#autogenerate_revision_name}
   */
   readonly autogenerateRevisionName?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ export interface GoogleCloudRunServiceConfig extends cdktn.TerraformMetaArgument
   /**
   * The location of the cloud run instance. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#location GoogleCloudRunService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#location GoogleCloudRunService#location}
   */
   readonly location: string;
   /**
@@ -41,35 +41,35 @@ export interface GoogleCloudRunServiceConfig extends cdktn.TerraformMetaArgument
   * for creation idempotence and configuration definition. Cannot be updated.
   * More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}
   */
   readonly project?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
   */
   readonly metadata?: GoogleCloudRunServiceMetadata;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#template GoogleCloudRunService#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#template GoogleCloudRunService#template}
   */
   readonly template?: GoogleCloudRunServiceTemplate;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeouts GoogleCloudRunService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeouts GoogleCloudRunService#timeouts}
   */
   readonly timeouts?: GoogleCloudRunServiceTimeouts;
   /**
   * traffic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#traffic GoogleCloudRunService#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#traffic GoogleCloudRunService#traffic}
   */
   readonly traffic?: GoogleCloudRunServiceTraffic[] | cdktn.IResolvable;
 }
@@ -390,7 +390,7 @@ export interface GoogleCloudRunServiceMetadata {
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -401,14 +401,14 @@ export interface GoogleCloudRunServiceMetadata {
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * In Cloud Run the namespace must be equal to either the
   * project ID or project number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
   */
   readonly namespace?: string;
 }
@@ -633,15 +633,16 @@ export interface GoogleCloudRunServiceTemplateMetadata {
   *   See https://cloud.google.com/sdk/gcloud/reference/run/deploy#--vpc-egress.
   * - 'run.googleapis.com/gpu-zonal-redundancy-disabled' sets
   *   [GPU zonal redundancy](https://cloud.google.com/run/docs/configuring/services/gpu-zonal-redundancy) for the Revision.
+  * - 'run.googleapis.com/health-check-disabled' disabled health checking containers during deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize
   * (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -649,14 +650,14 @@ export interface GoogleCloudRunServiceTemplateMetadata {
   * Is required when creating resources. Name is primarily intended
   * for creation idempotence and configuration definition. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
   * In Cloud Run the namespace must be equal to either the
   * project ID or project number. It will default to the resource's project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
   */
   readonly namespace?: string;
 }
@@ -850,7 +851,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKe
   * A Cloud Secret Manager secret version. Must be 'latest' for the latest
   * version or an integer for a specific version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
   */
   readonly key: string;
   /**
@@ -861,7 +862,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKe
   * If multiple alias definitions are needed, they must be separated by commas.
   * The alias definitions must be set on the run.googleapis.com/secrets annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
 }
@@ -970,7 +971,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom {
   /**
   * secret_key_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret_key_ref GoogleCloudRunService#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret_key_ref GoogleCloudRunService#secret_key_ref}
   */
   readonly secretKeyRef: GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -1053,19 +1054,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnv {
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
   * Defaults to "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
   */
   readonly value?: string;
   /**
   * value_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value_from GoogleCloudRunService#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value_from GoogleCloudRunService#value_from}
   */
   readonly valueFrom?: GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom;
 }
@@ -1241,7 +1242,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefL
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
 }
@@ -1324,13 +1325,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef 
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
   /**
   * local_object_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
   */
   readonly localObjectReference?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference;
 }
@@ -1445,7 +1446,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLoca
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
 }
@@ -1528,13 +1529,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef {
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
   /**
   * local_object_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
   */
   readonly localObjectReference?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference;
 }
@@ -1649,19 +1650,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFrom {
   /**
   * An optional identifier to prepend to each key in the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#prefix GoogleCloudRunService#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#prefix GoogleCloudRunService#prefix}
   */
   readonly prefix?: string;
   /**
   * config_map_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#config_map_ref GoogleCloudRunService#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#config_map_ref GoogleCloudRunService#config_map_ref}
   */
   readonly configMapRef?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef;
   /**
   * secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret_ref GoogleCloudRunService#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret_ref GoogleCloudRunService#secret_ref}
   */
   readonly secretRef?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef;
 }
@@ -1838,7 +1839,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc {
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
@@ -1846,7 +1847,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc {
   * (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md).
   * If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
   */
   readonly service?: string;
 }
@@ -1961,13 +1962,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet
   /**
   * The header field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
   * The header field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
   */
   readonly value?: string;
 }
@@ -2111,20 +2112,20 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet
   /**
   * Path to access on the HTTP server. If set, it should not be empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path?: string;
   /**
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
   */
   readonly httpHeaders?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktn.IResolvable;
 }
@@ -2269,7 +2270,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
   * Minimum consecutive failures for the probe to be considered failed after
   * having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
@@ -2277,14 +2278,14 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
   * initiated.
   * Defaults to 0 seconds. Minimum value is 0. Maximum value is 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe.
   * Default to 10 seconds. Minimum value is 1. Maximum value is 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
@@ -2292,19 +2293,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
   * Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
   * Must be smaller than period_seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
   */
   readonly grpc?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
   */
   readonly httpGet?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet;
 }
@@ -2535,19 +2536,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersPorts {
   /**
   * Port number the container listens on. This must be a valid port number (between 1 and 65535). Defaults to "8080".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#container_port GoogleCloudRunService#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#container_port GoogleCloudRunService#container_port}
   */
   readonly containerPort?: number;
   /**
   * If specified, used to specify which protocol to use. Allowed values are "http1" (HTTP/1) and "h2c" (HTTP/2 end-to-end). Defaults to "http1".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be "TCP". Defaults to "TCP".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#protocol GoogleCloudRunService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#protocol GoogleCloudRunService#protocol}
   */
   readonly protocol?: string;
 }
@@ -2719,13 +2720,528 @@ export class GoogleCloudRunServiceTemplateSpecContainersPortsList extends cdktn.
     return new GoogleCloudRunServiceTemplateSpecContainersPortsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc {
+  /**
+  * Port number to access on the container. Number must be in the range 1 to 65535.
+  * If not specified, defaults to the same value as container.ports[0].containerPort.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  */
+  readonly port?: number;
+  /**
+  * The name of the service to place in the gRPC HealthCheckRequest
+  * (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md).
+  * If this is not specified, the default behavior is defined by gRPC.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+  */
+  readonly service?: string;
+}
+
+export function googleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    port: cdktn.numberToTerraform(struct!.port),
+    service: cdktn.stringToTerraform(struct!.service),
+  }
+}
+
+
+export function googleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    port: {
+      value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service: {
+      value: cdktn.stringToHclTerraform(struct!.service),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._service !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.service = this._service;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._port = undefined;
+      this._service = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._port = value.port;
+      this._service = value.service;
+    }
+  }
+
+  // port - computed: true, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // service - computed: false, optional: true, required: false
+  private _service?: string; 
+  public get service() {
+    return this.getStringAttribute('service');
+  }
+  public set service(value: string) {
+    this._service = value;
+  }
+  public resetService() {
+    this._service = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceInput() {
+    return this._service;
+  }
+}
+export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet {
+  /**
+  * Path to access on the HTTP server. If set, it should not be empty string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  */
+  readonly path?: string;
+  /**
+  * Port number to access on the container. Number must be in the range 1 to 65535.
+  * If not specified, defaults to the same value as container.ports[0].containerPort.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  */
+  readonly port?: number;
+}
+
+export function googleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    path: cdktn.stringToTerraform(struct!.path),
+    port: cdktn.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function googleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    path: {
+      value: cdktn.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port: {
+      value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._path = undefined;
+      this._port = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._path = value.path;
+      this._port = value.port;
+    }
+  }
+
+  // path - computed: true, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
+  // port - computed: true, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
+export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbe {
+  /**
+  * Minimum consecutive failures for the probe to be considered failed after
+  * having succeeded. Defaults to 3.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+  */
+  readonly failureThreshold?: number;
+  /**
+  * How often (in seconds) to perform the probe.
+  * Default to 10 seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+  */
+  readonly periodSeconds?: number;
+  /**
+  * Minimum consecutive successes for the probe to be considered successful after having failed.
+  * Defaults to 2.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#success_threshold GoogleCloudRunService#success_threshold}
+  */
+  readonly successThreshold?: number;
+  /**
+  * Number of seconds after which the probe times out.
+  * Defaults to 1 second. Must be smaller than period_seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  */
+  readonly timeoutSeconds?: number;
+  /**
+  * grpc block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+  */
+  readonly grpc?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc;
+  /**
+  * http_get block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+  */
+  readonly httpGet?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet;
+}
+
+export function googleCloudRunServiceTemplateSpecContainersReadinessProbeToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbe): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    failure_threshold: cdktn.numberToTerraform(struct!.failureThreshold),
+    period_seconds: cdktn.numberToTerraform(struct!.periodSeconds),
+    success_threshold: cdktn.numberToTerraform(struct!.successThreshold),
+    timeout_seconds: cdktn.numberToTerraform(struct!.timeoutSeconds),
+    grpc: googleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcToTerraform(struct!.grpc),
+    http_get: googleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetToTerraform(struct!.httpGet),
+  }
+}
+
+
+export function googleCloudRunServiceTemplateSpecContainersReadinessProbeToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbe): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    failure_threshold: {
+      value: cdktn.numberToHclTerraform(struct!.failureThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    period_seconds: {
+      value: cdktn.numberToHclTerraform(struct!.periodSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    success_threshold: {
+      value: cdktn.numberToHclTerraform(struct!.successThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    timeout_seconds: {
+      value: cdktn.numberToHclTerraform(struct!.timeoutSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    grpc: {
+      value: googleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcToHclTerraform(struct!.grpc),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcList",
+    },
+    http_get: {
+      value: googleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetToHclTerraform(struct!.httpGet),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCloudRunServiceTemplateSpecContainersReadinessProbe | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._failureThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failureThreshold = this._failureThreshold;
+    }
+    if (this._periodSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.periodSeconds = this._periodSeconds;
+    }
+    if (this._successThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.successThreshold = this._successThreshold;
+    }
+    if (this._timeoutSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeoutSeconds = this._timeoutSeconds;
+    }
+    if (this._grpc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.grpc = this._grpc?.internalValue;
+    }
+    if (this._httpGet?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpGet = this._httpGet?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCloudRunServiceTemplateSpecContainersReadinessProbe | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._failureThreshold = undefined;
+      this._periodSeconds = undefined;
+      this._successThreshold = undefined;
+      this._timeoutSeconds = undefined;
+      this._grpc.internalValue = undefined;
+      this._httpGet.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._failureThreshold = value.failureThreshold;
+      this._periodSeconds = value.periodSeconds;
+      this._successThreshold = value.successThreshold;
+      this._timeoutSeconds = value.timeoutSeconds;
+      this._grpc.internalValue = value.grpc;
+      this._httpGet.internalValue = value.httpGet;
+    }
+  }
+
+  // failure_threshold - computed: true, optional: true, required: false
+  private _failureThreshold?: number; 
+  public get failureThreshold() {
+    return this.getNumberAttribute('failure_threshold');
+  }
+  public set failureThreshold(value: number) {
+    this._failureThreshold = value;
+  }
+  public resetFailureThreshold() {
+    this._failureThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failureThresholdInput() {
+    return this._failureThreshold;
+  }
+
+  // period_seconds - computed: true, optional: true, required: false
+  private _periodSeconds?: number; 
+  public get periodSeconds() {
+    return this.getNumberAttribute('period_seconds');
+  }
+  public set periodSeconds(value: number) {
+    this._periodSeconds = value;
+  }
+  public resetPeriodSeconds() {
+    this._periodSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodSecondsInput() {
+    return this._periodSeconds;
+  }
+
+  // success_threshold - computed: true, optional: true, required: false
+  private _successThreshold?: number; 
+  public get successThreshold() {
+    return this.getNumberAttribute('success_threshold');
+  }
+  public set successThreshold(value: number) {
+    this._successThreshold = value;
+  }
+  public resetSuccessThreshold() {
+    this._successThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get successThresholdInput() {
+    return this._successThreshold;
+  }
+
+  // timeout_seconds - computed: true, optional: true, required: false
+  private _timeoutSeconds?: number; 
+  public get timeoutSeconds() {
+    return this.getNumberAttribute('timeout_seconds');
+  }
+  public set timeoutSeconds(value: number) {
+    this._timeoutSeconds = value;
+  }
+  public resetTimeoutSeconds() {
+    this._timeoutSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutSecondsInput() {
+    return this._timeoutSeconds;
+  }
+
+  // grpc - computed: false, optional: true, required: false
+  private _grpc = new GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference(this, "grpc");
+  public get grpc() {
+    return this._grpc;
+  }
+  public putGrpc(value: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc) {
+    this._grpc.internalValue = value;
+  }
+  public resetGrpc() {
+    this._grpc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get grpcInput() {
+    return this._grpc.internalValue;
+  }
+
+  // http_get - computed: false, optional: true, required: false
+  private _httpGet = new GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference(this, "http_get");
+  public get httpGet() {
+    return this._httpGet;
+  }
+  public putHttpGet(value: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet) {
+    this._httpGet.internalValue = value;
+  }
+  public resetHttpGet() {
+    this._httpGet.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpGetInput() {
+    return this._httpGet.internalValue;
+  }
+}
 export interface GoogleCloudRunServiceTemplateSpecContainersResources {
   /**
   * Limits describes the maximum amount of compute resources allowed.
+  * CPU Limit details:
+  * - For fractional CPU values (e.g. '0.5', '0.75', min '0.08') are also supported.
+  * - CPU allocation must comply with memory limits and concurrency rules described in:
+  *   https://cloud.google.com/run/docs/configuring/services/cpu
   * The values of the map is string form of the 'quantity' k8s type:
   * https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#limits GoogleCloudRunService#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#limits GoogleCloudRunService#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
@@ -2735,7 +3251,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersResources {
   * The values of the map is string form of the 'quantity' k8s type:
   * https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#requests GoogleCloudRunService#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#requests GoogleCloudRunService#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2851,7 +3367,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc {
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
@@ -2859,7 +3375,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc {
   * (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md).
   * If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
   */
   readonly service?: string;
 }
@@ -2974,13 +3490,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetH
   /**
   * The header field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
   * The header field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
   */
   readonly value?: string;
 }
@@ -3124,20 +3640,20 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet 
   /**
   * Path to access on the HTTP server. If set, it should not be empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path?: string;
   /**
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
   */
   readonly httpHeaders?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable;
 }
@@ -3282,7 +3798,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocke
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
 }
@@ -3369,7 +3885,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
   * Minimum consecutive failures for the probe to be considered failed after
   * having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
@@ -3377,14 +3893,14 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
   * initiated.
   * Defaults to 0 seconds. Minimum value is 0. Maximum value is 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe.
   * Default to 10 seconds. Minimum value is 1. Maximum value is 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
@@ -3392,25 +3908,25 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
   * Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
   * Must be smaller than periodSeconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
   */
   readonly grpc?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
   */
   readonly httpGet?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#tcp_socket GoogleCloudRunService#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#tcp_socket GoogleCloudRunService#tcp_socket}
   */
   readonly tcpSocket?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket;
 }
@@ -3671,15 +4187,21 @@ export interface GoogleCloudRunServiceTemplateSpecContainersVolumeMounts {
   * Path within the container at which the volume should be mounted.  Must
   * not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#mount_path GoogleCloudRunService#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#mount_path GoogleCloudRunService#mount_path}
   */
   readonly mountPath: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
+  /**
+  * Path within the volume from which the container's volume should be mounted.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#sub_path GoogleCloudRunService#sub_path}
+  */
+  readonly subPath?: string;
 }
 
 export function googleCloudRunServiceTemplateSpecContainersVolumeMountsToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersVolumeMounts | cdktn.IResolvable): any {
@@ -3690,6 +4212,7 @@ export function googleCloudRunServiceTemplateSpecContainersVolumeMountsToTerrafo
   return {
     mount_path: cdktn.stringToTerraform(struct!.mountPath),
     name: cdktn.stringToTerraform(struct!.name),
+    sub_path: cdktn.stringToTerraform(struct!.subPath),
   }
 }
 
@@ -3708,6 +4231,12 @@ export function googleCloudRunServiceTemplateSpecContainersVolumeMountsToHclTerr
     },
     name: {
       value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sub_path: {
+      value: cdktn.stringToHclTerraform(struct!.subPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3746,6 +4275,10 @@ export class GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputRefere
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._subPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subPath = this._subPath;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3755,6 +4288,7 @@ export class GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputRefere
       this.resolvableValue = undefined;
       this._mountPath = undefined;
       this._name = undefined;
+      this._subPath = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -3765,6 +4299,7 @@ export class GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputRefere
       this.resolvableValue = undefined;
       this._mountPath = value.mountPath;
       this._name = value.name;
+      this._subPath = value.subPath;
     }
   }
 
@@ -3793,6 +4328,22 @@ export class GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputRefere
   public get nameInput() {
     return this._name;
   }
+
+  // sub_path - computed: false, optional: true, required: false
+  private _subPath?: string; 
+  public get subPath() {
+    return this.getStringAttribute('sub_path');
+  }
+  public set subPath(value: string) {
+    this._subPath = value;
+  }
+  public resetSubPath() {
+    this._subPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subPathInput() {
+    return this._subPath;
+  }
 }
 
 export class GoogleCloudRunServiceTemplateSpecContainersVolumeMountsList extends cdktn.ComplexList {
@@ -3819,27 +4370,27 @@ export interface GoogleCloudRunServiceTemplateSpecContainers {
   * Arguments to the entrypoint.
   * The docker image's CMD is used if this is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#args GoogleCloudRunService#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#args GoogleCloudRunService#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell.
   * The docker image's ENTRYPOINT is used if this is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#command GoogleCloudRunService#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#command GoogleCloudRunService#command}
   */
   readonly command?: string[];
   /**
   * Docker image name. This is most often a reference to a container located
   * in the container registry, such as gcr.io/cloudrun/hello
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#image GoogleCloudRunService#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#image GoogleCloudRunService#image}
   */
   readonly image: string;
   /**
   * Name of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
@@ -3847,49 +4398,55 @@ export interface GoogleCloudRunServiceTemplateSpecContainers {
   * If not specified, the container runtime's default will be used, which
   * might be configured in the container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#working_dir GoogleCloudRunService#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#working_dir GoogleCloudRunService#working_dir}
   */
   readonly workingDir?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#env GoogleCloudRunService#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#env GoogleCloudRunService#env}
   */
   readonly env?: GoogleCloudRunServiceTemplateSpecContainersEnv[] | cdktn.IResolvable;
   /**
   * env_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#env_from GoogleCloudRunService#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#env_from GoogleCloudRunService#env_from}
   */
   readonly envFrom?: GoogleCloudRunServiceTemplateSpecContainersEnvFrom[] | cdktn.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#liveness_probe GoogleCloudRunService#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#liveness_probe GoogleCloudRunService#liveness_probe}
   */
   readonly livenessProbe?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbe;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#ports GoogleCloudRunService#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#ports GoogleCloudRunService#ports}
   */
   readonly ports?: GoogleCloudRunServiceTemplateSpecContainersPorts[] | cdktn.IResolvable;
   /**
+  * readiness_probe block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#readiness_probe GoogleCloudRunService#readiness_probe}
+  */
+  readonly readinessProbe?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbe;
+  /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#resources GoogleCloudRunService#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#resources GoogleCloudRunService#resources}
   */
   readonly resources?: GoogleCloudRunServiceTemplateSpecContainersResources;
   /**
   * startup_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#startup_probe GoogleCloudRunService#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#startup_probe GoogleCloudRunService#startup_probe}
   */
   readonly startupProbe?: GoogleCloudRunServiceTemplateSpecContainersStartupProbe;
   /**
   * volume_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#volume_mounts GoogleCloudRunService#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#volume_mounts GoogleCloudRunService#volume_mounts}
   */
   readonly volumeMounts?: GoogleCloudRunServiceTemplateSpecContainersVolumeMounts[] | cdktn.IResolvable;
 }
@@ -3909,6 +4466,7 @@ export function googleCloudRunServiceTemplateSpecContainersToTerraform(struct?: 
     env_from: cdktn.listMapper(googleCloudRunServiceTemplateSpecContainersEnvFromToTerraform, true)(struct!.envFrom),
     liveness_probe: googleCloudRunServiceTemplateSpecContainersLivenessProbeToTerraform(struct!.livenessProbe),
     ports: cdktn.listMapper(googleCloudRunServiceTemplateSpecContainersPortsToTerraform, true)(struct!.ports),
+    readiness_probe: googleCloudRunServiceTemplateSpecContainersReadinessProbeToTerraform(struct!.readinessProbe),
     resources: googleCloudRunServiceTemplateSpecContainersResourcesToTerraform(struct!.resources),
     startup_probe: googleCloudRunServiceTemplateSpecContainersStartupProbeToTerraform(struct!.startupProbe),
     volume_mounts: cdktn.listMapper(googleCloudRunServiceTemplateSpecContainersVolumeMountsToTerraform, true)(struct!.volumeMounts),
@@ -3975,6 +4533,12 @@ export function googleCloudRunServiceTemplateSpecContainersToHclTerraform(struct
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunServiceTemplateSpecContainersPortsList",
+    },
+    readiness_probe: {
+      value: googleCloudRunServiceTemplateSpecContainersReadinessProbeToHclTerraform(struct!.readinessProbe),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCloudRunServiceTemplateSpecContainersReadinessProbeList",
     },
     resources: {
       value: googleCloudRunServiceTemplateSpecContainersResourcesToHclTerraform(struct!.resources),
@@ -4056,6 +4620,10 @@ export class GoogleCloudRunServiceTemplateSpecContainersOutputReference extends 
       hasAnyValues = true;
       internalValueResult.ports = this._ports?.internalValue;
     }
+    if (this._readinessProbe?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.readinessProbe = this._readinessProbe?.internalValue;
+    }
     if (this._resources?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.resources = this._resources?.internalValue;
@@ -4084,6 +4652,7 @@ export class GoogleCloudRunServiceTemplateSpecContainersOutputReference extends 
       this._envFrom.internalValue = undefined;
       this._livenessProbe.internalValue = undefined;
       this._ports.internalValue = undefined;
+      this._readinessProbe.internalValue = undefined;
       this._resources.internalValue = undefined;
       this._startupProbe.internalValue = undefined;
       this._volumeMounts.internalValue = undefined;
@@ -4104,6 +4673,7 @@ export class GoogleCloudRunServiceTemplateSpecContainersOutputReference extends 
       this._envFrom.internalValue = value.envFrom;
       this._livenessProbe.internalValue = value.livenessProbe;
       this._ports.internalValue = value.ports;
+      this._readinessProbe.internalValue = value.readinessProbe;
       this._resources.internalValue = value.resources;
       this._startupProbe.internalValue = value.startupProbe;
       this._volumeMounts.internalValue = value.volumeMounts;
@@ -4251,6 +4821,22 @@ export class GoogleCloudRunServiceTemplateSpecContainersOutputReference extends 
     return this._ports.internalValue;
   }
 
+  // readiness_probe - computed: false, optional: true, required: false
+  private _readinessProbe = new GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference(this, "readiness_probe");
+  public get readinessProbe() {
+    return this._readinessProbe;
+  }
+  public putReadinessProbe(value: GoogleCloudRunServiceTemplateSpecContainersReadinessProbe) {
+    this._readinessProbe.internalValue = value;
+  }
+  public resetReadinessProbe() {
+    this._readinessProbe.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get readinessProbeInput() {
+    return this._readinessProbe.internalValue;
+  }
+
   // resources - computed: false, optional: true, required: false
   private _resources = new GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference(this, "resources");
   public get resources() {
@@ -4325,13 +4911,13 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesCsi {
   *   * gcsfuse.run.googleapis.com: Mount a Google Cloud Storage bucket using GCSFuse. This driver requires the
   *     run.googleapis.com/execution-environment annotation to be unset or set to "gen2"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#driver GoogleCloudRunService#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#driver GoogleCloudRunService#driver}
   */
   readonly driver: string;
   /**
   * If true, all mounts created from this volume will be read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
@@ -4339,7 +4925,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesCsi {
   *   * gcsfuse.run.googleapis.com
   *     * bucketName: The name of the Cloud Storage Bucket that backs this volume. The Cloud Run Service identity must have access to this bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#volume_attributes GoogleCloudRunService#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#volume_attributes GoogleCloudRunService#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -4480,13 +5066,13 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesEmptyDir {
   /**
   * The medium on which the data is stored. The default is "" which means to use the node's default medium. Must be an empty string (default) or Memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#medium GoogleCloudRunService#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#medium GoogleCloudRunService#medium}
   */
   readonly medium?: string;
   /**
   * Limit on the storage usable by this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. This field's values are of the 'Quantity' k8s type: https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#size_limit GoogleCloudRunService#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#size_limit GoogleCloudRunService#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -4601,19 +5187,19 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesNfs {
   /**
   * Path exported by the NFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path: string;
   /**
   * If true, mount the NFS volume as read only in all mounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
   * IP address or hostname of the NFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#server GoogleCloudRunService#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#server GoogleCloudRunService#server}
   */
   readonly server: string;
 }
@@ -4752,7 +5338,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
   * The Cloud Secret Manager secret version.
   * Can be 'latest' for the latest value or an integer for a specific version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
   */
   readonly key: string;
   /**
@@ -4761,7 +5347,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
   * conflict with other options that affect the file mode, like fsGroup, and
   * the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#mode GoogleCloudRunService#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#mode GoogleCloudRunService#mode}
   */
   readonly mode?: number;
   /**
@@ -4770,7 +5356,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
   * May not contain the path element '..'.
   * May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path: string;
 }
@@ -4943,7 +5529,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecret {
   * this setting. This might be in conflict with other options that affect the
   * file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#default_mode GoogleCloudRunService#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#default_mode GoogleCloudRunService#default_mode}
   */
   readonly defaultMode?: number;
   /**
@@ -4957,13 +5543,13 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecret {
   * The alias definitions must be set on the run.googleapis.com/secrets
   * annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret_name GoogleCloudRunService#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret_name GoogleCloudRunService#secret_name}
   */
   readonly secretName: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#items GoogleCloudRunService#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#items GoogleCloudRunService#items}
   */
   readonly items?: GoogleCloudRunServiceTemplateSpecVolumesSecretItems[] | cdktn.IResolvable;
 }
@@ -5104,31 +5690,31 @@ export interface GoogleCloudRunServiceTemplateSpecVolumes {
   /**
   * Volume's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
   * csi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#csi GoogleCloudRunService#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#csi GoogleCloudRunService#csi}
   */
   readonly csi?: GoogleCloudRunServiceTemplateSpecVolumesCsi;
   /**
   * empty_dir block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#empty_dir GoogleCloudRunService#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#empty_dir GoogleCloudRunService#empty_dir}
   */
   readonly emptyDir?: GoogleCloudRunServiceTemplateSpecVolumesEmptyDir;
   /**
   * nfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#nfs GoogleCloudRunService#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#nfs GoogleCloudRunService#nfs}
   */
   readonly nfs?: GoogleCloudRunServiceTemplateSpecVolumesNfs;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret GoogleCloudRunService#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret GoogleCloudRunService#secret}
   */
   readonly secret?: GoogleCloudRunServiceTemplateSpecVolumesSecret;
 }
@@ -5361,7 +5947,7 @@ export interface GoogleCloudRunServiceTemplateSpec {
   * requests per container of the Revision. If not specified or 0, defaults to 80 when
   * requested CPU >= 1 and defaults to 1 when requested CPU < 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#container_concurrency GoogleCloudRunService#container_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#container_concurrency GoogleCloudRunService#container_concurrency}
   */
   readonly containerConcurrency?: number;
   /**
@@ -5369,7 +5955,7 @@ export interface GoogleCloudRunServiceTemplateSpec {
   * Use the following node selector keys to configure features on a Revision:
   *   - 'run.googleapis.com/accelerator' sets the [type of GPU](https://cloud.google.com/run/docs/configuring/services/gpu) required by the Revision to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#node_selector GoogleCloudRunService#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#node_selector GoogleCloudRunService#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
@@ -5378,25 +5964,25 @@ export interface GoogleCloudRunServiceTemplateSpec {
   * and determines what permissions the revision has. If not provided, the revision
   * will use the project's default service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#service_account_name GoogleCloudRunService#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service_account_name GoogleCloudRunService#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * TimeoutSeconds holds the max duration the instance is allowed for responding to a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#containers GoogleCloudRunService#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#containers GoogleCloudRunService#containers}
   */
   readonly containers?: GoogleCloudRunServiceTemplateSpecContainers[] | cdktn.IResolvable;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#volumes GoogleCloudRunService#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#volumes GoogleCloudRunService#volumes}
   */
   readonly volumes?: GoogleCloudRunServiceTemplateSpecVolumes[] | cdktn.IResolvable;
 }
@@ -5632,13 +6218,13 @@ export interface GoogleCloudRunServiceTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
   */
   readonly metadata?: GoogleCloudRunServiceTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#spec GoogleCloudRunService#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#spec GoogleCloudRunService#spec}
   */
   readonly spec?: GoogleCloudRunServiceTemplateSpec;
 }
@@ -5751,15 +6337,15 @@ export class GoogleCloudRunServiceTemplateOutputReference extends cdktn.ComplexO
 }
 export interface GoogleCloudRunServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}
   */
   readonly update?: string;
 }
@@ -5916,25 +6502,25 @@ export interface GoogleCloudRunServiceTraffic {
   * provided LatestRevision must be true if RevisionName is empty; it must be
   * false when RevisionName is non-empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#latest_revision GoogleCloudRunService#latest_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#latest_revision GoogleCloudRunService#latest_revision}
   */
   readonly latestRevision?: boolean | cdktn.IResolvable;
   /**
   * Percent specifies percent of the traffic to this Revision or Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#percent GoogleCloudRunService#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#percent GoogleCloudRunService#percent}
   */
   readonly percent: number;
   /**
   * RevisionName of a specific revision to which to send this portion of traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#revision_name GoogleCloudRunService#revision_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#revision_name GoogleCloudRunService#revision_name}
   */
   readonly revisionName?: string;
   /**
   * Tag is optionally used to expose a dedicated url for referencing this target exclusively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#tag GoogleCloudRunService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#tag GoogleCloudRunService#tag}
   */
   readonly tag?: string;
 }
@@ -6139,7 +6725,7 @@ export class GoogleCloudRunServiceTrafficList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service google_cloud_run_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service google_cloud_run_service}
 */
 export class GoogleCloudRunService extends cdktn.TerraformResource {
 
@@ -6155,7 +6741,7 @@ export class GoogleCloudRunService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCloudRunService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCloudRunService to import
-  * @param importFromId The id of the existing GoogleCloudRunService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCloudRunService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCloudRunService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6167,7 +6753,7 @@ export class GoogleCloudRunService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service google_cloud_run_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service google_cloud_run_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6178,8 +6764,8 @@ export class GoogleCloudRunService extends cdktn.TerraformResource {
       terraformResourceType: 'google_cloud_run_service',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

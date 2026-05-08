@@ -4,12 +4,12 @@
 
 ### GoogleTagsTagValue <a name="GoogleTagsTagValue" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value google_tags_tag_value}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value google_tags_tag_value}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 googletagstagvalue.NewGoogleTagsTagValue(scope Construct, id *string, config GoogleTagsTagValueConfig) GoogleTagsTagValue
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValue.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 googletagstagvalue.GoogleTagsTagValue_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValue.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 googletagstagvalue.GoogleTagsTagValue_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googletagstagvalue.GoogleTagsTagValue_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValue.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 googletagstagvalue.GoogleTagsTagValue_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googletagstagvalue.GoogleTagsTagValue_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValue.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 googletagstagvalue.GoogleTagsTagValue_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleTagsTagValue to impo
 
 The id of the existing GoogleTagsTagValue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 &googletagstagvalue.GoogleTagsTagValueConfig {
 	Connection: interface{},
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleta
 	ShortName: *string,
 	Description: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleTagsTagValue.GoogleTagsTagValueTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleTagsTagValue.GoogleTagsTagValueTimeouts,
 }
 ```
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleta
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueConfig.property.parent">Parent</a></code> | <code>*string</code> | Input only. The resource name of the new TagValue's parent. Must be of the form tagKeys/{tag_key_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueConfig.property.shortName">ShortName</a></code> | <code>*string</code> | Input only. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueConfig.property.description">Description</a></code> | <code>*string</code> | User-assigned description of the TagValue. Must not exceed 256 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#id GoogleTagsTagValue#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#id GoogleTagsTagValue#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts">GoogleTagsTagValueTimeouts</a></code> | timeouts block. |
 
 ---
@@ -994,7 +994,7 @@ Parent *string
 
 Input only. The resource name of the new TagValue's parent. Must be of the form tagKeys/{tag_key_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#parent GoogleTagsTagValue#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#parent GoogleTagsTagValue#parent}
 
 ---
 
@@ -1012,7 +1012,7 @@ User-assigned short name for TagValue. The short name should be unique for TagVa
 
 The short name can have a maximum length of 256 characters. The permitted character set for the shortName includes all UTF-8 encoded Unicode characters except single quotes ('), double quotes ("), backslashes (\), and forward slashes (/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#short_name GoogleTagsTagValue#short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#short_name GoogleTagsTagValue#short_name}
 
 ---
 
@@ -1026,7 +1026,7 @@ Description *string
 
 User-assigned description of the TagValue. Must not exceed 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#description GoogleTagsTagValue#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#description GoogleTagsTagValue#description}
 
 ---
 
@@ -1038,7 +1038,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#id GoogleTagsTagValue#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#id GoogleTagsTagValue#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1055,7 +1055,7 @@ Timeouts GoogleTagsTagValueTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#timeouts GoogleTagsTagValue#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#timeouts GoogleTagsTagValue#timeouts}
 
 ---
 
@@ -1064,7 +1064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 &googletagstagvalue.GoogleTagsTagValueTimeouts {
 	Create: *string,
@@ -1077,9 +1077,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleta
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#create GoogleTagsTagValue#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#delete GoogleTagsTagValue#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#update GoogleTagsTagValue#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#create GoogleTagsTagValue#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#delete GoogleTagsTagValue#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#update GoogleTagsTagValue#update}. |
 
 ---
 
@@ -1091,7 +1091,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#create GoogleTagsTagValue#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#create GoogleTagsTagValue#create}.
 
 ---
 
@@ -1103,7 +1103,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#delete GoogleTagsTagValue#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#delete GoogleTagsTagValue#delete}.
 
 ---
 
@@ -1115,7 +1115,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value#update GoogleTagsTagValue#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value#update GoogleTagsTagValue#update}.
 
 ---
 
@@ -1126,7 +1126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagValue.GoogleTagsTagValueTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalue"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalue"
 
 googletagstagvalue.NewGoogleTagsTagValueTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTagsTagValueTimeoutsOutputReference
 ```

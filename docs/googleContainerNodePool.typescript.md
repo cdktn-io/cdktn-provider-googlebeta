@@ -4,7 +4,7 @@
 
 ### GoogleContainerNodePool <a name="GoogleContainerNodePool" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool google_container_node_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool google_container_node_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putManagement">putManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putNetworkConfig">putNetworkConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putNodeConfig">putNodeConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putNodeDrainConfig">putNodeDrainConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putPlacementPolicy">putPlacementPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putQueuedProvisioning">putQueuedProvisioning</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putTimeouts">putTimeouts</a></code> | *No description.* |
@@ -93,6 +94,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetNetworkConfig">resetNetworkConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetNodeConfig">resetNodeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetNodeCount">resetNodeCount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetNodeDrainConfig">resetNodeDrainConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetNodeLocations">resetNodeLocations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetPlacementPolicy">resetPlacementPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetProject">resetProject</a></code> | *No description.* |
@@ -460,6 +462,18 @@ public putNodeConfig(value: GoogleContainerNodePoolNodeConfig): void
 
 ---
 
+##### `putNodeDrainConfig` <a name="putNodeDrainConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putNodeDrainConfig"></a>
+
+```typescript
+public putNodeDrainConfig(value: IResolvable | GoogleContainerNodePoolNodeDrainConfig[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putNodeDrainConfig.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>[]
+
+---
+
 ##### `putPlacementPolicy` <a name="putPlacementPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putPlacementPolicy"></a>
 
 ```typescript
@@ -572,6 +586,12 @@ public resetNodeConfig(): void
 
 ```typescript
 public resetNodeCount(): void
+```
+
+##### `resetNodeDrainConfig` <a name="resetNodeDrainConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetNodeDrainConfig"></a>
+
+```typescript
+public resetNodeDrainConfig(): void
 ```
 
 ##### `resetNodeLocations` <a name="resetNodeLocations" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetNodeLocations"></a>
@@ -719,7 +739,7 @@ The construct id used in the generated config for the GoogleContainerNodePool to
 
 The id of the existing GoogleContainerNodePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -755,6 +775,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.management">management</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolManagementOutputReference">GoogleContainerNodePoolManagementOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.networkConfig">networkConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference">GoogleContainerNodePoolNetworkConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeConfig">nodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigOutputReference">GoogleContainerNodePoolNodeConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeDrainConfig">nodeDrainConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList">GoogleContainerNodePoolNodeDrainConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.operation">operation</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.placementPolicy">placementPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolPlacementPolicyOutputReference">GoogleContainerNodePoolPlacementPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.queuedProvisioning">queuedProvisioning</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolQueuedProvisioningOutputReference">GoogleContainerNodePoolQueuedProvisioningOutputReference</a></code> | *No description.* |
@@ -772,6 +793,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.networkConfigInput">networkConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig">GoogleContainerNodePoolNetworkConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeConfigInput">nodeConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfig">GoogleContainerNodePoolNodeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeCountInput">nodeCountInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeDrainConfigInput">nodeDrainConfigInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeLocationsInput">nodeLocationsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.placementPolicyInput">placementPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolPlacementPolicy">GoogleContainerNodePoolPlacementPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
@@ -995,6 +1017,16 @@ public readonly nodeConfig: GoogleContainerNodePoolNodeConfigOutputReference;
 
 ---
 
+##### `nodeDrainConfig`<sup>Required</sup> <a name="nodeDrainConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeDrainConfig"></a>
+
+```typescript
+public readonly nodeDrainConfig: GoogleContainerNodePoolNodeDrainConfigList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList">GoogleContainerNodePoolNodeDrainConfigList</a>
+
+---
+
 ##### `operation`<sup>Required</sup> <a name="operation" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.operation"></a>
 
 ```typescript
@@ -1162,6 +1194,16 @@ public readonly nodeCountInput: number;
 ```
 
 - *Type:* number
+
+---
+
+##### `nodeDrainConfigInput`<sup>Optional</sup> <a name="nodeDrainConfigInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nodeDrainConfigInput"></a>
+
+```typescript
+public readonly nodeDrainConfigInput: IResolvable | GoogleContainerNodePoolNodeDrainConfig[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>[]
 
 ---
 
@@ -1399,7 +1441,7 @@ Location policy specifies the algorithm used when scaling-up the node pool.
 
 "BALANCED" - Is a best effort policy that aims to balance the sizes of available zones. "ANY" - Instructs the cluster autoscaler to prioritize utilization of unused reservations, and reduces preemption risk for Spot VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#location_policy GoogleContainerNodePool#location_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#location_policy GoogleContainerNodePool#location_policy}
 
 ---
 
@@ -1415,7 +1457,7 @@ Maximum number of nodes per zone in the node pool.
 
 Must be >= min_node_count. Cannot be used with total limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_node_count GoogleContainerNodePool#max_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_node_count GoogleContainerNodePool#max_node_count}
 
 ---
 
@@ -1431,7 +1473,7 @@ Minimum number of nodes per zone in the node pool.
 
 Must be >=0 and <= max_node_count. Cannot be used with total limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#min_node_count GoogleContainerNodePool#min_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#min_node_count GoogleContainerNodePool#min_node_count}
 
 ---
 
@@ -1447,7 +1489,7 @@ Maximum number of all nodes in the node pool.
 
 Must be >= total_min_node_count. Cannot be used with per zone limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#total_max_node_count GoogleContainerNodePool#total_max_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#total_max_node_count GoogleContainerNodePool#total_max_node_count}
 
 ---
 
@@ -1463,7 +1505,7 @@ Minimum number of all nodes in the node pool.
 
 Must be >=0 and <= total_max_node_count. Cannot be used with per zone limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#total_min_node_count GoogleContainerNodePool#total_min_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#total_min_node_count GoogleContainerNodePool#total_min_node_count}
 
 ---
 
@@ -1490,7 +1532,7 @@ const googleContainerNodePoolConfig: googleContainerNodePool.GoogleContainerNode
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.cluster">cluster</a></code> | <code>string</code> | The cluster to create the node pool for. Cluster must be present in location provided for zonal clusters. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.autoscaling">autoscaling</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolAutoscaling">GoogleContainerNodePoolAutoscaling</a></code> | autoscaling block. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.initialNodeCount">initialNodeCount</a></code> | <code>number</code> | The initial number of nodes for the pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.location">location</a></code> | <code>string</code> | The location (region or zone) of the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.management">management</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolManagement">GoogleContainerNodePoolManagement</a></code> | management block. |
@@ -1500,6 +1542,7 @@ const googleContainerNodePoolConfig: googleContainerNodePool.GoogleContainerNode
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.networkConfig">networkConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig">GoogleContainerNodePoolNetworkConfig</a></code> | network_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.nodeConfig">nodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfig">GoogleContainerNodePoolNodeConfig</a></code> | node_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.nodeCount">nodeCount</a></code> | <code>number</code> | The number of nodes per instance group. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.nodeDrainConfig">nodeDrainConfig</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>[]</code> | node_drain_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.nodeLocations">nodeLocations</a></code> | <code>string[]</code> | The list of zones in which the node pool's nodes should be located. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.placementPolicy">placementPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolPlacementPolicy">GoogleContainerNodePoolPlacementPolicy</a></code> | placement_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.project">project</a></code> | <code>string</code> | The ID of the project in which to create the node pool. |
@@ -1590,7 +1633,7 @@ public readonly cluster: string;
 
 The cluster to create the node pool for. Cluster must be present in location provided for zonal clusters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#cluster GoogleContainerNodePool#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#cluster GoogleContainerNodePool#cluster}
 
 ---
 
@@ -1604,7 +1647,7 @@ public readonly autoscaling: GoogleContainerNodePoolAutoscaling;
 
 autoscaling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#autoscaling GoogleContainerNodePool#autoscaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#autoscaling GoogleContainerNodePool#autoscaling}
 
 ---
 
@@ -1616,7 +1659,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1635,7 +1678,7 @@ The initial number of nodes for the pool.
 
 In regional or multi-zonal clusters, this is the number of nodes per zone. Changing this will force recreation of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#initial_node_count GoogleContainerNodePool#initial_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#initial_node_count GoogleContainerNodePool#initial_node_count}
 
 ---
 
@@ -1649,7 +1692,7 @@ public readonly location: string;
 
 The location (region or zone) of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#location GoogleContainerNodePool#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#location GoogleContainerNodePool#location}
 
 ---
 
@@ -1663,7 +1706,7 @@ public readonly management: GoogleContainerNodePoolManagement;
 
 management block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#management GoogleContainerNodePool#management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#management GoogleContainerNodePool#management}
 
 ---
 
@@ -1679,7 +1722,7 @@ The maximum number of pods per node in this node pool.
 
 Note that this does not work on node pools which are "route-based" - that is, node pools belonging to clusters that do not have IP Aliasing enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
 
 ---
 
@@ -1693,7 +1736,7 @@ public readonly name: string;
 
 The name of the node pool. If left blank, Terraform will auto-generate a unique name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#name GoogleContainerNodePool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#name GoogleContainerNodePool#name}
 
 ---
 
@@ -1707,7 +1750,7 @@ public readonly namePrefix: string;
 
 Creates a unique name for the node pool beginning with the specified prefix. Conflicts with name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#name_prefix GoogleContainerNodePool#name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#name_prefix GoogleContainerNodePool#name_prefix}
 
 ---
 
@@ -1721,7 +1764,7 @@ public readonly networkConfig: GoogleContainerNodePoolNetworkConfig;
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#network_config GoogleContainerNodePool#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#network_config GoogleContainerNodePool#network_config}
 
 ---
 
@@ -1735,7 +1778,7 @@ public readonly nodeConfig: GoogleContainerNodePoolNodeConfig;
 
 node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#node_config GoogleContainerNodePool#node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_config GoogleContainerNodePool#node_config}
 
 ---
 
@@ -1751,7 +1794,21 @@ The number of nodes per instance group.
 
 This field can be used to update the number of nodes per instance group but should not be used alongside autoscaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#node_count GoogleContainerNodePool#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_count GoogleContainerNodePool#node_count}
+
+---
+
+##### `nodeDrainConfig`<sup>Optional</sup> <a name="nodeDrainConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.nodeDrainConfig"></a>
+
+```typescript
+public readonly nodeDrainConfig: IResolvable | GoogleContainerNodePoolNodeDrainConfig[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>[]
+
+node_drain_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_drain_config GoogleContainerNodePool#node_drain_config}
 
 ---
 
@@ -1767,7 +1824,7 @@ The list of zones in which the node pool's nodes should be located.
 
 Nodes must be in the region of their regional cluster or in the same region as their cluster's zone for zonal clusters. If unspecified, the cluster-level node_locations will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#node_locations GoogleContainerNodePool#node_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_locations GoogleContainerNodePool#node_locations}
 
 ---
 
@@ -1781,7 +1838,7 @@ public readonly placementPolicy: GoogleContainerNodePoolPlacementPolicy;
 
 placement_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#placement_policy GoogleContainerNodePool#placement_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#placement_policy GoogleContainerNodePool#placement_policy}
 
 ---
 
@@ -1797,7 +1854,7 @@ The ID of the project in which to create the node pool.
 
 If blank, the provider-configured project will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#project GoogleContainerNodePool#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#project GoogleContainerNodePool#project}
 
 ---
 
@@ -1811,7 +1868,7 @@ public readonly queuedProvisioning: GoogleContainerNodePoolQueuedProvisioning;
 
 queued_provisioning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#queued_provisioning GoogleContainerNodePool#queued_provisioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#queued_provisioning GoogleContainerNodePool#queued_provisioning}
 
 ---
 
@@ -1825,7 +1882,7 @@ public readonly timeouts: GoogleContainerNodePoolTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#timeouts GoogleContainerNodePool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#timeouts GoogleContainerNodePool#timeouts}
 
 ---
 
@@ -1839,7 +1896,7 @@ public readonly upgradeSettings: GoogleContainerNodePoolUpgradeSettings;
 
 upgrade_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#upgrade_settings GoogleContainerNodePool#upgrade_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#upgrade_settings GoogleContainerNodePool#upgrade_settings}
 
 ---
 
@@ -1855,7 +1912,7 @@ The Kubernetes version for the nodes in this pool.
 
 Note that if this field and auto_upgrade are both specified, they will fight each other for what the node version should be, so setting both is highly discouraged. While a fuzzy version can be specified, it's recommended that you specify explicit versions as Terraform will see spurious diffs when fuzzy versions are used. See the google_container_engine_versions data source's version_prefix field to approximate fuzzy versions in a Terraform-compatible way.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#version GoogleContainerNodePool#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#version GoogleContainerNodePool#version}
 
 ---
 
@@ -1888,7 +1945,7 @@ public readonly autoRepair: boolean | IResolvable;
 
 Whether the nodes will be automatically repaired. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#auto_repair GoogleContainerNodePool#auto_repair}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#auto_repair GoogleContainerNodePool#auto_repair}
 
 ---
 
@@ -1902,7 +1959,7 @@ public readonly autoUpgrade: boolean | IResolvable;
 
 Whether the nodes will be automatically upgraded. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#auto_upgrade GoogleContainerNodePool#auto_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#auto_upgrade GoogleContainerNodePool#auto_upgrade}
 
 ---
 
@@ -1920,6 +1977,7 @@ const googleContainerNodePoolNetworkConfig: googleContainerNodePool.GoogleContai
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.acceleratorNetworkProfile">acceleratorNetworkProfile</a></code> | <code>string</code> | The accelerator network profile to use for this node pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.additionalNodeNetworkConfigs">additionalNodeNetworkConfigs</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs">GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs</a>[]</code> | additional_node_network_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.additionalPodNetworkConfigs">additionalPodNetworkConfigs</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs">GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs</a>[]</code> | additional_pod_network_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.createPodRange">createPodRange</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether to create a new range for pod IPs in this node pool. |
@@ -1928,6 +1986,21 @@ const googleContainerNodePoolNetworkConfig: googleContainerNodePool.GoogleContai
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.podCidrOverprovisionConfig">podCidrOverprovisionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig">GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig</a></code> | pod_cidr_overprovision_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.podIpv4CidrBlock">podIpv4CidrBlock</a></code> | <code>string</code> | The IP address range for pod IPs in this node pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.podRange">podRange</a></code> | <code>string</code> | The ID of the secondary range for pod IPs. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.subnetwork">subnetwork</a></code> | <code>string</code> | The subnetwork name/path for the node pool. |
+
+---
+
+##### `acceleratorNetworkProfile`<sup>Optional</sup> <a name="acceleratorNetworkProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.acceleratorNetworkProfile"></a>
+
+```typescript
+public readonly acceleratorNetworkProfile: string;
+```
+
+- *Type:* string
+
+The accelerator network profile to use for this node pool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#accelerator_network_profile GoogleContainerNodePool#accelerator_network_profile}
 
 ---
 
@@ -1941,7 +2014,7 @@ public readonly additionalNodeNetworkConfigs: IResolvable | GoogleContainerNodeP
 
 additional_node_network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#additional_node_network_configs GoogleContainerNodePool#additional_node_network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#additional_node_network_configs GoogleContainerNodePool#additional_node_network_configs}
 
 ---
 
@@ -1955,7 +2028,7 @@ public readonly additionalPodNetworkConfigs: IResolvable | GoogleContainerNodePo
 
 additional_pod_network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#additional_pod_network_configs GoogleContainerNodePool#additional_pod_network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#additional_pod_network_configs GoogleContainerNodePool#additional_pod_network_configs}
 
 ---
 
@@ -1971,7 +2044,7 @@ Whether to create a new range for pod IPs in this node pool.
 
 Defaults are provided for pod_range and pod_ipv4_cidr_block if they are not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#create_pod_range GoogleContainerNodePool#create_pod_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#create_pod_range GoogleContainerNodePool#create_pod_range}
 
 ---
 
@@ -1985,7 +2058,7 @@ public readonly enablePrivateNodes: boolean | IResolvable;
 
 Whether nodes have internal IP addresses only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enable_private_nodes GoogleContainerNodePool#enable_private_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enable_private_nodes GoogleContainerNodePool#enable_private_nodes}
 
 ---
 
@@ -1999,7 +2072,7 @@ public readonly networkPerformanceConfig: GoogleContainerNodePoolNetworkConfigNe
 
 network_performance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#network_performance_config GoogleContainerNodePool#network_performance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#network_performance_config GoogleContainerNodePool#network_performance_config}
 
 ---
 
@@ -2013,7 +2086,7 @@ public readonly podCidrOverprovisionConfig: GoogleContainerNodePoolNetworkConfig
 
 pod_cidr_overprovision_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#pod_cidr_overprovision_config GoogleContainerNodePool#pod_cidr_overprovision_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#pod_cidr_overprovision_config GoogleContainerNodePool#pod_cidr_overprovision_config}
 
 ---
 
@@ -2029,7 +2102,7 @@ The IP address range for pod IPs in this node pool.
 
 Only applicable if create_pod_range is true. Set to blank to have a range chosen with the default size. Set to /netmask (e.g. /14) to have a range chosen with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) to pick a specific range to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#pod_ipv4_cidr_block GoogleContainerNodePool#pod_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#pod_ipv4_cidr_block GoogleContainerNodePool#pod_ipv4_cidr_block}
 
 ---
 
@@ -2045,7 +2118,23 @@ The ID of the secondary range for pod IPs.
 
 If create_pod_range is true, this ID is used for the new range. If create_pod_range is false, uses an existing secondary range with this ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#pod_range GoogleContainerNodePool#pod_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#pod_range GoogleContainerNodePool#pod_range}
+
+---
+
+##### `subnetwork`<sup>Optional</sup> <a name="subnetwork" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig.property.subnetwork"></a>
+
+```typescript
+public readonly subnetwork: string;
+```
+
+- *Type:* string
+
+The subnetwork name/path for the node pool.
+
+Format: subnetwork or projects/{project}/regions/{region}/subnetworks/{subnetwork}. This value may be specified via the nested network_config block (setting this attribute directly is supported for backward compatibility). Once created the node pool's subnetwork is immutable. If not set, the provider/API will choose the subnetwork (e.g. based on IP utilization) and report it here.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
 
 ---
 
@@ -2078,7 +2167,7 @@ public readonly network: string;
 
 Name of the VPC where the additional interface belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#network GoogleContainerNodePool#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#network GoogleContainerNodePool#network}
 
 ---
 
@@ -2092,7 +2181,7 @@ public readonly subnetwork: string;
 
 Name of the subnetwork where the additional interface belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
 
 ---
 
@@ -2126,7 +2215,7 @@ public readonly maxPodsPerNode: number;
 
 The maximum number of pods per node which use this pod network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
 
 ---
 
@@ -2140,7 +2229,7 @@ public readonly secondaryPodRange: string;
 
 The name of the secondary range on the subnet which provides IP address for this pod range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#secondary_pod_range GoogleContainerNodePool#secondary_pod_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#secondary_pod_range GoogleContainerNodePool#secondary_pod_range}
 
 ---
 
@@ -2154,7 +2243,7 @@ public readonly subnetwork: string;
 
 Name of the subnetwork where the additional pod network belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
 
 ---
 
@@ -2186,7 +2275,7 @@ public readonly totalEgressBandwidthTier: string;
 
 Specifies the total network bandwidth tier for the NodePool. [Valid values](https://cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools#NodePool.Tier) include: "TIER_1" and "TIER_UNSPECIFIED".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#total_egress_bandwidth_tier GoogleContainerNodePool#total_egress_bandwidth_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#total_egress_bandwidth_tier GoogleContainerNodePool#total_egress_bandwidth_tier}
 
 ---
 
@@ -2204,7 +2293,7 @@ const googleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig: googleCont
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig.property.disabled">disabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig.property.disabled">disabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}. |
 
 ---
 
@@ -2216,7 +2305,7 @@ public readonly disabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}.
 
 ---
 
@@ -2292,7 +2381,7 @@ public readonly advancedMachineFeatures: GoogleContainerNodePoolNodeConfigAdvanc
 
 advanced_machine_features block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#advanced_machine_features GoogleContainerNodePool#advanced_machine_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#advanced_machine_features GoogleContainerNodePool#advanced_machine_features}
 
 ---
 
@@ -2306,7 +2395,7 @@ public readonly bootDisk: GoogleContainerNodePoolNodeConfigBootDisk;
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#boot_disk GoogleContainerNodePool#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#boot_disk GoogleContainerNodePool#boot_disk}
 
 ---
 
@@ -2320,7 +2409,7 @@ public readonly bootDiskKmsKey: string;
 
 The Customer Managed Encryption Key used to encrypt the boot disk attached to each node in the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#boot_disk_kms_key GoogleContainerNodePool#boot_disk_kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#boot_disk_kms_key GoogleContainerNodePool#boot_disk_kms_key}
 
 ---
 
@@ -2334,7 +2423,7 @@ public readonly confidentialNodes: GoogleContainerNodePoolNodeConfigConfidential
 
 confidential_nodes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#confidential_nodes GoogleContainerNodePool#confidential_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#confidential_nodes GoogleContainerNodePool#confidential_nodes}
 
 ---
 
@@ -2348,7 +2437,7 @@ public readonly containerdConfig: GoogleContainerNodePoolNodeConfigContainerdCon
 
 containerd_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#containerd_config GoogleContainerNodePool#containerd_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#containerd_config GoogleContainerNodePool#containerd_config}
 
 ---
 
@@ -2362,7 +2451,7 @@ public readonly diskSizeGb: number;
 
 Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#disk_size_gb GoogleContainerNodePool#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disk_size_gb GoogleContainerNodePool#disk_size_gb}
 
 ---
 
@@ -2376,7 +2465,7 @@ public readonly diskType: string;
 
 Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
 
 ---
 
@@ -2390,7 +2479,7 @@ public readonly enableConfidentialStorage: boolean | IResolvable;
 
 If enabled boot disks are configured with confidential mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enable_confidential_storage GoogleContainerNodePool#enable_confidential_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enable_confidential_storage GoogleContainerNodePool#enable_confidential_storage}
 
 ---
 
@@ -2404,7 +2493,7 @@ public readonly ephemeralStorageConfig: GoogleContainerNodePoolNodeConfigEphemer
 
 ephemeral_storage_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#ephemeral_storage_config GoogleContainerNodePool#ephemeral_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#ephemeral_storage_config GoogleContainerNodePool#ephemeral_storage_config}
 
 ---
 
@@ -2418,7 +2507,7 @@ public readonly ephemeralStorageLocalSsdConfig: GoogleContainerNodePoolNodeConfi
 
 ephemeral_storage_local_ssd_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#ephemeral_storage_local_ssd_config GoogleContainerNodePool#ephemeral_storage_local_ssd_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#ephemeral_storage_local_ssd_config GoogleContainerNodePool#ephemeral_storage_local_ssd_config}
 
 ---
 
@@ -2432,7 +2521,7 @@ public readonly fastSocket: GoogleContainerNodePoolNodeConfigFastSocket;
 
 fast_socket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#fast_socket GoogleContainerNodePool#fast_socket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#fast_socket GoogleContainerNodePool#fast_socket}
 
 ---
 
@@ -2446,7 +2535,7 @@ public readonly flexStart: boolean | IResolvable;
 
 Enables Flex Start provisioning model for the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#flex_start GoogleContainerNodePool#flex_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#flex_start GoogleContainerNodePool#flex_start}
 
 ---
 
@@ -2460,7 +2549,7 @@ public readonly gcfsConfig: GoogleContainerNodePoolNodeConfigGcfsConfig;
 
 gcfs_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gcfs_config GoogleContainerNodePool#gcfs_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gcfs_config GoogleContainerNodePool#gcfs_config}
 
 ---
 
@@ -2474,7 +2563,7 @@ public readonly guestAccelerator: IResolvable | GoogleContainerNodePoolNodeConfi
 
 guest_accelerator block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#guest_accelerator GoogleContainerNodePool#guest_accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#guest_accelerator GoogleContainerNodePool#guest_accelerator}
 
 ---
 
@@ -2488,7 +2577,7 @@ public readonly gvnic: GoogleContainerNodePoolNodeConfigGvnic;
 
 gvnic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gvnic GoogleContainerNodePool#gvnic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gvnic GoogleContainerNodePool#gvnic}
 
 ---
 
@@ -2502,7 +2591,7 @@ public readonly hostMaintenancePolicy: GoogleContainerNodePoolNodeConfigHostMain
 
 host_maintenance_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#host_maintenance_policy GoogleContainerNodePool#host_maintenance_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#host_maintenance_policy GoogleContainerNodePool#host_maintenance_policy}
 
 ---
 
@@ -2518,7 +2607,7 @@ The image type to use for this node.
 
 Note that for a given image type, the latest version of it will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#image_type GoogleContainerNodePool#image_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#image_type GoogleContainerNodePool#image_type}
 
 ---
 
@@ -2532,7 +2621,7 @@ public readonly kubeletConfig: GoogleContainerNodePoolNodeConfigKubeletConfig;
 
 kubelet_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#kubelet_config GoogleContainerNodePool#kubelet_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#kubelet_config GoogleContainerNodePool#kubelet_config}
 
 ---
 
@@ -2548,7 +2637,7 @@ The map of Kubernetes labels (key/value pairs) to be applied to each node.
 
 These will added in addition to any default label(s) that Kubernetes may apply to the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#labels GoogleContainerNodePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#labels GoogleContainerNodePool#labels}
 
 ---
 
@@ -2562,7 +2651,7 @@ public readonly linuxNodeConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfi
 
 linux_node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#linux_node_config GoogleContainerNodePool#linux_node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#linux_node_config GoogleContainerNodePool#linux_node_config}
 
 ---
 
@@ -2576,7 +2665,7 @@ public readonly localNvmeSsdBlockConfig: GoogleContainerNodePoolNodeConfigLocalN
 
 local_nvme_ssd_block_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#local_nvme_ssd_block_config GoogleContainerNodePool#local_nvme_ssd_block_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#local_nvme_ssd_block_config GoogleContainerNodePool#local_nvme_ssd_block_config}
 
 ---
 
@@ -2590,7 +2679,7 @@ public readonly localSsdCount: number;
 
 The number of local SSD disks to be attached to the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -2604,7 +2693,7 @@ public readonly localSsdEncryptionMode: string;
 
 LocalSsdEncryptionMode specified the method used for encrypting the local SSDs attached to the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#local_ssd_encryption_mode GoogleContainerNodePool#local_ssd_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#local_ssd_encryption_mode GoogleContainerNodePool#local_ssd_encryption_mode}
 
 ---
 
@@ -2620,7 +2709,7 @@ Type of logging agent that is used as the default value for node pools in the cl
 
 Valid values include DEFAULT and MAX_THROUGHPUT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#logging_variant GoogleContainerNodePool#logging_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#logging_variant GoogleContainerNodePool#logging_variant}
 
 ---
 
@@ -2634,7 +2723,7 @@ public readonly machineType: string;
 
 The name of a Google Compute Engine machine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#machine_type GoogleContainerNodePool#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#machine_type GoogleContainerNodePool#machine_type}
 
 ---
 
@@ -2648,7 +2737,7 @@ public readonly maxRunDuration: string;
 
 The runtime of each node in the node pool in seconds, terminated by 's'. Example: "3600s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_run_duration GoogleContainerNodePool#max_run_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_run_duration GoogleContainerNodePool#max_run_duration}
 
 ---
 
@@ -2662,7 +2751,7 @@ public readonly metadata: {[ key: string ]: string};
 
 The metadata key/value pairs assigned to instances in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#metadata GoogleContainerNodePool#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#metadata GoogleContainerNodePool#metadata}
 
 ---
 
@@ -2678,7 +2767,7 @@ Minimum CPU platform to be used by this instance.
 
 The instance may be scheduled on the specified or newer CPU platform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#min_cpu_platform GoogleContainerNodePool#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#min_cpu_platform GoogleContainerNodePool#min_cpu_platform}
 
 ---
 
@@ -2694,7 +2783,7 @@ Setting this field will assign instances of this pool to run on the specified no
 
 This is useful for running workloads on sole tenant nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#node_group GoogleContainerNodePool#node_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_group GoogleContainerNodePool#node_group}
 
 ---
 
@@ -2708,7 +2797,7 @@ public readonly oauthScopes: string[];
 
 The set of Google API scopes to be made available on all of the node VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#oauth_scopes GoogleContainerNodePool#oauth_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#oauth_scopes GoogleContainerNodePool#oauth_scopes}
 
 ---
 
@@ -2722,7 +2811,7 @@ public readonly preemptible: boolean | IResolvable;
 
 Whether the nodes are created as preemptible VM instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#preemptible GoogleContainerNodePool#preemptible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#preemptible GoogleContainerNodePool#preemptible}
 
 ---
 
@@ -2736,7 +2825,7 @@ public readonly reservationAffinity: GoogleContainerNodePoolNodeConfigReservatio
 
 reservation_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#reservation_affinity GoogleContainerNodePool#reservation_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#reservation_affinity GoogleContainerNodePool#reservation_affinity}
 
 ---
 
@@ -2750,7 +2839,7 @@ public readonly resourceLabels: {[ key: string ]: string};
 
 The GCE resource labels (a map of key/value pairs) to be applied to the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#resource_labels GoogleContainerNodePool#resource_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#resource_labels GoogleContainerNodePool#resource_labels}
 
 ---
 
@@ -2766,7 +2855,7 @@ A map of resource manager tags.
 
 Resource manager tag keys and values have the same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/456. The field is ignored (both PUT & PATCH) when empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#resource_manager_tags GoogleContainerNodePool#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#resource_manager_tags GoogleContainerNodePool#resource_manager_tags}
 
 ---
 
@@ -2780,7 +2869,7 @@ public readonly sandboxConfig: GoogleContainerNodePoolNodeConfigSandboxConfig;
 
 sandbox_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#sandbox_config GoogleContainerNodePool#sandbox_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#sandbox_config GoogleContainerNodePool#sandbox_config}
 
 ---
 
@@ -2794,7 +2883,7 @@ public readonly secondaryBootDisks: IResolvable | GoogleContainerNodePoolNodeCon
 
 secondary_boot_disks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#secondary_boot_disks GoogleContainerNodePool#secondary_boot_disks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#secondary_boot_disks GoogleContainerNodePool#secondary_boot_disks}
 
 ---
 
@@ -2808,7 +2897,7 @@ public readonly serviceAccount: string;
 
 The Google Cloud Platform Service Account to be used by the node VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#service_account GoogleContainerNodePool#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#service_account GoogleContainerNodePool#service_account}
 
 ---
 
@@ -2822,7 +2911,7 @@ public readonly shieldedInstanceConfig: GoogleContainerNodePoolNodeConfigShielde
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#shielded_instance_config GoogleContainerNodePool#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#shielded_instance_config GoogleContainerNodePool#shielded_instance_config}
 
 ---
 
@@ -2836,7 +2925,7 @@ public readonly soleTenantConfig: GoogleContainerNodePoolNodeConfigSoleTenantCon
 
 sole_tenant_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#sole_tenant_config GoogleContainerNodePool#sole_tenant_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#sole_tenant_config GoogleContainerNodePool#sole_tenant_config}
 
 ---
 
@@ -2850,7 +2939,7 @@ public readonly spot: boolean | IResolvable;
 
 Whether the nodes are created as spot VM instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#spot GoogleContainerNodePool#spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#spot GoogleContainerNodePool#spot}
 
 ---
 
@@ -2864,7 +2953,7 @@ public readonly storagePools: string[];
 
 The list of Storage Pools where boot disks are provisioned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#storage_pools GoogleContainerNodePool#storage_pools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#storage_pools GoogleContainerNodePool#storage_pools}
 
 ---
 
@@ -2878,7 +2967,7 @@ public readonly tags: string[];
 
 The list of instance tags applied to all nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#tags GoogleContainerNodePool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#tags GoogleContainerNodePool#tags}
 
 ---
 
@@ -2892,7 +2981,7 @@ public readonly taint: IResolvable | GoogleContainerNodePoolNodeConfigTaint[];
 
 taint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#taint GoogleContainerNodePool#taint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#taint GoogleContainerNodePool#taint}
 
 ---
 
@@ -2906,7 +2995,7 @@ public readonly windowsNodeConfig: GoogleContainerNodePoolNodeConfigWindowsNodeC
 
 windows_node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#windows_node_config GoogleContainerNodePool#windows_node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#windows_node_config GoogleContainerNodePool#windows_node_config}
 
 ---
 
@@ -2920,7 +3009,7 @@ public readonly workloadMetadataConfig: GoogleContainerNodePoolNodeConfigWorkloa
 
 workload_metadata_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#workload_metadata_config GoogleContainerNodePool#workload_metadata_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#workload_metadata_config GoogleContainerNodePool#workload_metadata_config}
 
 ---
 
@@ -2956,7 +3045,7 @@ The number of threads per physical core.
 
 To disable simultaneous multithreading (SMT) set this to 1. If unset, the maximum number of threads supported per core by the underlying processor is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#threads_per_core GoogleContainerNodePool#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#threads_per_core GoogleContainerNodePool#threads_per_core}
 
 ---
 
@@ -2970,7 +3059,7 @@ public readonly enableNestedVirtualization: boolean | IResolvable;
 
 Whether the node should have nested virtualization enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enable_nested_virtualization GoogleContainerNodePool#enable_nested_virtualization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enable_nested_virtualization GoogleContainerNodePool#enable_nested_virtualization}
 
 ---
 
@@ -2984,7 +3073,7 @@ public readonly performanceMonitoringUnit: string;
 
 Level of Performance Monitoring Unit (PMU) requested. If unset, no access to the PMU is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#performance_monitoring_unit GoogleContainerNodePool#performance_monitoring_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#performance_monitoring_unit GoogleContainerNodePool#performance_monitoring_unit}
 
 ---
 
@@ -3019,7 +3108,7 @@ public readonly diskType: string;
 
 Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
 
 ---
 
@@ -3033,7 +3122,7 @@ public readonly provisionedIops: number;
 
 Configured IOPs provisioning. Only valid with disk type hyperdisk-balanced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#provisioned_iops GoogleContainerNodePool#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#provisioned_iops GoogleContainerNodePool#provisioned_iops}
 
 ---
 
@@ -3047,7 +3136,7 @@ public readonly provisionedThroughput: number;
 
 Configured throughput provisioning. Only valid with disk type hyperdisk-balanced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#provisioned_throughput GoogleContainerNodePool#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#provisioned_throughput GoogleContainerNodePool#provisioned_throughput}
 
 ---
 
@@ -3061,7 +3150,7 @@ public readonly sizeGb: number;
 
 Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#size_gb GoogleContainerNodePool#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#size_gb GoogleContainerNodePool#size_gb}
 
 ---
 
@@ -3094,7 +3183,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether Confidential Nodes feature is enabled for all nodes in this pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3108,7 +3197,7 @@ public readonly confidentialInstanceType: string;
 
 Defines the type of technology used by the confidential node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#confidential_instance_type GoogleContainerNodePool#confidential_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#confidential_instance_type GoogleContainerNodePool#confidential_instance_type}
 
 ---
 
@@ -3127,6 +3216,8 @@ const googleContainerNodePoolNodeConfigContainerdConfig: googleContainerNodePool
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfig.property.privateRegistryAccessConfig">privateRegistryAccessConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig">GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig</a></code> | private_registry_access_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfig.property.registryHosts">registryHosts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>[]</code> | registry_hosts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfig.property.writableCgroups">writableCgroups</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups</a></code> | writable_cgroups block. |
 
 ---
 
@@ -3140,7 +3231,35 @@ public readonly privateRegistryAccessConfig: GoogleContainerNodePoolNodeConfigCo
 
 private_registry_access_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#private_registry_access_config GoogleContainerNodePool#private_registry_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#private_registry_access_config GoogleContainerNodePool#private_registry_access_config}
+
+---
+
+##### `registryHosts`<sup>Optional</sup> <a name="registryHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfig.property.registryHosts"></a>
+
+```typescript
+public readonly registryHosts: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>[]
+
+registry_hosts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#registry_hosts GoogleContainerNodePool#registry_hosts}
+
+---
+
+##### `writableCgroups`<sup>Optional</sup> <a name="writableCgroups" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfig.property.writableCgroups"></a>
+
+```typescript
+public readonly writableCgroups: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups</a>
+
+writable_cgroups block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#writable_cgroups GoogleContainerNodePool#writable_cgroups}
 
 ---
 
@@ -3173,7 +3292,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether or not private registries are configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3187,7 +3306,7 @@ public readonly certificateAuthorityDomainConfig: IResolvable | GoogleContainerN
 
 certificate_authority_domain_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#certificate_authority_domain_config GoogleContainerNodePool#certificate_authority_domain_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#certificate_authority_domain_config GoogleContainerNodePool#certificate_authority_domain_config}
 
 ---
 
@@ -3220,7 +3339,7 @@ public readonly fqdns: string[];
 
 List of fully-qualified-domain-names. IPv4s and port specification are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#fqdns GoogleContainerNodePool#fqdns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#fqdns GoogleContainerNodePool#fqdns}
 
 ---
 
@@ -3234,7 +3353,7 @@ public readonly gcpSecretManagerCertificateConfig: GoogleContainerNodePoolNodeCo
 
 gcp_secret_manager_certificate_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gcp_secret_manager_certificate_config GoogleContainerNodePool#gcp_secret_manager_certificate_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gcp_secret_manager_certificate_config GoogleContainerNodePool#gcp_secret_manager_certificate_config}
 
 ---
 
@@ -3266,7 +3385,398 @@ public readonly secretUri: string;
 
 URI for the secret that hosts a certificate. Must be in the format 'projects/PROJECT_NUM/secrets/SECRET_NAME/versions/VERSION_OR_LATEST'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#secret_uri GoogleContainerNodePool#secret_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#secret_uri GoogleContainerNodePool#secret_uri}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigRegistryHosts: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts.property.server">server</a></code> | <code>string</code> | Defines the host name of the registry server. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts.property.hosts">hosts</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>[]</code> | hosts block. |
+
+---
+
+##### `server`<sup>Required</sup> <a name="server" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts.property.server"></a>
+
+```typescript
+public readonly server: string;
+```
+
+- *Type:* string
+
+Defines the host name of the registry server.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#server GoogleContainerNodePool#server}
+
+---
+
+##### `hosts`<sup>Optional</sup> <a name="hosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts.property.hosts"></a>
+
+```typescript
+public readonly hosts: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>[]
+
+hosts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#hosts GoogleContainerNodePool#hosts}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.host">host</a></code> | <code>string</code> | Configures the registry host/mirror. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.ca">ca</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>[]</code> | ca block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.capabilities">capabilities</a></code> | <code>string[]</code> | Represent the capabilities of the registry host, specifying what operations a host is capable of performing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.client">client</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>[]</code> | client block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.dialTimeout">dialTimeout</a></code> | <code>string</code> | Specifies the maximum duration allowed for a connection attempt to complete. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.header">header</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>[]</code> | header block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.overridePath">overridePath</a></code> | <code>boolean \| cdktn.IResolvable</code> | Indicate the host's API root endpoint is defined in the URL path rather than by the API specification. |
+
+---
+
+##### `host`<sup>Required</sup> <a name="host" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.host"></a>
+
+```typescript
+public readonly host: string;
+```
+
+- *Type:* string
+
+Configures the registry host/mirror.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#host GoogleContainerNodePool#host}
+
+---
+
+##### `ca`<sup>Optional</sup> <a name="ca" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.ca"></a>
+
+```typescript
+public readonly ca: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>[]
+
+ca block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#ca GoogleContainerNodePool#ca}
+
+---
+
+##### `capabilities`<sup>Optional</sup> <a name="capabilities" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.capabilities"></a>
+
+```typescript
+public readonly capabilities: string[];
+```
+
+- *Type:* string[]
+
+Represent the capabilities of the registry host, specifying what operations a host is capable of performing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#capabilities GoogleContainerNodePool#capabilities}
+
+---
+
+##### `client`<sup>Optional</sup> <a name="client" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.client"></a>
+
+```typescript
+public readonly client: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>[]
+
+client block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#client GoogleContainerNodePool#client}
+
+---
+
+##### `dialTimeout`<sup>Optional</sup> <a name="dialTimeout" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.dialTimeout"></a>
+
+```typescript
+public readonly dialTimeout: string;
+```
+
+- *Type:* string
+
+Specifies the maximum duration allowed for a connection attempt to complete.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#dial_timeout GoogleContainerNodePool#dial_timeout}
+
+---
+
+##### `header`<sup>Optional</sup> <a name="header" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.header"></a>
+
+```typescript
+public readonly header: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>[]
+
+header block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#header GoogleContainerNodePool#header}
+
+---
+
+##### `overridePath`<sup>Optional</sup> <a name="overridePath" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts.property.overridePath"></a>
+
+```typescript
+public readonly overridePath: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Indicate the host's API root endpoint is defined in the URL path rather than by the API specification.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#override_path GoogleContainerNodePool#override_path}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa.property.gcpSecretManagerSecretUri">gcpSecretManagerSecretUri</a></code> | <code>string</code> | URI for the Secret Manager secret that hosts the certificate. |
+
+---
+
+##### `gcpSecretManagerSecretUri`<sup>Optional</sup> <a name="gcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa.property.gcpSecretManagerSecretUri"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUri: string;
+```
+
+- *Type:* string
+
+URI for the Secret Manager secret that hosts the certificate.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient.property.cert">cert</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert</a></code> | cert block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient.property.key">key</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey</a></code> | key block. |
+
+---
+
+##### `cert`<sup>Required</sup> <a name="cert" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient.property.cert"></a>
+
+```typescript
+public readonly cert: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert</a>
+
+cert block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#cert GoogleContainerNodePool#cert}
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient.property.key"></a>
+
+```typescript
+public readonly key: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey</a>
+
+key block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert.property.gcpSecretManagerSecretUri">gcpSecretManagerSecretUri</a></code> | <code>string</code> | URI for the Secret Manager secret that hosts the client certificate. |
+
+---
+
+##### `gcpSecretManagerSecretUri`<sup>Optional</sup> <a name="gcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert.property.gcpSecretManagerSecretUri"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUri: string;
+```
+
+- *Type:* string
+
+URI for the Secret Manager secret that hosts the client certificate.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey.property.gcpSecretManagerSecretUri">gcpSecretManagerSecretUri</a></code> | <code>string</code> | URI for the Secret Manager secret that hosts the private key. |
+
+---
+
+##### `gcpSecretManagerSecretUri`<sup>Optional</sup> <a name="gcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey.property.gcpSecretManagerSecretUri"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUri: string;
+```
+
+- *Type:* string
+
+URI for the Secret Manager secret that hosts the private key.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader.property.key">key</a></code> | <code>string</code> | Configures the header key. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader.property.value">value</a></code> | <code>string[]</code> | Configures the header value. |
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader.property.key"></a>
+
+```typescript
+public readonly key: string;
+```
+
+- *Type:* string
+
+Configures the header key.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader.property.value"></a>
+
+```typescript
+public readonly value: string[];
+```
+
+- *Type:* string[]
+
+Configures the header value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
+
+---
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups <a name="GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigContainerdConfigWritableCgroups: googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether writable cgroups are enabled. |
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups.property.enabled"></a>
+
+```typescript
+public readonly enabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Whether writable cgroups are enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3311,7 +3821,7 @@ Number of local SSDs to use to back ephemeral storage.
 
 Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -3346,7 +3856,7 @@ Number of local SSDs to use to back ephemeral storage.
 
 Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -3360,7 +3870,7 @@ public readonly dataCacheCount: number;
 
 Number of local SSDs to be utilized for GKE Data Cache. Uses NVMe interfaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#data_cache_count GoogleContainerNodePool#data_cache_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#data_cache_count GoogleContainerNodePool#data_cache_count}
 
 ---
 
@@ -3392,7 +3902,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether or not NCCL Fast Socket is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3424,7 +3934,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether or not GCFS is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3460,7 +3970,7 @@ public readonly count: number;
 
 The number of the accelerator cards exposed to an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#count GoogleContainerNodePool#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#count GoogleContainerNodePool#count}
 
 ---
 
@@ -3474,7 +3984,7 @@ public readonly type: string;
 
 The accelerator type resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
 
 ---
 
@@ -3488,7 +3998,7 @@ public readonly gpuDriverInstallationConfig: GoogleContainerNodePoolNodeConfigGu
 
 gpu_driver_installation_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gpu_driver_installation_config GoogleContainerNodePool#gpu_driver_installation_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gpu_driver_installation_config GoogleContainerNodePool#gpu_driver_installation_config}
 
 ---
 
@@ -3502,7 +4012,7 @@ public readonly gpuPartitionSize: string;
 
 Size of partitions to create on the GPU. Valid values are described in the NVIDIA mig user guide (https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#partitioning).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gpu_partition_size GoogleContainerNodePool#gpu_partition_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gpu_partition_size GoogleContainerNodePool#gpu_partition_size}
 
 ---
 
@@ -3516,7 +4026,7 @@ public readonly gpuSharingConfig: GoogleContainerNodePoolNodeConfigGuestAccelera
 
 gpu_sharing_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gpu_sharing_config GoogleContainerNodePool#gpu_sharing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gpu_sharing_config GoogleContainerNodePool#gpu_sharing_config}
 
 ---
 
@@ -3548,7 +4058,7 @@ public readonly gpuDriverVersion: string;
 
 Mode for how the GPU driver is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gpu_driver_version GoogleContainerNodePool#gpu_driver_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gpu_driver_version GoogleContainerNodePool#gpu_driver_version}
 
 ---
 
@@ -3583,7 +4093,7 @@ The type of GPU sharing strategy to enable on the GPU node.
 
 Possible values are described in the API package (https://pkg.go.dev/google.golang.org/api/container/v1#GPUSharingConfig)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#gpu_sharing_strategy GoogleContainerNodePool#gpu_sharing_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#gpu_sharing_strategy GoogleContainerNodePool#gpu_sharing_strategy}
 
 ---
 
@@ -3597,7 +4107,7 @@ public readonly maxSharedClientsPerGpu: number;
 
 The maximum number of containers that can share a GPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_shared_clients_per_gpu GoogleContainerNodePool#max_shared_clients_per_gpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_shared_clients_per_gpu GoogleContainerNodePool#max_shared_clients_per_gpu}
 
 ---
 
@@ -3629,7 +4139,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether or not gvnic is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3661,7 +4171,7 @@ public readonly maintenanceInterval: string;
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#maintenance_interval GoogleContainerNodePool#maintenance_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#maintenance_interval GoogleContainerNodePool#maintenance_interval}
 
 ---
 
@@ -3695,8 +4205,10 @@ const googleContainerNodePoolNodeConfigKubeletConfig: googleContainerNodePool.Go
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.imageMinimumGcAge">imageMinimumGcAge</a></code> | <code>string</code> | Defines the minimum age for an unused image before it is garbage collected. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.insecureKubeletReadonlyPortEnabled">insecureKubeletReadonlyPortEnabled</a></code> | <code>string</code> | Controls whether the kubelet read-only port is enabled. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.maxParallelImagePulls">maxParallelImagePulls</a></code> | <code>number</code> | Set the maximum number of image pulls in parallel. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.memoryManager">memoryManager</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager</a></code> | memory_manager block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.podPidsLimit">podPidsLimit</a></code> | <code>number</code> | Controls the maximum number of processes allowed to run in a pod. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.singleProcessOomKill">singleProcessOomKill</a></code> | <code>boolean \| cdktn.IResolvable</code> | Defines whether to enable single process OOM killer. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.topologyManager">topologyManager</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager</a></code> | topology_manager block. |
 
 ---
 
@@ -3710,7 +4222,7 @@ public readonly allowedUnsafeSysctls: string[];
 
 Defines a comma-separated allowlist of unsafe sysctls or sysctl patterns which can be set on the Pods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#allowed_unsafe_sysctls GoogleContainerNodePool#allowed_unsafe_sysctls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#allowed_unsafe_sysctls GoogleContainerNodePool#allowed_unsafe_sysctls}
 
 ---
 
@@ -3724,7 +4236,7 @@ public readonly containerLogMaxFiles: number;
 
 Defines the maximum number of container log files that can be present for a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#container_log_max_files GoogleContainerNodePool#container_log_max_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#container_log_max_files GoogleContainerNodePool#container_log_max_files}
 
 ---
 
@@ -3738,7 +4250,7 @@ public readonly containerLogMaxSize: string;
 
 Defines the maximum size of the container log file before it is rotated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#container_log_max_size GoogleContainerNodePool#container_log_max_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#container_log_max_size GoogleContainerNodePool#container_log_max_size}
 
 ---
 
@@ -3752,7 +4264,7 @@ public readonly cpuCfsQuota: boolean | IResolvable;
 
 Enable CPU CFS quota enforcement for containers that specify CPU limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#cpu_cfs_quota GoogleContainerNodePool#cpu_cfs_quota}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#cpu_cfs_quota GoogleContainerNodePool#cpu_cfs_quota}
 
 ---
 
@@ -3766,7 +4278,7 @@ public readonly cpuCfsQuotaPeriod: string;
 
 Set the CPU CFS quota period value 'cpu.cfs_period_us'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#cpu_cfs_quota_period GoogleContainerNodePool#cpu_cfs_quota_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#cpu_cfs_quota_period GoogleContainerNodePool#cpu_cfs_quota_period}
 
 ---
 
@@ -3780,7 +4292,7 @@ public readonly cpuManagerPolicy: string;
 
 Control the CPU management policy on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#cpu_manager_policy GoogleContainerNodePool#cpu_manager_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#cpu_manager_policy GoogleContainerNodePool#cpu_manager_policy}
 
 ---
 
@@ -3794,7 +4306,7 @@ public readonly evictionMaxPodGracePeriodSeconds: number;
 
 Defines the maximum allowed grace period (in seconds) to use when terminating pods in response to a soft eviction threshold being met.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#eviction_max_pod_grace_period_seconds GoogleContainerNodePool#eviction_max_pod_grace_period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#eviction_max_pod_grace_period_seconds GoogleContainerNodePool#eviction_max_pod_grace_period_seconds}
 
 ---
 
@@ -3808,7 +4320,7 @@ public readonly evictionMinimumReclaim: GoogleContainerNodePoolNodeConfigKubelet
 
 eviction_minimum_reclaim block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#eviction_minimum_reclaim GoogleContainerNodePool#eviction_minimum_reclaim}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#eviction_minimum_reclaim GoogleContainerNodePool#eviction_minimum_reclaim}
 
 ---
 
@@ -3822,7 +4334,7 @@ public readonly evictionSoft: GoogleContainerNodePoolNodeConfigKubeletConfigEvic
 
 eviction_soft block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#eviction_soft GoogleContainerNodePool#eviction_soft}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#eviction_soft GoogleContainerNodePool#eviction_soft}
 
 ---
 
@@ -3836,7 +4348,7 @@ public readonly evictionSoftGracePeriod: GoogleContainerNodePoolNodeConfigKubele
 
 eviction_soft_grace_period block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#eviction_soft_grace_period GoogleContainerNodePool#eviction_soft_grace_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#eviction_soft_grace_period GoogleContainerNodePool#eviction_soft_grace_period}
 
 ---
 
@@ -3850,7 +4362,7 @@ public readonly imageGcHighThresholdPercent: number;
 
 Defines the percent of disk usage after which image garbage collection is always run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#image_gc_high_threshold_percent GoogleContainerNodePool#image_gc_high_threshold_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#image_gc_high_threshold_percent GoogleContainerNodePool#image_gc_high_threshold_percent}
 
 ---
 
@@ -3866,7 +4378,7 @@ Defines the percent of disk usage before which image garbage collection is never
 
 Lowest disk usage to garbage collect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#image_gc_low_threshold_percent GoogleContainerNodePool#image_gc_low_threshold_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#image_gc_low_threshold_percent GoogleContainerNodePool#image_gc_low_threshold_percent}
 
 ---
 
@@ -3880,7 +4392,7 @@ public readonly imageMaximumGcAge: string;
 
 Defines the maximum age an image can be unused before it is garbage collected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#image_maximum_gc_age GoogleContainerNodePool#image_maximum_gc_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#image_maximum_gc_age GoogleContainerNodePool#image_maximum_gc_age}
 
 ---
 
@@ -3894,7 +4406,7 @@ public readonly imageMinimumGcAge: string;
 
 Defines the minimum age for an unused image before it is garbage collected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#image_minimum_gc_age GoogleContainerNodePool#image_minimum_gc_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#image_minimum_gc_age GoogleContainerNodePool#image_minimum_gc_age}
 
 ---
 
@@ -3910,7 +4422,7 @@ Controls whether the kubelet read-only port is enabled.
 
 It is strongly recommended to set this to `FALSE`. Possible values: `TRUE`, `FALSE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#insecure_kubelet_readonly_port_enabled GoogleContainerNodePool#insecure_kubelet_readonly_port_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#insecure_kubelet_readonly_port_enabled GoogleContainerNodePool#insecure_kubelet_readonly_port_enabled}
 
 ---
 
@@ -3924,7 +4436,21 @@ public readonly maxParallelImagePulls: number;
 
 Set the maximum number of image pulls in parallel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_parallel_image_pulls GoogleContainerNodePool#max_parallel_image_pulls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_parallel_image_pulls GoogleContainerNodePool#max_parallel_image_pulls}
+
+---
+
+##### `memoryManager`<sup>Optional</sup> <a name="memoryManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.memoryManager"></a>
+
+```typescript
+public readonly memoryManager: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager</a>
+
+memory_manager block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#memory_manager GoogleContainerNodePool#memory_manager}
 
 ---
 
@@ -3938,7 +4464,7 @@ public readonly podPidsLimit: number;
 
 Controls the maximum number of processes allowed to run in a pod.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#pod_pids_limit GoogleContainerNodePool#pod_pids_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#pod_pids_limit GoogleContainerNodePool#pod_pids_limit}
 
 ---
 
@@ -3952,7 +4478,21 @@ public readonly singleProcessOomKill: boolean | IResolvable;
 
 Defines whether to enable single process OOM killer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#single_process_oom_kill GoogleContainerNodePool#single_process_oom_kill}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#single_process_oom_kill GoogleContainerNodePool#single_process_oom_kill}
+
+---
+
+##### `topologyManager`<sup>Optional</sup> <a name="topologyManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig.property.topologyManager"></a>
+
+```typescript
+public readonly topologyManager: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager</a>
+
+topology_manager block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#topology_manager GoogleContainerNodePool#topology_manager}
 
 ---
 
@@ -3989,7 +4529,7 @@ public readonly imagefsAvailable: string;
 
 Defines percentage of minimum reclaim for imagefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
 
 ---
 
@@ -4003,7 +4543,7 @@ public readonly imagefsInodesFree: string;
 
 Defines percentage of minimum reclaim for imagefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
 
 ---
 
@@ -4017,7 +4557,7 @@ public readonly memoryAvailable: string;
 
 Defines percentage of minimum reclaim for memory.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
 
 ---
 
@@ -4031,7 +4571,7 @@ public readonly nodefsAvailable: string;
 
 Defines percentage of minimum reclaim for nodefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
 
 ---
 
@@ -4045,7 +4585,7 @@ public readonly nodefsInodesFree: string;
 
 Defines percentage of minimum reclaim for nodefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
 
 ---
 
@@ -4059,7 +4599,7 @@ public readonly pidAvailable: string;
 
 Defines percentage of minimum reclaim for pid.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
 
 ---
 
@@ -4096,7 +4636,7 @@ public readonly imagefsAvailable: string;
 
 Defines percentage of soft eviction threshold for imagefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
 
 ---
 
@@ -4110,7 +4650,7 @@ public readonly imagefsInodesFree: string;
 
 Defines percentage of soft eviction threshold for imagefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
 
 ---
 
@@ -4124,7 +4664,7 @@ public readonly memoryAvailable: string;
 
 Defines quantity of soft eviction threshold for memory.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
 
 ---
 
@@ -4138,7 +4678,7 @@ public readonly nodefsAvailable: string;
 
 Defines percentage of soft eviction threshold for nodefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
 
 ---
 
@@ -4152,7 +4692,7 @@ public readonly nodefsInodesFree: string;
 
 Defines percentage of soft eviction threshold for nodefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
 
 ---
 
@@ -4166,7 +4706,7 @@ public readonly pidAvailable: string;
 
 Defines percentage of soft eviction threshold for pid.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
 
 ---
 
@@ -4203,7 +4743,7 @@ public readonly imagefsAvailable: string;
 
 Defines grace period for the imagefs.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
 
 ---
 
@@ -4217,7 +4757,7 @@ public readonly imagefsInodesFree: string;
 
 Defines grace period for the imagefs.inodesFree soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
 
 ---
 
@@ -4231,7 +4771,7 @@ public readonly memoryAvailable: string;
 
 Defines grace period for the memory.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
 
 ---
 
@@ -4245,7 +4785,7 @@ public readonly nodefsAvailable: string;
 
 Defines grace period for the nodefs.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
 
 ---
 
@@ -4259,7 +4799,7 @@ public readonly nodefsInodesFree: string;
 
 Defines grace period for the nodefs.inodesFree soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
 
 ---
 
@@ -4273,7 +4813,90 @@ public readonly pidAvailable: string;
 
 Defines grace period for the pid.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+
+---
+
+### GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager <a name="GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigKubeletConfigMemoryManager: googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager.property.policy">policy</a></code> | <code>string</code> | The Memory Manager policy to use. |
+
+---
+
+##### `policy`<sup>Optional</sup> <a name="policy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager.property.policy"></a>
+
+```typescript
+public readonly policy: string;
+```
+
+- *Type:* string
+
+The Memory Manager policy to use.
+
+This policy guides how memory and hugepages are allocated and managed for pods on the node, influencing NUMA affinity.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+
+---
+
+### GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager <a name="GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigKubeletConfigTopologyManager: googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager.property.policy">policy</a></code> | <code>string</code> | The Topology Manager policy to use. This policy dictates how resource alignment is handled on the node. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager.property.scope">scope</a></code> | <code>string</code> | The Topology Manager scope, defining the granularity at which policy decisions are applied. |
+
+---
+
+##### `policy`<sup>Optional</sup> <a name="policy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager.property.policy"></a>
+
+```typescript
+public readonly policy: string;
+```
+
+- *Type:* string
+
+The Topology Manager policy to use. This policy dictates how resource alignment is handled on the node.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+
+---
+
+##### `scope`<sup>Optional</sup> <a name="scope" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager.property.scope"></a>
+
+```typescript
+public readonly scope: string;
+```
+
+- *Type:* string
+
+The Topology Manager scope, defining the granularity at which policy decisions are applied.
+
+Valid values are "container" (resources are aligned per container within a pod) or "pod" (resources are aligned for the entire pod).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#scope GoogleContainerNodePool#scope}
 
 ---
 
@@ -4291,11 +4914,28 @@ const googleContainerNodePoolNodeConfigLinuxNodeConfig: googleContainerNodePool.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.accurateTimeConfig">accurateTimeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a></code> | accurate_time_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.cgroupMode">cgroupMode</a></code> | <code>string</code> | cgroupMode specifies the cgroup mode to be used on the node. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.hugepagesConfig">hugepagesConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig</a></code> | hugepages_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.nodeKernelModuleLoading">nodeKernelModuleLoading</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a></code> | node_kernel_module_loading block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.swapConfig">swapConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a></code> | swap_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.sysctls">sysctls</a></code> | <code>{[ key: string ]: string}</code> | The Linux kernel parameters to be applied to the nodes and all pods running on the nodes. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.transparentHugepageDefrag">transparentHugepageDefrag</a></code> | <code>string</code> | The Linux kernel transparent hugepage defrag setting. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.transparentHugepageEnabled">transparentHugepageEnabled</a></code> | <code>string</code> | The Linux kernel transparent hugepage setting. |
+
+---
+
+##### `accurateTimeConfig`<sup>Optional</sup> <a name="accurateTimeConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.accurateTimeConfig"></a>
+
+```typescript
+public readonly accurateTimeConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a>
+
+accurate_time_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#accurate_time_config GoogleContainerNodePool#accurate_time_config}
 
 ---
 
@@ -4309,7 +4949,7 @@ public readonly cgroupMode: string;
 
 cgroupMode specifies the cgroup mode to be used on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#cgroup_mode GoogleContainerNodePool#cgroup_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#cgroup_mode GoogleContainerNodePool#cgroup_mode}
 
 ---
 
@@ -4323,7 +4963,35 @@ public readonly hugepagesConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfi
 
 hugepages_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#hugepages_config GoogleContainerNodePool#hugepages_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#hugepages_config GoogleContainerNodePool#hugepages_config}
+
+---
+
+##### `nodeKernelModuleLoading`<sup>Optional</sup> <a name="nodeKernelModuleLoading" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.nodeKernelModuleLoading"></a>
+
+```typescript
+public readonly nodeKernelModuleLoading: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a>
+
+node_kernel_module_loading block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_kernel_module_loading GoogleContainerNodePool#node_kernel_module_loading}
+
+---
+
+##### `swapConfig`<sup>Optional</sup> <a name="swapConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.swapConfig"></a>
+
+```typescript
+public readonly swapConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a>
+
+swap_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#swap_config GoogleContainerNodePool#swap_config}
 
 ---
 
@@ -4337,7 +5005,7 @@ public readonly sysctls: {[ key: string ]: string};
 
 The Linux kernel parameters to be applied to the nodes and all pods running on the nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#sysctls GoogleContainerNodePool#sysctls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#sysctls GoogleContainerNodePool#sysctls}
 
 ---
 
@@ -4351,7 +5019,7 @@ public readonly transparentHugepageDefrag: string;
 
 The Linux kernel transparent hugepage defrag setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#transparent_hugepage_defrag GoogleContainerNodePool#transparent_hugepage_defrag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#transparent_hugepage_defrag GoogleContainerNodePool#transparent_hugepage_defrag}
 
 ---
 
@@ -4365,7 +5033,39 @@ public readonly transparentHugepageEnabled: string;
 
 The Linux kernel transparent hugepage setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#transparent_hugepage_enabled GoogleContainerNodePool#transparent_hugepage_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#transparent_hugepage_enabled GoogleContainerNodePool#transparent_hugepage_enabled}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig: googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig.property.enablePtpKvmTimeSync">enablePtpKvmTimeSync</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether to enable accurate time synchronization with PTP-KVM. |
+
+---
+
+##### `enablePtpKvmTimeSync`<sup>Optional</sup> <a name="enablePtpKvmTimeSync" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig.property.enablePtpKvmTimeSync"></a>
+
+```typescript
+public readonly enablePtpKvmTimeSync: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Whether to enable accurate time synchronization with PTP-KVM.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enable_ptp_kvm_time_sync GoogleContainerNodePool#enable_ptp_kvm_time_sync}
 
 ---
 
@@ -4398,7 +5098,7 @@ public readonly hugepageSize1G: number;
 
 Amount of 1G hugepages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#hugepage_size_1g GoogleContainerNodePool#hugepage_size_1g}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#hugepage_size_1g GoogleContainerNodePool#hugepage_size_1g}
 
 ---
 
@@ -4412,7 +5112,289 @@ public readonly hugepageSize2M: number;
 
 Amount of 2M hugepages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#hugepage_size_2m GoogleContainerNodePool#hugepage_size_2m}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#hugepage_size_2m GoogleContainerNodePool#hugepage_size_2m}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading: googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading.property.policy">policy</a></code> | <code>string</code> | The policy for kernel module loading. |
+
+---
+
+##### `policy`<sup>Optional</sup> <a name="policy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading.property.policy"></a>
+
+```typescript
+public readonly policy: string;
+```
+
+- *Type:* string
+
+The policy for kernel module loading.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig: googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.bootDiskProfile">bootDiskProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile</a></code> | boot_disk_profile block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.dedicatedLocalSsdProfile">dedicatedLocalSsdProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile</a></code> | dedicated_local_ssd_profile block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Enables or disables swap for the node pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.encryptionConfig">encryptionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig</a></code> | encryption_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.ephemeralLocalSsdProfile">ephemeralLocalSsdProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile</a></code> | ephemeral_local_ssd_profile block. |
+
+---
+
+##### `bootDiskProfile`<sup>Optional</sup> <a name="bootDiskProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.bootDiskProfile"></a>
+
+```typescript
+public readonly bootDiskProfile: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile</a>
+
+boot_disk_profile block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#boot_disk_profile GoogleContainerNodePool#boot_disk_profile}
+
+---
+
+##### `dedicatedLocalSsdProfile`<sup>Optional</sup> <a name="dedicatedLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.dedicatedLocalSsdProfile"></a>
+
+```typescript
+public readonly dedicatedLocalSsdProfile: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile</a>
+
+dedicated_local_ssd_profile block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#dedicated_local_ssd_profile GoogleContainerNodePool#dedicated_local_ssd_profile}
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.enabled"></a>
+
+```typescript
+public readonly enabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Enables or disables swap for the node pool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+
+---
+
+##### `encryptionConfig`<sup>Optional</sup> <a name="encryptionConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.encryptionConfig"></a>
+
+```typescript
+public readonly encryptionConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig</a>
+
+encryption_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#encryption_config GoogleContainerNodePool#encryption_config}
+
+---
+
+##### `ephemeralLocalSsdProfile`<sup>Optional</sup> <a name="ephemeralLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig.property.ephemeralLocalSsdProfile"></a>
+
+```typescript
+public readonly ephemeralLocalSsdProfile: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile</a>
+
+ephemeral_local_ssd_profile block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#ephemeral_local_ssd_profile GoogleContainerNodePool#ephemeral_local_ssd_profile}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile: googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile.property.swapSizeGib">swapSizeGib</a></code> | <code>number</code> | Specifies the size of the swap space in gibibytes (GiB). |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile.property.swapSizePercent">swapSizePercent</a></code> | <code>number</code> | Specifies the size of the swap space as a percentage of the boot disk size. |
+
+---
+
+##### `swapSizeGib`<sup>Optional</sup> <a name="swapSizeGib" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile.property.swapSizeGib"></a>
+
+```typescript
+public readonly swapSizeGib: number;
+```
+
+- *Type:* number
+
+Specifies the size of the swap space in gibibytes (GiB).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
+
+---
+
+##### `swapSizePercent`<sup>Optional</sup> <a name="swapSizePercent" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile.property.swapSizePercent"></a>
+
+```typescript
+public readonly swapSizePercent: number;
+```
+
+- *Type:* number
+
+Specifies the size of the swap space as a percentage of the boot disk size.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile: googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile.property.diskCount">diskCount</a></code> | <code>number</code> | The number of physical local NVMe SSD disks to attach. |
+
+---
+
+##### `diskCount`<sup>Optional</sup> <a name="diskCount" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile.property.diskCount"></a>
+
+```typescript
+public readonly diskCount: number;
+```
+
+- *Type:* number
+
+The number of physical local NVMe SSD disks to attach.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disk_count GoogleContainerNodePool#disk_count}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig: googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig.property.disabled">disabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | If true, swap space will not be encrypted. Defaults to false (encrypted). |
+
+---
+
+##### `disabled`<sup>Optional</sup> <a name="disabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig.property.disabled"></a>
+
+```typescript
+public readonly disabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+If true, swap space will not be encrypted. Defaults to false (encrypted).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile: googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile.property.swapSizeGib">swapSizeGib</a></code> | <code>number</code> | Specifies the size of the swap space in gibibytes (GiB). |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile.property.swapSizePercent">swapSizePercent</a></code> | <code>number</code> | Specifies the size of the swap space as a percentage of the ephemeral local SSD capacity. |
+
+---
+
+##### `swapSizeGib`<sup>Optional</sup> <a name="swapSizeGib" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile.property.swapSizeGib"></a>
+
+```typescript
+public readonly swapSizeGib: number;
+```
+
+- *Type:* number
+
+Specifies the size of the swap space in gibibytes (GiB).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
+
+---
+
+##### `swapSizePercent`<sup>Optional</sup> <a name="swapSizePercent" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile.property.swapSizePercent"></a>
+
+```typescript
+public readonly swapSizePercent: number;
+```
+
+- *Type:* number
+
+Specifies the size of the swap space as a percentage of the ephemeral local SSD capacity.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
 
 ---
 
@@ -4446,7 +5428,7 @@ Number of raw-block local NVMe SSD disks to be attached to the node.
 
 Each local SSD is 375 GB in size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -4480,7 +5462,7 @@ public readonly consumeReservationType: string;
 
 Corresponds to the type of reservation consumption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#consume_reservation_type GoogleContainerNodePool#consume_reservation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#consume_reservation_type GoogleContainerNodePool#consume_reservation_type}
 
 ---
 
@@ -4494,7 +5476,7 @@ public readonly key: string;
 
 The label key of a reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -4508,7 +5490,7 @@ public readonly values: string[];
 
 The label values of the reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
 
 ---
 
@@ -4526,11 +5508,12 @@ const googleContainerNodePoolNodeConfigSandboxConfig: googleContainerNodePool.Go
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfig.property.sandboxType">sandboxType</a></code> | <code>string</code> | Type of the sandbox to use for the node (e.g. 'gvisor'). |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfig.property.sandboxType">sandboxType</a></code> | <code>string</code> | Type of the sandbox to use for the node (e.g. 'gvisor'). Deprecated in favor of type. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfig.property.type">type</a></code> | <code>string</code> | Type of the sandbox to use for the node (e.g. 'GVISOR'). |
 
 ---
 
-##### `sandboxType`<sup>Required</sup> <a name="sandboxType" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfig.property.sandboxType"></a>
+##### `sandboxType`<sup>Optional</sup> <a name="sandboxType" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfig.property.sandboxType"></a>
 
 ```typescript
 public readonly sandboxType: string;
@@ -4538,9 +5521,23 @@ public readonly sandboxType: string;
 
 - *Type:* string
 
-Type of the sandbox to use for the node (e.g. 'gvisor').
+Type of the sandbox to use for the node (e.g. 'gvisor'). Deprecated in favor of type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#sandbox_type GoogleContainerNodePool#sandbox_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#sandbox_type GoogleContainerNodePool#sandbox_type}
+
+---
+
+##### `type`<sup>Optional</sup> <a name="type" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfig.property.type"></a>
+
+```typescript
+public readonly type: string;
+```
+
+- *Type:* string
+
+Type of the sandbox to use for the node (e.g. 'GVISOR').
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
 
 ---
 
@@ -4573,7 +5570,7 @@ public readonly diskImage: string;
 
 Disk image to create the secondary boot disk from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#disk_image GoogleContainerNodePool#disk_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#disk_image GoogleContainerNodePool#disk_image}
 
 ---
 
@@ -4587,7 +5584,7 @@ public readonly mode: string;
 
 Mode for how the secondary boot disk is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
 
 ---
 
@@ -4620,7 +5617,7 @@ public readonly enableIntegrityMonitoring: boolean | IResolvable;
 
 Defines whether the instance has integrity monitoring enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enable_integrity_monitoring GoogleContainerNodePool#enable_integrity_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enable_integrity_monitoring GoogleContainerNodePool#enable_integrity_monitoring}
 
 ---
 
@@ -4634,7 +5631,7 @@ public readonly enableSecureBoot: boolean | IResolvable;
 
 Defines whether the instance has Secure Boot enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enable_secure_boot GoogleContainerNodePool#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enable_secure_boot GoogleContainerNodePool#enable_secure_boot}
 
 ---
 
@@ -4667,7 +5664,7 @@ public readonly nodeAffinity: IResolvable | GoogleContainerNodePoolNodeConfigSol
 
 node_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#node_affinity GoogleContainerNodePool#node_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_affinity GoogleContainerNodePool#node_affinity}
 
 ---
 
@@ -4683,7 +5680,7 @@ Specifies the minimum number of vCPUs that each sole tenant node must have to us
 
 If not specified, the CPU overcommit feature is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#min_node_cpus GoogleContainerNodePool#min_node_cpus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#min_node_cpus GoogleContainerNodePool#min_node_cpus}
 
 ---
 
@@ -4717,7 +5714,7 @@ public readonly key: string;
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -4731,7 +5728,7 @@ public readonly operator: string;
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#operator GoogleContainerNodePool#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#operator GoogleContainerNodePool#operator}
 
 ---
 
@@ -4745,7 +5742,7 @@ public readonly values: string[];
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
 
 ---
 
@@ -4779,7 +5776,7 @@ public readonly effect: string;
 
 Effect for taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#effect GoogleContainerNodePool#effect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#effect GoogleContainerNodePool#effect}
 
 ---
 
@@ -4793,7 +5790,7 @@ public readonly key: string;
 
 Key for taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -4807,7 +5804,7 @@ public readonly value: string;
 
 Value for taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
 
 ---
 
@@ -4839,7 +5836,7 @@ public readonly osversion: string;
 
 The OS Version of the windows nodepool.Values are OS_VERSION_UNSPECIFIED,OS_VERSION_LTSC2019 and OS_VERSION_LTSC2022.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#osversion GoogleContainerNodePool#osversion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#osversion GoogleContainerNodePool#osversion}
 
 ---
 
@@ -4871,7 +5868,39 @@ public readonly mode: string;
 
 Mode is the configuration for how to expose metadata to workloads running on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
+
+---
+
+### GoogleContainerNodePoolNodeDrainConfig <a name="GoogleContainerNodePoolNodeDrainConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolNodeDrainConfig: googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig.property.respectPdbDuringNodePoolDeletion">respectPdbDuringNodePoolDeletion</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether to respect PodDisruptionBudget policy during node pool deletion. |
+
+---
+
+##### `respectPdbDuringNodePoolDeletion`<sup>Optional</sup> <a name="respectPdbDuringNodePoolDeletion" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig.property.respectPdbDuringNodePoolDeletion"></a>
+
+```typescript
+public readonly respectPdbDuringNodePoolDeletion: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Whether to respect PodDisruptionBudget policy during node pool deletion.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#respect_pdb_during_node_pool_deletion GoogleContainerNodePool#respect_pdb_during_node_pool_deletion}
 
 ---
 
@@ -4905,7 +5934,7 @@ public readonly type: string;
 
 Type defines the type of placement policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
 
 ---
 
@@ -4921,7 +5950,7 @@ If set, refers to the name of a custom resource policy supplied by the user.
 
 The resource policy must be in the same project and region as the node pool. If not found, InvalidArgument error is returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#policy_name GoogleContainerNodePool#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#policy_name GoogleContainerNodePool#policy_name}
 
 ---
 
@@ -4935,7 +5964,7 @@ public readonly tpuTopology: string;
 
 The TPU topology like "2x4" or "2x2x2". https://cloud.google.com/kubernetes-engine/docs/concepts/plan-tpus#topology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#tpu_topology GoogleContainerNodePool#tpu_topology}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#tpu_topology GoogleContainerNodePool#tpu_topology}
 
 ---
 
@@ -4967,7 +5996,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether nodes in this node pool are obtainable solely through the ProvisioningRequest API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -4985,9 +6014,9 @@ const googleContainerNodePoolTimeouts: googleContainerNodePool.GoogleContainerNo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}. |
 
 ---
 
@@ -4999,7 +6028,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}.
 
 ---
 
@@ -5011,7 +6040,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}.
 
 ---
 
@@ -5023,7 +6052,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}.
 
 ---
 
@@ -5058,7 +6087,7 @@ public readonly blueGreenSettings: GoogleContainerNodePoolUpgradeSettingsBlueGre
 
 blue_green_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#blue_green_settings GoogleContainerNodePool#blue_green_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#blue_green_settings GoogleContainerNodePool#blue_green_settings}
 
 ---
 
@@ -5074,7 +6103,7 @@ The number of additional nodes that can be added to the node pool during an upgr
 
 Increasing max_surge raises the number of nodes that can be upgraded simultaneously. Can be set to 0 or greater.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_surge GoogleContainerNodePool#max_surge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_surge GoogleContainerNodePool#max_surge}
 
 ---
 
@@ -5090,7 +6119,7 @@ The number of nodes that can be simultaneously unavailable during an upgrade.
 
 Increasing max_unavailable raises the number of nodes that can be upgraded in parallel. Can be set to 0 or greater.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#max_unavailable GoogleContainerNodePool#max_unavailable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#max_unavailable GoogleContainerNodePool#max_unavailable}
 
 ---
 
@@ -5104,7 +6133,7 @@ public readonly strategy: string;
 
 Update strategy for the given nodepool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#strategy GoogleContainerNodePool#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#strategy GoogleContainerNodePool#strategy}
 
 ---
 
@@ -5122,22 +6151,23 @@ const googleContainerNodePoolUpgradeSettingsBlueGreenSettings: googleContainerNo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings.property.standardRolloutPolicy">standardRolloutPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy</a></code> | standard_rollout_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings.property.autoscaledRolloutPolicy">autoscaledRolloutPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy</a></code> | autoscaled_rollout_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings.property.nodePoolSoakDuration">nodePoolSoakDuration</a></code> | <code>string</code> | Time needed after draining entire blue pool. After this period, blue pool will be cleaned up. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings.property.standardRolloutPolicy">standardRolloutPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy</a></code> | standard_rollout_policy block. |
 
 ---
 
-##### `standardRolloutPolicy`<sup>Required</sup> <a name="standardRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings.property.standardRolloutPolicy"></a>
+##### `autoscaledRolloutPolicy`<sup>Optional</sup> <a name="autoscaledRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings.property.autoscaledRolloutPolicy"></a>
 
 ```typescript
-public readonly standardRolloutPolicy: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy;
+public readonly autoscaledRolloutPolicy: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy;
 ```
 
-- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy</a>
 
-standard_rollout_policy block.
+autoscaled_rollout_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#standard_rollout_policy GoogleContainerNodePool#standard_rollout_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#autoscaled_rollout_policy GoogleContainerNodePool#autoscaled_rollout_policy}
 
 ---
 
@@ -5151,7 +6181,53 @@ public readonly nodePoolSoakDuration: string;
 
 Time needed after draining entire blue pool. After this period, blue pool will be cleaned up.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#node_pool_soak_duration GoogleContainerNodePool#node_pool_soak_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#node_pool_soak_duration GoogleContainerNodePool#node_pool_soak_duration}
+
+---
+
+##### `standardRolloutPolicy`<sup>Optional</sup> <a name="standardRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings.property.standardRolloutPolicy"></a>
+
+```typescript
+public readonly standardRolloutPolicy: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy</a>
+
+standard_rollout_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#standard_rollout_policy GoogleContainerNodePool#standard_rollout_policy}
+
+---
+
+### GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy <a name="GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+const googleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy: googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy.property.waitForDrainDuration">waitForDrainDuration</a></code> | <code>string</code> | Time in seconds to wait after cordoning the blue pool before draining the nodes. |
+
+---
+
+##### `waitForDrainDuration`<sup>Optional</sup> <a name="waitForDrainDuration" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy.property.waitForDrainDuration"></a>
+
+```typescript
+public readonly waitForDrainDuration: string;
+```
+
+- *Type:* string
+
+Time in seconds to wait after cordoning the blue pool before draining the nodes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#wait_for_drain_duration GoogleContainerNodePool#wait_for_drain_duration}
 
 ---
 
@@ -5185,7 +6261,7 @@ public readonly batchNodeCount: number;
 
 Number of blue nodes to drain in a batch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#batch_node_count GoogleContainerNodePool#batch_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#batch_node_count GoogleContainerNodePool#batch_node_count}
 
 ---
 
@@ -5199,7 +6275,7 @@ public readonly batchPercentage: number;
 
 Percentage of the blue pool nodes to drain in a batch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#batch_percentage GoogleContainerNodePool#batch_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#batch_percentage GoogleContainerNodePool#batch_percentage}
 
 ---
 
@@ -5213,7 +6289,7 @@ public readonly batchSoakDuration: string;
 
 Soak time after each batch gets drained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_node_pool#batch_soak_duration GoogleContainerNodePool#batch_soak_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_node_pool#batch_soak_duration GoogleContainerNodePool#batch_soak_duration}
 
 ---
 
@@ -7244,6 +8320,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.putAdditionalPodNetworkConfigs">putAdditionalPodNetworkConfigs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.putNetworkPerformanceConfig">putNetworkPerformanceConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.putPodCidrOverprovisionConfig">putPodCidrOverprovisionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetAcceleratorNetworkProfile">resetAcceleratorNetworkProfile</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetAdditionalNodeNetworkConfigs">resetAdditionalNodeNetworkConfigs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetAdditionalPodNetworkConfigs">resetAdditionalPodNetworkConfigs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetCreatePodRange">resetCreatePodRange</a></code> | *No description.* |
@@ -7252,6 +8329,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetPodCidrOverprovisionConfig">resetPodCidrOverprovisionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetPodIpv4CidrBlock">resetPodIpv4CidrBlock</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetPodRange">resetPodRange</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetSubnetwork">resetSubnetwork</a></code> | *No description.* |
 
 ---
 
@@ -7453,6 +8531,12 @@ public putPodCidrOverprovisionConfig(value: GoogleContainerNodePoolNetworkConfig
 
 ---
 
+##### `resetAcceleratorNetworkProfile` <a name="resetAcceleratorNetworkProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetAcceleratorNetworkProfile"></a>
+
+```typescript
+public resetAcceleratorNetworkProfile(): void
+```
+
 ##### `resetAdditionalNodeNetworkConfigs` <a name="resetAdditionalNodeNetworkConfigs" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetAdditionalNodeNetworkConfigs"></a>
 
 ```typescript
@@ -7501,6 +8585,12 @@ public resetPodIpv4CidrBlock(): void
 public resetPodRange(): void
 ```
 
+##### `resetSubnetwork` <a name="resetSubnetwork" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.resetSubnetwork"></a>
+
+```typescript
+public resetSubnetwork(): void
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -7512,7 +8602,7 @@ public resetPodRange(): void
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.additionalPodNetworkConfigs">additionalPodNetworkConfigs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList">GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.networkPerformanceConfig">networkPerformanceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference">GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.podCidrOverprovisionConfig">podCidrOverprovisionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference">GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.subnetwork">subnetwork</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.acceleratorNetworkProfileInput">acceleratorNetworkProfileInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.additionalNodeNetworkConfigsInput">additionalNodeNetworkConfigsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs">GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.additionalPodNetworkConfigsInput">additionalPodNetworkConfigsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs">GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.createPodRangeInput">createPodRangeInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
@@ -7521,10 +8611,13 @@ public resetPodRange(): void
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.podCidrOverprovisionConfigInput">podCidrOverprovisionConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig">GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.podIpv4CidrBlockInput">podIpv4CidrBlockInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.podRangeInput">podRangeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.subnetworkInput">subnetworkInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.acceleratorNetworkProfile">acceleratorNetworkProfile</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.createPodRange">createPodRange</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.enablePrivateNodes">enablePrivateNodes</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.podIpv4CidrBlock">podIpv4CidrBlock</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.podRange">podRange</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.subnetwork">subnetwork</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfig">GoogleContainerNodePoolNetworkConfig</a></code> | *No description.* |
 
 ---
@@ -7593,10 +8686,10 @@ public readonly podCidrOverprovisionConfig: GoogleContainerNodePoolNetworkConfig
 
 ---
 
-##### `subnetwork`<sup>Required</sup> <a name="subnetwork" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.subnetwork"></a>
+##### `acceleratorNetworkProfileInput`<sup>Optional</sup> <a name="acceleratorNetworkProfileInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.acceleratorNetworkProfileInput"></a>
 
 ```typescript
-public readonly subnetwork: string;
+public readonly acceleratorNetworkProfileInput: string;
 ```
 
 - *Type:* string
@@ -7683,6 +8776,26 @@ public readonly podRangeInput: string;
 
 ---
 
+##### `subnetworkInput`<sup>Optional</sup> <a name="subnetworkInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.subnetworkInput"></a>
+
+```typescript
+public readonly subnetworkInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `acceleratorNetworkProfile`<sup>Required</sup> <a name="acceleratorNetworkProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.acceleratorNetworkProfile"></a>
+
+```typescript
+public readonly acceleratorNetworkProfile: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `createPodRange`<sup>Required</sup> <a name="createPodRange" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.createPodRange"></a>
 
 ```typescript
@@ -7717,6 +8830,16 @@ public readonly podIpv4CidrBlock: string;
 
 ```typescript
 public readonly podRange: string;
+```
+
+- *Type:* string
+
+---
+
+##### `subnetwork`<sup>Required</sup> <a name="subnetwork" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference.property.subnetwork"></a>
+
+```typescript
+public readonly subnetwork: string;
 ```
 
 - *Type:* string
@@ -9050,7 +10173,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.putPrivateRegistryAccessConfig">putPrivateRegistryAccessConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.putRegistryHosts">putRegistryHosts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.putWritableCgroups">putWritableCgroups</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.resetPrivateRegistryAccessConfig">resetPrivateRegistryAccessConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.resetRegistryHosts">resetRegistryHosts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.resetWritableCgroups">resetWritableCgroups</a></code> | *No description.* |
 
 ---
 
@@ -9216,10 +10343,46 @@ public putPrivateRegistryAccessConfig(value: GoogleContainerNodePoolNodeConfigCo
 
 ---
 
+##### `putRegistryHosts` <a name="putRegistryHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.putRegistryHosts"></a>
+
+```typescript
+public putRegistryHosts(value: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.putRegistryHosts.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>[]
+
+---
+
+##### `putWritableCgroups` <a name="putWritableCgroups" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.putWritableCgroups"></a>
+
+```typescript
+public putWritableCgroups(value: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.putWritableCgroups.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups</a>
+
+---
+
 ##### `resetPrivateRegistryAccessConfig` <a name="resetPrivateRegistryAccessConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.resetPrivateRegistryAccessConfig"></a>
 
 ```typescript
 public resetPrivateRegistryAccessConfig(): void
+```
+
+##### `resetRegistryHosts` <a name="resetRegistryHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.resetRegistryHosts"></a>
+
+```typescript
+public resetRegistryHosts(): void
+```
+
+##### `resetWritableCgroups` <a name="resetWritableCgroups" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.resetWritableCgroups"></a>
+
+```typescript
+public resetWritableCgroups(): void
 ```
 
 
@@ -9230,7 +10393,11 @@ public resetPrivateRegistryAccessConfig(): void
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.privateRegistryAccessConfig">privateRegistryAccessConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference">GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.registryHosts">registryHosts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.writableCgroups">writableCgroups</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.privateRegistryAccessConfigInput">privateRegistryAccessConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig">GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.registryHostsInput">registryHostsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.writableCgroupsInput">writableCgroupsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfig">GoogleContainerNodePoolNodeConfigContainerdConfig</a></code> | *No description.* |
 
 ---
@@ -9269,6 +10436,26 @@ public readonly privateRegistryAccessConfig: GoogleContainerNodePoolNodeConfigCo
 
 ---
 
+##### `registryHosts`<sup>Required</sup> <a name="registryHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.registryHosts"></a>
+
+```typescript
+public readonly registryHosts: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList</a>
+
+---
+
+##### `writableCgroups`<sup>Required</sup> <a name="writableCgroups" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.writableCgroups"></a>
+
+```typescript
+public readonly writableCgroups: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference</a>
+
+---
+
 ##### `privateRegistryAccessConfigInput`<sup>Optional</sup> <a name="privateRegistryAccessConfigInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.privateRegistryAccessConfigInput"></a>
 
 ```typescript
@@ -9276,6 +10463,26 @@ public readonly privateRegistryAccessConfigInput: GoogleContainerNodePoolNodeCon
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig">GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig</a>
+
+---
+
+##### `registryHostsInput`<sup>Optional</sup> <a name="registryHostsInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.registryHostsInput"></a>
+
+```typescript
+public readonly registryHostsInput: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>[]
+
+---
+
+##### `writableCgroupsInput`<sup>Optional</sup> <a name="writableCgroupsInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference.property.writableCgroupsInput"></a>
+
+```typescript
+public readonly writableCgroupsInput: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups</a>
 
 ---
 
@@ -10354,6 +11561,3417 @@ public readonly internalValue: GoogleContainerNodePoolNodeConfigContainerdConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig">GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.get"></a>
+
+```typescript
+public get(index: number): GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>[]
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.resetGcpSecretManagerSecretUri">resetGcpSecretManagerSecretUri</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetGcpSecretManagerSecretUri` <a name="resetGcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.resetGcpSecretManagerSecretUri"></a>
+
+```typescript
+public resetGcpSecretManagerSecretUri(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.gcpSecretManagerSecretUriInput">gcpSecretManagerSecretUriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.gcpSecretManagerSecretUri">gcpSecretManagerSecretUri</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpSecretManagerSecretUriInput`<sup>Optional</sup> <a name="gcpSecretManagerSecretUriInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.gcpSecretManagerSecretUriInput"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUriInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpSecretManagerSecretUri`<sup>Required</sup> <a name="gcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.gcpSecretManagerSecretUri"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUri: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.resetGcpSecretManagerSecretUri">resetGcpSecretManagerSecretUri</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetGcpSecretManagerSecretUri` <a name="resetGcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.resetGcpSecretManagerSecretUri"></a>
+
+```typescript
+public resetGcpSecretManagerSecretUri(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.gcpSecretManagerSecretUriInput">gcpSecretManagerSecretUriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.gcpSecretManagerSecretUri">gcpSecretManagerSecretUri</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpSecretManagerSecretUriInput`<sup>Optional</sup> <a name="gcpSecretManagerSecretUriInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.gcpSecretManagerSecretUriInput"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUriInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpSecretManagerSecretUri`<sup>Required</sup> <a name="gcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.gcpSecretManagerSecretUri"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUri: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.resetGcpSecretManagerSecretUri">resetGcpSecretManagerSecretUri</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetGcpSecretManagerSecretUri` <a name="resetGcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.resetGcpSecretManagerSecretUri"></a>
+
+```typescript
+public resetGcpSecretManagerSecretUri(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.gcpSecretManagerSecretUriInput">gcpSecretManagerSecretUriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.gcpSecretManagerSecretUri">gcpSecretManagerSecretUri</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpSecretManagerSecretUriInput`<sup>Optional</sup> <a name="gcpSecretManagerSecretUriInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.gcpSecretManagerSecretUriInput"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUriInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpSecretManagerSecretUri`<sup>Required</sup> <a name="gcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.gcpSecretManagerSecretUri"></a>
+
+```typescript
+public readonly gcpSecretManagerSecretUri: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.get"></a>
+
+```typescript
+public get(index: number): GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>[]
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.putCert">putCert</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.putKey">putKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.resetKey">resetKey</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putCert` <a name="putCert" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.putCert"></a>
+
+```typescript
+public putCert(value: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.putCert.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert</a>
+
+---
+
+##### `putKey` <a name="putKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.putKey"></a>
+
+```typescript
+public putKey(value: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.putKey.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey</a>
+
+---
+
+##### `resetKey` <a name="resetKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.resetKey"></a>
+
+```typescript
+public resetKey(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.cert">cert</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.key">key</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.certInput">certInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.keyInput">keyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `cert`<sup>Required</sup> <a name="cert" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.cert"></a>
+
+```typescript
+public readonly cert: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference</a>
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.key"></a>
+
+```typescript
+public readonly key: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference</a>
+
+---
+
+##### `certInput`<sup>Optional</sup> <a name="certInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.certInput"></a>
+
+```typescript
+public readonly certInput: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert</a>
+
+---
+
+##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.keyInput"></a>
+
+```typescript
+public readonly keyInput: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.get"></a>
+
+```typescript
+public get(index: number): GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>[]
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.keyInput">keyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.valueInput">valueInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.value">value</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.keyInput"></a>
+
+```typescript
+public readonly keyInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `valueInput`<sup>Optional</sup> <a name="valueInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.valueInput"></a>
+
+```typescript
+public readonly valueInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.key"></a>
+
+```typescript
+public readonly key: string;
+```
+
+- *Type:* string
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.value"></a>
+
+```typescript
+public readonly value: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.get"></a>
+
+```typescript
+public get(index: number): GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>[]
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putCa">putCa</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putClient">putClient</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putHeader">putHeader</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetCa">resetCa</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetCapabilities">resetCapabilities</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetClient">resetClient</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetDialTimeout">resetDialTimeout</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetHeader">resetHeader</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetOverridePath">resetOverridePath</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putCa` <a name="putCa" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putCa"></a>
+
+```typescript
+public putCa(value: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putCa.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>[]
+
+---
+
+##### `putClient` <a name="putClient" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putClient"></a>
+
+```typescript
+public putClient(value: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putClient.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>[]
+
+---
+
+##### `putHeader` <a name="putHeader" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putHeader"></a>
+
+```typescript
+public putHeader(value: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.putHeader.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>[]
+
+---
+
+##### `resetCa` <a name="resetCa" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetCa"></a>
+
+```typescript
+public resetCa(): void
+```
+
+##### `resetCapabilities` <a name="resetCapabilities" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetCapabilities"></a>
+
+```typescript
+public resetCapabilities(): void
+```
+
+##### `resetClient` <a name="resetClient" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetClient"></a>
+
+```typescript
+public resetClient(): void
+```
+
+##### `resetDialTimeout` <a name="resetDialTimeout" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetDialTimeout"></a>
+
+```typescript
+public resetDialTimeout(): void
+```
+
+##### `resetHeader` <a name="resetHeader" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetHeader"></a>
+
+```typescript
+public resetHeader(): void
+```
+
+##### `resetOverridePath` <a name="resetOverridePath" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.resetOverridePath"></a>
+
+```typescript
+public resetOverridePath(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.ca">ca</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.client">client</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.header">header</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.caInput">caInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.capabilitiesInput">capabilitiesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.clientInput">clientInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.dialTimeoutInput">dialTimeoutInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.headerInput">headerInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.hostInput">hostInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.overridePathInput">overridePathInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.capabilities">capabilities</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.dialTimeout">dialTimeout</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.host">host</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.overridePath">overridePath</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `ca`<sup>Required</sup> <a name="ca" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.ca"></a>
+
+```typescript
+public readonly ca: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaList</a>
+
+---
+
+##### `client`<sup>Required</sup> <a name="client" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.client"></a>
+
+```typescript
+public readonly client: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientList</a>
+
+---
+
+##### `header`<sup>Required</sup> <a name="header" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.header"></a>
+
+```typescript
+public readonly header: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderList</a>
+
+---
+
+##### `caInput`<sup>Optional</sup> <a name="caInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.caInput"></a>
+
+```typescript
+public readonly caInput: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa</a>[]
+
+---
+
+##### `capabilitiesInput`<sup>Optional</sup> <a name="capabilitiesInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.capabilitiesInput"></a>
+
+```typescript
+public readonly capabilitiesInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `clientInput`<sup>Optional</sup> <a name="clientInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.clientInput"></a>
+
+```typescript
+public readonly clientInput: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient</a>[]
+
+---
+
+##### `dialTimeoutInput`<sup>Optional</sup> <a name="dialTimeoutInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.dialTimeoutInput"></a>
+
+```typescript
+public readonly dialTimeoutInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `headerInput`<sup>Optional</sup> <a name="headerInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.headerInput"></a>
+
+```typescript
+public readonly headerInput: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader</a>[]
+
+---
+
+##### `hostInput`<sup>Optional</sup> <a name="hostInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.hostInput"></a>
+
+```typescript
+public readonly hostInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `overridePathInput`<sup>Optional</sup> <a name="overridePathInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.overridePathInput"></a>
+
+```typescript
+public readonly overridePathInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `capabilities`<sup>Required</sup> <a name="capabilities" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.capabilities"></a>
+
+```typescript
+public readonly capabilities: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `dialTimeout`<sup>Required</sup> <a name="dialTimeout" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.dialTimeout"></a>
+
+```typescript
+public readonly dialTimeout: string;
+```
+
+- *Type:* string
+
+---
+
+##### `host`<sup>Required</sup> <a name="host" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.host"></a>
+
+```typescript
+public readonly host: string;
+```
+
+- *Type:* string
+
+---
+
+##### `overridePath`<sup>Required</sup> <a name="overridePath" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.overridePath"></a>
+
+```typescript
+public readonly overridePath: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.get"></a>
+
+```typescript
+public get(index: number): GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>[]
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.putHosts">putHosts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.resetHosts">resetHosts</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putHosts` <a name="putHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.putHosts"></a>
+
+```typescript
+public putHosts(value: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.putHosts.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>[]
+
+---
+
+##### `resetHosts` <a name="resetHosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.resetHosts"></a>
+
+```typescript
+public resetHosts(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.hosts">hosts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.hostsInput">hostsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.serverInput">serverInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.server">server</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `hosts`<sup>Required</sup> <a name="hosts" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.hosts"></a>
+
+```typescript
+public readonly hosts: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsList</a>
+
+---
+
+##### `hostsInput`<sup>Optional</sup> <a name="hostsInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.hostsInput"></a>
+
+```typescript
+public readonly hostsInput: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts</a>[]
+
+---
+
+##### `serverInput`<sup>Optional</sup> <a name="serverInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.serverInput"></a>
+
+```typescript
+public readonly serverInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `server`<sup>Required</sup> <a name="server" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.server"></a>
+
+```typescript
+public readonly server: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts">GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference <a name="GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.enabledInput">enabledInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `enabledInput`<sup>Optional</sup> <a name="enabledInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.enabledInput"></a>
+
+```typescript
+public readonly enabledInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.enabled"></a>
+
+```typescript
+public readonly enabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups">GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups</a>
 
 ---
 
@@ -14879,6 +19497,284 @@ public readonly internalValue: GoogleContainerNodePoolNodeConfigKubeletConfigEvi
 ---
 
 
+### GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference <a name="GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.resetPolicy">resetPolicy</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetPolicy` <a name="resetPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.resetPolicy"></a>
+
+```typescript
+public resetPolicy(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.policyInput">policyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.policy">policy</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `policyInput`<sup>Optional</sup> <a name="policyInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.policyInput"></a>
+
+```typescript
+public readonly policyInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `policy`<sup>Required</sup> <a name="policy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.policy"></a>
+
+```typescript
+public readonly policy: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager</a>
+
+---
+
+
 ### GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference <a name="GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.Initializer"></a>
@@ -14932,6 +19828,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putEvictionMinimumReclaim">putEvictionMinimumReclaim</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putEvictionSoft">putEvictionSoft</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putEvictionSoftGracePeriod">putEvictionSoftGracePeriod</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putMemoryManager">putMemoryManager</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putTopologyManager">putTopologyManager</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetAllowedUnsafeSysctls">resetAllowedUnsafeSysctls</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetContainerLogMaxFiles">resetContainerLogMaxFiles</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetContainerLogMaxSize">resetContainerLogMaxSize</a></code> | *No description.* |
@@ -14948,8 +19846,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetImageMinimumGcAge">resetImageMinimumGcAge</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetInsecureKubeletReadonlyPortEnabled">resetInsecureKubeletReadonlyPortEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetMaxParallelImagePulls">resetMaxParallelImagePulls</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetMemoryManager">resetMemoryManager</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetPodPidsLimit">resetPodPidsLimit</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetSingleProcessOomKill">resetSingleProcessOomKill</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetTopologyManager">resetTopologyManager</a></code> | *No description.* |
 
 ---
 
@@ -15139,6 +20039,30 @@ public putEvictionSoftGracePeriod(value: GoogleContainerNodePoolNodeConfigKubele
 
 ---
 
+##### `putMemoryManager` <a name="putMemoryManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putMemoryManager"></a>
+
+```typescript
+public putMemoryManager(value: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putMemoryManager.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager</a>
+
+---
+
+##### `putTopologyManager` <a name="putTopologyManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putTopologyManager"></a>
+
+```typescript
+public putTopologyManager(value: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.putTopologyManager.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager</a>
+
+---
+
 ##### `resetAllowedUnsafeSysctls` <a name="resetAllowedUnsafeSysctls" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetAllowedUnsafeSysctls"></a>
 
 ```typescript
@@ -15235,6 +20159,12 @@ public resetInsecureKubeletReadonlyPortEnabled(): void
 public resetMaxParallelImagePulls(): void
 ```
 
+##### `resetMemoryManager` <a name="resetMemoryManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetMemoryManager"></a>
+
+```typescript
+public resetMemoryManager(): void
+```
+
 ##### `resetPodPidsLimit` <a name="resetPodPidsLimit" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetPodPidsLimit"></a>
 
 ```typescript
@@ -15247,6 +20177,12 @@ public resetPodPidsLimit(): void
 public resetSingleProcessOomKill(): void
 ```
 
+##### `resetTopologyManager` <a name="resetTopologyManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.resetTopologyManager"></a>
+
+```typescript
+public resetTopologyManager(): void
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -15257,6 +20193,8 @@ public resetSingleProcessOomKill(): void
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.evictionMinimumReclaim">evictionMinimumReclaim</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.evictionSoft">evictionSoft</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.evictionSoftGracePeriod">evictionSoftGracePeriod</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.memoryManager">memoryManager</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.topologyManager">topologyManager</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.allowedUnsafeSysctlsInput">allowedUnsafeSysctlsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.containerLogMaxFilesInput">containerLogMaxFilesInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.containerLogMaxSizeInput">containerLogMaxSizeInput</a></code> | <code>string</code> | *No description.* |
@@ -15273,8 +20211,10 @@ public resetSingleProcessOomKill(): void
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.imageMinimumGcAgeInput">imageMinimumGcAgeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.insecureKubeletReadonlyPortEnabledInput">insecureKubeletReadonlyPortEnabledInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.maxParallelImagePullsInput">maxParallelImagePullsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.memoryManagerInput">memoryManagerInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.podPidsLimitInput">podPidsLimitInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.singleProcessOomKillInput">singleProcessOomKillInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.topologyManagerInput">topologyManagerInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.allowedUnsafeSysctls">allowedUnsafeSysctls</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.containerLogMaxFiles">containerLogMaxFiles</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.containerLogMaxSize">containerLogMaxSize</a></code> | <code>string</code> | *No description.* |
@@ -15345,6 +20285,26 @@ public readonly evictionSoftGracePeriod: GoogleContainerNodePoolNodeConfigKubele
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference</a>
+
+---
+
+##### `memoryManager`<sup>Required</sup> <a name="memoryManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.memoryManager"></a>
+
+```typescript
+public readonly memoryManager: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference</a>
+
+---
+
+##### `topologyManager`<sup>Required</sup> <a name="topologyManager" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.topologyManager"></a>
+
+```typescript
+public readonly topologyManager: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference</a>
 
 ---
 
@@ -15508,6 +20468,16 @@ public readonly maxParallelImagePullsInput: number;
 
 ---
 
+##### `memoryManagerInput`<sup>Optional</sup> <a name="memoryManagerInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.memoryManagerInput"></a>
+
+```typescript
+public readonly memoryManagerInput: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager">GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager</a>
+
+---
+
 ##### `podPidsLimitInput`<sup>Optional</sup> <a name="podPidsLimitInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.podPidsLimitInput"></a>
 
 ```typescript
@@ -15525,6 +20495,16 @@ public readonly singleProcessOomKillInput: boolean | IResolvable;
 ```
 
 - *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `topologyManagerInput`<sup>Optional</sup> <a name="topologyManagerInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference.property.topologyManagerInput"></a>
+
+```typescript
+public readonly topologyManagerInput: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager</a>
 
 ---
 
@@ -15685,6 +20665,591 @@ public readonly internalValue: GoogleContainerNodePoolNodeConfigKubeletConfig;
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfig">GoogleContainerNodePoolNodeConfigKubeletConfig</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference <a name="GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.resetPolicy">resetPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.resetScope">resetScope</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetPolicy` <a name="resetPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.resetPolicy"></a>
+
+```typescript
+public resetPolicy(): void
+```
+
+##### `resetScope` <a name="resetScope" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.resetScope"></a>
+
+```typescript
+public resetScope(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.policyInput">policyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.scopeInput">scopeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.policy">policy</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.scope">scope</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `policyInput`<sup>Optional</sup> <a name="policyInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.policyInput"></a>
+
+```typescript
+public readonly policyInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeInput`<sup>Optional</sup> <a name="scopeInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.scopeInput"></a>
+
+```typescript
+public readonly scopeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `policy`<sup>Required</sup> <a name="policy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.policy"></a>
+
+```typescript
+public readonly policy: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.scope"></a>
+
+```typescript
+public readonly scope: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager">GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.resetEnablePtpKvmTimeSync">resetEnablePtpKvmTimeSync</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetEnablePtpKvmTimeSync` <a name="resetEnablePtpKvmTimeSync" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.resetEnablePtpKvmTimeSync"></a>
+
+```typescript
+public resetEnablePtpKvmTimeSync(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.enablePtpKvmTimeSyncInput">enablePtpKvmTimeSyncInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.enablePtpKvmTimeSync">enablePtpKvmTimeSync</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `enablePtpKvmTimeSyncInput`<sup>Optional</sup> <a name="enablePtpKvmTimeSyncInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.enablePtpKvmTimeSyncInput"></a>
+
+```typescript
+public readonly enablePtpKvmTimeSyncInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `enablePtpKvmTimeSync`<sup>Required</sup> <a name="enablePtpKvmTimeSync" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.enablePtpKvmTimeSync"></a>
+
+```typescript
+public readonly enablePtpKvmTimeSync: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a>
 
 ---
 
@@ -15996,6 +21561,284 @@ public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigH
 ---
 
 
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.resetPolicy">resetPolicy</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetPolicy` <a name="resetPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.resetPolicy"></a>
+
+```typescript
+public resetPolicy(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.policyInput">policyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.policy">policy</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `policyInput`<sup>Optional</sup> <a name="policyInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.policyInput"></a>
+
+```typescript
+public readonly policyInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `policy`<sup>Required</sup> <a name="policy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.policy"></a>
+
+```typescript
+public readonly policy: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a>
+
+---
+
+
 ### GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.Initializer"></a>
@@ -16046,9 +21889,15 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putAccurateTimeConfig">putAccurateTimeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putHugepagesConfig">putHugepagesConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putNodeKernelModuleLoading">putNodeKernelModuleLoading</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putSwapConfig">putSwapConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetAccurateTimeConfig">resetAccurateTimeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetCgroupMode">resetCgroupMode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetHugepagesConfig">resetHugepagesConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetNodeKernelModuleLoading">resetNodeKernelModuleLoading</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetSwapConfig">resetSwapConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetSysctls">resetSysctls</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetTransparentHugepageDefrag">resetTransparentHugepageDefrag</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetTransparentHugepageEnabled">resetTransparentHugepageEnabled</a></code> | *No description.* |
@@ -16205,6 +22054,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putAccurateTimeConfig` <a name="putAccurateTimeConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putAccurateTimeConfig"></a>
+
+```typescript
+public putAccurateTimeConfig(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putAccurateTimeConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a>
+
+---
+
 ##### `putHugepagesConfig` <a name="putHugepagesConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putHugepagesConfig"></a>
 
 ```typescript
@@ -16217,6 +22078,36 @@ public putHugepagesConfig(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfi
 
 ---
 
+##### `putNodeKernelModuleLoading` <a name="putNodeKernelModuleLoading" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putNodeKernelModuleLoading"></a>
+
+```typescript
+public putNodeKernelModuleLoading(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putNodeKernelModuleLoading.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a>
+
+---
+
+##### `putSwapConfig` <a name="putSwapConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putSwapConfig"></a>
+
+```typescript
+public putSwapConfig(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putSwapConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a>
+
+---
+
+##### `resetAccurateTimeConfig` <a name="resetAccurateTimeConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetAccurateTimeConfig"></a>
+
+```typescript
+public resetAccurateTimeConfig(): void
+```
+
 ##### `resetCgroupMode` <a name="resetCgroupMode" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetCgroupMode"></a>
 
 ```typescript
@@ -16227,6 +22118,18 @@ public resetCgroupMode(): void
 
 ```typescript
 public resetHugepagesConfig(): void
+```
+
+##### `resetNodeKernelModuleLoading` <a name="resetNodeKernelModuleLoading" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetNodeKernelModuleLoading"></a>
+
+```typescript
+public resetNodeKernelModuleLoading(): void
+```
+
+##### `resetSwapConfig` <a name="resetSwapConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetSwapConfig"></a>
+
+```typescript
+public resetSwapConfig(): void
 ```
 
 ##### `resetSysctls` <a name="resetSysctls" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetSysctls"></a>
@@ -16254,9 +22157,15 @@ public resetTransparentHugepageEnabled(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.accurateTimeConfig">accurateTimeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.hugepagesConfig">hugepagesConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.nodeKernelModuleLoading">nodeKernelModuleLoading</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.swapConfig">swapConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.accurateTimeConfigInput">accurateTimeConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.cgroupModeInput">cgroupModeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.hugepagesConfigInput">hugepagesConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.nodeKernelModuleLoadingInput">nodeKernelModuleLoadingInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.swapConfigInput">swapConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.sysctlsInput">sysctlsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.transparentHugepageDefragInput">transparentHugepageDefragInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.transparentHugepageEnabledInput">transparentHugepageEnabledInput</a></code> | <code>string</code> | *No description.* |
@@ -16292,6 +22201,16 @@ public readonly fqn: string;
 
 ---
 
+##### `accurateTimeConfig`<sup>Required</sup> <a name="accurateTimeConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.accurateTimeConfig"></a>
+
+```typescript
+public readonly accurateTimeConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference</a>
+
+---
+
 ##### `hugepagesConfig`<sup>Required</sup> <a name="hugepagesConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.hugepagesConfig"></a>
 
 ```typescript
@@ -16299,6 +22218,36 @@ public readonly hugepagesConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfi
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference</a>
+
+---
+
+##### `nodeKernelModuleLoading`<sup>Required</sup> <a name="nodeKernelModuleLoading" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.nodeKernelModuleLoading"></a>
+
+```typescript
+public readonly nodeKernelModuleLoading: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference</a>
+
+---
+
+##### `swapConfig`<sup>Required</sup> <a name="swapConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.swapConfig"></a>
+
+```typescript
+public readonly swapConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference</a>
+
+---
+
+##### `accurateTimeConfigInput`<sup>Optional</sup> <a name="accurateTimeConfigInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.accurateTimeConfigInput"></a>
+
+```typescript
+public readonly accurateTimeConfigInput: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a>
 
 ---
 
@@ -16319,6 +22268,26 @@ public readonly hugepagesConfigInput: GoogleContainerNodePoolNodeConfigLinuxNode
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig</a>
+
+---
+
+##### `nodeKernelModuleLoadingInput`<sup>Optional</sup> <a name="nodeKernelModuleLoadingInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.nodeKernelModuleLoadingInput"></a>
+
+```typescript
+public readonly nodeKernelModuleLoadingInput: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a>
+
+---
+
+##### `swapConfigInput`<sup>Optional</sup> <a name="swapConfigInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.swapConfigInput"></a>
+
+```typescript
+public readonly swapConfigInput: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a>
 
 ---
 
@@ -16399,6 +22368,1622 @@ public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfig;
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfig</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.resetSwapSizeGib">resetSwapSizeGib</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.resetSwapSizePercent">resetSwapSizePercent</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSwapSizeGib` <a name="resetSwapSizeGib" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.resetSwapSizeGib"></a>
+
+```typescript
+public resetSwapSizeGib(): void
+```
+
+##### `resetSwapSizePercent` <a name="resetSwapSizePercent" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.resetSwapSizePercent"></a>
+
+```typescript
+public resetSwapSizePercent(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizeGibInput">swapSizeGibInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizePercentInput">swapSizePercentInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizeGib">swapSizeGib</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizePercent">swapSizePercent</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `swapSizeGibInput`<sup>Optional</sup> <a name="swapSizeGibInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizeGibInput"></a>
+
+```typescript
+public readonly swapSizeGibInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `swapSizePercentInput`<sup>Optional</sup> <a name="swapSizePercentInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizePercentInput"></a>
+
+```typescript
+public readonly swapSizePercentInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `swapSizeGib`<sup>Required</sup> <a name="swapSizeGib" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizeGib"></a>
+
+```typescript
+public readonly swapSizeGib: number;
+```
+
+- *Type:* number
+
+---
+
+##### `swapSizePercent`<sup>Required</sup> <a name="swapSizePercent" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.swapSizePercent"></a>
+
+```typescript
+public readonly swapSizePercent: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.resetDiskCount">resetDiskCount</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetDiskCount` <a name="resetDiskCount" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.resetDiskCount"></a>
+
+```typescript
+public resetDiskCount(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.diskCountInput">diskCountInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.diskCount">diskCount</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `diskCountInput`<sup>Optional</sup> <a name="diskCountInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.diskCountInput"></a>
+
+```typescript
+public readonly diskCountInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `diskCount`<sup>Required</sup> <a name="diskCount" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.diskCount"></a>
+
+```typescript
+public readonly diskCount: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.resetDisabled">resetDisabled</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetDisabled` <a name="resetDisabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.resetDisabled"></a>
+
+```typescript
+public resetDisabled(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.disabledInput">disabledInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.disabled">disabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `disabledInput`<sup>Optional</sup> <a name="disabledInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.disabledInput"></a>
+
+```typescript
+public readonly disabledInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `disabled`<sup>Required</sup> <a name="disabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.disabled"></a>
+
+```typescript
+public readonly disabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.resetSwapSizeGib">resetSwapSizeGib</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.resetSwapSizePercent">resetSwapSizePercent</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSwapSizeGib` <a name="resetSwapSizeGib" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.resetSwapSizeGib"></a>
+
+```typescript
+public resetSwapSizeGib(): void
+```
+
+##### `resetSwapSizePercent` <a name="resetSwapSizePercent" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.resetSwapSizePercent"></a>
+
+```typescript
+public resetSwapSizePercent(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizeGibInput">swapSizeGibInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizePercentInput">swapSizePercentInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizeGib">swapSizeGib</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizePercent">swapSizePercent</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `swapSizeGibInput`<sup>Optional</sup> <a name="swapSizeGibInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizeGibInput"></a>
+
+```typescript
+public readonly swapSizeGibInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `swapSizePercentInput`<sup>Optional</sup> <a name="swapSizePercentInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizePercentInput"></a>
+
+```typescript
+public readonly swapSizePercentInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `swapSizeGib`<sup>Required</sup> <a name="swapSizeGib" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizeGib"></a>
+
+```typescript
+public readonly swapSizeGib: number;
+```
+
+- *Type:* number
+
+---
+
+##### `swapSizePercent`<sup>Required</sup> <a name="swapSizePercent" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.swapSizePercent"></a>
+
+```typescript
+public readonly swapSizePercent: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putBootDiskProfile">putBootDiskProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putDedicatedLocalSsdProfile">putDedicatedLocalSsdProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putEncryptionConfig">putEncryptionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putEphemeralLocalSsdProfile">putEphemeralLocalSsdProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetBootDiskProfile">resetBootDiskProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetDedicatedLocalSsdProfile">resetDedicatedLocalSsdProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetEnabled">resetEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetEncryptionConfig">resetEncryptionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetEphemeralLocalSsdProfile">resetEphemeralLocalSsdProfile</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putBootDiskProfile` <a name="putBootDiskProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putBootDiskProfile"></a>
+
+```typescript
+public putBootDiskProfile(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putBootDiskProfile.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile</a>
+
+---
+
+##### `putDedicatedLocalSsdProfile` <a name="putDedicatedLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putDedicatedLocalSsdProfile"></a>
+
+```typescript
+public putDedicatedLocalSsdProfile(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putDedicatedLocalSsdProfile.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile</a>
+
+---
+
+##### `putEncryptionConfig` <a name="putEncryptionConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putEncryptionConfig"></a>
+
+```typescript
+public putEncryptionConfig(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putEncryptionConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig</a>
+
+---
+
+##### `putEphemeralLocalSsdProfile` <a name="putEphemeralLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putEphemeralLocalSsdProfile"></a>
+
+```typescript
+public putEphemeralLocalSsdProfile(value: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.putEphemeralLocalSsdProfile.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile</a>
+
+---
+
+##### `resetBootDiskProfile` <a name="resetBootDiskProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetBootDiskProfile"></a>
+
+```typescript
+public resetBootDiskProfile(): void
+```
+
+##### `resetDedicatedLocalSsdProfile` <a name="resetDedicatedLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetDedicatedLocalSsdProfile"></a>
+
+```typescript
+public resetDedicatedLocalSsdProfile(): void
+```
+
+##### `resetEnabled` <a name="resetEnabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetEnabled"></a>
+
+```typescript
+public resetEnabled(): void
+```
+
+##### `resetEncryptionConfig` <a name="resetEncryptionConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetEncryptionConfig"></a>
+
+```typescript
+public resetEncryptionConfig(): void
+```
+
+##### `resetEphemeralLocalSsdProfile` <a name="resetEphemeralLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.resetEphemeralLocalSsdProfile"></a>
+
+```typescript
+public resetEphemeralLocalSsdProfile(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.bootDiskProfile">bootDiskProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.dedicatedLocalSsdProfile">dedicatedLocalSsdProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.encryptionConfig">encryptionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.ephemeralLocalSsdProfile">ephemeralLocalSsdProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.bootDiskProfileInput">bootDiskProfileInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.dedicatedLocalSsdProfileInput">dedicatedLocalSsdProfileInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.enabledInput">enabledInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.encryptionConfigInput">encryptionConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.ephemeralLocalSsdProfileInput">ephemeralLocalSsdProfileInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `bootDiskProfile`<sup>Required</sup> <a name="bootDiskProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.bootDiskProfile"></a>
+
+```typescript
+public readonly bootDiskProfile: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference</a>
+
+---
+
+##### `dedicatedLocalSsdProfile`<sup>Required</sup> <a name="dedicatedLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.dedicatedLocalSsdProfile"></a>
+
+```typescript
+public readonly dedicatedLocalSsdProfile: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference</a>
+
+---
+
+##### `encryptionConfig`<sup>Required</sup> <a name="encryptionConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.encryptionConfig"></a>
+
+```typescript
+public readonly encryptionConfig: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference</a>
+
+---
+
+##### `ephemeralLocalSsdProfile`<sup>Required</sup> <a name="ephemeralLocalSsdProfile" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.ephemeralLocalSsdProfile"></a>
+
+```typescript
+public readonly ephemeralLocalSsdProfile: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference</a>
+
+---
+
+##### `bootDiskProfileInput`<sup>Optional</sup> <a name="bootDiskProfileInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.bootDiskProfileInput"></a>
+
+```typescript
+public readonly bootDiskProfileInput: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile</a>
+
+---
+
+##### `dedicatedLocalSsdProfileInput`<sup>Optional</sup> <a name="dedicatedLocalSsdProfileInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.dedicatedLocalSsdProfileInput"></a>
+
+```typescript
+public readonly dedicatedLocalSsdProfileInput: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile</a>
+
+---
+
+##### `enabledInput`<sup>Optional</sup> <a name="enabledInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.enabledInput"></a>
+
+```typescript
+public readonly enabledInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `encryptionConfigInput`<sup>Optional</sup> <a name="encryptionConfigInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.encryptionConfigInput"></a>
+
+```typescript
+public readonly encryptionConfigInput: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig</a>
+
+---
+
+##### `ephemeralLocalSsdProfileInput`<sup>Optional</sup> <a name="ephemeralLocalSsdProfileInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.ephemeralLocalSsdProfileInput"></a>
+
+```typescript
+public readonly ephemeralLocalSsdProfileInput: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile</a>
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.enabled"></a>
+
+```typescript
+public readonly enabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a>
 
 ---
 
@@ -18904,6 +26489,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.resetSandboxType">resetSandboxType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.resetType">resetType</a></code> | *No description.* |
 
 ---
 
@@ -19057,6 +26644,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetSandboxType` <a name="resetSandboxType" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.resetSandboxType"></a>
+
+```typescript
+public resetSandboxType(): void
+```
+
+##### `resetType` <a name="resetType" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.resetType"></a>
+
+```typescript
+public resetType(): void
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -19065,7 +26664,9 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.sandboxTypeInput">sandboxTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.typeInput">typeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.sandboxType">sandboxType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfig">GoogleContainerNodePoolNodeConfigSandboxConfig</a></code> | *No description.* |
 
 ---
@@ -19104,10 +26705,30 @@ public readonly sandboxTypeInput: string;
 
 ---
 
+##### `typeInput`<sup>Optional</sup> <a name="typeInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.typeInput"></a>
+
+```typescript
+public readonly typeInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `sandboxType`<sup>Required</sup> <a name="sandboxType" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.sandboxType"></a>
 
 ```typescript
 public readonly sandboxType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference.property.type"></a>
+
+```typescript
+public readonly type: string;
 ```
 
 - *Type:* string
@@ -21758,6 +29379,462 @@ public readonly internalValue: GoogleContainerNodePoolNodeConfigWorkloadMetadata
 ---
 
 
+### GoogleContainerNodePoolNodeDrainConfigList <a name="GoogleContainerNodePoolNodeDrainConfigList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.get"></a>
+
+```typescript
+public get(index: number): GoogleContainerNodePoolNodeDrainConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeDrainConfig[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>[]
+
+---
+
+
+### GoogleContainerNodePoolNodeDrainConfigOutputReference <a name="GoogleContainerNodePoolNodeDrainConfigOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.resetRespectPdbDuringNodePoolDeletion">resetRespectPdbDuringNodePoolDeletion</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetRespectPdbDuringNodePoolDeletion` <a name="resetRespectPdbDuringNodePoolDeletion" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.resetRespectPdbDuringNodePoolDeletion"></a>
+
+```typescript
+public resetRespectPdbDuringNodePoolDeletion(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.respectPdbDuringNodePoolDeletionInput">respectPdbDuringNodePoolDeletionInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.respectPdbDuringNodePoolDeletion">respectPdbDuringNodePoolDeletion</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `respectPdbDuringNodePoolDeletionInput`<sup>Optional</sup> <a name="respectPdbDuringNodePoolDeletionInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.respectPdbDuringNodePoolDeletionInput"></a>
+
+```typescript
+public readonly respectPdbDuringNodePoolDeletionInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `respectPdbDuringNodePoolDeletion`<sup>Required</sup> <a name="respectPdbDuringNodePoolDeletion" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.respectPdbDuringNodePoolDeletion"></a>
+
+```typescript
+public readonly respectPdbDuringNodePoolDeletion: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfigOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleContainerNodePoolNodeDrainConfig;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeDrainConfig">GoogleContainerNodePoolNodeDrainConfig</a>
+
+---
+
+
 ### GoogleContainerNodePoolPlacementPolicyOutputReference <a name="GoogleContainerNodePoolPlacementPolicyOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolPlacementPolicyOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolPlacementPolicyOutputReference.Initializer"></a>
@@ -22694,6 +30771,284 @@ public readonly internalValue: IResolvable | GoogleContainerNodePoolTimeouts;
 ---
 
 
+### GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference <a name="GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleContainerNodePool } from '@cdktn/provider-google-beta'
+
+new googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.resetWaitForDrainDuration">resetWaitForDrainDuration</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetWaitForDrainDuration` <a name="resetWaitForDrainDuration" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.resetWaitForDrainDuration"></a>
+
+```typescript
+public resetWaitForDrainDuration(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.waitForDrainDurationInput">waitForDrainDurationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.waitForDrainDuration">waitForDrainDuration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `waitForDrainDurationInput`<sup>Optional</sup> <a name="waitForDrainDurationInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.waitForDrainDurationInput"></a>
+
+```typescript
+public readonly waitForDrainDurationInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `waitForDrainDuration`<sup>Required</sup> <a name="waitForDrainDuration" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.waitForDrainDuration"></a>
+
+```typescript
+public readonly waitForDrainDuration: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy</a>
+
+---
+
+
 ### GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference <a name="GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.Initializer"></a>
@@ -22744,8 +31099,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.putAutoscaledRolloutPolicy">putAutoscaledRolloutPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.putStandardRolloutPolicy">putStandardRolloutPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.resetAutoscaledRolloutPolicy">resetAutoscaledRolloutPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.resetNodePoolSoakDuration">resetNodePoolSoakDuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.resetStandardRolloutPolicy">resetStandardRolloutPolicy</a></code> | *No description.* |
 
 ---
 
@@ -22899,6 +31257,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putAutoscaledRolloutPolicy` <a name="putAutoscaledRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.putAutoscaledRolloutPolicy"></a>
+
+```typescript
+public putAutoscaledRolloutPolicy(value: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.putAutoscaledRolloutPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy</a>
+
+---
+
 ##### `putStandardRolloutPolicy` <a name="putStandardRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.putStandardRolloutPolicy"></a>
 
 ```typescript
@@ -22911,10 +31281,22 @@ public putStandardRolloutPolicy(value: GoogleContainerNodePoolUpgradeSettingsBlu
 
 ---
 
+##### `resetAutoscaledRolloutPolicy` <a name="resetAutoscaledRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.resetAutoscaledRolloutPolicy"></a>
+
+```typescript
+public resetAutoscaledRolloutPolicy(): void
+```
+
 ##### `resetNodePoolSoakDuration` <a name="resetNodePoolSoakDuration" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.resetNodePoolSoakDuration"></a>
 
 ```typescript
 public resetNodePoolSoakDuration(): void
+```
+
+##### `resetStandardRolloutPolicy` <a name="resetStandardRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.resetStandardRolloutPolicy"></a>
+
+```typescript
+public resetStandardRolloutPolicy(): void
 ```
 
 
@@ -22924,7 +31306,9 @@ public resetNodePoolSoakDuration(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.autoscaledRolloutPolicy">autoscaledRolloutPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.standardRolloutPolicy">standardRolloutPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyOutputReference">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.autoscaledRolloutPolicyInput">autoscaledRolloutPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.nodePoolSoakDurationInput">nodePoolSoakDurationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.standardRolloutPolicyInput">standardRolloutPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.nodePoolSoakDuration">nodePoolSoakDuration</a></code> | <code>string</code> | *No description.* |
@@ -22956,6 +31340,16 @@ public readonly fqn: string;
 
 ---
 
+##### `autoscaledRolloutPolicy`<sup>Required</sup> <a name="autoscaledRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.autoscaledRolloutPolicy"></a>
+
+```typescript
+public readonly autoscaledRolloutPolicy: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference</a>
+
+---
+
 ##### `standardRolloutPolicy`<sup>Required</sup> <a name="standardRolloutPolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.standardRolloutPolicy"></a>
 
 ```typescript
@@ -22963,6 +31357,16 @@ public readonly standardRolloutPolicy: GoogleContainerNodePoolUpgradeSettingsBlu
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyOutputReference">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyOutputReference</a>
+
+---
+
+##### `autoscaledRolloutPolicyInput`<sup>Optional</sup> <a name="autoscaledRolloutPolicyInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference.property.autoscaledRolloutPolicyInput"></a>
+
+```typescript
+public readonly autoscaledRolloutPolicyInput: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy">GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy</a>
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleComputeWireGroup <a name="GoogleComputeWireGroup" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group google_compute_wire_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group google_compute_wire_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroup(scope Construct, id *string, config GoogleComputeWireGroupConfig) GoogleComputeWireGroup
 ```
@@ -508,7 +508,7 @@ func ResetWireProperties()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.GoogleComputeWireGroup_IsConstruct(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.GoogleComputeWireGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ googlecomputewiregroup.GoogleComputeWireGroup_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.GoogleComputeWireGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -568,7 +568,7 @@ googlecomputewiregroup.GoogleComputeWireGroup_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.GoogleComputeWireGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -597,7 +597,7 @@ The construct id used in the generated config for the GoogleComputeWireGroup to 
 
 The id of the existing GoogleComputeWireGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1050,7 +1050,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupConfig {
 	Connection: interface{},
@@ -1067,9 +1067,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	Endpoints: interface{},
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeWireGroup.GoogleComputeWireGroupTimeouts,
-	WireGroupProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeWireGroup.GoogleComputeWireGroupWireGroupProperties,
-	WireProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeWireGroup.GoogleComputeWireGroupWireProperties,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeWireGroup.GoogleComputeWireGroupTimeouts,
+	WireGroupProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeWireGroup.GoogleComputeWireGroupWireGroupProperties,
+	WireProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeWireGroup.GoogleComputeWireGroupWireProperties,
 }
 ```
 
@@ -1089,8 +1089,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.adminEnabled">AdminEnabled</a></code> | <code>interface{}</code> | Indicates whether the wire group is administratively enabled. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.endpoints">Endpoints</a></code> | <code>interface{}</code> | endpoints block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts">GoogleComputeWireGroupTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.wireGroupProperties">WireGroupProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireGroupProperties">GoogleComputeWireGroupWireGroupProperties</a></code> | wire_group_properties block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.wireProperties">WireProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties">GoogleComputeWireGroupWireProperties</a></code> | wire_properties block. |
@@ -1177,7 +1177,7 @@ CrossSiteNetwork *string
 
 Required cross site network to which wire group belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#cross_site_network GoogleComputeWireGroup#cross_site_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#cross_site_network GoogleComputeWireGroup#cross_site_network}
 
 ---
 
@@ -1197,7 +1197,7 @@ long and match the regular expression '[a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?' which
 character must be a lowercase letter, and all following characters must be a dash,
 lowercase letter, or digit, except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#name GoogleComputeWireGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#name GoogleComputeWireGroup#name}
 
 ---
 
@@ -1211,7 +1211,7 @@ AdminEnabled interface{}
 
 Indicates whether the wire group is administratively enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#admin_enabled GoogleComputeWireGroup#admin_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#admin_enabled GoogleComputeWireGroup#admin_enabled}
 
 ---
 
@@ -1225,7 +1225,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#description GoogleComputeWireGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#description GoogleComputeWireGroup#description}
 
 ---
 
@@ -1239,7 +1239,7 @@ Endpoints interface{}
 
 endpoints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#endpoints GoogleComputeWireGroup#endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#endpoints GoogleComputeWireGroup#endpoints}
 
 ---
 
@@ -1251,7 +1251,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1266,7 +1266,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}.
 
 ---
 
@@ -1280,7 +1280,7 @@ Timeouts GoogleComputeWireGroupTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#timeouts GoogleComputeWireGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#timeouts GoogleComputeWireGroup#timeouts}
 
 ---
 
@@ -1294,7 +1294,7 @@ WireGroupProperties GoogleComputeWireGroupWireGroupProperties
 
 wire_group_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#wire_group_properties GoogleComputeWireGroup#wire_group_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#wire_group_properties GoogleComputeWireGroup#wire_group_properties}
 
 ---
 
@@ -1308,7 +1308,7 @@ WireProperties GoogleComputeWireGroupWireProperties
 
 wire_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#wire_properties GoogleComputeWireGroup#wire_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#wire_properties GoogleComputeWireGroup#wire_properties}
 
 ---
 
@@ -1317,7 +1317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupEndpoints {
 	Endpoint: *string,
@@ -1329,7 +1329,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints.property.endpoint">Endpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints.property.endpoint">Endpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints.property.interconnects">Interconnects</a></code> | <code>interface{}</code> | interconnects block. |
 
 ---
@@ -1342,7 +1342,7 @@ Endpoint *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}.
 
 ---
 
@@ -1356,7 +1356,7 @@ Interconnects interface{}
 
 interconnects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#interconnects GoogleComputeWireGroup#interconnects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#interconnects GoogleComputeWireGroup#interconnects}
 
 ---
 
@@ -1365,7 +1365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupEndpointsInterconnects {
 	InterconnectName: *string,
@@ -1378,8 +1378,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnectName">InterconnectName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnect">Interconnect</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnectName">InterconnectName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnect">Interconnect</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.vlanTags">VlanTags</a></code> | <code>*[]*f64</code> | VLAN tags for the interconnect. |
 
 ---
@@ -1392,7 +1392,7 @@ InterconnectName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}.
 
 ---
 
@@ -1404,7 +1404,7 @@ Interconnect *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}.
 
 ---
 
@@ -1418,7 +1418,7 @@ VlanTags *[]*f64
 
 VLAN tags for the interconnect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#vlan_tags GoogleComputeWireGroup#vlan_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#vlan_tags GoogleComputeWireGroup#vlan_tags}
 
 ---
 
@@ -1427,7 +1427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupTimeouts {
 	Create: *string,
@@ -1440,9 +1440,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}. |
 
 ---
 
@@ -1454,7 +1454,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}.
 
 ---
 
@@ -1466,7 +1466,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}.
 
 ---
 
@@ -1478,7 +1478,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}.
 
 ---
 
@@ -1487,7 +1487,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTopology.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupTopology {
 
@@ -1500,7 +1500,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTopologyEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupTopologyEndpoints {
 
@@ -1513,7 +1513,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireGroupProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupWireGroupProperties {
 	Type: *string,
@@ -1542,7 +1542,7 @@ WIRE: a single pseudowire over two Interconnect connections   with no redundancy
 REDUNDANT: two pseudowires over four Interconnect connections, with two connections in one metro and two connections in another metro.
 BOX_AND_CROSS: four pseudowires over four Interconnect connections, with two connections in one metro and two connections in another metro.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#type GoogleComputeWireGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#type GoogleComputeWireGroup#type}
 
 ---
 
@@ -1551,9 +1551,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupWireProperties {
+	BandwidthAllocation: *string,
 	BandwidthUnmetered: *f64,
 	FaultResponse: *string,
 }
@@ -1563,8 +1564,27 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties.property.bandwidthAllocation">BandwidthAllocation</a></code> | <code>*string</code> | The configuration of a wire's bandwidth allocation. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties.property.bandwidthUnmetered">BandwidthUnmetered</a></code> | <code>*f64</code> | The unmetered bandwidth setting. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties.property.faultResponse">FaultResponse</a></code> | <code>*string</code> | Response when a fault is detected in a pseudowire: NONE: default. |
+
+---
+
+##### `BandwidthAllocation`<sup>Required</sup> <a name="BandwidthAllocation" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties.property.bandwidthAllocation"></a>
+
+```go
+BandwidthAllocation *string
+```
+
+- *Type:* *string
+
+The configuration of a wire's bandwidth allocation.
+
+ALLOCATE_PER_WIRE: configures a separate unmetered bandwidth allocation (and associated charges) for each wire in the group.
+SHARED_WITH_WIRE_GROUP: this is the default behavior, which configures one unmetered bandwidth allocation for the wire group. The unmetered bandwidth is divided equally across each wire in the group, but dynamic
+throttling reallocates unused unmetered bandwidth from unused or underused wires to other wires in the group.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#bandwidth_allocation GoogleComputeWireGroup#bandwidth_allocation}
 
 ---
 
@@ -1578,7 +1598,7 @@ BandwidthUnmetered *f64
 
 The unmetered bandwidth setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#bandwidth_unmetered GoogleComputeWireGroup#bandwidth_unmetered}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#bandwidth_unmetered GoogleComputeWireGroup#bandwidth_unmetered}
 
 ---
 
@@ -1594,7 +1614,7 @@ Response when a fault is detected in a pseudowire: NONE: default.
 
 DISABLE_PORT: set the port line protocol down when inline probes detect a fault. This setting is only permitted on port mode pseudowires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#fault_response GoogleComputeWireGroup#fault_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_wire_group#fault_response GoogleComputeWireGroup#fault_response}
 
 ---
 
@@ -1603,7 +1623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWires.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupWires {
 
@@ -1616,7 +1636,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupWiresEndpoints {
 
@@ -1629,7 +1649,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresWireProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 &googlecomputewiregroup.GoogleComputeWireGroupWiresWireProperties {
 
@@ -1644,7 +1664,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnectsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupEndpointsInterconnectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeWireGroupEndpointsInterconnectsList
 ```
@@ -1804,7 +1824,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupEndpointsInterconnectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeWireGroupEndpointsInterconnectsOutputReference
 ```
@@ -2151,7 +2171,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeWireGroupEndpointsList
 ```
@@ -2311,7 +2331,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeWireGroupEndpointsOutputReference
 ```
@@ -2642,7 +2662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeWireGroupTimeoutsOutputReference
 ```
@@ -2978,7 +2998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTopologyEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupTopologyEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeWireGroupTopologyEndpointsList
 ```
@@ -3127,7 +3147,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTopologyEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupTopologyEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeWireGroupTopologyEndpointsOutputReference
 ```
@@ -3416,7 +3436,7 @@ func InternalValue() GoogleComputeWireGroupTopologyEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTopologyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupTopologyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeWireGroupTopologyList
 ```
@@ -3565,7 +3585,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTopologyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupTopologyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeWireGroupTopologyOutputReference
 ```
@@ -3843,7 +3863,7 @@ func InternalValue() GoogleComputeWireGroupTopology
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireGroupPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWireGroupPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeWireGroupWireGroupPropertiesOutputReference
 ```
@@ -4121,7 +4141,7 @@ func InternalValue() GoogleComputeWireGroupWireGroupProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWirePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeWireGroupWirePropertiesOutputReference
 ```
@@ -4340,8 +4360,10 @@ func ResetFaultResponse()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.bandwidthAllocationInput">BandwidthAllocationInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.bandwidthUnmeteredInput">BandwidthUnmeteredInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.faultResponseInput">FaultResponseInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.bandwidthAllocation">BandwidthAllocation</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.bandwidthUnmetered">BandwidthUnmetered</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.faultResponse">FaultResponse</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties">GoogleComputeWireGroupWireProperties</a></code> | *No description.* |
@@ -4372,6 +4394,16 @@ func Fqn() *string
 
 ---
 
+##### `BandwidthAllocationInput`<sup>Optional</sup> <a name="BandwidthAllocationInput" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.bandwidthAllocationInput"></a>
+
+```go
+func BandwidthAllocationInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `BandwidthUnmeteredInput`<sup>Optional</sup> <a name="BandwidthUnmeteredInput" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.bandwidthUnmeteredInput"></a>
 
 ```go
@@ -4386,6 +4418,16 @@ func BandwidthUnmeteredInput() *f64
 
 ```go
 func FaultResponseInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BandwidthAllocation`<sup>Required</sup> <a name="BandwidthAllocation" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference.property.bandwidthAllocation"></a>
+
+```go
+func BandwidthAllocation() *string
 ```
 
 - *Type:* *string
@@ -4428,7 +4470,7 @@ func InternalValue() GoogleComputeWireGroupWireProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWiresEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeWireGroupWiresEndpointsList
 ```
@@ -4577,7 +4619,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWiresEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeWireGroupWiresEndpointsOutputReference
 ```
@@ -4866,7 +4908,7 @@ func InternalValue() GoogleComputeWireGroupWiresEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWiresList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeWireGroupWiresList
 ```
@@ -5015,7 +5057,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWiresOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeWireGroupWiresOutputReference
 ```
@@ -5326,7 +5368,7 @@ func InternalValue() GoogleComputeWireGroupWires
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresWirePropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWiresWirePropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeWireGroupWiresWirePropertiesList
 ```
@@ -5475,7 +5517,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresWirePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup"
 
 googlecomputewiregroup.NewGoogleComputeWireGroupWiresWirePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeWireGroupWiresWirePropertiesOutputReference
 ```

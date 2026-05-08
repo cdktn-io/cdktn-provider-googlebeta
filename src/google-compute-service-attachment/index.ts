@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,20 +16,20 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMet
   * The connection preference to use for this service attachment. Valid
   * values include "ACCEPT_AUTOMATIC", "ACCEPT_MANUAL".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
   */
   readonly connectionPreference: string;
   /**
   * An array of projects that are not allowed to connect to this service
   * attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
   */
   readonly consumerRejectLists?: string[];
   /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
   */
   readonly description?: string;
   /**
@@ -38,7 +38,7 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMet
   * valid domain name: "p.mycompany.com.". Current max number of domain names
   * supported is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
   */
   readonly domainNames?: string[];
   /**
@@ -46,11 +46,11 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMet
   * address data in TCP connections that traverse proxies on their way to
   * destination servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
   */
   readonly enableProxyProtocol: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,17 +64,17 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMet
   * following characters must be a dash, lowercase letter, or digit,
   * except the last character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
   */
   readonly name: string;
   /**
   * An array of subnets that is provided for NAT in this service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
   */
   readonly natSubnets: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}
   */
   readonly project?: string;
   /**
@@ -86,7 +86,7 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMet
   * 
   * If unspecified, the default propagated connection limit is 250. To explicitly send a zero value, set 'send_propagated_connection_limit_if_zero = true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
   */
   readonly propagatedConnectionLimit?: number;
   /**
@@ -95,13 +95,13 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMet
   * If false, connection policy update will only affect existing PENDING PSC endpoints. Existing ACCEPTED/REJECTED endpoints will remain untouched regardless how the connection policy is modified .
   * If true, update will affect both PENDING and ACCEPTED/REJECTED PSC endpoints. For example, an ACCEPTED PSC endpoint will be moved to REJECTED if its project is added to the reject list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
   */
   readonly reconcileConnections?: boolean | cdktn.IResolvable;
   /**
   * URL of the region where the resource resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
   */
   readonly region?: string;
   /**
@@ -110,27 +110,41 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMet
   * When true, the provider will set propagated_connection_limit to zero.
   * Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
   */
   readonly sendPropagatedConnectionLimitIfZero?: boolean | cdktn.IResolvable;
   /**
+  * NOTE: This field is temporarily non-functional due to an underlying API issue.
+  * Any value provided here will be ignored until the API issue is resolved, expected around 2026-03.
+  * [If true, show NAT IPs of all connected endpoints.]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#show_nat_ips GoogleComputeServiceAttachment#show_nat_ips}
+  */
+  readonly showNatIps?: boolean | cdktn.IResolvable;
+  /**
   * The URL of a service serving the endpoint identified by this service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
   */
   readonly targetService: string;
   /**
   * consumer_accept_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
   */
   readonly consumerAcceptLists?: GoogleComputeServiceAttachmentConsumerAcceptLists[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
   */
   readonly timeouts?: GoogleComputeServiceAttachmentTimeouts;
+  /**
+  * tunneling_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#tunneling_config GoogleComputeServiceAttachment#tunneling_config}
+  */
+  readonly tunnelingConfig?: GoogleComputeServiceAttachmentTunnelingConfig;
 }
 export interface GoogleComputeServiceAttachmentConnectedEndpoints {
 }
@@ -193,6 +207,11 @@ export class GoogleComputeServiceAttachmentConnectedEndpointsOutputReference ext
     return this.getStringAttribute('endpoint');
   }
 
+  // nat_ips - computed: true, optional: false, required: false
+  public get natIps() {
+    return this.getListAttribute('nat_ips');
+  }
+
   // propagated_connection_count - computed: true, optional: false, required: false
   public get propagatedConnectionCount() {
     return this.getNumberAttribute('propagated_connection_count');
@@ -227,26 +246,113 @@ export class GoogleComputeServiceAttachmentConnectedEndpointsList extends cdktn.
     return new GoogleComputeServiceAttachmentConnectedEndpointsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleComputeServiceAttachmentPscServiceAttachmentId {
+}
+
+export function googleComputeServiceAttachmentPscServiceAttachmentIdToTerraform(struct?: GoogleComputeServiceAttachmentPscServiceAttachmentId): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function googleComputeServiceAttachmentPscServiceAttachmentIdToHclTerraform(struct?: GoogleComputeServiceAttachmentPscServiceAttachmentId): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleComputeServiceAttachmentPscServiceAttachmentId | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeServiceAttachmentPscServiceAttachmentId | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // high - computed: true, optional: false, required: false
+  public get high() {
+    return this.getStringAttribute('high');
+  }
+
+  // low - computed: true, optional: false, required: false
+  public get low() {
+    return this.getStringAttribute('low');
+  }
+}
+
+export class GoogleComputeServiceAttachmentPscServiceAttachmentIdList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference {
+    return new GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleComputeServiceAttachmentConsumerAcceptLists {
   /**
   * The number of consumer forwarding rules the consumer project can
   * create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#connection_limit GoogleComputeServiceAttachment#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#connection_limit GoogleComputeServiceAttachment#connection_limit}
   */
   readonly connectionLimit: number;
+  /**
+  * The endpoint that is allowed to connect to this service attachment.
+  * Only one of project_id_or_num, network_url and endpoint_url may be set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#endpoint_url GoogleComputeServiceAttachment#endpoint_url}
+  */
+  readonly endpointUrl?: string;
   /**
   * The network that is allowed to connect to this service attachment.
   * Only one of project_id_or_num and network_url may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#network_url GoogleComputeServiceAttachment#network_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#network_url GoogleComputeServiceAttachment#network_url}
   */
   readonly networkUrl?: string;
   /**
   * A project that is allowed to connect to this service attachment.
   * Only one of project_id_or_num and network_url may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project_id_or_num GoogleComputeServiceAttachment#project_id_or_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project_id_or_num GoogleComputeServiceAttachment#project_id_or_num}
   */
   readonly projectIdOrNum?: string;
 }
@@ -258,6 +364,7 @@ export function googleComputeServiceAttachmentConsumerAcceptListsToTerraform(str
   }
   return {
     connection_limit: cdktn.numberToTerraform(struct!.connectionLimit),
+    endpoint_url: cdktn.stringToTerraform(struct!.endpointUrl),
     network_url: cdktn.stringToTerraform(struct!.networkUrl),
     project_id_or_num: cdktn.stringToTerraform(struct!.projectIdOrNum),
   }
@@ -275,6 +382,12 @@ export function googleComputeServiceAttachmentConsumerAcceptListsToHclTerraform(
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    endpoint_url: {
+      value: cdktn.stringToHclTerraform(struct!.endpointUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     network_url: {
       value: cdktn.stringToHclTerraform(struct!.networkUrl),
@@ -318,6 +431,10 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
       hasAnyValues = true;
       internalValueResult.connectionLimit = this._connectionLimit;
     }
+    if (this._endpointUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endpointUrl = this._endpointUrl;
+    }
     if (this._networkUrl !== undefined) {
       hasAnyValues = true;
       internalValueResult.networkUrl = this._networkUrl;
@@ -334,6 +451,7 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._connectionLimit = undefined;
+      this._endpointUrl = undefined;
       this._networkUrl = undefined;
       this._projectIdOrNum = undefined;
     }
@@ -345,6 +463,7 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._connectionLimit = value.connectionLimit;
+      this._endpointUrl = value.endpointUrl;
       this._networkUrl = value.networkUrl;
       this._projectIdOrNum = value.projectIdOrNum;
     }
@@ -361,6 +480,22 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get connectionLimitInput() {
     return this._connectionLimit;
+  }
+
+  // endpoint_url - computed: false, optional: true, required: false
+  private _endpointUrl?: string; 
+  public get endpointUrl() {
+    return this.getStringAttribute('endpoint_url');
+  }
+  public set endpointUrl(value: string) {
+    this._endpointUrl = value;
+  }
+  public resetEndpointUrl() {
+    this._endpointUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointUrlInput() {
+    return this._endpointUrl;
   }
 
   // network_url - computed: false, optional: true, required: false
@@ -417,15 +552,15 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsList extends cdktn
 }
 export interface GoogleComputeServiceAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}
   */
   readonly update?: string;
 }
@@ -575,9 +710,130 @@ export class GoogleComputeServiceAttachmentTimeoutsOutputReference extends cdktn
     return this._update;
   }
 }
+export interface GoogleComputeServiceAttachmentTunnelingConfig {
+  /**
+  * The encapsulation profile for tunneling traffic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#encapsulation_profile GoogleComputeServiceAttachment#encapsulation_profile}
+  */
+  readonly encapsulationProfile?: string;
+  /**
+  * The routing mode for tunneling traffic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#routing_mode GoogleComputeServiceAttachment#routing_mode}
+  */
+  readonly routingMode?: string;
+}
+
+export function googleComputeServiceAttachmentTunnelingConfigToTerraform(struct?: GoogleComputeServiceAttachmentTunnelingConfigOutputReference | GoogleComputeServiceAttachmentTunnelingConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    encapsulation_profile: cdktn.stringToTerraform(struct!.encapsulationProfile),
+    routing_mode: cdktn.stringToTerraform(struct!.routingMode),
+  }
+}
+
+
+export function googleComputeServiceAttachmentTunnelingConfigToHclTerraform(struct?: GoogleComputeServiceAttachmentTunnelingConfigOutputReference | GoogleComputeServiceAttachmentTunnelingConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    encapsulation_profile: {
+      value: cdktn.stringToHclTerraform(struct!.encapsulationProfile),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    routing_mode: {
+      value: cdktn.stringToHclTerraform(struct!.routingMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeServiceAttachmentTunnelingConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleComputeServiceAttachmentTunnelingConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._encapsulationProfile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encapsulationProfile = this._encapsulationProfile;
+    }
+    if (this._routingMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.routingMode = this._routingMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeServiceAttachmentTunnelingConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._encapsulationProfile = undefined;
+      this._routingMode = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._encapsulationProfile = value.encapsulationProfile;
+      this._routingMode = value.routingMode;
+    }
+  }
+
+  // encapsulation_profile - computed: false, optional: true, required: false
+  private _encapsulationProfile?: string; 
+  public get encapsulationProfile() {
+    return this.getStringAttribute('encapsulation_profile');
+  }
+  public set encapsulationProfile(value: string) {
+    this._encapsulationProfile = value;
+  }
+  public resetEncapsulationProfile() {
+    this._encapsulationProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encapsulationProfileInput() {
+    return this._encapsulationProfile;
+  }
+
+  // routing_mode - computed: false, optional: true, required: false
+  private _routingMode?: string; 
+  public get routingMode() {
+    return this.getStringAttribute('routing_mode');
+  }
+  public set routingMode(value: string) {
+    this._routingMode = value;
+  }
+  public resetRoutingMode() {
+    this._routingMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routingModeInput() {
+    return this._routingMode;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}
 */
 export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
 
@@ -593,7 +849,7 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeServiceAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeServiceAttachment to import
-  * @param importFromId The id of the existing GoogleComputeServiceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeServiceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeServiceAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -605,7 +861,7 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment google_compute_service_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -616,8 +872,8 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_service_attachment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -640,9 +896,11 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
     this._reconcileConnections = config.reconcileConnections;
     this._region = config.region;
     this._sendPropagatedConnectionLimitIfZero = config.sendPropagatedConnectionLimitIfZero;
+    this._showNatIps = config.showNatIps;
     this._targetService = config.targetService;
     this._consumerAcceptLists.internalValue = config.consumerAcceptLists;
     this._timeouts.internalValue = config.timeouts;
+    this._tunnelingConfig.internalValue = config.tunnelingConfig;
   }
 
   // ==========
@@ -808,6 +1066,12 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
     return this._propagatedConnectionLimit;
   }
 
+  // psc_service_attachment_id - computed: true, optional: false, required: false
+  private _pscServiceAttachmentId = new GoogleComputeServiceAttachmentPscServiceAttachmentIdList(this, "psc_service_attachment_id", false);
+  public get pscServiceAttachmentId() {
+    return this._pscServiceAttachmentId;
+  }
+
   // reconcile_connections - computed: true, optional: true, required: false
   private _reconcileConnections?: boolean | cdktn.IResolvable; 
   public get reconcileConnections() {
@@ -861,6 +1125,22 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
     return this._sendPropagatedConnectionLimitIfZero;
   }
 
+  // show_nat_ips - computed: false, optional: true, required: false
+  private _showNatIps?: boolean | cdktn.IResolvable; 
+  public get showNatIps() {
+    return this.getBooleanAttribute('show_nat_ips');
+  }
+  public set showNatIps(value: boolean | cdktn.IResolvable) {
+    this._showNatIps = value;
+  }
+  public resetShowNatIps() {
+    this._showNatIps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get showNatIpsInput() {
+    return this._showNatIps;
+  }
+
   // target_service - computed: false, optional: false, required: true
   private _targetService?: string; 
   public get targetService() {
@@ -906,6 +1186,22 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
     return this._timeouts.internalValue;
   }
 
+  // tunneling_config - computed: false, optional: true, required: false
+  private _tunnelingConfig = new GoogleComputeServiceAttachmentTunnelingConfigOutputReference(this, "tunneling_config");
+  public get tunnelingConfig() {
+    return this._tunnelingConfig;
+  }
+  public putTunnelingConfig(value: GoogleComputeServiceAttachmentTunnelingConfig) {
+    this._tunnelingConfig.internalValue = value;
+  }
+  public resetTunnelingConfig() {
+    this._tunnelingConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tunnelingConfigInput() {
+    return this._tunnelingConfig.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -925,9 +1221,11 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
       reconcile_connections: cdktn.booleanToTerraform(this._reconcileConnections),
       region: cdktn.stringToTerraform(this._region),
       send_propagated_connection_limit_if_zero: cdktn.booleanToTerraform(this._sendPropagatedConnectionLimitIfZero),
+      show_nat_ips: cdktn.booleanToTerraform(this._showNatIps),
       target_service: cdktn.stringToTerraform(this._targetService),
       consumer_accept_lists: cdktn.listMapper(googleComputeServiceAttachmentConsumerAcceptListsToTerraform, true)(this._consumerAcceptLists.internalValue),
       timeouts: googleComputeServiceAttachmentTimeoutsToTerraform(this._timeouts.internalValue),
+      tunneling_config: googleComputeServiceAttachmentTunnelingConfigToTerraform(this._tunnelingConfig.internalValue),
     };
   }
 
@@ -1011,6 +1309,12 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      show_nat_ips: {
+        value: cdktn.booleanToHclTerraform(this._showNatIps),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       target_service: {
         value: cdktn.stringToHclTerraform(this._targetService),
         isBlock: false,
@@ -1028,6 +1332,12 @@ export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "GoogleComputeServiceAttachmentTimeouts",
+      },
+      tunneling_config: {
+        value: googleComputeServiceAttachmentTunnelingConfigToHclTerraform(this._tunnelingConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleComputeServiceAttachmentTunnelingConfigList",
       },
     };
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionBackendService <a name="GoogleComputeRegionBackendService" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service google_compute_region_backend_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service google_compute_region_backend_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer"></a>
 
@@ -41,7 +41,9 @@ GoogleComputeRegionBackendService.Builder.create(Construct scope, java.lang.Stri
 //  .localityLbPolicy(java.lang.String)
 //  .logConfig(GoogleComputeRegionBackendServiceLogConfig)
 //  .network(java.lang.String)
+//  .networkPassThroughLbTrafficPolicy(GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy)
 //  .outlierDetection(GoogleComputeRegionBackendServiceOutlierDetection)
+//  .params(GoogleComputeRegionBackendServiceParams)
 //  .portName(java.lang.String)
 //  .project(java.lang.String)
 //  .protocol(java.lang.String)
@@ -52,6 +54,7 @@ GoogleComputeRegionBackendService.Builder.create(Construct scope, java.lang.Stri
 //  .subsetting(GoogleComputeRegionBackendServiceSubsetting)
 //  .timeouts(GoogleComputeRegionBackendServiceTimeouts)
 //  .timeoutSec(java.lang.Number)
+//  .tlsSettings(GoogleComputeRegionBackendServiceTlsSettings)
     .build();
 ```
 
@@ -82,15 +85,17 @@ GoogleComputeRegionBackendService.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.haPolicy">haPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceHaPolicy">GoogleComputeRegionBackendServiceHaPolicy</a></code> | ha_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.healthChecks">healthChecks</a></code> | <code>java.util.List<java.lang.String></code> | The set of URLs to HealthCheck resources for health checking this RegionBackendService. Currently at most one health check can be specified. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.iap">iap</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceIap">GoogleComputeRegionBackendServiceIap</a></code> | iap block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.ipAddressSelectionPolicy">ipAddressSelectionPolicy</a></code> | <code>java.lang.String</code> | Specifies preference of traffic to the backend (from the proxy and from the client for proxyless gRPC). |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.loadBalancingScheme">loadBalancingScheme</a></code> | <code>java.lang.String</code> | Indicates what kind of load balancing this regional backend service will be used for. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.localityLbPolicy">localityLbPolicy</a></code> | <code>java.lang.String</code> | The load balancing algorithm used within the scope of the locality. The possible values are:. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.logConfig">logConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceLogConfig">GoogleComputeRegionBackendServiceLogConfig</a></code> | log_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.network">network</a></code> | <code>java.lang.String</code> | The URL of the network to which this backend service belongs. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.networkPassThroughLbTrafficPolicy">networkPassThroughLbTrafficPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a></code> | network_pass_through_lb_traffic_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.outlierDetection">outlierDetection</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetection">GoogleComputeRegionBackendServiceOutlierDetection</a></code> | outlier_detection block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.portName">portName</a></code> | <code>java.lang.String</code> | A named port on a backend instance group representing the port for communication to the backend VMs in that group. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.protocol">protocol</a></code> | <code>java.lang.String</code> | The protocol this BackendService uses to communicate with backends. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The Region in which the created backend service should reside. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.securityPolicy">securityPolicy</a></code> | <code>java.lang.String</code> | The security policy associated with this backend service. |
@@ -99,6 +104,7 @@ GoogleComputeRegionBackendService.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.subsetting">subsetting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceSubsetting">GoogleComputeRegionBackendServiceSubsetting</a></code> | subsetting block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts">GoogleComputeRegionBackendServiceTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.timeoutSec">timeoutSec</a></code> | <code>java.lang.Number</code> | The backend service timeout has a different meaning depending on the type of load balancer. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.tlsSettings">tlsSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a></code> | tls_settings block. |
 
 ---
 
@@ -176,7 +182,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
 
 ---
 
@@ -192,7 +198,7 @@ maximum allowed value for TTL is one day.
 
 When the load balancing scheme is INTERNAL, this field is not used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#affinity_cookie_ttl_sec GoogleComputeRegionBackendService#affinity_cookie_ttl_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#affinity_cookie_ttl_sec GoogleComputeRegionBackendService#affinity_cookie_ttl_sec}
 
 ---
 
@@ -202,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 backend block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#backend GoogleComputeRegionBackendService#backend}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#backend GoogleComputeRegionBackendService#backend}
 
 ---
 
@@ -212,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 cdn_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#cdn_policy GoogleComputeRegionBackendService#cdn_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#cdn_policy GoogleComputeRegionBackendService#cdn_policy}
 
 ---
 
@@ -222,7 +228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 circuit_breakers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#circuit_breakers GoogleComputeRegionBackendService#circuit_breakers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#circuit_breakers GoogleComputeRegionBackendService#circuit_breakers}
 
 ---
 
@@ -232,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Time for which instance will be drained (not accept new connections, but still work to finish started).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#connection_draining_timeout_sec GoogleComputeRegionBackendService#connection_draining_timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#connection_draining_timeout_sec GoogleComputeRegionBackendService#connection_draining_timeout_sec}
 
 ---
 
@@ -242,7 +248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 connection_tracking_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#connection_tracking_policy GoogleComputeRegionBackendService#connection_tracking_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#connection_tracking_policy GoogleComputeRegionBackendService#connection_tracking_policy}
 
 ---
 
@@ -252,7 +258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 consistent_hash block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#consistent_hash GoogleComputeRegionBackendService#consistent_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#consistent_hash GoogleComputeRegionBackendService#consistent_hash}
 
 ---
 
@@ -262,7 +268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 custom_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
 
 ---
 
@@ -272,7 +278,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
 
 ---
 
@@ -282,7 +288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 dynamic_forwarding block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#dynamic_forwarding GoogleComputeRegionBackendService#dynamic_forwarding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#dynamic_forwarding GoogleComputeRegionBackendService#dynamic_forwarding}
 
 ---
 
@@ -292,7 +298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, enable Cloud CDN for this RegionBackendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enable_cdn GoogleComputeRegionBackendService#enable_cdn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enable_cdn GoogleComputeRegionBackendService#enable_cdn}
 
 ---
 
@@ -302,7 +308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 failover_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#failover_policy GoogleComputeRegionBackendService#failover_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#failover_policy GoogleComputeRegionBackendService#failover_policy}
 
 ---
 
@@ -312,7 +318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ha_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ha_policy GoogleComputeRegionBackendService#ha_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ha_policy GoogleComputeRegionBackendService#ha_policy}
 
 ---
 
@@ -325,7 +331,7 @@ The set of URLs to HealthCheck resources for health checking this RegionBackendS
 A health check must be specified unless the backend service uses an internet
 or serverless NEG as a backend.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#health_checks GoogleComputeRegionBackendService#health_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#health_checks GoogleComputeRegionBackendService#health_checks}
 
 ---
 
@@ -335,7 +341,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 iap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#iap GoogleComputeRegionBackendService#iap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#iap GoogleComputeRegionBackendService#iap}
 
 ---
 
@@ -343,7 +349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -358,7 +364,7 @@ Specifies preference of traffic to the backend (from the proxy and from the clie
 
 Possible values: ["IPV4_ONLY", "PREFER_IPV6", "IPV6_ONLY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ip_address_selection_policy GoogleComputeRegionBackendService#ip_address_selection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ip_address_selection_policy GoogleComputeRegionBackendService#ip_address_selection_policy}
 
 ---
 
@@ -370,9 +376,9 @@ Indicates what kind of load balancing this regional backend service will be used
 
 A backend service created for one type of load
 balancing cannot be used with the other(s). For more information, refer to
-[Choosing a load balancer](https://cloud.google.com/load-balancing/docs/backend-service). Default value: "INTERNAL" Possible values: ["EXTERNAL", "EXTERNAL_MANAGED", "INTERNAL", "INTERNAL_MANAGED"]
+[Choosing a load balancer](https://cloud.google.com/load-balancing/docs/backend-service). Default value: "INTERNAL" Possible values: ["EXTERNAL", "EXTERNAL_MANAGED", "INTERNAL", "INTERNAL_MANAGED", "INTERNAL_SELF_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#load_balancing_scheme GoogleComputeRegionBackendService#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#load_balancing_scheme GoogleComputeRegionBackendService#load_balancing_scheme}
 
 ---
 
@@ -436,7 +442,7 @@ Only ROUND_ROBIN and RING_HASH are supported when the backend service is referen
 by a URL map that is bound to target gRPC proxy that has validate_for_proxyless
 field set to true. Possible values: ["ROUND_ROBIN", "LEAST_REQUEST", "RING_HASH", "RANDOM", "ORIGINAL_DESTINATION", "MAGLEV", "WEIGHTED_MAGLEV", "WEIGHTED_ROUND_ROBIN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#locality_lb_policy GoogleComputeRegionBackendService#locality_lb_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#locality_lb_policy GoogleComputeRegionBackendService#locality_lb_policy}
 
 ---
 
@@ -446,7 +452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 log_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#log_config GoogleComputeRegionBackendService#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#log_config GoogleComputeRegionBackendService#log_config}
 
 ---
 
@@ -456,9 +462,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URL of the network to which this backend service belongs.
 
-This field can only be specified when the load balancing scheme is set to INTERNAL.
+This field must be set for Internal Passthrough Network Load Balancers when the haPolicy is enabled, and for External Passthrough Network Load Balancers when the haPolicy fastIpMove is enabled.
+This field can only be specified when the load balancing scheme is set to INTERNAL, or when the load balancing scheme is set to EXTERNAL and haPolicy fastIpMove is enabled.
+Changes to this field force recreation of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#network GoogleComputeRegionBackendService#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#network GoogleComputeRegionBackendService#network}
+
+---
+
+##### `networkPassThroughLbTrafficPolicy`<sup>Optional</sup> <a name="networkPassThroughLbTrafficPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.networkPassThroughLbTrafficPolicy"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a>
+
+network_pass_through_lb_traffic_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#network_pass_through_lb_traffic_policy GoogleComputeRegionBackendService#network_pass_through_lb_traffic_policy}
 
 ---
 
@@ -468,7 +486,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 outlier_detection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#outlier_detection GoogleComputeRegionBackendService#outlier_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#outlier_detection GoogleComputeRegionBackendService#outlier_detection}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.params"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#params GoogleComputeRegionBackendService#params}
 
 ---
 
@@ -485,7 +513,7 @@ backend instance group. This parameter has no meaning if the backends are NEGs. 
 default of "http" if not given.
 Must be omitted when the loadBalancingScheme is INTERNAL (Internal TCP/UDP Load Balancing).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#port_name GoogleComputeRegionBackendService#port_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#port_name GoogleComputeRegionBackendService#port_name}
 
 ---
 
@@ -493,7 +521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}.
 
 ---
 
@@ -507,7 +535,7 @@ The default is HTTP. Possible values are HTTP, HTTPS, HTTP2, H2C, TCP, SSL, UDP
 or GRPC. Refer to the documentation for the load balancers or for Traffic Director
 for more information. Possible values: ["HTTP", "HTTPS", "HTTP2", "TCP", "SSL", "UDP", "GRPC", "UNSPECIFIED", "H2C"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#protocol GoogleComputeRegionBackendService#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#protocol GoogleComputeRegionBackendService#protocol}
 
 ---
 
@@ -517,7 +545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Region in which the created backend service should reside. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#region GoogleComputeRegionBackendService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#region GoogleComputeRegionBackendService#region}
 
 ---
 
@@ -527,7 +555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The security policy associated with this backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#security_policy GoogleComputeRegionBackendService#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#security_policy GoogleComputeRegionBackendService#security_policy}
 
 ---
 
@@ -540,7 +568,7 @@ Type of session affinity to use.
 The default is NONE. Session affinity is
 not applicable if the protocol is UDP. Possible values: ["NONE", "CLIENT_IP", "CLIENT_IP_PORT_PROTO", "CLIENT_IP_PROTO", "GENERATED_COOKIE", "HEADER_FIELD", "HTTP_COOKIE", "CLIENT_IP_NO_DESTINATION", "STRONG_COOKIE_AFFINITY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#session_affinity GoogleComputeRegionBackendService#session_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#session_affinity GoogleComputeRegionBackendService#session_affinity}
 
 ---
 
@@ -550,7 +578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 strong_session_affinity_cookie block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#strong_session_affinity_cookie GoogleComputeRegionBackendService#strong_session_affinity_cookie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#strong_session_affinity_cookie GoogleComputeRegionBackendService#strong_session_affinity_cookie}
 
 ---
 
@@ -560,7 +588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 subsetting block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#subsetting GoogleComputeRegionBackendService#subsetting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#subsetting GoogleComputeRegionBackendService#subsetting}
 
 ---
 
@@ -570,7 +598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#timeouts GoogleComputeRegionBackendService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#timeouts GoogleComputeRegionBackendService#timeouts}
 
 ---
 
@@ -584,7 +612,17 @@ For more information see, [Backend service settings](https://cloud.google.com/co
 The default is 30 seconds.
 The full range of timeout values allowed goes from 1 through 2,147,483,647 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#timeout_sec GoogleComputeRegionBackendService#timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#timeout_sec GoogleComputeRegionBackendService#timeout_sec}
+
+---
+
+##### `tlsSettings`<sup>Optional</sup> <a name="tlsSettings" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.Initializer.parameter.tlsSettings"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a>
+
+tls_settings block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#tls_settings GoogleComputeRegionBackendService#tls_settings}
 
 ---
 
@@ -627,10 +665,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putHaPolicy">putHaPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putIap">putIap</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putLogConfig">putLogConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putNetworkPassThroughLbTrafficPolicy">putNetworkPassThroughLbTrafficPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putOutlierDetection">putOutlierDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putParams">putParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putStrongSessionAffinityCookie">putStrongSessionAffinityCookie</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putSubsetting">putSubsetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putTlsSettings">putTlsSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetAffinityCookieTtlSec">resetAffinityCookieTtlSec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetBackend">resetBackend</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetCdnPolicy">resetCdnPolicy</a></code> | *No description.* |
@@ -652,7 +693,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetLocalityLbPolicy">resetLocalityLbPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetLogConfig">resetLogConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetNetwork">resetNetwork</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetNetworkPassThroughLbTrafficPolicy">resetNetworkPassThroughLbTrafficPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetOutlierDetection">resetOutlierDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetParams">resetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetPortName">resetPortName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetProtocol">resetProtocol</a></code> | *No description.* |
@@ -663,6 +706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetSubsetting">resetSubsetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetTimeoutSec">resetTimeoutSec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetTlsSettings">resetTlsSettings</a></code> | *No description.* |
 
 ---
 
@@ -1109,6 +1153,18 @@ public void putLogConfig(GoogleComputeRegionBackendServiceLogConfig value)
 
 ---
 
+##### `putNetworkPassThroughLbTrafficPolicy` <a name="putNetworkPassThroughLbTrafficPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putNetworkPassThroughLbTrafficPolicy"></a>
+
+```java
+public void putNetworkPassThroughLbTrafficPolicy(GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putNetworkPassThroughLbTrafficPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a>
+
+---
+
 ##### `putOutlierDetection` <a name="putOutlierDetection" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putOutlierDetection"></a>
 
 ```java
@@ -1118,6 +1174,18 @@ public void putOutlierDetection(GoogleComputeRegionBackendServiceOutlierDetectio
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putOutlierDetection.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetection">GoogleComputeRegionBackendServiceOutlierDetection</a>
+
+---
+
+##### `putParams` <a name="putParams" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putParams"></a>
+
+```java
+public void putParams(GoogleComputeRegionBackendServiceParams value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a>
 
 ---
 
@@ -1154,6 +1222,18 @@ public void putTimeouts(GoogleComputeRegionBackendServiceTimeouts value)
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putTimeouts.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts">GoogleComputeRegionBackendServiceTimeouts</a>
+
+---
+
+##### `putTlsSettings` <a name="putTlsSettings" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putTlsSettings"></a>
+
+```java
+public void putTlsSettings(GoogleComputeRegionBackendServiceTlsSettings value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.putTlsSettings.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a>
 
 ---
 
@@ -1283,10 +1363,22 @@ public void resetLogConfig()
 public void resetNetwork()
 ```
 
+##### `resetNetworkPassThroughLbTrafficPolicy` <a name="resetNetworkPassThroughLbTrafficPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetNetworkPassThroughLbTrafficPolicy"></a>
+
+```java
+public void resetNetworkPassThroughLbTrafficPolicy()
+```
+
 ##### `resetOutlierDetection` <a name="resetOutlierDetection" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetOutlierDetection"></a>
 
 ```java
 public void resetOutlierDetection()
+```
+
+##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetParams"></a>
+
+```java
+public void resetParams()
 ```
 
 ##### `resetPortName` <a name="resetPortName" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetPortName"></a>
@@ -1347,6 +1439,12 @@ public void resetTimeouts()
 
 ```java
 public void resetTimeoutSec()
+```
+
+##### `resetTlsSettings` <a name="resetTlsSettings" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.resetTlsSettings"></a>
+
+```java
+public void resetTlsSettings()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -1452,7 +1550,7 @@ The construct id used in the generated config for the GoogleComputeRegionBackend
 
 The id of the existing GoogleComputeRegionBackendService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1496,11 +1594,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.haPolicy">haPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceHaPolicyOutputReference">GoogleComputeRegionBackendServiceHaPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.iap">iap</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceIapOutputReference">GoogleComputeRegionBackendServiceIapOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.logConfig">logConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceLogConfigOutputReference">GoogleComputeRegionBackendServiceLogConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.networkPassThroughLbTrafficPolicy">networkPassThroughLbTrafficPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.outlierDetection">outlierDetection</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetectionOutputReference">GoogleComputeRegionBackendServiceOutlierDetectionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference">GoogleComputeRegionBackendServiceParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.selfLink">selfLink</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.strongSessionAffinityCookie">strongSessionAffinityCookie</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceStrongSessionAffinityCookieOutputReference">GoogleComputeRegionBackendServiceStrongSessionAffinityCookieOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.subsetting">subsetting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceSubsettingOutputReference">GoogleComputeRegionBackendServiceSubsettingOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeoutsOutputReference">GoogleComputeRegionBackendServiceTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.tlsSettings">tlsSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference">GoogleComputeRegionBackendServiceTlsSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.affinityCookieTtlSecInput">affinityCookieTtlSecInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.backendInput">backendInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend">GoogleComputeRegionBackendServiceBackend</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.cdnPolicyInput">cdnPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceCdnPolicy">GoogleComputeRegionBackendServiceCdnPolicy</a></code> | *No description.* |
@@ -1523,7 +1624,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.logConfigInput">logConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceLogConfig">GoogleComputeRegionBackendServiceLogConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.networkInput">networkInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.networkPassThroughLbTrafficPolicyInput">networkPassThroughLbTrafficPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.outlierDetectionInput">outlierDetectionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetection">GoogleComputeRegionBackendServiceOutlierDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.portNameInput">portNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.protocolInput">protocolInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1534,6 +1637,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.subsettingInput">subsettingInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceSubsetting">GoogleComputeRegionBackendServiceSubsetting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.timeoutSecInput">timeoutSecInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts">GoogleComputeRegionBackendServiceTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.tlsSettingsInput">tlsSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.affinityCookieTtlSec">affinityCookieTtlSec</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.connectionDrainingTimeoutSec">connectionDrainingTimeoutSec</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1837,6 +1941,16 @@ public GoogleComputeRegionBackendServiceLogConfigOutputReference getLogConfig();
 
 ---
 
+##### `networkPassThroughLbTrafficPolicy`<sup>Required</sup> <a name="networkPassThroughLbTrafficPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.networkPassThroughLbTrafficPolicy"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference getNetworkPassThroughLbTrafficPolicy();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference</a>
+
+---
+
 ##### `outlierDetection`<sup>Required</sup> <a name="outlierDetection" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.outlierDetection"></a>
 
 ```java
@@ -1844,6 +1958,16 @@ public GoogleComputeRegionBackendServiceOutlierDetectionOutputReference getOutli
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetectionOutputReference">GoogleComputeRegionBackendServiceOutlierDetectionOutputReference</a>
+
+---
+
+##### `params`<sup>Required</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.params"></a>
+
+```java
+public GoogleComputeRegionBackendServiceParamsOutputReference getParams();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference">GoogleComputeRegionBackendServiceParamsOutputReference</a>
 
 ---
 
@@ -1884,6 +2008,16 @@ public GoogleComputeRegionBackendServiceTimeoutsOutputReference getTimeouts();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeoutsOutputReference">GoogleComputeRegionBackendServiceTimeoutsOutputReference</a>
+
+---
+
+##### `tlsSettings`<sup>Required</sup> <a name="tlsSettings" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.tlsSettings"></a>
+
+```java
+public GoogleComputeRegionBackendServiceTlsSettingsOutputReference getTlsSettings();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference">GoogleComputeRegionBackendServiceTlsSettingsOutputReference</a>
 
 ---
 
@@ -2107,6 +2241,16 @@ public java.lang.String getNetworkInput();
 
 ---
 
+##### `networkPassThroughLbTrafficPolicyInput`<sup>Optional</sup> <a name="networkPassThroughLbTrafficPolicyInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.networkPassThroughLbTrafficPolicyInput"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy getNetworkPassThroughLbTrafficPolicyInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a>
+
+---
+
 ##### `outlierDetectionInput`<sup>Optional</sup> <a name="outlierDetectionInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.outlierDetectionInput"></a>
 
 ```java
@@ -2114,6 +2258,16 @@ public GoogleComputeRegionBackendServiceOutlierDetection getOutlierDetectionInpu
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetection">GoogleComputeRegionBackendServiceOutlierDetection</a>
+
+---
+
+##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.paramsInput"></a>
+
+```java
+public GoogleComputeRegionBackendServiceParams getParamsInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a>
 
 ---
 
@@ -2214,6 +2368,16 @@ public IResolvable|GoogleComputeRegionBackendServiceTimeouts getTimeoutsInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts">GoogleComputeRegionBackendServiceTimeouts</a>
+
+---
+
+##### `tlsSettingsInput`<sup>Optional</sup> <a name="tlsSettingsInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendService.property.tlsSettingsInput"></a>
+
+```java
+public GoogleComputeRegionBackendServiceTlsSettings getTlsSettingsInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a>
 
 ---
 
@@ -2434,10 +2598,14 @@ GoogleComputeRegionBackendServiceBackend.builder()
 //  .maxConnections(java.lang.Number)
 //  .maxConnectionsPerEndpoint(java.lang.Number)
 //  .maxConnectionsPerInstance(java.lang.Number)
+//  .maxInFlightRequests(java.lang.Number)
+//  .maxInFlightRequestsPerEndpoint(java.lang.Number)
+//  .maxInFlightRequestsPerInstance(java.lang.Number)
 //  .maxRate(java.lang.Number)
 //  .maxRatePerEndpoint(java.lang.Number)
 //  .maxRatePerInstance(java.lang.Number)
 //  .maxUtilization(java.lang.Number)
+//  .trafficDuration(java.lang.String)
     .build();
 ```
 
@@ -2454,10 +2622,14 @@ GoogleComputeRegionBackendServiceBackend.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxConnections">maxConnections</a></code> | <code>java.lang.Number</code> | The max number of simultaneous connections for the group. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxConnectionsPerEndpoint">maxConnectionsPerEndpoint</a></code> | <code>java.lang.Number</code> | The max number of simultaneous connections that a single backend network endpoint can handle. Cannot be set for INTERNAL backend services. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxConnectionsPerInstance">maxConnectionsPerInstance</a></code> | <code>java.lang.Number</code> | The max number of simultaneous connections that a single backend instance can handle. Cannot be set for INTERNAL backend services. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxInFlightRequests">maxInFlightRequests</a></code> | <code>java.lang.Number</code> | Defines a maximum number of in-flight requests for the whole NEG or instance group. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxInFlightRequestsPerEndpoint">maxInFlightRequestsPerEndpoint</a></code> | <code>java.lang.Number</code> | Defines a maximum number of in-flight requests for a single endpoint. Not available if backend's balancingMode is RATE or CONNECTION. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxInFlightRequestsPerInstance">maxInFlightRequestsPerInstance</a></code> | <code>java.lang.Number</code> | Defines a maximum number of in-flight requests for a single VM. Not available if backend's balancingMode is RATE or CONNECTION. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxRate">maxRate</a></code> | <code>java.lang.Number</code> | The max requests per second (RPS) of the group. Cannot be set for INTERNAL backend services. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxRatePerEndpoint">maxRatePerEndpoint</a></code> | <code>java.lang.Number</code> | The max requests per second (RPS) that a single backend network endpoint can handle. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxRatePerInstance">maxRatePerInstance</a></code> | <code>java.lang.Number</code> | The max requests per second (RPS) that a single backend instance can handle. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxUtilization">maxUtilization</a></code> | <code>java.lang.Number</code> | Used when balancingMode is UTILIZATION. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.trafficDuration">trafficDuration</a></code> | <code>java.lang.String</code> | This field specifies how long a connection should be kept alive for: - LONG: Most of the requests are expected to take more than multiple   seconds to finish. |
 
 ---
 
@@ -2491,7 +2663,7 @@ Note that you must specify an Instance Group or Network Endpoint
 Group resource using the fully-qualified URL, rather than a
 partial URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#group GoogleComputeRegionBackendService#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#group GoogleComputeRegionBackendService#group}
 
 ---
 
@@ -2508,7 +2680,7 @@ Specifies the balancing mode for this backend.
 See the [Backend Services Overview](https://cloud.google.com/load-balancing/docs/backend-service#balancing-mode)
 for an explanation of load balancing modes. Default value: "UTILIZATION" Possible values: ["UTILIZATION", "RATE", "CONNECTION", "CUSTOM_METRICS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#balancing_mode GoogleComputeRegionBackendService#balancing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#balancing_mode GoogleComputeRegionBackendService#balancing_mode}
 
 ---
 
@@ -2530,7 +2702,7 @@ capacity_scaler for all backends must be non-zero.
 A setting of 0 means the group is completely drained, offering
 0% of its available Capacity. Valid range is [0.0,1.0].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#capacity_scaler GoogleComputeRegionBackendService#capacity_scaler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#capacity_scaler GoogleComputeRegionBackendService#capacity_scaler}
 
 ---
 
@@ -2544,7 +2716,7 @@ public IResolvable|java.util.List<GoogleComputeRegionBackendServiceBackendCustom
 
 custom_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
 
 ---
 
@@ -2558,7 +2730,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
 
 ---
 
@@ -2575,7 +2747,7 @@ This field designates whether this is a failover backend.
 More
 than one failover backend can be configured for a given RegionBackendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#failover GoogleComputeRegionBackendService#failover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#failover GoogleComputeRegionBackendService#failover}
 
 ---
 
@@ -2597,7 +2769,7 @@ For CONNECTION mode, either maxConnections or one
 of maxConnectionsPerInstance or maxConnectionsPerEndpoint,
 as appropriate for group type, must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
 
 ---
 
@@ -2616,7 +2788,7 @@ used in either CONNECTION or UTILIZATION balancing modes. For
 CONNECTION mode, either maxConnections or
 maxConnectionsPerEndpoint must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_connections_per_endpoint GoogleComputeRegionBackendService#max_connections_per_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_connections_per_endpoint GoogleComputeRegionBackendService#max_connections_per_endpoint}
 
 ---
 
@@ -2635,7 +2807,52 @@ Can be used in either CONNECTION or UTILIZATION balancing modes.
 For CONNECTION mode, either maxConnections or
 maxConnectionsPerInstance must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_connections_per_instance GoogleComputeRegionBackendService#max_connections_per_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_connections_per_instance GoogleComputeRegionBackendService#max_connections_per_instance}
+
+---
+
+##### `maxInFlightRequests`<sup>Optional</sup> <a name="maxInFlightRequests" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxInFlightRequests"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequests();
+```
+
+- *Type:* java.lang.Number
+
+Defines a maximum number of in-flight requests for the whole NEG or instance group.
+
+Not available if backend's balancingMode is RATE
+or CONNECTION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests GoogleComputeRegionBackendService#max_in_flight_requests}
+
+---
+
+##### `maxInFlightRequestsPerEndpoint`<sup>Optional</sup> <a name="maxInFlightRequestsPerEndpoint" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxInFlightRequestsPerEndpoint"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequestsPerEndpoint();
+```
+
+- *Type:* java.lang.Number
+
+Defines a maximum number of in-flight requests for a single endpoint. Not available if backend's balancingMode is RATE or CONNECTION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests_per_endpoint GoogleComputeRegionBackendService#max_in_flight_requests_per_endpoint}
+
+---
+
+##### `maxInFlightRequestsPerInstance`<sup>Optional</sup> <a name="maxInFlightRequestsPerInstance" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.maxInFlightRequestsPerInstance"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequestsPerInstance();
+```
+
+- *Type:* java.lang.Number
+
+Defines a maximum number of in-flight requests for a single VM. Not available if backend's balancingMode is RATE or CONNECTION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests_per_instance GoogleComputeRegionBackendService#max_in_flight_requests_per_instance}
 
 ---
 
@@ -2654,7 +2871,7 @@ but required if RATE mode. Either maxRate or one
 of maxRatePerInstance or maxRatePerEndpoint, as appropriate for
 group type, must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_rate GoogleComputeRegionBackendService#max_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_rate GoogleComputeRegionBackendService#max_rate}
 
 ---
 
@@ -2673,7 +2890,7 @@ the group. Can be used in either balancing mode. For RATE mode,
 either maxRate or maxRatePerEndpoint must be set. Cannot be set
 for INTERNAL backend services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_rate_per_endpoint GoogleComputeRegionBackendService#max_rate_per_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_rate_per_endpoint GoogleComputeRegionBackendService#max_rate_per_endpoint}
 
 ---
 
@@ -2692,7 +2909,7 @@ the group. Can be used in either balancing mode. For RATE mode,
 either maxRate or maxRatePerInstance must be set. Cannot be set
 for INTERNAL backend services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_rate_per_instance GoogleComputeRegionBackendService#max_rate_per_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_rate_per_instance GoogleComputeRegionBackendService#max_rate_per_instance}
 
 ---
 
@@ -2710,7 +2927,23 @@ This ratio defines the
 CPU utilization target for the group. Valid range is [0.0, 1.0].
 Cannot be set for INTERNAL backend services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
+
+---
+
+##### `trafficDuration`<sup>Optional</sup> <a name="trafficDuration" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend.property.trafficDuration"></a>
+
+```java
+public java.lang.String getTrafficDuration();
+```
+
+- *Type:* java.lang.String
+
+This field specifies how long a connection should be kept alive for: - LONG: Most of the requests are expected to take more than multiple   seconds to finish.
+
+* SHORT: Most requests are expected to finish with a sub-second latency. Possible values: ["LONG", "SHORT"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#traffic_duration GoogleComputeRegionBackendService#traffic_duration}
 
 ---
 
@@ -2748,7 +2981,7 @@ public java.lang.Boolean|IResolvable getDryRun();
 
 If true, the metric data is collected and reported to Cloud Monitoring, but is not used for load balancing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
 
 ---
 
@@ -2772,7 +3005,7 @@ field can only be used for a global or regional backend service with the
 loadBalancingScheme set to <code>EXTERNAL_MANAGED</code>,
 <code>INTERNAL_MANAGED</code> <code>INTERNAL_SELF_MANAGED</code>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
 
 ---
 
@@ -2786,7 +3019,7 @@ public java.lang.Number getMaxUtilization();
 
 Optional parameter to define a target utilization for the Custom Metrics balancing mode. The valid range is <code>[0.0, 1.0]</code>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
 
 ---
 
@@ -2836,7 +3069,7 @@ public GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy getCacheKeyPolic
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#cache_key_policy GoogleComputeRegionBackendService#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#cache_key_policy GoogleComputeRegionBackendService#cache_key_policy}
 
 ---
 
@@ -2852,7 +3085,7 @@ Specifies the cache setting for all responses from this backend.
 
 The possible values are: USE_ORIGIN_HEADERS, FORCE_CACHE_ALL and CACHE_ALL_STATIC Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#cache_mode GoogleComputeRegionBackendService#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#cache_mode GoogleComputeRegionBackendService#cache_mode}
 
 ---
 
@@ -2866,7 +3099,7 @@ public java.lang.Number getClientTtl();
 
 Specifies the maximum allowed TTL for cached content served by this origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#client_ttl GoogleComputeRegionBackendService#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#client_ttl GoogleComputeRegionBackendService#client_ttl}
 
 ---
 
@@ -2880,7 +3113,7 @@ public java.lang.Number getDefaultTtl();
 
 Specifies the default TTL for cached content served by this origin for responses that do not have an existing valid TTL (max-age or s-max-age).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#default_ttl GoogleComputeRegionBackendService#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#default_ttl GoogleComputeRegionBackendService#default_ttl}
 
 ---
 
@@ -2894,7 +3127,7 @@ public java.lang.Number getMaxTtl();
 
 Specifies the maximum allowed TTL for cached content served by this origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_ttl GoogleComputeRegionBackendService#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_ttl GoogleComputeRegionBackendService#max_ttl}
 
 ---
 
@@ -2908,7 +3141,7 @@ public java.lang.Boolean|IResolvable getNegativeCaching();
 
 Negative caching allows per-status code TTLs to be set, in order to apply fine-grained caching for common errors or redirects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#negative_caching GoogleComputeRegionBackendService#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#negative_caching GoogleComputeRegionBackendService#negative_caching}
 
 ---
 
@@ -2922,7 +3155,7 @@ public IResolvable|java.util.List<GoogleComputeRegionBackendServiceCdnPolicyNega
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#negative_caching_policy GoogleComputeRegionBackendService#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#negative_caching_policy GoogleComputeRegionBackendService#negative_caching_policy}
 
 ---
 
@@ -2936,7 +3169,7 @@ public java.lang.Number getServeWhileStale();
 
 Serve existing content from the cache (if available) when revalidating content with the origin, or when an error is encountered when refreshing the cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#serve_while_stale GoogleComputeRegionBackendService#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#serve_while_stale GoogleComputeRegionBackendService#serve_while_stale}
 
 ---
 
@@ -2960,7 +3193,7 @@ internally behave as though all responses from this backend had a
 existing Cache-Control header. The actual headers served in
 responses will not be altered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#signed_url_cache_max_age_sec GoogleComputeRegionBackendService#signed_url_cache_max_age_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#signed_url_cache_max_age_sec GoogleComputeRegionBackendService#signed_url_cache_max_age_sec}
 
 ---
 
@@ -3004,7 +3237,7 @@ public java.lang.Boolean|IResolvable getIncludeHost();
 
 If true requests to different hosts will be cached separately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#include_host GoogleComputeRegionBackendService#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#include_host GoogleComputeRegionBackendService#include_host}
 
 ---
 
@@ -3018,7 +3251,7 @@ public java.util.List<java.lang.String> getIncludeNamedCookies();
 
 Names of cookies to include in cache keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#include_named_cookies GoogleComputeRegionBackendService#include_named_cookies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#include_named_cookies GoogleComputeRegionBackendService#include_named_cookies}
 
 ---
 
@@ -3032,7 +3265,7 @@ public java.lang.Boolean|IResolvable getIncludeProtocol();
 
 If true, http and https requests will be cached separately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#include_protocol GoogleComputeRegionBackendService#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#include_protocol GoogleComputeRegionBackendService#include_protocol}
 
 ---
 
@@ -3052,7 +3285,7 @@ string will be included.
 If false, the query string will be excluded from the cache
 key entirely.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#include_query_string GoogleComputeRegionBackendService#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#include_query_string GoogleComputeRegionBackendService#include_query_string}
 
 ---
 
@@ -3071,7 +3304,7 @@ query_string_whitelist or query_string_blacklist, not both.
 '&' and '=' will be percent encoded and not treated as
 delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#query_string_blacklist GoogleComputeRegionBackendService#query_string_blacklist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#query_string_blacklist GoogleComputeRegionBackendService#query_string_blacklist}
 
 ---
 
@@ -3090,7 +3323,7 @@ query_string_whitelist or query_string_blacklist, not both.
 '&' and '=' will be percent encoded and not treated as
 delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#query_string_whitelist GoogleComputeRegionBackendService#query_string_whitelist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#query_string_whitelist GoogleComputeRegionBackendService#query_string_whitelist}
 
 ---
 
@@ -3129,7 +3362,7 @@ The HTTP status code to define a TTL against.
 Only HTTP status codes 300, 301, 308, 404, 405, 410, 421, 451 and 501
 can be specified as values, and you cannot specify a status code more than once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#code GoogleComputeRegionBackendService#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#code GoogleComputeRegionBackendService#code}
 
 ---
 
@@ -3146,7 +3379,7 @@ The TTL (in seconds) for which to cache responses with the corresponding status 
 The maximum allowed value is 1800s
 (30 minutes), noting that infrequently accessed objects may be evicted from the cache before the defined TTL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
 
 ---
 
@@ -3190,7 +3423,7 @@ public GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeout getConnect
 
 connect_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#connect_timeout GoogleComputeRegionBackendService#connect_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#connect_timeout GoogleComputeRegionBackendService#connect_timeout}
 
 ---
 
@@ -3204,7 +3437,7 @@ public java.lang.Number getMaxConnections();
 
 The maximum number of connections to the backend cluster. Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
 
 ---
 
@@ -3218,7 +3451,7 @@ public java.lang.Number getMaxPendingRequests();
 
 The maximum number of pending requests to the backend cluster. Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_pending_requests GoogleComputeRegionBackendService#max_pending_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_pending_requests GoogleComputeRegionBackendService#max_pending_requests}
 
 ---
 
@@ -3232,7 +3465,7 @@ public java.lang.Number getMaxRequests();
 
 The maximum number of parallel requests to the backend cluster. Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_requests GoogleComputeRegionBackendService#max_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_requests GoogleComputeRegionBackendService#max_requests}
 
 ---
 
@@ -3251,7 +3484,7 @@ is respected by both the HTTP/1.1 and HTTP/2 implementations. If
 not specified, there is no limit. Setting this parameter to 1
 will effectively disable keep alive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_requests_per_connection GoogleComputeRegionBackendService#max_requests_per_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_requests_per_connection GoogleComputeRegionBackendService#max_requests_per_connection}
 
 ---
 
@@ -3265,7 +3498,7 @@ public java.lang.Number getMaxRetries();
 
 The maximum number of parallel retries to the backend cluster. Defaults to 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_retries GoogleComputeRegionBackendService#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_retries GoogleComputeRegionBackendService#max_retries}
 
 ---
 
@@ -3301,7 +3534,7 @@ public java.lang.Number getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
 
 ---
 
@@ -3319,7 +3552,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
 
 ---
 
@@ -3360,7 +3593,9 @@ GoogleComputeRegionBackendServiceConfig.builder()
 //  .localityLbPolicy(java.lang.String)
 //  .logConfig(GoogleComputeRegionBackendServiceLogConfig)
 //  .network(java.lang.String)
+//  .networkPassThroughLbTrafficPolicy(GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy)
 //  .outlierDetection(GoogleComputeRegionBackendServiceOutlierDetection)
+//  .params(GoogleComputeRegionBackendServiceParams)
 //  .portName(java.lang.String)
 //  .project(java.lang.String)
 //  .protocol(java.lang.String)
@@ -3371,6 +3606,7 @@ GoogleComputeRegionBackendServiceConfig.builder()
 //  .subsetting(GoogleComputeRegionBackendServiceSubsetting)
 //  .timeouts(GoogleComputeRegionBackendServiceTimeouts)
 //  .timeoutSec(java.lang.Number)
+//  .tlsSettings(GoogleComputeRegionBackendServiceTlsSettings)
     .build();
 ```
 
@@ -3401,15 +3637,17 @@ GoogleComputeRegionBackendServiceConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.haPolicy">haPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceHaPolicy">GoogleComputeRegionBackendServiceHaPolicy</a></code> | ha_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.healthChecks">healthChecks</a></code> | <code>java.util.List<java.lang.String></code> | The set of URLs to HealthCheck resources for health checking this RegionBackendService. Currently at most one health check can be specified. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.iap">iap</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceIap">GoogleComputeRegionBackendServiceIap</a></code> | iap block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.ipAddressSelectionPolicy">ipAddressSelectionPolicy</a></code> | <code>java.lang.String</code> | Specifies preference of traffic to the backend (from the proxy and from the client for proxyless gRPC). |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.loadBalancingScheme">loadBalancingScheme</a></code> | <code>java.lang.String</code> | Indicates what kind of load balancing this regional backend service will be used for. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.localityLbPolicy">localityLbPolicy</a></code> | <code>java.lang.String</code> | The load balancing algorithm used within the scope of the locality. The possible values are:. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.logConfig">logConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceLogConfig">GoogleComputeRegionBackendServiceLogConfig</a></code> | log_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.network">network</a></code> | <code>java.lang.String</code> | The URL of the network to which this backend service belongs. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.networkPassThroughLbTrafficPolicy">networkPassThroughLbTrafficPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a></code> | network_pass_through_lb_traffic_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.outlierDetection">outlierDetection</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetection">GoogleComputeRegionBackendServiceOutlierDetection</a></code> | outlier_detection block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.portName">portName</a></code> | <code>java.lang.String</code> | A named port on a backend instance group representing the port for communication to the backend VMs in that group. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.protocol">protocol</a></code> | <code>java.lang.String</code> | The protocol this BackendService uses to communicate with backends. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.region">region</a></code> | <code>java.lang.String</code> | The Region in which the created backend service should reside. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.securityPolicy">securityPolicy</a></code> | <code>java.lang.String</code> | The security policy associated with this backend service. |
@@ -3418,6 +3656,7 @@ GoogleComputeRegionBackendServiceConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.subsetting">subsetting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceSubsetting">GoogleComputeRegionBackendServiceSubsetting</a></code> | subsetting block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts">GoogleComputeRegionBackendServiceTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.timeoutSec">timeoutSec</a></code> | <code>java.lang.Number</code> | The backend service timeout has a different meaning depending on the type of load balancer. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.tlsSettings">tlsSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a></code> | tls_settings block. |
 
 ---
 
@@ -3509,7 +3748,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
 
 ---
 
@@ -3529,7 +3768,7 @@ maximum allowed value for TTL is one day.
 
 When the load balancing scheme is INTERNAL, this field is not used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#affinity_cookie_ttl_sec GoogleComputeRegionBackendService#affinity_cookie_ttl_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#affinity_cookie_ttl_sec GoogleComputeRegionBackendService#affinity_cookie_ttl_sec}
 
 ---
 
@@ -3543,7 +3782,7 @@ public IResolvable|java.util.List<GoogleComputeRegionBackendServiceBackend> getB
 
 backend block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#backend GoogleComputeRegionBackendService#backend}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#backend GoogleComputeRegionBackendService#backend}
 
 ---
 
@@ -3557,7 +3796,7 @@ public GoogleComputeRegionBackendServiceCdnPolicy getCdnPolicy();
 
 cdn_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#cdn_policy GoogleComputeRegionBackendService#cdn_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#cdn_policy GoogleComputeRegionBackendService#cdn_policy}
 
 ---
 
@@ -3571,7 +3810,7 @@ public GoogleComputeRegionBackendServiceCircuitBreakers getCircuitBreakers();
 
 circuit_breakers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#circuit_breakers GoogleComputeRegionBackendService#circuit_breakers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#circuit_breakers GoogleComputeRegionBackendService#circuit_breakers}
 
 ---
 
@@ -3585,7 +3824,7 @@ public java.lang.Number getConnectionDrainingTimeoutSec();
 
 Time for which instance will be drained (not accept new connections, but still work to finish started).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#connection_draining_timeout_sec GoogleComputeRegionBackendService#connection_draining_timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#connection_draining_timeout_sec GoogleComputeRegionBackendService#connection_draining_timeout_sec}
 
 ---
 
@@ -3599,7 +3838,7 @@ public GoogleComputeRegionBackendServiceConnectionTrackingPolicy getConnectionTr
 
 connection_tracking_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#connection_tracking_policy GoogleComputeRegionBackendService#connection_tracking_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#connection_tracking_policy GoogleComputeRegionBackendService#connection_tracking_policy}
 
 ---
 
@@ -3613,7 +3852,7 @@ public GoogleComputeRegionBackendServiceConsistentHash getConsistentHash();
 
 consistent_hash block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#consistent_hash GoogleComputeRegionBackendService#consistent_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#consistent_hash GoogleComputeRegionBackendService#consistent_hash}
 
 ---
 
@@ -3627,7 +3866,7 @@ public IResolvable|java.util.List<GoogleComputeRegionBackendServiceCustomMetrics
 
 custom_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
 
 ---
 
@@ -3641,7 +3880,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
 
 ---
 
@@ -3655,7 +3894,7 @@ public GoogleComputeRegionBackendServiceDynamicForwarding getDynamicForwarding()
 
 dynamic_forwarding block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#dynamic_forwarding GoogleComputeRegionBackendService#dynamic_forwarding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#dynamic_forwarding GoogleComputeRegionBackendService#dynamic_forwarding}
 
 ---
 
@@ -3669,7 +3908,7 @@ public java.lang.Boolean|IResolvable getEnableCdn();
 
 If true, enable Cloud CDN for this RegionBackendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enable_cdn GoogleComputeRegionBackendService#enable_cdn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enable_cdn GoogleComputeRegionBackendService#enable_cdn}
 
 ---
 
@@ -3683,7 +3922,7 @@ public GoogleComputeRegionBackendServiceFailoverPolicy getFailoverPolicy();
 
 failover_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#failover_policy GoogleComputeRegionBackendService#failover_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#failover_policy GoogleComputeRegionBackendService#failover_policy}
 
 ---
 
@@ -3697,7 +3936,7 @@ public GoogleComputeRegionBackendServiceHaPolicy getHaPolicy();
 
 ha_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ha_policy GoogleComputeRegionBackendService#ha_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ha_policy GoogleComputeRegionBackendService#ha_policy}
 
 ---
 
@@ -3714,7 +3953,7 @@ The set of URLs to HealthCheck resources for health checking this RegionBackendS
 A health check must be specified unless the backend service uses an internet
 or serverless NEG as a backend.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#health_checks GoogleComputeRegionBackendService#health_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#health_checks GoogleComputeRegionBackendService#health_checks}
 
 ---
 
@@ -3728,7 +3967,7 @@ public GoogleComputeRegionBackendServiceIap getIap();
 
 iap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#iap GoogleComputeRegionBackendService#iap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#iap GoogleComputeRegionBackendService#iap}
 
 ---
 
@@ -3740,7 +3979,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3759,7 +3998,7 @@ Specifies preference of traffic to the backend (from the proxy and from the clie
 
 Possible values: ["IPV4_ONLY", "PREFER_IPV6", "IPV6_ONLY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ip_address_selection_policy GoogleComputeRegionBackendService#ip_address_selection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ip_address_selection_policy GoogleComputeRegionBackendService#ip_address_selection_policy}
 
 ---
 
@@ -3775,9 +4014,9 @@ Indicates what kind of load balancing this regional backend service will be used
 
 A backend service created for one type of load
 balancing cannot be used with the other(s). For more information, refer to
-[Choosing a load balancer](https://cloud.google.com/load-balancing/docs/backend-service). Default value: "INTERNAL" Possible values: ["EXTERNAL", "EXTERNAL_MANAGED", "INTERNAL", "INTERNAL_MANAGED"]
+[Choosing a load balancer](https://cloud.google.com/load-balancing/docs/backend-service). Default value: "INTERNAL" Possible values: ["EXTERNAL", "EXTERNAL_MANAGED", "INTERNAL", "INTERNAL_MANAGED", "INTERNAL_SELF_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#load_balancing_scheme GoogleComputeRegionBackendService#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#load_balancing_scheme GoogleComputeRegionBackendService#load_balancing_scheme}
 
 ---
 
@@ -3845,7 +4084,7 @@ Only ROUND_ROBIN and RING_HASH are supported when the backend service is referen
 by a URL map that is bound to target gRPC proxy that has validate_for_proxyless
 field set to true. Possible values: ["ROUND_ROBIN", "LEAST_REQUEST", "RING_HASH", "RANDOM", "ORIGINAL_DESTINATION", "MAGLEV", "WEIGHTED_MAGLEV", "WEIGHTED_ROUND_ROBIN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#locality_lb_policy GoogleComputeRegionBackendService#locality_lb_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#locality_lb_policy GoogleComputeRegionBackendService#locality_lb_policy}
 
 ---
 
@@ -3859,7 +4098,7 @@ public GoogleComputeRegionBackendServiceLogConfig getLogConfig();
 
 log_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#log_config GoogleComputeRegionBackendService#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#log_config GoogleComputeRegionBackendService#log_config}
 
 ---
 
@@ -3873,9 +4112,25 @@ public java.lang.String getNetwork();
 
 The URL of the network to which this backend service belongs.
 
-This field can only be specified when the load balancing scheme is set to INTERNAL.
+This field must be set for Internal Passthrough Network Load Balancers when the haPolicy is enabled, and for External Passthrough Network Load Balancers when the haPolicy fastIpMove is enabled.
+This field can only be specified when the load balancing scheme is set to INTERNAL, or when the load balancing scheme is set to EXTERNAL and haPolicy fastIpMove is enabled.
+Changes to this field force recreation of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#network GoogleComputeRegionBackendService#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#network GoogleComputeRegionBackendService#network}
+
+---
+
+##### `networkPassThroughLbTrafficPolicy`<sup>Optional</sup> <a name="networkPassThroughLbTrafficPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.networkPassThroughLbTrafficPolicy"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy getNetworkPassThroughLbTrafficPolicy();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a>
+
+network_pass_through_lb_traffic_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#network_pass_through_lb_traffic_policy GoogleComputeRegionBackendService#network_pass_through_lb_traffic_policy}
 
 ---
 
@@ -3889,7 +4144,21 @@ public GoogleComputeRegionBackendServiceOutlierDetection getOutlierDetection();
 
 outlier_detection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#outlier_detection GoogleComputeRegionBackendService#outlier_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#outlier_detection GoogleComputeRegionBackendService#outlier_detection}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.params"></a>
+
+```java
+public GoogleComputeRegionBackendServiceParams getParams();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#params GoogleComputeRegionBackendService#params}
 
 ---
 
@@ -3910,7 +4179,7 @@ backend instance group. This parameter has no meaning if the backends are NEGs. 
 default of "http" if not given.
 Must be omitted when the loadBalancingScheme is INTERNAL (Internal TCP/UDP Load Balancing).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#port_name GoogleComputeRegionBackendService#port_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#port_name GoogleComputeRegionBackendService#port_name}
 
 ---
 
@@ -3922,7 +4191,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}.
 
 ---
 
@@ -3940,7 +4209,7 @@ The default is HTTP. Possible values are HTTP, HTTPS, HTTP2, H2C, TCP, SSL, UDP
 or GRPC. Refer to the documentation for the load balancers or for Traffic Director
 for more information. Possible values: ["HTTP", "HTTPS", "HTTP2", "TCP", "SSL", "UDP", "GRPC", "UNSPECIFIED", "H2C"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#protocol GoogleComputeRegionBackendService#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#protocol GoogleComputeRegionBackendService#protocol}
 
 ---
 
@@ -3954,7 +4223,7 @@ public java.lang.String getRegion();
 
 The Region in which the created backend service should reside. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#region GoogleComputeRegionBackendService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#region GoogleComputeRegionBackendService#region}
 
 ---
 
@@ -3968,7 +4237,7 @@ public java.lang.String getSecurityPolicy();
 
 The security policy associated with this backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#security_policy GoogleComputeRegionBackendService#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#security_policy GoogleComputeRegionBackendService#security_policy}
 
 ---
 
@@ -3985,7 +4254,7 @@ Type of session affinity to use.
 The default is NONE. Session affinity is
 not applicable if the protocol is UDP. Possible values: ["NONE", "CLIENT_IP", "CLIENT_IP_PORT_PROTO", "CLIENT_IP_PROTO", "GENERATED_COOKIE", "HEADER_FIELD", "HTTP_COOKIE", "CLIENT_IP_NO_DESTINATION", "STRONG_COOKIE_AFFINITY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#session_affinity GoogleComputeRegionBackendService#session_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#session_affinity GoogleComputeRegionBackendService#session_affinity}
 
 ---
 
@@ -3999,7 +4268,7 @@ public GoogleComputeRegionBackendServiceStrongSessionAffinityCookie getStrongSes
 
 strong_session_affinity_cookie block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#strong_session_affinity_cookie GoogleComputeRegionBackendService#strong_session_affinity_cookie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#strong_session_affinity_cookie GoogleComputeRegionBackendService#strong_session_affinity_cookie}
 
 ---
 
@@ -4013,7 +4282,7 @@ public GoogleComputeRegionBackendServiceSubsetting getSubsetting();
 
 subsetting block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#subsetting GoogleComputeRegionBackendService#subsetting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#subsetting GoogleComputeRegionBackendService#subsetting}
 
 ---
 
@@ -4027,7 +4296,7 @@ public GoogleComputeRegionBackendServiceTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#timeouts GoogleComputeRegionBackendService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#timeouts GoogleComputeRegionBackendService#timeouts}
 
 ---
 
@@ -4045,7 +4314,21 @@ For more information see, [Backend service settings](https://cloud.google.com/co
 The default is 30 seconds.
 The full range of timeout values allowed goes from 1 through 2,147,483,647 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#timeout_sec GoogleComputeRegionBackendService#timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#timeout_sec GoogleComputeRegionBackendService#timeout_sec}
+
+---
+
+##### `tlsSettings`<sup>Optional</sup> <a name="tlsSettings" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceConfig.property.tlsSettings"></a>
+
+```java
+public GoogleComputeRegionBackendServiceTlsSettings getTlsSettings();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a>
+
+tls_settings block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#tls_settings GoogleComputeRegionBackendService#tls_settings}
 
 ---
 
@@ -4100,7 +4383,7 @@ If set to 'ALWAYS_PERSIST', existing connections always persist on
 unhealthy backends regardless of protocol and session affinity. It is
 generally not recommended to use this mode overriding the default. Default value: "DEFAULT_FOR_PROTOCOL" Possible values: ["DEFAULT_FOR_PROTOCOL", "NEVER_PERSIST", "ALWAYS_PERSIST"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#connection_persistence_on_unhealthy_backends GoogleComputeRegionBackendService#connection_persistence_on_unhealthy_backends}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#connection_persistence_on_unhealthy_backends GoogleComputeRegionBackendService#connection_persistence_on_unhealthy_backends}
 
 ---
 
@@ -4114,7 +4397,7 @@ public java.lang.Boolean|IResolvable getEnableStrongAffinity();
 
 Enable Strong Session Affinity for Network Load Balancing. This option is not available publicly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enable_strong_affinity GoogleComputeRegionBackendService#enable_strong_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enable_strong_affinity GoogleComputeRegionBackendService#enable_strong_affinity}
 
 ---
 
@@ -4132,7 +4415,7 @@ For L4 ILB the minimum(default) is 10 minutes and maximum is 16 hours.
 
 For NLB the minimum(default) is 60 seconds and the maximum is 16 hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#idle_timeout_sec GoogleComputeRegionBackendService#idle_timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#idle_timeout_sec GoogleComputeRegionBackendService#idle_timeout_sec}
 
 ---
 
@@ -4153,7 +4436,7 @@ Connection Key (default Hash Method) for the specific protocol.
 'PER_SESSION': The Connection Tracking is performed as per the
 configured Session Affinity. It matches the configured Session Affinity. Default value: "PER_CONNECTION" Possible values: ["PER_CONNECTION", "PER_SESSION"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#tracking_mode GoogleComputeRegionBackendService#tracking_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#tracking_mode GoogleComputeRegionBackendService#tracking_mode}
 
 ---
 
@@ -4191,7 +4474,7 @@ public GoogleComputeRegionBackendServiceConsistentHashHttpCookie getHttpCookie()
 
 http_cookie block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#http_cookie GoogleComputeRegionBackendService#http_cookie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#http_cookie GoogleComputeRegionBackendService#http_cookie}
 
 ---
 
@@ -4207,7 +4490,7 @@ The hash based on the value of the specified header field.
 
 This field is applicable if the sessionAffinity is set to HEADER_FIELD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#http_header_name GoogleComputeRegionBackendService#http_header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#http_header_name GoogleComputeRegionBackendService#http_header_name}
 
 ---
 
@@ -4227,7 +4510,7 @@ is larger than the ring size, each host will be assigned a single
 virtual node.
 Defaults to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#minimum_ring_size GoogleComputeRegionBackendService#minimum_ring_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#minimum_ring_size GoogleComputeRegionBackendService#minimum_ring_size}
 
 ---
 
@@ -4265,7 +4548,7 @@ public java.lang.String getName();
 
 Name of the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
 
 ---
 
@@ -4279,7 +4562,7 @@ public java.lang.String getPath();
 
 Path to set for the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
 
 ---
 
@@ -4293,7 +4576,7 @@ public GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtl getTtl();
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
 
 ---
 
@@ -4329,7 +4612,7 @@ public java.lang.Number getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
 
 ---
 
@@ -4347,7 +4630,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
 
 ---
 
@@ -4383,7 +4666,7 @@ public java.lang.Boolean|IResolvable getDryRun();
 
 If true, the metric data is not used for load balancing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
 
 ---
 
@@ -4407,7 +4690,7 @@ field can only be used for a global or regional backend service with the
 loadBalancingScheme set to <code>EXTERNAL_MANAGED</code>,
 <code>INTERNAL_MANAGED</code> <code>INTERNAL_SELF_MANAGED</code>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
 
 ---
 
@@ -4419,6 +4702,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceDynamicForwarding;
 
 GoogleComputeRegionBackendServiceDynamicForwarding.builder()
+//  .forwardProxy(GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy)
 //  .ipPortSelection(GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection)
     .build();
 ```
@@ -4427,7 +4711,22 @@ GoogleComputeRegionBackendServiceDynamicForwarding.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwarding.property.forwardProxy">forwardProxy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy</a></code> | forward_proxy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwarding.property.ipPortSelection">ipPortSelection</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection">GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection</a></code> | ip_port_selection block. |
+
+---
+
+##### `forwardProxy`<sup>Optional</sup> <a name="forwardProxy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwarding.property.forwardProxy"></a>
+
+```java
+public GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy getForwardProxy();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy</a>
+
+forward_proxy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#forward_proxy GoogleComputeRegionBackendService#forward_proxy}
 
 ---
 
@@ -4441,7 +4740,57 @@ public GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection getIpPo
 
 ip_port_selection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ip_port_selection GoogleComputeRegionBackendService#ip_port_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ip_port_selection GoogleComputeRegionBackendService#ip_port_selection}
+
+---
+
+### GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy <a name="GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy;
+
+GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy.builder()
+    .enabled(java.lang.Boolean|IResolvable)
+    .proxyMode(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | A boolean flag enabling dynamic forwarding proxy. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy.property.proxyMode">proxyMode</a></code> | <code>java.lang.String</code> | Determines the dynamic forwarding proxy mode Possible values: ["DIRECT_FORWARDING", "CLOUD_RUN"]. |
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy.property.enabled"></a>
+
+```java
+public java.lang.Boolean|IResolvable getEnabled();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+A boolean flag enabling dynamic forwarding proxy.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
+
+---
+
+##### `proxyMode`<sup>Required</sup> <a name="proxyMode" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy.property.proxyMode"></a>
+
+```java
+public java.lang.String getProxyMode();
+```
+
+- *Type:* java.lang.String
+
+Determines the dynamic forwarding proxy mode Possible values: ["DIRECT_FORWARDING", "CLOUD_RUN"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#proxy_mode GoogleComputeRegionBackendService#proxy_mode}
 
 ---
 
@@ -4475,7 +4824,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 A boolean flag enabling IP:PORT based dynamic forwarding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
 
 ---
 
@@ -4521,7 +4870,7 @@ of 10 min.
 This can be set to true only if the protocol is TCP.
 The default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#disable_connection_drain_on_failover GoogleComputeRegionBackendService#disable_connection_drain_on_failover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#disable_connection_drain_on_failover GoogleComputeRegionBackendService#disable_connection_drain_on_failover}
 
 ---
 
@@ -4539,7 +4888,7 @@ When set to true, traffic is dropped. When
 set to false, new connections are sent across all VMs in the primary group.
 The default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#drop_traffic_if_unhealthy GoogleComputeRegionBackendService#drop_traffic_if_unhealthy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#drop_traffic_if_unhealthy GoogleComputeRegionBackendService#drop_traffic_if_unhealthy}
 
 ---
 
@@ -4562,7 +4911,7 @@ backend in the "force" mode, where traffic will be spread to the healthy
 VMs with the best effort, or to all VMs when no VM is healthy.
 This field is only used with l4 load balancing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#failover_ratio GoogleComputeRegionBackendService#failover_ratio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#failover_ratio GoogleComputeRegionBackendService#failover_ratio}
 
 ---
 
@@ -4609,7 +4958,7 @@ Specifies whether fast IP move is enabled, and if so, the mechanism to achieve i
   forwarding rule IP address with that VM, and both new and in-flight packets
   are quickly delivered to that VM. Possible values: ["DISABLED", "GARP_RA"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#fast_ip_move GoogleComputeRegionBackendService#fast_ip_move}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#fast_ip_move GoogleComputeRegionBackendService#fast_ip_move}
 
 ---
 
@@ -4623,7 +4972,7 @@ public GoogleComputeRegionBackendServiceHaPolicyLeader getLeader();
 
 leader block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#leader GoogleComputeRegionBackendService#leader}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#leader GoogleComputeRegionBackendService#leader}
 
 ---
 
@@ -4659,7 +5008,7 @@ public java.lang.String getBackendGroup();
 
 A fully-qualified URL of the zonal Network Endpoint Group (NEG) that the leader is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#backend_group GoogleComputeRegionBackendService#backend_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#backend_group GoogleComputeRegionBackendService#backend_group}
 
 ---
 
@@ -4673,7 +5022,7 @@ public GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpoint getNetwork
 
 network_endpoint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#network_endpoint GoogleComputeRegionBackendService#network_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#network_endpoint GoogleComputeRegionBackendService#network_endpoint}
 
 ---
 
@@ -4710,7 +5059,7 @@ The name of the VM instance of the leader network endpoint.
 The instance must
 already be attached to the NEG specified in the haPolicy.leader.backendGroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#instance GoogleComputeRegionBackendService#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#instance GoogleComputeRegionBackendService#instance}
 
 ---
 
@@ -4748,7 +5097,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Whether the serving infrastructure will authenticate and authorize all incoming requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
 
 ---
 
@@ -4762,7 +5111,7 @@ public java.lang.String getOauth2ClientId();
 
 OAuth2 Client ID for IAP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#oauth2_client_id GoogleComputeRegionBackendService#oauth2_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#oauth2_client_id GoogleComputeRegionBackendService#oauth2_client_id}
 
 ---
 
@@ -4776,7 +5125,7 @@ public java.lang.String getOauth2ClientSecret();
 
 OAuth2 Client Secret for IAP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#oauth2_client_secret GoogleComputeRegionBackendService#oauth2_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#oauth2_client_secret GoogleComputeRegionBackendService#oauth2_client_secret}
 
 ---
 
@@ -4816,7 +5165,7 @@ public java.lang.Boolean|IResolvable getEnable();
 
 Whether to enable logging for the load balancer traffic served by this backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enable GoogleComputeRegionBackendService#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enable GoogleComputeRegionBackendService#enable}
 
 ---
 
@@ -4832,7 +5181,7 @@ Specifies the fields to include in logging.
 
 This field can only be specified if logging is enabled for this backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#optional_fields GoogleComputeRegionBackendService#optional_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#optional_fields GoogleComputeRegionBackendService#optional_fields}
 
 ---
 
@@ -4846,7 +5195,7 @@ public java.lang.String getOptionalMode();
 
 Specifies the optional logging mode for the load balancer traffic. Supported values: INCLUDE_ALL_OPTIONAL, EXCLUDE_ALL_OPTIONAL, CUSTOM. Possible values: ["INCLUDE_ALL_OPTIONAL", "EXCLUDE_ALL_OPTIONAL", "CUSTOM"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#optional_mode GoogleComputeRegionBackendService#optional_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#optional_mode GoogleComputeRegionBackendService#optional_mode}
 
 ---
 
@@ -4865,7 +5214,97 @@ the field must be in [0, 1]. This configures the sampling rate of requests to th
 where 1.0 means all logged requests are reported and 0.0 means no logged requests are reported.
 The default value is 1.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#sample_rate GoogleComputeRegionBackendService#sample_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#sample_rate GoogleComputeRegionBackendService#sample_rate}
+
+---
+
+### GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy <a name="GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy;
+
+GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy.builder()
+//  .zonalAffinity(GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy.property.zonalAffinity">zonalAffinity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity</a></code> | zonal_affinity block. |
+
+---
+
+##### `zonalAffinity`<sup>Optional</sup> <a name="zonalAffinity" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy.property.zonalAffinity"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity getZonalAffinity();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity</a>
+
+zonal_affinity block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#zonal_affinity GoogleComputeRegionBackendService#zonal_affinity}
+
+---
+
+### GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity <a name="GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity;
+
+GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity.builder()
+//  .spillover(java.lang.String)
+//  .spilloverRatio(java.lang.Number)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity.property.spillover">spillover</a></code> | <code>java.lang.String</code> | This field indicates whether zonal affinity is enabled or not. Default value: "ZONAL_AFFINITY_DISABLED" Possible values: ["ZONAL_AFFINITY_DISABLED", "ZONAL_AFFINITY_SPILL_CROSS_ZONE", "ZONAL_AFFINITY_STAY_WITHIN_ZONE"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity.property.spilloverRatio">spilloverRatio</a></code> | <code>java.lang.Number</code> | The value of the field must be in [0, 1]. |
+
+---
+
+##### `spillover`<sup>Optional</sup> <a name="spillover" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity.property.spillover"></a>
+
+```java
+public java.lang.String getSpillover();
+```
+
+- *Type:* java.lang.String
+
+This field indicates whether zonal affinity is enabled or not. Default value: "ZONAL_AFFINITY_DISABLED" Possible values: ["ZONAL_AFFINITY_DISABLED", "ZONAL_AFFINITY_SPILL_CROSS_ZONE", "ZONAL_AFFINITY_STAY_WITHIN_ZONE"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#spillover GoogleComputeRegionBackendService#spillover}
+
+---
+
+##### `spilloverRatio`<sup>Optional</sup> <a name="spilloverRatio" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity.property.spilloverRatio"></a>
+
+```java
+public java.lang.Number getSpilloverRatio();
+```
+
+- *Type:* java.lang.Number
+
+The value of the field must be in [0, 1].
+
+When the ratio of the count of healthy backend endpoints in a zone
+to the count of backend endpoints in that same zone is equal to or above this threshold, the load balancer
+distributes new connections to all healthy endpoints in the local zone only. When the ratio of the count
+of healthy backend endpoints in a zone to the count of backend endpoints in that same zone is below this
+threshold, the load balancer distributes all new connections to all healthy endpoints across all zones.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#spillover_ratio GoogleComputeRegionBackendService#spillover_ratio}
 
 ---
 
@@ -4919,7 +5358,7 @@ public GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTime getBase
 
 base_ejection_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#base_ejection_time GoogleComputeRegionBackendService#base_ejection_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#base_ejection_time GoogleComputeRegionBackendService#base_ejection_time}
 
 ---
 
@@ -4937,7 +5376,7 @@ When the
 backend host is accessed over HTTP, a 5xx return code qualifies as an error.
 Defaults to 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#consecutive_errors GoogleComputeRegionBackendService#consecutive_errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#consecutive_errors GoogleComputeRegionBackendService#consecutive_errors}
 
 ---
 
@@ -4953,7 +5392,7 @@ The number of consecutive gateway failures (502, 503, 504 status or connection e
 
 Defaults to 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#consecutive_gateway_failure GoogleComputeRegionBackendService#consecutive_gateway_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#consecutive_gateway_failure GoogleComputeRegionBackendService#consecutive_gateway_failure}
 
 ---
 
@@ -4970,7 +5409,7 @@ The percentage chance that a host will be actually ejected when an outlier statu
 This setting can be used to disable
 ejection or to ramp it up slowly. Defaults to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_errors GoogleComputeRegionBackendService#enforcing_consecutive_errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_errors GoogleComputeRegionBackendService#enforcing_consecutive_errors}
 
 ---
 
@@ -4987,7 +5426,7 @@ The percentage chance that a host will be actually ejected when an outlier statu
 This setting can be
 used to disable ejection or to ramp it up slowly. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_gateway_failure GoogleComputeRegionBackendService#enforcing_consecutive_gateway_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_gateway_failure GoogleComputeRegionBackendService#enforcing_consecutive_gateway_failure}
 
 ---
 
@@ -5004,7 +5443,7 @@ The percentage chance that a host will be actually ejected when an outlier statu
 This setting can be used to
 disable ejection or to ramp it up slowly. Defaults to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#enforcing_success_rate GoogleComputeRegionBackendService#enforcing_success_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#enforcing_success_rate GoogleComputeRegionBackendService#enforcing_success_rate}
 
 ---
 
@@ -5018,7 +5457,7 @@ public GoogleComputeRegionBackendServiceOutlierDetectionInterval getInterval();
 
 interval block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#interval GoogleComputeRegionBackendService#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#interval GoogleComputeRegionBackendService#interval}
 
 ---
 
@@ -5032,7 +5471,7 @@ public java.lang.Number getMaxEjectionPercent();
 
 Maximum percentage of hosts in the load balancing pool for the backend service that can be ejected. Defaults to 10%.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#max_ejection_percent GoogleComputeRegionBackendService#max_ejection_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#max_ejection_percent GoogleComputeRegionBackendService#max_ejection_percent}
 
 ---
 
@@ -5050,7 +5489,7 @@ If the number of hosts is less than this setting, outlier
 detection via success rate statistics is not performed for any host in the
 cluster. Defaults to 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#success_rate_minimum_hosts GoogleComputeRegionBackendService#success_rate_minimum_hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#success_rate_minimum_hosts GoogleComputeRegionBackendService#success_rate_minimum_hosts}
 
 ---
 
@@ -5068,7 +5507,7 @@ If the volume is lower than this setting, outlier
 detection via success rate statistics is not performed for that host. Defaults
 to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#success_rate_request_volume GoogleComputeRegionBackendService#success_rate_request_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#success_rate_request_volume GoogleComputeRegionBackendService#success_rate_request_volume}
 
 ---
 
@@ -5088,7 +5527,7 @@ success rate: mean - (stdev * success_rate_stdev_factor). This factor is divided
 by a thousand to get a double. That is, if the desired factor is 1.9, the
 runtime value should be 1900. Defaults to 1900.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#success_rate_stdev_factor GoogleComputeRegionBackendService#success_rate_stdev_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#success_rate_stdev_factor GoogleComputeRegionBackendService#success_rate_stdev_factor}
 
 ---
 
@@ -5124,7 +5563,7 @@ public java.lang.Number getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
 
 ---
 
@@ -5142,7 +5581,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
 
 ---
 
@@ -5178,7 +5617,7 @@ public java.lang.Number getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
 
 ---
 
@@ -5196,7 +5635,45 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+
+---
+
+### GoogleComputeRegionBackendServiceParams <a name="GoogleComputeRegionBackendServiceParams" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceParams;
+
+GoogleComputeRegionBackendServiceParams.builder()
+//  .resourceManagerTags(java.util.Map<java.lang.String, java.lang.String>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource manager tags to be bound to the region backend service. |
+
+---
+
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams.property.resourceManagerTags"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTags();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+Resource manager tags to be bound to the region backend service.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+and values are in the format tagValues/456.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#resource_manager_tags GoogleComputeRegionBackendService#resource_manager_tags}
 
 ---
 
@@ -5234,7 +5711,7 @@ public java.lang.String getName();
 
 Name of the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
 
 ---
 
@@ -5248,7 +5725,7 @@ public java.lang.String getPath();
 
 Path to set for the cookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
 
 ---
 
@@ -5262,7 +5739,7 @@ public GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtl getTtl();
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
 
 ---
 
@@ -5298,7 +5775,7 @@ public java.lang.Number getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
 
 ---
 
@@ -5316,7 +5793,7 @@ Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must
 be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
 
 ---
 
@@ -5352,7 +5829,7 @@ public java.lang.String getPolicy();
 
 The algorithm used for subsetting. Possible values: ["CONSISTENT_HASH_SUBSETTING"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#policy GoogleComputeRegionBackendService#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#policy GoogleComputeRegionBackendService#policy}
 
 ---
 
@@ -5373,7 +5850,7 @@ If you do not provide this value, Cloud Load Balancing will calculate it dynamic
 of proxies/clients visible to each backend and vice versa.
 Must be greater than 0. If subsetSize is larger than the number of backends/endpoints, then subsetting is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#subset_size GoogleComputeRegionBackendService#subset_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#subset_size GoogleComputeRegionBackendService#subset_size}
 
 ---
 
@@ -5395,9 +5872,9 @@ GoogleComputeRegionBackendServiceTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#create GoogleComputeRegionBackendService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#delete GoogleComputeRegionBackendService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#update GoogleComputeRegionBackendService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#create GoogleComputeRegionBackendService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#delete GoogleComputeRegionBackendService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#update GoogleComputeRegionBackendService#update}. |
 
 ---
 
@@ -5409,7 +5886,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#create GoogleComputeRegionBackendService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#create GoogleComputeRegionBackendService#create}.
 
 ---
 
@@ -5421,7 +5898,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#delete GoogleComputeRegionBackendService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#delete GoogleComputeRegionBackendService#delete}.
 
 ---
 
@@ -5433,7 +5910,123 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service#update GoogleComputeRegionBackendService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#update GoogleComputeRegionBackendService#update}.
+
+---
+
+### GoogleComputeRegionBackendServiceTlsSettings <a name="GoogleComputeRegionBackendServiceTlsSettings" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceTlsSettings;
+
+GoogleComputeRegionBackendServiceTlsSettings.builder()
+//  .authenticationConfig(java.lang.String)
+//  .sni(java.lang.String)
+//  .subjectAltNames(IResolvable|java.util.List<GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings.property.authenticationConfig">authenticationConfig</a></code> | <code>java.lang.String</code> | Reference to the BackendAuthenticationConfig resource from the networksecurity.googleapis.com namespace. Can be used in authenticating TLS connections to the backend, as specified by the authenticationMode field. Can only be specified if authenticationMode is not NONE. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings.property.sni">sni</a></code> | <code>java.lang.String</code> | Server Name Indication - see RFC3546 section 3.1. If set, the load balancer sends this string as the SNI hostname in the TLS connection to the backend, and requires that this string match a Subject Alternative Name (SAN) in the backend's server certificate. With a Regional Internet NEG backend, if the SNI is specified here, the load balancer uses it regardless of whether the Regional Internet NEG is specified with FQDN or IP address and port. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings.property.subjectAltNames">subjectAltNames</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>></code> | subject_alt_names block. |
+
+---
+
+##### `authenticationConfig`<sup>Optional</sup> <a name="authenticationConfig" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings.property.authenticationConfig"></a>
+
+```java
+public java.lang.String getAuthenticationConfig();
+```
+
+- *Type:* java.lang.String
+
+Reference to the BackendAuthenticationConfig resource from the networksecurity.googleapis.com namespace. Can be used in authenticating TLS connections to the backend, as specified by the authenticationMode field. Can only be specified if authenticationMode is not NONE.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#authentication_config GoogleComputeRegionBackendService#authentication_config}
+
+---
+
+##### `sni`<sup>Optional</sup> <a name="sni" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings.property.sni"></a>
+
+```java
+public java.lang.String getSni();
+```
+
+- *Type:* java.lang.String
+
+Server Name Indication - see RFC3546 section 3.1. If set, the load balancer sends this string as the SNI hostname in the TLS connection to the backend, and requires that this string match a Subject Alternative Name (SAN) in the backend's server certificate. With a Regional Internet NEG backend, if the SNI is specified here, the load balancer uses it regardless of whether the Regional Internet NEG is specified with FQDN or IP address and port.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#sni GoogleComputeRegionBackendService#sni}
+
+---
+
+##### `subjectAltNames`<sup>Optional</sup> <a name="subjectAltNames" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings.property.subjectAltNames"></a>
+
+```java
+public IResolvable|java.util.List<GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames> getSubjectAltNames();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>>
+
+subject_alt_names block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#subject_alt_names GoogleComputeRegionBackendService#subject_alt_names}
+
+---
+
+### GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames <a name="GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames;
+
+GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames.builder()
+//  .dnsName(java.lang.String)
+//  .uniformResourceIdentifier(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames.property.dnsName">dnsName</a></code> | <code>java.lang.String</code> | The SAN specified as a DNS Name. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames.property.uniformResourceIdentifier">uniformResourceIdentifier</a></code> | <code>java.lang.String</code> | The SAN specified as a URI. |
+
+---
+
+##### `dnsName`<sup>Optional</sup> <a name="dnsName" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames.property.dnsName"></a>
+
+```java
+public java.lang.String getDnsName();
+```
+
+- *Type:* java.lang.String
+
+The SAN specified as a DNS Name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#dns_name GoogleComputeRegionBackendService#dns_name}
+
+---
+
+##### `uniformResourceIdentifier`<sup>Optional</sup> <a name="uniformResourceIdentifier" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames.property.uniformResourceIdentifier"></a>
+
+```java
+public java.lang.String getUniformResourceIdentifier();
+```
+
+- *Type:* java.lang.String
+
+The SAN specified as a URI.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service#uniform_resource_identifier GoogleComputeRegionBackendService#uniform_resource_identifier}
 
 ---
 
@@ -6176,10 +6769,14 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxConnections">resetMaxConnections</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxConnectionsPerEndpoint">resetMaxConnectionsPerEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxConnectionsPerInstance">resetMaxConnectionsPerInstance</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxInFlightRequests">resetMaxInFlightRequests</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerEndpoint">resetMaxInFlightRequestsPerEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerInstance">resetMaxInFlightRequestsPerInstance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxRate">resetMaxRate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxRatePerEndpoint">resetMaxRatePerEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxRatePerInstance">resetMaxRatePerInstance</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxUtilization">resetMaxUtilization</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetTrafficDuration">resetTrafficDuration</a></code> | *No description.* |
 
 ---
 
@@ -6393,6 +6990,24 @@ public void resetMaxConnectionsPerEndpoint()
 public void resetMaxConnectionsPerInstance()
 ```
 
+##### `resetMaxInFlightRequests` <a name="resetMaxInFlightRequests" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxInFlightRequests"></a>
+
+```java
+public void resetMaxInFlightRequests()
+```
+
+##### `resetMaxInFlightRequestsPerEndpoint` <a name="resetMaxInFlightRequestsPerEndpoint" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerEndpoint"></a>
+
+```java
+public void resetMaxInFlightRequestsPerEndpoint()
+```
+
+##### `resetMaxInFlightRequestsPerInstance` <a name="resetMaxInFlightRequestsPerInstance" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxInFlightRequestsPerInstance"></a>
+
+```java
+public void resetMaxInFlightRequestsPerInstance()
+```
+
 ##### `resetMaxRate` <a name="resetMaxRate" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetMaxRate"></a>
 
 ```java
@@ -6417,6 +7032,12 @@ public void resetMaxRatePerInstance()
 public void resetMaxUtilization()
 ```
 
+##### `resetTrafficDuration` <a name="resetTrafficDuration" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.resetTrafficDuration"></a>
+
+```java
+public void resetTrafficDuration()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -6434,10 +7055,14 @@ public void resetMaxUtilization()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxConnectionsInput">maxConnectionsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxConnectionsPerEndpointInput">maxConnectionsPerEndpointInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxConnectionsPerInstanceInput">maxConnectionsPerInstanceInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsInput">maxInFlightRequestsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpointInput">maxInFlightRequestsPerEndpointInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstanceInput">maxInFlightRequestsPerInstanceInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRateInput">maxRateInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRatePerEndpointInput">maxRatePerEndpointInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRatePerInstanceInput">maxRatePerInstanceInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxUtilizationInput">maxUtilizationInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.trafficDurationInput">trafficDurationInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.balancingMode">balancingMode</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.capacityScaler">capacityScaler</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -6446,10 +7071,14 @@ public void resetMaxUtilization()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxConnections">maxConnections</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxConnectionsPerEndpoint">maxConnectionsPerEndpoint</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxConnectionsPerInstance">maxConnectionsPerInstance</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequests">maxInFlightRequests</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpoint">maxInFlightRequestsPerEndpoint</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstance">maxInFlightRequestsPerInstance</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRate">maxRate</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRatePerEndpoint">maxRatePerEndpoint</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRatePerInstance">maxRatePerInstance</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxUtilization">maxUtilization</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.trafficDuration">trafficDuration</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackend">GoogleComputeRegionBackendServiceBackend</a></code> | *No description.* |
 
 ---
@@ -6578,6 +7207,36 @@ public java.lang.Number getMaxConnectionsPerInstanceInput();
 
 ---
 
+##### `maxInFlightRequestsInput`<sup>Optional</sup> <a name="maxInFlightRequestsInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsInput"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequestsInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `maxInFlightRequestsPerEndpointInput`<sup>Optional</sup> <a name="maxInFlightRequestsPerEndpointInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpointInput"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequestsPerEndpointInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `maxInFlightRequestsPerInstanceInput`<sup>Optional</sup> <a name="maxInFlightRequestsPerInstanceInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstanceInput"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequestsPerInstanceInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
 ##### `maxRateInput`<sup>Optional</sup> <a name="maxRateInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRateInput"></a>
 
 ```java
@@ -6615,6 +7274,16 @@ public java.lang.Number getMaxUtilizationInput();
 ```
 
 - *Type:* java.lang.Number
+
+---
+
+##### `trafficDurationInput`<sup>Optional</sup> <a name="trafficDurationInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.trafficDurationInput"></a>
+
+```java
+public java.lang.String getTrafficDurationInput();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -6698,6 +7367,36 @@ public java.lang.Number getMaxConnectionsPerInstance();
 
 ---
 
+##### `maxInFlightRequests`<sup>Required</sup> <a name="maxInFlightRequests" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequests"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequests();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `maxInFlightRequestsPerEndpoint`<sup>Required</sup> <a name="maxInFlightRequestsPerEndpoint" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpoint"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequestsPerEndpoint();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `maxInFlightRequestsPerInstance`<sup>Required</sup> <a name="maxInFlightRequestsPerInstance" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstance"></a>
+
+```java
+public java.lang.Number getMaxInFlightRequestsPerInstance();
+```
+
+- *Type:* java.lang.Number
+
+---
+
 ##### `maxRate`<sup>Required</sup> <a name="maxRate" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.maxRate"></a>
 
 ```java
@@ -6735,6 +7434,16 @@ public java.lang.Number getMaxUtilization();
 ```
 
 - *Type:* java.lang.Number
+
+---
+
+##### `trafficDuration`<sup>Required</sup> <a name="trafficDuration" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceBackendOutputReference.property.trafficDuration"></a>
+
+```java
+public java.lang.String getTrafficDuration();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -10763,6 +11472,299 @@ public IResolvable|GoogleComputeRegionBackendServiceCustomMetrics getInternalVal
 ---
 
 
+### GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference <a name="GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference;
+
+new GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.enabledInput">enabledInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.proxyModeInput">proxyModeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.proxyMode">proxyMode</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `enabledInput`<sup>Optional</sup> <a name="enabledInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.enabledInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getEnabledInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `proxyModeInput`<sup>Optional</sup> <a name="proxyModeInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.proxyModeInput"></a>
+
+```java
+public java.lang.String getProxyModeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.enabled"></a>
+
+```java
+public java.lang.Boolean|IResolvable getEnabled();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `proxyMode`<sup>Required</sup> <a name="proxyMode" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.proxyMode"></a>
+
+```java
+public java.lang.String getProxyMode();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy</a>
+
+---
+
+
 ### GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference <a name="GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference.Initializer"></a>
@@ -11091,7 +12093,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.putForwardProxy">putForwardProxy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.putIpPortSelection">putIpPortSelection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.resetForwardProxy">resetForwardProxy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.resetIpPortSelection">resetIpPortSelection</a></code> | *No description.* |
 
 ---
@@ -11246,6 +12250,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putForwardProxy` <a name="putForwardProxy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.putForwardProxy"></a>
+
+```java
+public void putForwardProxy(GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.putForwardProxy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy</a>
+
+---
+
 ##### `putIpPortSelection` <a name="putIpPortSelection" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.putIpPortSelection"></a>
 
 ```java
@@ -11257,6 +12273,12 @@ public void putIpPortSelection(GoogleComputeRegionBackendServiceDynamicForwardin
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection">GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection</a>
 
 ---
+
+##### `resetForwardProxy` <a name="resetForwardProxy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.resetForwardProxy"></a>
+
+```java
+public void resetForwardProxy()
+```
 
 ##### `resetIpPortSelection` <a name="resetIpPortSelection" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.resetIpPortSelection"></a>
 
@@ -11271,7 +12293,9 @@ public void resetIpPortSelection()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.forwardProxy">forwardProxy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.ipPortSelection">ipPortSelection</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference">GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.forwardProxyInput">forwardProxyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.ipPortSelectionInput">ipPortSelectionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection">GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwarding">GoogleComputeRegionBackendServiceDynamicForwarding</a></code> | *No description.* |
 
@@ -11301,6 +12325,16 @@ public java.lang.String getFqn();
 
 ---
 
+##### `forwardProxy`<sup>Required</sup> <a name="forwardProxy" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.forwardProxy"></a>
+
+```java
+public GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference getForwardProxy();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference</a>
+
+---
+
 ##### `ipPortSelection`<sup>Required</sup> <a name="ipPortSelection" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.ipPortSelection"></a>
 
 ```java
@@ -11308,6 +12342,16 @@ public GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputRe
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference">GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference</a>
+
+---
+
+##### `forwardProxyInput`<sup>Optional</sup> <a name="forwardProxyInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingOutputReference.property.forwardProxyInput"></a>
+
+```java
+public GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy getForwardProxyInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy">GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy</a>
 
 ---
 
@@ -13291,6 +14335,604 @@ public GoogleComputeRegionBackendServiceLogConfig getInternalValue();
 ---
 
 
+### GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference <a name="GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference;
+
+new GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.putZonalAffinity">putZonalAffinity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.resetZonalAffinity">resetZonalAffinity</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putZonalAffinity` <a name="putZonalAffinity" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.putZonalAffinity"></a>
+
+```java
+public void putZonalAffinity(GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.putZonalAffinity.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity</a>
+
+---
+
+##### `resetZonalAffinity` <a name="resetZonalAffinity" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.resetZonalAffinity"></a>
+
+```java
+public void resetZonalAffinity()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.zonalAffinity">zonalAffinity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.zonalAffinityInput">zonalAffinityInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `zonalAffinity`<sup>Required</sup> <a name="zonalAffinity" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.zonalAffinity"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference getZonalAffinity();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference</a>
+
+---
+
+##### `zonalAffinityInput`<sup>Optional</sup> <a name="zonalAffinityInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.zonalAffinityInput"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity getZonalAffinityInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy</a>
+
+---
+
+
+### GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference <a name="GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference;
+
+new GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.resetSpillover">resetSpillover</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.resetSpilloverRatio">resetSpilloverRatio</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSpillover` <a name="resetSpillover" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.resetSpillover"></a>
+
+```java
+public void resetSpillover()
+```
+
+##### `resetSpilloverRatio` <a name="resetSpilloverRatio" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.resetSpilloverRatio"></a>
+
+```java
+public void resetSpilloverRatio()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spilloverInput">spilloverInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spilloverRatioInput">spilloverRatioInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spillover">spillover</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spilloverRatio">spilloverRatio</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `spilloverInput`<sup>Optional</sup> <a name="spilloverInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spilloverInput"></a>
+
+```java
+public java.lang.String getSpilloverInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `spilloverRatioInput`<sup>Optional</sup> <a name="spilloverRatioInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spilloverRatioInput"></a>
+
+```java
+public java.lang.Number getSpilloverRatioInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `spillover`<sup>Required</sup> <a name="spillover" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spillover"></a>
+
+```java
+public java.lang.String getSpillover();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `spilloverRatio`<sup>Required</sup> <a name="spilloverRatio" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.spilloverRatio"></a>
+
+```java
+public java.lang.Number getSpilloverRatio();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity">GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity</a>
+
+---
+
+
 ### GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference <a name="GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference.Initializer"></a>
@@ -14481,6 +16123,284 @@ public GoogleComputeRegionBackendServiceOutlierDetection getInternalValue();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceOutlierDetection">GoogleComputeRegionBackendServiceOutlierDetection</a>
+
+---
+
+
+### GoogleComputeRegionBackendServiceParamsOutputReference <a name="GoogleComputeRegionBackendServiceParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceParamsOutputReference;
+
+new GoogleComputeRegionBackendServiceParamsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.resetResourceManagerTags"></a>
+
+```java
+public void resetResourceManagerTags()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTagsInput();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.resourceManagerTags"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTags();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParamsOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeRegionBackendServiceParams getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceParams">GoogleComputeRegionBackendServiceParams</a>
 
 ---
 
@@ -15766,6 +17686,840 @@ public IResolvable|GoogleComputeRegionBackendServiceTimeouts getInternalValue();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTimeouts">GoogleComputeRegionBackendServiceTimeouts</a>
+
+---
+
+
+### GoogleComputeRegionBackendServiceTlsSettingsOutputReference <a name="GoogleComputeRegionBackendServiceTlsSettingsOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceTlsSettingsOutputReference;
+
+new GoogleComputeRegionBackendServiceTlsSettingsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.putSubjectAltNames">putSubjectAltNames</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resetAuthenticationConfig">resetAuthenticationConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resetSni">resetSni</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resetSubjectAltNames">resetSubjectAltNames</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putSubjectAltNames` <a name="putSubjectAltNames" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.putSubjectAltNames"></a>
+
+```java
+public void putSubjectAltNames(IResolvable|java.util.List<GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames> value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.putSubjectAltNames.parameter.value"></a>
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>>
+
+---
+
+##### `resetAuthenticationConfig` <a name="resetAuthenticationConfig" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resetAuthenticationConfig"></a>
+
+```java
+public void resetAuthenticationConfig()
+```
+
+##### `resetSni` <a name="resetSni" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resetSni"></a>
+
+```java
+public void resetSni()
+```
+
+##### `resetSubjectAltNames` <a name="resetSubjectAltNames" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.resetSubjectAltNames"></a>
+
+```java
+public void resetSubjectAltNames()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.subjectAltNames">subjectAltNames</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.authenticationConfigInput">authenticationConfigInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.sniInput">sniInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.subjectAltNamesInput">subjectAltNamesInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.authenticationConfig">authenticationConfig</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.sni">sni</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `subjectAltNames`<sup>Required</sup> <a name="subjectAltNames" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.subjectAltNames"></a>
+
+```java
+public GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList getSubjectAltNames();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList</a>
+
+---
+
+##### `authenticationConfigInput`<sup>Optional</sup> <a name="authenticationConfigInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.authenticationConfigInput"></a>
+
+```java
+public java.lang.String getAuthenticationConfigInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sniInput`<sup>Optional</sup> <a name="sniInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.sniInput"></a>
+
+```java
+public java.lang.String getSniInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `subjectAltNamesInput`<sup>Optional</sup> <a name="subjectAltNamesInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.subjectAltNamesInput"></a>
+
+```java
+public IResolvable|java.util.List<GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames> getSubjectAltNamesInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>>
+
+---
+
+##### `authenticationConfig`<sup>Required</sup> <a name="authenticationConfig" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.authenticationConfig"></a>
+
+```java
+public java.lang.String getAuthenticationConfig();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sni`<sup>Required</sup> <a name="sni" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.sni"></a>
+
+```java
+public java.lang.String getSni();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeRegionBackendServiceTlsSettings getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettings">GoogleComputeRegionBackendServiceTlsSettings</a>
+
+---
+
+
+### GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList <a name="GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList;
+
+new GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Boolean wrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.allWithMapKey"></a>
+
+```java
+public DynamicListTerraformIterator allWithMapKey(java.lang.String mapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.get"></a>
+
+```java
+public GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference get(java.lang.Number index)
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.get.parameter.index"></a>
+
+- *Type:* java.lang.Number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesList.property.internalValue"></a>
+
+```java
+public IResolvable|java.util.List<GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames> getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>>
+
+---
+
+
+### GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference <a name="GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_region_backend_service.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference;
+
+new GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Number complexObjectIndex, java.lang.Boolean complexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>java.lang.Number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* java.lang.Number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.resetDnsName">resetDnsName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.resetUniformResourceIdentifier">resetUniformResourceIdentifier</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetDnsName` <a name="resetDnsName" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.resetDnsName"></a>
+
+```java
+public void resetDnsName()
+```
+
+##### `resetUniformResourceIdentifier` <a name="resetUniformResourceIdentifier" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.resetUniformResourceIdentifier"></a>
+
+```java
+public void resetUniformResourceIdentifier()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.dnsNameInput">dnsNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.uniformResourceIdentifierInput">uniformResourceIdentifierInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.dnsName">dnsName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.uniformResourceIdentifier">uniformResourceIdentifier</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `dnsNameInput`<sup>Optional</sup> <a name="dnsNameInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.dnsNameInput"></a>
+
+```java
+public java.lang.String getDnsNameInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `uniformResourceIdentifierInput`<sup>Optional</sup> <a name="uniformResourceIdentifierInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.uniformResourceIdentifierInput"></a>
+
+```java
+public java.lang.String getUniformResourceIdentifierInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `dnsName`<sup>Required</sup> <a name="dnsName" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.dnsName"></a>
+
+```java
+public java.lang.String getDnsName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `uniformResourceIdentifier`<sup>Required</sup> <a name="uniformResourceIdentifier" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.uniformResourceIdentifier"></a>
+
+```java
+public java.lang.String getUniformResourceIdentifier();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNamesOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendService.GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames">GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleDataformRepositoryIamMember <a name="GoogleDataformRepositoryIamMember" id="@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member google_dataform_repository_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member google_dataform_repository_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer"></a>
 
@@ -40,13 +40,13 @@ GoogleDataformRepositoryIamMember.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.repository">repository</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.repository">repository</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition">GoogleDataformRepositoryIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMember.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#condition GoogleDataformRepositoryIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#condition GoogleDataformRepositoryIamMember#condition}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +159,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}.
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}.
 
 ---
 
@@ -657,7 +657,7 @@ The construct id used in the generated config for the GoogleDataformRepositoryIa
 
 The id of the existing GoogleDataformRepositoryIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1035,9 +1035,9 @@ GoogleDataformRepositoryIamMemberCondition.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#expression GoogleDataformRepositoryIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#title GoogleDataformRepositoryIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#description GoogleDataformRepositoryIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#expression GoogleDataformRepositoryIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#title GoogleDataformRepositoryIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#description GoogleDataformRepositoryIamMember#description}. |
 
 ---
 
@@ -1049,7 +1049,7 @@ public java.lang.String getExpression();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#expression GoogleDataformRepositoryIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#expression GoogleDataformRepositoryIamMember#expression}.
 
 ---
 
@@ -1061,7 +1061,7 @@ public java.lang.String getTitle();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#title GoogleDataformRepositoryIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#title GoogleDataformRepositoryIamMember#title}.
 
 ---
 
@@ -1073,7 +1073,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#description GoogleDataformRepositoryIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#description GoogleDataformRepositoryIamMember#description}.
 
 ---
 
@@ -1113,13 +1113,13 @@ GoogleDataformRepositoryIamMemberConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.repository">repository</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.repository">repository</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberCondition">GoogleDataformRepositoryIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryIamMember.GoogleDataformRepositoryIamMemberConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}. |
 
 ---
 
@@ -1201,7 +1201,7 @@ public java.lang.String getMember();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#member GoogleDataformRepositoryIamMember#member}.
 
 ---
 
@@ -1213,7 +1213,7 @@ public java.lang.String getRepository();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#repository GoogleDataformRepositoryIamMember#repository}.
 
 ---
 
@@ -1225,7 +1225,7 @@ public java.lang.String getRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#role GoogleDataformRepositoryIamMember#role}.
 
 ---
 
@@ -1239,7 +1239,7 @@ public GoogleDataformRepositoryIamMemberCondition getCondition();
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#condition GoogleDataformRepositoryIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#condition GoogleDataformRepositoryIamMember#condition}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#id GoogleDataformRepositoryIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1266,7 +1266,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#project GoogleDataformRepositoryIamMember#project}.
 
 ---
 
@@ -1278,7 +1278,7 @@ public java.lang.String getRegion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_member#region GoogleDataformRepositoryIamMember#region}.
 
 ---
 

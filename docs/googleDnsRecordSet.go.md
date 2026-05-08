@@ -4,12 +4,12 @@
 
 ### GoogleDnsRecordSet <a name="GoogleDnsRecordSet" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set google_dns_record_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set google_dns_record_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSet(scope Construct, id *string, config GoogleDnsRecordSetConfig) GoogleDnsRecordSet
 ```
@@ -448,7 +448,7 @@ func ResetTtl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.GoogleDnsRecordSet_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.GoogleDnsRecordSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlednsrecordset.GoogleDnsRecordSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.GoogleDnsRecordSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlednsrecordset.GoogleDnsRecordSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.GoogleDnsRecordSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleDnsRecordSet to impo
 
 The id of the existing GoogleDnsRecordSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -913,7 +913,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledn
 	Type: *string,
 	Id: *string,
 	Project: *string,
-	RoutingPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicy,
+	RoutingPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicy,
 	Rrdatas: *[]*string,
 	Ttl: *f64,
 }
@@ -948,7 +948,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledn
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.managedZone">ManagedZone</a></code> | <code>*string</code> | The name of the zone in which this record set will reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.name">Name</a></code> | <code>*string</code> | The DNS name this record set will apply to. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.type">Type</a></code> | <code>*string</code> | The DNS record set type. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.project">Project</a></code> | <code>*string</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.routingPolicy">RoutingPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicy">GoogleDnsRecordSetRoutingPolicy</a></code> | routing_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.rrdatas">Rrdatas</a></code> | <code>*[]*string</code> | The string data for the records in this record set whose meaning depends on the DNS type. |
@@ -1036,7 +1036,7 @@ ManagedZone *string
 
 The name of the zone in which this record set will reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#managed_zone GoogleDnsRecordSet#managed_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#managed_zone GoogleDnsRecordSet#managed_zone}
 
 ---
 
@@ -1050,7 +1050,7 @@ Name *string
 
 The DNS name this record set will apply to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#name GoogleDnsRecordSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#name GoogleDnsRecordSet#name}
 
 ---
 
@@ -1064,7 +1064,7 @@ Type *string
 
 The DNS record set type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#type GoogleDnsRecordSet#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#type GoogleDnsRecordSet#type}
 
 ---
 
@@ -1076,7 +1076,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1095,7 +1095,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -1109,7 +1109,7 @@ RoutingPolicy GoogleDnsRecordSetRoutingPolicy
 
 routing_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#routing_policy GoogleDnsRecordSet#routing_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#routing_policy GoogleDnsRecordSet#routing_policy}
 
 ---
 
@@ -1125,7 +1125,7 @@ The string data for the records in this record set whose meaning depends on the 
 
 For TXT record, if the string data contains spaces, add surrounding " if you don't want your string to get split on spaces. To specify a single record value longer than 255 characters such as a TXT record for DKIM, add "" inside the Terraform configuration string (e.g. "first255characters""morecharacters").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}
 
 ---
 
@@ -1139,7 +1139,7 @@ Ttl *f64
 
 The time-to-live of this record set (seconds).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ttl GoogleDnsRecordSet#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ttl GoogleDnsRecordSet#ttl}
 
 ---
 
@@ -1148,13 +1148,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicy {
 	EnableGeoFencing: interface{},
 	Geo: interface{},
 	HealthCheck: *string,
-	PrimaryBackup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackup,
+	PrimaryBackup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackup,
 	Wrr: interface{},
 }
 ```
@@ -1181,7 +1181,7 @@ EnableGeoFencing interface{}
 
 Specifies whether to enable fencing for geo queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#enable_geo_fencing GoogleDnsRecordSet#enable_geo_fencing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#enable_geo_fencing GoogleDnsRecordSet#enable_geo_fencing}
 
 ---
 
@@ -1195,7 +1195,7 @@ Geo interface{}
 
 geo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#geo GoogleDnsRecordSet#geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#geo GoogleDnsRecordSet#geo}
 
 ---
 
@@ -1209,7 +1209,7 @@ HealthCheck *string
 
 Specifies the health check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#health_check GoogleDnsRecordSet#health_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#health_check GoogleDnsRecordSet#health_check}
 
 ---
 
@@ -1223,7 +1223,7 @@ PrimaryBackup GoogleDnsRecordSetRoutingPolicyPrimaryBackup
 
 primary_backup block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#primary_backup GoogleDnsRecordSet#primary_backup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#primary_backup GoogleDnsRecordSet#primary_backup}
 
 ---
 
@@ -1237,7 +1237,7 @@ Wrr interface{}
 
 wrr block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#wrr GoogleDnsRecordSet#wrr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#wrr GoogleDnsRecordSet#wrr}
 
 ---
 
@@ -1246,11 +1246,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyGeo {
 	Location: *string,
-	HealthCheckedTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets,
+	HealthCheckedTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets,
 	Rrdatas: *[]*string,
 }
 ```
@@ -1261,7 +1261,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledn
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.location">Location</a></code> | <code>*string</code> | The location name defined in Google Cloud. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.healthCheckedTargets">HealthCheckedTargets</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets">GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets</a></code> | health_checked_targets block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.rrdatas">Rrdatas</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.rrdatas">Rrdatas</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
 
 ---
 
@@ -1275,7 +1275,7 @@ Location *string
 
 The location name defined in Google Cloud.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
 
 ---
 
@@ -1289,7 +1289,7 @@ HealthCheckedTargets GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets
 
 health_checked_targets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
 
 ---
 
@@ -1301,7 +1301,7 @@ Rrdatas *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
 
 ---
 
@@ -1310,7 +1310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets {
 	ExternalEndpoints: *[]*string,
@@ -1337,7 +1337,7 @@ ExternalEndpoints *[]*string
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -1351,7 +1351,7 @@ InternalLoadBalancers interface{}
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -1360,7 +1360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancers {
 	IpAddress: *string,
@@ -1397,7 +1397,7 @@ IpAddress *string
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -1411,7 +1411,7 @@ IpProtocol *string
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -1425,7 +1425,7 @@ NetworkUrl *string
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -1439,7 +1439,7 @@ Port *string
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -1453,7 +1453,7 @@ Project *string
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -1467,7 +1467,7 @@ LoadBalancerType *string
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -1481,7 +1481,7 @@ Region *string
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 
@@ -1490,11 +1490,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyPrimaryBackup {
 	BackupGeo: interface{},
-	Primary: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimary,
+	Primary: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimary,
 	EnableGeoFencingForBackups: interface{},
 	TrickleRatio: *f64,
 }
@@ -1521,7 +1521,7 @@ BackupGeo interface{}
 
 backup_geo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#backup_geo GoogleDnsRecordSet#backup_geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#backup_geo GoogleDnsRecordSet#backup_geo}
 
 ---
 
@@ -1535,7 +1535,7 @@ Primary GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimary
 
 primary block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#primary GoogleDnsRecordSet#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#primary GoogleDnsRecordSet#primary}
 
 ---
 
@@ -1549,7 +1549,7 @@ EnableGeoFencingForBackups interface{}
 
 Specifies whether to enable fencing for backup geo queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#enable_geo_fencing_for_backups GoogleDnsRecordSet#enable_geo_fencing_for_backups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#enable_geo_fencing_for_backups GoogleDnsRecordSet#enable_geo_fencing_for_backups}
 
 ---
 
@@ -1563,7 +1563,7 @@ TrickleRatio *f64
 
 Specifies the percentage of traffic to send to the backup targets even when the primary targets are healthy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#trickle_ratio GoogleDnsRecordSet#trickle_ratio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#trickle_ratio GoogleDnsRecordSet#trickle_ratio}
 
 ---
 
@@ -1572,11 +1572,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo {
 	Location: *string,
-	HealthCheckedTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets,
+	HealthCheckedTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets,
 	Rrdatas: *[]*string,
 }
 ```
@@ -1587,7 +1587,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledn
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.location">Location</a></code> | <code>*string</code> | The location name defined in Google Cloud. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.healthCheckedTargets">HealthCheckedTargets</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets">GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets</a></code> | health_checked_targets block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.rrdatas">Rrdatas</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.rrdatas">Rrdatas</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
 
 ---
 
@@ -1601,7 +1601,7 @@ Location *string
 
 The location name defined in Google Cloud.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
 
 ---
 
@@ -1615,7 +1615,7 @@ HealthCheckedTargets GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealth
 
 health_checked_targets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
 
 ---
 
@@ -1627,7 +1627,7 @@ Rrdatas *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
 
 ---
 
@@ -1636,7 +1636,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets {
 	ExternalEndpoints: *[]*string,
@@ -1663,7 +1663,7 @@ ExternalEndpoints *[]*string
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -1677,7 +1677,7 @@ InternalLoadBalancers interface{}
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -1686,7 +1686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancers {
 	IpAddress: *string,
@@ -1723,7 +1723,7 @@ IpAddress *string
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -1737,7 +1737,7 @@ IpProtocol *string
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -1751,7 +1751,7 @@ NetworkUrl *string
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -1765,7 +1765,7 @@ Port *string
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -1779,7 +1779,7 @@ Project *string
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -1793,7 +1793,7 @@ LoadBalancerType *string
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -1807,7 +1807,7 @@ Region *string
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 
@@ -1816,7 +1816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimary {
 	ExternalEndpoints: *[]*string,
@@ -1843,7 +1843,7 @@ ExternalEndpoints *[]*string
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -1857,7 +1857,7 @@ InternalLoadBalancers interface{}
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -1866,7 +1866,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancers {
 	IpAddress: *string,
@@ -1903,7 +1903,7 @@ IpAddress *string
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -1917,7 +1917,7 @@ IpProtocol *string
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -1931,7 +1931,7 @@ NetworkUrl *string
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -1945,7 +1945,7 @@ Port *string
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -1959,7 +1959,7 @@ Project *string
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -1973,7 +1973,7 @@ LoadBalancerType *string
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -1987,7 +1987,7 @@ Region *string
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 
@@ -1996,11 +1996,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyWrr {
 	Weight: *f64,
-	HealthCheckedTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets,
+	HealthCheckedTargets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets,
 	Rrdatas: *[]*string,
 }
 ```
@@ -2011,7 +2011,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledn
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.weight">Weight</a></code> | <code>*f64</code> | The ratio of traffic routed to the target. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.healthCheckedTargets">HealthCheckedTargets</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets">GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets</a></code> | health_checked_targets block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.rrdatas">Rrdatas</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.rrdatas">Rrdatas</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
 
 ---
 
@@ -2025,7 +2025,7 @@ Weight *f64
 
 The ratio of traffic routed to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#weight GoogleDnsRecordSet#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#weight GoogleDnsRecordSet#weight}
 
 ---
 
@@ -2039,7 +2039,7 @@ HealthCheckedTargets GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets
 
 health_checked_targets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
 
 ---
 
@@ -2051,7 +2051,7 @@ Rrdatas *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
 
 ---
 
@@ -2060,7 +2060,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets {
 	ExternalEndpoints: *[]*string,
@@ -2087,7 +2087,7 @@ ExternalEndpoints *[]*string
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -2101,7 +2101,7 @@ InternalLoadBalancers interface{}
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -2110,7 +2110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 &googlednsrecordset.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancers {
 	IpAddress: *string,
@@ -2147,7 +2147,7 @@ IpAddress *string
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -2161,7 +2161,7 @@ IpProtocol *string
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -2175,7 +2175,7 @@ NetworkUrl *string
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -2189,7 +2189,7 @@ Port *string
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -2203,7 +2203,7 @@ Project *string
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -2217,7 +2217,7 @@ LoadBalancerType *string
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -2231,7 +2231,7 @@ Region *string
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 
@@ -2242,7 +2242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancersList
 ```
@@ -2402,7 +2402,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsInternalLoadBalancersOutputReference
 ```
@@ -2837,7 +2837,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReference
 ```
@@ -3157,7 +3157,7 @@ func InternalValue() GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyGeoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDnsRecordSetRoutingPolicyGeoList
 ```
@@ -3317,7 +3317,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyGeoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDnsRecordSetRoutingPolicyGeoOutputReference
 ```
@@ -3677,7 +3677,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDnsRecordSetRoutingPolicyOutputReference
 ```
@@ -4110,7 +4110,7 @@ func InternalValue() GoogleDnsRecordSetRoutingPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancersList
 ```
@@ -4270,7 +4270,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsInternalLoadBalancersOutputReference
 ```
@@ -4705,7 +4705,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargetsOutputReference
 ```
@@ -5025,7 +5025,7 @@ func InternalValue() GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealth
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoList
 ```
@@ -5185,7 +5185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoOutputReference
 ```
@@ -5545,7 +5545,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDnsRecordSetRoutingPolicyPrimaryBackupOutputReference
 ```
@@ -5922,7 +5922,7 @@ func InternalValue() GoogleDnsRecordSetRoutingPolicyPrimaryBackup
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancersList
 ```
@@ -6082,7 +6082,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancersOutputReference
 ```
@@ -6517,7 +6517,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference
 ```
@@ -6837,7 +6837,7 @@ func InternalValue() GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimary
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancersList
 ```
@@ -6997,7 +6997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsInternalLoadBalancersOutputReference
 ```
@@ -7432,7 +7432,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargetsOutputReference
 ```
@@ -7752,7 +7752,7 @@ func InternalValue() GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyWrrList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDnsRecordSetRoutingPolicyWrrList
 ```
@@ -7912,7 +7912,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset"
 
 googlednsrecordset.NewGoogleDnsRecordSetRoutingPolicyWrrOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDnsRecordSetRoutingPolicyWrrOutputReference
 ```

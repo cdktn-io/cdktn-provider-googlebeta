@@ -4,12 +4,12 @@
 
 ### DataGoogleApiGatewayApiIamPolicy <a name="DataGoogleApiGatewayApiIamPolicy" id="@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleapigatewayapiiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleapigatewayapiiampolicy"
 
 datagoogleapigatewayapiiampolicy.NewDataGoogleApiGatewayApiIamPolicy(scope Construct, id *string, config DataGoogleApiGatewayApiIamPolicyConfig) DataGoogleApiGatewayApiIamPolicy
 ```
@@ -312,7 +312,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleapigatewayapiiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleapigatewayapiiampolicy"
 
 datagoogleapigatewayapiiampolicy.DataGoogleApiGatewayApiIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleapigatewayapiiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleapigatewayapiiampolicy"
 
 datagoogleapigatewayapiiampolicy.DataGoogleApiGatewayApiIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagoogleapigatewayapiiampolicy.DataGoogleApiGatewayApiIamPolicy_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleapigatewayapiiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleapigatewayapiiampolicy"
 
 datagoogleapigatewayapiiampolicy.DataGoogleApiGatewayApiIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagoogleapigatewayapiiampolicy.DataGoogleApiGatewayApiIamPolicy_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleapigatewayapiiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleapigatewayapiiampolicy"
 
 datagoogleapigatewayapiiampolicy.DataGoogleApiGatewayApiIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -401,7 +401,7 @@ The construct id used in the generated config for the DataGoogleApiGatewayApiIam
 
 The id of the existing DataGoogleApiGatewayApiIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -667,7 +667,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleapigatewayapiiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleapigatewayapiiampolicy"
 
 &datagoogleapigatewayapiiampolicy.DataGoogleApiGatewayApiIamPolicyConfig {
 	Connection: interface{},
@@ -694,9 +694,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.api">Api</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy#api DataGoogleApiGatewayApiIamPolicy#api}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy#id DataGoogleApiGatewayApiIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy#project DataGoogleApiGatewayApiIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.api">Api</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy#api DataGoogleApiGatewayApiIamPolicy#api}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy#id DataGoogleApiGatewayApiIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleApiGatewayApiIamPolicy.DataGoogleApiGatewayApiIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy#project DataGoogleApiGatewayApiIamPolicy#project}. |
 
 ---
 
@@ -778,7 +778,7 @@ Api *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy#api DataGoogleApiGatewayApiIamPolicy#api}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy#api DataGoogleApiGatewayApiIamPolicy#api}.
 
 ---
 
@@ -790,7 +790,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy#id DataGoogleApiGatewayApiIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy#id DataGoogleApiGatewayApiIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -805,7 +805,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_iam_policy#project DataGoogleApiGatewayApiIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy#project DataGoogleApiGatewayApiIamPolicy#project}.
 
 ---
 

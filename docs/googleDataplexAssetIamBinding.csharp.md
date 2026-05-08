@@ -4,7 +4,7 @@
 
 ### GoogleDataplexAssetIamBinding <a name="GoogleDataplexAssetIamBinding" id="@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDataplexAssetIamBind
 
 The id of the existing GoogleDataplexAssetIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,9 +952,9 @@ new GoogleDataplexAssetIamBindingCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#expression GoogleDataplexAssetIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#title GoogleDataplexAssetIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#description GoogleDataplexAssetIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#expression GoogleDataplexAssetIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#title GoogleDataplexAssetIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#description GoogleDataplexAssetIamBinding#description}. |
 
 ---
 
@@ -966,7 +966,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#expression GoogleDataplexAssetIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#expression GoogleDataplexAssetIamBinding#expression}.
 
 ---
 
@@ -978,7 +978,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#title GoogleDataplexAssetIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#title GoogleDataplexAssetIamBinding#title}.
 
 ---
 
@@ -990,7 +990,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#description GoogleDataplexAssetIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#description GoogleDataplexAssetIamBinding#description}.
 
 ---
 
@@ -1032,15 +1032,15 @@ new GoogleDataplexAssetIamBindingConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.asset">Asset</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#asset GoogleDataplexAssetIamBinding#asset}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.dataplexZone">DataplexZone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#dataplex_zone GoogleDataplexAssetIamBinding#dataplex_zone}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.lake">Lake</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#lake GoogleDataplexAssetIamBinding#lake}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#members GoogleDataplexAssetIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#role GoogleDataplexAssetIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.asset">Asset</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#asset GoogleDataplexAssetIamBinding#asset}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.dataplexZone">DataplexZone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#dataplex_zone GoogleDataplexAssetIamBinding#dataplex_zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.lake">Lake</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#lake GoogleDataplexAssetIamBinding#lake}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#members GoogleDataplexAssetIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#role GoogleDataplexAssetIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingCondition">GoogleDataplexAssetIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#id GoogleDataplexAssetIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#location GoogleDataplexAssetIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#project GoogleDataplexAssetIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#id GoogleDataplexAssetIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#location GoogleDataplexAssetIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAssetIamBinding.GoogleDataplexAssetIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#project GoogleDataplexAssetIamBinding#project}. |
 
 ---
 
@@ -1122,7 +1122,7 @@ public string Asset { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#asset GoogleDataplexAssetIamBinding#asset}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#asset GoogleDataplexAssetIamBinding#asset}.
 
 ---
 
@@ -1134,7 +1134,7 @@ public string DataplexZone { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#dataplex_zone GoogleDataplexAssetIamBinding#dataplex_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#dataplex_zone GoogleDataplexAssetIamBinding#dataplex_zone}.
 
 ---
 
@@ -1146,7 +1146,7 @@ public string Lake { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#lake GoogleDataplexAssetIamBinding#lake}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#lake GoogleDataplexAssetIamBinding#lake}.
 
 ---
 
@@ -1158,7 +1158,7 @@ public string[] Members { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#members GoogleDataplexAssetIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#members GoogleDataplexAssetIamBinding#members}.
 
 ---
 
@@ -1170,7 +1170,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#role GoogleDataplexAssetIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#role GoogleDataplexAssetIamBinding#role}.
 
 ---
 
@@ -1184,7 +1184,7 @@ public GoogleDataplexAssetIamBindingCondition Condition { get; set; }
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#condition GoogleDataplexAssetIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#condition GoogleDataplexAssetIamBinding#condition}
 
 ---
 
@@ -1196,7 +1196,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#id GoogleDataplexAssetIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#id GoogleDataplexAssetIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1211,7 +1211,7 @@ public string Location { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#location GoogleDataplexAssetIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#location GoogleDataplexAssetIamBinding#location}.
 
 ---
 
@@ -1223,7 +1223,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding#project GoogleDataplexAssetIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding#project GoogleDataplexAssetIamBinding#project}.
 
 ---
 

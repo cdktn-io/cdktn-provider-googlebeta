@@ -4,12 +4,12 @@
 
 ### GoogleApphubWorkload <a name="GoogleApphubWorkload" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload google_apphub_workload}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload google_apphub_workload}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkload(scope Construct, id *string, config GoogleApphubWorkloadConfig) GoogleApphubWorkload
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.GoogleApphubWorkload_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.GoogleApphubWorkload_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleapphubworkload.GoogleApphubWorkload_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.GoogleApphubWorkload_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleapphubworkload.GoogleApphubWorkload_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.GoogleApphubWorkload_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleApphubWorkload to im
 
 The id of the existing GoogleApphubWorkload that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1054,13 +1054,13 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadAttributes {
 	BusinessOwners: interface{},
-	Criticality: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubWorkload.GoogleApphubWorkloadAttributesCriticality,
+	Criticality: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubWorkload.GoogleApphubWorkloadAttributesCriticality,
 	DeveloperOwners: interface{},
-	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubWorkload.GoogleApphubWorkloadAttributesEnvironment,
+	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubWorkload.GoogleApphubWorkloadAttributesEnvironment,
 	OperatorOwners: interface{},
 }
 ```
@@ -1087,7 +1087,7 @@ BusinessOwners interface{}
 
 business_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#business_owners GoogleApphubWorkload#business_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#business_owners GoogleApphubWorkload#business_owners}
 
 ---
 
@@ -1101,7 +1101,7 @@ Criticality GoogleApphubWorkloadAttributesCriticality
 
 criticality block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#criticality GoogleApphubWorkload#criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#criticality GoogleApphubWorkload#criticality}
 
 ---
 
@@ -1115,7 +1115,7 @@ DeveloperOwners interface{}
 
 developer_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#developer_owners GoogleApphubWorkload#developer_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#developer_owners GoogleApphubWorkload#developer_owners}
 
 ---
 
@@ -1129,7 +1129,7 @@ Environment GoogleApphubWorkloadAttributesEnvironment
 
 environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#environment GoogleApphubWorkload#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#environment GoogleApphubWorkload#environment}
 
 ---
 
@@ -1143,7 +1143,7 @@ OperatorOwners interface{}
 
 operator_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#operator_owners GoogleApphubWorkload#operator_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#operator_owners GoogleApphubWorkload#operator_owners}
 
 ---
 
@@ -1152,7 +1152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesBusinessOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadAttributesBusinessOwners {
 	Email: *string,
@@ -1179,7 +1179,7 @@ Email *string
 
 Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
 
 ---
 
@@ -1193,7 +1193,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesCriticality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadAttributesCriticality {
 	Type: *string,
@@ -1227,7 +1227,7 @@ Type *string
 
 Criticality type. Possible values: ["MISSION_CRITICAL", "HIGH", "MEDIUM", "LOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesDeveloperOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadAttributesDeveloperOwners {
 	Email: *string,
@@ -1263,7 +1263,7 @@ Email *string
 
 Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
 
 ---
 
@@ -1277,7 +1277,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1286,7 +1286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadAttributesEnvironment {
 	Type: *string,
@@ -1311,7 +1311,7 @@ Type *string
 
 Environment type. Possible values: ["PRODUCTION", "STAGING", "TEST", "DEVELOPMENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
 
 ---
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesOperatorOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadAttributesOperatorOwners {
 	Email: *string,
@@ -1347,7 +1347,7 @@ Email *string
 
 Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
 
 ---
 
@@ -1361,7 +1361,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1370,7 +1370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadConfig {
 	Connection: interface{},
@@ -1384,12 +1384,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 	DiscoveredWorkload: *string,
 	Location: *string,
 	WorkloadId: *string,
-	Attributes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubWorkload.GoogleApphubWorkloadAttributes,
+	Attributes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubWorkload.GoogleApphubWorkloadAttributes,
 	Description: *string,
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubWorkload.GoogleApphubWorkloadTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubWorkload.GoogleApphubWorkloadTimeouts,
 }
 ```
 
@@ -1411,8 +1411,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.attributes">Attributes</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributes">GoogleApphubWorkloadAttributes</a></code> | attributes block. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.description">Description</a></code> | <code>*string</code> | User-defined description of a Workload. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User-defined name for the Workload. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts">GoogleApphubWorkloadTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1497,7 +1497,7 @@ ApplicationId *string
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
 
 ---
 
@@ -1511,7 +1511,7 @@ DiscoveredWorkload *string
 
 Immutable. The resource name of the original discovered workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
 
 ---
 
@@ -1525,7 +1525,7 @@ Location *string
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
 
 ---
 
@@ -1539,7 +1539,7 @@ WorkloadId *string
 
 The Workload identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
 
 ---
 
@@ -1553,7 +1553,7 @@ Attributes GoogleApphubWorkloadAttributes
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
 
 ---
 
@@ -1567,7 +1567,7 @@ Description *string
 
 User-defined description of a Workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
 
 ---
 
@@ -1581,7 +1581,7 @@ DisplayName *string
 
 User-defined name for the Workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1593,7 +1593,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1608,7 +1608,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}.
 
 ---
 
@@ -1622,7 +1622,7 @@ Timeouts GoogleApphubWorkloadTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
 
 ---
 
@@ -1631,7 +1631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadTimeouts {
 	Create: *string,
@@ -1644,9 +1644,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}. |
 
 ---
 
@@ -1658,7 +1658,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}.
 
 ---
 
@@ -1670,7 +1670,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}.
 
 ---
 
@@ -1682,7 +1682,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}.
 
 ---
 
@@ -1691,9 +1691,61 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadWorkloadProperties {
+
+}
+```
+
+
+### GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata <a name="GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+&googleapphubworkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata {
+
+}
+```
+
+
+### GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue <a name="GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+&googleapphubworkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue {
+
+}
+```
+
+
+### GoogleApphubWorkloadWorkloadPropertiesFunctionalType <a name="GoogleApphubWorkloadWorkloadPropertiesFunctionalType" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalType"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalType.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+&googleapphubworkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalType {
+
+}
+```
+
+
+### GoogleApphubWorkloadWorkloadPropertiesIdentity <a name="GoogleApphubWorkloadWorkloadPropertiesIdentity" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentity.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+&googleapphubworkload.GoogleApphubWorkloadWorkloadPropertiesIdentity {
 
 }
 ```
@@ -1704,7 +1756,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 &googleapphubworkload.GoogleApphubWorkloadWorkloadReference {
 
@@ -1719,7 +1771,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesBusinessOwnersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesBusinessOwnersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadAttributesBusinessOwnersList
 ```
@@ -1879,7 +1931,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesBusinessOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesBusinessOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadAttributesBusinessOwnersOutputReference
 ```
@@ -2197,7 +2249,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesCriticalityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesCriticalityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubWorkloadAttributesCriticalityOutputReference
 ```
@@ -2468,7 +2520,7 @@ func InternalValue() GoogleApphubWorkloadAttributesCriticality
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesDeveloperOwnersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesDeveloperOwnersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadAttributesDeveloperOwnersList
 ```
@@ -2628,7 +2680,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesDeveloperOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesDeveloperOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadAttributesDeveloperOwnersOutputReference
 ```
@@ -2946,7 +2998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubWorkloadAttributesEnvironmentOutputReference
 ```
@@ -3217,7 +3269,7 @@ func InternalValue() GoogleApphubWorkloadAttributesEnvironment
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesOperatorOwnersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesOperatorOwnersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadAttributesOperatorOwnersList
 ```
@@ -3377,7 +3429,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesOperatorOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesOperatorOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadAttributesOperatorOwnersOutputReference
 ```
@@ -3695,7 +3747,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubWorkloadAttributesOutputReference
 ```
@@ -4154,7 +4206,7 @@ func InternalValue() GoogleApphubWorkloadAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubWorkloadTimeoutsOutputReference
 ```
@@ -4485,12 +4537,1742 @@ func InternalValue() interface{}
 ---
 
 
+### GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList <a name="GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference <a name="GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.key">Key</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.value">Value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.key"></a>
+
+```go
+func Key() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.value"></a>
+
+```go
+func Value() GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata</a>
+
+---
+
+
+### GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList <a name="GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference <a name="GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.extendedMetadataSchema">ExtendedMetadataSchema</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.metadataStruct">MetadataStruct</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExtendedMetadataSchema`<sup>Required</sup> <a name="ExtendedMetadataSchema" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.extendedMetadataSchema"></a>
+
+```go
+func ExtendedMetadataSchema() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MetadataStruct`<sup>Required</sup> <a name="MetadataStruct" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.metadataStruct"></a>
+
+```go
+func MetadataStruct() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValueOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue</a>
+
+---
+
+
+### GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList <a name="GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference <a name="GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.type">Type</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalType">GoogleApphubWorkloadWorkloadPropertiesFunctionalType</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.type"></a>
+
+```go
+func Type() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubWorkloadWorkloadPropertiesFunctionalType
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalType">GoogleApphubWorkloadWorkloadPropertiesFunctionalType</a>
+
+---
+
+
+### GoogleApphubWorkloadWorkloadPropertiesIdentityList <a name="GoogleApphubWorkloadWorkloadPropertiesIdentityList" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesIdentityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadWorkloadPropertiesIdentityList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference <a name="GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
+
+googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.principal">Principal</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentity">GoogleApphubWorkloadWorkloadPropertiesIdentity</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Principal`<sup>Required</sup> <a name="Principal" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.principal"></a>
+
+```go
+func Principal() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubWorkloadWorkloadPropertiesIdentity
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentity">GoogleApphubWorkloadWorkloadPropertiesIdentity</a>
+
+---
+
+
 ### GoogleApphubWorkloadWorkloadPropertiesList <a name="GoogleApphubWorkloadWorkloadPropertiesList" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadWorkloadPropertiesList
 ```
@@ -4639,7 +6421,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadWorkloadPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadWorkloadPropertiesOutputReference
 ```
@@ -4862,7 +6644,10 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.extendedMetadata">ExtendedMetadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.functionalType">FunctionalType</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList">GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.gcpProject">GcpProject</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.identity">Identity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList">GoogleApphubWorkloadWorkloadPropertiesIdentityList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.location">Location</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadProperties">GoogleApphubWorkloadWorkloadProperties</a></code> | *No description.* |
@@ -4893,6 +6678,26 @@ func Fqn() *string
 
 ---
 
+##### `ExtendedMetadata`<sup>Required</sup> <a name="ExtendedMetadata" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.extendedMetadata"></a>
+
+```go
+func ExtendedMetadata() GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList">GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataList</a>
+
+---
+
+##### `FunctionalType`<sup>Required</sup> <a name="FunctionalType" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.functionalType"></a>
+
+```go
+func FunctionalType() GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList">GoogleApphubWorkloadWorkloadPropertiesFunctionalTypeList</a>
+
+---
+
 ##### `GcpProject`<sup>Required</sup> <a name="GcpProject" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.gcpProject"></a>
 
 ```go
@@ -4900,6 +6705,16 @@ func GcpProject() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `Identity`<sup>Required</sup> <a name="Identity" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesOutputReference.property.identity"></a>
+
+```go
+func Identity() GoogleApphubWorkloadWorkloadPropertiesIdentityList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadPropertiesIdentityList">GoogleApphubWorkloadWorkloadPropertiesIdentityList</a>
 
 ---
 
@@ -4939,7 +6754,7 @@ func InternalValue() GoogleApphubWorkloadWorkloadProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadReferenceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadWorkloadReferenceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubWorkloadWorkloadReferenceList
 ```
@@ -5088,7 +6903,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubworkload"
 
 googleapphubworkload.NewGoogleApphubWorkloadWorkloadReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubWorkloadWorkloadReferenceOutputReference
 ```

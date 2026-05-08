@@ -4,12 +4,12 @@
 
 ### GoogleColabRuntimeTemplate <a name="GoogleColabRuntimeTemplate" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template google_colab_runtime_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template google_colab_runtime_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplate(scope Construct, id *string, config GoogleColabRuntimeTemplateConfig) GoogleColabRuntimeTemplate
 ```
@@ -622,7 +622,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.GoogleColabRuntimeTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -654,7 +654,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.GoogleColabRuntimeTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -668,7 +668,7 @@ googlecolabruntimetemplate.GoogleColabRuntimeTemplate_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.GoogleColabRuntimeTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -682,7 +682,7 @@ googlecolabruntimetemplate.GoogleColabRuntimeTemplate_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.GoogleColabRuntimeTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -711,7 +711,7 @@ The construct id used in the generated config for the GoogleColabRuntimeTemplate
 
 The id of the existing GoogleColabRuntimeTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1307,7 +1307,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateConfig {
 	Connection: interface{},
@@ -1319,21 +1319,21 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	Provisioners: *[]interface{},
 	DisplayName: *string,
 	Location: *string,
-	DataPersistentDiskSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateDataPersistentDiskSpec,
+	DataPersistentDiskSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateDataPersistentDiskSpec,
 	Description: *string,
-	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEncryptionSpec,
-	EucConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEucConfig,
+	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEncryptionSpec,
+	EucConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEucConfig,
 	Id: *string,
-	IdleShutdownConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateIdleShutdownConfig,
+	IdleShutdownConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateIdleShutdownConfig,
 	Labels: *map[string]*string,
-	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateMachineSpec,
+	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateMachineSpec,
 	Name: *string,
-	NetworkSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateNetworkSpec,
+	NetworkSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateNetworkSpec,
 	NetworkTags: *[]*string,
 	Project: *string,
-	ShieldedVmConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateShieldedVmConfig,
-	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts,
+	ShieldedVmConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateShieldedVmConfig,
+	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts,
 }
 ```
 
@@ -1354,14 +1354,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.description">Description</a></code> | <code>*string</code> | The description of the Runtime Template. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.encryptionSpec">EncryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEncryptionSpec">GoogleColabRuntimeTemplateEncryptionSpec</a></code> | encryption_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.eucConfig">EucConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEucConfig">GoogleColabRuntimeTemplateEucConfig</a></code> | euc_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#id GoogleColabRuntimeTemplate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#id GoogleColabRuntimeTemplate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.idleShutdownConfig">IdleShutdownConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateIdleShutdownConfig">GoogleColabRuntimeTemplateIdleShutdownConfig</a></code> | idle_shutdown_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels to identify and group the runtime template. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.machineSpec">MachineSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateMachineSpec">GoogleColabRuntimeTemplateMachineSpec</a></code> | machine_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.name">Name</a></code> | <code>*string</code> | The resource name of the Runtime Template. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.networkSpec">NetworkSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateNetworkSpec">GoogleColabRuntimeTemplateNetworkSpec</a></code> | network_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | Applies the given Compute Engine tags to the runtime. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#project GoogleColabRuntimeTemplate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#project GoogleColabRuntimeTemplate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.shieldedVmConfig">ShieldedVmConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateShieldedVmConfig">GoogleColabRuntimeTemplateShieldedVmConfig</a></code> | shielded_vm_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.softwareConfig">SoftwareConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig">GoogleColabRuntimeTemplateSoftwareConfig</a></code> | software_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts">GoogleColabRuntimeTemplateTimeouts</a></code> | timeouts block. |
@@ -1448,7 +1448,7 @@ DisplayName *string
 
 Required. The display name of the Runtime Template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#display_name GoogleColabRuntimeTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#display_name GoogleColabRuntimeTemplate#display_name}
 
 ---
 
@@ -1462,7 +1462,7 @@ Location *string
 
 The location for the resource: https://cloud.google.com/colab/docs/locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#location GoogleColabRuntimeTemplate#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#location GoogleColabRuntimeTemplate#location}
 
 ---
 
@@ -1476,7 +1476,7 @@ DataPersistentDiskSpec GoogleColabRuntimeTemplateDataPersistentDiskSpec
 
 data_persistent_disk_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#data_persistent_disk_spec GoogleColabRuntimeTemplate#data_persistent_disk_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#data_persistent_disk_spec GoogleColabRuntimeTemplate#data_persistent_disk_spec}
 
 ---
 
@@ -1490,7 +1490,7 @@ Description *string
 
 The description of the Runtime Template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#description GoogleColabRuntimeTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#description GoogleColabRuntimeTemplate#description}
 
 ---
 
@@ -1504,7 +1504,7 @@ EncryptionSpec GoogleColabRuntimeTemplateEncryptionSpec
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#encryption_spec GoogleColabRuntimeTemplate#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#encryption_spec GoogleColabRuntimeTemplate#encryption_spec}
 
 ---
 
@@ -1518,7 +1518,7 @@ EucConfig GoogleColabRuntimeTemplateEucConfig
 
 euc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#euc_config GoogleColabRuntimeTemplate#euc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#euc_config GoogleColabRuntimeTemplate#euc_config}
 
 ---
 
@@ -1530,7 +1530,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#id GoogleColabRuntimeTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#id GoogleColabRuntimeTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1547,7 +1547,7 @@ IdleShutdownConfig GoogleColabRuntimeTemplateIdleShutdownConfig
 
 idle_shutdown_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#idle_shutdown_config GoogleColabRuntimeTemplate#idle_shutdown_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#idle_shutdown_config GoogleColabRuntimeTemplate#idle_shutdown_config}
 
 ---
 
@@ -1564,7 +1564,7 @@ Labels to identify and group the runtime template.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#labels GoogleColabRuntimeTemplate#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#labels GoogleColabRuntimeTemplate#labels}
 
 ---
 
@@ -1578,7 +1578,7 @@ MachineSpec GoogleColabRuntimeTemplateMachineSpec
 
 machine_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#machine_spec GoogleColabRuntimeTemplate#machine_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#machine_spec GoogleColabRuntimeTemplate#machine_spec}
 
 ---
 
@@ -1592,7 +1592,7 @@ Name *string
 
 The resource name of the Runtime Template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#name GoogleColabRuntimeTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#name GoogleColabRuntimeTemplate#name}
 
 ---
 
@@ -1606,7 +1606,7 @@ NetworkSpec GoogleColabRuntimeTemplateNetworkSpec
 
 network_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#network_spec GoogleColabRuntimeTemplate#network_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#network_spec GoogleColabRuntimeTemplate#network_spec}
 
 ---
 
@@ -1620,7 +1620,7 @@ NetworkTags *[]*string
 
 Applies the given Compute Engine tags to the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#network_tags GoogleColabRuntimeTemplate#network_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#network_tags GoogleColabRuntimeTemplate#network_tags}
 
 ---
 
@@ -1632,7 +1632,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#project GoogleColabRuntimeTemplate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#project GoogleColabRuntimeTemplate#project}.
 
 ---
 
@@ -1646,7 +1646,7 @@ ShieldedVmConfig GoogleColabRuntimeTemplateShieldedVmConfig
 
 shielded_vm_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#shielded_vm_config GoogleColabRuntimeTemplate#shielded_vm_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#shielded_vm_config GoogleColabRuntimeTemplate#shielded_vm_config}
 
 ---
 
@@ -1660,7 +1660,7 @@ SoftwareConfig GoogleColabRuntimeTemplateSoftwareConfig
 
 software_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#software_config GoogleColabRuntimeTemplate#software_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#software_config GoogleColabRuntimeTemplate#software_config}
 
 ---
 
@@ -1674,7 +1674,7 @@ Timeouts GoogleColabRuntimeTemplateTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#timeouts GoogleColabRuntimeTemplate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#timeouts GoogleColabRuntimeTemplate#timeouts}
 
 ---
 
@@ -1683,7 +1683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateDataPersistentDiskSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateDataPersistentDiskSpec {
 	DiskSizeGb: *string,
@@ -1712,7 +1712,7 @@ The disk size of the runtime in GB.
 
 If specified, the diskType must also be specified. The minimum size is 10GB and the maximum is 65536GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#disk_size_gb GoogleColabRuntimeTemplate#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#disk_size_gb GoogleColabRuntimeTemplate#disk_size_gb}
 
 ---
 
@@ -1726,7 +1726,7 @@ DiskType *string
 
 The type of the persistent disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#disk_type GoogleColabRuntimeTemplate#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#disk_type GoogleColabRuntimeTemplate#disk_type}
 
 ---
 
@@ -1735,7 +1735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateEncryptionSpec {
 	KmsKeyName: *string,
@@ -1760,7 +1760,7 @@ KmsKeyName *string
 
 The Cloud KMS encryption key (customer-managed encryption key) used to protect the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#kms_key_name GoogleColabRuntimeTemplate#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#kms_key_name GoogleColabRuntimeTemplate#kms_key_name}
 
 ---
 
@@ -1769,7 +1769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEucConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateEucConfig {
 	EucDisabled: interface{},
@@ -1794,7 +1794,7 @@ EucDisabled interface{}
 
 Disable end user credential access for the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#euc_disabled GoogleColabRuntimeTemplate#euc_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#euc_disabled GoogleColabRuntimeTemplate#euc_disabled}
 
 ---
 
@@ -1803,7 +1803,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateIdleShutdownConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateIdleShutdownConfig {
 	IdleTimeout: *string,
@@ -1830,7 +1830,7 @@ The duration after which the runtime is automatically shut down.
 
 An input of 0s disables the idle shutdown feature, and a valid range is [10m, 24h].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#idle_timeout GoogleColabRuntimeTemplate#idle_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#idle_timeout GoogleColabRuntimeTemplate#idle_timeout}
 
 ---
 
@@ -1839,7 +1839,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateMachineSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateMachineSpec {
 	AcceleratorCount: *f64,
@@ -1868,7 +1868,7 @@ AcceleratorCount *f64
 
 The number of accelerators used by the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#accelerator_count GoogleColabRuntimeTemplate#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#accelerator_count GoogleColabRuntimeTemplate#accelerator_count}
 
 ---
 
@@ -1882,7 +1882,7 @@ AcceleratorType *string
 
 The type of hardware accelerator used by the runtime. If specified, acceleratorCount must also be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#accelerator_type GoogleColabRuntimeTemplate#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#accelerator_type GoogleColabRuntimeTemplate#accelerator_type}
 
 ---
 
@@ -1896,7 +1896,7 @@ MachineType *string
 
 The Compute Engine machine type selected for the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#machine_type GoogleColabRuntimeTemplate#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#machine_type GoogleColabRuntimeTemplate#machine_type}
 
 ---
 
@@ -1905,7 +1905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateNetworkSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateNetworkSpec {
 	EnableInternetAccess: interface{},
@@ -1934,7 +1934,7 @@ EnableInternetAccess interface{}
 
 Enable public internet access for the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#enable_internet_access GoogleColabRuntimeTemplate#enable_internet_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#enable_internet_access GoogleColabRuntimeTemplate#enable_internet_access}
 
 ---
 
@@ -1948,7 +1948,7 @@ Network *string
 
 The name of the VPC that this runtime is in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#network GoogleColabRuntimeTemplate#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#network GoogleColabRuntimeTemplate#network}
 
 ---
 
@@ -1962,7 +1962,7 @@ Subnetwork *string
 
 The name of the subnetwork that this runtime is in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#subnetwork GoogleColabRuntimeTemplate#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#subnetwork GoogleColabRuntimeTemplate#subnetwork}
 
 ---
 
@@ -1971,7 +1971,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateShieldedVmConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateShieldedVmConfig {
 	EnableSecureBoot: interface{},
@@ -1996,7 +1996,7 @@ EnableSecureBoot interface{}
 
 Enables secure boot for the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#enable_secure_boot GoogleColabRuntimeTemplate#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#enable_secure_boot GoogleColabRuntimeTemplate#enable_secure_boot}
 
 ---
 
@@ -2005,11 +2005,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateSoftwareConfig {
+	ColabImage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage,
 	Env: interface{},
-	PostStartupScriptConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig,
+	PostStartupScriptConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig,
 }
 ```
 
@@ -2017,8 +2018,23 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig.property.colabImage">ColabImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage">GoogleColabRuntimeTemplateSoftwareConfigColabImage</a></code> | colab_image block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig.property.env">Env</a></code> | <code>interface{}</code> | env block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig.property.postStartupScriptConfig">PostStartupScriptConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig">GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig</a></code> | post_startup_script_config block. |
+
+---
+
+##### `ColabImage`<sup>Optional</sup> <a name="ColabImage" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig.property.colabImage"></a>
+
+```go
+ColabImage GoogleColabRuntimeTemplateSoftwareConfigColabImage
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage">GoogleColabRuntimeTemplateSoftwareConfigColabImage</a>
+
+colab_image block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#colab_image GoogleColabRuntimeTemplate#colab_image}
 
 ---
 
@@ -2032,7 +2048,7 @@ Env interface{}
 
 env block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#env GoogleColabRuntimeTemplate#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#env GoogleColabRuntimeTemplate#env}
 
 ---
 
@@ -2046,7 +2062,41 @@ PostStartupScriptConfig GoogleColabRuntimeTemplateSoftwareConfigPostStartupScrip
 
 post_startup_script_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#post_startup_script_config GoogleColabRuntimeTemplate#post_startup_script_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#post_startup_script_config GoogleColabRuntimeTemplate#post_startup_script_config}
+
+---
+
+### GoogleColabRuntimeTemplateSoftwareConfigColabImage <a name="GoogleColabRuntimeTemplateSoftwareConfigColabImage" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
+
+&googlecolabruntimetemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage {
+	ReleaseName: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage.property.releaseName">ReleaseName</a></code> | <code>*string</code> | The release name of the NotebookRuntime Colab image, e.g. "py310". If not specified, detault to the latest release. |
+
+---
+
+##### `ReleaseName`<sup>Optional</sup> <a name="ReleaseName" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage.property.releaseName"></a>
+
+```go
+ReleaseName *string
+```
+
+- *Type:* *string
+
+The release name of the NotebookRuntime Colab image, e.g. "py310". If not specified, detault to the latest release.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#release_name GoogleColabRuntimeTemplate#release_name}
 
 ---
 
@@ -2055,7 +2105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateSoftwareConfigEnv {
 	Name: *string,
@@ -2082,7 +2132,7 @@ Name *string
 
 Name of the environment variable. Must be a valid C identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#name GoogleColabRuntimeTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#name GoogleColabRuntimeTemplate#name}
 
 ---
 
@@ -2098,7 +2148,7 @@ Variables that reference a $(VAR_NAME) are expanded using the previous defined e
 
 If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#value GoogleColabRuntimeTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#value GoogleColabRuntimeTemplate#value}
 
 ---
 
@@ -2107,7 +2157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig {
 	PostStartupScript: *string,
@@ -2136,7 +2186,7 @@ PostStartupScript *string
 
 Post startup script to run after runtime is started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#post_startup_script GoogleColabRuntimeTemplate#post_startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#post_startup_script GoogleColabRuntimeTemplate#post_startup_script}
 
 ---
 
@@ -2150,7 +2200,7 @@ PostStartupScriptBehavior *string
 
 Post startup script behavior that defines download and execution behavior. Possible values: ["RUN_ONCE", "RUN_EVERY_START", "DOWNLOAD_AND_RUN_EVERY_START"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#post_startup_script_behavior GoogleColabRuntimeTemplate#post_startup_script_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#post_startup_script_behavior GoogleColabRuntimeTemplate#post_startup_script_behavior}
 
 ---
 
@@ -2164,7 +2214,7 @@ PostStartupScriptUrl *string
 
 Post startup script url to download. Example: https://bucket/script.sh.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#post_startup_script_url GoogleColabRuntimeTemplate#post_startup_script_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#post_startup_script_url GoogleColabRuntimeTemplate#post_startup_script_url}
 
 ---
 
@@ -2173,7 +2223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 &googlecolabruntimetemplate.GoogleColabRuntimeTemplateTimeouts {
 	Create: *string,
@@ -2186,9 +2236,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#create GoogleColabRuntimeTemplate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#delete GoogleColabRuntimeTemplate#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#update GoogleColabRuntimeTemplate#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#create GoogleColabRuntimeTemplate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#delete GoogleColabRuntimeTemplate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#update GoogleColabRuntimeTemplate#update}. |
 
 ---
 
@@ -2200,7 +2250,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#create GoogleColabRuntimeTemplate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#create GoogleColabRuntimeTemplate#create}.
 
 ---
 
@@ -2212,7 +2262,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#delete GoogleColabRuntimeTemplate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#delete GoogleColabRuntimeTemplate#delete}.
 
 ---
 
@@ -2224,7 +2274,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template#update GoogleColabRuntimeTemplate#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template#update GoogleColabRuntimeTemplate#update}.
 
 ---
 
@@ -2235,7 +2285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference
 ```
@@ -2542,7 +2592,7 @@ func InternalValue() GoogleColabRuntimeTemplateDataPersistentDiskSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEncryptionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateEncryptionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateEncryptionSpecOutputReference
 ```
@@ -2820,7 +2870,7 @@ func InternalValue() GoogleColabRuntimeTemplateEncryptionSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateEucConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateEucConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateEucConfigOutputReference
 ```
@@ -3098,7 +3148,7 @@ func InternalValue() GoogleColabRuntimeTemplateEucConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateIdleShutdownConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateIdleShutdownConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateIdleShutdownConfigOutputReference
 ```
@@ -3376,7 +3426,7 @@ func InternalValue() GoogleColabRuntimeTemplateIdleShutdownConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateMachineSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateMachineSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateMachineSpecOutputReference
 ```
@@ -3712,7 +3762,7 @@ func InternalValue() GoogleColabRuntimeTemplateMachineSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateNetworkSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateNetworkSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateNetworkSpecOutputReference
 ```
@@ -4048,7 +4098,7 @@ func InternalValue() GoogleColabRuntimeTemplateNetworkSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateShieldedVmConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateShieldedVmConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateShieldedVmConfigOutputReference
 ```
@@ -4321,12 +4371,290 @@ func InternalValue() GoogleColabRuntimeTemplateShieldedVmConfig
 ---
 
 
+### GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference <a name="GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
+
+googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.resetReleaseName">ResetReleaseName</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetReleaseName` <a name="ResetReleaseName" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.resetReleaseName"></a>
+
+```go
+func ResetReleaseName()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.releaseNameInput">ReleaseNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.releaseName">ReleaseName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage">GoogleColabRuntimeTemplateSoftwareConfigColabImage</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ReleaseNameInput`<sup>Optional</sup> <a name="ReleaseNameInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.releaseNameInput"></a>
+
+```go
+func ReleaseNameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ReleaseName`<sup>Required</sup> <a name="ReleaseName" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.releaseName"></a>
+
+```go
+func ReleaseName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleColabRuntimeTemplateSoftwareConfigColabImage
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage">GoogleColabRuntimeTemplateSoftwareConfigColabImage</a>
+
+---
+
+
 ### GoogleColabRuntimeTemplateSoftwareConfigEnvList <a name="GoogleColabRuntimeTemplateSoftwareConfigEnvList" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigEnvList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateSoftwareConfigEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleColabRuntimeTemplateSoftwareConfigEnvList
 ```
@@ -4486,7 +4814,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateSoftwareConfigEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleColabRuntimeTemplateSoftwareConfigEnvOutputReference
 ```
@@ -4811,7 +5139,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateSoftwareConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateSoftwareConfigOutputReference
 ```
@@ -4856,8 +5184,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.putColabImage">PutColabImage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.putEnv">PutEnv</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.putPostStartupScriptConfig">PutPostStartupScriptConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.resetColabImage">ResetColabImage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.resetEnv">ResetEnv</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.resetPostStartupScriptConfig">ResetPostStartupScriptConfig</a></code> | *No description.* |
 
@@ -5013,6 +5343,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutColabImage` <a name="PutColabImage" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.putColabImage"></a>
+
+```go
+func PutColabImage(value GoogleColabRuntimeTemplateSoftwareConfigColabImage)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.putColabImage.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage">GoogleColabRuntimeTemplateSoftwareConfigColabImage</a>
+
+---
+
 ##### `PutEnv` <a name="PutEnv" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.putEnv"></a>
 
 ```go
@@ -5037,6 +5379,12 @@ func PutPostStartupScriptConfig(value GoogleColabRuntimeTemplateSoftwareConfigPo
 
 ---
 
+##### `ResetColabImage` <a name="ResetColabImage" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.resetColabImage"></a>
+
+```go
+func ResetColabImage()
+```
+
 ##### `ResetEnv` <a name="ResetEnv" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.resetEnv"></a>
 
 ```go
@@ -5056,8 +5404,10 @@ func ResetPostStartupScriptConfig()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.colabImage">ColabImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference">GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.env">Env</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigEnvList">GoogleColabRuntimeTemplateSoftwareConfigEnvList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.postStartupScriptConfig">PostStartupScriptConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference">GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.colabImageInput">ColabImageInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage">GoogleColabRuntimeTemplateSoftwareConfigColabImage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.envInput">EnvInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.postStartupScriptConfigInput">PostStartupScriptConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig">GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfig">GoogleColabRuntimeTemplateSoftwareConfig</a></code> | *No description.* |
@@ -5088,6 +5438,16 @@ func Fqn() *string
 
 ---
 
+##### `ColabImage`<sup>Required</sup> <a name="ColabImage" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.colabImage"></a>
+
+```go
+func ColabImage() GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference">GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference</a>
+
+---
+
 ##### `Env`<sup>Required</sup> <a name="Env" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.env"></a>
 
 ```go
@@ -5105,6 +5465,16 @@ func PostStartupScriptConfig() GoogleColabRuntimeTemplateSoftwareConfigPostStart
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference">GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference</a>
+
+---
+
+##### `ColabImageInput`<sup>Optional</sup> <a name="ColabImageInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigOutputReference.property.colabImageInput"></a>
+
+```go
+func ColabImageInput() GoogleColabRuntimeTemplateSoftwareConfigColabImage
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigColabImage">GoogleColabRuntimeTemplateSoftwareConfigColabImage</a>
 
 ---
 
@@ -5144,7 +5514,7 @@ func InternalValue() GoogleColabRuntimeTemplateSoftwareConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference
 ```
@@ -5480,7 +5850,7 @@ func InternalValue() GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplate.GoogleColabRuntimeTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate"
 
 googlecolabruntimetemplate.NewGoogleColabRuntimeTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabRuntimeTemplateTimeoutsOutputReference
 ```

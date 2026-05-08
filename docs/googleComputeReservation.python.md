@@ -4,7 +4,7 @@
 
 ### GoogleComputeReservation <a name="GoogleComputeReservation" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation google_compute_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation google_compute_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer"></a>
 
@@ -28,7 +28,6 @@ googleComputeReservation.GoogleComputeReservation(
   delete_at_time: str = None,
   description: str = None,
   enable_emergent_maintenance: bool | IResolvable = None,
-  id: str = None,
   project: str = None,
   reservation_sharing_policy: GoogleComputeReservationReservationSharingPolicy = None,
   share_settings: GoogleComputeReservationShareSettings = None,
@@ -55,8 +54,7 @@ googleComputeReservation.GoogleComputeReservation(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.deleteAtTime">delete_at_time</a></code> | <code>str</code> | Absolute time in future when the reservation will be auto-deleted by Compute Engine. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.description">description</a></code> | <code>str</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.enableEmergentMaintenance">enable_emergent_maintenance</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicates if this group of VMs have emergent maintenance enabled. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.reservationSharingPolicy">reservation_sharing_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationReservationSharingPolicy">GoogleComputeReservationReservationSharingPolicy</a></code> | reservation_sharing_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.shareSettings">share_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationShareSettings">GoogleComputeReservationShareSettings</a></code> | share_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.specificReservationRequired">specific_reservation_required</a></code> | <code>bool \| cdktn.IResolvable</code> | When set to true, only VMs that target this reservation by name can consume this reservation. |
@@ -138,7 +136,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#name GoogleComputeReservation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#name GoogleComputeReservation#name}
 
 ---
 
@@ -148,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 specific_reservation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#specific_reservation GoogleComputeReservation#specific_reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#specific_reservation GoogleComputeReservation#specific_reservation}
 
 ---
 
@@ -158,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The zone where the reservation is made.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#zone GoogleComputeReservation#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#zone GoogleComputeReservation#zone}
 
 ---
 
@@ -168,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 delete_after_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#delete_after_duration GoogleComputeReservation#delete_after_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#delete_after_duration GoogleComputeReservation#delete_after_duration}
 
 ---
 
@@ -181,7 +179,7 @@ Absolute time in future when the reservation will be auto-deleted by Compute Eng
 Timestamp is represented in RFC3339 text format.
 Cannot be used with delete_after_duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#delete_at_time GoogleComputeReservation#delete_at_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#delete_at_time GoogleComputeReservation#delete_at_time}
 
 ---
 
@@ -191,7 +189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#description GoogleComputeReservation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#description GoogleComputeReservation#description}
 
 ---
 
@@ -201,18 +199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates if this group of VMs have emergent maintenance enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#enable_emergent_maintenance GoogleComputeReservation#enable_emergent_maintenance}
-
----
-
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.Initializer.parameter.id"></a>
-
-- *Type:* str
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}.
-
-Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#enable_emergent_maintenance GoogleComputeReservation#enable_emergent_maintenance}
 
 ---
 
@@ -220,7 +207,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}.
 
 ---
 
@@ -230,7 +217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 reservation_sharing_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#reservation_sharing_policy GoogleComputeReservation#reservation_sharing_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#reservation_sharing_policy GoogleComputeReservation#reservation_sharing_policy}
 
 ---
 
@@ -240,7 +227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 share_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#share_settings GoogleComputeReservation#share_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#share_settings GoogleComputeReservation#share_settings}
 
 ---
 
@@ -253,7 +240,7 @@ When set to true, only VMs that target this reservation by name can consume this
 Otherwise, it can be consumed by VMs with
 affinity for any reservation. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#specific_reservation_required GoogleComputeReservation#specific_reservation_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#specific_reservation_required GoogleComputeReservation#specific_reservation_required}
 
 ---
 
@@ -263,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#timeouts GoogleComputeReservation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#timeouts GoogleComputeReservation#timeouts}
 
 ---
 
@@ -304,7 +291,6 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetDeleteAtTime">reset_delete_at_time</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetEnableEmergentMaintenance">reset_enable_emergent_maintenance</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetReservationSharingPolicy">reset_reservation_sharing_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetShareSettings">reset_share_settings</a></code> | *No description.* |
@@ -676,7 +662,7 @@ def put_delete_after_duration(
 
 Number of nanoseconds for the auto-delete duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#nanos GoogleComputeReservation#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#nanos GoogleComputeReservation#nanos}
 
 ---
 
@@ -686,7 +672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of seconds for the auto-delete duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#seconds GoogleComputeReservation#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#seconds GoogleComputeReservation#seconds}
 
 ---
 
@@ -704,7 +690,7 @@ def put_reservation_sharing_policy(
 
 Sharing config for all Google Cloud services. Possible values: ["ALLOW_ALL", "DISALLOW_ALL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#service_share_type GoogleComputeReservation#service_share_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#service_share_type GoogleComputeReservation#service_share_type}
 
 ---
 
@@ -724,7 +710,7 @@ def put_share_settings(
 
 project_map block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#project_map GoogleComputeReservation#project_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#project_map GoogleComputeReservation#project_map}
 
 ---
 
@@ -734,7 +720,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of project IDs with which the reservation is shared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#projects GoogleComputeReservation#projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#projects GoogleComputeReservation#projects}
 
 ---
 
@@ -744,7 +730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Type of sharing for this shared-reservation Possible values: ["LOCAL", "SPECIFIC_PROJECTS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#share_type GoogleComputeReservation#share_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#share_type GoogleComputeReservation#share_type}
 
 ---
 
@@ -764,7 +750,7 @@ def put_specific_reservation(
 
 The number of resources that are allocated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#count GoogleComputeReservation#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#count GoogleComputeReservation#count}
 
 ---
 
@@ -774,7 +760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 instance_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#instance_properties GoogleComputeReservation#instance_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#instance_properties GoogleComputeReservation#instance_properties}
 
 ---
 
@@ -784,7 +770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the instance template to create the reservation. If you use this field, you must exclude the instanceProperties field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#source_instance_template GoogleComputeReservation#source_instance_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#source_instance_template GoogleComputeReservation#source_instance_template}
 
 ---
 
@@ -802,7 +788,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#create GoogleComputeReservation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#create GoogleComputeReservation#create}.
 
 ---
 
@@ -810,7 +796,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#delete GoogleComputeReservation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#delete GoogleComputeReservation#delete}.
 
 ---
 
@@ -818,7 +804,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#update GoogleComputeReservation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#update GoogleComputeReservation#update}.
 
 ---
 
@@ -844,12 +830,6 @@ def reset_description() -> None
 
 ```python
 def reset_enable_emergent_maintenance() -> None
-```
-
-##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetId"></a>
-
-```python
-def reset_id() -> None
 ```
 
 ##### `reset_project` <a name="reset_project" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.resetProject"></a>
@@ -996,7 +976,7 @@ The construct id used in the generated config for the GoogleComputeReservation t
 
 The id of the existing GoogleComputeReservation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1026,10 +1006,17 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.blockNames">block_names</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.commitment">commitment</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.creationTimestamp">creation_timestamp</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.deleteAfterDuration">delete_after_duration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationDeleteAfterDurationOutputReference">GoogleComputeReservationDeleteAfterDurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.kind">kind</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.linkedCommitments">linked_commitments</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.reservationBlockCount">reservation_block_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.reservationSharingPolicy">reservation_sharing_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationReservationSharingPolicyOutputReference">GoogleComputeReservationReservationSharingPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.resourceStatus">resource_status</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList">GoogleComputeReservationResourceStatusList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.satisfiesPzs">satisfies_pzs</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.selfLink">self_link</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.shareSettings">share_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationShareSettingsOutputReference">GoogleComputeReservationShareSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.specificReservation">specific_reservation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference">GoogleComputeReservationSpecificReservationOutputReference</a></code> | *No description.* |
@@ -1039,7 +1026,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.deleteAtTimeInput">delete_at_time_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.enableEmergentMaintenanceInput">enable_emergent_maintenance_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.reservationSharingPolicyInput">reservation_sharing_policy_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationReservationSharingPolicy">GoogleComputeReservationReservationSharingPolicy</a></code> | *No description.* |
@@ -1051,7 +1037,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.deleteAtTime">delete_at_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.enableEmergentMaintenance">enable_emergent_maintenance</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.project">project</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.specificReservationRequired">specific_reservation_required</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -1201,6 +1186,16 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
+##### `block_names`<sup>Required</sup> <a name="block_names" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.blockNames"></a>
+
+```python
+block_names: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `commitment`<sup>Required</sup> <a name="commitment" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.commitment"></a>
 
 ```python
@@ -1231,6 +1226,46 @@ delete_after_duration: GoogleComputeReservationDeleteAfterDurationOutputReferenc
 
 ---
 
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `kind`<sup>Required</sup> <a name="kind" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.kind"></a>
+
+```python
+kind: str
+```
+
+- *Type:* str
+
+---
+
+##### `linked_commitments`<sup>Required</sup> <a name="linked_commitments" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.linkedCommitments"></a>
+
+```python
+linked_commitments: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `reservation_block_count`<sup>Required</sup> <a name="reservation_block_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.reservationBlockCount"></a>
+
+```python
+reservation_block_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
 ##### `reservation_sharing_policy`<sup>Required</sup> <a name="reservation_sharing_policy" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.reservationSharingPolicy"></a>
 
 ```python
@@ -1238,6 +1273,26 @@ reservation_sharing_policy: GoogleComputeReservationReservationSharingPolicyOutp
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationReservationSharingPolicyOutputReference">GoogleComputeReservationReservationSharingPolicyOutputReference</a>
+
+---
+
+##### `resource_status`<sup>Required</sup> <a name="resource_status" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.resourceStatus"></a>
+
+```python
+resource_status: GoogleComputeReservationResourceStatusList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList">GoogleComputeReservationResourceStatusList</a>
+
+---
+
+##### `satisfies_pzs`<sup>Required</sup> <a name="satisfies_pzs" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.satisfiesPzs"></a>
+
+```python
+satisfies_pzs: IResolvable
+```
+
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -1328,16 +1383,6 @@ enable_emergent_maintenance_input: bool | IResolvable
 ```
 
 - *Type:* bool | cdktn.IResolvable
-
----
-
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.idInput"></a>
-
-```python
-id_input: str
-```
-
-- *Type:* str
 
 ---
 
@@ -1451,16 +1496,6 @@ enable_emergent_maintenance: bool | IResolvable
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.id"></a>
-
-```python
-id: str
-```
-
-- *Type:* str
-
----
-
 ##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservation.property.name"></a>
 
 ```python
@@ -1543,7 +1578,6 @@ googleComputeReservation.GoogleComputeReservationConfig(
   delete_at_time: str = None,
   description: str = None,
   enable_emergent_maintenance: bool | IResolvable = None,
-  id: str = None,
   project: str = None,
   reservation_sharing_policy: GoogleComputeReservationReservationSharingPolicy = None,
   share_settings: GoogleComputeReservationShareSettings = None,
@@ -1570,8 +1604,7 @@ googleComputeReservation.GoogleComputeReservationConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.deleteAtTime">delete_at_time</a></code> | <code>str</code> | Absolute time in future when the reservation will be auto-deleted by Compute Engine. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.description">description</a></code> | <code>str</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.enableEmergentMaintenance">enable_emergent_maintenance</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicates if this group of VMs have emergent maintenance enabled. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.reservationSharingPolicy">reservation_sharing_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationReservationSharingPolicy">GoogleComputeReservationReservationSharingPolicy</a></code> | reservation_sharing_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.shareSettings">share_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationShareSettings">GoogleComputeReservationShareSettings</a></code> | share_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.specificReservationRequired">specific_reservation_required</a></code> | <code>bool \| cdktn.IResolvable</code> | When set to true, only VMs that target this reservation by name can consume this reservation. |
@@ -1667,7 +1700,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#name GoogleComputeReservation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#name GoogleComputeReservation#name}
 
 ---
 
@@ -1681,7 +1714,7 @@ specific_reservation: GoogleComputeReservationSpecificReservation
 
 specific_reservation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#specific_reservation GoogleComputeReservation#specific_reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#specific_reservation GoogleComputeReservation#specific_reservation}
 
 ---
 
@@ -1695,7 +1728,7 @@ zone: str
 
 The zone where the reservation is made.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#zone GoogleComputeReservation#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#zone GoogleComputeReservation#zone}
 
 ---
 
@@ -1709,7 +1742,7 @@ delete_after_duration: GoogleComputeReservationDeleteAfterDuration
 
 delete_after_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#delete_after_duration GoogleComputeReservation#delete_after_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#delete_after_duration GoogleComputeReservation#delete_after_duration}
 
 ---
 
@@ -1726,7 +1759,7 @@ Absolute time in future when the reservation will be auto-deleted by Compute Eng
 Timestamp is represented in RFC3339 text format.
 Cannot be used with delete_after_duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#delete_at_time GoogleComputeReservation#delete_at_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#delete_at_time GoogleComputeReservation#delete_at_time}
 
 ---
 
@@ -1740,7 +1773,7 @@ description: str
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#description GoogleComputeReservation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#description GoogleComputeReservation#description}
 
 ---
 
@@ -1754,22 +1787,7 @@ enable_emergent_maintenance: bool | IResolvable
 
 Indicates if this group of VMs have emergent maintenance enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#enable_emergent_maintenance GoogleComputeReservation#enable_emergent_maintenance}
-
----
-
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationConfig.property.id"></a>
-
-```python
-id: str
-```
-
-- *Type:* str
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}.
-
-Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#enable_emergent_maintenance GoogleComputeReservation#enable_emergent_maintenance}
 
 ---
 
@@ -1781,7 +1799,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#project GoogleComputeReservation#project}.
 
 ---
 
@@ -1795,7 +1813,7 @@ reservation_sharing_policy: GoogleComputeReservationReservationSharingPolicy
 
 reservation_sharing_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#reservation_sharing_policy GoogleComputeReservation#reservation_sharing_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#reservation_sharing_policy GoogleComputeReservation#reservation_sharing_policy}
 
 ---
 
@@ -1809,7 +1827,7 @@ share_settings: GoogleComputeReservationShareSettings
 
 share_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#share_settings GoogleComputeReservation#share_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#share_settings GoogleComputeReservation#share_settings}
 
 ---
 
@@ -1826,7 +1844,7 @@ When set to true, only VMs that target this reservation by name can consume this
 Otherwise, it can be consumed by VMs with
 affinity for any reservation. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#specific_reservation_required GoogleComputeReservation#specific_reservation_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#specific_reservation_required GoogleComputeReservation#specific_reservation_required}
 
 ---
 
@@ -1840,7 +1858,7 @@ timeouts: GoogleComputeReservationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#timeouts GoogleComputeReservation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#timeouts GoogleComputeReservation#timeouts}
 
 ---
 
@@ -1876,7 +1894,7 @@ nanos: typing.Union[int, float]
 
 Number of nanoseconds for the auto-delete duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#nanos GoogleComputeReservation#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#nanos GoogleComputeReservation#nanos}
 
 ---
 
@@ -1890,7 +1908,7 @@ seconds: str
 
 Number of seconds for the auto-delete duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#seconds GoogleComputeReservation#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#seconds GoogleComputeReservation#seconds}
 
 ---
 
@@ -1924,9 +1942,64 @@ service_share_type: str
 
 Sharing config for all Google Cloud services. Possible values: ["ALLOW_ALL", "DISALLOW_ALL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#service_share_type GoogleComputeReservation#service_share_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#service_share_type GoogleComputeReservation#service_share_type}
 
 ---
+
+### GoogleComputeReservationResourceStatus <a name="GoogleComputeReservationResourceStatus" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatus"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatus.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatus()
+```
+
+
+### GoogleComputeReservationResourceStatusHealthInfo <a name="GoogleComputeReservationResourceStatusHealthInfo" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfo"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfo.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfo()
+```
+
+
+### GoogleComputeReservationResourceStatusReservationMaintenance <a name="GoogleComputeReservationResourceStatusReservationMaintenance" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenance"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenance.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenance()
+```
+
+
+### GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance <a name="GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance()
+```
+
+
+### GoogleComputeReservationResourceStatusSpecificSkuAllocation <a name="GoogleComputeReservationResourceStatusSpecificSkuAllocation" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocation"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocation.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocation()
+```
+
 
 ### GoogleComputeReservationShareSettings <a name="GoogleComputeReservationShareSettings" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationShareSettings"></a>
 
@@ -1962,7 +2035,7 @@ project_map: IResolvable | typing.List[GoogleComputeReservationShareSettingsProj
 
 project_map block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#project_map GoogleComputeReservation#project_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#project_map GoogleComputeReservation#project_map}
 
 ---
 
@@ -1976,7 +2049,7 @@ projects: typing.List[str]
 
 List of project IDs with which the reservation is shared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#projects GoogleComputeReservation#projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#projects GoogleComputeReservation#projects}
 
 ---
 
@@ -1990,7 +2063,7 @@ share_type: str
 
 Type of sharing for this shared-reservation Possible values: ["LOCAL", "SPECIFIC_PROJECTS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#share_type GoogleComputeReservation#share_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#share_type GoogleComputeReservation#share_type}
 
 ---
 
@@ -2011,7 +2084,7 @@ googleComputeReservation.GoogleComputeReservationShareSettingsProjectMap(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationShareSettingsProjectMap.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationShareSettingsProjectMap.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationShareSettingsProjectMap.property.projectId">project_id</a></code> | <code>str</code> | The project id/number, should be same as the key of this project config in the project map. |
 
 ---
@@ -2024,7 +2097,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#id GoogleComputeReservation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2041,7 +2114,7 @@ project_id: str
 
 The project id/number, should be same as the key of this project config in the project map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#project_id GoogleComputeReservation#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#project_id GoogleComputeReservation#project_id}
 
 ---
 
@@ -2079,7 +2152,7 @@ count: typing.Union[int, float]
 
 The number of resources that are allocated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#count GoogleComputeReservation#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#count GoogleComputeReservation#count}
 
 ---
 
@@ -2093,7 +2166,7 @@ instance_properties: GoogleComputeReservationSpecificReservationInstanceProperti
 
 instance_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#instance_properties GoogleComputeReservation#instance_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#instance_properties GoogleComputeReservation#instance_properties}
 
 ---
 
@@ -2107,7 +2180,7 @@ source_instance_template: str
 
 Specifies the instance template to create the reservation. If you use this field, you must exclude the instanceProperties field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#source_instance_template GoogleComputeReservation#source_instance_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#source_instance_template GoogleComputeReservation#source_instance_template}
 
 ---
 
@@ -2149,7 +2222,7 @@ machine_type: str
 
 The name of the machine type to reserve.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#machine_type GoogleComputeReservation#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#machine_type GoogleComputeReservation#machine_type}
 
 ---
 
@@ -2163,7 +2236,7 @@ guest_accelerators: IResolvable | typing.List[GoogleComputeReservationSpecificRe
 
 guest_accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#guest_accelerators GoogleComputeReservation#guest_accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#guest_accelerators GoogleComputeReservation#guest_accelerators}
 
 ---
 
@@ -2177,7 +2250,7 @@ local_ssds: IResolvable | typing.List[GoogleComputeReservationSpecificReservatio
 
 local_ssds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#local_ssds GoogleComputeReservation#local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#local_ssds GoogleComputeReservation#local_ssds}
 
 ---
 
@@ -2191,7 +2264,7 @@ maintenance_interval: str
 
 Specifies the frequency of planned maintenance events. Possible values: ["AS_NEEDED", "PERIODIC", "RECURRENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#maintenance_interval GoogleComputeReservation#maintenance_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#maintenance_interval GoogleComputeReservation#maintenance_interval}
 
 ---
 
@@ -2210,7 +2283,7 @@ For example,
 the CPU platform availability reference](https://cloud.google.com/compute/docs/instances/specify-min-cpu-platform#availablezones)
 for information on available CPU platforms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#min_cpu_platform GoogleComputeReservation#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#min_cpu_platform GoogleComputeReservation#min_cpu_platform}
 
 ---
 
@@ -2246,7 +2319,7 @@ accelerator_count: typing.Union[int, float]
 
 The number of the guest accelerator cards exposed to this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#accelerator_count GoogleComputeReservation#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#accelerator_count GoogleComputeReservation#accelerator_count}
 
 ---
 
@@ -2262,7 +2335,7 @@ The full or partial URL of the accelerator type to attach to this instance. For 
 
 If you are creating an instance template, specify only the accelerator name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#accelerator_type GoogleComputeReservation#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#accelerator_type GoogleComputeReservation#accelerator_type}
 
 ---
 
@@ -2298,7 +2371,7 @@ disk_size_gb: typing.Union[int, float]
 
 The size of the disk in base-2 GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#disk_size_gb GoogleComputeReservation#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#disk_size_gb GoogleComputeReservation#disk_size_gb}
 
 ---
 
@@ -2312,7 +2385,7 @@ interface: str
 
 The disk interface to use for attaching this disk. Default value: "SCSI" Possible values: ["SCSI", "NVME"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#interface GoogleComputeReservation#interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#interface GoogleComputeReservation#interface}
 
 ---
 
@@ -2334,9 +2407,9 @@ googleComputeReservation.GoogleComputeReservationTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#create GoogleComputeReservation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#delete GoogleComputeReservation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#update GoogleComputeReservation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#create GoogleComputeReservation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#delete GoogleComputeReservation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#update GoogleComputeReservation#update}. |
 
 ---
 
@@ -2348,7 +2421,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#create GoogleComputeReservation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#create GoogleComputeReservation#create}.
 
 ---
 
@@ -2360,7 +2433,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#delete GoogleComputeReservation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#delete GoogleComputeReservation#delete}.
 
 ---
 
@@ -2372,7 +2445,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#update GoogleComputeReservation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#update GoogleComputeReservation#update}.
 
 ---
 
@@ -3009,6 +3082,2546 @@ internal_value: GoogleComputeReservationReservationSharingPolicy
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationReservationSharingPolicy">GoogleComputeReservationReservationSharingPolicy</a>
+
+---
+
+
+### GoogleComputeReservationResourceStatusHealthInfoList <a name="GoogleComputeReservationResourceStatusHealthInfoList" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleComputeReservationResourceStatusHealthInfoOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleComputeReservationResourceStatusHealthInfoOutputReference <a name="GoogleComputeReservationResourceStatusHealthInfoOutputReference" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.degradedBlockCount">degraded_block_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.healthStatus">health_status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.healthyBlockCount">healthy_block_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfo">GoogleComputeReservationResourceStatusHealthInfo</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `degraded_block_count`<sup>Required</sup> <a name="degraded_block_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.degradedBlockCount"></a>
+
+```python
+degraded_block_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `health_status`<sup>Required</sup> <a name="health_status" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.healthStatus"></a>
+
+```python
+health_status: str
+```
+
+- *Type:* str
+
+---
+
+##### `healthy_block_count`<sup>Required</sup> <a name="healthy_block_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.healthyBlockCount"></a>
+
+```python
+healthy_block_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleComputeReservationResourceStatusHealthInfo
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfo">GoogleComputeReservationResourceStatusHealthInfo</a>
+
+---
+
+
+### GoogleComputeReservationResourceStatusList <a name="GoogleComputeReservationResourceStatusList" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleComputeReservationResourceStatusOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleComputeReservationResourceStatusOutputReference <a name="GoogleComputeReservationResourceStatusOutputReference" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.healthInfo">health_info</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList">GoogleComputeReservationResourceStatusHealthInfoList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.reservationBlockCount">reservation_block_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.reservationMaintenance">reservation_maintenance</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList">GoogleComputeReservationResourceStatusReservationMaintenanceList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.specificSkuAllocation">specific_sku_allocation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList">GoogleComputeReservationResourceStatusSpecificSkuAllocationList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatus">GoogleComputeReservationResourceStatus</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `health_info`<sup>Required</sup> <a name="health_info" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.healthInfo"></a>
+
+```python
+health_info: GoogleComputeReservationResourceStatusHealthInfoList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusHealthInfoList">GoogleComputeReservationResourceStatusHealthInfoList</a>
+
+---
+
+##### `reservation_block_count`<sup>Required</sup> <a name="reservation_block_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.reservationBlockCount"></a>
+
+```python
+reservation_block_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `reservation_maintenance`<sup>Required</sup> <a name="reservation_maintenance" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.reservationMaintenance"></a>
+
+```python
+reservation_maintenance: GoogleComputeReservationResourceStatusReservationMaintenanceList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList">GoogleComputeReservationResourceStatusReservationMaintenanceList</a>
+
+---
+
+##### `specific_sku_allocation`<sup>Required</sup> <a name="specific_sku_allocation" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.specificSkuAllocation"></a>
+
+```python
+specific_sku_allocation: GoogleComputeReservationResourceStatusSpecificSkuAllocationList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList">GoogleComputeReservationResourceStatusSpecificSkuAllocationList</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleComputeReservationResourceStatus
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatus">GoogleComputeReservationResourceStatus</a>
+
+---
+
+
+### GoogleComputeReservationResourceStatusReservationMaintenanceList <a name="GoogleComputeReservationResourceStatusReservationMaintenanceList" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference <a name="GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.instanceMaintenanceOngoingCount">instance_maintenance_ongoing_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.instanceMaintenancePendingCount">instance_maintenance_pending_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.maintenanceOngoingCount">maintenance_ongoing_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.maintenancePendingCount">maintenance_pending_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.schedulingType">scheduling_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.subblockInfraMaintenanceOngoingCount">subblock_infra_maintenance_ongoing_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.subblockInfraMaintenancePendingCount">subblock_infra_maintenance_pending_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.upcomingGroupMaintenance">upcoming_group_maintenance</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList">GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenance">GoogleComputeReservationResourceStatusReservationMaintenance</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `instance_maintenance_ongoing_count`<sup>Required</sup> <a name="instance_maintenance_ongoing_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.instanceMaintenanceOngoingCount"></a>
+
+```python
+instance_maintenance_ongoing_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `instance_maintenance_pending_count`<sup>Required</sup> <a name="instance_maintenance_pending_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.instanceMaintenancePendingCount"></a>
+
+```python
+instance_maintenance_pending_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `maintenance_ongoing_count`<sup>Required</sup> <a name="maintenance_ongoing_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.maintenanceOngoingCount"></a>
+
+```python
+maintenance_ongoing_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `maintenance_pending_count`<sup>Required</sup> <a name="maintenance_pending_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.maintenancePendingCount"></a>
+
+```python
+maintenance_pending_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `scheduling_type`<sup>Required</sup> <a name="scheduling_type" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.schedulingType"></a>
+
+```python
+scheduling_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `subblock_infra_maintenance_ongoing_count`<sup>Required</sup> <a name="subblock_infra_maintenance_ongoing_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.subblockInfraMaintenanceOngoingCount"></a>
+
+```python
+subblock_infra_maintenance_ongoing_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `subblock_infra_maintenance_pending_count`<sup>Required</sup> <a name="subblock_infra_maintenance_pending_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.subblockInfraMaintenancePendingCount"></a>
+
+```python
+subblock_infra_maintenance_pending_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `upcoming_group_maintenance`<sup>Required</sup> <a name="upcoming_group_maintenance" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.upcomingGroupMaintenance"></a>
+
+```python
+upcoming_group_maintenance: GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList">GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleComputeReservationResourceStatusReservationMaintenance
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenance">GoogleComputeReservationResourceStatusReservationMaintenance</a>
+
+---
+
+
+### GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList <a name="GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference <a name="GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.canReschedule">can_reschedule</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.latestWindowStartTime">latest_window_start_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.maintenanceOnShutdown">maintenance_on_shutdown</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.maintenanceReasons">maintenance_reasons</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.maintenanceStatus">maintenance_status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.windowEndTime">window_end_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.windowStartTime">window_start_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance">GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `can_reschedule`<sup>Required</sup> <a name="can_reschedule" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.canReschedule"></a>
+
+```python
+can_reschedule: IResolvable
+```
+
+- *Type:* cdktn.IResolvable
+
+---
+
+##### `latest_window_start_time`<sup>Required</sup> <a name="latest_window_start_time" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.latestWindowStartTime"></a>
+
+```python
+latest_window_start_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `maintenance_on_shutdown`<sup>Required</sup> <a name="maintenance_on_shutdown" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.maintenanceOnShutdown"></a>
+
+```python
+maintenance_on_shutdown: IResolvable
+```
+
+- *Type:* cdktn.IResolvable
+
+---
+
+##### `maintenance_reasons`<sup>Required</sup> <a name="maintenance_reasons" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.maintenanceReasons"></a>
+
+```python
+maintenance_reasons: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `maintenance_status`<sup>Required</sup> <a name="maintenance_status" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.maintenanceStatus"></a>
+
+```python
+maintenance_status: str
+```
+
+- *Type:* str
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+---
+
+##### `window_end_time`<sup>Required</sup> <a name="window_end_time" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.windowEndTime"></a>
+
+```python
+window_end_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `window_start_time`<sup>Required</sup> <a name="window_start_time" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.windowStartTime"></a>
+
+```python
+window_start_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance">GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance</a>
+
+---
+
+
+### GoogleComputeReservationResourceStatusSpecificSkuAllocationList <a name="GoogleComputeReservationResourceStatusSpecificSkuAllocationList" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference <a name="GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_compute_reservation
+
+googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.sourceInstanceTemplateId">source_instance_template_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.utilizations">utilizations</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocation">GoogleComputeReservationResourceStatusSpecificSkuAllocation</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_instance_template_id`<sup>Required</sup> <a name="source_instance_template_id" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.sourceInstanceTemplateId"></a>
+
+```python
+source_instance_template_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `utilizations`<sup>Required</sup> <a name="utilizations" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.utilizations"></a>
+
+```python
+utilizations: StringMap
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleComputeReservationResourceStatusSpecificSkuAllocation
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationResourceStatusSpecificSkuAllocation">GoogleComputeReservationResourceStatusSpecificSkuAllocation</a>
 
 ---
 
@@ -5222,6 +7835,7 @@ def reset_min_cpu_platform() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.guestAccelerators">guest_accelerators</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesGuestAcceleratorsList">GoogleComputeReservationSpecificReservationInstancePropertiesGuestAcceleratorsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.localSsds">local_ssds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesLocalSsdsList">GoogleComputeReservationSpecificReservationInstancePropertiesLocalSsdsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.locationHint">location_hint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.guestAcceleratorsInput">guest_accelerators_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesGuestAccelerators">GoogleComputeReservationSpecificReservationInstancePropertiesGuestAccelerators</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.localSsdsInput">local_ssds_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesLocalSsds">GoogleComputeReservationSpecificReservationInstancePropertiesLocalSsds</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.machineTypeInput">machine_type_input</a></code> | <code>str</code> | *No description.* |
@@ -5275,6 +7889,16 @@ local_ssds: GoogleComputeReservationSpecificReservationInstancePropertiesLocalSs
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesLocalSsdsList">GoogleComputeReservationSpecificReservationInstancePropertiesLocalSsdsList</a>
+
+---
+
+##### `location_hint`<sup>Required</sup> <a name="location_hint" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference.property.locationHint"></a>
+
+```python
+location_hint: str
+```
+
+- *Type:* str
 
 ---
 
@@ -5618,7 +8242,7 @@ def put_instance_properties(
 
 The name of the machine type to reserve.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#machine_type GoogleComputeReservation#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#machine_type GoogleComputeReservation#machine_type}
 
 ---
 
@@ -5628,7 +8252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 guest_accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#guest_accelerators GoogleComputeReservation#guest_accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#guest_accelerators GoogleComputeReservation#guest_accelerators}
 
 ---
 
@@ -5638,7 +8262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 local_ssds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#local_ssds GoogleComputeReservation#local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#local_ssds GoogleComputeReservation#local_ssds}
 
 ---
 
@@ -5648,7 +8272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the frequency of planned maintenance events. Possible values: ["AS_NEEDED", "PERIODIC", "RECURRENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#maintenance_interval GoogleComputeReservation#maintenance_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#maintenance_interval GoogleComputeReservation#maintenance_interval}
 
 ---
 
@@ -5663,7 +8287,7 @@ For example,
 the CPU platform availability reference](https://cloud.google.com/compute/docs/instances/specify-min-cpu-platform#availablezones)
 for information on available CPU platforms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation#min_cpu_platform GoogleComputeReservation#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation#min_cpu_platform GoogleComputeReservation#min_cpu_platform}
 
 ---
 
@@ -5686,6 +8310,7 @@ def reset_source_instance_template() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference.property.assuredCount">assured_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference.property.instanceProperties">instance_properties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference">GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference.property.inUseCount">in_use_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference.property.countInput">count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -5718,6 +8343,16 @@ fqn: str
 ```
 
 - *Type:* str
+
+---
+
+##### `assured_count`<sup>Required</sup> <a name="assured_count" id="@cdktn/provider-google-beta.googleComputeReservation.GoogleComputeReservationSpecificReservationOutputReference.property.assuredCount"></a>
+
+```python
+assured_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
 
 ---
 

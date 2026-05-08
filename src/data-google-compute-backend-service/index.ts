@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,7 +13,7 @@ import * as cdktn from 'cdktn';
 
 export interface DataGoogleComputeBackendServiceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#id DataGoogleComputeBackendService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#id DataGoogleComputeBackendService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,11 +28,11 @@ export interface DataGoogleComputeBackendServiceConfig extends cdktn.TerraformMe
   * characters must be a dash, lowercase letter, or digit, except the last
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#name DataGoogleComputeBackendService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#name DataGoogleComputeBackendService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#project DataGoogleComputeBackendService#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#project DataGoogleComputeBackendService#project}
   */
   readonly project?: string;
 }
@@ -213,6 +213,21 @@ export class DataGoogleComputeBackendServiceBackendOutputReference extends cdktn
     return this.getNumberAttribute('max_connections_per_instance');
   }
 
+  // max_in_flight_requests - computed: true, optional: false, required: false
+  public get maxInFlightRequests() {
+    return this.getNumberAttribute('max_in_flight_requests');
+  }
+
+  // max_in_flight_requests_per_endpoint - computed: true, optional: false, required: false
+  public get maxInFlightRequestsPerEndpoint() {
+    return this.getNumberAttribute('max_in_flight_requests_per_endpoint');
+  }
+
+  // max_in_flight_requests_per_instance - computed: true, optional: false, required: false
+  public get maxInFlightRequestsPerInstance() {
+    return this.getNumberAttribute('max_in_flight_requests_per_instance');
+  }
+
   // max_rate - computed: true, optional: false, required: false
   public get maxRate() {
     return this.getNumberAttribute('max_rate');
@@ -236,6 +251,11 @@ export class DataGoogleComputeBackendServiceBackendOutputReference extends cdktn
   // preference - computed: true, optional: false, required: false
   public get preference() {
     return this.getStringAttribute('preference');
+  }
+
+  // traffic_duration - computed: true, optional: false, required: false
+  public get trafficDuration() {
+    return this.getStringAttribute('traffic_duration');
   }
 }
 
@@ -2249,6 +2269,82 @@ export class DataGoogleComputeBackendServiceOutlierDetectionList extends cdktn.C
     return new DataGoogleComputeBackendServiceOutlierDetectionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataGoogleComputeBackendServiceParams {
+}
+
+export function dataGoogleComputeBackendServiceParamsToTerraform(struct?: DataGoogleComputeBackendServiceParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataGoogleComputeBackendServiceParamsToHclTerraform(struct?: DataGoogleComputeBackendServiceParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataGoogleComputeBackendServiceParamsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataGoogleComputeBackendServiceParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataGoogleComputeBackendServiceParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // resource_manager_tags - computed: true, optional: false, required: false
+  private _resourceManagerTags = new cdktn.StringMap(this, "resource_manager_tags");
+  public get resourceManagerTags() {
+    return this._resourceManagerTags;
+  }
+}
+
+export class DataGoogleComputeBackendServiceParamsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataGoogleComputeBackendServiceParamsOutputReference {
+    return new DataGoogleComputeBackendServiceParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataGoogleComputeBackendServiceSecuritySettingsAwsV4Authentication {
 }
 
@@ -2759,7 +2855,7 @@ export class DataGoogleComputeBackendServiceTlsSettingsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service google_compute_backend_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service google_compute_backend_service}
 */
 export class DataGoogleComputeBackendService extends cdktn.TerraformDataSource {
 
@@ -2775,7 +2871,7 @@ export class DataGoogleComputeBackendService extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataGoogleComputeBackendService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleComputeBackendService to import
-  * @param importFromId The id of the existing DataGoogleComputeBackendService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGoogleComputeBackendService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleComputeBackendService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2787,7 +2883,7 @@ export class DataGoogleComputeBackendService extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service google_compute_backend_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service google_compute_backend_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2798,8 +2894,8 @@ export class DataGoogleComputeBackendService extends cdktn.TerraformDataSource {
       terraformResourceType: 'google_compute_backend_service',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3002,6 +3098,12 @@ export class DataGoogleComputeBackendService extends cdktn.TerraformDataSource {
   private _outlierDetection = new DataGoogleComputeBackendServiceOutlierDetectionList(this, "outlier_detection", false);
   public get outlierDetection() {
     return this._outlierDetection;
+  }
+
+  // params - computed: true, optional: false, required: false
+  private _params = new DataGoogleComputeBackendServiceParamsList(this, "params", false);
+  public get params() {
+    return this._params;
   }
 
   // port_name - computed: true, optional: false, required: false

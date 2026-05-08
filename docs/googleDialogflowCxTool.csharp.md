@@ -4,7 +4,7 @@
 
 ### GoogleDialogflowCxTool <a name="GoogleDialogflowCxTool" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.Initializer"></a>
 
@@ -74,10 +74,12 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putConnectorSpec">PutConnectorSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putDataStoreSpec">PutDataStoreSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putFunctionSpec">PutFunctionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putOpenApiSpec">PutOpenApiSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.resetConnectorSpec">ResetConnectorSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.resetDataStoreSpec">ResetDataStoreSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.resetFunctionSpec">ResetFunctionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.resetId">ResetId</a></code> | *No description.* |
@@ -396,6 +398,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `PutConnectorSpec` <a name="PutConnectorSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putConnectorSpec"></a>
+
+```csharp
+private void PutConnectorSpec(GoogleDialogflowCxToolConnectorSpec Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putConnectorSpec.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec">GoogleDialogflowCxToolConnectorSpec</a>
+
+---
+
 ##### `PutDataStoreSpec` <a name="PutDataStoreSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.putDataStoreSpec"></a>
 
 ```csharp
@@ -443,6 +457,12 @@ private void PutTimeouts(GoogleDialogflowCxToolTimeouts Value)
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts">GoogleDialogflowCxToolTimeouts</a>
 
 ---
+
+##### `ResetConnectorSpec` <a name="ResetConnectorSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.resetConnectorSpec"></a>
+
+```csharp
+private void ResetConnectorSpec()
+```
 
 ##### `ResetDataStoreSpec` <a name="ResetDataStoreSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.resetDataStoreSpec"></a>
 
@@ -583,7 +603,7 @@ The construct id used in the generated config for the GoogleDialogflowCxTool to 
 
 The id of the existing GoogleDialogflowCxTool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -613,12 +633,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.connectorSpec">ConnectorSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference">GoogleDialogflowCxToolConnectorSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.dataStoreSpec">DataStoreSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolDataStoreSpecOutputReference">GoogleDialogflowCxToolDataStoreSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.functionSpec">FunctionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolFunctionSpecOutputReference">GoogleDialogflowCxToolFunctionSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.openApiSpec">OpenApiSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolOpenApiSpecOutputReference">GoogleDialogflowCxToolOpenApiSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeoutsOutputReference">GoogleDialogflowCxToolTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.toolType">ToolType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.connectorSpecInput">ConnectorSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec">GoogleDialogflowCxToolConnectorSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.dataStoreSpecInput">DataStoreSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolDataStoreSpec">GoogleDialogflowCxToolDataStoreSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.displayNameInput">DisplayNameInput</a></code> | <code>string</code> | *No description.* |
@@ -776,6 +798,16 @@ public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisione
 
 ---
 
+##### `ConnectorSpec`<sup>Required</sup> <a name="ConnectorSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.connectorSpec"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecOutputReference ConnectorSpec { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference">GoogleDialogflowCxToolConnectorSpecOutputReference</a>
+
+---
+
 ##### `DataStoreSpec`<sup>Required</sup> <a name="DataStoreSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.dataStoreSpec"></a>
 
 ```csharp
@@ -833,6 +865,16 @@ public string ToolType { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `ConnectorSpecInput`<sup>Optional</sup> <a name="ConnectorSpecInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxTool.property.connectorSpecInput"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpec ConnectorSpecInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec">GoogleDialogflowCxToolConnectorSpec</a>
 
 ---
 
@@ -993,6 +1035,7 @@ new GoogleDialogflowCxToolConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string Description,
     string DisplayName,
+    GoogleDialogflowCxToolConnectorSpec ConnectorSpec = null,
     GoogleDialogflowCxToolDataStoreSpec DataStoreSpec = null,
     GoogleDialogflowCxToolFunctionSpec FunctionSpec = null,
     string Id = null,
@@ -1015,9 +1058,10 @@ new GoogleDialogflowCxToolConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.description">Description</a></code> | <code>string</code> | High level description of the Tool and its usage. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.displayName">DisplayName</a></code> | <code>string</code> | The human-readable name of the tool, unique within the agent. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.connectorSpec">ConnectorSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec">GoogleDialogflowCxToolConnectorSpec</a></code> | connector_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.dataStoreSpec">DataStoreSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolDataStoreSpec">GoogleDialogflowCxToolDataStoreSpec</a></code> | data_store_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.functionSpec">FunctionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolFunctionSpec">GoogleDialogflowCxToolFunctionSpec</a></code> | function_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#id GoogleDialogflowCxTool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#id GoogleDialogflowCxTool#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.openApiSpec">OpenApiSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolOpenApiSpec">GoogleDialogflowCxToolOpenApiSpec</a></code> | open_api_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.parent">Parent</a></code> | <code>string</code> | The agent to create a Tool for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts">GoogleDialogflowCxToolTimeouts</a></code> | timeouts block. |
@@ -1104,7 +1148,7 @@ public string Description { get; set; }
 
 High level description of the Tool and its usage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#description GoogleDialogflowCxTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#description GoogleDialogflowCxTool#description}
 
 ---
 
@@ -1118,7 +1162,21 @@ public string DisplayName { get; set; }
 
 The human-readable name of the tool, unique within the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
+
+---
+
+##### `ConnectorSpec`<sup>Optional</sup> <a name="ConnectorSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConfig.property.connectorSpec"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpec ConnectorSpec { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec">GoogleDialogflowCxToolConnectorSpec</a>
+
+connector_spec block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#connector_spec GoogleDialogflowCxTool#connector_spec}
 
 ---
 
@@ -1132,7 +1190,7 @@ public GoogleDialogflowCxToolDataStoreSpec DataStoreSpec { get; set; }
 
 data_store_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store_spec GoogleDialogflowCxTool#data_store_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store_spec GoogleDialogflowCxTool#data_store_spec}
 
 ---
 
@@ -1146,7 +1204,7 @@ public GoogleDialogflowCxToolFunctionSpec FunctionSpec { get; set; }
 
 function_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#function_spec GoogleDialogflowCxTool#function_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#function_spec GoogleDialogflowCxTool#function_spec}
 
 ---
 
@@ -1158,7 +1216,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#id GoogleDialogflowCxTool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#id GoogleDialogflowCxTool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1175,7 +1233,7 @@ public GoogleDialogflowCxToolOpenApiSpec OpenApiSpec { get; set; }
 
 open_api_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#open_api_spec GoogleDialogflowCxTool#open_api_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#open_api_spec GoogleDialogflowCxTool#open_api_spec}
 
 ---
 
@@ -1189,7 +1247,7 @@ public string Parent { get; set; }
 
 The agent to create a Tool for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#parent GoogleDialogflowCxTool#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#parent GoogleDialogflowCxTool#parent}
 
 ---
 
@@ -1203,7 +1261,361 @@ public GoogleDialogflowCxToolTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#timeouts GoogleDialogflowCxTool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#timeouts GoogleDialogflowCxTool#timeouts}
+
+---
+
+### GoogleDialogflowCxToolConnectorSpec <a name="GoogleDialogflowCxToolConnectorSpec" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpec {
+    IResolvable|GoogleDialogflowCxToolConnectorSpecActions[] Actions,
+    string Name,
+    GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig EndUserAuthConfig = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec.property.actions">Actions</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>[]</code> | actions block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec.property.name">Name</a></code> | <code>string</code> | The full resource name of the referenced Integration Connectors Connection. Format: projects/* /locations/* /connections/*. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec.property.endUserAuthConfig">EndUserAuthConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig</a></code> | end_user_auth_config block. |
+
+---
+
+##### `Actions`<sup>Required</sup> <a name="Actions" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec.property.actions"></a>
+
+```csharp
+public IResolvable|GoogleDialogflowCxToolConnectorSpecActions[] Actions { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>[]
+
+actions block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#actions GoogleDialogflowCxTool#actions}
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec.property.name"></a>
+
+```csharp
+public string Name { get; set; }
+```
+
+- *Type:* string
+
+The full resource name of the referenced Integration Connectors Connection. Format: projects/* /locations/* /connections/*.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#name GoogleDialogflowCxTool#name}
+
+Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
+
+---
+
+##### `EndUserAuthConfig`<sup>Optional</sup> <a name="EndUserAuthConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec.property.endUserAuthConfig"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig EndUserAuthConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig</a>
+
+end_user_auth_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#end_user_auth_config GoogleDialogflowCxTool#end_user_auth_config}
+
+---
+
+### GoogleDialogflowCxToolConnectorSpecActions <a name="GoogleDialogflowCxToolConnectorSpecActions" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecActions {
+    string ConnectionActionId = null,
+    GoogleDialogflowCxToolConnectorSpecActionsEntityOperation EntityOperation = null,
+    string[] InputFields = null,
+    string[] OutputFields = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.connectionActionId">ConnectionActionId</a></code> | <code>string</code> | ID of a Connection action for the tool to use. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.entityOperation">EntityOperation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation">GoogleDialogflowCxToolConnectorSpecActionsEntityOperation</a></code> | entity_operation block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.inputFields">InputFields</a></code> | <code>string[]</code> | Entity fields to use as inputs for the operation. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.outputFields">OutputFields</a></code> | <code>string[]</code> | Entity fields to return from the operation. If no fields are specified, all fields of the Entity will be returned. |
+
+---
+
+##### `ConnectionActionId`<sup>Optional</sup> <a name="ConnectionActionId" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.connectionActionId"></a>
+
+```csharp
+public string ConnectionActionId { get; set; }
+```
+
+- *Type:* string
+
+ID of a Connection action for the tool to use.
+
+This field is part of a required union field 'action_spec'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#connection_action_id GoogleDialogflowCxTool#connection_action_id}
+
+---
+
+##### `EntityOperation`<sup>Optional</sup> <a name="EntityOperation" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.entityOperation"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecActionsEntityOperation EntityOperation { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation">GoogleDialogflowCxToolConnectorSpecActionsEntityOperation</a>
+
+entity_operation block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#entity_operation GoogleDialogflowCxTool#entity_operation}
+
+---
+
+##### `InputFields`<sup>Optional</sup> <a name="InputFields" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.inputFields"></a>
+
+```csharp
+public string[] InputFields { get; set; }
+```
+
+- *Type:* string[]
+
+Entity fields to use as inputs for the operation.
+
+If no fields are specified, all fields of the Entity will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#input_fields GoogleDialogflowCxTool#input_fields}
+
+---
+
+##### `OutputFields`<sup>Optional</sup> <a name="OutputFields" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions.property.outputFields"></a>
+
+```csharp
+public string[] OutputFields { get; set; }
+```
+
+- *Type:* string[]
+
+Entity fields to return from the operation. If no fields are specified, all fields of the Entity will be returned.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#output_fields GoogleDialogflowCxTool#output_fields}
+
+---
+
+### GoogleDialogflowCxToolConnectorSpecActionsEntityOperation <a name="GoogleDialogflowCxToolConnectorSpecActionsEntityOperation" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecActionsEntityOperation {
+    string EntityId,
+    string Operation
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation.property.entityId">EntityId</a></code> | <code>string</code> | ID of the entity. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation.property.operation">Operation</a></code> | <code>string</code> | The operation to perform on the entity. Possible values: ["LIST", "CREATE", "UPDATE", "DELETE", "GET"]. |
+
+---
+
+##### `EntityId`<sup>Required</sup> <a name="EntityId" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation.property.entityId"></a>
+
+```csharp
+public string EntityId { get; set; }
+```
+
+- *Type:* string
+
+ID of the entity.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#entity_id GoogleDialogflowCxTool#entity_id}
+
+---
+
+##### `Operation`<sup>Required</sup> <a name="Operation" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation.property.operation"></a>
+
+```csharp
+public string Operation { get; set; }
+```
+
+- *Type:* string
+
+The operation to perform on the entity. Possible values: ["LIST", "CREATE", "UPDATE", "DELETE", "GET"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#operation GoogleDialogflowCxTool#operation}
+
+---
+
+### GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig <a name="GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig {
+    GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig Oauth2AuthCodeConfig = null,
+    GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig Oauth2JwtBearerConfig = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig.property.oauth2AuthCodeConfig">Oauth2AuthCodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig</a></code> | oauth2_auth_code_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig.property.oauth2JwtBearerConfig">Oauth2JwtBearerConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig</a></code> | oauth2_jwt_bearer_config block. |
+
+---
+
+##### `Oauth2AuthCodeConfig`<sup>Optional</sup> <a name="Oauth2AuthCodeConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig.property.oauth2AuthCodeConfig"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig Oauth2AuthCodeConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig</a>
+
+oauth2_auth_code_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth2_auth_code_config GoogleDialogflowCxTool#oauth2_auth_code_config}
+
+---
+
+##### `Oauth2JwtBearerConfig`<sup>Optional</sup> <a name="Oauth2JwtBearerConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig.property.oauth2JwtBearerConfig"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig Oauth2JwtBearerConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig</a>
+
+oauth2_jwt_bearer_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth2_jwt_bearer_config GoogleDialogflowCxTool#oauth2_jwt_bearer_config}
+
+---
+
+### GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig <a name="GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig {
+    string OauthToken
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig.property.oauthToken">OauthToken</a></code> | <code>string</code> | Oauth token value or parameter name to pass it through. |
+
+---
+
+##### `OauthToken`<sup>Required</sup> <a name="OauthToken" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig.property.oauthToken"></a>
+
+```csharp
+public string OauthToken { get; set; }
+```
+
+- *Type:* string
+
+Oauth token value or parameter name to pass it through.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth_token GoogleDialogflowCxTool#oauth_token}
+
+---
+
+### GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig <a name="GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig {
+    string ClientKey,
+    string Issuer,
+    string Subject
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.property.clientKey">ClientKey</a></code> | <code>string</code> | Client key value or parameter name to pass it through. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.property.issuer">Issuer</a></code> | <code>string</code> | Issuer value or parameter name to pass it through. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.property.subject">Subject</a></code> | <code>string</code> | Subject value or parameter name to pass it through. |
+
+---
+
+##### `ClientKey`<sup>Required</sup> <a name="ClientKey" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.property.clientKey"></a>
+
+```csharp
+public string ClientKey { get; set; }
+```
+
+- *Type:* string
+
+Client key value or parameter name to pass it through.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#client_key GoogleDialogflowCxTool#client_key}
+
+---
+
+##### `Issuer`<sup>Required</sup> <a name="Issuer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.property.issuer"></a>
+
+```csharp
+public string Issuer { get; set; }
+```
+
+- *Type:* string
+
+Issuer value or parameter name to pass it through.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#issuer GoogleDialogflowCxTool#issuer}
+
+---
+
+##### `Subject`<sup>Required</sup> <a name="Subject" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.property.subject"></a>
+
+```csharp
+public string Subject { get; set; }
+```
+
+- *Type:* string
+
+Subject value or parameter name to pass it through.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#subject GoogleDialogflowCxTool#subject}
 
 ---
 
@@ -1239,7 +1651,7 @@ public IResolvable|GoogleDialogflowCxToolDataStoreSpecDataStoreConnections[] Dat
 
 data_store_connections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store_connections GoogleDialogflowCxTool#data_store_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store_connections GoogleDialogflowCxTool#data_store_connections}
 
 ---
 
@@ -1253,7 +1665,7 @@ public GoogleDialogflowCxToolDataStoreSpecFallbackPrompt FallbackPrompt { get; s
 
 fallback_prompt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#fallback_prompt GoogleDialogflowCxTool#fallback_prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#fallback_prompt GoogleDialogflowCxTool#fallback_prompt}
 
 ---
 
@@ -1291,7 +1703,7 @@ public string DataStore { get; set; }
 
 The full name of the referenced data store. Formats: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore} projects/{project}/locations/{location}/dataStores/{dataStore}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store GoogleDialogflowCxTool#data_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store GoogleDialogflowCxTool#data_store}
 
 ---
 
@@ -1305,7 +1717,7 @@ public string DataStoreType { get; set; }
 
 The type of the connected data store. See [DataStoreType](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/DataStoreConnection#datastoretype) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store_type GoogleDialogflowCxTool#data_store_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store_type GoogleDialogflowCxTool#data_store_type}
 
 ---
 
@@ -1322,7 +1734,7 @@ The document processing mode for the data store connection.
 Should only be set for PUBLIC_WEB and UNSTRUCTURED data stores. If not set it is considered as DOCUMENTS, as this is the legacy mode.
 See [DocumentProcessingMode](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/DataStoreConnection#documentprocessingmode) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#document_processing_mode GoogleDialogflowCxTool#document_processing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#document_processing_mode GoogleDialogflowCxTool#document_processing_mode}
 
 ---
 
@@ -1374,7 +1786,7 @@ Optional.
 The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the input of the function.
 This input is a JSON object that contains the function's parameters as properties of the object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#input_schema GoogleDialogflowCxTool#input_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#input_schema GoogleDialogflowCxTool#input_schema}
 
 ---
 
@@ -1391,7 +1803,7 @@ Optional.
 The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the output of the function.
 This output is a JSON object that contains the function's parameters as properties of the object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#output_schema GoogleDialogflowCxTool#output_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#output_schema GoogleDialogflowCxTool#output_schema}
 
 ---
 
@@ -1433,7 +1845,7 @@ The OpenAPI schema specified as a text.
 
 This field is part of a union field 'schema': only one of 'textSchema' may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#text_schema GoogleDialogflowCxTool#text_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#text_schema GoogleDialogflowCxTool#text_schema}
 
 ---
 
@@ -1447,7 +1859,7 @@ public GoogleDialogflowCxToolOpenApiSpecAuthentication Authentication { get; set
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#authentication GoogleDialogflowCxTool#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#authentication GoogleDialogflowCxTool#authentication}
 
 ---
 
@@ -1461,7 +1873,7 @@ public GoogleDialogflowCxToolOpenApiSpecServiceDirectoryConfig ServiceDirectoryC
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service_directory_config GoogleDialogflowCxTool#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service_directory_config GoogleDialogflowCxTool#service_directory_config}
 
 ---
 
@@ -1475,7 +1887,7 @@ public GoogleDialogflowCxToolOpenApiSpecTlsConfig TlsConfig { get; set; }
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#tls_config GoogleDialogflowCxTool#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#tls_config GoogleDialogflowCxTool#tls_config}
 
 ---
 
@@ -1515,7 +1927,7 @@ public GoogleDialogflowCxToolOpenApiSpecAuthenticationApiKeyConfig ApiKeyConfig 
 
 api_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#api_key_config GoogleDialogflowCxTool#api_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#api_key_config GoogleDialogflowCxTool#api_key_config}
 
 ---
 
@@ -1529,7 +1941,7 @@ public GoogleDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfig BearerTo
 
 bearer_token_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#bearer_token_config GoogleDialogflowCxTool#bearer_token_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#bearer_token_config GoogleDialogflowCxTool#bearer_token_config}
 
 ---
 
@@ -1543,7 +1955,7 @@ public GoogleDialogflowCxToolOpenApiSpecAuthenticationOauthConfig OauthConfig { 
 
 oauth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#oauth_config GoogleDialogflowCxTool#oauth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth_config GoogleDialogflowCxTool#oauth_config}
 
 ---
 
@@ -1557,7 +1969,7 @@ public GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfig Ser
 
 service_agent_auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth_config GoogleDialogflowCxTool#service_agent_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth_config GoogleDialogflowCxTool#service_agent_auth_config}
 
 ---
 
@@ -1599,7 +2011,7 @@ The parameter name or the header name of the API key.
 
 E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#key_name GoogleDialogflowCxTool#key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#key_name GoogleDialogflowCxTool#key_name}
 
 ---
 
@@ -1613,7 +2025,7 @@ public string RequestLocation { get; set; }
 
 Key location in the request. See [RequestLocation](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#requestlocation) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#request_location GoogleDialogflowCxTool#request_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#request_location GoogleDialogflowCxTool#request_location}
 
 ---
 
@@ -1627,7 +2039,7 @@ public string ApiKey { get; set; }
 
 Optional. The API key. If the 'secretVersionForApiKey'' field is set, this field will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#api_key GoogleDialogflowCxTool#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#api_key GoogleDialogflowCxTool#api_key}
 
 ---
 
@@ -1645,7 +2057,7 @@ The name of the SecretManager secret version resource storing the API key.
 If this field is set, the apiKey field will be ignored.
 Format: projects/{project}/secrets/{secret}/versions/{version}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_api_key GoogleDialogflowCxTool#secret_version_for_api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_api_key GoogleDialogflowCxTool#secret_version_for_api_key}
 
 ---
 
@@ -1684,7 +2096,7 @@ Optional.
 The name of the SecretManager secret version resource storing the Bearer token. If this field is set, the 'token' field will be ignored.
 Format: projects/{project}/secrets/{secret}/versions/{version}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_token GoogleDialogflowCxTool#secret_version_for_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_token GoogleDialogflowCxTool#secret_version_for_token}
 
 ---
 
@@ -1701,7 +2113,7 @@ Optional.
 The text token appended to the text Bearer to the request Authorization header.
 [Session parameters reference](https://cloud.google.com/dialogflow/cx/docs/concept/parameter#session-ref) can be used to pass the token dynamically, e.g. '$session.params.parameter-id'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#token GoogleDialogflowCxTool#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#token GoogleDialogflowCxTool#token}
 
 ---
 
@@ -1745,7 +2157,7 @@ public string ClientId { get; set; }
 
 The client ID from the OAuth provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#client_id GoogleDialogflowCxTool#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#client_id GoogleDialogflowCxTool#client_id}
 
 ---
 
@@ -1759,7 +2171,7 @@ public string OauthGrantType { get; set; }
 
 OAuth grant types. See [OauthGrantType](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#oauthgranttype) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#oauth_grant_type GoogleDialogflowCxTool#oauth_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth_grant_type GoogleDialogflowCxTool#oauth_grant_type}
 
 ---
 
@@ -1773,7 +2185,7 @@ public string TokenEndpoint { get; set; }
 
 The token endpoint in the OAuth provider to exchange for an access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#token_endpoint GoogleDialogflowCxTool#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#token_endpoint GoogleDialogflowCxTool#token_endpoint}
 
 ---
 
@@ -1787,7 +2199,7 @@ public string ClientSecret { get; set; }
 
 Optional. The client secret from the OAuth provider. If the 'secretVersionForClientSecret' field is set, this field will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#client_secret GoogleDialogflowCxTool#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#client_secret GoogleDialogflowCxTool#client_secret}
 
 ---
 
@@ -1801,7 +2213,7 @@ public string[] Scopes { get; set; }
 
 Optional. The OAuth scopes to grant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#scopes GoogleDialogflowCxTool#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#scopes GoogleDialogflowCxTool#scopes}
 
 ---
 
@@ -1819,7 +2231,7 @@ The name of the SecretManager secret version resource storing the client secret.
 If this field is set, the clientSecret field will be ignored.
 Format: projects/{project}/secrets/{secret}/versions/{version}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_client_secret GoogleDialogflowCxTool#secret_version_for_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_client_secret GoogleDialogflowCxTool#secret_version_for_client_secret}
 
 ---
 
@@ -1857,7 +2269,7 @@ Indicate the auth token type generated from the Diglogflow service agent.
 The generated token is sent in the Authorization header.
 See [ServiceAgentAuth](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#serviceagentauth) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth GoogleDialogflowCxTool#service_agent_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth GoogleDialogflowCxTool#service_agent_auth}
 
 ---
 
@@ -1891,7 +2303,7 @@ public string Service { get; set; }
 
 The name of [Service Directory](https://cloud.google.com/service-directory/docs) service. Format: projects/<ProjectID>/locations/<LocationID>/namespaces/<NamespaceID>/services/<ServiceID>. LocationID of the service directory must be the same as the location of the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service GoogleDialogflowCxTool#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service GoogleDialogflowCxTool#service}
 
 ---
 
@@ -1925,7 +2337,7 @@ public IResolvable|GoogleDialogflowCxToolOpenApiSpecTlsConfigCaCerts[] CaCerts {
 
 ca_certs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#ca_certs GoogleDialogflowCxTool#ca_certs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#ca_certs GoogleDialogflowCxTool#ca_certs}
 
 ---
 
@@ -1975,7 +2387,7 @@ For instance a certificate can be self-signed using the following command:
 
 A base64-encoded string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#cert GoogleDialogflowCxTool#cert}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#cert GoogleDialogflowCxTool#cert}
 
 ---
 
@@ -1989,7 +2401,7 @@ public string DisplayName { get; set; }
 
 The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
 
 ---
 
@@ -2011,9 +2423,9 @@ new GoogleDialogflowCxToolTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#create GoogleDialogflowCxTool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#delete GoogleDialogflowCxTool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#update GoogleDialogflowCxTool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#create GoogleDialogflowCxTool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#delete GoogleDialogflowCxTool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#update GoogleDialogflowCxTool#update}. |
 
 ---
 
@@ -2025,7 +2437,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#create GoogleDialogflowCxTool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#create GoogleDialogflowCxTool#create}.
 
 ---
 
@@ -2037,7 +2449,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#delete GoogleDialogflowCxTool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#delete GoogleDialogflowCxTool#delete}.
 
 ---
 
@@ -2049,11 +2461,2127 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#update GoogleDialogflowCxTool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#update GoogleDialogflowCxTool#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference <a name="GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.entityIdInput">EntityIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.operationInput">OperationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.entityId">EntityId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.operation">Operation</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation">GoogleDialogflowCxToolConnectorSpecActionsEntityOperation</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EntityIdInput`<sup>Optional</sup> <a name="EntityIdInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.entityIdInput"></a>
+
+```csharp
+public string EntityIdInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `OperationInput`<sup>Optional</sup> <a name="OperationInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.operationInput"></a>
+
+```csharp
+public string OperationInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EntityId`<sup>Required</sup> <a name="EntityId" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.entityId"></a>
+
+```csharp
+public string EntityId { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Operation`<sup>Required</sup> <a name="Operation" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.operation"></a>
+
+```csharp
+public string Operation { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecActionsEntityOperation InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation">GoogleDialogflowCxToolConnectorSpecActionsEntityOperation</a>
+
+---
+
+
+### GoogleDialogflowCxToolConnectorSpecActionsList <a name="GoogleDialogflowCxToolConnectorSpecActionsList" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecActionsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.get"></a>
+
+```csharp
+private GoogleDialogflowCxToolConnectorSpecActionsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleDialogflowCxToolConnectorSpecActions[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>[]
+
+---
+
+
+### GoogleDialogflowCxToolConnectorSpecActionsOutputReference <a name="GoogleDialogflowCxToolConnectorSpecActionsOutputReference" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecActionsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.putEntityOperation">PutEntityOperation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetConnectionActionId">ResetConnectionActionId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetEntityOperation">ResetEntityOperation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetInputFields">ResetInputFields</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetOutputFields">ResetOutputFields</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutEntityOperation` <a name="PutEntityOperation" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.putEntityOperation"></a>
+
+```csharp
+private void PutEntityOperation(GoogleDialogflowCxToolConnectorSpecActionsEntityOperation Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.putEntityOperation.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation">GoogleDialogflowCxToolConnectorSpecActionsEntityOperation</a>
+
+---
+
+##### `ResetConnectionActionId` <a name="ResetConnectionActionId" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetConnectionActionId"></a>
+
+```csharp
+private void ResetConnectionActionId()
+```
+
+##### `ResetEntityOperation` <a name="ResetEntityOperation" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetEntityOperation"></a>
+
+```csharp
+private void ResetEntityOperation()
+```
+
+##### `ResetInputFields` <a name="ResetInputFields" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetInputFields"></a>
+
+```csharp
+private void ResetInputFields()
+```
+
+##### `ResetOutputFields` <a name="ResetOutputFields" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.resetOutputFields"></a>
+
+```csharp
+private void ResetOutputFields()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.entityOperation">EntityOperation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference">GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.connectionActionIdInput">ConnectionActionIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.entityOperationInput">EntityOperationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation">GoogleDialogflowCxToolConnectorSpecActionsEntityOperation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.inputFieldsInput">InputFieldsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.outputFieldsInput">OutputFieldsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.connectionActionId">ConnectionActionId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.inputFields">InputFields</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.outputFields">OutputFields</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EntityOperation`<sup>Required</sup> <a name="EntityOperation" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.entityOperation"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference EntityOperation { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference">GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference</a>
+
+---
+
+##### `ConnectionActionIdInput`<sup>Optional</sup> <a name="ConnectionActionIdInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.connectionActionIdInput"></a>
+
+```csharp
+public string ConnectionActionIdInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EntityOperationInput`<sup>Optional</sup> <a name="EntityOperationInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.entityOperationInput"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecActionsEntityOperation EntityOperationInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsEntityOperation">GoogleDialogflowCxToolConnectorSpecActionsEntityOperation</a>
+
+---
+
+##### `InputFieldsInput`<sup>Optional</sup> <a name="InputFieldsInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.inputFieldsInput"></a>
+
+```csharp
+public string[] InputFieldsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `OutputFieldsInput`<sup>Optional</sup> <a name="OutputFieldsInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.outputFieldsInput"></a>
+
+```csharp
+public string[] OutputFieldsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ConnectionActionId`<sup>Required</sup> <a name="ConnectionActionId" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.connectionActionId"></a>
+
+```csharp
+public string ConnectionActionId { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InputFields`<sup>Required</sup> <a name="InputFields" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.inputFields"></a>
+
+```csharp
+public string[] InputFields { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `OutputFields`<sup>Required</sup> <a name="OutputFields" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.outputFields"></a>
+
+```csharp
+public string[] OutputFields { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleDialogflowCxToolConnectorSpecActions InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>
+
+---
+
+
+### GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference <a name="GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.oauthTokenInput">OauthTokenInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.oauthToken">OauthToken</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `OauthTokenInput`<sup>Optional</sup> <a name="OauthTokenInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.oauthTokenInput"></a>
+
+```csharp
+public string OauthTokenInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `OauthToken`<sup>Required</sup> <a name="OauthToken" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.oauthToken"></a>
+
+```csharp
+public string OauthToken { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig</a>
+
+---
+
+
+### GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference <a name="GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.clientKeyInput">ClientKeyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.issuerInput">IssuerInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.subjectInput">SubjectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.clientKey">ClientKey</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.issuer">Issuer</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.subject">Subject</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ClientKeyInput`<sup>Optional</sup> <a name="ClientKeyInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.clientKeyInput"></a>
+
+```csharp
+public string ClientKeyInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `IssuerInput`<sup>Optional</sup> <a name="IssuerInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.issuerInput"></a>
+
+```csharp
+public string IssuerInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SubjectInput`<sup>Optional</sup> <a name="SubjectInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.subjectInput"></a>
+
+```csharp
+public string SubjectInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ClientKey`<sup>Required</sup> <a name="ClientKey" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.clientKey"></a>
+
+```csharp
+public string ClientKey { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Issuer`<sup>Required</sup> <a name="Issuer" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.issuer"></a>
+
+```csharp
+public string Issuer { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Subject`<sup>Required</sup> <a name="Subject" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.subject"></a>
+
+```csharp
+public string Subject { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig</a>
+
+---
+
+
+### GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference <a name="GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.putOauth2AuthCodeConfig">PutOauth2AuthCodeConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.putOauth2JwtBearerConfig">PutOauth2JwtBearerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.resetOauth2AuthCodeConfig">ResetOauth2AuthCodeConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.resetOauth2JwtBearerConfig">ResetOauth2JwtBearerConfig</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutOauth2AuthCodeConfig` <a name="PutOauth2AuthCodeConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.putOauth2AuthCodeConfig"></a>
+
+```csharp
+private void PutOauth2AuthCodeConfig(GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.putOauth2AuthCodeConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig</a>
+
+---
+
+##### `PutOauth2JwtBearerConfig` <a name="PutOauth2JwtBearerConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.putOauth2JwtBearerConfig"></a>
+
+```csharp
+private void PutOauth2JwtBearerConfig(GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.putOauth2JwtBearerConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig</a>
+
+---
+
+##### `ResetOauth2AuthCodeConfig` <a name="ResetOauth2AuthCodeConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.resetOauth2AuthCodeConfig"></a>
+
+```csharp
+private void ResetOauth2AuthCodeConfig()
+```
+
+##### `ResetOauth2JwtBearerConfig` <a name="ResetOauth2JwtBearerConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.resetOauth2JwtBearerConfig"></a>
+
+```csharp
+private void ResetOauth2JwtBearerConfig()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2AuthCodeConfig">Oauth2AuthCodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2JwtBearerConfig">Oauth2JwtBearerConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2AuthCodeConfigInput">Oauth2AuthCodeConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2JwtBearerConfigInput">Oauth2JwtBearerConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Oauth2AuthCodeConfig`<sup>Required</sup> <a name="Oauth2AuthCodeConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2AuthCodeConfig"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference Oauth2AuthCodeConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference</a>
+
+---
+
+##### `Oauth2JwtBearerConfig`<sup>Required</sup> <a name="Oauth2JwtBearerConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2JwtBearerConfig"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference Oauth2JwtBearerConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference</a>
+
+---
+
+##### `Oauth2AuthCodeConfigInput`<sup>Optional</sup> <a name="Oauth2AuthCodeConfigInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2AuthCodeConfigInput"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig Oauth2AuthCodeConfigInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig</a>
+
+---
+
+##### `Oauth2JwtBearerConfigInput`<sup>Optional</sup> <a name="Oauth2JwtBearerConfigInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.oauth2JwtBearerConfigInput"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig Oauth2JwtBearerConfigInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig</a>
+
+---
+
+
+### GoogleDialogflowCxToolConnectorSpecOutputReference <a name="GoogleDialogflowCxToolConnectorSpecOutputReference" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDialogflowCxToolConnectorSpecOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.putActions">PutActions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.putEndUserAuthConfig">PutEndUserAuthConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.resetEndUserAuthConfig">ResetEndUserAuthConfig</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutActions` <a name="PutActions" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.putActions"></a>
+
+```csharp
+private void PutActions(IResolvable|GoogleDialogflowCxToolConnectorSpecActions[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.putActions.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>[]
+
+---
+
+##### `PutEndUserAuthConfig` <a name="PutEndUserAuthConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.putEndUserAuthConfig"></a>
+
+```csharp
+private void PutEndUserAuthConfig(GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.putEndUserAuthConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig</a>
+
+---
+
+##### `ResetEndUserAuthConfig` <a name="ResetEndUserAuthConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.resetEndUserAuthConfig"></a>
+
+```csharp
+private void ResetEndUserAuthConfig()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.actions">Actions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList">GoogleDialogflowCxToolConnectorSpecActionsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.endUserAuthConfig">EndUserAuthConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.actionsInput">ActionsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.endUserAuthConfigInput">EndUserAuthConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec">GoogleDialogflowCxToolConnectorSpec</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Actions`<sup>Required</sup> <a name="Actions" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.actions"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecActionsList Actions { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActionsList">GoogleDialogflowCxToolConnectorSpecActionsList</a>
+
+---
+
+##### `EndUserAuthConfig`<sup>Required</sup> <a name="EndUserAuthConfig" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.endUserAuthConfig"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference EndUserAuthConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference</a>
+
+---
+
+##### `ActionsInput`<sup>Optional</sup> <a name="ActionsInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.actionsInput"></a>
+
+```csharp
+public IResolvable|GoogleDialogflowCxToolConnectorSpecActions[] ActionsInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecActions">GoogleDialogflowCxToolConnectorSpecActions</a>[]
+
+---
+
+##### `EndUserAuthConfigInput`<sup>Optional</sup> <a name="EndUserAuthConfigInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.endUserAuthConfigInput"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig EndUserAuthConfigInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig">GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig</a>
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.nameInput"></a>
+
+```csharp
+public string NameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpecOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleDialogflowCxToolConnectorSpec InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolConnectorSpec">GoogleDialogflowCxToolConnectorSpec</a>
+
+---
+
 
 ### GoogleDialogflowCxToolDataStoreSpecDataStoreConnectionsList <a name="GoogleDialogflowCxToolDataStoreSpecDataStoreConnectionsList" id="@cdktn/provider-google-beta.googleDialogflowCxTool.GoogleDialogflowCxToolDataStoreSpecDataStoreConnectionsList"></a>
 

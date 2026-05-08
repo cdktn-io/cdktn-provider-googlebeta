@@ -4,12 +4,12 @@
 
 ### GoogleHealthcareDatasetIamMember <a name="GoogleHealthcareDatasetIamMember" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member google_healthcare_dataset_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member google_healthcare_dataset_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 googlehealthcaredatasetiammember.NewGoogleHealthcareDatasetIamMember(scope Construct, id *string, config GoogleHealthcareDatasetIamMemberConfig) GoogleHealthcareDatasetIamMember
 ```
@@ -427,7 +427,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMember_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMember_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleHealthcareDatasetIam
 
 The id of the existing GoogleHealthcareDatasetIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 &googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMemberCondition {
 	Expression: *string,
@@ -850,9 +850,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#expression GoogleHealthcareDatasetIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#title GoogleHealthcareDatasetIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#description GoogleHealthcareDatasetIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#expression GoogleHealthcareDatasetIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#title GoogleHealthcareDatasetIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#description GoogleHealthcareDatasetIamMember#description}. |
 
 ---
 
@@ -864,7 +864,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#expression GoogleHealthcareDatasetIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#expression GoogleHealthcareDatasetIamMember#expression}.
 
 ---
 
@@ -876,7 +876,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#title GoogleHealthcareDatasetIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#title GoogleHealthcareDatasetIamMember#title}.
 
 ---
 
@@ -888,7 +888,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#description GoogleHealthcareDatasetIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#description GoogleHealthcareDatasetIamMember#description}.
 
 ---
 
@@ -897,7 +897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 &googlehealthcaredatasetiammember.GoogleHealthcareDatasetIamMemberConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehe
 	DatasetId: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition,
 	Id: *string,
 }
 ```
@@ -926,11 +926,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehe
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.datasetId">DatasetId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#dataset_id GoogleHealthcareDatasetIamMember#dataset_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#member GoogleHealthcareDatasetIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#role GoogleHealthcareDatasetIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.datasetId">DatasetId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#dataset_id GoogleHealthcareDatasetIamMember#dataset_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#member GoogleHealthcareDatasetIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#role GoogleHealthcareDatasetIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberCondition">GoogleHealthcareDatasetIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#id GoogleHealthcareDatasetIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#id GoogleHealthcareDatasetIamMember#id}. |
 
 ---
 
@@ -1012,7 +1012,7 @@ DatasetId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#dataset_id GoogleHealthcareDatasetIamMember#dataset_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#dataset_id GoogleHealthcareDatasetIamMember#dataset_id}.
 
 ---
 
@@ -1024,7 +1024,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#member GoogleHealthcareDatasetIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#member GoogleHealthcareDatasetIamMember#member}.
 
 ---
 
@@ -1036,7 +1036,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#role GoogleHealthcareDatasetIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#role GoogleHealthcareDatasetIamMember#role}.
 
 ---
 
@@ -1050,7 +1050,7 @@ Condition GoogleHealthcareDatasetIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#condition GoogleHealthcareDatasetIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#condition GoogleHealthcareDatasetIamMember#condition}
 
 ---
 
@@ -1062,7 +1062,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dataset_iam_member#id GoogleHealthcareDatasetIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_dataset_iam_member#id GoogleHealthcareDatasetIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1076,7 +1076,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcaredatasetiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcaredatasetiammember"
 
 googlehealthcaredatasetiammember.NewGoogleHealthcareDatasetIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareDatasetIamMemberConditionOutputReference
 ```

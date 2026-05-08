@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiFeaturestoreEntitytypeIamPolicy <a name="GoogleVertexAiFeaturestoreEntitytypeIamPolicy" id="@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy google_vertex_ai_featurestore_entitytype_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy google_vertex_ai_featurestore_entitytype_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer"></a>
 
@@ -37,10 +37,10 @@ GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Builder.create(Construct scope, ja
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.entitytype">entitytype</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.featurestore">featurestore</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.entitytype">entitytype</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.featurestore">featurestore</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -591,7 +591,7 @@ The construct id used in the generated config for the GoogleVertexAiFeaturestore
 
 The id of the existing GoogleVertexAiFeaturestoreEntitytypeIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -918,10 +918,10 @@ GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.entitytype">entitytype</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.featurestore">featurestore</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.entitytype">entitytype</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.featurestore">featurestore</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}. |
 
 ---
 
@@ -1003,7 +1003,7 @@ public java.lang.String getEntitytype();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}.
 
 ---
 
@@ -1015,7 +1015,7 @@ public java.lang.String getFeaturestore();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}.
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.lang.String getPolicyData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}.
 
 ---
 
@@ -1039,7 +1039,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#id GoogleVertexAiFeaturestoreEntitytypeIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

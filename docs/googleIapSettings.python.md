@@ -4,7 +4,7 @@
 
 ### GoogleIapSettings <a name="GoogleIapSettings" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings google_iap_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings google_iap_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer"></a>
 
@@ -43,7 +43,7 @@ googleIapSettings.GoogleIapSettings(
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer.parameter.name">name</a></code> | <code>str</code> | The resource name of the IAP protected resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer.parameter.accessSettings">access_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettings">GoogleIapSettingsAccessSettings</a></code> | access_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer.parameter.applicationSettings">application_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettings">GoogleIapSettingsApplicationSettings</a></code> | application_settings block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts">GoogleIapSettingsTimeouts</a></code> | timeouts block. |
 
 ---
@@ -128,7 +128,7 @@ Name can have below resources:
 * projects/{project_id}/iap_web/appengine-{app_id}/services/{service_id}
 * projects/{project_id}/iap_web/appengine-{app_id}/services/{service_id}/version/{version_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#name GoogleIapSettings#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#name GoogleIapSettings#name}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 access_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#access_settings GoogleIapSettings#access_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#access_settings GoogleIapSettings#access_settings}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 application_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#application_settings GoogleIapSettings#application_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#application_settings GoogleIapSettings#application_settings}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -169,7 +169,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#timeouts GoogleIapSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#timeouts GoogleIapSettings#timeouts}
 
 ---
 
@@ -579,7 +579,7 @@ def put_access_settings(
 
 allowed_domains_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#allowed_domains_settings GoogleIapSettings#allowed_domains_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#allowed_domains_settings GoogleIapSettings#allowed_domains_settings}
 
 ---
 
@@ -589,7 +589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 cors_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#cors_settings GoogleIapSettings#cors_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#cors_settings GoogleIapSettings#cors_settings}
 
 ---
 
@@ -599,7 +599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 gcip_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#gcip_settings GoogleIapSettings#gcip_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#gcip_settings GoogleIapSettings#gcip_settings}
 
 ---
 
@@ -615,7 +615,7 @@ can be configured. The possible values are:
 * 'WORKFORCE_IDENTITY_FEDERATION': Use external identities set up on Google Cloud Workforce
   Identity Federation. Possible values: ["WORKFORCE_IDENTITY_FEDERATION"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#identity_sources GoogleIapSettings#identity_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#identity_sources GoogleIapSettings#identity_sources}
 
 ---
 
@@ -625,7 +625,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 oauth_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#oauth_settings GoogleIapSettings#oauth_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#oauth_settings GoogleIapSettings#oauth_settings}
 
 ---
 
@@ -635,7 +635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 reauth_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#reauth_settings GoogleIapSettings#reauth_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#reauth_settings GoogleIapSettings#reauth_settings}
 
 ---
 
@@ -645,7 +645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 workforce_identity_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#workforce_identity_settings GoogleIapSettings#workforce_identity_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#workforce_identity_settings GoogleIapSettings#workforce_identity_settings}
 
 ---
 
@@ -666,7 +666,7 @@ def put_application_settings(
 
 access_denied_page_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#access_denied_page_settings GoogleIapSettings#access_denied_page_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#access_denied_page_settings GoogleIapSettings#access_denied_page_settings}
 
 ---
 
@@ -676,7 +676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 attribute_propagation_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#attribute_propagation_settings GoogleIapSettings#attribute_propagation_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#attribute_propagation_settings GoogleIapSettings#attribute_propagation_settings}
 
 ---
 
@@ -689,7 +689,7 @@ The Domain value to set for cookies generated by IAP.
 This value is not validated by the API,
 but will be ignored at runtime if invalid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#cookie_domain GoogleIapSettings#cookie_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#cookie_domain GoogleIapSettings#cookie_domain}
 
 ---
 
@@ -699,7 +699,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 csm_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#csm_settings GoogleIapSettings#csm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#csm_settings GoogleIapSettings#csm_settings}
 
 ---
 
@@ -717,7 +717,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#create GoogleIapSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#create GoogleIapSettings#create}.
 
 ---
 
@@ -725,7 +725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#delete GoogleIapSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#delete GoogleIapSettings#delete}.
 
 ---
 
@@ -733,7 +733,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#update GoogleIapSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#update GoogleIapSettings#update}.
 
 ---
 
@@ -875,7 +875,7 @@ The construct id used in the generated config for the GoogleIapSettings to impor
 
 The id of the existing GoogleIapSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1222,7 +1222,7 @@ allowed_domains_settings: GoogleIapSettingsAccessSettingsAllowedDomainsSettings
 
 allowed_domains_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#allowed_domains_settings GoogleIapSettings#allowed_domains_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#allowed_domains_settings GoogleIapSettings#allowed_domains_settings}
 
 ---
 
@@ -1236,7 +1236,7 @@ cors_settings: GoogleIapSettingsAccessSettingsCorsSettings
 
 cors_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#cors_settings GoogleIapSettings#cors_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#cors_settings GoogleIapSettings#cors_settings}
 
 ---
 
@@ -1250,7 +1250,7 @@ gcip_settings: GoogleIapSettingsAccessSettingsGcipSettings
 
 gcip_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#gcip_settings GoogleIapSettings#gcip_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#gcip_settings GoogleIapSettings#gcip_settings}
 
 ---
 
@@ -1270,7 +1270,7 @@ can be configured. The possible values are:
 * 'WORKFORCE_IDENTITY_FEDERATION': Use external identities set up on Google Cloud Workforce
   Identity Federation. Possible values: ["WORKFORCE_IDENTITY_FEDERATION"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#identity_sources GoogleIapSettings#identity_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#identity_sources GoogleIapSettings#identity_sources}
 
 ---
 
@@ -1284,7 +1284,7 @@ oauth_settings: GoogleIapSettingsAccessSettingsOauthSettings
 
 oauth_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#oauth_settings GoogleIapSettings#oauth_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#oauth_settings GoogleIapSettings#oauth_settings}
 
 ---
 
@@ -1298,7 +1298,7 @@ reauth_settings: GoogleIapSettingsAccessSettingsReauthSettings
 
 reauth_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#reauth_settings GoogleIapSettings#reauth_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#reauth_settings GoogleIapSettings#reauth_settings}
 
 ---
 
@@ -1312,7 +1312,7 @@ workforce_identity_settings: GoogleIapSettingsAccessSettingsWorkforceIdentitySet
 
 workforce_identity_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#workforce_identity_settings GoogleIapSettings#workforce_identity_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#workforce_identity_settings GoogleIapSettings#workforce_identity_settings}
 
 ---
 
@@ -1348,7 +1348,7 @@ domains: typing.List[str]
 
 List of trusted domains.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#domains GoogleIapSettings#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#domains GoogleIapSettings#domains}
 
 ---
 
@@ -1362,7 +1362,7 @@ enable: bool | IResolvable
 
 Configuration for customers to opt in for the feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
 
 ---
 
@@ -1398,7 +1398,7 @@ Configuration to allow HTTP OPTIONS calls to skip authorization.
 
 If undefined, IAP will not apply any special logic to OPTIONS requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#allow_http_options GoogleIapSettings#allow_http_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#allow_http_options GoogleIapSettings#allow_http_options}
 
 ---
 
@@ -1438,7 +1438,7 @@ Typically, all resources within
 the same project share the same login page, though it could be overridden at the
 sub resource level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#login_page_uri GoogleIapSettings#login_page_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#login_page_uri GoogleIapSettings#login_page_uri}
 
 ---
 
@@ -1458,7 +1458,7 @@ or in the format of _ to indicate authenticating with GCIP agent flow. If agent 
 is used, tenantIds should only contain one single element, while for tenant flow,
 tenantIds can contain multiple elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#tenant_ids GoogleIapSettings#tenant_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#tenant_ids GoogleIapSettings#tenant_ids}
 
 ---
 
@@ -1470,6 +1470,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_google_beta import google_iap_settings
 
 googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings(
+  client_id: str = None,
+  client_secret: str = None,
   login_hint: str = None,
   programmatic_clients: typing.List[str] = None
 )
@@ -1479,8 +1481,38 @@ googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings.property.clientId">client_id</a></code> | <code>str</code> | OAuth 2.0 client ID used in the OAuth flow to generate an access token. If this field is set, you can skip obtaining the OAuth credentials in this. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings.property.clientSecret">client_secret</a></code> | <code>str</code> | OAuth secret paired with client ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings.property.loginHint">login_hint</a></code> | <code>str</code> | Domain hint to send as hd=? |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings.property.programmaticClients">programmatic_clients</a></code> | <code>typing.List[str]</code> | List of client ids allowed to use IAP programmatically. |
+
+---
+
+##### `client_id`<sup>Optional</sup> <a name="client_id" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings.property.clientId"></a>
+
+```python
+client_id: str
+```
+
+- *Type:* str
+
+OAuth 2.0 client ID used in the OAuth flow to generate an access token. If this field is set, you can skip obtaining the OAuth credentials in this.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_id GoogleIapSettings#client_id}
+
+---
+
+##### `client_secret`<sup>Optional</sup> <a name="client_secret" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings.property.clientSecret"></a>
+
+```python
+client_secret: str
+```
+
+- *Type:* str
+
+OAuth secret paired with client ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_secret GoogleIapSettings#client_secret}
 
 ---
 
@@ -1502,7 +1534,7 @@ since access behavior is managed by IAM policies.
 
 * loginHint setting is not a replacement for access control. Always enforce an appropriate access policy if you want to restrict access to users outside your domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#login_hint GoogleIapSettings#login_hint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#login_hint GoogleIapSettings#login_hint}
 
 ---
 
@@ -1516,7 +1548,7 @@ programmatic_clients: typing.List[str]
 
 List of client ids allowed to use IAP programmatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#programmatic_clients GoogleIapSettings#programmatic_clients}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#programmatic_clients GoogleIapSettings#programmatic_clients}
 
 ---
 
@@ -1557,7 +1589,7 @@ Reauth session lifetime, how long before a user has to reauthenticate again.
 A duration in seconds with up to nine fractional digits, ending with 's'.
 Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#max_age GoogleIapSettings#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#max_age GoogleIapSettings#max_age}
 
 ---
 
@@ -1575,7 +1607,7 @@ Reauth method requested. The possible values are:.
 * 'SECURE_KEY': User must use their secure key 2nd factor device.
 * 'ENROLLED_SECOND_FACTORS': User can use any enabled 2nd factor. Possible values: ["LOGIN", "SECURE_KEY", "ENROLLED_SECOND_FACTORS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#method GoogleIapSettings#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#method GoogleIapSettings#method}
 
 ---
 
@@ -1596,7 +1628,7 @@ The possible values are:
   Effective policy may only be the same or stricter.
 * 'DEFAULT': This policy acts as a default if no other reauth policy is set. Possible values: ["MINIMUM", "DEFAULT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#policy_type GoogleIapSettings#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#policy_type GoogleIapSettings#policy_type}
 
 ---
 
@@ -1632,7 +1664,7 @@ oauth2: GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2
 
 oauth2 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#oauth2 GoogleIapSettings#oauth2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#oauth2 GoogleIapSettings#oauth2}
 
 ---
 
@@ -1646,7 +1678,7 @@ workforce_pools: typing.List[str]
 
 The workforce pool resources. Only one workforce pool is accepted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#workforce_pools GoogleIapSettings#workforce_pools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#workforce_pools GoogleIapSettings#workforce_pools}
 
 ---
 
@@ -1682,7 +1714,7 @@ client_id: str
 
 The OAuth 2.0 client ID registered in the workforce identity federation OAuth 2.0 Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#client_id GoogleIapSettings#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_id GoogleIapSettings#client_id}
 
 ---
 
@@ -1696,7 +1728,7 @@ client_secret: str
 
 Input only. The OAuth 2.0 client secret created while registering the client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#client_secret GoogleIapSettings#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_secret GoogleIapSettings#client_secret}
 
 ---
 
@@ -1736,7 +1768,7 @@ access_denied_page_settings: GoogleIapSettingsApplicationSettingsAccessDeniedPag
 
 access_denied_page_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#access_denied_page_settings GoogleIapSettings#access_denied_page_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#access_denied_page_settings GoogleIapSettings#access_denied_page_settings}
 
 ---
 
@@ -1750,7 +1782,7 @@ attribute_propagation_settings: GoogleIapSettingsApplicationSettingsAttributePro
 
 attribute_propagation_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#attribute_propagation_settings GoogleIapSettings#attribute_propagation_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#attribute_propagation_settings GoogleIapSettings#attribute_propagation_settings}
 
 ---
 
@@ -1767,7 +1799,7 @@ The Domain value to set for cookies generated by IAP.
 This value is not validated by the API,
 but will be ignored at runtime if invalid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#cookie_domain GoogleIapSettings#cookie_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#cookie_domain GoogleIapSettings#cookie_domain}
 
 ---
 
@@ -1781,7 +1813,7 @@ csm_settings: GoogleIapSettingsApplicationSettingsCsmSettings
 
 csm_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#csm_settings GoogleIapSettings#csm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#csm_settings GoogleIapSettings#csm_settings}
 
 ---
 
@@ -1819,7 +1851,7 @@ access_denied_page_uri: str
 
 The URI to be redirected to when access is denied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#access_denied_page_uri GoogleIapSettings#access_denied_page_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#access_denied_page_uri GoogleIapSettings#access_denied_page_uri}
 
 ---
 
@@ -1833,7 +1865,7 @@ generate_troubleshooting_uri: bool | IResolvable
 
 Whether to generate a troubleshooting URL on access denied events to this application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#generate_troubleshooting_uri GoogleIapSettings#generate_troubleshooting_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#generate_troubleshooting_uri GoogleIapSettings#generate_troubleshooting_uri}
 
 ---
 
@@ -1847,7 +1879,7 @@ remediation_token_generation_enabled: bool | IResolvable
 
 Whether to generate remediation token on access denied events to this application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#remediation_token_generation_enabled GoogleIapSettings#remediation_token_generation_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#remediation_token_generation_enabled GoogleIapSettings#remediation_token_generation_enabled}
 
 ---
 
@@ -1887,7 +1919,7 @@ Whether the provided attribute propagation settings should be evaluated on user 
 
 If set to true, attributes returned from the expression will be propagated in the set output credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
 
 ---
 
@@ -1905,7 +1937,7 @@ Must return a list of attributes. A maximum of 45 attributes can
 be selected. Expressions can select different attribute types from attributes:
 attributes.saml_attributes, attributes.iap_attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#expression GoogleIapSettings#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#expression GoogleIapSettings#expression}
 
 ---
 
@@ -1928,7 +1960,7 @@ Possible values are:
 * 'RCTOKEN': Propagate attributes in the RCToken of the form: "
   additional_claims": { "my_attribute": ["value1", "value2"] } Possible values: ["HEADER", "JWT", "RCTOKEN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#output_credentials GoogleIapSettings#output_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#output_credentials GoogleIapSettings#output_credentials}
 
 ---
 
@@ -1962,7 +1994,7 @@ rctoken_aud: str
 
 Audience claim set in the generated RCToken. This value is not validated by IAP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#rctoken_aud GoogleIapSettings#rctoken_aud}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#rctoken_aud GoogleIapSettings#rctoken_aud}
 
 ---
 
@@ -2003,7 +2035,7 @@ googleIapSettings.GoogleIapSettingsConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig.property.name">name</a></code> | <code>str</code> | The resource name of the IAP protected resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig.property.accessSettings">access_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettings">GoogleIapSettingsAccessSettings</a></code> | access_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig.property.applicationSettings">application_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettings">GoogleIapSettingsApplicationSettings</a></code> | application_settings block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts">GoogleIapSettingsTimeouts</a></code> | timeouts block. |
 
 ---
@@ -2102,7 +2134,7 @@ Name can have below resources:
 * projects/{project_id}/iap_web/appengine-{app_id}/services/{service_id}
 * projects/{project_id}/iap_web/appengine-{app_id}/services/{service_id}/version/{version_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#name GoogleIapSettings#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#name GoogleIapSettings#name}
 
 ---
 
@@ -2116,7 +2148,7 @@ access_settings: GoogleIapSettingsAccessSettings
 
 access_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#access_settings GoogleIapSettings#access_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#access_settings GoogleIapSettings#access_settings}
 
 ---
 
@@ -2130,7 +2162,7 @@ application_settings: GoogleIapSettingsApplicationSettings
 
 application_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#application_settings GoogleIapSettings#application_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#application_settings GoogleIapSettings#application_settings}
 
 ---
 
@@ -2142,7 +2174,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2159,7 +2191,7 @@ timeouts: GoogleIapSettingsTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#timeouts GoogleIapSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#timeouts GoogleIapSettings#timeouts}
 
 ---
 
@@ -2181,9 +2213,9 @@ googleIapSettings.GoogleIapSettingsTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#create GoogleIapSettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#delete GoogleIapSettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#update GoogleIapSettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#create GoogleIapSettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#delete GoogleIapSettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#update GoogleIapSettings#update}. |
 
 ---
 
@@ -2195,7 +2227,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#create GoogleIapSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#create GoogleIapSettings#create}.
 
 ---
 
@@ -2207,7 +2239,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#delete GoogleIapSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#delete GoogleIapSettings#delete}.
 
 ---
 
@@ -2219,7 +2251,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#update GoogleIapSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#update GoogleIapSettings#update}.
 
 ---
 
@@ -3245,6 +3277,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resetClientId">reset_client_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resetClientSecret">reset_client_secret</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resetLoginHint">reset_login_hint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resetProgrammaticClients">reset_programmatic_clients</a></code> | *No description.* |
 
@@ -3422,6 +3456,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_client_id` <a name="reset_client_id" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resetClientId"></a>
+
+```python
+def reset_client_id() -> None
+```
+
+##### `reset_client_secret` <a name="reset_client_secret" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resetClientSecret"></a>
+
+```python
+def reset_client_secret() -> None
+```
+
 ##### `reset_login_hint` <a name="reset_login_hint" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.resetLoginHint"></a>
 
 ```python
@@ -3441,8 +3487,13 @@ def reset_programmatic_clients() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientSecretSha256">client_secret_sha256</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientIdInput">client_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientSecretInput">client_secret_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.loginHintInput">login_hint_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.programmaticClientsInput">programmatic_clients_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientId">client_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientSecret">client_secret</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.loginHint">login_hint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.programmaticClients">programmatic_clients</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings">GoogleIapSettingsAccessSettingsOauthSettings</a></code> | *No description.* |
@@ -3473,6 +3524,36 @@ fqn: str
 
 ---
 
+##### `client_secret_sha256`<sup>Required</sup> <a name="client_secret_sha256" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientSecretSha256"></a>
+
+```python
+client_secret_sha256: str
+```
+
+- *Type:* str
+
+---
+
+##### `client_id_input`<sup>Optional</sup> <a name="client_id_input" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientIdInput"></a>
+
+```python
+client_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `client_secret_input`<sup>Optional</sup> <a name="client_secret_input" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientSecretInput"></a>
+
+```python
+client_secret_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `login_hint_input`<sup>Optional</sup> <a name="login_hint_input" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.loginHintInput"></a>
 
 ```python
@@ -3490,6 +3571,26 @@ programmatic_clients_input: typing.List[str]
 ```
 
 - *Type:* typing.List[str]
+
+---
+
+##### `client_id`<sup>Required</sup> <a name="client_id" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientId"></a>
+
+```python
+client_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `client_secret`<sup>Required</sup> <a name="client_secret" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.property.clientSecret"></a>
+
+```python
+client_secret: str
+```
+
+- *Type:* str
 
 ---
 
@@ -3780,7 +3881,7 @@ def put_allowed_domains_settings(
 
 List of trusted domains.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#domains GoogleIapSettings#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#domains GoogleIapSettings#domains}
 
 ---
 
@@ -3790,7 +3891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for customers to opt in for the feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
 
 ---
 
@@ -3810,7 +3911,7 @@ Configuration to allow HTTP OPTIONS calls to skip authorization.
 
 If undefined, IAP will not apply any special logic to OPTIONS requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#allow_http_options GoogleIapSettings#allow_http_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#allow_http_options GoogleIapSettings#allow_http_options}
 
 ---
 
@@ -3833,7 +3934,7 @@ Typically, all resources within
 the same project share the same login page, though it could be overridden at the
 sub resource level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#login_page_uri GoogleIapSettings#login_page_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#login_page_uri GoogleIapSettings#login_page_uri}
 
 ---
 
@@ -3849,7 +3950,7 @@ or in the format of _ to indicate authenticating with GCIP agent flow. If agent 
 is used, tenantIds should only contain one single element, while for tenant flow,
 tenantIds can contain multiple elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#tenant_ids GoogleIapSettings#tenant_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#tenant_ids GoogleIapSettings#tenant_ids}
 
 ---
 
@@ -3857,10 +3958,32 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def put_oauth_settings(
+  client_id: str = None,
+  client_secret: str = None,
   login_hint: str = None,
   programmatic_clients: typing.List[str] = None
 ) -> None
 ```
+
+###### `client_id`<sup>Optional</sup> <a name="client_id" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOutputReference.putOauthSettings.parameter.clientId"></a>
+
+- *Type:* str
+
+OAuth 2.0 client ID used in the OAuth flow to generate an access token. If this field is set, you can skip obtaining the OAuth credentials in this.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_id GoogleIapSettings#client_id}
+
+---
+
+###### `client_secret`<sup>Optional</sup> <a name="client_secret" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOutputReference.putOauthSettings.parameter.clientSecret"></a>
+
+- *Type:* str
+
+OAuth secret paired with client ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_secret GoogleIapSettings#client_secret}
+
+---
 
 ###### `login_hint`<sup>Optional</sup> <a name="login_hint" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOutputReference.putOauthSettings.parameter.loginHint"></a>
 
@@ -3876,7 +3999,7 @@ since access behavior is managed by IAM policies.
 
 * loginHint setting is not a replacement for access control. Always enforce an appropriate access policy if you want to restrict access to users outside your domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#login_hint GoogleIapSettings#login_hint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#login_hint GoogleIapSettings#login_hint}
 
 ---
 
@@ -3886,7 +4009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of client ids allowed to use IAP programmatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#programmatic_clients GoogleIapSettings#programmatic_clients}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#programmatic_clients GoogleIapSettings#programmatic_clients}
 
 ---
 
@@ -3909,7 +4032,7 @@ Reauth session lifetime, how long before a user has to reauthenticate again.
 A duration in seconds with up to nine fractional digits, ending with 's'.
 Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#max_age GoogleIapSettings#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#max_age GoogleIapSettings#max_age}
 
 ---
 
@@ -3923,7 +4046,7 @@ Reauth method requested. The possible values are:.
 * 'SECURE_KEY': User must use their secure key 2nd factor device.
 * 'ENROLLED_SECOND_FACTORS': User can use any enabled 2nd factor. Possible values: ["LOGIN", "SECURE_KEY", "ENROLLED_SECOND_FACTORS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#method GoogleIapSettings#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#method GoogleIapSettings#method}
 
 ---
 
@@ -3940,7 +4063,7 @@ The possible values are:
   Effective policy may only be the same or stricter.
 * 'DEFAULT': This policy acts as a default if no other reauth policy is set. Possible values: ["MINIMUM", "DEFAULT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#policy_type GoogleIapSettings#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#policy_type GoogleIapSettings#policy_type}
 
 ---
 
@@ -3959,7 +4082,7 @@ def put_workforce_identity_settings(
 
 oauth2 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#oauth2 GoogleIapSettings#oauth2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#oauth2 GoogleIapSettings#oauth2}
 
 ---
 
@@ -3969,7 +4092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The workforce pool resources. Only one workforce pool is accepted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#workforce_pools GoogleIapSettings#workforce_pools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#workforce_pools GoogleIapSettings#workforce_pools}
 
 ---
 
@@ -5144,7 +5267,7 @@ def put_oauth2(
 
 The OAuth 2.0 client ID registered in the workforce identity federation OAuth 2.0 Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#client_id GoogleIapSettings#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_id GoogleIapSettings#client_id}
 
 ---
 
@@ -5154,7 +5277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Input only. The OAuth 2.0 client secret created while registering the client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#client_secret GoogleIapSettings#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#client_secret GoogleIapSettings#client_secret}
 
 ---
 
@@ -6536,7 +6659,7 @@ def put_access_denied_page_settings(
 
 The URI to be redirected to when access is denied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#access_denied_page_uri GoogleIapSettings#access_denied_page_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#access_denied_page_uri GoogleIapSettings#access_denied_page_uri}
 
 ---
 
@@ -6546,7 +6669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to generate a troubleshooting URL on access denied events to this application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#generate_troubleshooting_uri GoogleIapSettings#generate_troubleshooting_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#generate_troubleshooting_uri GoogleIapSettings#generate_troubleshooting_uri}
 
 ---
 
@@ -6556,7 +6679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to generate remediation token on access denied events to this application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#remediation_token_generation_enabled GoogleIapSettings#remediation_token_generation_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#remediation_token_generation_enabled GoogleIapSettings#remediation_token_generation_enabled}
 
 ---
 
@@ -6578,7 +6701,7 @@ Whether the provided attribute propagation settings should be evaluated on user 
 
 If set to true, attributes returned from the expression will be propagated in the set output credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#enable GoogleIapSettings#enable}
 
 ---
 
@@ -6592,7 +6715,7 @@ Must return a list of attributes. A maximum of 45 attributes can
 be selected. Expressions can select different attribute types from attributes:
 attributes.saml_attributes, attributes.iap_attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#expression GoogleIapSettings#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#expression GoogleIapSettings#expression}
 
 ---
 
@@ -6611,7 +6734,7 @@ Possible values are:
 * 'RCTOKEN': Propagate attributes in the RCToken of the form: "
   additional_claims": { "my_attribute": ["value1", "value2"] } Possible values: ["HEADER", "JWT", "RCTOKEN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#output_credentials GoogleIapSettings#output_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#output_credentials GoogleIapSettings#output_credentials}
 
 ---
 
@@ -6629,7 +6752,7 @@ def put_csm_settings(
 
 Audience claim set in the generated RCToken. This value is not validated by IAP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_settings#rctoken_aud GoogleIapSettings#rctoken_aud}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_settings#rctoken_aud GoogleIapSettings#rctoken_aud}
 
 ---
 

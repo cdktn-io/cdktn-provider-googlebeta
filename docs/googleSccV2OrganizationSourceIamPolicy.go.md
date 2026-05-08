@@ -4,12 +4,12 @@
 
 ### GoogleSccV2OrganizationSourceIamPolicy <a name="GoogleSccV2OrganizationSourceIamPolicy" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.NewGoogleSccV2OrganizationSourceIamPolicy(scope Construct, id *string, config GoogleSccV2OrganizationSourceIamPolicyConfig) GoogleSccV2OrganizationSourceIamPolicy
 ```
@@ -407,7 +407,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the GoogleSccV2OrganizationSou
 
 The id of the existing GoogleSccV2OrganizationSourceIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationsourceiampolicy"
 
 &googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicyConfig {
 	Connection: interface{},
@@ -823,10 +823,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesc
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.organization">Organization</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#organization GoogleSccV2OrganizationSourceIamPolicy#organization}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#policy_data GoogleSccV2OrganizationSourceIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.source">Source</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#source GoogleSccV2OrganizationSourceIamPolicy#source}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#id GoogleSccV2OrganizationSourceIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.organization">Organization</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#organization GoogleSccV2OrganizationSourceIamPolicy#organization}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#policy_data GoogleSccV2OrganizationSourceIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.source">Source</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#source GoogleSccV2OrganizationSourceIamPolicy#source}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#id GoogleSccV2OrganizationSourceIamPolicy#id}. |
 
 ---
 
@@ -908,7 +908,7 @@ Organization *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#organization GoogleSccV2OrganizationSourceIamPolicy#organization}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#organization GoogleSccV2OrganizationSourceIamPolicy#organization}.
 
 ---
 
@@ -920,7 +920,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#policy_data GoogleSccV2OrganizationSourceIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#policy_data GoogleSccV2OrganizationSourceIamPolicy#policy_data}.
 
 ---
 
@@ -932,7 +932,7 @@ Source *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#source GoogleSccV2OrganizationSourceIamPolicy#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#source GoogleSccV2OrganizationSourceIamPolicy#source}.
 
 ---
 
@@ -944,7 +944,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_policy#id GoogleSccV2OrganizationSourceIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_source_iam_policy#id GoogleSccV2OrganizationSourceIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

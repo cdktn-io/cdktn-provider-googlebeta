@@ -4,12 +4,12 @@
 
 ### GoogleApphubService <a name="GoogleApphubService" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service google_apphub_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service google_apphub_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubService(scope Construct, id *string, config GoogleApphubServiceConfig) GoogleApphubService
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.GoogleApphubService_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.GoogleApphubService_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleapphubservice.GoogleApphubService_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.GoogleApphubService_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleapphubservice.GoogleApphubService_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.GoogleApphubService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleApphubService to imp
 
 The id of the existing GoogleApphubService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1054,13 +1054,13 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceAttributes {
 	BusinessOwners: interface{},
-	Criticality: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubService.GoogleApphubServiceAttributesCriticality,
+	Criticality: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubService.GoogleApphubServiceAttributesCriticality,
 	DeveloperOwners: interface{},
-	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubService.GoogleApphubServiceAttributesEnvironment,
+	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubService.GoogleApphubServiceAttributesEnvironment,
 	OperatorOwners: interface{},
 }
 ```
@@ -1087,7 +1087,7 @@ BusinessOwners interface{}
 
 business_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#business_owners GoogleApphubService#business_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#business_owners GoogleApphubService#business_owners}
 
 ---
 
@@ -1101,7 +1101,7 @@ Criticality GoogleApphubServiceAttributesCriticality
 
 criticality block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#criticality GoogleApphubService#criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#criticality GoogleApphubService#criticality}
 
 ---
 
@@ -1115,7 +1115,7 @@ DeveloperOwners interface{}
 
 developer_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#developer_owners GoogleApphubService#developer_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#developer_owners GoogleApphubService#developer_owners}
 
 ---
 
@@ -1129,7 +1129,7 @@ Environment GoogleApphubServiceAttributesEnvironment
 
 environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#environment GoogleApphubService#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#environment GoogleApphubService#environment}
 
 ---
 
@@ -1143,7 +1143,7 @@ OperatorOwners interface{}
 
 operator_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#operator_owners GoogleApphubService#operator_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#operator_owners GoogleApphubService#operator_owners}
 
 ---
 
@@ -1152,7 +1152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceAttributesBusinessOwners {
 	Email: *string,
@@ -1179,7 +1179,7 @@ Email *string
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
 
 ---
 
@@ -1193,7 +1193,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesCriticality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceAttributesCriticality {
 	Type: *string,
@@ -1227,7 +1227,7 @@ Type *string
 
 Criticality type. Possible values: ["MISSION_CRITICAL", "HIGH", "MEDIUM", "LOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceAttributesDeveloperOwners {
 	Email: *string,
@@ -1263,7 +1263,7 @@ Email *string
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
 
 ---
 
@@ -1277,7 +1277,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1286,7 +1286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceAttributesEnvironment {
 	Type: *string,
@@ -1311,7 +1311,7 @@ Type *string
 
 Environment type. Possible values: ["PRODUCTION", "STAGING", "TEST", "DEVELOPMENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
 
 ---
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceAttributesOperatorOwners {
 	Email: *string,
@@ -1347,7 +1347,7 @@ Email *string
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
 
 ---
 
@@ -1361,7 +1361,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1370,7 +1370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceConfig {
 	Connection: interface{},
@@ -1384,12 +1384,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 	DiscoveredService: *string,
 	Location: *string,
 	ServiceId: *string,
-	Attributes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubService.GoogleApphubServiceAttributes,
+	Attributes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubService.GoogleApphubServiceAttributes,
 	Description: *string,
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApphubService.GoogleApphubServiceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApphubService.GoogleApphubServiceTimeouts,
 }
 ```
 
@@ -1411,8 +1411,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.attributes">Attributes</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributes">GoogleApphubServiceAttributes</a></code> | attributes block. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.description">Description</a></code> | <code>*string</code> | User-defined description of a Service. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User-defined name for the Service. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#id GoogleApphubService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#project GoogleApphubService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#id GoogleApphubService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#project GoogleApphubService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts">GoogleApphubServiceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1497,7 +1497,7 @@ ApplicationId *string
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#application_id GoogleApphubService#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#application_id GoogleApphubService#application_id}
 
 ---
 
@@ -1511,7 +1511,7 @@ DiscoveredService *string
 
 Immutable. The resource name of the original discovered service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#discovered_service GoogleApphubService#discovered_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#discovered_service GoogleApphubService#discovered_service}
 
 ---
 
@@ -1525,7 +1525,7 @@ Location *string
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#location GoogleApphubService#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#location GoogleApphubService#location}
 
 ---
 
@@ -1539,7 +1539,7 @@ ServiceId *string
 
 The Service identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#service_id GoogleApphubService#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#service_id GoogleApphubService#service_id}
 
 ---
 
@@ -1553,7 +1553,7 @@ Attributes GoogleApphubServiceAttributes
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#attributes GoogleApphubService#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#attributes GoogleApphubService#attributes}
 
 ---
 
@@ -1567,7 +1567,7 @@ Description *string
 
 User-defined description of a Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#description GoogleApphubService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#description GoogleApphubService#description}
 
 ---
 
@@ -1581,7 +1581,7 @@ DisplayName *string
 
 User-defined name for the Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1593,7 +1593,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#id GoogleApphubService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#id GoogleApphubService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1608,7 +1608,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#project GoogleApphubService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#project GoogleApphubService#project}.
 
 ---
 
@@ -1622,7 +1622,7 @@ Timeouts GoogleApphubServiceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#timeouts GoogleApphubService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#timeouts GoogleApphubService#timeouts}
 
 ---
 
@@ -1631,9 +1631,74 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceServiceProperties {
+
+}
+```
+
+
+### GoogleApphubServiceServicePropertiesExtendedMetadata <a name="GoogleApphubServiceServicePropertiesExtendedMetadata" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadata"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadata.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+&googleapphubservice.GoogleApphubServiceServicePropertiesExtendedMetadata {
+
+}
+```
+
+
+### GoogleApphubServiceServicePropertiesExtendedMetadataValue <a name="GoogleApphubServiceServicePropertiesExtendedMetadataValue" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValue"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValue.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+&googleapphubservice.GoogleApphubServiceServicePropertiesExtendedMetadataValue {
+
+}
+```
+
+
+### GoogleApphubServiceServicePropertiesFunctionalType <a name="GoogleApphubServiceServicePropertiesFunctionalType" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalType"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalType.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+&googleapphubservice.GoogleApphubServiceServicePropertiesFunctionalType {
+
+}
+```
+
+
+### GoogleApphubServiceServicePropertiesIdentity <a name="GoogleApphubServiceServicePropertiesIdentity" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentity.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+&googleapphubservice.GoogleApphubServiceServicePropertiesIdentity {
+
+}
+```
+
+
+### GoogleApphubServiceServicePropertiesRegistrationType <a name="GoogleApphubServiceServicePropertiesRegistrationType" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationType"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationType.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+&googleapphubservice.GoogleApphubServiceServicePropertiesRegistrationType {
 
 }
 ```
@@ -1644,7 +1709,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceServiceReference {
 
@@ -1657,7 +1722,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 &googleapphubservice.GoogleApphubServiceTimeouts {
 	Create: *string,
@@ -1670,9 +1735,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#create GoogleApphubService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#update GoogleApphubService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#create GoogleApphubService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#update GoogleApphubService#update}. |
 
 ---
 
@@ -1684,7 +1749,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#create GoogleApphubService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#create GoogleApphubService#create}.
 
 ---
 
@@ -1696,7 +1761,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}.
 
 ---
 
@@ -1708,7 +1773,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_service#update GoogleApphubService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_service#update GoogleApphubService#update}.
 
 ---
 
@@ -1719,7 +1784,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwnersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesBusinessOwnersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceAttributesBusinessOwnersList
 ```
@@ -1879,7 +1944,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesBusinessOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceAttributesBusinessOwnersOutputReference
 ```
@@ -2197,7 +2262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesCriticalityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesCriticalityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubServiceAttributesCriticalityOutputReference
 ```
@@ -2468,7 +2533,7 @@ func InternalValue() GoogleApphubServiceAttributesCriticality
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwnersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesDeveloperOwnersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceAttributesDeveloperOwnersList
 ```
@@ -2628,7 +2693,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesDeveloperOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceAttributesDeveloperOwnersOutputReference
 ```
@@ -2946,7 +3011,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubServiceAttributesEnvironmentOutputReference
 ```
@@ -3217,7 +3282,7 @@ func InternalValue() GoogleApphubServiceAttributesEnvironment
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwnersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesOperatorOwnersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceAttributesOperatorOwnersList
 ```
@@ -3377,7 +3442,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesOperatorOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceAttributesOperatorOwnersOutputReference
 ```
@@ -3695,7 +3760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubServiceAttributesOutputReference
 ```
@@ -4149,12 +4214,1742 @@ func InternalValue() GoogleApphubServiceAttributes
 ---
 
 
+### GoogleApphubServiceServicePropertiesExtendedMetadataList <a name="GoogleApphubServiceServicePropertiesExtendedMetadataList" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesExtendedMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceServicePropertiesExtendedMetadataList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference <a name="GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesExtendedMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.key">Key</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.value">Value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList">GoogleApphubServiceServicePropertiesExtendedMetadataValueList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadata">GoogleApphubServiceServicePropertiesExtendedMetadata</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.key"></a>
+
+```go
+func Key() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.value"></a>
+
+```go
+func Value() GoogleApphubServiceServicePropertiesExtendedMetadataValueList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList">GoogleApphubServiceServicePropertiesExtendedMetadataValueList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubServiceServicePropertiesExtendedMetadata
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadata">GoogleApphubServiceServicePropertiesExtendedMetadata</a>
+
+---
+
+
+### GoogleApphubServiceServicePropertiesExtendedMetadataValueList <a name="GoogleApphubServiceServicePropertiesExtendedMetadataValueList" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesExtendedMetadataValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceServicePropertiesExtendedMetadataValueList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference <a name="GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.extendedMetadataSchema">ExtendedMetadataSchema</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.metadataStruct">MetadataStruct</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValue">GoogleApphubServiceServicePropertiesExtendedMetadataValue</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExtendedMetadataSchema`<sup>Required</sup> <a name="ExtendedMetadataSchema" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.extendedMetadataSchema"></a>
+
+```go
+func ExtendedMetadataSchema() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MetadataStruct`<sup>Required</sup> <a name="MetadataStruct" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.metadataStruct"></a>
+
+```go
+func MetadataStruct() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValueOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubServiceServicePropertiesExtendedMetadataValue
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataValue">GoogleApphubServiceServicePropertiesExtendedMetadataValue</a>
+
+---
+
+
+### GoogleApphubServiceServicePropertiesFunctionalTypeList <a name="GoogleApphubServiceServicePropertiesFunctionalTypeList" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesFunctionalTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceServicePropertiesFunctionalTypeList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference <a name="GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesFunctionalTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.type">Type</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalType">GoogleApphubServiceServicePropertiesFunctionalType</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.type"></a>
+
+```go
+func Type() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubServiceServicePropertiesFunctionalType
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalType">GoogleApphubServiceServicePropertiesFunctionalType</a>
+
+---
+
+
+### GoogleApphubServiceServicePropertiesIdentityList <a name="GoogleApphubServiceServicePropertiesIdentityList" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesIdentityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceServicePropertiesIdentityList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubServiceServicePropertiesIdentityOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubServiceServicePropertiesIdentityOutputReference <a name="GoogleApphubServiceServicePropertiesIdentityOutputReference" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceServicePropertiesIdentityOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.principal">Principal</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentity">GoogleApphubServiceServicePropertiesIdentity</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Principal`<sup>Required</sup> <a name="Principal" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.principal"></a>
+
+```go
+func Principal() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubServiceServicePropertiesIdentity
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentity">GoogleApphubServiceServicePropertiesIdentity</a>
+
+---
+
+
 ### GoogleApphubServiceServicePropertiesList <a name="GoogleApphubServiceServicePropertiesList" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceServicePropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceServicePropertiesList
 ```
@@ -4303,7 +6098,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceServicePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceServicePropertiesOutputReference
 ```
@@ -4526,8 +6321,12 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.extendedMetadata">ExtendedMetadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList">GoogleApphubServiceServicePropertiesExtendedMetadataList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.functionalType">FunctionalType</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList">GoogleApphubServiceServicePropertiesFunctionalTypeList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.gcpProject">GcpProject</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.identity">Identity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList">GoogleApphubServiceServicePropertiesIdentityList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.location">Location</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.registrationType">RegistrationType</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList">GoogleApphubServiceServicePropertiesRegistrationTypeList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceProperties">GoogleApphubServiceServiceProperties</a></code> | *No description.* |
 
@@ -4557,6 +6356,26 @@ func Fqn() *string
 
 ---
 
+##### `ExtendedMetadata`<sup>Required</sup> <a name="ExtendedMetadata" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.extendedMetadata"></a>
+
+```go
+func ExtendedMetadata() GoogleApphubServiceServicePropertiesExtendedMetadataList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesExtendedMetadataList">GoogleApphubServiceServicePropertiesExtendedMetadataList</a>
+
+---
+
+##### `FunctionalType`<sup>Required</sup> <a name="FunctionalType" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.functionalType"></a>
+
+```go
+func FunctionalType() GoogleApphubServiceServicePropertiesFunctionalTypeList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesFunctionalTypeList">GoogleApphubServiceServicePropertiesFunctionalTypeList</a>
+
+---
+
 ##### `GcpProject`<sup>Required</sup> <a name="GcpProject" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.gcpProject"></a>
 
 ```go
@@ -4567,6 +6386,16 @@ func GcpProject() *string
 
 ---
 
+##### `Identity`<sup>Required</sup> <a name="Identity" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.identity"></a>
+
+```go
+func Identity() GoogleApphubServiceServicePropertiesIdentityList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesIdentityList">GoogleApphubServiceServicePropertiesIdentityList</a>
+
+---
+
 ##### `Location`<sup>Required</sup> <a name="Location" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.location"></a>
 
 ```go
@@ -4574,6 +6403,16 @@ func Location() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `RegistrationType`<sup>Required</sup> <a name="RegistrationType" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference.property.registrationType"></a>
+
+```go
+func RegistrationType() GoogleApphubServiceServicePropertiesRegistrationTypeList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList">GoogleApphubServiceServicePropertiesRegistrationTypeList</a>
 
 ---
 
@@ -4598,12 +6437,439 @@ func InternalValue() GoogleApphubServiceServiceProperties
 ---
 
 
+### GoogleApphubServiceServicePropertiesRegistrationTypeList <a name="GoogleApphubServiceServicePropertiesRegistrationTypeList" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesRegistrationTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceServicePropertiesRegistrationTypeList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.get"></a>
+
+```go
+func Get(index *f64) GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference <a name="GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
+
+googleapphubservice.NewGoogleApphubServiceServicePropertiesRegistrationTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.type">Type</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationType">GoogleApphubServiceServicePropertiesRegistrationType</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.type"></a>
+
+```go
+func Type() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationTypeOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleApphubServiceServicePropertiesRegistrationType
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesRegistrationType">GoogleApphubServiceServicePropertiesRegistrationType</a>
+
+---
+
+
 ### GoogleApphubServiceServiceReferenceList <a name="GoogleApphubServiceServiceReferenceList" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReferenceList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReferenceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceServiceReferenceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApphubServiceServiceReferenceList
 ```
@@ -4752,7 +7018,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceServiceReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApphubServiceServiceReferenceOutputReference
 ```
@@ -5030,7 +7296,7 @@ func InternalValue() GoogleApphubServiceServiceReference
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubservice"
 
 googleapphubservice.NewGoogleApphubServiceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApphubServiceTimeoutsOutputReference
 ```

@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryRoutine <a name="GoogleBigqueryRoutine" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine google_bigquery_routine}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine google_bigquery_routine}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer"></a>
 
@@ -27,10 +27,12 @@ GoogleBigqueryRoutine.Builder.create(Construct scope, java.lang.String id)
 //  .dataGovernanceType(java.lang.String)
 //  .description(java.lang.String)
 //  .determinismLevel(java.lang.String)
+//  .externalRuntimeOptions(GoogleBigqueryRoutineExternalRuntimeOptions)
 //  .id(java.lang.String)
 //  .importedLibraries(java.util.List<java.lang.String>)
 //  .language(java.lang.String)
 //  .project(java.lang.String)
+//  .pythonOptions(GoogleBigqueryRoutinePythonOptions)
 //  .remoteFunctionOptions(GoogleBigqueryRoutineRemoteFunctionOptions)
 //  .returnTableType(java.lang.String)
 //  .returnType(java.lang.String)
@@ -59,10 +61,12 @@ GoogleBigqueryRoutine.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.dataGovernanceType">dataGovernanceType</a></code> | <code>java.lang.String</code> | If set to DATA_MASKING, the function is validated and made available as a masking function. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description of the routine if defined. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.determinismLevel">determinismLevel</a></code> | <code>java.lang.String</code> | The determinism level of the JavaScript UDF if defined. Possible values: ["DETERMINISM_LEVEL_UNSPECIFIED", "DETERMINISTIC", "NOT_DETERMINISTIC"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.externalRuntimeOptions">externalRuntimeOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a></code> | external_runtime_options block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.importedLibraries">importedLibraries</a></code> | <code>java.util.List<java.lang.String></code> | Optional. If language = "JAVASCRIPT", this field stores the path of the imported JAVASCRIPT libraries. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.language">language</a></code> | <code>java.lang.String</code> | The language of the routine. Possible values: ["SQL", "JAVASCRIPT", "PYTHON", "JAVA", "SCALA"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.pythonOptions">pythonOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a></code> | python_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.remoteFunctionOptions">remoteFunctionOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptions">GoogleBigqueryRoutineRemoteFunctionOptions</a></code> | remote_function_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.returnTableType">returnTableType</a></code> | <code>java.lang.String</code> | Optional. Can be set only if routineType = "TABLE_VALUED_FUNCTION". |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.returnType">returnType</a></code> | <code>java.lang.String</code> | A JSON schema for the return type. |
@@ -138,7 +142,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the dataset containing this routine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#dataset_id GoogleBigqueryRoutine#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#dataset_id GoogleBigqueryRoutine#dataset_id}
 
 ---
 
@@ -151,7 +155,7 @@ The body of the routine.
 For functions, this is the expression in the AS clause.
 If language=SQL, it is the substring inside (but excluding) the parentheses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#definition_body GoogleBigqueryRoutine#definition_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#definition_body GoogleBigqueryRoutine#definition_body}
 
 ---
 
@@ -163,7 +167,7 @@ The ID of the the routine.
 
 The ID must contain only letters (a-z, A-Z), numbers (0-9), or underscores (_). The maximum length is 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#routine_id GoogleBigqueryRoutine#routine_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#routine_id GoogleBigqueryRoutine#routine_id}
 
 ---
 
@@ -173,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of routine. Possible values: ["SCALAR_FUNCTION", "PROCEDURE", "TABLE_VALUED_FUNCTION"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#routine_type GoogleBigqueryRoutine#routine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#routine_type GoogleBigqueryRoutine#routine_type}
 
 ---
 
@@ -183,7 +187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 arguments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#arguments GoogleBigqueryRoutine#arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#arguments GoogleBigqueryRoutine#arguments}
 
 ---
 
@@ -195,7 +199,7 @@ If set to DATA_MASKING, the function is validated and made available as a maskin
 
 For more information, see https://cloud.google.com/bigquery/docs/user-defined-functions#custom-mask Possible values: ["DATA_MASKING"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#data_governance_type GoogleBigqueryRoutine#data_governance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#data_governance_type GoogleBigqueryRoutine#data_governance_type}
 
 ---
 
@@ -205,7 +209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the routine if defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#description GoogleBigqueryRoutine#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#description GoogleBigqueryRoutine#description}
 
 ---
 
@@ -215,7 +219,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The determinism level of the JavaScript UDF if defined. Possible values: ["DETERMINISM_LEVEL_UNSPECIFIED", "DETERMINISTIC", "NOT_DETERMINISTIC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#determinism_level GoogleBigqueryRoutine#determinism_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#determinism_level GoogleBigqueryRoutine#determinism_level}
+
+---
+
+##### `externalRuntimeOptions`<sup>Optional</sup> <a name="externalRuntimeOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.externalRuntimeOptions"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a>
+
+external_runtime_options block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#external_runtime_options GoogleBigqueryRoutine#external_runtime_options}
 
 ---
 
@@ -223,7 +237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -236,7 +250,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Optional. If language = "JAVASCRIPT", this field stores the path of the imported JAVASCRIPT libraries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#imported_libraries GoogleBigqueryRoutine#imported_libraries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#imported_libraries GoogleBigqueryRoutine#imported_libraries}
 
 ---
 
@@ -246,7 +260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The language of the routine. Possible values: ["SQL", "JAVASCRIPT", "PYTHON", "JAVA", "SCALA"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#language GoogleBigqueryRoutine#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#language GoogleBigqueryRoutine#language}
 
 ---
 
@@ -254,7 +268,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}.
+
+---
+
+##### `pythonOptions`<sup>Optional</sup> <a name="pythonOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer.parameter.pythonOptions"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a>
+
+python_options block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#python_options GoogleBigqueryRoutine#python_options}
 
 ---
 
@@ -264,7 +288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 remote_function_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#remote_function_options GoogleBigqueryRoutine#remote_function_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#remote_function_options GoogleBigqueryRoutine#remote_function_options}
 
 ---
 
@@ -278,7 +302,7 @@ If absent, the return table type is inferred from definitionBody at query time i
 that references this routine. If present, then the columns in the evaluated table result will
 be cast to match the column types specificed in return table type, at query time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#return_table_type GoogleBigqueryRoutine#return_table_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#return_table_type GoogleBigqueryRoutine#return_table_type}
 
 ---
 
@@ -298,7 +322,7 @@ d the order of values or replaced STRUCT field type with RECORD field type, we c
 cannot suppress the recurring diff this causes. As a workaround, we recommend using
 the schema as returned by the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#return_type GoogleBigqueryRoutine#return_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#return_type GoogleBigqueryRoutine#return_type}
 
 ---
 
@@ -310,7 +334,7 @@ Optional.
 
 The security mode of the routine, if defined. If not defined, the security mode is automatically determined from the routine's configuration. Possible values: ["DEFINER", "INVOKER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#security_mode GoogleBigqueryRoutine#security_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#security_mode GoogleBigqueryRoutine#security_mode}
 
 ---
 
@@ -320,7 +344,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 spark_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#spark_options GoogleBigqueryRoutine#spark_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#spark_options GoogleBigqueryRoutine#spark_options}
 
 ---
 
@@ -330,7 +354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#timeouts GoogleBigqueryRoutine#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#timeouts GoogleBigqueryRoutine#timeouts}
 
 ---
 
@@ -363,6 +387,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putArguments">putArguments</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putExternalRuntimeOptions">putExternalRuntimeOptions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putPythonOptions">putPythonOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putRemoteFunctionOptions">putRemoteFunctionOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putSparkOptions">putSparkOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putTimeouts">putTimeouts</a></code> | *No description.* |
@@ -370,10 +396,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetDataGovernanceType">resetDataGovernanceType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetDeterminismLevel">resetDeterminismLevel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetExternalRuntimeOptions">resetExternalRuntimeOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetImportedLibraries">resetImportedLibraries</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetLanguage">resetLanguage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetPythonOptions">resetPythonOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetRemoteFunctionOptions">resetRemoteFunctionOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetReturnTableType">resetReturnTableType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetReturnType">resetReturnType</a></code> | *No description.* |
@@ -706,6 +734,30 @@ public void putArguments(IResolvable|java.util.List<GoogleBigqueryRoutineArgumen
 
 ---
 
+##### `putExternalRuntimeOptions` <a name="putExternalRuntimeOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putExternalRuntimeOptions"></a>
+
+```java
+public void putExternalRuntimeOptions(GoogleBigqueryRoutineExternalRuntimeOptions value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putExternalRuntimeOptions.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a>
+
+---
+
+##### `putPythonOptions` <a name="putPythonOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putPythonOptions"></a>
+
+```java
+public void putPythonOptions(GoogleBigqueryRoutinePythonOptions value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putPythonOptions.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a>
+
+---
+
 ##### `putRemoteFunctionOptions` <a name="putRemoteFunctionOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.putRemoteFunctionOptions"></a>
 
 ```java
@@ -766,6 +818,12 @@ public void resetDescription()
 public void resetDeterminismLevel()
 ```
 
+##### `resetExternalRuntimeOptions` <a name="resetExternalRuntimeOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetExternalRuntimeOptions"></a>
+
+```java
+public void resetExternalRuntimeOptions()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetId"></a>
 
 ```java
@@ -788,6 +846,12 @@ public void resetLanguage()
 
 ```java
 public void resetProject()
+```
+
+##### `resetPythonOptions` <a name="resetPythonOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetPythonOptions"></a>
+
+```java
+public void resetPythonOptions()
 ```
 
 ##### `resetRemoteFunctionOptions` <a name="resetRemoteFunctionOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.resetRemoteFunctionOptions"></a>
@@ -929,7 +993,7 @@ The construct id used in the generated config for the GoogleBigqueryRoutine to i
 
 The id of the existing GoogleBigqueryRoutine that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -961,7 +1025,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.arguments">arguments</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineArgumentsList">GoogleBigqueryRoutineArgumentsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.creationTime">creationTime</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.externalRuntimeOptions">externalRuntimeOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference">GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.lastModifiedTime">lastModifiedTime</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.pythonOptions">pythonOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference">GoogleBigqueryRoutinePythonOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.remoteFunctionOptions">remoteFunctionOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptionsOutputReference">GoogleBigqueryRoutineRemoteFunctionOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.sparkOptions">sparkOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineSparkOptionsOutputReference">GoogleBigqueryRoutineSparkOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeoutsOutputReference">GoogleBigqueryRoutineTimeoutsOutputReference</a></code> | *No description.* |
@@ -971,10 +1037,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.definitionBodyInput">definitionBodyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.determinismLevelInput">determinismLevelInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.externalRuntimeOptionsInput">externalRuntimeOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.importedLibrariesInput">importedLibrariesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.languageInput">languageInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.pythonOptionsInput">pythonOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.remoteFunctionOptionsInput">remoteFunctionOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptions">GoogleBigqueryRoutineRemoteFunctionOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.returnTableTypeInput">returnTableTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.returnTypeInput">returnTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1162,6 +1230,16 @@ public java.lang.Number getCreationTime();
 
 ---
 
+##### `externalRuntimeOptions`<sup>Required</sup> <a name="externalRuntimeOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.externalRuntimeOptions"></a>
+
+```java
+public GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference getExternalRuntimeOptions();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference">GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference</a>
+
+---
+
 ##### `lastModifiedTime`<sup>Required</sup> <a name="lastModifiedTime" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.lastModifiedTime"></a>
 
 ```java
@@ -1169,6 +1247,16 @@ public java.lang.Number getLastModifiedTime();
 ```
 
 - *Type:* java.lang.Number
+
+---
+
+##### `pythonOptions`<sup>Required</sup> <a name="pythonOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.pythonOptions"></a>
+
+```java
+public GoogleBigqueryRoutinePythonOptionsOutputReference getPythonOptions();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference">GoogleBigqueryRoutinePythonOptionsOutputReference</a>
 
 ---
 
@@ -1262,6 +1350,16 @@ public java.lang.String getDeterminismLevelInput();
 
 ---
 
+##### `externalRuntimeOptionsInput`<sup>Optional</sup> <a name="externalRuntimeOptionsInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.externalRuntimeOptionsInput"></a>
+
+```java
+public GoogleBigqueryRoutineExternalRuntimeOptions getExternalRuntimeOptionsInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a>
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.idInput"></a>
 
 ```java
@@ -1299,6 +1397,16 @@ public java.lang.String getProjectInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `pythonOptionsInput`<sup>Optional</sup> <a name="pythonOptionsInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.property.pythonOptionsInput"></a>
+
+```java
+public GoogleBigqueryRoutinePythonOptions getPythonOptionsInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a>
 
 ---
 
@@ -1578,7 +1686,7 @@ public java.lang.String getArgumentKind();
 
 Defaults to FIXED_TYPE. Default value: "FIXED_TYPE" Possible values: ["FIXED_TYPE", "ANY_TYPE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#argument_kind GoogleBigqueryRoutine#argument_kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#argument_kind GoogleBigqueryRoutine#argument_kind}
 
 ---
 
@@ -1600,7 +1708,7 @@ or replaced STRUCT field type with RECORD field type, we currently cannot
 suppress the recurring diff this causes. As a workaround, we recommend using
 the schema as returned by the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#data_type GoogleBigqueryRoutine#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#data_type GoogleBigqueryRoutine#data_type}
 
 ---
 
@@ -1614,7 +1722,7 @@ public java.lang.String getMode();
 
 Specifies whether the argument is input or output. Can be set for procedures only. Possible values: ["IN", "OUT", "INOUT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#mode GoogleBigqueryRoutine#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#mode GoogleBigqueryRoutine#mode}
 
 ---
 
@@ -1628,7 +1736,7 @@ public java.lang.String getName();
 
 The name of this argument. Can be absent for function return argument.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#name GoogleBigqueryRoutine#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#name GoogleBigqueryRoutine#name}
 
 ---
 
@@ -1655,10 +1763,12 @@ GoogleBigqueryRoutineConfig.builder()
 //  .dataGovernanceType(java.lang.String)
 //  .description(java.lang.String)
 //  .determinismLevel(java.lang.String)
+//  .externalRuntimeOptions(GoogleBigqueryRoutineExternalRuntimeOptions)
 //  .id(java.lang.String)
 //  .importedLibraries(java.util.List<java.lang.String>)
 //  .language(java.lang.String)
 //  .project(java.lang.String)
+//  .pythonOptions(GoogleBigqueryRoutinePythonOptions)
 //  .remoteFunctionOptions(GoogleBigqueryRoutineRemoteFunctionOptions)
 //  .returnTableType(java.lang.String)
 //  .returnType(java.lang.String)
@@ -1687,10 +1797,12 @@ GoogleBigqueryRoutineConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.dataGovernanceType">dataGovernanceType</a></code> | <code>java.lang.String</code> | If set to DATA_MASKING, the function is validated and made available as a masking function. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description of the routine if defined. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.determinismLevel">determinismLevel</a></code> | <code>java.lang.String</code> | The determinism level of the JavaScript UDF if defined. Possible values: ["DETERMINISM_LEVEL_UNSPECIFIED", "DETERMINISTIC", "NOT_DETERMINISTIC"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.externalRuntimeOptions">externalRuntimeOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a></code> | external_runtime_options block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.importedLibraries">importedLibraries</a></code> | <code>java.util.List<java.lang.String></code> | Optional. If language = "JAVASCRIPT", this field stores the path of the imported JAVASCRIPT libraries. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.language">language</a></code> | <code>java.lang.String</code> | The language of the routine. Possible values: ["SQL", "JAVASCRIPT", "PYTHON", "JAVA", "SCALA"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.pythonOptions">pythonOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a></code> | python_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.remoteFunctionOptions">remoteFunctionOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptions">GoogleBigqueryRoutineRemoteFunctionOptions</a></code> | remote_function_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.returnTableType">returnTableType</a></code> | <code>java.lang.String</code> | Optional. Can be set only if routineType = "TABLE_VALUED_FUNCTION". |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.returnType">returnType</a></code> | <code>java.lang.String</code> | A JSON schema for the return type. |
@@ -1780,7 +1892,7 @@ public java.lang.String getDatasetId();
 
 The ID of the dataset containing this routine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#dataset_id GoogleBigqueryRoutine#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#dataset_id GoogleBigqueryRoutine#dataset_id}
 
 ---
 
@@ -1797,7 +1909,7 @@ The body of the routine.
 For functions, this is the expression in the AS clause.
 If language=SQL, it is the substring inside (but excluding) the parentheses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#definition_body GoogleBigqueryRoutine#definition_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#definition_body GoogleBigqueryRoutine#definition_body}
 
 ---
 
@@ -1813,7 +1925,7 @@ The ID of the the routine.
 
 The ID must contain only letters (a-z, A-Z), numbers (0-9), or underscores (_). The maximum length is 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#routine_id GoogleBigqueryRoutine#routine_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#routine_id GoogleBigqueryRoutine#routine_id}
 
 ---
 
@@ -1827,7 +1939,7 @@ public java.lang.String getRoutineType();
 
 The type of routine. Possible values: ["SCALAR_FUNCTION", "PROCEDURE", "TABLE_VALUED_FUNCTION"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#routine_type GoogleBigqueryRoutine#routine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#routine_type GoogleBigqueryRoutine#routine_type}
 
 ---
 
@@ -1841,7 +1953,7 @@ public IResolvable|java.util.List<GoogleBigqueryRoutineArguments> getArguments()
 
 arguments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#arguments GoogleBigqueryRoutine#arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#arguments GoogleBigqueryRoutine#arguments}
 
 ---
 
@@ -1857,7 +1969,7 @@ If set to DATA_MASKING, the function is validated and made available as a maskin
 
 For more information, see https://cloud.google.com/bigquery/docs/user-defined-functions#custom-mask Possible values: ["DATA_MASKING"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#data_governance_type GoogleBigqueryRoutine#data_governance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#data_governance_type GoogleBigqueryRoutine#data_governance_type}
 
 ---
 
@@ -1871,7 +1983,7 @@ public java.lang.String getDescription();
 
 The description of the routine if defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#description GoogleBigqueryRoutine#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#description GoogleBigqueryRoutine#description}
 
 ---
 
@@ -1885,7 +1997,21 @@ public java.lang.String getDeterminismLevel();
 
 The determinism level of the JavaScript UDF if defined. Possible values: ["DETERMINISM_LEVEL_UNSPECIFIED", "DETERMINISTIC", "NOT_DETERMINISTIC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#determinism_level GoogleBigqueryRoutine#determinism_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#determinism_level GoogleBigqueryRoutine#determinism_level}
+
+---
+
+##### `externalRuntimeOptions`<sup>Optional</sup> <a name="externalRuntimeOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.externalRuntimeOptions"></a>
+
+```java
+public GoogleBigqueryRoutineExternalRuntimeOptions getExternalRuntimeOptions();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a>
+
+external_runtime_options block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#external_runtime_options GoogleBigqueryRoutine#external_runtime_options}
 
 ---
 
@@ -1897,7 +2023,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#id GoogleBigqueryRoutine#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1914,7 +2040,7 @@ public java.util.List<java.lang.String> getImportedLibraries();
 
 Optional. If language = "JAVASCRIPT", this field stores the path of the imported JAVASCRIPT libraries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#imported_libraries GoogleBigqueryRoutine#imported_libraries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#imported_libraries GoogleBigqueryRoutine#imported_libraries}
 
 ---
 
@@ -1928,7 +2054,7 @@ public java.lang.String getLanguage();
 
 The language of the routine. Possible values: ["SQL", "JAVASCRIPT", "PYTHON", "JAVA", "SCALA"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#language GoogleBigqueryRoutine#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#language GoogleBigqueryRoutine#language}
 
 ---
 
@@ -1940,7 +2066,21 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#project GoogleBigqueryRoutine#project}.
+
+---
+
+##### `pythonOptions`<sup>Optional</sup> <a name="pythonOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.property.pythonOptions"></a>
+
+```java
+public GoogleBigqueryRoutinePythonOptions getPythonOptions();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a>
+
+python_options block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#python_options GoogleBigqueryRoutine#python_options}
 
 ---
 
@@ -1954,7 +2094,7 @@ public GoogleBigqueryRoutineRemoteFunctionOptions getRemoteFunctionOptions();
 
 remote_function_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#remote_function_options GoogleBigqueryRoutine#remote_function_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#remote_function_options GoogleBigqueryRoutine#remote_function_options}
 
 ---
 
@@ -1972,7 +2112,7 @@ If absent, the return table type is inferred from definitionBody at query time i
 that references this routine. If present, then the columns in the evaluated table result will
 be cast to match the column types specificed in return table type, at query time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#return_table_type GoogleBigqueryRoutine#return_table_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#return_table_type GoogleBigqueryRoutine#return_table_type}
 
 ---
 
@@ -1996,7 +2136,7 @@ d the order of values or replaced STRUCT field type with RECORD field type, we c
 cannot suppress the recurring diff this causes. As a workaround, we recommend using
 the schema as returned by the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#return_type GoogleBigqueryRoutine#return_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#return_type GoogleBigqueryRoutine#return_type}
 
 ---
 
@@ -2012,7 +2152,7 @@ Optional.
 
 The security mode of the routine, if defined. If not defined, the security mode is automatically determined from the routine's configuration. Possible values: ["DEFINER", "INVOKER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#security_mode GoogleBigqueryRoutine#security_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#security_mode GoogleBigqueryRoutine#security_mode}
 
 ---
 
@@ -2026,7 +2166,7 @@ public GoogleBigqueryRoutineSparkOptions getSparkOptions();
 
 spark_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#spark_options GoogleBigqueryRoutine#spark_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#spark_options GoogleBigqueryRoutine#spark_options}
 
 ---
 
@@ -2040,7 +2180,164 @@ public GoogleBigqueryRoutineTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#timeouts GoogleBigqueryRoutine#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#timeouts GoogleBigqueryRoutine#timeouts}
+
+---
+
+### GoogleBigqueryRoutineExternalRuntimeOptions <a name="GoogleBigqueryRoutineExternalRuntimeOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_bigquery_routine.GoogleBigqueryRoutineExternalRuntimeOptions;
+
+GoogleBigqueryRoutineExternalRuntimeOptions.builder()
+//  .containerCpu(java.lang.Number)
+//  .containerMemory(java.lang.String)
+//  .maxBatchingRows(java.lang.String)
+//  .runtimeConnection(java.lang.String)
+//  .runtimeVersion(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.containerCpu">containerCpu</a></code> | <code>java.lang.Number</code> | Amount of CPU provisioned for a Python UDF container instance. For more information, see [Configure container limits for Python UDFs](https://cloud.google.com/bigquery/docs/user-defined-functions-python#configure-container-limits). |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.containerMemory">containerMemory</a></code> | <code>java.lang.String</code> | Amount of memory provisioned for a Python UDF container instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.maxBatchingRows">maxBatchingRows</a></code> | <code>java.lang.String</code> | Maximum number of rows in each batch sent to the external runtime. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.runtimeConnection">runtimeConnection</a></code> | <code>java.lang.String</code> | Fully qualified name of the connection whose service account will be used to execute the code in the container. Format: '"projects/{project_id}/locations/{location_id}/connections/{connection_id}"'. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.runtimeVersion">runtimeVersion</a></code> | <code>java.lang.String</code> | Language runtime version. Example: 'python-3.11'. |
+
+---
+
+##### `containerCpu`<sup>Optional</sup> <a name="containerCpu" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.containerCpu"></a>
+
+```java
+public java.lang.Number getContainerCpu();
+```
+
+- *Type:* java.lang.Number
+
+Amount of CPU provisioned for a Python UDF container instance. For more information, see [Configure container limits for Python UDFs](https://cloud.google.com/bigquery/docs/user-defined-functions-python#configure-container-limits).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#container_cpu GoogleBigqueryRoutine#container_cpu}
+
+---
+
+##### `containerMemory`<sup>Optional</sup> <a name="containerMemory" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.containerMemory"></a>
+
+```java
+public java.lang.String getContainerMemory();
+```
+
+- *Type:* java.lang.String
+
+Amount of memory provisioned for a Python UDF container instance.
+
+Format:
+{number}{unit} where unit is one of "M", "G", "Mi" and "Gi" (e.g. 1G,
+512Mi). If not specified, the default value is 512Mi. For more information,
+see [Configure container limits for Python
+UDFs](https://cloud.google.com/bigquery/docs/user-defined-functions-python#configure-container-limits)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#container_memory GoogleBigqueryRoutine#container_memory}
+
+---
+
+##### `maxBatchingRows`<sup>Optional</sup> <a name="maxBatchingRows" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.maxBatchingRows"></a>
+
+```java
+public java.lang.String getMaxBatchingRows();
+```
+
+- *Type:* java.lang.String
+
+Maximum number of rows in each batch sent to the external runtime.
+
+If
+absent or if 0, BigQuery dynamically decides the number of rows in a batch.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#max_batching_rows GoogleBigqueryRoutine#max_batching_rows}
+
+---
+
+##### `runtimeConnection`<sup>Optional</sup> <a name="runtimeConnection" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.runtimeConnection"></a>
+
+```java
+public java.lang.String getRuntimeConnection();
+```
+
+- *Type:* java.lang.String
+
+Fully qualified name of the connection whose service account will be used to execute the code in the container. Format: '"projects/{project_id}/locations/{location_id}/connections/{connection_id}"'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#runtime_connection GoogleBigqueryRoutine#runtime_connection}
+
+---
+
+##### `runtimeVersion`<sup>Optional</sup> <a name="runtimeVersion" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.property.runtimeVersion"></a>
+
+```java
+public java.lang.String getRuntimeVersion();
+```
+
+- *Type:* java.lang.String
+
+Language runtime version. Example: 'python-3.11'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#runtime_version GoogleBigqueryRoutine#runtime_version}
+
+---
+
+### GoogleBigqueryRoutinePythonOptions <a name="GoogleBigqueryRoutinePythonOptions" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_bigquery_routine.GoogleBigqueryRoutinePythonOptions;
+
+GoogleBigqueryRoutinePythonOptions.builder()
+    .entryPoint(java.lang.String)
+//  .packages(java.util.List<java.lang.String>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions.property.entryPoint">entryPoint</a></code> | <code>java.lang.String</code> | The name of the function defined in Python code as the entry point when the Python UDF is invoked. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions.property.packages">packages</a></code> | <code>java.util.List<java.lang.String></code> | A list of Python package names along with versions to be installed. Example: ["pandas>=2.1", "google-cloud-translate==3.11"]. For more information, see [Use third-party packages](https://cloud.google.com/bigquery/docs/user-defined-functions-python#third-party-packages). |
+
+---
+
+##### `entryPoint`<sup>Required</sup> <a name="entryPoint" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions.property.entryPoint"></a>
+
+```java
+public java.lang.String getEntryPoint();
+```
+
+- *Type:* java.lang.String
+
+The name of the function defined in Python code as the entry point when the Python UDF is invoked.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#entry_point GoogleBigqueryRoutine#entry_point}
+
+---
+
+##### `packages`<sup>Optional</sup> <a name="packages" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions.property.packages"></a>
+
+```java
+public java.util.List<java.lang.String> getPackages();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+A list of Python package names along with versions to be installed. Example: ["pandas>=2.1", "google-cloud-translate==3.11"]. For more information, see [Use third-party packages](https://cloud.google.com/bigquery/docs/user-defined-functions-python#third-party-packages).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#packages GoogleBigqueryRoutine#packages}
 
 ---
 
@@ -2082,7 +2379,7 @@ Fully qualified name of the user-provided connection object which holds the auth
 
 Format: "projects/{projectId}/locations/{locationId}/connections/{connectionId}"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#connection GoogleBigqueryRoutine#connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#connection GoogleBigqueryRoutine#connection}
 
 ---
 
@@ -2096,7 +2393,7 @@ public java.lang.String getEndpoint();
 
 Endpoint of the user-provided remote service, e.g. 'https://us-east1-my_gcf_project.cloudfunctions.net/remote_add'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#endpoint GoogleBigqueryRoutine#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#endpoint GoogleBigqueryRoutine#endpoint}
 
 ---
 
@@ -2113,7 +2410,7 @@ Max number of rows in each batch sent to the remote service.
 If absent or if 0,
 BigQuery dynamically decides the number of rows in a batch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#max_batching_rows GoogleBigqueryRoutine#max_batching_rows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#max_batching_rows GoogleBigqueryRoutine#max_batching_rows}
 
 ---
 
@@ -2132,7 +2429,7 @@ The total number of bytes of keys and values must be less than 8KB.
 An object containing a list of "key": value pairs. Example:
 '{ "name": "wrench", "mass": "1.3kg", "count": "3" }'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#user_defined_context GoogleBigqueryRoutine#user_defined_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#user_defined_context GoogleBigqueryRoutine#user_defined_context}
 
 ---
 
@@ -2186,7 +2483,7 @@ Archive files to be extracted into the working directory of each executor.
 
 For more information about Apache Spark, see Apache Spark.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#archive_uris GoogleBigqueryRoutine#archive_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#archive_uris GoogleBigqueryRoutine#archive_uris}
 
 ---
 
@@ -2200,7 +2497,7 @@ public java.lang.String getConnection();
 
 Fully qualified name of the user-provided Spark connection object. Format: "projects/{projectId}/locations/{locationId}/connections/{connectionId}".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#connection GoogleBigqueryRoutine#connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#connection GoogleBigqueryRoutine#connection}
 
 ---
 
@@ -2214,7 +2511,7 @@ public java.lang.String getContainerImage();
 
 Custom container image for the runtime environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#container_image GoogleBigqueryRoutine#container_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#container_image GoogleBigqueryRoutine#container_image}
 
 ---
 
@@ -2230,7 +2527,7 @@ Files to be placed in the working directory of each executor.
 
 For more information about Apache Spark, see Apache Spark.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#file_uris GoogleBigqueryRoutine#file_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#file_uris GoogleBigqueryRoutine#file_uris}
 
 ---
 
@@ -2244,7 +2541,7 @@ public java.util.List<java.lang.String> getJarUris();
 
 JARs to include on the driver and executor CLASSPATH. For more information about Apache Spark, see Apache Spark.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#jar_uris GoogleBigqueryRoutine#jar_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#jar_uris GoogleBigqueryRoutine#jar_uris}
 
 ---
 
@@ -2258,7 +2555,7 @@ public java.lang.String getMainClass();
 
 The fully qualified name of a class in jarUris, for example, com.example.wordcount. Exactly one of mainClass and main_jar_uri field should be set for Java/Scala language type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#main_class GoogleBigqueryRoutine#main_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#main_class GoogleBigqueryRoutine#main_class}
 
 ---
 
@@ -2275,7 +2572,7 @@ The main file/jar URI of the Spark application.
 Exactly one of the definitionBody field and the mainFileUri field must be set for Python.
 Exactly one of mainClass and mainFileUri field should be set for Java/Scala language type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#main_file_uri GoogleBigqueryRoutine#main_file_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#main_file_uri GoogleBigqueryRoutine#main_file_uri}
 
 ---
 
@@ -2292,7 +2589,7 @@ Configuration properties as a set of key/value pairs, which will be passed on to
 For more information, see Apache Spark and the procedure option list.
 An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#properties GoogleBigqueryRoutine#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#properties GoogleBigqueryRoutine#properties}
 
 ---
 
@@ -2308,7 +2605,7 @@ Python files to be placed on the PYTHONPATH for PySpark application.
 
 Supported file types: .py, .egg, and .zip. For more information about Apache Spark, see Apache Spark.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#py_file_uris GoogleBigqueryRoutine#py_file_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#py_file_uris GoogleBigqueryRoutine#py_file_uris}
 
 ---
 
@@ -2322,7 +2619,7 @@ public java.lang.String getRuntimeVersion();
 
 Runtime version. If not specified, the default runtime version is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#runtime_version GoogleBigqueryRoutine#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#runtime_version GoogleBigqueryRoutine#runtime_version}
 
 ---
 
@@ -2344,9 +2641,9 @@ GoogleBigqueryRoutineTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#create GoogleBigqueryRoutine#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#delete GoogleBigqueryRoutine#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#update GoogleBigqueryRoutine#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#create GoogleBigqueryRoutine#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#delete GoogleBigqueryRoutine#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#update GoogleBigqueryRoutine#update}. |
 
 ---
 
@@ -2358,7 +2655,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#create GoogleBigqueryRoutine#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#create GoogleBigqueryRoutine#create}.
 
 ---
 
@@ -2370,7 +2667,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#delete GoogleBigqueryRoutine#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#delete GoogleBigqueryRoutine#delete}.
 
 ---
 
@@ -2382,7 +2679,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_routine#update GoogleBigqueryRoutine#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_routine#update GoogleBigqueryRoutine#update}.
 
 ---
 
@@ -2927,6 +3224,700 @@ public IResolvable|GoogleBigqueryRoutineArguments getInternalValue();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineArguments">GoogleBigqueryRoutineArguments</a>
+
+---
+
+
+### GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference <a name="GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_bigquery_routine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference;
+
+new GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetContainerCpu">resetContainerCpu</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetContainerMemory">resetContainerMemory</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetMaxBatchingRows">resetMaxBatchingRows</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetRuntimeConnection">resetRuntimeConnection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetRuntimeVersion">resetRuntimeVersion</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetContainerCpu` <a name="resetContainerCpu" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetContainerCpu"></a>
+
+```java
+public void resetContainerCpu()
+```
+
+##### `resetContainerMemory` <a name="resetContainerMemory" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetContainerMemory"></a>
+
+```java
+public void resetContainerMemory()
+```
+
+##### `resetMaxBatchingRows` <a name="resetMaxBatchingRows" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetMaxBatchingRows"></a>
+
+```java
+public void resetMaxBatchingRows()
+```
+
+##### `resetRuntimeConnection` <a name="resetRuntimeConnection" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetRuntimeConnection"></a>
+
+```java
+public void resetRuntimeConnection()
+```
+
+##### `resetRuntimeVersion` <a name="resetRuntimeVersion" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.resetRuntimeVersion"></a>
+
+```java
+public void resetRuntimeVersion()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerCpuInput">containerCpuInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerMemoryInput">containerMemoryInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.maxBatchingRowsInput">maxBatchingRowsInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeConnectionInput">runtimeConnectionInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeVersionInput">runtimeVersionInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerCpu">containerCpu</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerMemory">containerMemory</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.maxBatchingRows">maxBatchingRows</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeConnection">runtimeConnection</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeVersion">runtimeVersion</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `containerCpuInput`<sup>Optional</sup> <a name="containerCpuInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerCpuInput"></a>
+
+```java
+public java.lang.Number getContainerCpuInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `containerMemoryInput`<sup>Optional</sup> <a name="containerMemoryInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerMemoryInput"></a>
+
+```java
+public java.lang.String getContainerMemoryInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `maxBatchingRowsInput`<sup>Optional</sup> <a name="maxBatchingRowsInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.maxBatchingRowsInput"></a>
+
+```java
+public java.lang.String getMaxBatchingRowsInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `runtimeConnectionInput`<sup>Optional</sup> <a name="runtimeConnectionInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeConnectionInput"></a>
+
+```java
+public java.lang.String getRuntimeConnectionInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `runtimeVersionInput`<sup>Optional</sup> <a name="runtimeVersionInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeVersionInput"></a>
+
+```java
+public java.lang.String getRuntimeVersionInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `containerCpu`<sup>Required</sup> <a name="containerCpu" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerCpu"></a>
+
+```java
+public java.lang.Number getContainerCpu();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `containerMemory`<sup>Required</sup> <a name="containerMemory" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.containerMemory"></a>
+
+```java
+public java.lang.String getContainerMemory();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `maxBatchingRows`<sup>Required</sup> <a name="maxBatchingRows" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.maxBatchingRows"></a>
+
+```java
+public java.lang.String getMaxBatchingRows();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `runtimeConnection`<sup>Required</sup> <a name="runtimeConnection" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeConnection"></a>
+
+```java
+public java.lang.String getRuntimeConnection();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `runtimeVersion`<sup>Required</sup> <a name="runtimeVersion" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.runtimeVersion"></a>
+
+```java
+public java.lang.String getRuntimeVersion();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.property.internalValue"></a>
+
+```java
+public GoogleBigqueryRoutineExternalRuntimeOptions getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions">GoogleBigqueryRoutineExternalRuntimeOptions</a>
+
+---
+
+
+### GoogleBigqueryRoutinePythonOptionsOutputReference <a name="GoogleBigqueryRoutinePythonOptionsOutputReference" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_bigquery_routine.GoogleBigqueryRoutinePythonOptionsOutputReference;
+
+new GoogleBigqueryRoutinePythonOptionsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.resetPackages">resetPackages</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetPackages` <a name="resetPackages" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.resetPackages"></a>
+
+```java
+public void resetPackages()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.entryPointInput">entryPointInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.packagesInput">packagesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.entryPoint">entryPoint</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.packages">packages</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `entryPointInput`<sup>Optional</sup> <a name="entryPointInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.entryPointInput"></a>
+
+```java
+public java.lang.String getEntryPointInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `packagesInput`<sup>Optional</sup> <a name="packagesInput" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.packagesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getPackagesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `entryPoint`<sup>Required</sup> <a name="entryPoint" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.entryPoint"></a>
+
+```java
+public java.lang.String getEntryPoint();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `packages`<sup>Required</sup> <a name="packages" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.packages"></a>
+
+```java
+public java.util.List<java.lang.String> getPackages();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.property.internalValue"></a>
+
+```java
+public GoogleBigqueryRoutinePythonOptions getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions">GoogleBigqueryRoutinePythonOptions</a>
 
 ---
 

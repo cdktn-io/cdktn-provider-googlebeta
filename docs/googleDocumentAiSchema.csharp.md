@@ -1,0 +1,1520 @@
+# `googleDocumentAiSchema` Submodule <a name="`googleDocumentAiSchema` Submodule" id="@cdktn/provider-google-beta.googleDocumentAiSchema"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### GoogleDocumentAiSchema <a name="GoogleDocumentAiSchema" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema google_document_ai_schema}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDocumentAiSchema(Construct Scope, string Id, GoogleDocumentAiSchemaConfig Config);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer.parameter.scope">Scope</a></code> | <code>Constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer.parameter.id">Id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer.parameter.config">Config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig">GoogleDocumentAiSchemaConfig</a></code> | *No description.* |
+
+---
+
+##### `Scope`<sup>Required</sup> <a name="Scope" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer.parameter.scope"></a>
+
+- *Type:* Constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `Config`<sup>Required</sup> <a name="Config" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig">GoogleDocumentAiSchemaConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.with">With</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetDisplayName">ResetDisplayName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetLabels">ResetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetProject">ResetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Returns a string representation of this construct.
+
+##### `With` <a name="With" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.with"></a>
+
+```csharp
+private IConstruct With(params IMixin[] Mixins)
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `Mixins`<sup>Required</sup> <a name="Mixins" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.with.parameter.mixins"></a>
+
+- *Type:* params Constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.addOverride"></a>
+
+```csharp
+private void AddOverride(string Path, object Value)
+```
+
+###### `Path`<sup>Required</sup> <a name="Path" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.addOverride.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.overrideLogicalId"></a>
+
+```csharp
+private void OverrideLogicalId(string NewLogicalId)
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `NewLogicalId`<sup>Required</sup> <a name="NewLogicalId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetOverrideLogicalId"></a>
+
+```csharp
+private void ResetOverrideLogicalId()
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toHclTerraform"></a>
+
+```csharp
+private object ToHclTerraform()
+```
+
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toMetadata"></a>
+
+```csharp
+private object ToMetadata()
+```
+
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.toTerraform"></a>
+
+```csharp
+private object ToTerraform()
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.addMoveTarget"></a>
+
+```csharp
+private void AddMoveTarget(string MoveTarget)
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `MoveTarget`<sup>Required</sup> <a name="MoveTarget" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.hasResourceMove"></a>
+
+```csharp
+private TerraformResourceMoveByTarget|TerraformResourceMoveById HasResourceMove()
+```
+
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.importFrom"></a>
+
+```csharp
+private void ImportFrom(string Id, TerraformProvider Provider = null)
+```
+
+###### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.importFrom.parameter.provider"></a>
+
+- *Type:* Io.Cdktn.TerraformProvider
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveFromId"></a>
+
+```csharp
+private void MoveFromId(string Id)
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using it's instance function.
+
+###### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveTo"></a>
+
+```csharp
+private void MoveTo(string MoveTarget, string|double Index = null)
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `MoveTarget`<sup>Required</sup> <a name="MoveTarget" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `Index`<sup>Optional</sup> <a name="Index" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveTo.parameter.index"></a>
+
+- *Type:* string|double
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveToId"></a>
+
+```csharp
+private void MoveToId(string Id)
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `PutTimeouts` <a name="PutTimeouts" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.putTimeouts"></a>
+
+```csharp
+private void PutTimeouts(GoogleDocumentAiSchemaTimeouts Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.putTimeouts.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a>
+
+---
+
+##### `ResetDisplayName` <a name="ResetDisplayName" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetDisplayName"></a>
+
+```csharp
+private void ResetDisplayName()
+```
+
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetId"></a>
+
+```csharp
+private void ResetId()
+```
+
+##### `ResetLabels` <a name="ResetLabels" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetLabels"></a>
+
+```csharp
+private void ResetLabels()
+```
+
+##### `ResetProject` <a name="ResetProject" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetProject"></a>
+
+```csharp
+private void ResetProject()
+```
+
+##### `ResetTimeouts` <a name="ResetTimeouts" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.resetTimeouts"></a>
+
+```csharp
+private void ResetTimeouts()
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a GoogleDocumentAiSchema resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isConstruct"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+GoogleDocumentAiSchema.IsConstruct(object X);
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `X`<sup>Required</sup> <a name="X" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isConstruct.parameter.x"></a>
+
+- *Type:* object
+
+Any object.
+
+---
+
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformElement"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+GoogleDocumentAiSchema.IsTerraformElement(object X);
+```
+
+###### `X`<sup>Required</sup> <a name="X" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformElement.parameter.x"></a>
+
+- *Type:* object
+
+---
+
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformResource"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+GoogleDocumentAiSchema.IsTerraformResource(object X);
+```
+
+###### `X`<sup>Required</sup> <a name="X" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformResource.parameter.x"></a>
+
+- *Type:* object
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.generateConfigForImport"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+GoogleDocumentAiSchema.GenerateConfigForImport(Construct Scope, string ImportToId, string ImportFromId, TerraformProvider Provider = null);
+```
+
+Generates CDKTN code for importing a GoogleDocumentAiSchema resource upon running "cdktn plan <stack-name>".
+
+###### `Scope`<sup>Required</sup> <a name="Scope" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* Constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `ImportToId`<sup>Required</sup> <a name="ImportToId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the GoogleDocumentAiSchema to import.
+
+---
+
+###### `ImportFromId`<sup>Required</sup> <a name="ImportFromId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing GoogleDocumentAiSchema that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* Io.Cdktn.TerraformProvider
+
+? Optional instance of the provider where the GoogleDocumentAiSchema to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.node">Node</a></code> | <code>Constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.cdktfStack">CdktfStack</a></code> | <code>Io.Cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>System.Collections.Generic.IDictionary<string, object></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformResourceType">TerraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>Io.Cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.connection">Connection</a></code> | <code>Io.Cdktn.SSHProvisionerConnection\|Io.Cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.count">Count</a></code> | <code>double\|Io.Cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.dependsOn">DependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.forEach">ForEach</a></code> | <code>Io.Cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.createTime">CreateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.effectiveLabels">EffectiveLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference">GoogleDocumentAiSchemaTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.updateTime">UpdateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.displayNameInput">DisplayNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.labelsInput">LabelsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.locationInput">LocationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.displayName">DisplayName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.id">Id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.location">Location</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.project">Project</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.node"></a>
+
+```csharp
+public Node Node { get; }
+```
+
+- *Type:* Constructs.Node
+
+The tree node.
+
+---
+
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.cdktfStack"></a>
+
+```csharp
+public TerraformStack CdktfStack { get; }
+```
+
+- *Type:* Io.Cdktn.TerraformStack
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.friendlyUniqueId"></a>
+
+```csharp
+public string FriendlyUniqueId { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformMetaArguments"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, object> TerraformMetaArguments { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, object>
+
+---
+
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformResourceType"></a>
+
+```csharp
+public string TerraformResourceType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformGeneratorMetadata"></a>
+
+```csharp
+public TerraformProviderGeneratorMetadata TerraformGeneratorMetadata { get; }
+```
+
+- *Type:* Io.Cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.connection"></a>
+
+```csharp
+public SSHProvisionerConnection|WinrmProvisionerConnection Connection { get; }
+```
+
+- *Type:* Io.Cdktn.SSHProvisionerConnection|Io.Cdktn.WinrmProvisionerConnection
+
+---
+
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.count"></a>
+
+```csharp
+public double|TerraformCount Count { get; }
+```
+
+- *Type:* double|Io.Cdktn.TerraformCount
+
+---
+
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.dependsOn"></a>
+
+```csharp
+public string[] DependsOn { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.forEach"></a>
+
+```csharp
+public ITerraformIterator ForEach { get; }
+```
+
+- *Type:* Io.Cdktn.ITerraformIterator
+
+---
+
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.lifecycle"></a>
+
+```csharp
+public TerraformResourceLifecycle Lifecycle { get; }
+```
+
+- *Type:* Io.Cdktn.TerraformResourceLifecycle
+
+---
+
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.provider"></a>
+
+```csharp
+public TerraformProvider Provider { get; }
+```
+
+- *Type:* Io.Cdktn.TerraformProvider
+
+---
+
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.provisioners"></a>
+
+```csharp
+public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners { get; }
+```
+
+- *Type:* Io.Cdktn.FileProvisioner|Io.Cdktn.LocalExecProvisioner|Io.Cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `CreateTime`<sup>Required</sup> <a name="CreateTime" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.createTime"></a>
+
+```csharp
+public string CreateTime { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EffectiveLabels`<sup>Required</sup> <a name="EffectiveLabels" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.effectiveLabels"></a>
+
+```csharp
+public StringMap EffectiveLabels { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TerraformLabels`<sup>Required</sup> <a name="TerraformLabels" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.terraformLabels"></a>
+
+```csharp
+public StringMap TerraformLabels { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
+
+---
+
+##### `Timeouts`<sup>Required</sup> <a name="Timeouts" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.timeouts"></a>
+
+```csharp
+public GoogleDocumentAiSchemaTimeoutsOutputReference Timeouts { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference">GoogleDocumentAiSchemaTimeoutsOutputReference</a>
+
+---
+
+##### `UpdateTime`<sup>Required</sup> <a name="UpdateTime" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.updateTime"></a>
+
+```csharp
+public string UpdateTime { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DisplayNameInput`<sup>Optional</sup> <a name="DisplayNameInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.displayNameInput"></a>
+
+```csharp
+public string DisplayNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.idInput"></a>
+
+```csharp
+public string IdInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LabelsInput`<sup>Optional</sup> <a name="LabelsInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.labelsInput"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> LabelsInput { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+---
+
+##### `LocationInput`<sup>Optional</sup> <a name="LocationInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.locationInput"></a>
+
+```csharp
+public string LocationInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.projectInput"></a>
+
+```csharp
+public string ProjectInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TimeoutsInput`<sup>Optional</sup> <a name="TimeoutsInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.timeoutsInput"></a>
+
+```csharp
+public IResolvable|GoogleDocumentAiSchemaTimeouts TimeoutsInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a>
+
+---
+
+##### `DisplayName`<sup>Required</sup> <a name="DisplayName" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.displayName"></a>
+
+```csharp
+public string DisplayName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.id"></a>
+
+```csharp
+public string Id { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Labels`<sup>Required</sup> <a name="Labels" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.labels"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> Labels { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+---
+
+##### `Location`<sup>Required</sup> <a name="Location" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.location"></a>
+
+```csharp
+public string Location { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Project`<sup>Required</sup> <a name="Project" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.project"></a>
+
+```csharp
+public string Project { get; }
+```
+
+- *Type:* string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.tfResourceType">TfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.property.tfResourceType"></a>
+
+```csharp
+public string TfResourceType { get; }
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### GoogleDocumentAiSchemaConfig <a name="GoogleDocumentAiSchemaConfig" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDocumentAiSchemaConfig {
+    SSHProvisionerConnection|WinrmProvisionerConnection Connection = null,
+    double|TerraformCount Count = null,
+    ITerraformDependable[] DependsOn = null,
+    ITerraformIterator ForEach = null,
+    TerraformResourceLifecycle Lifecycle = null,
+    TerraformProvider Provider = null,
+    (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
+    string Location,
+    string DisplayName = null,
+    string Id = null,
+    System.Collections.Generic.IDictionary<string, string> Labels = null,
+    string Project = null,
+    GoogleDocumentAiSchemaTimeouts Timeouts = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.connection">Connection</a></code> | <code>Io.Cdktn.SSHProvisionerConnection\|Io.Cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.count">Count</a></code> | <code>double\|Io.Cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.dependsOn">DependsOn</a></code> | <code>Io.Cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.forEach">ForEach</a></code> | <code>Io.Cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.location">Location</a></code> | <code>string</code> | The location of the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.displayName">DisplayName</a></code> | <code>string</code> | The user-defined name of the Schema. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#id GoogleDocumentAiSchema#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | The Google Cloud labels for the Schema. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#project GoogleDocumentAiSchema#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a></code> | timeouts block. |
+
+---
+
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.connection"></a>
+
+```csharp
+public SSHProvisionerConnection|WinrmProvisionerConnection Connection { get; set; }
+```
+
+- *Type:* Io.Cdktn.SSHProvisionerConnection|Io.Cdktn.WinrmProvisionerConnection
+
+---
+
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.count"></a>
+
+```csharp
+public double|TerraformCount Count { get; set; }
+```
+
+- *Type:* double|Io.Cdktn.TerraformCount
+
+---
+
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.dependsOn"></a>
+
+```csharp
+public ITerraformDependable[] DependsOn { get; set; }
+```
+
+- *Type:* Io.Cdktn.ITerraformDependable[]
+
+---
+
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.forEach"></a>
+
+```csharp
+public ITerraformIterator ForEach { get; set; }
+```
+
+- *Type:* Io.Cdktn.ITerraformIterator
+
+---
+
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.lifecycle"></a>
+
+```csharp
+public TerraformResourceLifecycle Lifecycle { get; set; }
+```
+
+- *Type:* Io.Cdktn.TerraformResourceLifecycle
+
+---
+
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.provider"></a>
+
+```csharp
+public TerraformProvider Provider { get; set; }
+```
+
+- *Type:* Io.Cdktn.TerraformProvider
+
+---
+
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.provisioners"></a>
+
+```csharp
+public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners { get; set; }
+```
+
+- *Type:* Io.Cdktn.FileProvisioner|Io.Cdktn.LocalExecProvisioner|Io.Cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `Location`<sup>Required</sup> <a name="Location" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.location"></a>
+
+```csharp
+public string Location { get; set; }
+```
+
+- *Type:* string
+
+The location of the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#location GoogleDocumentAiSchema#location}
+
+---
+
+##### `DisplayName`<sup>Optional</sup> <a name="DisplayName" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.displayName"></a>
+
+```csharp
+public string DisplayName { get; set; }
+```
+
+- *Type:* string
+
+The user-defined name of the Schema.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#display_name GoogleDocumentAiSchema#display_name}
+
+---
+
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.id"></a>
+
+```csharp
+public string Id { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#id GoogleDocumentAiSchema#id}.
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `Labels`<sup>Optional</sup> <a name="Labels" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.labels"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> Labels { get; set; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+The Google Cloud labels for the Schema.
+
+**Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
+Please refer to the field 'effective_labels' for all of the labels present on the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#labels GoogleDocumentAiSchema#labels}
+
+---
+
+##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.project"></a>
+
+```csharp
+public string Project { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#project GoogleDocumentAiSchema#project}.
+
+---
+
+##### `Timeouts`<sup>Optional</sup> <a name="Timeouts" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.timeouts"></a>
+
+```csharp
+public GoogleDocumentAiSchemaTimeouts Timeouts { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a>
+
+timeouts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#timeouts GoogleDocumentAiSchema#timeouts}
+
+---
+
+### GoogleDocumentAiSchemaTimeouts <a name="GoogleDocumentAiSchemaTimeouts" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDocumentAiSchemaTimeouts {
+    string Create = null,
+    string Delete = null,
+    string Update = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#create GoogleDocumentAiSchema#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#delete GoogleDocumentAiSchema#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#update GoogleDocumentAiSchema#update}. |
+
+---
+
+##### `Create`<sup>Optional</sup> <a name="Create" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.create"></a>
+
+```csharp
+public string Create { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#create GoogleDocumentAiSchema#create}.
+
+---
+
+##### `Delete`<sup>Optional</sup> <a name="Delete" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.delete"></a>
+
+```csharp
+public string Delete { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#delete GoogleDocumentAiSchema#delete}.
+
+---
+
+##### `Update`<sup>Optional</sup> <a name="Update" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.update"></a>
+
+```csharp
+public string Update { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_schema#update GoogleDocumentAiSchema#update}.
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleDocumentAiSchemaTimeoutsOutputReference <a name="GoogleDocumentAiSchemaTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDocumentAiSchemaTimeoutsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resetCreate">ResetCreate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resetDelete">ResetDelete</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resetUpdate">ResetUpdate</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetCreate` <a name="ResetCreate" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resetCreate"></a>
+
+```csharp
+private void ResetCreate()
+```
+
+##### `ResetDelete` <a name="ResetDelete" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resetDelete"></a>
+
+```csharp
+private void ResetDelete()
+```
+
+##### `ResetUpdate` <a name="ResetUpdate" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.resetUpdate"></a>
+
+```csharp
+private void ResetUpdate()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.createInput">CreateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.deleteInput">DeleteInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.updateInput">UpdateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.create">Create</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.delete">Delete</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.update">Update</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CreateInput`<sup>Optional</sup> <a name="CreateInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.createInput"></a>
+
+```csharp
+public string CreateInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DeleteInput`<sup>Optional</sup> <a name="DeleteInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.deleteInput"></a>
+
+```csharp
+public string DeleteInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `UpdateInput`<sup>Optional</sup> <a name="UpdateInput" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.updateInput"></a>
+
+```csharp
+public string UpdateInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Create`<sup>Required</sup> <a name="Create" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.create"></a>
+
+```csharp
+public string Create { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Delete`<sup>Required</sup> <a name="Delete" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.delete"></a>
+
+```csharp
+public string Delete { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Update`<sup>Required</sup> <a name="Update" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.update"></a>
+
+```csharp
+public string Update { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleDocumentAiSchemaTimeouts InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a>
+
+---
+
+
+

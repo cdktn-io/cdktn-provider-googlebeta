@@ -4,12 +4,12 @@
 
 ### DataGoogleComputeRouterNat <a name="DataGoogleComputeRouterNat" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNat"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat google_compute_router_nat}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat google_compute_router_nat}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNat(scope Construct, id *string, config DataGoogleComputeRouterNatConfig) DataGoogleComputeRouterNat
 ```
@@ -319,7 +319,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNat.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.DataGoogleComputeRouterNat_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNat.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.DataGoogleComputeRouterNat_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglecomputerouternat.DataGoogleComputeRouterNat_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNat.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.DataGoogleComputeRouterNat_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagooglecomputerouternat.DataGoogleComputeRouterNat_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNat.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.DataGoogleComputeRouterNat_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -408,7 +408,7 @@ The construct id used in the generated config for the DataGoogleComputeRouterNat
 
 The id of the existing DataGoogleComputeRouterNat that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -938,7 +938,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 &datagooglecomputerouternat.DataGoogleComputeRouterNatConfig {
 	Connection: interface{},
@@ -969,8 +969,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.name">Name</a></code> | <code>*string</code> | Name of the NAT service. The name must be 1-63 characters long and comply with RFC1035. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.router">Router</a></code> | <code>*string</code> | The name of the Cloud Router in which this NAT will be configured. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#id DataGoogleComputeRouterNat#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#project DataGoogleComputeRouterNat#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#id DataGoogleComputeRouterNat#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#project DataGoogleComputeRouterNat#project}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatConfig.property.region">Region</a></code> | <code>*string</code> | Region where the router and NAT reside. |
 
 ---
@@ -1055,7 +1055,7 @@ Name *string
 
 Name of the NAT service. The name must be 1-63 characters long and comply with RFC1035.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#name DataGoogleComputeRouterNat#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#name DataGoogleComputeRouterNat#name}
 
 ---
 
@@ -1069,7 +1069,7 @@ Router *string
 
 The name of the Cloud Router in which this NAT will be configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#router DataGoogleComputeRouterNat#router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#router DataGoogleComputeRouterNat#router}
 
 ---
 
@@ -1081,7 +1081,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#id DataGoogleComputeRouterNat#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#id DataGoogleComputeRouterNat#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1096,7 +1096,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#project DataGoogleComputeRouterNat#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#project DataGoogleComputeRouterNat#project}.
 
 ---
 
@@ -1110,7 +1110,7 @@ Region *string
 
 Region where the router and NAT reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat#region DataGoogleComputeRouterNat#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_router_nat#region DataGoogleComputeRouterNat#region}
 
 ---
 
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatLogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 &datagooglecomputerouternat.DataGoogleComputeRouterNatLogConfig {
 
@@ -1132,7 +1132,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatNat64Subnetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 &datagooglecomputerouternat.DataGoogleComputeRouterNatNat64Subnetwork {
 
@@ -1145,7 +1145,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 &datagooglecomputerouternat.DataGoogleComputeRouterNatRules {
 
@@ -1158,7 +1158,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatRulesAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 &datagooglecomputerouternat.DataGoogleComputeRouterNatRulesAction {
 
@@ -1171,7 +1171,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatSubnetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 &datagooglecomputerouternat.DataGoogleComputeRouterNatSubnetwork {
 
@@ -1186,7 +1186,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatLogConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatLogConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRouterNatLogConfigList
 ```
@@ -1335,7 +1335,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatLogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatLogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRouterNatLogConfigOutputReference
 ```
@@ -1624,7 +1624,7 @@ func InternalValue() DataGoogleComputeRouterNatLogConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatNat64SubnetworkList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatNat64SubnetworkList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRouterNatNat64SubnetworkList
 ```
@@ -1773,7 +1773,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatNat64SubnetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatNat64SubnetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRouterNatNat64SubnetworkOutputReference
 ```
@@ -2051,7 +2051,7 @@ func InternalValue() DataGoogleComputeRouterNatNat64Subnetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatRulesActionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatRulesActionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRouterNatRulesActionList
 ```
@@ -2200,7 +2200,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatRulesActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatRulesActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRouterNatRulesActionOutputReference
 ```
@@ -2511,7 +2511,7 @@ func InternalValue() DataGoogleComputeRouterNatRulesAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRouterNatRulesList
 ```
@@ -2660,7 +2660,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRouterNatRulesOutputReference
 ```
@@ -2971,7 +2971,7 @@ func InternalValue() DataGoogleComputeRouterNatRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatSubnetworkList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatSubnetworkList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRouterNatSubnetworkList
 ```
@@ -3120,7 +3120,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNatSubnetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputerouternat"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputerouternat"
 
 datagooglecomputerouternat.NewDataGoogleComputeRouterNatSubnetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRouterNatSubnetworkOutputReference
 ```

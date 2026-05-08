@@ -4,7 +4,7 @@
 
 ### GoogleDeveloperConnectConnection <a name="GoogleDeveloperConnectConnection" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection google_developer_connect_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection google_developer_connect_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer"></a>
 
@@ -33,6 +33,7 @@ googleDeveloperConnectConnection.GoogleDeveloperConnectConnection(
   github_enterprise_config: GoogleDeveloperConnectConnectionGithubEnterpriseConfig = None,
   gitlab_config: GoogleDeveloperConnectConnectionGitlabConfig = None,
   gitlab_enterprise_config: GoogleDeveloperConnectConnectionGitlabEnterpriseConfig = None,
+  http_config: GoogleDeveloperConnectConnectionHttpConfig = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
   project: str = None,
@@ -63,9 +64,10 @@ googleDeveloperConnectConnection.GoogleDeveloperConnectConnection(
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.githubEnterpriseConfig">github_enterprise_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfig">GoogleDeveloperConnectConnectionGithubEnterpriseConfig</a></code> | github_enterprise_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.gitlabConfig">gitlab_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfig">GoogleDeveloperConnectConnectionGitlabConfig</a></code> | gitlab_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.gitlabEnterpriseConfig">gitlab_enterprise_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig">GoogleDeveloperConnectConnectionGitlabEnterpriseConfig</a></code> | gitlab_enterprise_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.httpConfig">http_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a></code> | http_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Optional. Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts">GoogleDeveloperConnectConnectionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -136,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 Required. Id of the requesting object If auto-generating Id server-side, remove this field and connection_id from the method_signature of Create RPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#connection_id GoogleDeveloperConnectConnection#connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#connection_id GoogleDeveloperConnectConnection#connection_id}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#location GoogleDeveloperConnectConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#location GoogleDeveloperConnectConnection#location}
 
 ---
 
@@ -159,7 +161,7 @@ Optional. Allows clients to store small amounts of arbitrary data.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#annotations GoogleDeveloperConnectConnection#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#annotations GoogleDeveloperConnectConnection#annotations}
 
 ---
 
@@ -169,7 +171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 bitbucket_cloud_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#bitbucket_cloud_config GoogleDeveloperConnectConnection#bitbucket_cloud_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#bitbucket_cloud_config GoogleDeveloperConnectConnection#bitbucket_cloud_config}
 
 ---
 
@@ -179,7 +181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 bitbucket_data_center_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#bitbucket_data_center_config GoogleDeveloperConnectConnection#bitbucket_data_center_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#bitbucket_data_center_config GoogleDeveloperConnectConnection#bitbucket_data_center_config}
 
 ---
 
@@ -189,7 +191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 crypto_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#crypto_key_config GoogleDeveloperConnectConnection#crypto_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#crypto_key_config GoogleDeveloperConnectConnection#crypto_key_config}
 
 ---
 
@@ -203,7 +205,7 @@ If disabled is set to true, functionality is disabled for this connection.
 Repository based API methods and webhooks processing for repositories in
 this connection will be disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#disabled GoogleDeveloperConnectConnection#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#disabled GoogleDeveloperConnectConnection#disabled}
 
 ---
 
@@ -217,7 +219,7 @@ This checksum is computed by the server based on the value of other
 fields, and may be sent on update and delete requests to ensure the
 client has an up-to-date value before proceeding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#etag GoogleDeveloperConnectConnection#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#etag GoogleDeveloperConnectConnection#etag}
 
 ---
 
@@ -227,7 +229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 github_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#github_config GoogleDeveloperConnectConnection#github_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#github_config GoogleDeveloperConnectConnection#github_config}
 
 ---
 
@@ -237,7 +239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 github_enterprise_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#github_enterprise_config GoogleDeveloperConnectConnection#github_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#github_enterprise_config GoogleDeveloperConnectConnection#github_enterprise_config}
 
 ---
 
@@ -247,7 +249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 gitlab_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#gitlab_config GoogleDeveloperConnectConnection#gitlab_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#gitlab_config GoogleDeveloperConnectConnection#gitlab_config}
 
 ---
 
@@ -257,7 +259,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 gitlab_enterprise_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#gitlab_enterprise_config GoogleDeveloperConnectConnection#gitlab_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#gitlab_enterprise_config GoogleDeveloperConnectConnection#gitlab_enterprise_config}
+
+---
+
+##### `http_config`<sup>Optional</sup> <a name="http_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer.parameter.httpConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a>
+
+http_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#http_config GoogleDeveloperConnectConnection#http_config}
 
 ---
 
@@ -265,7 +277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -281,7 +293,7 @@ Optional. Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#labels GoogleDeveloperConnectConnection#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#labels GoogleDeveloperConnectConnection#labels}
 
 ---
 
@@ -289,7 +301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}.
 
 ---
 
@@ -299,7 +311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#timeouts GoogleDeveloperConnectConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#timeouts GoogleDeveloperConnectConnection#timeouts}
 
 ---
 
@@ -338,6 +350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putGithubEnterpriseConfig">put_github_enterprise_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putGitlabConfig">put_gitlab_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putGitlabEnterpriseConfig">put_gitlab_enterprise_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putHttpConfig">put_http_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetAnnotations">reset_annotations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetBitbucketCloudConfig">reset_bitbucket_cloud_config</a></code> | *No description.* |
@@ -349,6 +362,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetGithubEnterpriseConfig">reset_github_enterprise_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetGitlabConfig">reset_gitlab_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetGitlabEnterpriseConfig">reset_gitlab_enterprise_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetHttpConfig">reset_http_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetLabels">reset_labels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetProject">reset_project</a></code> | *No description.* |
@@ -721,7 +735,7 @@ def put_bitbucket_cloud_config(
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -731,7 +745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -745,7 +759,7 @@ Immutable. SecretManager resource containing the webhook secret used to verify w
 events, formatted as 'projects/* /secrets/* /versions/*'. This is used to
 validate and create webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -757,7 +771,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 Required. The Bitbucket Cloud Workspace ID to be connected to Google Cloud Platform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#workspace GoogleDeveloperConnectConnection#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#workspace GoogleDeveloperConnectConnection#workspace}
 
 ---
 
@@ -780,7 +794,7 @@ def put_bitbucket_data_center_config(
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -790,7 +804,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required. The URI of the Bitbucket Data Center host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -800,7 +814,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -814,7 +828,7 @@ Immutable. SecretManager resource containing the webhook secret used to verify w
 events, formatted as 'projects/* /secrets/* /versions/*'. This is used to
 validate webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -826,7 +840,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -836,7 +850,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. SSL certificate authority to trust when making requests to Bitbucket Data Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -858,7 +872,7 @@ The name of the key which is used to encrypt/decrypt customer data. For key
 in Cloud KMS, the key should be in the format of
 'projects/* /locations/* /keyRings/* /cryptoKeys/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#key_reference GoogleDeveloperConnectConnection#key_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#key_reference GoogleDeveloperConnectConnection#key_reference}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -880,7 +894,7 @@ def put_github_config(
 
 Required. Immutable. The GitHub Application that was installed to the GitHub user or organization. Possible values: GIT_HUB_APP_UNSPECIFIED DEVELOPER_CONNECT FIREBASE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#github_app GoogleDeveloperConnectConnection#github_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#github_app GoogleDeveloperConnectConnection#github_app}
 
 ---
 
@@ -890,7 +904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. GitHub App installation id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
 
 ---
 
@@ -900,7 +914,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -924,7 +938,7 @@ def put_github_enterprise_config(
 
 Required. The URI of the GitHub Enterprise host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -934,7 +948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. ID of the GitHub App created from the manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#app_id GoogleDeveloperConnectConnection#app_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#app_id GoogleDeveloperConnectConnection#app_id}
 
 ---
 
@@ -944,7 +958,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. ID of the installation of the GitHub App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
 
 ---
 
@@ -954,7 +968,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. SecretManager resource containing the private key of the GitHub App, formatted as 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#private_key_secret_version GoogleDeveloperConnectConnection#private_key_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#private_key_secret_version GoogleDeveloperConnectConnection#private_key_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -966,7 +980,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -976,7 +990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. SSL certificate to use for requests to GitHub Enterprise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -986,7 +1000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. SecretManager resource containing the webhook secret of the GitHub App, formatted as 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1008,7 +1022,7 @@ def put_gitlab_config(
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -1018,7 +1032,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -1032,7 +1046,7 @@ Immutable. SecretManager resource containing the webhook secret of a GitLab proj
 formatted as 'projects/* /secrets/* /versions/*'. This is used to validate
 webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1057,7 +1071,7 @@ def put_gitlab_enterprise_config(
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -1067,7 +1081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required. The URI of the GitLab Enterprise host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -1077,7 +1091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -1091,7 +1105,7 @@ Immutable. SecretManager resource containing the webhook secret of a GitLab proj
 formatted as 'projects/* /secrets/* /versions/*'. This is used to validate
 webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1103,7 +1117,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -1113,7 +1127,69 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. SSL Certificate Authority certificate to use for requests to GitLab Enterprise instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+
+---
+
+##### `put_http_config` <a name="put_http_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putHttpConfig"></a>
+
+```python
+def put_http_config(
+  host_uri: str,
+  basic_authentication: GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication = None,
+  bearer_token_authentication: GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication = None,
+  service_directory_config: GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig = None,
+  ssl_ca_certificate: str = None
+) -> None
+```
+
+###### `host_uri`<sup>Required</sup> <a name="host_uri" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putHttpConfig.parameter.hostUri"></a>
+
+- *Type:* str
+
+The service provider's https endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+
+---
+
+###### `basic_authentication`<sup>Optional</sup> <a name="basic_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putHttpConfig.parameter.basicAuthentication"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication">GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication</a>
+
+basic_authentication block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#basic_authentication GoogleDeveloperConnectConnection#basic_authentication}
+
+---
+
+###### `bearer_token_authentication`<sup>Optional</sup> <a name="bearer_token_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putHttpConfig.parameter.bearerTokenAuthentication"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication</a>
+
+bearer_token_authentication block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#bearer_token_authentication GoogleDeveloperConnectConnection#bearer_token_authentication}
+
+---
+
+###### `service_directory_config`<sup>Optional</sup> <a name="service_directory_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putHttpConfig.parameter.serviceDirectoryConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig</a>
+
+service_directory_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+
+---
+
+###### `ssl_ca_certificate`<sup>Optional</sup> <a name="ssl_ca_certificate" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.putHttpConfig.parameter.sslCaCertificate"></a>
+
+- *Type:* str
+
+The SSL certificate to use for requests to the HTTP service provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -1131,7 +1207,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}.
 
 ---
 
@@ -1139,7 +1215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}.
 
 ---
 
@@ -1147,7 +1223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}.
 
 ---
 
@@ -1209,6 +1285,12 @@ def reset_gitlab_config() -> None
 
 ```python
 def reset_gitlab_enterprise_config() -> None
+```
+
+##### `reset_http_config` <a name="reset_http_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetHttpConfig"></a>
+
+```python
+def reset_http_config() -> None
 ```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.resetId"></a>
@@ -1349,7 +1431,7 @@ The construct id used in the generated config for the GoogleDeveloperConnectConn
 
 The id of the existing GoogleDeveloperConnectConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1390,6 +1472,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.githubEnterpriseConfig">github_enterprise_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference">GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.gitlabConfig">gitlab_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigOutputReference">GoogleDeveloperConnectConnectionGitlabConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.gitlabEnterpriseConfig">gitlab_enterprise_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference">GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.httpConfig">http_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference">GoogleDeveloperConnectConnectionHttpConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.installationState">installation_state</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionInstallationStateList">GoogleDeveloperConnectConnectionInstallationStateList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.reconciling">reconciling</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
@@ -1408,6 +1491,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.githubEnterpriseConfigInput">github_enterprise_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfig">GoogleDeveloperConnectConnectionGithubEnterpriseConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.gitlabConfigInput">gitlab_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfig">GoogleDeveloperConnectConnectionGitlabConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.gitlabEnterpriseConfigInput">gitlab_enterprise_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig">GoogleDeveloperConnectConnectionGitlabEnterpriseConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.httpConfigInput">http_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
@@ -1676,6 +1760,16 @@ gitlab_enterprise_config: GoogleDeveloperConnectConnectionGitlabEnterpriseConfig
 
 ---
 
+##### `http_config`<sup>Required</sup> <a name="http_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.httpConfig"></a>
+
+```python
+http_config: GoogleDeveloperConnectConnectionHttpConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference">GoogleDeveloperConnectConnectionHttpConfigOutputReference</a>
+
+---
+
 ##### `installation_state`<sup>Required</sup> <a name="installation_state" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.installationState"></a>
 
 ```python
@@ -1853,6 +1947,16 @@ gitlab_enterprise_config_input: GoogleDeveloperConnectConnectionGitlabEnterprise
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig">GoogleDeveloperConnectConnectionGitlabEnterpriseConfig</a>
+
+---
+
+##### `http_config_input`<sup>Optional</sup> <a name="http_config_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.property.httpConfigInput"></a>
+
+```python
+http_config_input: GoogleDeveloperConnectConnectionHttpConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a>
 
 ---
 
@@ -2042,7 +2146,7 @@ authorizer_credential: GoogleDeveloperConnectConnectionBitbucketCloudConfigAutho
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -2056,7 +2160,7 @@ read_authorizer_credential: GoogleDeveloperConnectConnectionBitbucketCloudConfig
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -2074,7 +2178,7 @@ Immutable. SecretManager resource containing the webhook secret used to verify w
 events, formatted as 'projects/* /secrets/* /versions/*'. This is used to
 validate and create webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2090,7 +2194,7 @@ workspace: str
 
 Required. The Bitbucket Cloud Workspace ID to be connected to Google Cloud Platform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#workspace GoogleDeveloperConnectConnection#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#workspace GoogleDeveloperConnectConnection#workspace}
 
 ---
 
@@ -2124,7 +2228,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2160,7 +2264,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2206,7 +2310,7 @@ authorizer_credential: GoogleDeveloperConnectConnectionBitbucketDataCenterConfig
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -2220,7 +2324,7 @@ host_uri: str
 
 Required. The URI of the Bitbucket Data Center host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -2234,7 +2338,7 @@ read_authorizer_credential: GoogleDeveloperConnectConnectionBitbucketDataCenterC
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -2252,7 +2356,7 @@ Immutable. SecretManager resource containing the webhook secret used to verify w
 events, formatted as 'projects/* /secrets/* /versions/*'. This is used to
 validate webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2268,7 +2372,7 @@ service_directory_config: GoogleDeveloperConnectConnectionBitbucketDataCenterCon
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -2282,7 +2386,7 @@ ssl_ca_certificate: str
 
 Optional. SSL certificate authority to trust when making requests to Bitbucket Data Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -2316,7 +2420,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2352,7 +2456,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2388,7 +2492,7 @@ service: str
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -2419,6 +2523,7 @@ googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig(
   github_enterprise_config: GoogleDeveloperConnectConnectionGithubEnterpriseConfig = None,
   gitlab_config: GoogleDeveloperConnectConnectionGitlabConfig = None,
   gitlab_enterprise_config: GoogleDeveloperConnectConnectionGitlabEnterpriseConfig = None,
+  http_config: GoogleDeveloperConnectConnectionHttpConfig = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
   project: str = None,
@@ -2449,9 +2554,10 @@ googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.githubEnterpriseConfig">github_enterprise_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfig">GoogleDeveloperConnectConnectionGithubEnterpriseConfig</a></code> | github_enterprise_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.gitlabConfig">gitlab_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfig">GoogleDeveloperConnectConnectionGitlabConfig</a></code> | gitlab_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.gitlabEnterpriseConfig">gitlab_enterprise_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig">GoogleDeveloperConnectConnectionGitlabEnterpriseConfig</a></code> | gitlab_enterprise_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.httpConfig">http_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a></code> | http_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Optional. Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts">GoogleDeveloperConnectConnectionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -2536,7 +2642,7 @@ connection_id: str
 
 Required. Id of the requesting object If auto-generating Id server-side, remove this field and connection_id from the method_signature of Create RPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#connection_id GoogleDeveloperConnectConnection#connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#connection_id GoogleDeveloperConnectConnection#connection_id}
 
 ---
 
@@ -2550,7 +2656,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#location GoogleDeveloperConnectConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#location GoogleDeveloperConnectConnection#location}
 
 ---
 
@@ -2567,7 +2673,7 @@ Optional. Allows clients to store small amounts of arbitrary data.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#annotations GoogleDeveloperConnectConnection#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#annotations GoogleDeveloperConnectConnection#annotations}
 
 ---
 
@@ -2581,7 +2687,7 @@ bitbucket_cloud_config: GoogleDeveloperConnectConnectionBitbucketCloudConfig
 
 bitbucket_cloud_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#bitbucket_cloud_config GoogleDeveloperConnectConnection#bitbucket_cloud_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#bitbucket_cloud_config GoogleDeveloperConnectConnection#bitbucket_cloud_config}
 
 ---
 
@@ -2595,7 +2701,7 @@ bitbucket_data_center_config: GoogleDeveloperConnectConnectionBitbucketDataCente
 
 bitbucket_data_center_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#bitbucket_data_center_config GoogleDeveloperConnectConnection#bitbucket_data_center_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#bitbucket_data_center_config GoogleDeveloperConnectConnection#bitbucket_data_center_config}
 
 ---
 
@@ -2609,7 +2715,7 @@ crypto_key_config: GoogleDeveloperConnectConnectionCryptoKeyConfig
 
 crypto_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#crypto_key_config GoogleDeveloperConnectConnection#crypto_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#crypto_key_config GoogleDeveloperConnectConnection#crypto_key_config}
 
 ---
 
@@ -2627,7 +2733,7 @@ If disabled is set to true, functionality is disabled for this connection.
 Repository based API methods and webhooks processing for repositories in
 this connection will be disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#disabled GoogleDeveloperConnectConnection#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#disabled GoogleDeveloperConnectConnection#disabled}
 
 ---
 
@@ -2645,7 +2751,7 @@ This checksum is computed by the server based on the value of other
 fields, and may be sent on update and delete requests to ensure the
 client has an up-to-date value before proceeding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#etag GoogleDeveloperConnectConnection#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#etag GoogleDeveloperConnectConnection#etag}
 
 ---
 
@@ -2659,7 +2765,7 @@ github_config: GoogleDeveloperConnectConnectionGithubConfig
 
 github_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#github_config GoogleDeveloperConnectConnection#github_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#github_config GoogleDeveloperConnectConnection#github_config}
 
 ---
 
@@ -2673,7 +2779,7 @@ github_enterprise_config: GoogleDeveloperConnectConnectionGithubEnterpriseConfig
 
 github_enterprise_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#github_enterprise_config GoogleDeveloperConnectConnection#github_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#github_enterprise_config GoogleDeveloperConnectConnection#github_enterprise_config}
 
 ---
 
@@ -2687,7 +2793,7 @@ gitlab_config: GoogleDeveloperConnectConnectionGitlabConfig
 
 gitlab_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#gitlab_config GoogleDeveloperConnectConnection#gitlab_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#gitlab_config GoogleDeveloperConnectConnection#gitlab_config}
 
 ---
 
@@ -2701,7 +2807,21 @@ gitlab_enterprise_config: GoogleDeveloperConnectConnectionGitlabEnterpriseConfig
 
 gitlab_enterprise_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#gitlab_enterprise_config GoogleDeveloperConnectConnection#gitlab_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#gitlab_enterprise_config GoogleDeveloperConnectConnection#gitlab_enterprise_config}
+
+---
+
+##### `http_config`<sup>Optional</sup> <a name="http_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.httpConfig"></a>
+
+```python
+http_config: GoogleDeveloperConnectConnectionHttpConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a>
+
+http_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#http_config GoogleDeveloperConnectConnection#http_config}
 
 ---
 
@@ -2713,7 +2833,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2733,7 +2853,7 @@ Optional. Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#labels GoogleDeveloperConnectConnection#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#labels GoogleDeveloperConnectConnection#labels}
 
 ---
 
@@ -2745,7 +2865,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}.
 
 ---
 
@@ -2759,7 +2879,7 @@ timeouts: GoogleDeveloperConnectConnectionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#timeouts GoogleDeveloperConnectConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#timeouts GoogleDeveloperConnectConnection#timeouts}
 
 ---
 
@@ -2797,7 +2917,7 @@ The name of the key which is used to encrypt/decrypt customer data. For key
 in Cloud KMS, the key should be in the format of
 'projects/* /locations/* /keyRings/* /cryptoKeys/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#key_reference GoogleDeveloperConnectConnection#key_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#key_reference GoogleDeveloperConnectConnection#key_reference}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2837,7 +2957,7 @@ github_app: str
 
 Required. Immutable. The GitHub Application that was installed to the GitHub user or organization. Possible values: GIT_HUB_APP_UNSPECIFIED DEVELOPER_CONNECT FIREBASE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#github_app GoogleDeveloperConnectConnection#github_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#github_app GoogleDeveloperConnectConnection#github_app}
 
 ---
 
@@ -2851,7 +2971,7 @@ app_installation_id: str
 
 Optional. GitHub App installation id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
 
 ---
 
@@ -2865,7 +2985,7 @@ authorizer_credential: GoogleDeveloperConnectConnectionGithubConfigAuthorizerCre
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -2899,7 +3019,7 @@ oauth_token_secret_version: str
 
 Required. A SecretManager resource containing the OAuth token that authorizes the connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#oauth_token_secret_version GoogleDeveloperConnectConnection#oauth_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#oauth_token_secret_version GoogleDeveloperConnectConnection#oauth_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2947,7 +3067,7 @@ host_uri: str
 
 Required. The URI of the GitHub Enterprise host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -2961,7 +3081,7 @@ app_id: str
 
 Optional. ID of the GitHub App created from the manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#app_id GoogleDeveloperConnectConnection#app_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#app_id GoogleDeveloperConnectConnection#app_id}
 
 ---
 
@@ -2975,7 +3095,7 @@ app_installation_id: str
 
 Optional. ID of the installation of the GitHub App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
 
 ---
 
@@ -2989,7 +3109,7 @@ private_key_secret_version: str
 
 Optional. SecretManager resource containing the private key of the GitHub App, formatted as 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#private_key_secret_version GoogleDeveloperConnectConnection#private_key_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#private_key_secret_version GoogleDeveloperConnectConnection#private_key_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3005,7 +3125,7 @@ service_directory_config: GoogleDeveloperConnectConnectionGithubEnterpriseConfig
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -3019,7 +3139,7 @@ ssl_ca_certificate: str
 
 Optional. SSL certificate to use for requests to GitHub Enterprise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -3033,7 +3153,7 @@ webhook_secret_secret_version: str
 
 Optional. SecretManager resource containing the webhook secret of the GitHub App, formatted as 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3069,7 +3189,7 @@ service: str
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -3107,7 +3227,7 @@ authorizer_credential: GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCre
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -3121,7 +3241,7 @@ read_authorizer_credential: GoogleDeveloperConnectConnectionGitlabConfigReadAuth
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -3139,7 +3259,7 @@ Immutable. SecretManager resource containing the webhook secret of a GitLab proj
 formatted as 'projects/* /secrets/* /versions/*'. This is used to validate
 webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3175,7 +3295,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3211,7 +3331,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3257,7 +3377,7 @@ authorizer_credential: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAut
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -3271,7 +3391,7 @@ host_uri: str
 
 Required. The URI of the GitLab Enterprise host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -3285,7 +3405,7 @@ read_authorizer_credential: GoogleDeveloperConnectConnectionGitlabEnterpriseConf
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -3303,7 +3423,7 @@ Immutable. SecretManager resource containing the webhook secret of a GitLab proj
 formatted as 'projects/* /secrets/* /versions/*'. This is used to validate
 webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3319,7 +3439,7 @@ service_directory_config: GoogleDeveloperConnectConnectionGitlabEnterpriseConfig
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -3333,7 +3453,7 @@ ssl_ca_certificate: str
 
 Optional. SSL Certificate Authority certificate to use for requests to GitLab Enterprise instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -3367,7 +3487,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3403,7 +3523,7 @@ user_token_secret_version: str
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3439,7 +3559,223 @@ service: str
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+
+---
+
+### GoogleDeveloperConnectConnectionHttpConfig <a name="GoogleDeveloperConnectConnectionHttpConfig" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig(
+  host_uri: str,
+  basic_authentication: GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication = None,
+  bearer_token_authentication: GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication = None,
+  service_directory_config: GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig = None,
+  ssl_ca_certificate: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.hostUri">host_uri</a></code> | <code>str</code> | The service provider's https endpoint. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.basicAuthentication">basic_authentication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication">GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication</a></code> | basic_authentication block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.bearerTokenAuthentication">bearer_token_authentication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication</a></code> | bearer_token_authentication block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.serviceDirectoryConfig">service_directory_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig</a></code> | service_directory_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.sslCaCertificate">ssl_ca_certificate</a></code> | <code>str</code> | The SSL certificate to use for requests to the HTTP service provider. |
+
+---
+
+##### `host_uri`<sup>Required</sup> <a name="host_uri" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.hostUri"></a>
+
+```python
+host_uri: str
+```
+
+- *Type:* str
+
+The service provider's https endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+
+---
+
+##### `basic_authentication`<sup>Optional</sup> <a name="basic_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.basicAuthentication"></a>
+
+```python
+basic_authentication: GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication">GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication</a>
+
+basic_authentication block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#basic_authentication GoogleDeveloperConnectConnection#basic_authentication}
+
+---
+
+##### `bearer_token_authentication`<sup>Optional</sup> <a name="bearer_token_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.bearerTokenAuthentication"></a>
+
+```python
+bearer_token_authentication: GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication</a>
+
+bearer_token_authentication block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#bearer_token_authentication GoogleDeveloperConnectConnection#bearer_token_authentication}
+
+---
+
+##### `service_directory_config`<sup>Optional</sup> <a name="service_directory_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.serviceDirectoryConfig"></a>
+
+```python
+service_directory_config: GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig</a>
+
+service_directory_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+
+---
+
+##### `ssl_ca_certificate`<sup>Optional</sup> <a name="ssl_ca_certificate" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.property.sslCaCertificate"></a>
+
+```python
+ssl_ca_certificate: str
+```
+
+- *Type:* str
+
+The SSL certificate to use for requests to the HTTP service provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+
+---
+
+### GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication <a name="GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication(
+  username: str,
+  password_secret_version: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication.property.username">username</a></code> | <code>str</code> | The username to authenticate as. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication.property.passwordSecretVersion">password_secret_version</a></code> | <code>str</code> | The password SecretManager secret version to authenticate as. |
+
+---
+
+##### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication.property.username"></a>
+
+```python
+username: str
+```
+
+- *Type:* str
+
+The username to authenticate as.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#username GoogleDeveloperConnectConnection#username}
+
+---
+
+##### `password_secret_version`<sup>Optional</sup> <a name="password_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication.property.passwordSecretVersion"></a>
+
+```python
+password_secret_version: str
+```
+
+- *Type:* str
+
+The password SecretManager secret version to authenticate as.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#password_secret_version GoogleDeveloperConnectConnection#password_secret_version}
+
+---
+
+### GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication <a name="GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication(
+  token_secret_version: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication.property.tokenSecretVersion">token_secret_version</a></code> | <code>str</code> | The token SecretManager secret version to authenticate as. |
+
+---
+
+##### `token_secret_version`<sup>Optional</sup> <a name="token_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication.property.tokenSecretVersion"></a>
+
+```python
+token_secret_version: str
+```
+
+- *Type:* str
+
+The token SecretManager secret version to authenticate as.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#token_secret_version GoogleDeveloperConnectConnection#token_secret_version}
+
+---
+
+### GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig <a name="GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig(
+  service: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig.property.service">service</a></code> | <code>str</code> | The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}. |
+
+---
+
+##### `service`<sup>Required</sup> <a name="service" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig.property.service"></a>
+
+```python
+service: str
+```
+
+- *Type:* str
+
+The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -3472,9 +3808,9 @@ googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}. |
 
 ---
 
@@ -3486,7 +3822,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}.
 
 ---
 
@@ -3498,7 +3834,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}.
 
 ---
 
@@ -3510,7 +3846,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}.
 
 ---
 
@@ -4067,7 +4403,7 @@ def put_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -4087,7 +4423,7 @@ def put_read_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -5088,7 +5424,7 @@ def put_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -5108,7 +5444,7 @@ def put_read_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -5128,7 +5464,7 @@ def put_service_directory_config(
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -6784,7 +7120,7 @@ def put_authorizer_credential(
 
 Required. A SecretManager resource containing the OAuth token that authorizes the connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#oauth_token_secret_version GoogleDeveloperConnectConnection#oauth_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#oauth_token_secret_version GoogleDeveloperConnectConnection#oauth_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -7174,7 +7510,7 @@ def put_service_directory_config(
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -8294,7 +8630,7 @@ def put_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -8314,7 +8650,7 @@ def put_read_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -9293,7 +9629,7 @@ def put_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -9313,7 +9649,7 @@ def put_read_authorizer_credential(
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -9333,7 +9669,7 @@ def put_service_directory_config(
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -10137,6 +10473,1410 @@ internal_value: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDir
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig</a>
+
+---
+
+
+### GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference <a name="GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.resetPasswordSecretVersion">reset_password_secret_version</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_password_secret_version` <a name="reset_password_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.resetPasswordSecretVersion"></a>
+
+```python
+def reset_password_secret_version() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.passwordSecretVersionInput">password_secret_version_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.usernameInput">username_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.passwordSecretVersion">password_secret_version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.username">username</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication">GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `password_secret_version_input`<sup>Optional</sup> <a name="password_secret_version_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.passwordSecretVersionInput"></a>
+
+```python
+password_secret_version_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `username_input`<sup>Optional</sup> <a name="username_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.usernameInput"></a>
+
+```python
+username_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `password_secret_version`<sup>Required</sup> <a name="password_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.passwordSecretVersion"></a>
+
+```python
+password_secret_version: str
+```
+
+- *Type:* str
+
+---
+
+##### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.username"></a>
+
+```python
+username: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication">GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication</a>
+
+---
+
+
+### GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference <a name="GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.resetTokenSecretVersion">reset_token_secret_version</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_token_secret_version` <a name="reset_token_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.resetTokenSecretVersion"></a>
+
+```python
+def reset_token_secret_version() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.tokenSecretVersionInput">token_secret_version_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.tokenSecretVersion">token_secret_version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `token_secret_version_input`<sup>Optional</sup> <a name="token_secret_version_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.tokenSecretVersionInput"></a>
+
+```python
+token_secret_version_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `token_secret_version`<sup>Required</sup> <a name="token_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.tokenSecretVersion"></a>
+
+```python
+token_secret_version: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication</a>
+
+---
+
+
+### GoogleDeveloperConnectConnectionHttpConfigOutputReference <a name="GoogleDeveloperConnectConnectionHttpConfigOutputReference" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putBasicAuthentication">put_basic_authentication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putBearerTokenAuthentication">put_bearer_token_authentication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putServiceDirectoryConfig">put_service_directory_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetBasicAuthentication">reset_basic_authentication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetBearerTokenAuthentication">reset_bearer_token_authentication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetServiceDirectoryConfig">reset_service_directory_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetSslCaCertificate">reset_ssl_ca_certificate</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_basic_authentication` <a name="put_basic_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putBasicAuthentication"></a>
+
+```python
+def put_basic_authentication(
+  username: str,
+  password_secret_version: str = None
+) -> None
+```
+
+###### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putBasicAuthentication.parameter.username"></a>
+
+- *Type:* str
+
+The username to authenticate as.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#username GoogleDeveloperConnectConnection#username}
+
+---
+
+###### `password_secret_version`<sup>Optional</sup> <a name="password_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putBasicAuthentication.parameter.passwordSecretVersion"></a>
+
+- *Type:* str
+
+The password SecretManager secret version to authenticate as.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#password_secret_version GoogleDeveloperConnectConnection#password_secret_version}
+
+---
+
+##### `put_bearer_token_authentication` <a name="put_bearer_token_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putBearerTokenAuthentication"></a>
+
+```python
+def put_bearer_token_authentication(
+  token_secret_version: str = None
+) -> None
+```
+
+###### `token_secret_version`<sup>Optional</sup> <a name="token_secret_version" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putBearerTokenAuthentication.parameter.tokenSecretVersion"></a>
+
+- *Type:* str
+
+The token SecretManager secret version to authenticate as.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#token_secret_version GoogleDeveloperConnectConnection#token_secret_version}
+
+---
+
+##### `put_service_directory_config` <a name="put_service_directory_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putServiceDirectoryConfig"></a>
+
+```python
+def put_service_directory_config(
+  service: str
+) -> None
+```
+
+###### `service`<sup>Required</sup> <a name="service" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.putServiceDirectoryConfig.parameter.service"></a>
+
+- *Type:* str
+
+The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+
+---
+
+##### `reset_basic_authentication` <a name="reset_basic_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetBasicAuthentication"></a>
+
+```python
+def reset_basic_authentication() -> None
+```
+
+##### `reset_bearer_token_authentication` <a name="reset_bearer_token_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetBearerTokenAuthentication"></a>
+
+```python
+def reset_bearer_token_authentication() -> None
+```
+
+##### `reset_service_directory_config` <a name="reset_service_directory_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetServiceDirectoryConfig"></a>
+
+```python
+def reset_service_directory_config() -> None
+```
+
+##### `reset_ssl_ca_certificate` <a name="reset_ssl_ca_certificate" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.resetSslCaCertificate"></a>
+
+```python
+def reset_ssl_ca_certificate() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.basicAuthentication">basic_authentication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference">GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.bearerTokenAuthentication">bearer_token_authentication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.serviceDirectoryConfig">service_directory_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.basicAuthenticationInput">basic_authentication_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication">GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.bearerTokenAuthenticationInput">bearer_token_authentication_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.hostUriInput">host_uri_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.serviceDirectoryConfigInput">service_directory_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.sslCaCertificateInput">ssl_ca_certificate_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.hostUri">host_uri</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.sslCaCertificate">ssl_ca_certificate</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `basic_authentication`<sup>Required</sup> <a name="basic_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.basicAuthentication"></a>
+
+```python
+basic_authentication: GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference">GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference</a>
+
+---
+
+##### `bearer_token_authentication`<sup>Required</sup> <a name="bearer_token_authentication" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.bearerTokenAuthentication"></a>
+
+```python
+bearer_token_authentication: GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference</a>
+
+---
+
+##### `service_directory_config`<sup>Required</sup> <a name="service_directory_config" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.serviceDirectoryConfig"></a>
+
+```python
+service_directory_config: GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference</a>
+
+---
+
+##### `basic_authentication_input`<sup>Optional</sup> <a name="basic_authentication_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.basicAuthenticationInput"></a>
+
+```python
+basic_authentication_input: GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication">GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication</a>
+
+---
+
+##### `bearer_token_authentication_input`<sup>Optional</sup> <a name="bearer_token_authentication_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.bearerTokenAuthenticationInput"></a>
+
+```python
+bearer_token_authentication_input: GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication">GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication</a>
+
+---
+
+##### `host_uri_input`<sup>Optional</sup> <a name="host_uri_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.hostUriInput"></a>
+
+```python
+host_uri_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_directory_config_input`<sup>Optional</sup> <a name="service_directory_config_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.serviceDirectoryConfigInput"></a>
+
+```python
+service_directory_config_input: GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig</a>
+
+---
+
+##### `ssl_ca_certificate_input`<sup>Optional</sup> <a name="ssl_ca_certificate_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.sslCaCertificateInput"></a>
+
+```python
+ssl_ca_certificate_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `host_uri`<sup>Required</sup> <a name="host_uri" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.hostUri"></a>
+
+```python
+host_uri: str
+```
+
+- *Type:* str
+
+---
+
+##### `ssl_ca_certificate`<sup>Required</sup> <a name="ssl_ca_certificate" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.sslCaCertificate"></a>
+
+```python
+ssl_ca_certificate: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleDeveloperConnectConnectionHttpConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a>
+
+---
+
+
+### GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference <a name="GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_developer_connect_connection
+
+googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.serviceInput">service_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.service">service</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_input`<sup>Optional</sup> <a name="service_input" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.serviceInput"></a>
+
+```python
+service_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `service`<sup>Required</sup> <a name="service" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.service"></a>
+
+```python
+service: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig">GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig</a>
 
 ---
 

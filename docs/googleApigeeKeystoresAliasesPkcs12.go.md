@@ -4,12 +4,12 @@
 
 ### GoogleApigeeKeystoresAliasesPkcs12 <a name="GoogleApigeeKeystoresAliasesPkcs12" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.NewGoogleApigeeKeystoresAliasesPkcs12(scope Construct, id *string, config GoogleApigeeKeystoresAliasesPkcs12Config) GoogleApigeeKeystoresAliasesPkcs12
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleApigeeKeystoresAlias
 
 The id of the existing GoogleApigeeKeystoresAliasesPkcs12 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -943,7 +943,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 &googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfo {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 &googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfo {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 &googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12Config {
 	Connection: interface{},
@@ -987,7 +987,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 	OrgId: *string,
 	Id: *string,
 	Password: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts,
 }
 ```
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.property.filehash">Filehash</a></code> | <code>*string</code> | Hash of the pkcs file. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.property.keystore">Keystore</a></code> | <code>*string</code> | Keystore Name. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.property.orgId">OrgId</a></code> | <code>*string</code> | Organization ID associated with the alias. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#id GoogleApigeeKeystoresAliasesPkcs12#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#id GoogleApigeeKeystoresAliasesPkcs12#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.property.password">Password</a></code> | <code>*string</code> | Password for the Private Key if it's encrypted. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Config.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts">GoogleApigeeKeystoresAliasesPkcs12Timeouts</a></code> | timeouts block. |
 
@@ -1094,7 +1094,7 @@ Alias *string
 
 Alias Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#alias GoogleApigeeKeystoresAliasesPkcs12#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#alias GoogleApigeeKeystoresAliasesPkcs12#alias}
 
 ---
 
@@ -1108,7 +1108,7 @@ Environment *string
 
 Environment associated with the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#environment GoogleApigeeKeystoresAliasesPkcs12#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#environment GoogleApigeeKeystoresAliasesPkcs12#environment}
 
 ---
 
@@ -1122,7 +1122,7 @@ File *string
 
 Cert content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#file GoogleApigeeKeystoresAliasesPkcs12#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#file GoogleApigeeKeystoresAliasesPkcs12#file}
 
 ---
 
@@ -1136,7 +1136,7 @@ Filehash *string
 
 Hash of the pkcs file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#filehash GoogleApigeeKeystoresAliasesPkcs12#filehash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#filehash GoogleApigeeKeystoresAliasesPkcs12#filehash}
 
 ---
 
@@ -1150,7 +1150,7 @@ Keystore *string
 
 Keystore Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#keystore GoogleApigeeKeystoresAliasesPkcs12#keystore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#keystore GoogleApigeeKeystoresAliasesPkcs12#keystore}
 
 ---
 
@@ -1164,7 +1164,7 @@ OrgId *string
 
 Organization ID associated with the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#org_id GoogleApigeeKeystoresAliasesPkcs12#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#org_id GoogleApigeeKeystoresAliasesPkcs12#org_id}
 
 ---
 
@@ -1176,7 +1176,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#id GoogleApigeeKeystoresAliasesPkcs12#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#id GoogleApigeeKeystoresAliasesPkcs12#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1193,7 +1193,7 @@ Password *string
 
 Password for the Private Key if it's encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#password GoogleApigeeKeystoresAliasesPkcs12#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#password GoogleApigeeKeystoresAliasesPkcs12#password}
 
 ---
 
@@ -1207,7 +1207,7 @@ Timeouts GoogleApigeeKeystoresAliasesPkcs12Timeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#timeouts GoogleApigeeKeystoresAliasesPkcs12#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#timeouts GoogleApigeeKeystoresAliasesPkcs12#timeouts}
 
 ---
 
@@ -1216,7 +1216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 &googleapigeekeystoresaliasespkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts {
 	Create: *string,
@@ -1228,8 +1228,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#create GoogleApigeeKeystoresAliasesPkcs12#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#delete GoogleApigeeKeystoresAliasesPkcs12#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#create GoogleApigeeKeystoresAliasesPkcs12#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12Timeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#delete GoogleApigeeKeystoresAliasesPkcs12#delete}. |
 
 ---
 
@@ -1241,7 +1241,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#create GoogleApigeeKeystoresAliasesPkcs12#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#create GoogleApigeeKeystoresAliasesPkcs12#create}.
 
 ---
 
@@ -1253,7 +1253,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_keystores_aliases_pkcs12#delete GoogleApigeeKeystoresAliasesPkcs12#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_keystores_aliases_pkcs12#delete GoogleApigeeKeystoresAliasesPkcs12#delete}.
 
 ---
 
@@ -1264,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.NewGoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList
 ```
@@ -1413,7 +1413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.NewGoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfoOutputReference
 ```
@@ -1801,7 +1801,7 @@ func InternalValue() GoogleApigeeKeystoresAliasesPkcs12CertsInfoCertInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.NewGoogleApigeeKeystoresAliasesPkcs12CertsInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeKeystoresAliasesPkcs12CertsInfoList
 ```
@@ -1950,7 +1950,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12CertsInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.NewGoogleApigeeKeystoresAliasesPkcs12CertsInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeKeystoresAliasesPkcs12CertsInfoOutputReference
 ```
@@ -2228,7 +2228,7 @@ func InternalValue() GoogleApigeeKeystoresAliasesPkcs12CertsInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeKeystoresAliasesPkcs12.GoogleApigeeKeystoresAliasesPkcs12TimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliasespkcs12"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliasespkcs12"
 
 googleapigeekeystoresaliasespkcs12.NewGoogleApigeeKeystoresAliasesPkcs12TimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeKeystoresAliasesPkcs12TimeoutsOutputReference
 ```

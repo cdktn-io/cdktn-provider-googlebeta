@@ -4,7 +4,7 @@
 
 ### GoogleComputeServiceAttachment <a name="GoogleComputeServiceAttachment" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putConsumerAcceptLists">PutConsumerAcceptLists</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTunnelingConfig">PutTunnelingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetConsumerAcceptLists">ResetConsumerAcceptLists</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetConsumerRejectLists">ResetConsumerRejectLists</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetDescription">ResetDescription</a></code> | *No description.* |
@@ -86,7 +87,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetReconcileConnections">ResetReconcileConnections</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetRegion">ResetRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetSendPropagatedConnectionLimitIfZero">ResetSendPropagatedConnectionLimitIfZero</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetShowNatIps">ResetShowNatIps</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTunnelingConfig">ResetTunnelingConfig</a></code> | *No description.* |
 
 ---
 
@@ -423,6 +426,18 @@ private void PutTimeouts(GoogleComputeServiceAttachmentTimeouts Value)
 
 ---
 
+##### `PutTunnelingConfig` <a name="PutTunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTunnelingConfig"></a>
+
+```csharp
+private void PutTunnelingConfig(GoogleComputeServiceAttachmentTunnelingConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTunnelingConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
+
+---
+
 ##### `ResetConsumerAcceptLists` <a name="ResetConsumerAcceptLists" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetConsumerAcceptLists"></a>
 
 ```csharp
@@ -483,10 +498,22 @@ private void ResetRegion()
 private void ResetSendPropagatedConnectionLimitIfZero()
 ```
 
+##### `ResetShowNatIps` <a name="ResetShowNatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetShowNatIps"></a>
+
+```csharp
+private void ResetShowNatIps()
+```
+
 ##### `ResetTimeouts` <a name="ResetTimeouts" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTimeouts"></a>
 
 ```csharp
 private void ResetTimeouts()
+```
+
+##### `ResetTunnelingConfig` <a name="ResetTunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTunnelingConfig"></a>
+
+```csharp
+private void ResetTunnelingConfig()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -592,7 +619,7 @@ The construct id used in the generated config for the GoogleComputeServiceAttach
 
 The id of the existing GoogleComputeServiceAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -625,8 +652,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.connectedEndpoints">ConnectedEndpoints</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsList">GoogleComputeServiceAttachmentConnectedEndpointsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerAcceptLists">ConsumerAcceptLists</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsList">GoogleComputeServiceAttachmentConsumerAcceptListsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.fingerprint">Fingerprint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.pscServiceAttachmentId">PscServiceAttachmentId</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList">GoogleComputeServiceAttachmentPscServiceAttachmentIdList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.selfLink">SelfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeoutsOutputReference">GoogleComputeServiceAttachmentTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfig">TunnelingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference">GoogleComputeServiceAttachmentTunnelingConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.connectionPreferenceInput">ConnectionPreferenceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerAcceptListsInput">ConsumerAcceptListsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists">GoogleComputeServiceAttachmentConsumerAcceptLists</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerRejectListsInput">ConsumerRejectListsInput</a></code> | <code>string[]</code> | *No description.* |
@@ -641,8 +670,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.reconcileConnectionsInput">ReconcileConnectionsInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.regionInput">RegionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.sendPropagatedConnectionLimitIfZeroInput">SendPropagatedConnectionLimitIfZeroInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIpsInput">ShowNatIpsInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetServiceInput">TargetServiceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfigInput">TunnelingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.connectionPreference">ConnectionPreference</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerRejectLists">ConsumerRejectLists</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.description">Description</a></code> | <code>string</code> | *No description.* |
@@ -656,6 +687,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.reconcileConnections">ReconcileConnections</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.region">Region</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.sendPropagatedConnectionLimitIfZero">SendPropagatedConnectionLimitIfZero</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIps">ShowNatIps</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetService">TargetService</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -832,6 +864,16 @@ public string Fingerprint { get; }
 
 ---
 
+##### `PscServiceAttachmentId`<sup>Required</sup> <a name="PscServiceAttachmentId" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.pscServiceAttachmentId"></a>
+
+```csharp
+public GoogleComputeServiceAttachmentPscServiceAttachmentIdList PscServiceAttachmentId { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList">GoogleComputeServiceAttachmentPscServiceAttachmentIdList</a>
+
+---
+
 ##### `SelfLink`<sup>Required</sup> <a name="SelfLink" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.selfLink"></a>
 
 ```csharp
@@ -849,6 +891,16 @@ public GoogleComputeServiceAttachmentTimeoutsOutputReference Timeouts { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeoutsOutputReference">GoogleComputeServiceAttachmentTimeoutsOutputReference</a>
+
+---
+
+##### `TunnelingConfig`<sup>Required</sup> <a name="TunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfig"></a>
+
+```csharp
+public GoogleComputeServiceAttachmentTunnelingConfigOutputReference TunnelingConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference">GoogleComputeServiceAttachmentTunnelingConfigOutputReference</a>
 
 ---
 
@@ -992,6 +1044,16 @@ public bool|IResolvable SendPropagatedConnectionLimitIfZeroInput { get; }
 
 ---
 
+##### `ShowNatIpsInput`<sup>Optional</sup> <a name="ShowNatIpsInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIpsInput"></a>
+
+```csharp
+public bool|IResolvable ShowNatIpsInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `TargetServiceInput`<sup>Optional</sup> <a name="TargetServiceInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetServiceInput"></a>
 
 ```csharp
@@ -1009,6 +1071,16 @@ public IResolvable|GoogleComputeServiceAttachmentTimeouts TimeoutsInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a>
+
+---
+
+##### `TunnelingConfigInput`<sup>Optional</sup> <a name="TunnelingConfigInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfigInput"></a>
+
+```csharp
+public GoogleComputeServiceAttachmentTunnelingConfig TunnelingConfigInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
 
 ---
 
@@ -1142,6 +1214,16 @@ public bool|IResolvable SendPropagatedConnectionLimitIfZero { get; }
 
 ---
 
+##### `ShowNatIps`<sup>Required</sup> <a name="ShowNatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIps"></a>
+
+```csharp
+public bool|IResolvable ShowNatIps { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `TargetService`<sup>Required</sup> <a name="TargetService" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetService"></a>
 
 ```csharp
@@ -1202,7 +1284,9 @@ new GoogleComputeServiceAttachmentConfig {
     bool|IResolvable ReconcileConnections = null,
     string Region = null,
     bool|IResolvable SendPropagatedConnectionLimitIfZero = null,
-    GoogleComputeServiceAttachmentTimeouts Timeouts = null
+    bool|IResolvable ShowNatIps = null,
+    GoogleComputeServiceAttachmentTimeouts Timeouts = null,
+    GoogleComputeServiceAttachmentTunnelingConfig TunnelingConfig = null
 };
 ```
 
@@ -1226,13 +1310,15 @@ new GoogleComputeServiceAttachmentConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.consumerRejectLists">ConsumerRejectLists</a></code> | <code>string[]</code> | An array of projects that are not allowed to connect to this service attachment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.domainNames">DomainNames</a></code> | <code>string[]</code> | If specified, the domain name will be used during the integration between the PSC connected endpoints and the Cloud DNS. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.propagatedConnectionLimit">PropagatedConnectionLimit</a></code> | <code>double</code> | The number of consumer spokes that connected Private Service Connect endpoints can be propagated to through Network Connectivity Center. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.reconcileConnections">ReconcileConnections</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | This flag determines whether a consumer accept/reject list change can reconcile the statuses of existing ACCEPTED or REJECTED PSC endpoints. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.region">Region</a></code> | <code>string</code> | URL of the region where the resource resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.sendPropagatedConnectionLimitIfZero">SendPropagatedConnectionLimitIfZero</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Controls the behavior of propagated_connection_limit. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.showNatIps">ShowNatIps</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | NOTE: This field is temporarily non-functional due to an underlying API issue. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.tunnelingConfig">TunnelingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a></code> | tunneling_config block. |
 
 ---
 
@@ -1316,7 +1402,7 @@ public string ConnectionPreference { get; set; }
 
 The connection preference to use for this service attachment. Valid values include "ACCEPT_AUTOMATIC", "ACCEPT_MANUAL".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
 
 ---
 
@@ -1330,7 +1416,7 @@ public bool|IResolvable EnableProxyProtocol { get; set; }
 
 If true, enable the proxy protocol which is for supplying client TCP/IP address data in TCP connections that traverse proxies on their way to destination servers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
 
 ---
 
@@ -1351,7 +1437,7 @@ which means the first character must be a lowercase letter, and all
 following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
 
 ---
 
@@ -1365,7 +1451,7 @@ public string[] NatSubnets { get; set; }
 
 An array of subnets that is provided for NAT in this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
 
 ---
 
@@ -1379,7 +1465,7 @@ public string TargetService { get; set; }
 
 The URL of a service serving the endpoint identified by this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
 
 ---
 
@@ -1393,7 +1479,7 @@ public IResolvable|GoogleComputeServiceAttachmentConsumerAcceptLists[] ConsumerA
 
 consumer_accept_lists block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
 
 ---
 
@@ -1407,7 +1493,7 @@ public string[] ConsumerRejectLists { get; set; }
 
 An array of projects that are not allowed to connect to this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
 
 ---
 
@@ -1421,7 +1507,7 @@ public string Description { get; set; }
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
 
 ---
 
@@ -1439,7 +1525,7 @@ For example, this is a
 valid domain name: "p.mycompany.com.". Current max number of domain names
 supported is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
 
 ---
 
@@ -1451,7 +1537,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1466,7 +1552,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}.
 
 ---
 
@@ -1487,7 +1573,7 @@ If the connection preference of the service attachment is ACCEPT_AUTOMATIC, the 
 
 If unspecified, the default propagated connection limit is 250. To explicitly send a zero value, set 'send_propagated_connection_limit_if_zero = true'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
 
 ---
 
@@ -1504,7 +1590,7 @@ This flag determines whether a consumer accept/reject list change can reconcile 
 If false, connection policy update will only affect existing PENDING PSC endpoints. Existing ACCEPTED/REJECTED endpoints will remain untouched regardless how the connection policy is modified .
 If true, update will affect both PENDING and ACCEPTED/REJECTED PSC endpoints. For example, an ACCEPTED PSC endpoint will be moved to REJECTED if its project is added to the reject list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
 
 ---
 
@@ -1518,7 +1604,7 @@ public string Region { get; set; }
 
 URL of the region where the resource resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
 
 ---
 
@@ -1536,7 +1622,24 @@ When false, setting propagated_connection_limit to zero causes the provider to u
 When true, the provider will set propagated_connection_limit to zero.
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
+
+---
+
+##### `ShowNatIps`<sup>Optional</sup> <a name="ShowNatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.showNatIps"></a>
+
+```csharp
+public bool|IResolvable ShowNatIps { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+NOTE: This field is temporarily non-functional due to an underlying API issue.
+
+Any value provided here will be ignored until the API issue is resolved, expected around 2026-03.
+[If true, show NAT IPs of all connected endpoints.]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#show_nat_ips GoogleComputeServiceAttachment#show_nat_ips}
 
 ---
 
@@ -1550,7 +1653,21 @@ public GoogleComputeServiceAttachmentTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
+
+---
+
+##### `TunnelingConfig`<sup>Optional</sup> <a name="TunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.tunnelingConfig"></a>
+
+```csharp
+public GoogleComputeServiceAttachmentTunnelingConfig TunnelingConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
+
+tunneling_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#tunneling_config GoogleComputeServiceAttachment#tunneling_config}
 
 ---
 
@@ -1576,6 +1693,7 @@ using Io.Cdktn.Providers.GoogleBeta;
 
 new GoogleComputeServiceAttachmentConsumerAcceptLists {
     double ConnectionLimit,
+    string EndpointUrl = null,
     string NetworkUrl = null,
     string ProjectIdOrNum = null
 };
@@ -1586,6 +1704,7 @@ new GoogleComputeServiceAttachmentConsumerAcceptLists {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.connectionLimit">ConnectionLimit</a></code> | <code>double</code> | The number of consumer forwarding rules the consumer project can create. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.endpointUrl">EndpointUrl</a></code> | <code>string</code> | The endpoint that is allowed to connect to this service attachment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.networkUrl">NetworkUrl</a></code> | <code>string</code> | The network that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.projectIdOrNum">ProjectIdOrNum</a></code> | <code>string</code> | A project that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set. |
 
@@ -1601,7 +1720,23 @@ public double ConnectionLimit { get; set; }
 
 The number of consumer forwarding rules the consumer project can create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#connection_limit GoogleComputeServiceAttachment#connection_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#connection_limit GoogleComputeServiceAttachment#connection_limit}
+
+---
+
+##### `EndpointUrl`<sup>Optional</sup> <a name="EndpointUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.endpointUrl"></a>
+
+```csharp
+public string EndpointUrl { get; set; }
+```
+
+- *Type:* string
+
+The endpoint that is allowed to connect to this service attachment.
+
+Only one of project_id_or_num, network_url and endpoint_url may be set.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#endpoint_url GoogleComputeServiceAttachment#endpoint_url}
 
 ---
 
@@ -1615,7 +1750,7 @@ public string NetworkUrl { get; set; }
 
 The network that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#network_url GoogleComputeServiceAttachment#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#network_url GoogleComputeServiceAttachment#network_url}
 
 ---
 
@@ -1629,9 +1764,22 @@ public string ProjectIdOrNum { get; set; }
 
 A project that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project_id_or_num GoogleComputeServiceAttachment#project_id_or_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project_id_or_num GoogleComputeServiceAttachment#project_id_or_num}
 
 ---
+
+### GoogleComputeServiceAttachmentPscServiceAttachmentId <a name="GoogleComputeServiceAttachmentPscServiceAttachmentId" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeServiceAttachmentPscServiceAttachmentId {
+
+};
+```
+
 
 ### GoogleComputeServiceAttachmentTimeouts <a name="GoogleComputeServiceAttachmentTimeouts" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts"></a>
 
@@ -1651,9 +1799,9 @@ new GoogleComputeServiceAttachmentTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}. |
 
 ---
 
@@ -1665,7 +1813,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}.
 
 ---
 
@@ -1677,7 +1825,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}.
 
 ---
 
@@ -1689,7 +1837,57 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}.
+
+---
+
+### GoogleComputeServiceAttachmentTunnelingConfig <a name="GoogleComputeServiceAttachmentTunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeServiceAttachmentTunnelingConfig {
+    string EncapsulationProfile = null,
+    string RoutingMode = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.encapsulationProfile">EncapsulationProfile</a></code> | <code>string</code> | The encapsulation profile for tunneling traffic. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.routingMode">RoutingMode</a></code> | <code>string</code> | The routing mode for tunneling traffic. |
+
+---
+
+##### `EncapsulationProfile`<sup>Optional</sup> <a name="EncapsulationProfile" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.encapsulationProfile"></a>
+
+```csharp
+public string EncapsulationProfile { get; set; }
+```
+
+- *Type:* string
+
+The encapsulation profile for tunneling traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#encapsulation_profile GoogleComputeServiceAttachment#encapsulation_profile}
+
+---
+
+##### `RoutingMode`<sup>Optional</sup> <a name="RoutingMode" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.routingMode"></a>
+
+```csharp
+public string RoutingMode { get; set; }
+```
+
+- *Type:* string
+
+The routing mode for tunneling traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#routing_mode GoogleComputeServiceAttachment#routing_mode}
 
 ---
 
@@ -2074,6 +2272,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.consumerNetwork">ConsumerNetwork</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.endpoint">Endpoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.natIps">NatIps</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.propagatedConnectionCount">PropagatedConnectionCount</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.pscConnectionId">PscConnectionId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.status">Status</a></code> | <code>string</code> | *No description.* |
@@ -2122,6 +2321,16 @@ public string Endpoint { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `NatIps`<sup>Required</sup> <a name="NatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.natIps"></a>
+
+```csharp
+public string[] NatIps { get; }
+```
+
+- *Type:* string[]
 
 ---
 
@@ -2394,6 +2603,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetEndpointUrl">ResetEndpointUrl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetNetworkUrl">ResetNetworkUrl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetProjectIdOrNum">ResetProjectIdOrNum</a></code> | *No description.* |
 
@@ -2549,6 +2759,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetEndpointUrl` <a name="ResetEndpointUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetEndpointUrl"></a>
+
+```csharp
+private void ResetEndpointUrl()
+```
+
 ##### `ResetNetworkUrl` <a name="ResetNetworkUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetNetworkUrl"></a>
 
 ```csharp
@@ -2569,9 +2785,11 @@ private void ResetProjectIdOrNum()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.connectionLimitInput">ConnectionLimitInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrlInput">EndpointUrlInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrlInput">NetworkUrlInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.projectIdOrNumInput">ProjectIdOrNumInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.connectionLimit">ConnectionLimit</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrl">EndpointUrl</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrl">NetworkUrl</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.projectIdOrNum">ProjectIdOrNum</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists">GoogleComputeServiceAttachmentConsumerAcceptLists</a></code> | *No description.* |
@@ -2612,6 +2830,16 @@ public double ConnectionLimitInput { get; }
 
 ---
 
+##### `EndpointUrlInput`<sup>Optional</sup> <a name="EndpointUrlInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrlInput"></a>
+
+```csharp
+public string EndpointUrlInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `NetworkUrlInput`<sup>Optional</sup> <a name="NetworkUrlInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrlInput"></a>
 
 ```csharp
@@ -2642,6 +2870,16 @@ public double ConnectionLimit { get; }
 
 ---
 
+##### `EndpointUrl`<sup>Required</sup> <a name="EndpointUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrl"></a>
+
+```csharp
+public string EndpointUrl { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `NetworkUrl`<sup>Required</sup> <a name="NetworkUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrl"></a>
 
 ```csharp
@@ -2669,6 +2907,444 @@ public IResolvable|GoogleComputeServiceAttachmentConsumerAcceptLists InternalVal
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists">GoogleComputeServiceAttachmentConsumerAcceptLists</a>
+
+---
+
+
+### GoogleComputeServiceAttachmentPscServiceAttachmentIdList <a name="GoogleComputeServiceAttachmentPscServiceAttachmentIdList" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeServiceAttachmentPscServiceAttachmentIdList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.get"></a>
+
+```csharp
+private GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference <a name="GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.high">High</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.low">Low</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId">GoogleComputeServiceAttachmentPscServiceAttachmentId</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `High`<sup>Required</sup> <a name="High" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.high"></a>
+
+```csharp
+public string High { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Low`<sup>Required</sup> <a name="Low" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.low"></a>
+
+```csharp
+public string Low { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleComputeServiceAttachmentPscServiceAttachmentId InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId">GoogleComputeServiceAttachmentPscServiceAttachmentId</a>
 
 ---
 
@@ -3005,6 +3681,313 @@ public IResolvable|GoogleComputeServiceAttachmentTimeouts InternalValue { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a>
+
+---
+
+
+### GoogleComputeServiceAttachmentTunnelingConfigOutputReference <a name="GoogleComputeServiceAttachmentTunnelingConfigOutputReference" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleComputeServiceAttachmentTunnelingConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetEncapsulationProfile">ResetEncapsulationProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetRoutingMode">ResetRoutingMode</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEncapsulationProfile` <a name="ResetEncapsulationProfile" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetEncapsulationProfile"></a>
+
+```csharp
+private void ResetEncapsulationProfile()
+```
+
+##### `ResetRoutingMode` <a name="ResetRoutingMode" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetRoutingMode"></a>
+
+```csharp
+private void ResetRoutingMode()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfileInput">EncapsulationProfileInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingModeInput">RoutingModeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfile">EncapsulationProfile</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingMode">RoutingMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncapsulationProfileInput`<sup>Optional</sup> <a name="EncapsulationProfileInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfileInput"></a>
+
+```csharp
+public string EncapsulationProfileInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RoutingModeInput`<sup>Optional</sup> <a name="RoutingModeInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingModeInput"></a>
+
+```csharp
+public string RoutingModeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncapsulationProfile`<sup>Required</sup> <a name="EncapsulationProfile" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfile"></a>
+
+```csharp
+public string EncapsulationProfile { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RoutingMode`<sup>Required</sup> <a name="RoutingMode" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingMode"></a>
+
+```csharp
+public string RoutingMode { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleComputeServiceAttachmentTunnelingConfig InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowCxPlaybook <a name="GoogleDialogflowCxPlaybook" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook google_dialogflow_cx_playbook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook google_dialogflow_cx_playbook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.NewGoogleDialogflowCxPlaybook(scope Construct, id *string, config GoogleDialogflowCxPlaybookConfig) GoogleDialogflowCxPlaybook
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybook.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.GoogleDialogflowCxPlaybook_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybook.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.GoogleDialogflowCxPlaybook_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googledialogflowcxplaybook.GoogleDialogflowCxPlaybook_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybook.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.GoogleDialogflowCxPlaybook_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googledialogflowcxplaybook.GoogleDialogflowCxPlaybook_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybook.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.GoogleDialogflowCxPlaybook_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleDialogflowCxPlaybook
 
 The id of the existing GoogleDialogflowCxPlaybook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 &googledialogflowcxplaybook.GoogleDialogflowCxPlaybookConfig {
 	Connection: interface{},
@@ -1054,12 +1054,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 	DisplayName: *string,
 	Goal: *string,
 	Id: *string,
-	Instruction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstruction,
-	LlmModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookLlmModelSettings,
+	Instruction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstruction,
+	LlmModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookLlmModelSettings,
 	Parent: *string,
 	PlaybookType: *string,
 	ReferencedTools: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts,
 }
 ```
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The human-readable name of the playbook, unique within an agent. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.goal">Goal</a></code> | <code>*string</code> | High level description of the goal the playbook intend to accomplish. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#id GoogleDialogflowCxPlaybook#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#id GoogleDialogflowCxPlaybook#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.instruction">Instruction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstruction">GoogleDialogflowCxPlaybookInstruction</a></code> | instruction block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.llmModelSettings">LlmModelSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookLlmModelSettings">GoogleDialogflowCxPlaybookLlmModelSettings</a></code> | llm_model_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookConfig.property.parent">Parent</a></code> | <code>*string</code> | The agent to create a Playbook for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>. |
@@ -1166,7 +1166,7 @@ DisplayName *string
 
 The human-readable name of the playbook, unique within an agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#display_name GoogleDialogflowCxPlaybook#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#display_name GoogleDialogflowCxPlaybook#display_name}
 
 ---
 
@@ -1182,7 +1182,7 @@ High level description of the goal the playbook intend to accomplish.
 
 A goal should be concise since it's visible to other playbooks that may reference this playbook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#goal GoogleDialogflowCxPlaybook#goal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#goal GoogleDialogflowCxPlaybook#goal}
 
 ---
 
@@ -1194,7 +1194,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#id GoogleDialogflowCxPlaybook#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#id GoogleDialogflowCxPlaybook#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1211,7 +1211,7 @@ Instruction GoogleDialogflowCxPlaybookInstruction
 
 instruction block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#instruction GoogleDialogflowCxPlaybook#instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#instruction GoogleDialogflowCxPlaybook#instruction}
 
 ---
 
@@ -1225,7 +1225,7 @@ LlmModelSettings GoogleDialogflowCxPlaybookLlmModelSettings
 
 llm_model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#llm_model_settings GoogleDialogflowCxPlaybook#llm_model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#llm_model_settings GoogleDialogflowCxPlaybook#llm_model_settings}
 
 ---
 
@@ -1239,7 +1239,7 @@ Parent *string
 
 The agent to create a Playbook for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#parent GoogleDialogflowCxPlaybook#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#parent GoogleDialogflowCxPlaybook#parent}
 
 ---
 
@@ -1253,7 +1253,7 @@ PlaybookType *string
 
 Type of the playbook. Possible values: ["PLAYBOOK_TYPE_UNSPECIFIED", "TASK", "ROUTINE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#playbook_type GoogleDialogflowCxPlaybook#playbook_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#playbook_type GoogleDialogflowCxPlaybook#playbook_type}
 
 ---
 
@@ -1269,7 +1269,7 @@ The resource name of tools referenced by the current playbook in the instruction
 
 If not provided explicitly, they are will be implied using the tool being referenced in goal and steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#referenced_tools GoogleDialogflowCxPlaybook#referenced_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#referenced_tools GoogleDialogflowCxPlaybook#referenced_tools}
 
 ---
 
@@ -1283,7 +1283,7 @@ Timeouts GoogleDialogflowCxPlaybookTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#timeouts GoogleDialogflowCxPlaybook#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#timeouts GoogleDialogflowCxPlaybook#timeouts}
 
 ---
 
@@ -1292,7 +1292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstruction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 &googledialogflowcxplaybook.GoogleDialogflowCxPlaybookInstruction {
 	Guidelines: *string,
@@ -1321,7 +1321,7 @@ General guidelines for the playbook.
 
 These are unstructured instructions that are not directly part of the goal, e.g. "Always be polite". It's valid for this text to be long and used instead of steps altogether.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#guidelines GoogleDialogflowCxPlaybook#guidelines}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#guidelines GoogleDialogflowCxPlaybook#guidelines}
 
 ---
 
@@ -1335,7 +1335,7 @@ Steps interface{}
 
 steps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#steps GoogleDialogflowCxPlaybook#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#steps GoogleDialogflowCxPlaybook#steps}
 
 ---
 
@@ -1344,7 +1344,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstructionSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 &googledialogflowcxplaybook.GoogleDialogflowCxPlaybookInstructionSteps {
 	Steps: *string,
@@ -1373,7 +1373,7 @@ Sub-processing needed to execute the current step.
 
 This field uses JSON data as a string. The value provided must be a valid JSON representation documented in [Step](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.playbooks#step).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#steps GoogleDialogflowCxPlaybook#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#steps GoogleDialogflowCxPlaybook#steps}
 
 ---
 
@@ -1387,7 +1387,7 @@ Text *string
 
 Step instruction in text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#text GoogleDialogflowCxPlaybook#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#text GoogleDialogflowCxPlaybook#text}
 
 ---
 
@@ -1396,7 +1396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookLlmModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 &googledialogflowcxplaybook.GoogleDialogflowCxPlaybookLlmModelSettings {
 	Model: *string,
@@ -1423,7 +1423,7 @@ Model *string
 
 The selected LLM model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#model GoogleDialogflowCxPlaybook#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#model GoogleDialogflowCxPlaybook#model}
 
 ---
 
@@ -1437,7 +1437,7 @@ PromptText *string
 
 The custom prompt to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#prompt_text GoogleDialogflowCxPlaybook#prompt_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#prompt_text GoogleDialogflowCxPlaybook#prompt_text}
 
 ---
 
@@ -1446,7 +1446,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 &googledialogflowcxplaybook.GoogleDialogflowCxPlaybookTimeouts {
 	Create: *string,
@@ -1459,9 +1459,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#create GoogleDialogflowCxPlaybook#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#delete GoogleDialogflowCxPlaybook#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#update GoogleDialogflowCxPlaybook#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#create GoogleDialogflowCxPlaybook#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#delete GoogleDialogflowCxPlaybook#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#update GoogleDialogflowCxPlaybook#update}. |
 
 ---
 
@@ -1473,7 +1473,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#create GoogleDialogflowCxPlaybook#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#create GoogleDialogflowCxPlaybook#create}.
 
 ---
 
@@ -1485,7 +1485,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#delete GoogleDialogflowCxPlaybook#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#delete GoogleDialogflowCxPlaybook#delete}.
 
 ---
 
@@ -1497,7 +1497,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_playbook#update GoogleDialogflowCxPlaybook#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_playbook#update GoogleDialogflowCxPlaybook#update}.
 
 ---
 
@@ -1508,7 +1508,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstructionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.NewGoogleDialogflowCxPlaybookInstructionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPlaybookInstructionOutputReference
 ```
@@ -1828,7 +1828,7 @@ func InternalValue() GoogleDialogflowCxPlaybookInstruction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstructionStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.NewGoogleDialogflowCxPlaybookInstructionStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPlaybookInstructionStepsList
 ```
@@ -1988,7 +1988,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookInstructionStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.NewGoogleDialogflowCxPlaybookInstructionStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPlaybookInstructionStepsOutputReference
 ```
@@ -2313,7 +2313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookLlmModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.NewGoogleDialogflowCxPlaybookLlmModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPlaybookLlmModelSettingsOutputReference
 ```
@@ -2620,7 +2620,7 @@ func InternalValue() GoogleDialogflowCxPlaybookLlmModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPlaybook.GoogleDialogflowCxPlaybookTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxplaybook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxplaybook"
 
 googledialogflowcxplaybook.NewGoogleDialogflowCxPlaybookTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPlaybookTimeoutsOutputReference
 ```

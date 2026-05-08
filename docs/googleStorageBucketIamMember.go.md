@@ -4,12 +4,12 @@
 
 ### GoogleStorageBucketIamMember <a name="GoogleStorageBucketIamMember" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member google_storage_bucket_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member google_storage_bucket_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 googlestoragebucketiammember.NewGoogleStorageBucketIamMember(scope Construct, id *string, config GoogleStorageBucketIamMemberConfig) GoogleStorageBucketIamMember
 ```
@@ -75,8 +75,10 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.putCondition">PutCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.resetCondition">ResetCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 
 ---
 
@@ -401,6 +403,18 @@ func PutCondition(value GoogleStorageBucketIamMemberCondition)
 
 ---
 
+##### `PutTimeouts` <a name="PutTimeouts" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.putTimeouts"></a>
+
+```go
+func PutTimeouts(value GoogleStorageBucketIamMemberTimeouts)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.putTimeouts.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts">GoogleStorageBucketIamMemberTimeouts</a>
+
+---
+
 ##### `ResetCondition` <a name="ResetCondition" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.resetCondition"></a>
 
 ```go
@@ -411,6 +425,12 @@ func ResetCondition()
 
 ```go
 func ResetId()
+```
+
+##### `ResetTimeouts` <a name="ResetTimeouts" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.resetTimeouts"></a>
+
+```go
+func ResetTimeouts()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -427,7 +447,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 googlestoragebucketiammember.GoogleStorageBucketIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 googlestoragebucketiammember.GoogleStorageBucketIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +493,7 @@ googlestoragebucketiammember.GoogleStorageBucketIamMember_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 googlestoragebucketiammember.GoogleStorageBucketIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +507,7 @@ googlestoragebucketiammember.GoogleStorageBucketIamMember_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 googlestoragebucketiammember.GoogleStorageBucketIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +536,7 @@ The construct id used in the generated config for the GoogleStorageBucketIamMemb
 
 The id of the existing GoogleStorageBucketIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -548,11 +568,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConditionOutputReference">GoogleStorageBucketIamMemberConditionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference">GoogleStorageBucketIamMemberTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.bucketInput">BucketInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.conditionInput">ConditionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition">GoogleStorageBucketIamMemberCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.memberInput">MemberInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.roleInput">RoleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.bucket">Bucket</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.member">Member</a></code> | <code>*string</code> | *No description.* |
@@ -722,6 +744,16 @@ func Etag() *string
 
 ---
 
+##### `Timeouts`<sup>Required</sup> <a name="Timeouts" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.timeouts"></a>
+
+```go
+func Timeouts() GoogleStorageBucketIamMemberTimeoutsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference">GoogleStorageBucketIamMemberTimeoutsOutputReference</a>
+
+---
+
 ##### `BucketInput`<sup>Optional</sup> <a name="BucketInput" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.bucketInput"></a>
 
 ```go
@@ -769,6 +801,16 @@ func RoleInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `TimeoutsInput`<sup>Optional</sup> <a name="TimeoutsInput" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMember.property.timeoutsInput"></a>
+
+```go
+func TimeoutsInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -837,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 &googlestoragebucketiammember.GoogleStorageBucketIamMemberCondition {
 	Expression: *string,
@@ -850,9 +892,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#expression GoogleStorageBucketIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#title GoogleStorageBucketIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#description GoogleStorageBucketIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#expression GoogleStorageBucketIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#title GoogleStorageBucketIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#description GoogleStorageBucketIamMember#description}. |
 
 ---
 
@@ -864,7 +906,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#expression GoogleStorageBucketIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#expression GoogleStorageBucketIamMember#expression}.
 
 ---
 
@@ -876,7 +918,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#title GoogleStorageBucketIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#title GoogleStorageBucketIamMember#title}.
 
 ---
 
@@ -888,7 +930,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#description GoogleStorageBucketIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#description GoogleStorageBucketIamMember#description}.
 
 ---
 
@@ -897,7 +939,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 &googlestoragebucketiammember.GoogleStorageBucketIamMemberConfig {
 	Connection: interface{},
@@ -910,8 +952,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 	Bucket: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition,
 	Id: *string,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts,
 }
 ```
 
@@ -926,11 +969,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#bucket GoogleStorageBucketIamMember#bucket}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#member GoogleStorageBucketIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#role GoogleStorageBucketIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#bucket GoogleStorageBucketIamMember#bucket}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#member GoogleStorageBucketIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#role GoogleStorageBucketIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition">GoogleStorageBucketIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#id GoogleStorageBucketIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#id GoogleStorageBucketIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts">GoogleStorageBucketIamMemberTimeouts</a></code> | timeouts block. |
 
 ---
 
@@ -1012,7 +1056,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#bucket GoogleStorageBucketIamMember#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#bucket GoogleStorageBucketIamMember#bucket}.
 
 ---
 
@@ -1024,7 +1068,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#member GoogleStorageBucketIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#member GoogleStorageBucketIamMember#member}.
 
 ---
 
@@ -1036,7 +1080,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#role GoogleStorageBucketIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#role GoogleStorageBucketIamMember#role}.
 
 ---
 
@@ -1050,7 +1094,7 @@ Condition GoogleStorageBucketIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#condition GoogleStorageBucketIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#condition GoogleStorageBucketIamMember#condition}
 
 ---
 
@@ -1062,10 +1106,56 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_iam_member#id GoogleStorageBucketIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#id GoogleStorageBucketIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `Timeouts`<sup>Optional</sup> <a name="Timeouts" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConfig.property.timeouts"></a>
+
+```go
+Timeouts GoogleStorageBucketIamMemberTimeouts
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts">GoogleStorageBucketIamMemberTimeouts</a>
+
+timeouts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#timeouts GoogleStorageBucketIamMember#timeouts}
+
+---
+
+### GoogleStorageBucketIamMemberTimeouts <a name="GoogleStorageBucketIamMemberTimeouts" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
+
+&googlestoragebucketiammember.GoogleStorageBucketIamMemberTimeouts {
+	Create: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#create GoogleStorageBucketIamMember#create}. |
+
+---
+
+##### `Create`<sup>Optional</sup> <a name="Create" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeouts.property.create"></a>
+
+```go
+Create *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_member#create GoogleStorageBucketIamMember#create}.
 
 ---
 
@@ -1076,7 +1166,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
 
 googlestoragebucketiammember.NewGoogleStorageBucketIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketIamMemberConditionOutputReference
 ```
@@ -1389,6 +1479,284 @@ func InternalValue() GoogleStorageBucketIamMemberCondition
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberCondition">GoogleStorageBucketIamMemberCondition</a>
+
+---
+
+
+### GoogleStorageBucketIamMemberTimeoutsOutputReference <a name="GoogleStorageBucketIamMemberTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucketiammember"
+
+googlestoragebucketiammember.NewGoogleStorageBucketIamMemberTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketIamMemberTimeoutsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.resetCreate">ResetCreate</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetCreate` <a name="ResetCreate" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.resetCreate"></a>
+
+```go
+func ResetCreate()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.createInput">CreateInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.create">Create</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `CreateInput`<sup>Optional</sup> <a name="CreateInput" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.createInput"></a>
+
+```go
+func CreateInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Create`<sup>Required</sup> <a name="Create" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.create"></a>
+
+```go
+func Create() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleStorageBucketIamMember.GoogleStorageBucketIamMemberTimeoutsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 

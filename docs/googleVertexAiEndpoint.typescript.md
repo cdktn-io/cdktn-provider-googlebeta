@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiEndpoint <a name="GoogleVertexAiEndpoint" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint google_vertex_ai_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint google_vertex_ai_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint.Initializer"></a>
 
@@ -625,7 +625,7 @@ The construct id used in the generated config for the GoogleVertexAiEndpoint to 
 
 The id of the existing GoogleVertexAiEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1265,12 +1265,12 @@ const googleVertexAiEndpointConfig: googleVertexAiEndpoint.GoogleVertexAiEndpoin
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.dedicatedEndpointEnabled">dedicatedEndpointEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | If true, the endpoint will be exposed through a dedicated DNS [Endpoint.dedicated_endpoint_dns]. Your request to the dedicated DNS will be isolated from other users' traffic and will have better performance and reliability. Note: Once you enabled dedicated endpoint, you won't be able to send request to the shared DNS {region}-aiplatform.googleapis.com. The limitation will be removed soon. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.description">description</a></code> | <code>string</code> | The description of the Endpoint. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointEncryptionSpec">GoogleVertexAiEndpointEncryptionSpec</a></code> | encryption_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#id GoogleVertexAiEndpoint#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#id GoogleVertexAiEndpoint#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | The labels with user-defined metadata to organize your Endpoints. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.network">network</a></code> | <code>string</code> | The full name of the Google Compute Engine [network](https://cloud.google.com//compute/docs/networks-and-firewalls#networks) to which the Endpoint should be peered. Private services access must already be configured for the network. If left unspecified, the Endpoint is not peered with any network. Only one of the fields, network or enable_private_service_connect, can be set. [Format](https://cloud.google.com/compute/docs/reference/rest/v1/networks/insert): 'projects/{project}/global/networks/{network}'. Where '{project}' is a project number, as in '12345', and '{network}' is network name. Only one of the fields, 'network' or 'privateServiceConnectConfig', can be set. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.predictRequestResponseLoggingConfig">predictRequestResponseLoggingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPredictRequestResponseLoggingConfig">GoogleVertexAiEndpointPredictRequestResponseLoggingConfig</a></code> | predict_request_response_logging_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.privateServiceConnectConfig">privateServiceConnectConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfig">GoogleVertexAiEndpointPrivateServiceConnectConfig</a></code> | private_service_connect_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#project GoogleVertexAiEndpoint#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#project GoogleVertexAiEndpoint#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.region">region</a></code> | <code>string</code> | The region for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointTimeouts">GoogleVertexAiEndpointTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointConfig.property.trafficSplit">trafficSplit</a></code> | <code>string</code> | A map from a DeployedModel's id to the percentage of this Endpoint's traffic that should be forwarded to that DeployedModel. |
@@ -1359,7 +1359,7 @@ Required.
 
 The display name of the Endpoint. The name can be up to 128 characters long and can consist of any UTF-8 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#display_name GoogleVertexAiEndpoint#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#display_name GoogleVertexAiEndpoint#display_name}
 
 ---
 
@@ -1373,7 +1373,7 @@ public readonly location: string;
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#location GoogleVertexAiEndpoint#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#location GoogleVertexAiEndpoint#location}
 
 ---
 
@@ -1389,7 +1389,7 @@ The resource name of the Endpoint.
 
 The name must be numeric with no leading zeros and can be at most 10 digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#name GoogleVertexAiEndpoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#name GoogleVertexAiEndpoint#name}
 
 ---
 
@@ -1403,7 +1403,7 @@ public readonly dedicatedEndpointEnabled: boolean | IResolvable;
 
 If true, the endpoint will be exposed through a dedicated DNS [Endpoint.dedicated_endpoint_dns]. Your request to the dedicated DNS will be isolated from other users' traffic and will have better performance and reliability. Note: Once you enabled dedicated endpoint, you won't be able to send request to the shared DNS {region}-aiplatform.googleapis.com. The limitation will be removed soon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#dedicated_endpoint_enabled GoogleVertexAiEndpoint#dedicated_endpoint_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#dedicated_endpoint_enabled GoogleVertexAiEndpoint#dedicated_endpoint_enabled}
 
 ---
 
@@ -1417,7 +1417,7 @@ public readonly description: string;
 
 The description of the Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#description GoogleVertexAiEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#description GoogleVertexAiEndpoint#description}
 
 ---
 
@@ -1431,7 +1431,7 @@ public readonly encryptionSpec: GoogleVertexAiEndpointEncryptionSpec;
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#encryption_spec GoogleVertexAiEndpoint#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#encryption_spec GoogleVertexAiEndpoint#encryption_spec}
 
 ---
 
@@ -1443,7 +1443,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#id GoogleVertexAiEndpoint#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#id GoogleVertexAiEndpoint#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1465,7 +1465,7 @@ Label keys and values can be no longer than 64 characters (Unicode codepoints), 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#labels GoogleVertexAiEndpoint#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#labels GoogleVertexAiEndpoint#labels}
 
 ---
 
@@ -1479,7 +1479,7 @@ public readonly network: string;
 
 The full name of the Google Compute Engine [network](https://cloud.google.com//compute/docs/networks-and-firewalls#networks) to which the Endpoint should be peered. Private services access must already be configured for the network. If left unspecified, the Endpoint is not peered with any network. Only one of the fields, network or enable_private_service_connect, can be set. [Format](https://cloud.google.com/compute/docs/reference/rest/v1/networks/insert): 'projects/{project}/global/networks/{network}'. Where '{project}' is a project number, as in '12345', and '{network}' is network name. Only one of the fields, 'network' or 'privateServiceConnectConfig', can be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#network GoogleVertexAiEndpoint#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#network GoogleVertexAiEndpoint#network}
 
 ---
 
@@ -1493,7 +1493,7 @@ public readonly predictRequestResponseLoggingConfig: GoogleVertexAiEndpointPredi
 
 predict_request_response_logging_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#predict_request_response_logging_config GoogleVertexAiEndpoint#predict_request_response_logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#predict_request_response_logging_config GoogleVertexAiEndpoint#predict_request_response_logging_config}
 
 ---
 
@@ -1507,7 +1507,7 @@ public readonly privateServiceConnectConfig: GoogleVertexAiEndpointPrivateServic
 
 private_service_connect_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#private_service_connect_config GoogleVertexAiEndpoint#private_service_connect_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#private_service_connect_config GoogleVertexAiEndpoint#private_service_connect_config}
 
 ---
 
@@ -1519,7 +1519,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#project GoogleVertexAiEndpoint#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#project GoogleVertexAiEndpoint#project}.
 
 ---
 
@@ -1533,7 +1533,7 @@ public readonly region: string;
 
 The region for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#region GoogleVertexAiEndpoint#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#region GoogleVertexAiEndpoint#region}
 
 ---
 
@@ -1547,7 +1547,7 @@ public readonly timeouts: GoogleVertexAiEndpointTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#timeouts GoogleVertexAiEndpoint#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#timeouts GoogleVertexAiEndpoint#timeouts}
 
 ---
 
@@ -1568,7 +1568,7 @@ the 'deployModel' [example](https://cloud.google.com/vertex-ai/docs/general/depl
 
 ~> **Note:** To set the map to empty, set '"{}"', apply, and then remove the field from your config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#traffic_split GoogleVertexAiEndpoint#traffic_split}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#traffic_split GoogleVertexAiEndpoint#traffic_split}
 
 ---
 
@@ -1668,7 +1668,7 @@ Required.
 
 The Cloud KMS resource identifier of the customer managed encryption key used to protect a resource. Has the form: 'projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key'. The key needs to be in the same region as where the compute resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#kms_key_name GoogleVertexAiEndpoint#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#kms_key_name GoogleVertexAiEndpoint#kms_key_name}
 
 ---
 
@@ -1702,7 +1702,7 @@ public readonly bigqueryDestination: GoogleVertexAiEndpointPredictRequestRespons
 
 bigquery_destination block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#bigquery_destination GoogleVertexAiEndpoint#bigquery_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#bigquery_destination GoogleVertexAiEndpoint#bigquery_destination}
 
 ---
 
@@ -1716,7 +1716,7 @@ public readonly enabled: boolean | IResolvable;
 
 If logging is enabled or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#enabled GoogleVertexAiEndpoint#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#enabled GoogleVertexAiEndpoint#enabled}
 
 ---
 
@@ -1730,7 +1730,7 @@ public readonly samplingRate: number;
 
 Percentage of requests to be logged, expressed as a fraction in range(0,1].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#sampling_rate GoogleVertexAiEndpoint#sampling_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#sampling_rate GoogleVertexAiEndpoint#sampling_rate}
 
 ---
 
@@ -1764,7 +1764,7 @@ BigQuery URI to a project or table, up to 2000 characters long.
 
 When only the project is specified, the Dataset and Table is created. When the full table reference is specified, the Dataset must exist and table must not exist. Accepted forms: - BigQuery path. For example: 'bq://projectId' or 'bq://projectId.bqDatasetId' or 'bq://projectId.bqDatasetId.bqTableId'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#output_uri GoogleVertexAiEndpoint#output_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#output_uri GoogleVertexAiEndpoint#output_uri}
 
 ---
 
@@ -1785,6 +1785,7 @@ const googleVertexAiEndpointPrivateServiceConnectConfig: googleVertexAiEndpoint.
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfig.property.enablePrivateServiceConnect">enablePrivateServiceConnect</a></code> | <code>boolean \| cdktn.IResolvable</code> | Required. If true, expose the IndexEndpoint via private service connect. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfig.property.enableSecurePrivateServiceConnect">enableSecurePrivateServiceConnect</a></code> | <code>boolean \| cdktn.IResolvable</code> | If set to true, enable secure private service connect with IAM authorization. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfig.property.projectAllowlist">projectAllowlist</a></code> | <code>string[]</code> | A list of Projects from which the forwarding rule will target the service attachment. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfig.property.pscAutomationConfigs">pscAutomationConfigs</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>[]</code> | psc_automation_configs block. |
 
 ---
 
@@ -1798,7 +1799,7 @@ public readonly enablePrivateServiceConnect: boolean | IResolvable;
 
 Required. If true, expose the IndexEndpoint via private service connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#enable_private_service_connect GoogleVertexAiEndpoint#enable_private_service_connect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#enable_private_service_connect GoogleVertexAiEndpoint#enable_private_service_connect}
 
 ---
 
@@ -1814,7 +1815,7 @@ If set to true, enable secure private service connect with IAM authorization.
 
 Otherwise, private service connect will be done without authorization. Note latency will be slightly increased if authorization is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#enable_secure_private_service_connect GoogleVertexAiEndpoint#enable_secure_private_service_connect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#enable_secure_private_service_connect GoogleVertexAiEndpoint#enable_secure_private_service_connect}
 
 ---
 
@@ -1828,7 +1829,68 @@ public readonly projectAllowlist: string[];
 
 A list of Projects from which the forwarding rule will target the service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#project_allowlist GoogleVertexAiEndpoint#project_allowlist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#project_allowlist GoogleVertexAiEndpoint#project_allowlist}
+
+---
+
+##### `pscAutomationConfigs`<sup>Optional</sup> <a name="pscAutomationConfigs" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfig.property.pscAutomationConfigs"></a>
+
+```typescript
+public readonly pscAutomationConfigs: IResolvable | GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>[]
+
+psc_automation_configs block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#psc_automation_configs GoogleVertexAiEndpoint#psc_automation_configs}
+
+---
+
+### GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs <a name="GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs.Initializer"></a>
+
+```typescript
+import { googleVertexAiEndpoint } from '@cdktn/provider-google-beta'
+
+const googleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs: googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs.property.network">network</a></code> | <code>string</code> | The full name of the Google Compute Engine [network](https://cloud.google.com/compute/docs/networks-and-firewalls#networks). [Format](https://cloud.google.com/compute/docs/reference/rest/v1/networks/get): projects/{project}/global/networks/{network}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs.property.projectId">projectId</a></code> | <code>string</code> | Project id used to create forwarding rule. |
+
+---
+
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs.property.network"></a>
+
+```typescript
+public readonly network: string;
+```
+
+- *Type:* string
+
+The full name of the Google Compute Engine [network](https://cloud.google.com/compute/docs/networks-and-firewalls#networks). [Format](https://cloud.google.com/compute/docs/reference/rest/v1/networks/get): projects/{project}/global/networks/{network}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#network GoogleVertexAiEndpoint#network}
+
+---
+
+##### `projectId`<sup>Required</sup> <a name="projectId" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs.property.projectId"></a>
+
+```typescript
+public readonly projectId: string;
+```
+
+- *Type:* string
+
+Project id used to create forwarding rule.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#project_id GoogleVertexAiEndpoint#project_id}
 
 ---
 
@@ -1846,9 +1908,9 @@ const googleVertexAiEndpointTimeouts: googleVertexAiEndpoint.GoogleVertexAiEndpo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#create GoogleVertexAiEndpoint#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#delete GoogleVertexAiEndpoint#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#update GoogleVertexAiEndpoint#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#create GoogleVertexAiEndpoint#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#delete GoogleVertexAiEndpoint#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#update GoogleVertexAiEndpoint#update}. |
 
 ---
 
@@ -1860,7 +1922,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#create GoogleVertexAiEndpoint#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#create GoogleVertexAiEndpoint#create}.
 
 ---
 
@@ -1872,7 +1934,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#delete GoogleVertexAiEndpoint#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#delete GoogleVertexAiEndpoint#delete}.
 
 ---
 
@@ -1884,7 +1946,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint#update GoogleVertexAiEndpoint#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_endpoint#update GoogleVertexAiEndpoint#update}.
 
 ---
 
@@ -5631,8 +5693,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.putPscAutomationConfigs">putPscAutomationConfigs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.resetEnableSecurePrivateServiceConnect">resetEnableSecurePrivateServiceConnect</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.resetProjectAllowlist">resetProjectAllowlist</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.resetPscAutomationConfigs">resetPscAutomationConfigs</a></code> | *No description.* |
 
 ---
 
@@ -5786,6 +5850,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putPscAutomationConfigs` <a name="putPscAutomationConfigs" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.putPscAutomationConfigs"></a>
+
+```typescript
+public putPscAutomationConfigs(value: IResolvable | GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.putPscAutomationConfigs.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>[]
+
+---
+
 ##### `resetEnableSecurePrivateServiceConnect` <a name="resetEnableSecurePrivateServiceConnect" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.resetEnableSecurePrivateServiceConnect"></a>
 
 ```typescript
@@ -5798,6 +5874,12 @@ public resetEnableSecurePrivateServiceConnect(): void
 public resetProjectAllowlist(): void
 ```
 
+##### `resetPscAutomationConfigs` <a name="resetPscAutomationConfigs" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.resetPscAutomationConfigs"></a>
+
+```typescript
+public resetPscAutomationConfigs(): void
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5805,9 +5887,11 @@ public resetProjectAllowlist(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.pscAutomationConfigs">pscAutomationConfigs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.enablePrivateServiceConnectInput">enablePrivateServiceConnectInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.enableSecurePrivateServiceConnectInput">enableSecurePrivateServiceConnectInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.projectAllowlistInput">projectAllowlistInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.pscAutomationConfigsInput">pscAutomationConfigsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.enablePrivateServiceConnect">enablePrivateServiceConnect</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.enableSecurePrivateServiceConnect">enableSecurePrivateServiceConnect</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.projectAllowlist">projectAllowlist</a></code> | <code>string[]</code> | *No description.* |
@@ -5839,6 +5923,16 @@ public readonly fqn: string;
 
 ---
 
+##### `pscAutomationConfigs`<sup>Required</sup> <a name="pscAutomationConfigs" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.pscAutomationConfigs"></a>
+
+```typescript
+public readonly pscAutomationConfigs: GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList</a>
+
+---
+
 ##### `enablePrivateServiceConnectInput`<sup>Optional</sup> <a name="enablePrivateServiceConnectInput" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.enablePrivateServiceConnectInput"></a>
 
 ```typescript
@@ -5866,6 +5960,16 @@ public readonly projectAllowlistInput: string[];
 ```
 
 - *Type:* string[]
+
+---
+
+##### `pscAutomationConfigsInput`<sup>Optional</sup> <a name="pscAutomationConfigsInput" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference.property.pscAutomationConfigsInput"></a>
+
+```typescript
+public readonly pscAutomationConfigsInput: IResolvable | GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>[]
 
 ---
 
@@ -5906,6 +6010,521 @@ public readonly internalValue: GoogleVertexAiEndpointPrivateServiceConnectConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfig">GoogleVertexAiEndpointPrivateServiceConnectConfig</a>
+
+---
+
+
+### GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList <a name="GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.Initializer"></a>
+
+```typescript
+import { googleVertexAiEndpoint } from '@cdktn/provider-google-beta'
+
+new googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.get"></a>
+
+```typescript
+public get(index: number): GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>[]
+
+---
+
+
+### GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference <a name="GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer"></a>
+
+```typescript
+import { googleVertexAiEndpoint } from '@cdktn/provider-google-beta'
+
+new googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.errorMessage">errorMessage</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.forwardingRule">forwardingRule</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.ipAddress">ipAddress</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.state">state</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.networkInput">networkInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.projectIdInput">projectIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.network">network</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.projectId">projectId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `errorMessage`<sup>Required</sup> <a name="errorMessage" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.errorMessage"></a>
+
+```typescript
+public readonly errorMessage: string;
+```
+
+- *Type:* string
+
+---
+
+##### `forwardingRule`<sup>Required</sup> <a name="forwardingRule" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.forwardingRule"></a>
+
+```typescript
+public readonly forwardingRule: string;
+```
+
+- *Type:* string
+
+---
+
+##### `ipAddress`<sup>Required</sup> <a name="ipAddress" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.ipAddress"></a>
+
+```typescript
+public readonly ipAddress: string;
+```
+
+- *Type:* string
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.state"></a>
+
+```typescript
+public readonly state: string;
+```
+
+- *Type:* string
+
+---
+
+##### `networkInput`<sup>Optional</sup> <a name="networkInput" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.networkInput"></a>
+
+```typescript
+public readonly networkInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `projectIdInput`<sup>Optional</sup> <a name="projectIdInput" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.projectIdInput"></a>
+
+```typescript
+public readonly projectIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.network"></a>
+
+```typescript
+public readonly network: string;
+```
+
+- *Type:* string
+
+---
+
+##### `projectId`<sup>Required</sup> <a name="projectId" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.projectId"></a>
+
+```typescript
+public readonly projectId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs">GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs</a>
 
 ---
 

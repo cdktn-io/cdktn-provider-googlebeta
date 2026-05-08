@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeBackendService <a name="DataGoogleComputeBackendService" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service google_compute_backend_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service google_compute_backend_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.Initializer"></a>
 
@@ -401,7 +401,7 @@ The construct id used in the generated config for the DataGoogleComputeBackendSe
 
 The id of the existing DataGoogleComputeBackendService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -458,6 +458,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.maxStreamDuration">MaxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceMaxStreamDurationList">DataGoogleComputeBackendServiceMaxStreamDurationList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.networkPassThroughLbTrafficPolicy">NetworkPassThroughLbTrafficPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyList">DataGoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.outlierDetection">OutlierDetection</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceOutlierDetectionList">DataGoogleComputeBackendServiceOutlierDetectionList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList">DataGoogleComputeBackendServiceParamsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.portName">PortName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.protocol">Protocol</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.securityPolicy">SecurityPolicy</a></code> | <code>string</code> | *No description.* |
@@ -889,6 +890,16 @@ public DataGoogleComputeBackendServiceOutlierDetectionList OutlierDetection { ge
 
 ---
 
+##### `Params`<sup>Required</sup> <a name="Params" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.params"></a>
+
+```csharp
+public DataGoogleComputeBackendServiceParamsList Params { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList">DataGoogleComputeBackendServiceParamsList</a>
+
+---
+
 ##### `PortName`<sup>Required</sup> <a name="PortName" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService.property.portName"></a>
 
 ```csharp
@@ -1206,8 +1217,8 @@ new DataGoogleComputeBackendServiceConfig {
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceConfig.property.name">Name</a></code> | <code>string</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#id DataGoogleComputeBackendService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#project DataGoogleComputeBackendService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#id DataGoogleComputeBackendService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#project DataGoogleComputeBackendService#project}. |
 
 ---
 
@@ -1299,7 +1310,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#name DataGoogleComputeBackendService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#name DataGoogleComputeBackendService#name}
 
 ---
 
@@ -1311,7 +1322,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#id DataGoogleComputeBackendService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#id DataGoogleComputeBackendService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1326,7 +1337,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service#project DataGoogleComputeBackendService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_backend_service#project DataGoogleComputeBackendService#project}.
 
 ---
 
@@ -1546,6 +1557,19 @@ new DataGoogleComputeBackendServiceOutlierDetectionBaseEjectionTime {
 using Io.Cdktn.Providers.GoogleBeta;
 
 new DataGoogleComputeBackendServiceOutlierDetectionInterval {
+
+};
+```
+
+
+### DataGoogleComputeBackendServiceParams <a name="DataGoogleComputeBackendServiceParams" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParams.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGoogleComputeBackendServiceParams {
 
 };
 ```
@@ -2465,11 +2489,15 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxConnections">MaxConnections</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxConnectionsPerEndpoint">MaxConnectionsPerEndpoint</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxConnectionsPerInstance">MaxConnectionsPerInstance</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequests">MaxInFlightRequests</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpoint">MaxInFlightRequestsPerEndpoint</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstance">MaxInFlightRequestsPerInstance</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxRate">MaxRate</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxRatePerEndpoint">MaxRatePerEndpoint</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxRatePerInstance">MaxRatePerInstance</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxUtilization">MaxUtilization</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.preference">Preference</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.trafficDuration">TrafficDuration</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackend">DataGoogleComputeBackendServiceBackend</a></code> | *No description.* |
 
 ---
@@ -2578,6 +2606,36 @@ public double MaxConnectionsPerInstance { get; }
 
 ---
 
+##### `MaxInFlightRequests`<sup>Required</sup> <a name="MaxInFlightRequests" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequests"></a>
+
+```csharp
+public double MaxInFlightRequests { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `MaxInFlightRequestsPerEndpoint`<sup>Required</sup> <a name="MaxInFlightRequestsPerEndpoint" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerEndpoint"></a>
+
+```csharp
+public double MaxInFlightRequestsPerEndpoint { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `MaxInFlightRequestsPerInstance`<sup>Required</sup> <a name="MaxInFlightRequestsPerInstance" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxInFlightRequestsPerInstance"></a>
+
+```csharp
+public double MaxInFlightRequestsPerInstance { get; }
+```
+
+- *Type:* double
+
+---
+
 ##### `MaxRate`<sup>Required</sup> <a name="MaxRate" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.maxRate"></a>
 
 ```csharp
@@ -2622,6 +2680,16 @@ public double MaxUtilization { get; }
 
 ```csharp
 public string Preference { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TrafficDuration`<sup>Required</sup> <a name="TrafficDuration" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceBackendOutputReference.property.trafficDuration"></a>
+
+```csharp
+public string TrafficDuration { get; }
 ```
 
 - *Type:* string
@@ -13017,6 +13085,433 @@ public DataGoogleComputeBackendServiceOutlierDetection InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceOutlierDetection">DataGoogleComputeBackendServiceOutlierDetection</a>
+
+---
+
+
+### DataGoogleComputeBackendServiceParamsList <a name="DataGoogleComputeBackendServiceParamsList" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGoogleComputeBackendServiceParamsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.get"></a>
+
+```csharp
+private DataGoogleComputeBackendServiceParamsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### DataGoogleComputeBackendServiceParamsOutputReference <a name="DataGoogleComputeBackendServiceParamsOutputReference" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGoogleComputeBackendServiceParamsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.resourceManagerTags">ResourceManagerTags</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParams">DataGoogleComputeBackendServiceParams</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceManagerTags`<sup>Required</sup> <a name="ResourceManagerTags" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.resourceManagerTags"></a>
+
+```csharp
+public StringMap ResourceManagerTags { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParamsOutputReference.property.internalValue"></a>
+
+```csharp
+public DataGoogleComputeBackendServiceParams InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendServiceParams">DataGoogleComputeBackendServiceParams</a>
 
 ---
 

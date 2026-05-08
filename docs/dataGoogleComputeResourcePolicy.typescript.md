@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeResourcePolicy <a name="DataGoogleComputeResourcePolicy" id="@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy google_compute_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy google_compute_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicy.Initializer"></a>
 
@@ -408,7 +408,7 @@ The construct id used in the generated config for the DataGoogleComputeResourceP
 
 The id of the existing DataGoogleComputeResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -768,8 +768,8 @@ const dataGoogleComputeResourcePolicyConfig: dataGoogleComputeResourcePolicy.Dat
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.name">name</a></code> | <code>string</code> | The name of the resource, provided by the client when initially creating the resource. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy#id DataGoogleComputeResourcePolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy#project DataGoogleComputeResourcePolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy#id DataGoogleComputeResourcePolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy#project DataGoogleComputeResourcePolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyConfig.property.region">region</a></code> | <code>string</code> | Region where resource policy resides. |
 
 ---
@@ -861,7 +861,7 @@ first character must be a lowercase letter, and all following characters
 must be a dash, lowercase letter, or digit, except the last character,
 which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy#name DataGoogleComputeResourcePolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy#name DataGoogleComputeResourcePolicy#name}
 
 ---
 
@@ -873,7 +873,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy#id DataGoogleComputeResourcePolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy#id DataGoogleComputeResourcePolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -888,7 +888,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy#project DataGoogleComputeResourcePolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy#project DataGoogleComputeResourcePolicy#project}.
 
 ---
 
@@ -902,7 +902,7 @@ public readonly region: string;
 
 Region where resource policy resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_resource_policy#region DataGoogleComputeResourcePolicy#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_resource_policy#region DataGoogleComputeResourcePolicy#region}
 
 ---
 
@@ -7211,6 +7211,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.acceleratorTopology">acceleratorTopology</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.acceleratorTopologyMode">acceleratorTopologyMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.maxTopologyDistance">maxTopologyDistance</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicy">DataGoogleComputeResourcePolicyWorkloadPolicy</a></code> | *No description.* |
@@ -7245,6 +7246,16 @@ public readonly fqn: string;
 
 ```typescript
 public readonly acceleratorTopology: string;
+```
+
+- *Type:* string
+
+---
+
+##### `acceleratorTopologyMode`<sup>Required</sup> <a name="acceleratorTopologyMode" id="@cdktn/provider-google-beta.dataGoogleComputeResourcePolicy.DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference.property.acceleratorTopologyMode"></a>
+
+```typescript
+public readonly acceleratorTopologyMode: string;
 ```
 
 - *Type:* string

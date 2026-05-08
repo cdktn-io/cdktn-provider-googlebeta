@@ -4,7 +4,7 @@
 
 ### GoogleHealthcareFhirStore <a name="GoogleHealthcareFhirStore" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store google_healthcare_fhir_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store google_healthcare_fhir_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer"></a>
 
@@ -24,6 +24,7 @@ googleHealthcareFhirStore.GoogleHealthcareFhirStore(
   dataset: str,
   name: str,
   complex_data_type_reference_parsing: str = None,
+  consent_config: GoogleHealthcareFhirStoreConsentConfig = None,
   default_search_handling_strict: bool | IResolvable = None,
   disable_referential_integrity: bool | IResolvable = None,
   disable_resource_versioning: bool | IResolvable = None,
@@ -36,6 +37,7 @@ googleHealthcareFhirStore.GoogleHealthcareFhirStore(
   notification_configs: IResolvable | typing.List[GoogleHealthcareFhirStoreNotificationConfigs] = None,
   stream_configs: IResolvable | typing.List[GoogleHealthcareFhirStoreStreamConfigs] = None,
   timeouts: GoogleHealthcareFhirStoreTimeouts = None,
+  validation_config: GoogleHealthcareFhirStoreValidationConfig = None,
   version: str = None
 )
 ```
@@ -54,18 +56,20 @@ googleHealthcareFhirStore.GoogleHealthcareFhirStore(
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.dataset">dataset</a></code> | <code>str</code> | Identifies the dataset addressed by this request. Must be in the format 'projects/{project}/locations/{location}/datasets/{dataset}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.name">name</a></code> | <code>str</code> | The resource name for the FhirStore. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.complexDataTypeReferenceParsing">complex_data_type_reference_parsing</a></code> | <code>str</code> | Enable parsing of references within complex FHIR data types such as Extensions. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.consentConfig">consent_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a></code> | consent_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.defaultSearchHandlingStrict">default_search_handling_strict</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, overrides the default search behavior for this FHIR store to handling=strict which returns an error for unrecognized search parameters. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.disableReferentialIntegrity">disable_referential_integrity</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable referential integrity in this FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.disableResourceVersioning">disable_resource_versioning</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable resource versioning for this FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.enableHistoryImport">enable_history_import</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to allow the bulk import API to accept history bundles and directly insert historical resource versions into the FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.enableHistoryModifications">enable_history_modifications</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to allow the ExecuteBundle API to accept history bundles, and directly insert and overwrite historical resource versions into the FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.enableUpdateCreate">enable_update_create</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether this FHIR store has the updateCreate capability. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-supplied key-value pairs used to organize FHIR stores. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.notificationConfig">notification_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfig">GoogleHealthcareFhirStoreNotificationConfig</a></code> | notification_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.notificationConfigs">notification_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigs">GoogleHealthcareFhirStoreNotificationConfigs</a>]</code> | notification_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.streamConfigs">stream_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigs">GoogleHealthcareFhirStoreStreamConfigs</a>]</code> | stream_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts">GoogleHealthcareFhirStoreTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.validationConfig">validation_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a></code> | validation_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.version">version</a></code> | <code>str</code> | The FHIR specification version. Default value: "STU3" Possible values: ["DSTU2", "STU3", "R4"]. |
 
 ---
@@ -136,7 +140,7 @@ Must be unique amongst siblings in the same scope
 
 Identifies the dataset addressed by this request. Must be in the format 'projects/{project}/locations/{location}/datasets/{dataset}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#dataset GoogleHealthcareFhirStore#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#dataset GoogleHealthcareFhirStore#dataset}
 
 ---
 
@@ -148,7 +152,7 @@ The resource name for the FhirStore.
 
 ** Changing this property may recreate the FHIR store (removing all data) **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#name GoogleHealthcareFhirStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#name GoogleHealthcareFhirStore#name}
 
 ---
 
@@ -160,7 +164,17 @@ Enable parsing of references within complex FHIR data types such as Extensions.
 
 If this value is set to ENABLED, then features like referential integrity and Bundle reference rewriting apply to all references. If this flag has not been specified the behavior of the FHIR store will not change, references in complex data types will not be parsed. New stores will have this value set to ENABLED by default after a notification period. Warning: turning on this flag causes processing existing resources to fail if they contain references to non-existent resources. Possible values: ["COMPLEX_DATA_TYPE_REFERENCE_PARSING_UNSPECIFIED", "DISABLED", "ENABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#complex_data_type_reference_parsing GoogleHealthcareFhirStore#complex_data_type_reference_parsing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#complex_data_type_reference_parsing GoogleHealthcareFhirStore#complex_data_type_reference_parsing}
+
+---
+
+##### `consent_config`<sup>Optional</sup> <a name="consent_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.consentConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a>
+
+consent_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#consent_config GoogleHealthcareFhirStore#consent_config}
 
 ---
 
@@ -173,7 +187,7 @@ If true, overrides the default search behavior for this FHIR store to handling=s
 If false, uses the FHIR specification default handling=lenient which ignores unrecognized search parameters.
 The handling can always be changed from the default on an individual API call by setting the HTTP header Prefer: handling=strict or Prefer: handling=lenient.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#default_search_handling_strict GoogleHealthcareFhirStore#default_search_handling_strict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#default_search_handling_strict GoogleHealthcareFhirStore#default_search_handling_strict}
 
 ---
 
@@ -191,7 +205,7 @@ Patient.get$everything, will not return all the results if broken references exi
 
 ** Changing this property may recreate the FHIR store (removing all data) **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#disable_referential_integrity GoogleHealthcareFhirStore#disable_referential_integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_referential_integrity GoogleHealthcareFhirStore#disable_referential_integrity}
 
 ---
 
@@ -209,7 +223,7 @@ attempts to read the historical versions.
 
 ** Changing this property may recreate the FHIR store (removing all data) **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#disable_resource_versioning GoogleHealthcareFhirStore#disable_resource_versioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_resource_versioning GoogleHealthcareFhirStore#disable_resource_versioning}
 
 ---
 
@@ -227,7 +241,7 @@ will fail with an error.
 
 ** This property can be changed manually in the Google Cloud Healthcare admin console without recreating the FHIR store **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#enable_history_import GoogleHealthcareFhirStore#enable_history_import}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enable_history_import GoogleHealthcareFhirStore#enable_history_import}
 
 ---
 
@@ -239,7 +253,7 @@ Whether to allow the ExecuteBundle API to accept history bundles, and directly i
 
 If set to false, using history bundles fails with an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#enable_history_modifications GoogleHealthcareFhirStore#enable_history_modifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enable_history_modifications GoogleHealthcareFhirStore#enable_history_modifications}
 
 ---
 
@@ -256,7 +270,7 @@ logs with appropriate levels of care if client-specified resource IDs contain se
 identifiers, those IDs will be part of the FHIR resource path recorded in Cloud audit logs and Cloud Pub/Sub
 notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#enable_update_create GoogleHealthcareFhirStore#enable_update_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enable_update_create GoogleHealthcareFhirStore#enable_update_create}
 
 ---
 
@@ -264,7 +278,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -291,7 +305,7 @@ Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#labels GoogleHealthcareFhirStore#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#labels GoogleHealthcareFhirStore#labels}
 
 ---
 
@@ -301,7 +315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 notification_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#notification_config GoogleHealthcareFhirStore#notification_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#notification_config GoogleHealthcareFhirStore#notification_config}
 
 ---
 
@@ -311,7 +325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 notification_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#notification_configs GoogleHealthcareFhirStore#notification_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#notification_configs GoogleHealthcareFhirStore#notification_configs}
 
 ---
 
@@ -321,7 +335,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 stream_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#stream_configs GoogleHealthcareFhirStore#stream_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#stream_configs GoogleHealthcareFhirStore#stream_configs}
 
 ---
 
@@ -331,7 +345,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#timeouts GoogleHealthcareFhirStore#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#timeouts GoogleHealthcareFhirStore#timeouts}
+
+---
+
+##### `validation_config`<sup>Optional</sup> <a name="validation_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer.parameter.validationConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a>
+
+validation_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#validation_config GoogleHealthcareFhirStore#validation_config}
 
 ---
 
@@ -341,7 +365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The FHIR specification version. Default value: "STU3" Possible values: ["DSTU2", "STU3", "R4"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#version GoogleHealthcareFhirStore#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#version GoogleHealthcareFhirStore#version}
 
 ---
 
@@ -373,11 +397,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putConsentConfig">put_consent_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putNotificationConfig">put_notification_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putNotificationConfigs">put_notification_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putStreamConfigs">put_stream_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putValidationConfig">put_validation_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetComplexDataTypeReferenceParsing">reset_complex_data_type_reference_parsing</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetConsentConfig">reset_consent_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetDefaultSearchHandlingStrict">reset_default_search_handling_strict</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetDisableReferentialIntegrity">reset_disable_referential_integrity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetDisableResourceVersioning">reset_disable_resource_versioning</a></code> | *No description.* |
@@ -390,6 +417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetNotificationConfigs">reset_notification_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetStreamConfigs">reset_stream_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetTimeouts">reset_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetValidationConfig">reset_validation_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetVersion">reset_version</a></code> | *No description.* |
 
 ---
@@ -742,6 +770,61 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_consent_config` <a name="put_consent_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putConsentConfig"></a>
+
+```python
+def put_consent_config(
+  version: str,
+  access_determination_log_config: GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig = None,
+  access_enforced: bool | IResolvable = None,
+  consent_header_handling: GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling = None
+) -> None
+```
+
+###### `version`<sup>Required</sup> <a name="version" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putConsentConfig.parameter.version"></a>
+
+- *Type:* str
+
+Specifies which consent enforcement version is being used for this FHIR store.
+
+This field can only be set once by either [fhirStores.create][] or [fhirStores.patch][]. After that, you must call [fhirStores.applyConsents][] to change the version. Possible values: ["CONSENT_ENFORCEMENT_VERSION_UNSPECIFIED", "V1"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#version GoogleHealthcareFhirStore#version}
+
+---
+
+###### `access_determination_log_config`<sup>Optional</sup> <a name="access_determination_log_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putConsentConfig.parameter.accessDeterminationLogConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig</a>
+
+access_determination_log_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#access_determination_log_config GoogleHealthcareFhirStore#access_determination_log_config}
+
+---
+
+###### `access_enforced`<sup>Optional</sup> <a name="access_enforced" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putConsentConfig.parameter.accessEnforced"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+The default value is false.
+
+If set to true, when accessing FHIR resources, the consent headers will be verified against consents given by patients. See the ConsentEnforcementVersion for the supported consent headers.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#access_enforced GoogleHealthcareFhirStore#access_enforced}
+
+---
+
+###### `consent_header_handling`<sup>Optional</sup> <a name="consent_header_handling" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putConsentConfig.parameter.consentHeaderHandling"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling</a>
+
+consent_header_handling block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#consent_header_handling GoogleHealthcareFhirStore#consent_header_handling}
+
+---
+
 ##### `put_notification_config` <a name="put_notification_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putNotificationConfig"></a>
 
 ```python
@@ -763,7 +846,7 @@ was published. Notifications are only sent if the topic is non-empty. Topic name
 project. service-PROJECT_NUMBER@gcp-sa-healthcare.iam.gserviceaccount.com must have publisher permissions on the given
 Cloud Pub/Sub topic. Not having adequate permissions will cause the calls that send notifications to fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#pubsub_topic GoogleHealthcareFhirStore#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#pubsub_topic GoogleHealthcareFhirStore#pubsub_topic}
 
 ---
 
@@ -809,7 +892,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#create GoogleHealthcareFhirStore#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#create GoogleHealthcareFhirStore#create}.
 
 ---
 
@@ -817,7 +900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#delete GoogleHealthcareFhirStore#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#delete GoogleHealthcareFhirStore#delete}.
 
 ---
 
@@ -825,7 +908,89 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#update GoogleHealthcareFhirStore#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#update GoogleHealthcareFhirStore#update}.
+
+---
+
+##### `put_validation_config` <a name="put_validation_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putValidationConfig"></a>
+
+```python
+def put_validation_config(
+  disable_fhirpath_validation: bool | IResolvable = None,
+  disable_profile_validation: bool | IResolvable = None,
+  disable_reference_type_validation: bool | IResolvable = None,
+  disable_required_field_validation: bool | IResolvable = None,
+  enabled_implementation_guides: typing.List[str] = None
+) -> None
+```
+
+###### `disable_fhirpath_validation`<sup>Optional</sup> <a name="disable_fhirpath_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putValidationConfig.parameter.disableFhirpathValidation"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable FHIRPath validation for incoming resources.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against FHIRPath requirement defined in the FHIR specification. This property only affects resource types that do not have profiles configured for them, any rules in enabled implementation guides will still be enforced.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_fhirpath_validation GoogleHealthcareFhirStore#disable_fhirpath_validation}
+
+---
+
+###### `disable_profile_validation`<sup>Optional</sup> <a name="disable_profile_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putValidationConfig.parameter.disableProfileValidation"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable profile validation for this FHIR store.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against structure definitions in this FHIR store.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_profile_validation GoogleHealthcareFhirStore#disable_profile_validation}
+
+---
+
+###### `disable_reference_type_validation`<sup>Optional</sup> <a name="disable_reference_type_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putValidationConfig.parameter.disableReferenceTypeValidation"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable reference type validation for incoming resources.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against reference type requirement defined in the FHIR specification. This property only affects resource types that do not have profiles configured for them, any rules in enabled implementation guides will still be enforced.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_reference_type_validation GoogleHealthcareFhirStore#disable_reference_type_validation}
+
+---
+
+###### `disable_required_field_validation`<sup>Optional</sup> <a name="disable_required_field_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putValidationConfig.parameter.disableRequiredFieldValidation"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable required fields validation for incoming resources.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against required fields requirement defined in the FHIR specification. This property only affects resource types that do not have profiles configured for them, any rules in enabled implementation guides will still be enforced.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_required_field_validation GoogleHealthcareFhirStore#disable_required_field_validation}
+
+---
+
+###### `enabled_implementation_guides`<sup>Optional</sup> <a name="enabled_implementation_guides" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.putValidationConfig.parameter.enabledImplementationGuides"></a>
+
+- *Type:* typing.List[str]
+
+A list of implementation guide URLs in this FHIR store that are used to configure the profiles to use for validation.
+
+When a URL cannot be resolved (for example, in a type assertion), the server does not return an error.
+For example, to use the US Core profiles for validation, set enabledImplementationGuides to ["http://hl7.org/fhir/us/core/ImplementationGuide/ig"]. If enabledImplementationGuides is empty or omitted, then incoming resources are only required to conform to the base FHIR profiles. Otherwise, a resource must conform to at least one profile listed in the global property of one of the enabled ImplementationGuides.
+The Cloud Healthcare API does not currently enforce all of the rules in a StructureDefinition. The following rules are supported:
+
+* min/max
+* minValue/maxValue
+* maxLength
+* type
+* fixed[x]
+* pattern[x] on simple types
+* slicing, when using "value" as the discriminator type
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enabled_implementation_guides GoogleHealthcareFhirStore#enabled_implementation_guides}
 
 ---
 
@@ -833,6 +998,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_complex_data_type_reference_parsing() -> None
+```
+
+##### `reset_consent_config` <a name="reset_consent_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetConsentConfig"></a>
+
+```python
+def reset_consent_config() -> None
 ```
 
 ##### `reset_default_search_handling_strict` <a name="reset_default_search_handling_strict" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetDefaultSearchHandlingStrict"></a>
@@ -905,6 +1076,12 @@ def reset_stream_configs() -> None
 
 ```python
 def reset_timeouts() -> None
+```
+
+##### `reset_validation_config` <a name="reset_validation_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetValidationConfig"></a>
+
+```python
+def reset_validation_config() -> None
 ```
 
 ##### `reset_version` <a name="reset_version" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.resetVersion"></a>
@@ -1027,7 +1204,7 @@ The construct id used in the generated config for the GoogleHealthcareFhirStore 
 
 The id of the existing GoogleHealthcareFhirStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1057,6 +1234,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.consentConfig">consent_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference">GoogleHealthcareFhirStoreConsentConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.effectiveLabels">effective_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.notificationConfig">notification_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigOutputReference">GoogleHealthcareFhirStoreNotificationConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.notificationConfigs">notification_configs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigsList">GoogleHealthcareFhirStoreNotificationConfigsList</a></code> | *No description.* |
@@ -1064,7 +1242,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.streamConfigs">stream_configs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsList">GoogleHealthcareFhirStoreStreamConfigsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.terraformLabels">terraform_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeoutsOutputReference">GoogleHealthcareFhirStoreTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.validationConfig">validation_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference">GoogleHealthcareFhirStoreValidationConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.complexDataTypeReferenceParsingInput">complex_data_type_reference_parsing_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.consentConfigInput">consent_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.datasetInput">dataset_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.defaultSearchHandlingStrictInput">default_search_handling_strict_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.disableReferentialIntegrityInput">disable_referential_integrity_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -1079,6 +1259,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.notificationConfigsInput">notification_configs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigs">GoogleHealthcareFhirStoreNotificationConfigs</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.streamConfigsInput">stream_configs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigs">GoogleHealthcareFhirStoreStreamConfigs</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts">GoogleHealthcareFhirStoreTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.validationConfigInput">validation_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.versionInput">version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.complexDataTypeReferenceParsing">complex_data_type_reference_parsing</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.dataset">dataset</a></code> | <code>str</code> | *No description.* |
@@ -1237,6 +1418,16 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
+##### `consent_config`<sup>Required</sup> <a name="consent_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.consentConfig"></a>
+
+```python
+consent_config: GoogleHealthcareFhirStoreConsentConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference">GoogleHealthcareFhirStoreConsentConfigOutputReference</a>
+
+---
+
 ##### `effective_labels`<sup>Required</sup> <a name="effective_labels" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.effectiveLabels"></a>
 
 ```python
@@ -1307,6 +1498,16 @@ timeouts: GoogleHealthcareFhirStoreTimeoutsOutputReference
 
 ---
 
+##### `validation_config`<sup>Required</sup> <a name="validation_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.validationConfig"></a>
+
+```python
+validation_config: GoogleHealthcareFhirStoreValidationConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference">GoogleHealthcareFhirStoreValidationConfigOutputReference</a>
+
+---
+
 ##### `complex_data_type_reference_parsing_input`<sup>Optional</sup> <a name="complex_data_type_reference_parsing_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.complexDataTypeReferenceParsingInput"></a>
 
 ```python
@@ -1314,6 +1515,16 @@ complex_data_type_reference_parsing_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `consent_config_input`<sup>Optional</sup> <a name="consent_config_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.consentConfigInput"></a>
+
+```python
+consent_config_input: GoogleHealthcareFhirStoreConsentConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a>
 
 ---
 
@@ -1454,6 +1665,16 @@ timeouts_input: IResolvable | GoogleHealthcareFhirStoreTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts">GoogleHealthcareFhirStoreTimeouts</a>
+
+---
+
+##### `validation_config_input`<sup>Optional</sup> <a name="validation_config_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.property.validationConfigInput"></a>
+
+```python
+validation_config_input: GoogleHealthcareFhirStoreValidationConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a>
 
 ---
 
@@ -1625,6 +1846,7 @@ googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig(
   dataset: str,
   name: str,
   complex_data_type_reference_parsing: str = None,
+  consent_config: GoogleHealthcareFhirStoreConsentConfig = None,
   default_search_handling_strict: bool | IResolvable = None,
   disable_referential_integrity: bool | IResolvable = None,
   disable_resource_versioning: bool | IResolvable = None,
@@ -1637,6 +1859,7 @@ googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig(
   notification_configs: IResolvable | typing.List[GoogleHealthcareFhirStoreNotificationConfigs] = None,
   stream_configs: IResolvable | typing.List[GoogleHealthcareFhirStoreStreamConfigs] = None,
   timeouts: GoogleHealthcareFhirStoreTimeouts = None,
+  validation_config: GoogleHealthcareFhirStoreValidationConfig = None,
   version: str = None
 )
 ```
@@ -1655,18 +1878,20 @@ googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.dataset">dataset</a></code> | <code>str</code> | Identifies the dataset addressed by this request. Must be in the format 'projects/{project}/locations/{location}/datasets/{dataset}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.name">name</a></code> | <code>str</code> | The resource name for the FhirStore. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.complexDataTypeReferenceParsing">complex_data_type_reference_parsing</a></code> | <code>str</code> | Enable parsing of references within complex FHIR data types such as Extensions. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.consentConfig">consent_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a></code> | consent_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.defaultSearchHandlingStrict">default_search_handling_strict</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, overrides the default search behavior for this FHIR store to handling=strict which returns an error for unrecognized search parameters. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.disableReferentialIntegrity">disable_referential_integrity</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable referential integrity in this FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.disableResourceVersioning">disable_resource_versioning</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable resource versioning for this FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.enableHistoryImport">enable_history_import</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to allow the bulk import API to accept history bundles and directly insert historical resource versions into the FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.enableHistoryModifications">enable_history_modifications</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to allow the ExecuteBundle API to accept history bundles, and directly insert and overwrite historical resource versions into the FHIR store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.enableUpdateCreate">enable_update_create</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether this FHIR store has the updateCreate capability. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-supplied key-value pairs used to organize FHIR stores. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.notificationConfig">notification_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfig">GoogleHealthcareFhirStoreNotificationConfig</a></code> | notification_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.notificationConfigs">notification_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigs">GoogleHealthcareFhirStoreNotificationConfigs</a>]</code> | notification_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.streamConfigs">stream_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigs">GoogleHealthcareFhirStoreStreamConfigs</a>]</code> | stream_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts">GoogleHealthcareFhirStoreTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.validationConfig">validation_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a></code> | validation_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.version">version</a></code> | <code>str</code> | The FHIR specification version. Default value: "STU3" Possible values: ["DSTU2", "STU3", "R4"]. |
 
 ---
@@ -1751,7 +1976,7 @@ dataset: str
 
 Identifies the dataset addressed by this request. Must be in the format 'projects/{project}/locations/{location}/datasets/{dataset}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#dataset GoogleHealthcareFhirStore#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#dataset GoogleHealthcareFhirStore#dataset}
 
 ---
 
@@ -1767,7 +1992,7 @@ The resource name for the FhirStore.
 
 ** Changing this property may recreate the FHIR store (removing all data) **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#name GoogleHealthcareFhirStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#name GoogleHealthcareFhirStore#name}
 
 ---
 
@@ -1783,7 +2008,21 @@ Enable parsing of references within complex FHIR data types such as Extensions.
 
 If this value is set to ENABLED, then features like referential integrity and Bundle reference rewriting apply to all references. If this flag has not been specified the behavior of the FHIR store will not change, references in complex data types will not be parsed. New stores will have this value set to ENABLED by default after a notification period. Warning: turning on this flag causes processing existing resources to fail if they contain references to non-existent resources. Possible values: ["COMPLEX_DATA_TYPE_REFERENCE_PARSING_UNSPECIFIED", "DISABLED", "ENABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#complex_data_type_reference_parsing GoogleHealthcareFhirStore#complex_data_type_reference_parsing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#complex_data_type_reference_parsing GoogleHealthcareFhirStore#complex_data_type_reference_parsing}
+
+---
+
+##### `consent_config`<sup>Optional</sup> <a name="consent_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.consentConfig"></a>
+
+```python
+consent_config: GoogleHealthcareFhirStoreConsentConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a>
+
+consent_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#consent_config GoogleHealthcareFhirStore#consent_config}
 
 ---
 
@@ -1800,7 +2039,7 @@ If true, overrides the default search behavior for this FHIR store to handling=s
 If false, uses the FHIR specification default handling=lenient which ignores unrecognized search parameters.
 The handling can always be changed from the default on an individual API call by setting the HTTP header Prefer: handling=strict or Prefer: handling=lenient.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#default_search_handling_strict GoogleHealthcareFhirStore#default_search_handling_strict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#default_search_handling_strict GoogleHealthcareFhirStore#default_search_handling_strict}
 
 ---
 
@@ -1822,7 +2061,7 @@ Patient.get$everything, will not return all the results if broken references exi
 
 ** Changing this property may recreate the FHIR store (removing all data) **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#disable_referential_integrity GoogleHealthcareFhirStore#disable_referential_integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_referential_integrity GoogleHealthcareFhirStore#disable_referential_integrity}
 
 ---
 
@@ -1844,7 +2083,7 @@ attempts to read the historical versions.
 
 ** Changing this property may recreate the FHIR store (removing all data) **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#disable_resource_versioning GoogleHealthcareFhirStore#disable_resource_versioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_resource_versioning GoogleHealthcareFhirStore#disable_resource_versioning}
 
 ---
 
@@ -1866,7 +2105,7 @@ will fail with an error.
 
 ** This property can be changed manually in the Google Cloud Healthcare admin console without recreating the FHIR store **
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#enable_history_import GoogleHealthcareFhirStore#enable_history_import}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enable_history_import GoogleHealthcareFhirStore#enable_history_import}
 
 ---
 
@@ -1882,7 +2121,7 @@ Whether to allow the ExecuteBundle API to accept history bundles, and directly i
 
 If set to false, using history bundles fails with an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#enable_history_modifications GoogleHealthcareFhirStore#enable_history_modifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enable_history_modifications GoogleHealthcareFhirStore#enable_history_modifications}
 
 ---
 
@@ -1903,7 +2142,7 @@ logs with appropriate levels of care if client-specified resource IDs contain se
 identifiers, those IDs will be part of the FHIR resource path recorded in Cloud audit logs and Cloud Pub/Sub
 notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#enable_update_create GoogleHealthcareFhirStore#enable_update_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enable_update_create GoogleHealthcareFhirStore#enable_update_create}
 
 ---
 
@@ -1915,7 +2154,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#id GoogleHealthcareFhirStore#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1946,7 +2185,7 @@ Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#labels GoogleHealthcareFhirStore#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#labels GoogleHealthcareFhirStore#labels}
 
 ---
 
@@ -1960,7 +2199,7 @@ notification_config: GoogleHealthcareFhirStoreNotificationConfig
 
 notification_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#notification_config GoogleHealthcareFhirStore#notification_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#notification_config GoogleHealthcareFhirStore#notification_config}
 
 ---
 
@@ -1974,7 +2213,7 @@ notification_configs: IResolvable | typing.List[GoogleHealthcareFhirStoreNotific
 
 notification_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#notification_configs GoogleHealthcareFhirStore#notification_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#notification_configs GoogleHealthcareFhirStore#notification_configs}
 
 ---
 
@@ -1988,7 +2227,7 @@ stream_configs: IResolvable | typing.List[GoogleHealthcareFhirStoreStreamConfigs
 
 stream_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#stream_configs GoogleHealthcareFhirStore#stream_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#stream_configs GoogleHealthcareFhirStore#stream_configs}
 
 ---
 
@@ -2002,7 +2241,21 @@ timeouts: GoogleHealthcareFhirStoreTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#timeouts GoogleHealthcareFhirStore#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#timeouts GoogleHealthcareFhirStore#timeouts}
+
+---
+
+##### `validation_config`<sup>Optional</sup> <a name="validation_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.property.validationConfig"></a>
+
+```python
+validation_config: GoogleHealthcareFhirStoreValidationConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a>
+
+validation_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#validation_config GoogleHealthcareFhirStore#validation_config}
 
 ---
 
@@ -2016,7 +2269,165 @@ version: str
 
 The FHIR specification version. Default value: "STU3" Possible values: ["DSTU2", "STU3", "R4"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#version GoogleHealthcareFhirStore#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#version GoogleHealthcareFhirStore#version}
+
+---
+
+### GoogleHealthcareFhirStoreConsentConfig <a name="GoogleHealthcareFhirStoreConsentConfig" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig(
+  version: str,
+  access_determination_log_config: GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig = None,
+  access_enforced: bool | IResolvable = None,
+  consent_header_handling: GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.version">version</a></code> | <code>str</code> | Specifies which consent enforcement version is being used for this FHIR store. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.accessDeterminationLogConfig">access_determination_log_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig</a></code> | access_determination_log_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.accessEnforced">access_enforced</a></code> | <code>bool \| cdktn.IResolvable</code> | The default value is false. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.consentHeaderHandling">consent_header_handling</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling</a></code> | consent_header_handling block. |
+
+---
+
+##### `version`<sup>Required</sup> <a name="version" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.version"></a>
+
+```python
+version: str
+```
+
+- *Type:* str
+
+Specifies which consent enforcement version is being used for this FHIR store.
+
+This field can only be set once by either [fhirStores.create][] or [fhirStores.patch][]. After that, you must call [fhirStores.applyConsents][] to change the version. Possible values: ["CONSENT_ENFORCEMENT_VERSION_UNSPECIFIED", "V1"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#version GoogleHealthcareFhirStore#version}
+
+---
+
+##### `access_determination_log_config`<sup>Optional</sup> <a name="access_determination_log_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.accessDeterminationLogConfig"></a>
+
+```python
+access_determination_log_config: GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig</a>
+
+access_determination_log_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#access_determination_log_config GoogleHealthcareFhirStore#access_determination_log_config}
+
+---
+
+##### `access_enforced`<sup>Optional</sup> <a name="access_enforced" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.accessEnforced"></a>
+
+```python
+access_enforced: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+The default value is false.
+
+If set to true, when accessing FHIR resources, the consent headers will be verified against consents given by patients. See the ConsentEnforcementVersion for the supported consent headers.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#access_enforced GoogleHealthcareFhirStore#access_enforced}
+
+---
+
+##### `consent_header_handling`<sup>Optional</sup> <a name="consent_header_handling" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.property.consentHeaderHandling"></a>
+
+```python
+consent_header_handling: GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling</a>
+
+consent_header_handling block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#consent_header_handling GoogleHealthcareFhirStore#consent_header_handling}
+
+---
+
+### GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig <a name="GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig(
+  log_level: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig.property.logLevel">log_level</a></code> | <code>str</code> | Controls the amount of detail to include as part of the audit logs. |
+
+---
+
+##### `log_level`<sup>Optional</sup> <a name="log_level" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig.property.logLevel"></a>
+
+```python
+log_level: str
+```
+
+- *Type:* str
+
+Controls the amount of detail to include as part of the audit logs.
+
+Default value: "MINIMUM" Possible values: ["LOG_LEVEL_UNSPECIFIED", "DISABLED", "MINIMUM", "VERBOSE"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#log_level GoogleHealthcareFhirStore#log_level}
+
+---
+
+### GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling <a name="GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling(
+  profile: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling.property.profile">profile</a></code> | <code>str</code> | Specifies the default server behavior when the header is empty. |
+
+---
+
+##### `profile`<sup>Optional</sup> <a name="profile" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling.property.profile"></a>
+
+```python
+profile: str
+```
+
+- *Type:* str
+
+Specifies the default server behavior when the header is empty.
+
+If not specified, the ScopeProfile.PERMIT_EMPTY_SCOPE option is used. Default value: "PERMIT_EMPTY_SCOPE" Possible values: ["SCOPE_PROFILE_UNSPECIFIED", "PERMIT_EMPTY_SCOPE", "REQUIRED_ON_READ"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#profile GoogleHealthcareFhirStore#profile}
 
 ---
 
@@ -2057,7 +2468,7 @@ was published. Notifications are only sent if the topic is non-empty. Topic name
 project. service-PROJECT_NUMBER@gcp-sa-healthcare.iam.gserviceaccount.com must have publisher permissions on the given
 Cloud Pub/Sub topic. Not having adequate permissions will cause the calls that send notifications to fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#pubsub_topic GoogleHealthcareFhirStore#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#pubsub_topic GoogleHealthcareFhirStore#pubsub_topic}
 
 ---
 
@@ -2102,7 +2513,7 @@ was published. Notifications are only sent if the topic is non-empty. Topic name
 project. service-PROJECT_NUMBER@gcp-sa-healthcare.iam.gserviceaccount.com must have publisher permissions on the given
 Cloud Pub/Sub topic. Not having adequate permissions will cause the calls that send notifications to fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#pubsub_topic GoogleHealthcareFhirStore#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#pubsub_topic GoogleHealthcareFhirStore#pubsub_topic}
 
 ---
 
@@ -2121,7 +2532,7 @@ full FHIR resource. When a resource change is too large or during heavy traffic,
 sent. Clients should always check the "payloadType" label from a Pub/Sub message to determine whether
 it needs to fetch the full resource as a separate operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#send_full_resource GoogleHealthcareFhirStore#send_full_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#send_full_resource GoogleHealthcareFhirStore#send_full_resource}
 
 ---
 
@@ -2141,7 +2552,7 @@ resource change is too large or during heavy traffic, only the resource name wil
 check the "payloadType" label from a Pub/Sub message to determine whether it needs to fetch the full previous
 resource as a separate operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#send_previous_resource_on_delete GoogleHealthcareFhirStore#send_previous_resource_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#send_previous_resource_on_delete GoogleHealthcareFhirStore#send_previous_resource_on_delete}
 
 ---
 
@@ -2177,7 +2588,7 @@ bigquery_destination: GoogleHealthcareFhirStoreStreamConfigsBigqueryDestination
 
 bigquery_destination block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#bigquery_destination GoogleHealthcareFhirStore#bigquery_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#bigquery_destination GoogleHealthcareFhirStore#bigquery_destination}
 
 ---
 
@@ -2195,7 +2606,7 @@ See
 https://www.hl7.org/fhir/valueset-resource-types.html for a list of all FHIR resource types. The server treats
 an empty list as an intent to stream all the supported resource types in this FHIR store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#resource_types GoogleHealthcareFhirStore#resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#resource_types GoogleHealthcareFhirStore#resource_types}
 
 ---
 
@@ -2231,7 +2642,7 @@ dataset_uri: str
 
 BigQuery URI to a dataset, up to 2000 characters long, in the format bq://projectId.bqDatasetId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#dataset_uri GoogleHealthcareFhirStore#dataset_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#dataset_uri GoogleHealthcareFhirStore#dataset_uri}
 
 ---
 
@@ -2245,7 +2656,7 @@ schema_config: GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaCo
 
 schema_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#schema_config GoogleHealthcareFhirStore#schema_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#schema_config GoogleHealthcareFhirStore#schema_config}
 
 ---
 
@@ -2288,7 +2699,7 @@ resource is a recursive structure; when the depth is 2, the CodeSystem table wil
 concept.concept but not concept.concept.concept. If not specified or set to 0, the server will use the default
 value 2. The maximum depth allowed is 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#recursive_structure_depth GoogleHealthcareFhirStore#recursive_structure_depth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#recursive_structure_depth GoogleHealthcareFhirStore#recursive_structure_depth}
 
 ---
 
@@ -2302,7 +2713,7 @@ last_updated_partition_config: GoogleHealthcareFhirStoreStreamConfigsBigqueryDes
 
 last_updated_partition_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#last_updated_partition_config GoogleHealthcareFhirStore#last_updated_partition_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#last_updated_partition_config GoogleHealthcareFhirStore#last_updated_partition_config}
 
 ---
 
@@ -2321,7 +2732,7 @@ Specifies the output schema type.
 * ANALYTICS_V2: Analytics V2, similar to schema defined by the FHIR community, with added support for extensions with one or more occurrences and contained resources in stringified JSON.
 * LOSSLESS: A data-driven schema generated from the fields present in the FHIR data being exported, with no additional simplification. Default value: "ANALYTICS" Possible values: ["ANALYTICS", "ANALYTICS_V2", "LOSSLESS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#schema_type GoogleHealthcareFhirStore#schema_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#schema_type GoogleHealthcareFhirStore#schema_type}
 
 ---
 
@@ -2357,7 +2768,7 @@ type: str
 
 Type of partitioning. Possible values: ["PARTITION_TYPE_UNSPECIFIED", "HOUR", "DAY", "MONTH", "YEAR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#type GoogleHealthcareFhirStore#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#type GoogleHealthcareFhirStore#type}
 
 ---
 
@@ -2371,7 +2782,7 @@ expiration_ms: str
 
 Number of milliseconds for which to keep the storage for a partition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#expiration_ms GoogleHealthcareFhirStore#expiration_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#expiration_ms GoogleHealthcareFhirStore#expiration_ms}
 
 ---
 
@@ -2393,9 +2804,9 @@ googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#create GoogleHealthcareFhirStore#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#delete GoogleHealthcareFhirStore#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#update GoogleHealthcareFhirStore#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#create GoogleHealthcareFhirStore#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#delete GoogleHealthcareFhirStore#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#update GoogleHealthcareFhirStore#update}. |
 
 ---
 
@@ -2407,7 +2818,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#create GoogleHealthcareFhirStore#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#create GoogleHealthcareFhirStore#create}.
 
 ---
 
@@ -2419,7 +2830,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#delete GoogleHealthcareFhirStore#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#delete GoogleHealthcareFhirStore#delete}.
 
 ---
 
@@ -2431,11 +2842,1171 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#update GoogleHealthcareFhirStore#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#update GoogleHealthcareFhirStore#update}.
+
+---
+
+### GoogleHealthcareFhirStoreValidationConfig <a name="GoogleHealthcareFhirStoreValidationConfig" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig(
+  disable_fhirpath_validation: bool | IResolvable = None,
+  disable_profile_validation: bool | IResolvable = None,
+  disable_reference_type_validation: bool | IResolvable = None,
+  disable_required_field_validation: bool | IResolvable = None,
+  enabled_implementation_guides: typing.List[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableFhirpathValidation">disable_fhirpath_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable FHIRPath validation for incoming resources. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableProfileValidation">disable_profile_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable profile validation for this FHIR store. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableReferenceTypeValidation">disable_reference_type_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable reference type validation for incoming resources. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableRequiredFieldValidation">disable_required_field_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to disable required fields validation for incoming resources. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.enabledImplementationGuides">enabled_implementation_guides</a></code> | <code>typing.List[str]</code> | A list of implementation guide URLs in this FHIR store that are used to configure the profiles to use for validation. |
+
+---
+
+##### `disable_fhirpath_validation`<sup>Optional</sup> <a name="disable_fhirpath_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableFhirpathValidation"></a>
+
+```python
+disable_fhirpath_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable FHIRPath validation for incoming resources.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against FHIRPath requirement defined in the FHIR specification. This property only affects resource types that do not have profiles configured for them, any rules in enabled implementation guides will still be enforced.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_fhirpath_validation GoogleHealthcareFhirStore#disable_fhirpath_validation}
+
+---
+
+##### `disable_profile_validation`<sup>Optional</sup> <a name="disable_profile_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableProfileValidation"></a>
+
+```python
+disable_profile_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable profile validation for this FHIR store.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against structure definitions in this FHIR store.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_profile_validation GoogleHealthcareFhirStore#disable_profile_validation}
+
+---
+
+##### `disable_reference_type_validation`<sup>Optional</sup> <a name="disable_reference_type_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableReferenceTypeValidation"></a>
+
+```python
+disable_reference_type_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable reference type validation for incoming resources.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against reference type requirement defined in the FHIR specification. This property only affects resource types that do not have profiles configured for them, any rules in enabled implementation guides will still be enforced.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_reference_type_validation GoogleHealthcareFhirStore#disable_reference_type_validation}
+
+---
+
+##### `disable_required_field_validation`<sup>Optional</sup> <a name="disable_required_field_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.disableRequiredFieldValidation"></a>
+
+```python
+disable_required_field_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether to disable required fields validation for incoming resources.
+
+The default value is false. Set this to true to disable checking incoming resources for conformance against required fields requirement defined in the FHIR specification. This property only affects resource types that do not have profiles configured for them, any rules in enabled implementation guides will still be enforced.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#disable_required_field_validation GoogleHealthcareFhirStore#disable_required_field_validation}
+
+---
+
+##### `enabled_implementation_guides`<sup>Optional</sup> <a name="enabled_implementation_guides" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.property.enabledImplementationGuides"></a>
+
+```python
+enabled_implementation_guides: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+A list of implementation guide URLs in this FHIR store that are used to configure the profiles to use for validation.
+
+When a URL cannot be resolved (for example, in a type assertion), the server does not return an error.
+For example, to use the US Core profiles for validation, set enabledImplementationGuides to ["http://hl7.org/fhir/us/core/ImplementationGuide/ig"]. If enabledImplementationGuides is empty or omitted, then incoming resources are only required to conform to the base FHIR profiles. Otherwise, a resource must conform to at least one profile listed in the global property of one of the enabled ImplementationGuides.
+The Cloud Healthcare API does not currently enforce all of the rules in a StructureDefinition. The following rules are supported:
+
+* min/max
+* minValue/maxValue
+* maxLength
+* type
+* fixed[x]
+* pattern[x] on simple types
+* slicing, when using "value" as the discriminator type
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#enabled_implementation_guides GoogleHealthcareFhirStore#enabled_implementation_guides}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference <a name="GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.resetLogLevel">reset_log_level</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_log_level` <a name="reset_log_level" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.resetLogLevel"></a>
+
+```python
+def reset_log_level() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.logLevelInput">log_level_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.logLevel">log_level</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `log_level_input`<sup>Optional</sup> <a name="log_level_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.logLevelInput"></a>
+
+```python
+log_level_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `log_level`<sup>Required</sup> <a name="log_level" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.logLevel"></a>
+
+```python
+log_level: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig</a>
+
+---
+
+
+### GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference <a name="GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.resetProfile">reset_profile</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_profile` <a name="reset_profile" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.resetProfile"></a>
+
+```python
+def reset_profile() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.profileInput">profile_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.profile">profile</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `profile_input`<sup>Optional</sup> <a name="profile_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.profileInput"></a>
+
+```python
+profile_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `profile`<sup>Required</sup> <a name="profile" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.profile"></a>
+
+```python
+profile: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling</a>
+
+---
+
+
+### GoogleHealthcareFhirStoreConsentConfigOutputReference <a name="GoogleHealthcareFhirStoreConsentConfigOutputReference" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.putAccessDeterminationLogConfig">put_access_determination_log_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.putConsentHeaderHandling">put_consent_header_handling</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resetAccessDeterminationLogConfig">reset_access_determination_log_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resetAccessEnforced">reset_access_enforced</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resetConsentHeaderHandling">reset_consent_header_handling</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_access_determination_log_config` <a name="put_access_determination_log_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.putAccessDeterminationLogConfig"></a>
+
+```python
+def put_access_determination_log_config(
+  log_level: str = None
+) -> None
+```
+
+###### `log_level`<sup>Optional</sup> <a name="log_level" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.putAccessDeterminationLogConfig.parameter.logLevel"></a>
+
+- *Type:* str
+
+Controls the amount of detail to include as part of the audit logs.
+
+Default value: "MINIMUM" Possible values: ["LOG_LEVEL_UNSPECIFIED", "DISABLED", "MINIMUM", "VERBOSE"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#log_level GoogleHealthcareFhirStore#log_level}
+
+---
+
+##### `put_consent_header_handling` <a name="put_consent_header_handling" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.putConsentHeaderHandling"></a>
+
+```python
+def put_consent_header_handling(
+  profile: str = None
+) -> None
+```
+
+###### `profile`<sup>Optional</sup> <a name="profile" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.putConsentHeaderHandling.parameter.profile"></a>
+
+- *Type:* str
+
+Specifies the default server behavior when the header is empty.
+
+If not specified, the ScopeProfile.PERMIT_EMPTY_SCOPE option is used. Default value: "PERMIT_EMPTY_SCOPE" Possible values: ["SCOPE_PROFILE_UNSPECIFIED", "PERMIT_EMPTY_SCOPE", "REQUIRED_ON_READ"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#profile GoogleHealthcareFhirStore#profile}
+
+---
+
+##### `reset_access_determination_log_config` <a name="reset_access_determination_log_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resetAccessDeterminationLogConfig"></a>
+
+```python
+def reset_access_determination_log_config() -> None
+```
+
+##### `reset_access_enforced` <a name="reset_access_enforced" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resetAccessEnforced"></a>
+
+```python
+def reset_access_enforced() -> None
+```
+
+##### `reset_consent_header_handling` <a name="reset_consent_header_handling" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.resetConsentHeaderHandling"></a>
+
+```python
+def reset_consent_header_handling() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessDeterminationLogConfig">access_determination_log_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.consentHeaderHandling">consent_header_handling</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.enforcedAdminConsents">enforced_admin_consents</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessDeterminationLogConfigInput">access_determination_log_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessEnforcedInput">access_enforced_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.consentHeaderHandlingInput">consent_header_handling_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.versionInput">version_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessEnforced">access_enforced</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.version">version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `access_determination_log_config`<sup>Required</sup> <a name="access_determination_log_config" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessDeterminationLogConfig"></a>
+
+```python
+access_determination_log_config: GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference</a>
+
+---
+
+##### `consent_header_handling`<sup>Required</sup> <a name="consent_header_handling" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.consentHeaderHandling"></a>
+
+```python
+consent_header_handling: GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference</a>
+
+---
+
+##### `enforced_admin_consents`<sup>Required</sup> <a name="enforced_admin_consents" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.enforcedAdminConsents"></a>
+
+```python
+enforced_admin_consents: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `access_determination_log_config_input`<sup>Optional</sup> <a name="access_determination_log_config_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessDeterminationLogConfigInput"></a>
+
+```python
+access_determination_log_config_input: GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig">GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig</a>
+
+---
+
+##### `access_enforced_input`<sup>Optional</sup> <a name="access_enforced_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessEnforcedInput"></a>
+
+```python
+access_enforced_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `consent_header_handling_input`<sup>Optional</sup> <a name="consent_header_handling_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.consentHeaderHandlingInput"></a>
+
+```python
+consent_header_handling_input: GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling">GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling</a>
+
+---
+
+##### `version_input`<sup>Optional</sup> <a name="version_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.versionInput"></a>
+
+```python
+version_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `access_enforced`<sup>Required</sup> <a name="access_enforced" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.accessEnforced"></a>
+
+```python
+access_enforced: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `version`<sup>Required</sup> <a name="version" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.version"></a>
+
+```python
+version: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleHealthcareFhirStoreConsentConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig">GoogleHealthcareFhirStoreConsentConfig</a>
+
+---
+
 
 ### GoogleHealthcareFhirStoreNotificationConfigOutputReference <a name="GoogleHealthcareFhirStoreNotificationConfigOutputReference" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigOutputReference"></a>
 
@@ -3527,7 +5098,7 @@ resource is a recursive structure; when the depth is 2, the CodeSystem table wil
 concept.concept but not concept.concept.concept. If not specified or set to 0, the server will use the default
 value 2. The maximum depth allowed is 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#recursive_structure_depth GoogleHealthcareFhirStore#recursive_structure_depth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#recursive_structure_depth GoogleHealthcareFhirStore#recursive_structure_depth}
 
 ---
 
@@ -3537,7 +5108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 last_updated_partition_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#last_updated_partition_config GoogleHealthcareFhirStore#last_updated_partition_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#last_updated_partition_config GoogleHealthcareFhirStore#last_updated_partition_config}
 
 ---
 
@@ -3552,7 +5123,7 @@ Specifies the output schema type.
 * ANALYTICS_V2: Analytics V2, similar to schema defined by the FHIR community, with added support for extensions with one or more occurrences and contained resources in stringified JSON.
 * LOSSLESS: A data-driven schema generated from the fields present in the FHIR data being exported, with no additional simplification. Default value: "ANALYTICS" Possible values: ["ANALYTICS", "ANALYTICS_V2", "LOSSLESS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#schema_type GoogleHealthcareFhirStore#schema_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#schema_type GoogleHealthcareFhirStore#schema_type}
 
 ---
 
@@ -4217,7 +5788,7 @@ def put_last_updated_partition_config(
 
 Type of partitioning. Possible values: ["PARTITION_TYPE_UNSPECIFIED", "HOUR", "DAY", "MONTH", "YEAR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#type GoogleHealthcareFhirStore#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#type GoogleHealthcareFhirStore#type}
 
 ---
 
@@ -4227,7 +5798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of milliseconds for which to keep the storage for a partition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#expiration_ms GoogleHealthcareFhirStore#expiration_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#expiration_ms GoogleHealthcareFhirStore#expiration_ms}
 
 ---
 
@@ -4790,7 +6361,7 @@ def put_bigquery_destination(
 
 BigQuery URI to a dataset, up to 2000 characters long, in the format bq://projectId.bqDatasetId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#dataset_uri GoogleHealthcareFhirStore#dataset_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#dataset_uri GoogleHealthcareFhirStore#dataset_uri}
 
 ---
 
@@ -4800,7 +6371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 schema_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store#schema_config GoogleHealthcareFhirStore#schema_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store#schema_config GoogleHealthcareFhirStore#schema_config}
 
 ---
 
@@ -5257,6 +6828,425 @@ internal_value: IResolvable | GoogleHealthcareFhirStoreTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts">GoogleHealthcareFhirStoreTimeouts</a>
+
+---
+
+
+### GoogleHealthcareFhirStoreValidationConfigOutputReference <a name="GoogleHealthcareFhirStoreValidationConfigOutputReference" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_healthcare_fhir_store
+
+googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableFhirpathValidation">reset_disable_fhirpath_validation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableProfileValidation">reset_disable_profile_validation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableReferenceTypeValidation">reset_disable_reference_type_validation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableRequiredFieldValidation">reset_disable_required_field_validation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetEnabledImplementationGuides">reset_enabled_implementation_guides</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_disable_fhirpath_validation` <a name="reset_disable_fhirpath_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableFhirpathValidation"></a>
+
+```python
+def reset_disable_fhirpath_validation() -> None
+```
+
+##### `reset_disable_profile_validation` <a name="reset_disable_profile_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableProfileValidation"></a>
+
+```python
+def reset_disable_profile_validation() -> None
+```
+
+##### `reset_disable_reference_type_validation` <a name="reset_disable_reference_type_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableReferenceTypeValidation"></a>
+
+```python
+def reset_disable_reference_type_validation() -> None
+```
+
+##### `reset_disable_required_field_validation` <a name="reset_disable_required_field_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetDisableRequiredFieldValidation"></a>
+
+```python
+def reset_disable_required_field_validation() -> None
+```
+
+##### `reset_enabled_implementation_guides` <a name="reset_enabled_implementation_guides" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.resetEnabledImplementationGuides"></a>
+
+```python
+def reset_enabled_implementation_guides() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableFhirpathValidationInput">disable_fhirpath_validation_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableProfileValidationInput">disable_profile_validation_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableReferenceTypeValidationInput">disable_reference_type_validation_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableRequiredFieldValidationInput">disable_required_field_validation_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.enabledImplementationGuidesInput">enabled_implementation_guides_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableFhirpathValidation">disable_fhirpath_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableProfileValidation">disable_profile_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableReferenceTypeValidation">disable_reference_type_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableRequiredFieldValidation">disable_required_field_validation</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.enabledImplementationGuides">enabled_implementation_guides</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `disable_fhirpath_validation_input`<sup>Optional</sup> <a name="disable_fhirpath_validation_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableFhirpathValidationInput"></a>
+
+```python
+disable_fhirpath_validation_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `disable_profile_validation_input`<sup>Optional</sup> <a name="disable_profile_validation_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableProfileValidationInput"></a>
+
+```python
+disable_profile_validation_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `disable_reference_type_validation_input`<sup>Optional</sup> <a name="disable_reference_type_validation_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableReferenceTypeValidationInput"></a>
+
+```python
+disable_reference_type_validation_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `disable_required_field_validation_input`<sup>Optional</sup> <a name="disable_required_field_validation_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableRequiredFieldValidationInput"></a>
+
+```python
+disable_required_field_validation_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `enabled_implementation_guides_input`<sup>Optional</sup> <a name="enabled_implementation_guides_input" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.enabledImplementationGuidesInput"></a>
+
+```python
+enabled_implementation_guides_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `disable_fhirpath_validation`<sup>Required</sup> <a name="disable_fhirpath_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableFhirpathValidation"></a>
+
+```python
+disable_fhirpath_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `disable_profile_validation`<sup>Required</sup> <a name="disable_profile_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableProfileValidation"></a>
+
+```python
+disable_profile_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `disable_reference_type_validation`<sup>Required</sup> <a name="disable_reference_type_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableReferenceTypeValidation"></a>
+
+```python
+disable_reference_type_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `disable_required_field_validation`<sup>Required</sup> <a name="disable_required_field_validation" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.disableRequiredFieldValidation"></a>
+
+```python
+disable_required_field_validation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `enabled_implementation_guides`<sup>Required</sup> <a name="enabled_implementation_guides" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.enabledImplementationGuides"></a>
+
+```python
+enabled_implementation_guides: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleHealthcareFhirStoreValidationConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig">GoogleHealthcareFhirStoreValidationConfig</a>
 
 ---
 

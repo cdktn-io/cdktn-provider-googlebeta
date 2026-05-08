@@ -1,0 +1,2570 @@
+# `googleNetworkConnectivityMulticloudDataTransferConfig` Submodule <a name="`googleNetworkConnectivityMulticloudDataTransferConfig` Submodule" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfig <a name="GoogleNetworkConnectivityMulticloudDataTransferConfig" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+new googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig(scope: Construct, id: string, config: GoogleNetworkConnectivityMulticloudDataTransferConfigConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig">GoogleNetworkConnectivityMulticloudDataTransferConfigConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig">GoogleNetworkConnectivityMulticloudDataTransferConfigConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.putServices">putServices</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetLabels">resetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetServices">resetServices</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetTimeouts">resetTimeouts</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.hasResourceMove"></a>
+
+```typescript
+public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveFromId"></a>
+
+```typescript
+public moveFromId(id: string): void
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using it's instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveToId"></a>
+
+```typescript
+public moveToId(id: string): void
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `putServices` <a name="putServices" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.putServices"></a>
+
+```typescript
+public putServices(value: IResolvable | GoogleNetworkConnectivityMulticloudDataTransferConfigServices[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.putServices.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>[]
+
+---
+
+##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.putTimeouts"></a>
+
+```typescript
+public putTimeouts(value: GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.putTimeouts.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts</a>
+
+---
+
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetDescription"></a>
+
+```typescript
+public resetDescription(): void
+```
+
+##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetId"></a>
+
+```typescript
+public resetId(): void
+```
+
+##### `resetLabels` <a name="resetLabels" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetLabels"></a>
+
+```typescript
+public resetLabels(): void
+```
+
+##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetProject"></a>
+
+```typescript
+public resetProject(): void
+```
+
+##### `resetServices` <a name="resetServices" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetServices"></a>
+
+```typescript
+public resetServices(): void
+```
+
+##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.resetTimeouts"></a>
+
+```typescript
+public resetTimeouts(): void
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a GoogleNetworkConnectivityMulticloudDataTransferConfig resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isConstruct"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformElement"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformResource"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.generateConfigForImport"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTN code for importing a GoogleNetworkConnectivityMulticloudDataTransferConfig resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the GoogleNetworkConnectivityMulticloudDataTransferConfig to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing GoogleNetworkConnectivityMulticloudDataTransferConfig that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the GoogleNetworkConnectivityMulticloudDataTransferConfig to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.createTime">createTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.destinationsActiveCount">destinationsActiveCount</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.destinationsCount">destinationsCount</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.effectiveLabels">effectiveLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.etag">etag</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.services">services</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList">GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformLabels">terraformLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.uid">uid</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.labelsInput">labelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.servicesInput">servicesInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.location">location</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.project">project</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `createTime`<sup>Required</sup> <a name="createTime" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.createTime"></a>
+
+```typescript
+public readonly createTime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `destinationsActiveCount`<sup>Required</sup> <a name="destinationsActiveCount" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.destinationsActiveCount"></a>
+
+```typescript
+public readonly destinationsActiveCount: number;
+```
+
+- *Type:* number
+
+---
+
+##### `destinationsCount`<sup>Required</sup> <a name="destinationsCount" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.destinationsCount"></a>
+
+```typescript
+public readonly destinationsCount: number;
+```
+
+- *Type:* number
+
+---
+
+##### `effectiveLabels`<sup>Required</sup> <a name="effectiveLabels" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.effectiveLabels"></a>
+
+```typescript
+public readonly effectiveLabels: StringMap;
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.etag"></a>
+
+```typescript
+public readonly etag: string;
+```
+
+- *Type:* string
+
+---
+
+##### `services`<sup>Required</sup> <a name="services" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.services"></a>
+
+```typescript
+public readonly services: GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList">GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList</a>
+
+---
+
+##### `terraformLabels`<sup>Required</sup> <a name="terraformLabels" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.terraformLabels"></a>
+
+```typescript
+public readonly terraformLabels: StringMap;
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.timeouts"></a>
+
+```typescript
+public readonly timeouts: GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference</a>
+
+---
+
+##### `uid`<sup>Required</sup> <a name="uid" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.uid"></a>
+
+```typescript
+public readonly uid: string;
+```
+
+- *Type:* string
+
+---
+
+##### `updateTime`<sup>Required</sup> <a name="updateTime" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.updateTime"></a>
+
+```typescript
+public readonly updateTime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.descriptionInput"></a>
+
+```typescript
+public readonly descriptionInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.idInput"></a>
+
+```typescript
+public readonly idInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `labelsInput`<sup>Optional</sup> <a name="labelsInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.labelsInput"></a>
+
+```typescript
+public readonly labelsInput: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `locationInput`<sup>Optional</sup> <a name="locationInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.locationInput"></a>
+
+```typescript
+public readonly locationInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.nameInput"></a>
+
+```typescript
+public readonly nameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.projectInput"></a>
+
+```typescript
+public readonly projectInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `servicesInput`<sup>Optional</sup> <a name="servicesInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.servicesInput"></a>
+
+```typescript
+public readonly servicesInput: IResolvable | GoogleNetworkConnectivityMulticloudDataTransferConfigServices[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>[]
+
+---
+
+##### `timeoutsInput`<sup>Optional</sup> <a name="timeoutsInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.timeoutsInput"></a>
+
+```typescript
+public readonly timeoutsInput: IResolvable | GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts</a>
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.description"></a>
+
+```typescript
+public readonly description: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `labels`<sup>Required</sup> <a name="labels" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.labels"></a>
+
+```typescript
+public readonly labels: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.location"></a>
+
+```typescript
+public readonly location: string;
+```
+
+- *Type:* string
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.project"></a>
+
+```typescript
+public readonly project: string;
+```
+
+- *Type:* string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfig.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigConfig <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigConfig" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+const googleNetworkConnectivityMulticloudDataTransferConfigConfig: googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.location">location</a></code> | <code>string</code> | The location of the multicloud data transfer config. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.name">name</a></code> | <code>string</code> | The name of the MulticloudDataTransferConfig resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.description">description</a></code> | <code>string</code> | A description of this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#id GoogleNetworkConnectivityMulticloudDataTransferConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | User-defined labels. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#project GoogleNetworkConnectivityMulticloudDataTransferConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.services">services</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>[]</code> | services block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts</a></code> | timeouts block. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktn.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.location"></a>
+
+```typescript
+public readonly location: string;
+```
+
+- *Type:* string
+
+The location of the multicloud data transfer config.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#location GoogleNetworkConnectivityMulticloudDataTransferConfig#location}
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+The name of the MulticloudDataTransferConfig resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#name GoogleNetworkConnectivityMulticloudDataTransferConfig#name}
+
+---
+
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.description"></a>
+
+```typescript
+public readonly description: string;
+```
+
+- *Type:* string
+
+A description of this resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#description GoogleNetworkConnectivityMulticloudDataTransferConfig#description}
+
+---
+
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#id GoogleNetworkConnectivityMulticloudDataTransferConfig#id}.
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.labels"></a>
+
+```typescript
+public readonly labels: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+User-defined labels.
+
+**Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
+Please refer to the field 'effective_labels' for all of the labels present on the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#labels GoogleNetworkConnectivityMulticloudDataTransferConfig#labels}
+
+---
+
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.project"></a>
+
+```typescript
+public readonly project: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#project GoogleNetworkConnectivityMulticloudDataTransferConfig#project}.
+
+---
+
+##### `services`<sup>Optional</sup> <a name="services" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.services"></a>
+
+```typescript
+public readonly services: IResolvable | GoogleNetworkConnectivityMulticloudDataTransferConfigServices[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>[]
+
+services block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#services GoogleNetworkConnectivityMulticloudDataTransferConfig#services}
+
+---
+
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigConfig.property.timeouts"></a>
+
+```typescript
+public readonly timeouts: GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts</a>
+
+timeouts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#timeouts GoogleNetworkConnectivityMulticloudDataTransferConfig#timeouts}
+
+---
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigServices <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigServices" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+const googleNetworkConnectivityMulticloudDataTransferConfigServices: googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices.property.serviceName">serviceName</a></code> | <code>string</code> | The name of the service, like "big-query" or "cloud-storage". This corresponds to the map key in the API. |
+
+---
+
+##### `serviceName`<sup>Required</sup> <a name="serviceName" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices.property.serviceName"></a>
+
+```typescript
+public readonly serviceName: string;
+```
+
+- *Type:* string
+
+The name of the service, like "big-query" or "cloud-storage". This corresponds to the map key in the API.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#service_name GoogleNetworkConnectivityMulticloudDataTransferConfig#service_name}
+
+---
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+const googleNetworkConnectivityMulticloudDataTransferConfigServicesStates: googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates = { ... }
+```
+
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+const googleNetworkConnectivityMulticloudDataTransferConfigTimeouts: googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#create GoogleNetworkConnectivityMulticloudDataTransferConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#delete GoogleNetworkConnectivityMulticloudDataTransferConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#update GoogleNetworkConnectivityMulticloudDataTransferConfig#update}. |
+
+---
+
+##### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts.property.create"></a>
+
+```typescript
+public readonly create: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#create GoogleNetworkConnectivityMulticloudDataTransferConfig#create}.
+
+---
+
+##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts.property.delete"></a>
+
+```typescript
+public readonly delete: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#delete GoogleNetworkConnectivityMulticloudDataTransferConfig#delete}.
+
+---
+
+##### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts.property.update"></a>
+
+```typescript
+public readonly update: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config#update GoogleNetworkConnectivityMulticloudDataTransferConfig#update}.
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+new googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.get"></a>
+
+```typescript
+public get(index: number): GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleNetworkConnectivityMulticloudDataTransferConfigServices[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>[]
+
+---
+
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+new googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.states">states</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList">GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.serviceNameInput">serviceNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.serviceName">serviceName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `states`<sup>Required</sup> <a name="states" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.states"></a>
+
+```typescript
+public readonly states: GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList">GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList</a>
+
+---
+
+##### `serviceNameInput`<sup>Optional</sup> <a name="serviceNameInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.serviceNameInput"></a>
+
+```typescript
+public readonly serviceNameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `serviceName`<sup>Required</sup> <a name="serviceName" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.serviceName"></a>
+
+```typescript
+public readonly serviceName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleNetworkConnectivityMulticloudDataTransferConfigServices;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServices">GoogleNetworkConnectivityMulticloudDataTransferConfigServices</a>
+
+---
+
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+new googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.get"></a>
+
+```typescript
+public get(index: number): GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+new googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.effectiveTime">effectiveTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.state">state</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates">GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `effectiveTime`<sup>Required</sup> <a name="effectiveTime" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.effectiveTime"></a>
+
+```typescript
+public readonly effectiveTime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.state"></a>
+
+```typescript
+public readonly state: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStatesOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates">GoogleNetworkConnectivityMulticloudDataTransferConfigServicesStates</a>
+
+---
+
+
+### GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference <a name="GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.Initializer"></a>
+
+```typescript
+import { googleNetworkConnectivityMulticloudDataTransferConfig } from '@cdktn/provider-google-beta'
+
+new googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resetCreate">resetCreate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resetDelete">resetDelete</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resetUpdate">resetUpdate</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetCreate` <a name="resetCreate" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resetCreate"></a>
+
+```typescript
+public resetCreate(): void
+```
+
+##### `resetDelete` <a name="resetDelete" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resetDelete"></a>
+
+```typescript
+public resetDelete(): void
+```
+
+##### `resetUpdate` <a name="resetUpdate" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.resetUpdate"></a>
+
+```typescript
+public resetUpdate(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.createInput">createInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.deleteInput">deleteInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.updateInput">updateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.create">create</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.delete">delete</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.update">update</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `createInput`<sup>Optional</sup> <a name="createInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.createInput"></a>
+
+```typescript
+public readonly createInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deleteInput`<sup>Optional</sup> <a name="deleteInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.deleteInput"></a>
+
+```typescript
+public readonly deleteInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `updateInput`<sup>Optional</sup> <a name="updateInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.updateInput"></a>
+
+```typescript
+public readonly updateInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `create`<sup>Required</sup> <a name="create" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.create"></a>
+
+```typescript
+public readonly create: string;
+```
+
+- *Type:* string
+
+---
+
+##### `delete`<sup>Required</sup> <a name="delete" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.delete"></a>
+
+```typescript
+public readonly delete: string;
+```
+
+- *Type:* string
+
+---
+
+##### `update`<sup>Required</sup> <a name="update" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.update"></a>
+
+```typescript
+public readonly update: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeoutsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkConnectivityMulticloudDataTransferConfig.GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts">GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts</a>
+
+---
+
+
+

@@ -4,12 +4,12 @@
 
 ### GoogleComposerUserWorkloadsConfigMap <a name="GoogleComposerUserWorkloadsConfigMap" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map google_composer_user_workloads_config_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map google_composer_user_workloads_config_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 googlecomposeruserworkloadsconfigmap.NewGoogleComposerUserWorkloadsConfigMap(scope Construct, id *string, config GoogleComposerUserWorkloadsConfigMapConfig) GoogleComposerUserWorkloadsConfigMap
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMap_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMap_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMap_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMap_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMap_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMap_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleComposerUserWorkload
 
 The id of the existing GoogleComposerUserWorkloadsConfigMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -891,7 +891,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 &googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMapConfig {
 	Connection: interface{},
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	Id: *string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts,
 }
 ```
 
@@ -925,8 +925,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.environment">Environment</a></code> | <code>*string</code> | Environment where the Kubernetes ConfigMap will be stored and used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.name">Name</a></code> | <code>*string</code> | Name of the Kubernetes ConfigMap. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.data">Data</a></code> | <code>*map[string]*string</code> | The "data" field of Kubernetes ConfigMap, organized in key-value pairs. For details see: https://kubernetes.io/docs/concepts/configuration/configmap/. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.region">Region</a></code> | <code>*string</code> | The location or Compute Engine region for the environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts">GoogleComposerUserWorkloadsConfigMapTimeouts</a></code> | timeouts block. |
 
@@ -1012,7 +1012,7 @@ Environment *string
 
 Environment where the Kubernetes ConfigMap will be stored and used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#environment GoogleComposerUserWorkloadsConfigMap#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#environment GoogleComposerUserWorkloadsConfigMap#environment}
 
 ---
 
@@ -1026,7 +1026,7 @@ Name *string
 
 Name of the Kubernetes ConfigMap.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#name GoogleComposerUserWorkloadsConfigMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#name GoogleComposerUserWorkloadsConfigMap#name}
 
 ---
 
@@ -1040,7 +1040,7 @@ Data *map[string]*string
 
 The "data" field of Kubernetes ConfigMap, organized in key-value pairs. For details see: https://kubernetes.io/docs/concepts/configuration/configmap/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#data GoogleComposerUserWorkloadsConfigMap#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#data GoogleComposerUserWorkloadsConfigMap#data}
 
 ---
 
@@ -1052,7 +1052,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1067,7 +1067,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}.
 
 ---
 
@@ -1081,7 +1081,7 @@ Region *string
 
 The location or Compute Engine region for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#region GoogleComposerUserWorkloadsConfigMap#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#region GoogleComposerUserWorkloadsConfigMap#region}
 
 ---
 
@@ -1095,7 +1095,7 @@ Timeouts GoogleComposerUserWorkloadsConfigMapTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#timeouts GoogleComposerUserWorkloadsConfigMap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#timeouts GoogleComposerUserWorkloadsConfigMap#timeouts}
 
 ---
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 &googlecomposeruserworkloadsconfigmap.GoogleComposerUserWorkloadsConfigMapTimeouts {
 	Create: *string,
@@ -1117,9 +1117,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}. |
 
 ---
 
@@ -1131,7 +1131,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}.
 
 ---
 
@@ -1143,7 +1143,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}.
 
 ---
 
@@ -1155,7 +1155,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}.
 
 ---
 
@@ -1166,7 +1166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadsconfigmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadsconfigmap"
 
 googlecomposeruserworkloadsconfigmap.NewGoogleComposerUserWorkloadsConfigMapTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComposerUserWorkloadsConfigMapTimeoutsOutputReference
 ```

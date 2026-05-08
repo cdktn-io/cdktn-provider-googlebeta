@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionSslCertificate <a name="GoogleComputeRegionSslCertificate" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer"></a>
 
@@ -20,11 +20,13 @@ GoogleComputeRegionSslCertificate.Builder.create(Construct scope, java.lang.Stri
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .certificate(java.lang.String)
-    .privateKey(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .name(java.lang.String)
 //  .namePrefix(java.lang.String)
+//  .privateKey(java.lang.String)
+//  .privateKeyWo(java.lang.String)
+//  .privateKeyWoVersion(java.lang.String)
 //  .project(java.lang.String)
 //  .region(java.lang.String)
 //  .timeouts(GoogleComputeRegionSslCertificateTimeouts)
@@ -43,12 +45,14 @@ GoogleComputeRegionSslCertificate.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.certificate">certificate</a></code> | <code>java.lang.String</code> | The certificate in PEM format. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.namePrefix">namePrefix</a></code> | <code>java.lang.String</code> | Creates a unique name beginning with the specified prefix. Conflicts with name. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKeyWo">privateKeyWo</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKeyWoVersion">privateKeyWoVersion</a></code> | <code>java.lang.String</code> | Triggers update of 'private_key_wo' write-only. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The Region in which the created regional ssl certificate should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateTimeouts">GoogleComputeRegionSslCertificateTimeouts</a></code> | timeouts block. |
 
@@ -123,17 +127,7 @@ The certificate in PEM format.
 The certificate chain must be no greater than 5 certs long.
 The chain must include at least one intermediate cert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#certificate GoogleComputeRegionSslCertificate#certificate}
-
----
-
-##### `privateKey`<sup>Required</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKey"></a>
-
-- *Type:* java.lang.String
-
-The write-only private key in PEM format.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#private_key GoogleComputeRegionSslCertificate#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#certificate GoogleComputeRegionSslCertificate#certificate}
 
 ---
 
@@ -143,7 +137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#description GoogleComputeRegionSslCertificate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#description GoogleComputeRegionSslCertificate#description}
 
 ---
 
@@ -151,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -174,7 +168,7 @@ character, which cannot be a dash.
 
 These are in the same namespace as the managed SSL certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#name GoogleComputeRegionSslCertificate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#name GoogleComputeRegionSslCertificate#name}
 
 ---
 
@@ -184,7 +178,39 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Creates a unique name beginning with the specified prefix. Conflicts with name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#name_prefix GoogleComputeRegionSslCertificate#name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#name_prefix GoogleComputeRegionSslCertificate#name_prefix}
+
+---
+
+##### `privateKey`<sup>Optional</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKey"></a>
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#private_key GoogleComputeRegionSslCertificate#private_key}
+
+---
+
+##### `privateKeyWo`<sup>Optional</sup> <a name="privateKeyWo" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKeyWo"></a>
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#private_key_wo GoogleComputeRegionSslCertificate#private_key_wo}
+
+---
+
+##### `privateKeyWoVersion`<sup>Optional</sup> <a name="privateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.Initializer.parameter.privateKeyWoVersion"></a>
+
+- *Type:* java.lang.String
+
+Triggers update of 'private_key_wo' write-only.
+
+Increment this value when an update to 'private_key_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#private_key_wo_version GoogleComputeRegionSslCertificate#private_key_wo_version}
 
 ---
 
@@ -192,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}.
 
 ---
 
@@ -204,7 +230,7 @@ The Region in which the created regional ssl certificate should reside.
 
 If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#region GoogleComputeRegionSslCertificate#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#region GoogleComputeRegionSslCertificate#region}
 
 ---
 
@@ -214,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#timeouts GoogleComputeRegionSslCertificate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#timeouts GoogleComputeRegionSslCertificate#timeouts}
 
 ---
 
@@ -251,6 +277,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetName">resetName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetNamePrefix">resetNamePrefix</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetPrivateKey">resetPrivateKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetPrivateKeyWo">resetPrivateKeyWo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetPrivateKeyWoVersion">resetPrivateKeyWoVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetRegion">resetRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -604,6 +633,24 @@ public void resetName()
 public void resetNamePrefix()
 ```
 
+##### `resetPrivateKey` <a name="resetPrivateKey" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetPrivateKey"></a>
+
+```java
+public void resetPrivateKey()
+```
+
+##### `resetPrivateKeyWo` <a name="resetPrivateKeyWo" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetPrivateKeyWo"></a>
+
+```java
+public void resetPrivateKeyWo()
+```
+
+##### `resetPrivateKeyWoVersion` <a name="resetPrivateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetPrivateKeyWoVersion"></a>
+
+```java
+public void resetPrivateKeyWoVersion()
+```
+
 ##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.resetProject"></a>
 
 ```java
@@ -725,7 +772,7 @@ The construct id used in the generated config for the GoogleComputeRegionSslCert
 
 The id of the existing GoogleComputeRegionSslCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -766,6 +813,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.namePrefixInput">namePrefixInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyInput">privateKeyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWoInput">privateKeyWoInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWoVersionInput">privateKeyWoVersionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.regionInput">regionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateTimeouts">GoogleComputeRegionSslCertificateTimeouts</a></code> | *No description.* |
@@ -775,6 +824,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.namePrefix">namePrefix</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWo">privateKeyWo</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWoVersion">privateKeyWoVersion</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.region">region</a></code> | <code>java.lang.String</code> | *No description.* |
 
@@ -1032,6 +1083,26 @@ public java.lang.String getPrivateKeyInput();
 
 ---
 
+##### `privateKeyWoInput`<sup>Optional</sup> <a name="privateKeyWoInput" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWoInput"></a>
+
+```java
+public java.lang.String getPrivateKeyWoInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `privateKeyWoVersionInput`<sup>Optional</sup> <a name="privateKeyWoVersionInput" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWoVersionInput"></a>
+
+```java
+public java.lang.String getPrivateKeyWoVersionInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.projectInput"></a>
 
 ```java
@@ -1122,6 +1193,26 @@ public java.lang.String getPrivateKey();
 
 ---
 
+##### `privateKeyWo`<sup>Required</sup> <a name="privateKeyWo" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWo"></a>
+
+```java
+public java.lang.String getPrivateKeyWo();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `privateKeyWoVersion`<sup>Required</sup> <a name="privateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.privateKeyWoVersion"></a>
+
+```java
+public java.lang.String getPrivateKeyWoVersion();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificate.property.project"></a>
 
 ```java
@@ -1178,11 +1269,13 @@ GoogleComputeRegionSslCertificateConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .certificate(java.lang.String)
-    .privateKey(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .name(java.lang.String)
 //  .namePrefix(java.lang.String)
+//  .privateKey(java.lang.String)
+//  .privateKeyWo(java.lang.String)
+//  .privateKeyWoVersion(java.lang.String)
 //  .project(java.lang.String)
 //  .region(java.lang.String)
 //  .timeouts(GoogleComputeRegionSslCertificateTimeouts)
@@ -1201,12 +1294,14 @@ GoogleComputeRegionSslCertificateConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.certificate">certificate</a></code> | <code>java.lang.String</code> | The certificate in PEM format. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.namePrefix">namePrefix</a></code> | <code>java.lang.String</code> | Creates a unique name beginning with the specified prefix. Conflicts with name. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKeyWo">privateKeyWo</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKeyWoVersion">privateKeyWoVersion</a></code> | <code>java.lang.String</code> | Triggers update of 'private_key_wo' write-only. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.region">region</a></code> | <code>java.lang.String</code> | The Region in which the created regional ssl certificate should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateTimeouts">GoogleComputeRegionSslCertificateTimeouts</a></code> | timeouts block. |
 
@@ -1295,21 +1390,7 @@ The certificate in PEM format.
 The certificate chain must be no greater than 5 certs long.
 The chain must include at least one intermediate cert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#certificate GoogleComputeRegionSslCertificate#certificate}
-
----
-
-##### `privateKey`<sup>Required</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKey"></a>
-
-```java
-public java.lang.String getPrivateKey();
-```
-
-- *Type:* java.lang.String
-
-The write-only private key in PEM format.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#private_key GoogleComputeRegionSslCertificate#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#certificate GoogleComputeRegionSslCertificate#certificate}
 
 ---
 
@@ -1323,7 +1404,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#description GoogleComputeRegionSslCertificate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#description GoogleComputeRegionSslCertificate#description}
 
 ---
 
@@ -1335,7 +1416,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#id GoogleComputeRegionSslCertificate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1362,7 +1443,7 @@ character, which cannot be a dash.
 
 These are in the same namespace as the managed SSL certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#name GoogleComputeRegionSslCertificate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#name GoogleComputeRegionSslCertificate#name}
 
 ---
 
@@ -1376,7 +1457,51 @@ public java.lang.String getNamePrefix();
 
 Creates a unique name beginning with the specified prefix. Conflicts with name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#name_prefix GoogleComputeRegionSslCertificate#name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#name_prefix GoogleComputeRegionSslCertificate#name_prefix}
+
+---
+
+##### `privateKey`<sup>Optional</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKey"></a>
+
+```java
+public java.lang.String getPrivateKey();
+```
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#private_key GoogleComputeRegionSslCertificate#private_key}
+
+---
+
+##### `privateKeyWo`<sup>Optional</sup> <a name="privateKeyWo" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKeyWo"></a>
+
+```java
+public java.lang.String getPrivateKeyWo();
+```
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#private_key_wo GoogleComputeRegionSslCertificate#private_key_wo}
+
+---
+
+##### `privateKeyWoVersion`<sup>Optional</sup> <a name="privateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateConfig.property.privateKeyWoVersion"></a>
+
+```java
+public java.lang.String getPrivateKeyWoVersion();
+```
+
+- *Type:* java.lang.String
+
+Triggers update of 'private_key_wo' write-only.
+
+Increment this value when an update to 'private_key_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#private_key_wo_version GoogleComputeRegionSslCertificate#private_key_wo_version}
 
 ---
 
@@ -1388,7 +1513,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#project GoogleComputeRegionSslCertificate#project}.
 
 ---
 
@@ -1404,7 +1529,7 @@ The Region in which the created regional ssl certificate should reside.
 
 If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#region GoogleComputeRegionSslCertificate#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#region GoogleComputeRegionSslCertificate#region}
 
 ---
 
@@ -1418,7 +1543,7 @@ public GoogleComputeRegionSslCertificateTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#timeouts GoogleComputeRegionSslCertificate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#timeouts GoogleComputeRegionSslCertificate#timeouts}
 
 ---
 
@@ -1439,8 +1564,8 @@ GoogleComputeRegionSslCertificateTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#create GoogleComputeRegionSslCertificate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#delete GoogleComputeRegionSslCertificate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#create GoogleComputeRegionSslCertificate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSslCertificate.GoogleComputeRegionSslCertificateTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#delete GoogleComputeRegionSslCertificate#delete}. |
 
 ---
 
@@ -1452,7 +1577,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#create GoogleComputeRegionSslCertificate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#create GoogleComputeRegionSslCertificate#create}.
 
 ---
 
@@ -1464,7 +1589,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_certificate#delete GoogleComputeRegionSslCertificate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_certificate#delete GoogleComputeRegionSslCertificate#delete}.
 
 ---
 

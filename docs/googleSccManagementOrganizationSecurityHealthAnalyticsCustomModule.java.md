@@ -4,7 +4,7 @@
 
 ### GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule <a name="GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule" id="@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module google_scc_management_organization_security_health_analytics_custom_module}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module google_scc_management_organization_security_health_analytics_custom_module}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer"></a>
 
@@ -44,7 +44,7 @@ GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Builder.creat
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer.parameter.customConfig">customConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfig">GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfig</a></code> | custom_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | The display name of the Security Health Analytics custom module. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer.parameter.enablementState">enablementState</a></code> | <code>java.lang.String</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Location ID of the parent organization. If not provided, 'global' will be used as the default location. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts">GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts</a></code> | timeouts block. |
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Numerical ID of the parent organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#organization GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#organization GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#organization}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 custom_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#custom_config GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#custom_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#custom_config GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#custom_config}
 
 ---
 
@@ -142,7 +142,7 @@ returned by this custom module. The display name must be between 1 and
 128 characters, start with a lowercase letter, and contain alphanumeric
 characters or underscores only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#display_name GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#display_name GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#display_name}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#enablement_state GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#enablement_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#enablement_state GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#enablement_state}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,7 +173,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Location ID of the parent organization. If not provided, 'global' will be used as the default location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
 
 ---
 
@@ -183,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#timeouts GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#timeouts GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#timeouts}
 
 ---
 
@@ -700,7 +700,7 @@ The construct id used in the generated config for the GoogleSccManagementOrganiz
 
 The id of the existing GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1133,7 +1133,7 @@ GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.builder
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.property.customConfig">customConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfig">GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfig</a></code> | custom_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | The display name of the Security Health Analytics custom module. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.property.enablementState">enablementState</a></code> | <code>java.lang.String</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.property.location">location</a></code> | <code>java.lang.String</code> | Location ID of the parent organization. If not provided, 'global' will be used as the default location. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts">GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts</a></code> | timeouts block. |
 
@@ -1219,7 +1219,7 @@ public java.lang.String getOrganization();
 
 Numerical ID of the parent organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#organization GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#organization GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#organization}
 
 ---
 
@@ -1233,7 +1233,7 @@ public GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomC
 
 custom_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#custom_config GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#custom_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#custom_config GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#custom_config}
 
 ---
 
@@ -1253,7 +1253,7 @@ returned by this custom module. The display name must be between 1 and
 128 characters, start with a lowercase letter, and contain alphanumeric
 characters or underscores only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#display_name GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#display_name GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#display_name}
 
 ---
 
@@ -1267,7 +1267,7 @@ public java.lang.String getEnablementState();
 
 The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#enablement_state GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#enablement_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#enablement_state GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#enablement_state}
 
 ---
 
@@ -1279,7 +1279,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#id GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1296,7 +1296,7 @@ public java.lang.String getLocation();
 
 Location ID of the parent organization. If not provided, 'global' will be used as the default location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
 
 ---
 
@@ -1310,7 +1310,7 @@ public GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeout
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#timeouts GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#timeouts GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#timeouts}
 
 ---
 
@@ -1354,7 +1354,7 @@ public GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomC
 
 predicate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#predicate GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#predicate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#predicate GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#predicate}
 
 ---
 
@@ -1371,7 +1371,7 @@ An explanation of the recommended steps that security teams can take to resolve 
 This explanation is returned with each finding generated by
 this module in the nextSteps property of the finding JSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#recommendation GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#recommendation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#recommendation GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#recommendation}
 
 ---
 
@@ -1385,7 +1385,7 @@ public GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomC
 
 resource_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#resource_selector GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#resource_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#resource_selector GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#resource_selector}
 
 ---
 
@@ -1399,7 +1399,7 @@ public java.lang.String getSeverity();
 
 The severity to assign to findings generated by the module. Possible values: ["CRITICAL", "HIGH", "MEDIUM", "LOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#severity GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#severity GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#severity}
 
 ---
 
@@ -1413,7 +1413,7 @@ public GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomC
 
 custom_output block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#custom_output GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#custom_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#custom_output GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#custom_output}
 
 ---
 
@@ -1430,7 +1430,7 @@ Text that describes the vulnerability or misconfiguration that the custom module
 This explanation is returned with each finding instance to
 help investigators understand the detected issue. The text must be enclosed in quotation marks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#description GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#description GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#description}
 
 ---
 
@@ -1464,7 +1464,7 @@ public IResolvable|java.util.List<GoogleSccManagementOrganizationSecurityHealthA
 
 properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#properties GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#properties GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#properties}
 
 ---
 
@@ -1500,7 +1500,7 @@ public java.lang.String getName();
 
 Name of the property for the custom output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#name GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#name GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#name}
 
 ---
 
@@ -1514,7 +1514,7 @@ public GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomC
 
 value_expression block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#value_expression GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#value_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#value_expression GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#value_expression}
 
 ---
 
@@ -1554,7 +1554,7 @@ public java.lang.String getExpression();
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#expression GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#expression GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#expression}
 
 ---
 
@@ -1571,7 +1571,7 @@ Description of the expression.
 This is a longer text which describes the
 expression, e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#description GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#description GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#description}
 
 ---
 
@@ -1585,7 +1585,7 @@ public java.lang.String getLocation();
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
 
 ---
 
@@ -1599,7 +1599,7 @@ public java.lang.String getTitle();
 
 Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#title GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#title GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#title}
 
 ---
 
@@ -1639,7 +1639,7 @@ public java.lang.String getExpression();
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#expression GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#expression GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#expression}
 
 ---
 
@@ -1656,7 +1656,7 @@ Description of the expression.
 This is a longer text which describes the
 expression, e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#description GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#description GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#description}
 
 ---
 
@@ -1670,7 +1670,7 @@ public java.lang.String getLocation();
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#location GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#location}
 
 ---
 
@@ -1684,7 +1684,7 @@ public java.lang.String getTitle();
 
 Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#title GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#title GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#title}
 
 ---
 
@@ -1718,7 +1718,7 @@ public java.util.List<java.lang.String> getResourceTypes();
 
 The resource types to run the detector on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#resource_types GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#resource_types GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#resource_types}
 
 ---
 
@@ -1740,9 +1740,9 @@ GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts.build
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#create GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#delete GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#update GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#create GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#delete GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule.GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#update GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#update}. |
 
 ---
 
@@ -1754,7 +1754,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#create GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#create GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#create}.
 
 ---
 
@@ -1766,7 +1766,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#delete GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#delete GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#delete}.
 
 ---
 
@@ -1778,7 +1778,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#update GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_management_organization_security_health_analytics_custom_module#update GoogleSccManagementOrganizationSecurityHealthAnalyticsCustomModule#update}.
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleDatastreamPrivateConnection <a name="GoogleDatastreamPrivateConnection" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection google_datastream_private_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection google_datastream_private_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.NewGoogleDatastreamPrivateConnection(scope Construct, id *string, config GoogleDatastreamPrivateConnectionConfig) GoogleDatastreamPrivateConnection
 ```
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.putVpcPeeringConfig">PutVpcPeeringConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.resetCreateWithoutValidation">ResetCreateWithoutValidation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.resetLabels">ResetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.resetProject">ResetProject</a></code> | *No description.* |
@@ -438,6 +439,12 @@ func PutVpcPeeringConfig(value GoogleDatastreamPrivateConnectionVpcPeeringConfig
 func ResetCreateWithoutValidation()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.resetId"></a>
 
 ```go
@@ -488,7 +495,7 @@ func ResetVpcPeeringConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.GoogleDatastreamPrivateConnection_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +527,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.GoogleDatastreamPrivateConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +541,7 @@ googledatastreamprivateconnection.GoogleDatastreamPrivateConnection_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.GoogleDatastreamPrivateConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +555,7 @@ googledatastreamprivateconnection.GoogleDatastreamPrivateConnection_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.GoogleDatastreamPrivateConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +584,7 @@ The construct id used in the generated config for the GoogleDatastreamPrivateCon
 
 The id of the existing GoogleDatastreamPrivateConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -616,6 +623,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeoutsOutputReference">GoogleDatastreamPrivateConnectionTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.vpcPeeringConfig">VpcPeeringConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionVpcPeeringConfigOutputReference">GoogleDatastreamPrivateConnectionVpcPeeringConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.createWithoutValidationInput">CreateWithoutValidationInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.labelsInput">LabelsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
@@ -626,6 +634,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.vpcPeeringConfigInput">VpcPeeringConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionVpcPeeringConfig">GoogleDatastreamPrivateConnectionVpcPeeringConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.createWithoutValidation">CreateWithoutValidation</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.labels">Labels</a></code> | <code>*map[string]*string</code> | *No description.* |
@@ -867,6 +876,16 @@ func CreateWithoutValidationInput() interface{}
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DisplayNameInput`<sup>Optional</sup> <a name="DisplayNameInput" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.displayNameInput"></a>
 
 ```go
@@ -967,6 +986,16 @@ func CreateWithoutValidation() interface{}
 
 ---
 
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DisplayName`<sup>Required</sup> <a name="DisplayName" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnection.property.displayName"></a>
 
 ```go
@@ -1052,7 +1081,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 &googledatastreamprivateconnection.GoogleDatastreamPrivateConnectionConfig {
 	Connection: interface{},
@@ -1066,12 +1095,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	Location: *string,
 	PrivateConnectionId: *string,
 	CreateWithoutValidation: interface{},
+	DeletionPolicy: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	PscInterfaceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionPscInterfaceConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts,
-	VpcPeeringConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionVpcPeeringConfig,
+	PscInterfaceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionPscInterfaceConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts,
+	VpcPeeringConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionVpcPeeringConfig,
 }
 ```
 
@@ -1090,9 +1120,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.location">Location</a></code> | <code>*string</code> | The name of the location this private connection is located in. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.privateConnectionId">PrivateConnectionId</a></code> | <code>*string</code> | The private connectivity identifier. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.createWithoutValidation">CreateWithoutValidation</a></code> | <code>interface{}</code> | If set to true, will skip validations. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#id GoogleDatastreamPrivateConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | The deletion policy for the private connection. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#id GoogleDatastreamPrivateConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#project GoogleDatastreamPrivateConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#project GoogleDatastreamPrivateConnection#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.pscInterfaceConfig">PscInterfaceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionPscInterfaceConfig">GoogleDatastreamPrivateConnectionPscInterfaceConfig</a></code> | psc_interface_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts">GoogleDatastreamPrivateConnectionTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.vpcPeeringConfig">VpcPeeringConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionVpcPeeringConfig">GoogleDatastreamPrivateConnectionVpcPeeringConfig</a></code> | vpc_peering_config block. |
@@ -1179,7 +1210,7 @@ DisplayName *string
 
 Display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#display_name GoogleDatastreamPrivateConnection#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#display_name GoogleDatastreamPrivateConnection#display_name}
 
 ---
 
@@ -1193,7 +1224,7 @@ Location *string
 
 The name of the location this private connection is located in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#location GoogleDatastreamPrivateConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#location GoogleDatastreamPrivateConnection#location}
 
 ---
 
@@ -1207,7 +1238,7 @@ PrivateConnectionId *string
 
 The private connectivity identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#private_connection_id GoogleDatastreamPrivateConnection#private_connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#private_connection_id GoogleDatastreamPrivateConnection#private_connection_id}
 
 ---
 
@@ -1221,7 +1252,26 @@ CreateWithoutValidation interface{}
 
 If set to true, will skip validations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#create_without_validation GoogleDatastreamPrivateConnection#create_without_validation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#create_without_validation GoogleDatastreamPrivateConnection#create_without_validation}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+The deletion policy for the private connection.
+
+Setting 'FORCE' will also delete any child
+routes that belong to this private connection. Setting 'DEFAULT' will fail the delete if
+child routes exist. Defaults to 'FORCE' for backwards compatibility.
+Possible values: 'DEFAULT', 'FORCE'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#deletion_policy GoogleDatastreamPrivateConnection#deletion_policy}
 
 ---
 
@@ -1233,7 +1283,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#id GoogleDatastreamPrivateConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#id GoogleDatastreamPrivateConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1253,7 +1303,7 @@ Labels.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#labels GoogleDatastreamPrivateConnection#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#labels GoogleDatastreamPrivateConnection#labels}
 
 ---
 
@@ -1265,7 +1315,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#project GoogleDatastreamPrivateConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#project GoogleDatastreamPrivateConnection#project}.
 
 ---
 
@@ -1279,7 +1329,7 @@ PscInterfaceConfig GoogleDatastreamPrivateConnectionPscInterfaceConfig
 
 psc_interface_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#psc_interface_config GoogleDatastreamPrivateConnection#psc_interface_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#psc_interface_config GoogleDatastreamPrivateConnection#psc_interface_config}
 
 ---
 
@@ -1293,7 +1343,7 @@ Timeouts GoogleDatastreamPrivateConnectionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#timeouts GoogleDatastreamPrivateConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#timeouts GoogleDatastreamPrivateConnection#timeouts}
 
 ---
 
@@ -1307,7 +1357,7 @@ VpcPeeringConfig GoogleDatastreamPrivateConnectionVpcPeeringConfig
 
 vpc_peering_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#vpc_peering_config GoogleDatastreamPrivateConnection#vpc_peering_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#vpc_peering_config GoogleDatastreamPrivateConnection#vpc_peering_config}
 
 ---
 
@@ -1316,7 +1366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 &googledatastreamprivateconnection.GoogleDatastreamPrivateConnectionError {
 
@@ -1329,7 +1379,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionPscInterfaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 &googledatastreamprivateconnection.GoogleDatastreamPrivateConnectionPscInterfaceConfig {
 	NetworkAttachment: *string,
@@ -1359,7 +1409,7 @@ To get Datastream project for the accepted list:
 Add Datastream project to the attachment accepted list:
 'gcloud compute network-attachments update [NA URI] --region=[NA region] --producer-accept-list=[TP from prev command]'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#network_attachment GoogleDatastreamPrivateConnection#network_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#network_attachment GoogleDatastreamPrivateConnection#network_attachment}
 
 ---
 
@@ -1368,7 +1418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 &googledatastreamprivateconnection.GoogleDatastreamPrivateConnectionTimeouts {
 	Create: *string,
@@ -1381,9 +1431,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#create GoogleDatastreamPrivateConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#delete GoogleDatastreamPrivateConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#update GoogleDatastreamPrivateConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#create GoogleDatastreamPrivateConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#delete GoogleDatastreamPrivateConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#update GoogleDatastreamPrivateConnection#update}. |
 
 ---
 
@@ -1395,7 +1445,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#create GoogleDatastreamPrivateConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#create GoogleDatastreamPrivateConnection#create}.
 
 ---
 
@@ -1407,7 +1457,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#delete GoogleDatastreamPrivateConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#delete GoogleDatastreamPrivateConnection#delete}.
 
 ---
 
@@ -1419,7 +1469,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#update GoogleDatastreamPrivateConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#update GoogleDatastreamPrivateConnection#update}.
 
 ---
 
@@ -1428,7 +1478,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionVpcPeeringConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 &googledatastreamprivateconnection.GoogleDatastreamPrivateConnectionVpcPeeringConfig {
 	Subnet: *string,
@@ -1455,7 +1505,7 @@ Subnet *string
 
 A free subnet for peering. (CIDR of /29).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#subnet GoogleDatastreamPrivateConnection#subnet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#subnet GoogleDatastreamPrivateConnection#subnet}
 
 ---
 
@@ -1469,7 +1519,7 @@ Vpc *string
 
 Fully qualified name of the VPC that Datastream will peer to. Format: projects/{project}/global/{networks}/{name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_private_connection#vpc GoogleDatastreamPrivateConnection#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_private_connection#vpc GoogleDatastreamPrivateConnection#vpc}
 
 ---
 
@@ -1480,7 +1530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.NewGoogleDatastreamPrivateConnectionErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamPrivateConnectionErrorList
 ```
@@ -1629,7 +1679,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.NewGoogleDatastreamPrivateConnectionErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamPrivateConnectionErrorOutputReference
 ```
@@ -1918,7 +1968,7 @@ func InternalValue() GoogleDatastreamPrivateConnectionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionPscInterfaceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.NewGoogleDatastreamPrivateConnectionPscInterfaceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamPrivateConnectionPscInterfaceConfigOutputReference
 ```
@@ -2189,7 +2239,7 @@ func InternalValue() GoogleDatastreamPrivateConnectionPscInterfaceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.NewGoogleDatastreamPrivateConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamPrivateConnectionTimeoutsOutputReference
 ```
@@ -2525,7 +2575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamPrivateConnection.GoogleDatastreamPrivateConnectionVpcPeeringConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamprivateconnection"
 
 googledatastreamprivateconnection.NewGoogleDatastreamPrivateConnectionVpcPeeringConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamPrivateConnectionVpcPeeringConfigOutputReference
 ```

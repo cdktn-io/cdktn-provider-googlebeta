@@ -4,12 +4,12 @@
 
 ### GoogleDataformRepositoryReleaseConfig <a name="GoogleDataformRepositoryReleaseConfig" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.NewGoogleDataformRepositoryReleaseConfig(scope Construct, id *string, config GoogleDataformRepositoryReleaseConfigConfig) GoogleDataformRepositoryReleaseConfig
 ```
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetCodeCompilationConfig">ResetCodeCompilationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetCronSchedule">ResetCronSchedule</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetDisabled">ResetDisabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetRegion">ResetRegion</a></code> | *No description.* |
@@ -432,6 +433,12 @@ func ResetCodeCompilationConfig()
 func ResetCronSchedule()
 ```
 
+##### `ResetDisabled` <a name="ResetDisabled" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetDisabled"></a>
+
+```go
+func ResetDisabled()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.resetId"></a>
 
 ```go
@@ -482,7 +489,7 @@ func ResetTimeZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfig_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +535,7 @@ googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfig_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +549,7 @@ googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfig_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -571,7 +578,7 @@ The construct id used in the generated config for the GoogleDataformRepositoryRe
 
 The id of the existing GoogleDataformRepositoryReleaseConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -606,6 +613,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference">GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.codeCompilationConfigInput">CodeCompilationConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigCodeCompilationConfig">GoogleDataformRepositoryReleaseConfigCodeCompilationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.cronScheduleInput">CronScheduleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.disabledInput">DisabledInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.gitCommitishInput">GitCommitishInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
@@ -615,6 +623,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.timeZoneInput">TimeZoneInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.cronSchedule">CronSchedule</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.disabled">Disabled</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.gitCommitish">GitCommitish</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.name">Name</a></code> | <code>*string</code> | *No description.* |
@@ -817,6 +826,16 @@ func CronScheduleInput() *string
 
 ---
 
+##### `DisabledInput`<sup>Optional</sup> <a name="DisabledInput" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.disabledInput"></a>
+
+```go
+func DisabledInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `GitCommitishInput`<sup>Optional</sup> <a name="GitCommitishInput" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.gitCommitishInput"></a>
 
 ```go
@@ -904,6 +923,16 @@ func CronSchedule() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `Disabled`<sup>Required</sup> <a name="Disabled" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfig.property.disabled"></a>
+
+```go
+func Disabled() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -1002,7 +1031,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigCodeCompilationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 &googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfigCodeCompilationConfig {
 	AssertionSchema: *string,
@@ -1041,7 +1070,7 @@ AssertionSchema *string
 
 Optional. The default schema (BigQuery dataset ID) for assertions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#assertion_schema GoogleDataformRepositoryReleaseConfig#assertion_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#assertion_schema GoogleDataformRepositoryReleaseConfig#assertion_schema}
 
 ---
 
@@ -1055,7 +1084,7 @@ DatabaseSuffix *string
 
 Optional. The suffix that should be appended to all database (Google Cloud project ID) names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#database_suffix GoogleDataformRepositoryReleaseConfig#database_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#database_suffix GoogleDataformRepositoryReleaseConfig#database_suffix}
 
 ---
 
@@ -1069,7 +1098,7 @@ DefaultDatabase *string
 
 Optional. The default database (Google Cloud project ID).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#default_database GoogleDataformRepositoryReleaseConfig#default_database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#default_database GoogleDataformRepositoryReleaseConfig#default_database}
 
 ---
 
@@ -1086,7 +1115,7 @@ Optional.
 The default BigQuery location to use. Defaults to "US".
 See the BigQuery docs for a full list of locations: https://cloud.google.com/bigquery/docs/locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#default_location GoogleDataformRepositoryReleaseConfig#default_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#default_location GoogleDataformRepositoryReleaseConfig#default_location}
 
 ---
 
@@ -1100,7 +1129,7 @@ DefaultSchema *string
 
 Optional. The default schema (BigQuery dataset ID).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#default_schema GoogleDataformRepositoryReleaseConfig#default_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#default_schema GoogleDataformRepositoryReleaseConfig#default_schema}
 
 ---
 
@@ -1114,7 +1143,7 @@ SchemaSuffix *string
 
 Optional. The suffix that should be appended to all schema (BigQuery dataset ID) names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#schema_suffix GoogleDataformRepositoryReleaseConfig#schema_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#schema_suffix GoogleDataformRepositoryReleaseConfig#schema_suffix}
 
 ---
 
@@ -1128,7 +1157,7 @@ TablePrefix *string
 
 Optional. The prefix that should be prepended to all table names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#table_prefix GoogleDataformRepositoryReleaseConfig#table_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#table_prefix GoogleDataformRepositoryReleaseConfig#table_prefix}
 
 ---
 
@@ -1146,7 +1175,7 @@ User-defined variables that are made available to project code during compilatio
 An object containing a list of "key": value pairs.
 Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#vars GoogleDataformRepositoryReleaseConfig#vars}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#vars GoogleDataformRepositoryReleaseConfig#vars}
 
 ---
 
@@ -1155,7 +1184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 &googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfigConfig {
 	Connection: interface{},
@@ -1167,13 +1196,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	Provisioners: *[]interface{},
 	GitCommitish: *string,
 	Name: *string,
-	CodeCompilationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigCodeCompilationConfig,
+	CodeCompilationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigCodeCompilationConfig,
 	CronSchedule: *string,
+	Disabled: interface{},
 	Id: *string,
 	Project: *string,
 	Region: *string,
 	Repository: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts,
 	TimeZone: *string,
 }
 ```
@@ -1193,8 +1223,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.name">Name</a></code> | <code>*string</code> | The release's name. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.codeCompilationConfig">CodeCompilationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigCodeCompilationConfig">GoogleDataformRepositoryReleaseConfigCodeCompilationConfig</a></code> | code_compilation_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.cronSchedule">CronSchedule</a></code> | <code>*string</code> | Optional. Optional schedule (in cron format) for automatic creation of compilation results. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#id GoogleDataformRepositoryReleaseConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#project GoogleDataformRepositoryReleaseConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.disabled">Disabled</a></code> | <code>interface{}</code> | Disables automatic creation of compilation results. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#id GoogleDataformRepositoryReleaseConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#project GoogleDataformRepositoryReleaseConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.region">Region</a></code> | <code>*string</code> | A reference to the region. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.repository">Repository</a></code> | <code>*string</code> | A reference to the Dataform repository. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts">GoogleDataformRepositoryReleaseConfigTimeouts</a></code> | timeouts block. |
@@ -1282,7 +1313,7 @@ GitCommitish *string
 
 Git commit/tag/branch name at which the repository should be compiled. Must exist in the remote repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#git_commitish GoogleDataformRepositoryReleaseConfig#git_commitish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#git_commitish GoogleDataformRepositoryReleaseConfig#git_commitish}
 
 ---
 
@@ -1296,7 +1327,7 @@ Name *string
 
 The release's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#name GoogleDataformRepositoryReleaseConfig#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#name GoogleDataformRepositoryReleaseConfig#name}
 
 ---
 
@@ -1310,7 +1341,7 @@ CodeCompilationConfig GoogleDataformRepositoryReleaseConfigCodeCompilationConfig
 
 code_compilation_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#code_compilation_config GoogleDataformRepositoryReleaseConfig#code_compilation_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#code_compilation_config GoogleDataformRepositoryReleaseConfig#code_compilation_config}
 
 ---
 
@@ -1324,7 +1355,21 @@ CronSchedule *string
 
 Optional. Optional schedule (in cron format) for automatic creation of compilation results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#cron_schedule GoogleDataformRepositoryReleaseConfig#cron_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#cron_schedule GoogleDataformRepositoryReleaseConfig#cron_schedule}
+
+---
+
+##### `Disabled`<sup>Optional</sup> <a name="Disabled" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigConfig.property.disabled"></a>
+
+```go
+Disabled interface{}
+```
+
+- *Type:* interface{}
+
+Disables automatic creation of compilation results.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#disabled GoogleDataformRepositoryReleaseConfig#disabled}
 
 ---
 
@@ -1336,7 +1381,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#id GoogleDataformRepositoryReleaseConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#id GoogleDataformRepositoryReleaseConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1351,7 +1396,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#project GoogleDataformRepositoryReleaseConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#project GoogleDataformRepositoryReleaseConfig#project}.
 
 ---
 
@@ -1365,7 +1410,7 @@ Region *string
 
 A reference to the region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#region GoogleDataformRepositoryReleaseConfig#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#region GoogleDataformRepositoryReleaseConfig#region}
 
 ---
 
@@ -1379,7 +1424,7 @@ Repository *string
 
 A reference to the Dataform repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#repository GoogleDataformRepositoryReleaseConfig#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#repository GoogleDataformRepositoryReleaseConfig#repository}
 
 ---
 
@@ -1393,7 +1438,7 @@ Timeouts GoogleDataformRepositoryReleaseConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#timeouts GoogleDataformRepositoryReleaseConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#timeouts GoogleDataformRepositoryReleaseConfig#timeouts}
 
 ---
 
@@ -1409,7 +1454,7 @@ Optional.
 
 Specifies the time zone to be used when interpreting cronSchedule. Must be a time zone name from the time zone database (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). If left unspecified, the default is UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#time_zone GoogleDataformRepositoryReleaseConfig#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#time_zone GoogleDataformRepositoryReleaseConfig#time_zone}
 
 ---
 
@@ -1418,7 +1463,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 &googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecords {
 
@@ -1431,7 +1476,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 &googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatus {
 
@@ -1444,7 +1489,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 &googledataformrepositoryreleaseconfig.GoogleDataformRepositoryReleaseConfigTimeouts {
 	Create: *string,
@@ -1457,9 +1502,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#create GoogleDataformRepositoryReleaseConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#delete GoogleDataformRepositoryReleaseConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#update GoogleDataformRepositoryReleaseConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#create GoogleDataformRepositoryReleaseConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#delete GoogleDataformRepositoryReleaseConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#update GoogleDataformRepositoryReleaseConfig#update}. |
 
 ---
 
@@ -1471,7 +1516,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#create GoogleDataformRepositoryReleaseConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#create GoogleDataformRepositoryReleaseConfig#create}.
 
 ---
 
@@ -1483,7 +1528,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#delete GoogleDataformRepositoryReleaseConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#delete GoogleDataformRepositoryReleaseConfig#delete}.
 
 ---
 
@@ -1495,7 +1540,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#update GoogleDataformRepositoryReleaseConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_release_config#update GoogleDataformRepositoryReleaseConfig#update}.
 
 ---
 
@@ -1506,7 +1551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.NewGoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference
 ```
@@ -1987,7 +2032,7 @@ func InternalValue() GoogleDataformRepositoryReleaseConfigCodeCompilationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.NewGoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusList
 ```
@@ -2136,7 +2181,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.NewGoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusOutputReference
 ```
@@ -2425,7 +2470,7 @@ func InternalValue() GoogleDataformRepositoryReleaseConfigRecentScheduledRelease
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.NewGoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList
 ```
@@ -2574,7 +2619,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.NewGoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsOutputReference
 ```
@@ -2874,7 +2919,7 @@ func InternalValue() GoogleDataformRepositoryReleaseConfigRecentScheduledRelease
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepositoryReleaseConfig.GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepositoryreleaseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformrepositoryreleaseconfig"
 
 googledataformrepositoryreleaseconfig.NewGoogleDataformRepositoryReleaseConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference
 ```

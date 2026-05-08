@@ -4,12 +4,12 @@
 
 ### GooglePrivatecaCertificateTemplateIamBinding <a name="GooglePrivatecaCertificateTemplateIamBinding" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 googleprivatecacertificatetemplateiambinding.NewGooglePrivatecaCertificateTemplateIamBinding(scope Construct, id *string, config GooglePrivatecaCertificateTemplateIamBindingConfig) GooglePrivatecaCertificateTemplateIamBinding
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateI
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateI
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GooglePrivatecaCertificate
 
 The id of the existing GooglePrivatecaCertificateTemplateIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 &googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateIamBindingCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#expression GooglePrivatecaCertificateTemplateIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#title GooglePrivatecaCertificateTemplateIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#description GooglePrivatecaCertificateTemplateIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#expression GooglePrivatecaCertificateTemplateIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#title GooglePrivatecaCertificateTemplateIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#description GooglePrivatecaCertificateTemplateIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#expression GooglePrivatecaCertificateTemplateIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#expression GooglePrivatecaCertificateTemplateIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#title GooglePrivatecaCertificateTemplateIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#title GooglePrivatecaCertificateTemplateIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#description GooglePrivatecaCertificateTemplateIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#description GooglePrivatecaCertificateTemplateIamBinding#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 &googleprivatecacertificatetemplateiambinding.GooglePrivatecaCertificateTemplateIamBindingConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepr
 	CertificateTemplate: *string,
 	Members: *[]*string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepr
 | <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.certificateTemplate">CertificateTemplate</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#certificate_template GooglePrivatecaCertificateTemplateIamBinding#certificate_template}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#members GooglePrivatecaCertificateTemplateIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#role GooglePrivatecaCertificateTemplateIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.certificateTemplate">CertificateTemplate</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#certificate_template GooglePrivatecaCertificateTemplateIamBinding#certificate_template}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#members GooglePrivatecaCertificateTemplateIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#role GooglePrivatecaCertificateTemplateIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingCondition">GooglePrivatecaCertificateTemplateIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#id GooglePrivatecaCertificateTemplateIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#location GooglePrivatecaCertificateTemplateIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#project GooglePrivatecaCertificateTemplateIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#id GooglePrivatecaCertificateTemplateIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#location GooglePrivatecaCertificateTemplateIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#project GooglePrivatecaCertificateTemplateIamBinding#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ CertificateTemplate *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#certificate_template GooglePrivatecaCertificateTemplateIamBinding#certificate_template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#certificate_template GooglePrivatecaCertificateTemplateIamBinding#certificate_template}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#members GooglePrivatecaCertificateTemplateIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#members GooglePrivatecaCertificateTemplateIamBinding#members}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#role GooglePrivatecaCertificateTemplateIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#role GooglePrivatecaCertificateTemplateIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GooglePrivatecaCertificateTemplateIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#condition GooglePrivatecaCertificateTemplateIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#condition GooglePrivatecaCertificateTemplateIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#id GooglePrivatecaCertificateTemplateIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#id GooglePrivatecaCertificateTemplateIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#location GooglePrivatecaCertificateTemplateIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#location GooglePrivatecaCertificateTemplateIamBinding#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template_iam_binding#project GooglePrivatecaCertificateTemplateIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template_iam_binding#project GooglePrivatecaCertificateTemplateIamBinding#project}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivatecaCertificateTemplateIamBinding.GooglePrivatecaCertificateTemplateIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificatetemplateiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificatetemplateiambinding"
 
 googleprivatecacertificatetemplateiambinding.NewGooglePrivatecaCertificateTemplateIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivatecaCertificateTemplateIamBindingConditionOutputReference
 ```

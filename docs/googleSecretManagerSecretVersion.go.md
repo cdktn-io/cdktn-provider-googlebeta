@@ -4,12 +4,12 @@
 
 ### GoogleSecretManagerSecretVersion <a name="GoogleSecretManagerSecretVersion" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version google_secret_manager_secret_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version google_secret_manager_secret_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 googlesecretmanagersecretversion.NewGoogleSecretManagerSecretVersion(scope Construct, id *string, config GoogleSecretManagerSecretVersionConfig) GoogleSecretManagerSecretVersion
 ```
@@ -79,6 +79,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetEnabled">ResetEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetIsSecretDataBase64">ResetIsSecretDataBase64</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetSecretData">ResetSecretData</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetSecretDataWo">ResetSecretDataWo</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetSecretDataWoVersion">ResetSecretDataWoVersion</a></code> | *No description.* |
@@ -431,6 +432,12 @@ func ResetId()
 func ResetIsSecretDataBase64()
 ```
 
+##### `ResetProject` <a name="ResetProject" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetProject"></a>
+
+```go
+func ResetProject()
+```
+
 ##### `ResetSecretData` <a name="ResetSecretData" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.resetSecretData"></a>
 
 ```go
@@ -469,7 +476,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 googlesecretmanagersecretversion.GoogleSecretManagerSecretVersion_IsConstruct(x interface{}) *bool
 ```
@@ -501,7 +508,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 googlesecretmanagersecretversion.GoogleSecretManagerSecretVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -515,7 +522,7 @@ googlesecretmanagersecretversion.GoogleSecretManagerSecretVersion_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 googlesecretmanagersecretversion.GoogleSecretManagerSecretVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -529,7 +536,7 @@ googlesecretmanagersecretversion.GoogleSecretManagerSecretVersion_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 googlesecretmanagersecretversion.GoogleSecretManagerSecretVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -558,7 +565,7 @@ The construct id used in the generated config for the GoogleSecretManagerSecretV
 
 The id of the existing GoogleSecretManagerSecretVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -597,6 +604,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.enabledInput">EnabledInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.isSecretDataBase64Input">IsSecretDataBase64Input</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secretDataInput">SecretDataInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secretDataWoInput">SecretDataWoInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secretDataWoVersionInput">SecretDataWoVersionInput</a></code> | <code>*f64</code> | *No description.* |
@@ -606,6 +614,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.enabled">Enabled</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.isSecretDataBase64">IsSecretDataBase64</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.project">Project</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secret">Secret</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secretData">SecretData</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secretDataWo">SecretDataWo</a></code> | <code>*string</code> | *No description.* |
@@ -845,6 +854,16 @@ func IsSecretDataBase64Input() interface{}
 
 ---
 
+##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.projectInput"></a>
+
+```go
+func ProjectInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `SecretDataInput`<sup>Optional</sup> <a name="SecretDataInput" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secretDataInput"></a>
 
 ```go
@@ -935,6 +954,16 @@ func IsSecretDataBase64() interface{}
 
 ---
 
+##### `Project`<sup>Required</sup> <a name="Project" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.project"></a>
+
+```go
+func Project() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `Secret`<sup>Required</sup> <a name="Secret" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersion.property.secret"></a>
 
 ```go
@@ -1000,7 +1029,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 &googlesecretmanagersecretversion.GoogleSecretManagerSecretVersionConfig {
 	Connection: interface{},
@@ -1015,10 +1044,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlese
 	Enabled: interface{},
 	Id: *string,
 	IsSecretDataBase64: interface{},
+	Project: *string,
 	SecretData: *string,
 	SecretDataWo: *string,
 	SecretDataWoVersion: *f64,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts,
 }
 ```
 
@@ -1036,11 +1066,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlese
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.secret">Secret</a></code> | <code>*string</code> | Secret Manager secret resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | The deletion policy for the secret version. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | The current state of the SecretVersion. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#id GoogleSecretManagerSecretVersion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#id GoogleSecretManagerSecretVersion#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.isSecretDataBase64">IsSecretDataBase64</a></code> | <code>interface{}</code> | If set to 'true', the secret data is expected to be base64-encoded string and would be sent as is. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.project">Project</a></code> | <code>*string</code> | The ID of the project in which the resource belongs. If it is not provided, the provider project is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.secretData">SecretData</a></code> | <code>*string</code> | The secret data. Must be no larger than 64KiB. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.secretDataWo">SecretDataWo</a></code> | <code>*string</code> | The secret data. Must be no larger than 64KiB. For more info see [updating write-only attributes](/docs/providers/google/guides/using_write_only_attributes.html#updating-write-only-attributes). |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.secretDataWoVersion">SecretDataWoVersion</a></code> | <code>*f64</code> | Triggers update of secret data write-only. For more info see [updating write-only attributes](/docs/providers/google/guides/using_write_only_attributes.html#updating-write-only-attributes). |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.secretDataWo">SecretDataWo</a></code> | <code>*string</code> | The secret data. Must be no larger than 64KiB. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments). |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.secretDataWoVersion">SecretDataWoVersion</a></code> | <code>*f64</code> | Triggers update of secret data write-only. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments). |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts">GoogleSecretManagerSecretVersionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1125,7 +1156,7 @@ Secret *string
 
 Secret Manager secret resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#secret GoogleSecretManagerSecretVersion#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#secret GoogleSecretManagerSecretVersion#secret}
 
 ---
 
@@ -1147,7 +1178,7 @@ disabled rather than deleted. Default is 'DELETE'. Possible values are:
 * DISABLE
 * ABANDON
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#deletion_policy GoogleSecretManagerSecretVersion#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#deletion_policy GoogleSecretManagerSecretVersion#deletion_policy}
 
 ---
 
@@ -1161,7 +1192,7 @@ Enabled interface{}
 
 The current state of the SecretVersion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#enabled GoogleSecretManagerSecretVersion#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#enabled GoogleSecretManagerSecretVersion#enabled}
 
 ---
 
@@ -1173,7 +1204,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#id GoogleSecretManagerSecretVersion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#id GoogleSecretManagerSecretVersion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1190,7 +1221,21 @@ IsSecretDataBase64 interface{}
 
 If set to 'true', the secret data is expected to be base64-encoded string and would be sent as is.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#is_secret_data_base64 GoogleSecretManagerSecretVersion#is_secret_data_base64}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#is_secret_data_base64 GoogleSecretManagerSecretVersion#is_secret_data_base64}
+
+---
+
+##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionConfig.property.project"></a>
+
+```go
+Project *string
+```
+
+- *Type:* *string
+
+The ID of the project in which the resource belongs. If it is not provided, the provider project is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#project GoogleSecretManagerSecretVersion#project}
 
 ---
 
@@ -1204,7 +1249,7 @@ SecretData *string
 
 The secret data. Must be no larger than 64KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#secret_data GoogleSecretManagerSecretVersion#secret_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#secret_data GoogleSecretManagerSecretVersion#secret_data}
 
 ---
 
@@ -1216,9 +1261,9 @@ SecretDataWo *string
 
 - *Type:* *string
 
-The secret data. Must be no larger than 64KiB. For more info see [updating write-only attributes](/docs/providers/google/guides/using_write_only_attributes.html#updating-write-only-attributes).
+The secret data. Must be no larger than 64KiB. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#secret_data_wo GoogleSecretManagerSecretVersion#secret_data_wo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#secret_data_wo GoogleSecretManagerSecretVersion#secret_data_wo}
 
 ---
 
@@ -1230,9 +1275,9 @@ SecretDataWoVersion *f64
 
 - *Type:* *f64
 
-Triggers update of secret data write-only. For more info see [updating write-only attributes](/docs/providers/google/guides/using_write_only_attributes.html#updating-write-only-attributes).
+Triggers update of secret data write-only. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#secret_data_wo_version GoogleSecretManagerSecretVersion#secret_data_wo_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#secret_data_wo_version GoogleSecretManagerSecretVersion#secret_data_wo_version}
 
 ---
 
@@ -1246,7 +1291,7 @@ Timeouts GoogleSecretManagerSecretVersionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#timeouts GoogleSecretManagerSecretVersion#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#timeouts GoogleSecretManagerSecretVersion#timeouts}
 
 ---
 
@@ -1255,7 +1300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 &googlesecretmanagersecretversion.GoogleSecretManagerSecretVersionTimeouts {
 	Create: *string,
@@ -1268,9 +1313,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlese
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#create GoogleSecretManagerSecretVersion#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#delete GoogleSecretManagerSecretVersion#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#update GoogleSecretManagerSecretVersion#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#create GoogleSecretManagerSecretVersion#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#delete GoogleSecretManagerSecretVersion#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#update GoogleSecretManagerSecretVersion#update}. |
 
 ---
 
@@ -1282,7 +1327,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#create GoogleSecretManagerSecretVersion#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#create GoogleSecretManagerSecretVersion#create}.
 
 ---
 
@@ -1294,7 +1339,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#delete GoogleSecretManagerSecretVersion#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#delete GoogleSecretManagerSecretVersion#delete}.
 
 ---
 
@@ -1306,7 +1351,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_secret_version#update GoogleSecretManagerSecretVersion#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_secret_version#update GoogleSecretManagerSecretVersion#update}.
 
 ---
 
@@ -1317,7 +1362,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecretManagerSecretVersion.GoogleSecretManagerSecretVersionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagersecretversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagersecretversion"
 
 googlesecretmanagersecretversion.NewGoogleSecretManagerSecretVersionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecretManagerSecretVersionTimeoutsOutputReference
 ```

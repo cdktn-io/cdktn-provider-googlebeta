@@ -4,12 +4,12 @@
 
 ### GoogleEventarcTrigger <a name="GoogleEventarcTrigger" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger google_eventarc_trigger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger google_eventarc_trigger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTrigger(scope Construct, id *string, config GoogleEventarcTriggerConfig) GoogleEventarcTrigger
 ```
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putDestination">PutDestination</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putMatchingCriteria">PutMatchingCriteria</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putRetryPolicy">PutRetryPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putTransport">PutTransport</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetChannel">ResetChannel</a></code> | *No description.* |
@@ -83,6 +84,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetLabels">ResetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetProject">ResetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetRetryPolicy">ResetRetryPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetServiceAccount">ResetServiceAccount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetTransport">ResetTransport</a></code> | *No description.* |
@@ -422,6 +424,18 @@ func PutMatchingCriteria(value interface{})
 
 ---
 
+##### `PutRetryPolicy` <a name="PutRetryPolicy" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putRetryPolicy"></a>
+
+```go
+func PutRetryPolicy(value GoogleEventarcTriggerRetryPolicy)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putRetryPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy">GoogleEventarcTriggerRetryPolicy</a>
+
+---
+
 ##### `PutTimeouts` <a name="PutTimeouts" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.putTimeouts"></a>
 
 ```go
@@ -476,6 +490,12 @@ func ResetLabels()
 func ResetProject()
 ```
 
+##### `ResetRetryPolicy` <a name="ResetRetryPolicy" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetRetryPolicy"></a>
+
+```go
+func ResetRetryPolicy()
+```
+
 ##### `ResetServiceAccount` <a name="ResetServiceAccount" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.resetServiceAccount"></a>
 
 ```go
@@ -508,7 +528,7 @@ func ResetTransport()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.GoogleEventarcTrigger_IsConstruct(x interface{}) *bool
 ```
@@ -540,7 +560,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.GoogleEventarcTrigger_IsTerraformElement(x interface{}) *bool
 ```
@@ -554,7 +574,7 @@ googleeventarctrigger.GoogleEventarcTrigger_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.GoogleEventarcTrigger_IsTerraformResource(x interface{}) *bool
 ```
@@ -568,7 +588,7 @@ googleeventarctrigger.GoogleEventarcTrigger_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.GoogleEventarcTrigger_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -597,7 +617,7 @@ The construct id used in the generated config for the GoogleEventarcTrigger to i
 
 The id of the existing GoogleEventarcTrigger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -633,6 +653,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.effectiveLabels">EffectiveLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.matchingCriteria">MatchingCriteria</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerMatchingCriteriaList">GoogleEventarcTriggerMatchingCriteriaList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.retryPolicy">RetryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference">GoogleEventarcTriggerRetryPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.terraformLabels">TerraformLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeoutsOutputReference">GoogleEventarcTriggerTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.transport">Transport</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTransportOutputReference">GoogleEventarcTriggerTransportOutputReference</a></code> | *No description.* |
@@ -647,6 +668,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.matchingCriteriaInput">MatchingCriteriaInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.retryPolicyInput">RetryPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy">GoogleEventarcTriggerRetryPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.serviceAccountInput">ServiceAccountInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.transportInput">TransportInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTransport">GoogleEventarcTriggerTransport</a></code> | *No description.* |
@@ -863,6 +885,16 @@ func MatchingCriteria() GoogleEventarcTriggerMatchingCriteriaList
 
 ---
 
+##### `RetryPolicy`<sup>Required</sup> <a name="RetryPolicy" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.retryPolicy"></a>
+
+```go
+func RetryPolicy() GoogleEventarcTriggerRetryPolicyOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference">GoogleEventarcTriggerRetryPolicyOutputReference</a>
+
+---
+
 ##### `TerraformLabels`<sup>Required</sup> <a name="TerraformLabels" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.terraformLabels"></a>
 
 ```go
@@ -1003,6 +1035,16 @@ func ProjectInput() *string
 
 ---
 
+##### `RetryPolicyInput`<sup>Optional</sup> <a name="RetryPolicyInput" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.retryPolicyInput"></a>
+
+```go
+func RetryPolicyInput() GoogleEventarcTriggerRetryPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy">GoogleEventarcTriggerRetryPolicy</a>
+
+---
+
 ##### `ServiceAccountInput`<sup>Optional</sup> <a name="ServiceAccountInput" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger.property.serviceAccountInput"></a>
 
 ```go
@@ -1138,7 +1180,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerConfig {
 	Connection: interface{},
@@ -1148,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleev
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Destination: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerDestination,
 	Location: *string,
 	MatchingCriteria: interface{},
 	Name: *string,
@@ -1157,9 +1199,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleev
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
+	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy,
 	ServiceAccount: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerTimeouts,
-	Transport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerTransport,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerTimeouts,
+	Transport: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerTransport,
 }
 ```
 
@@ -1180,9 +1223,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleev
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.name">Name</a></code> | <code>*string</code> | Required. The resource name of the trigger. Must be unique within the location on the project. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.channel">Channel</a></code> | <code>*string</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.eventDataContentType">EventDataContentType</a></code> | <code>*string</code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#id GoogleEventarcTrigger#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#id GoogleEventarcTrigger#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Optional. User labels attached to the triggers that can be used to group resources. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#project GoogleEventarcTrigger#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#project GoogleEventarcTrigger#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.retryPolicy">RetryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy">GoogleEventarcTriggerRetryPolicy</a></code> | retry_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.serviceAccount">ServiceAccount</a></code> | <code>*string</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts">GoogleEventarcTriggerTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.transport">Transport</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTransport">GoogleEventarcTriggerTransport</a></code> | transport block. |
@@ -1269,7 +1313,7 @@ Destination GoogleEventarcTriggerDestination
 
 destination block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#destination GoogleEventarcTrigger#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#destination GoogleEventarcTrigger#destination}
 
 ---
 
@@ -1283,7 +1327,7 @@ Location *string
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#location GoogleEventarcTrigger#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#location GoogleEventarcTrigger#location}
 
 ---
 
@@ -1297,7 +1341,7 @@ MatchingCriteria interface{}
 
 matching_criteria block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#matching_criteria GoogleEventarcTrigger#matching_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#matching_criteria GoogleEventarcTrigger#matching_criteria}
 
 ---
 
@@ -1311,7 +1355,7 @@ Name *string
 
 Required. The resource name of the trigger. Must be unique within the location on the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#name GoogleEventarcTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#name GoogleEventarcTrigger#name}
 
 ---
 
@@ -1327,7 +1371,7 @@ Optional.
 
 The name of the channel associated with the trigger in 'projects/{project}/locations/{location}/channels/{channel}' format. You must provide a channel to receive events from Eventarc SaaS partners.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#channel GoogleEventarcTrigger#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#channel GoogleEventarcTrigger#channel}
 
 ---
 
@@ -1343,7 +1387,7 @@ Optional.
 
 EventDataContentType specifies the type of payload in MIME format that is expected from the CloudEvent data field. This is set to 'application/json' if the value is not defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#event_data_content_type GoogleEventarcTrigger#event_data_content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#event_data_content_type GoogleEventarcTrigger#event_data_content_type}
 
 ---
 
@@ -1355,7 +1399,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#id GoogleEventarcTrigger#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#id GoogleEventarcTrigger#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1375,7 +1419,7 @@ Optional. User labels attached to the triggers that can be used to group resourc
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#labels GoogleEventarcTrigger#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#labels GoogleEventarcTrigger#labels}
 
 ---
 
@@ -1387,7 +1431,21 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#project GoogleEventarcTrigger#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#project GoogleEventarcTrigger#project}.
+
+---
+
+##### `RetryPolicy`<sup>Optional</sup> <a name="RetryPolicy" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerConfig.property.retryPolicy"></a>
+
+```go
+RetryPolicy GoogleEventarcTriggerRetryPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy">GoogleEventarcTriggerRetryPolicy</a>
+
+retry_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#retry_policy GoogleEventarcTrigger#retry_policy}
 
 ---
 
@@ -1403,7 +1461,7 @@ Optional.
 
 The IAM service account email associated with the trigger. The service account represents the identity of the trigger. The principal who calls this API must have 'iam.serviceAccounts.actAs' permission in the service account. See https://cloud.google.com/iam/docs/understanding-service-accounts#sa_common for more information. For Cloud Run destinations, this service account is used to generate identity tokens when invoking the service. See https://cloud.google.com/run/docs/triggering/pubsub-push#create-service-account for information on how to invoke authenticated Cloud Run services. In order to create Audit Log triggers, the service account should also have 'roles/eventarc.eventReceiver' IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#service_account GoogleEventarcTrigger#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#service_account GoogleEventarcTrigger#service_account}
 
 ---
 
@@ -1417,7 +1475,7 @@ Timeouts GoogleEventarcTriggerTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#timeouts GoogleEventarcTrigger#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#timeouts GoogleEventarcTrigger#timeouts}
 
 ---
 
@@ -1431,7 +1489,7 @@ Transport GoogleEventarcTriggerTransport
 
 transport block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#transport GoogleEventarcTrigger#transport}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#transport GoogleEventarcTrigger#transport}
 
 ---
 
@@ -1440,13 +1498,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerDestination {
-	CloudRunService: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerDestinationCloudRunService,
-	Gke: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerDestinationGke,
-	HttpEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerDestinationHttpEndpoint,
-	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerDestinationNetworkConfig,
+	CloudRunService: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerDestinationCloudRunService,
+	Gke: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerDestinationGke,
+	HttpEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerDestinationHttpEndpoint,
+	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerDestinationNetworkConfig,
 	Workflow: *string,
 }
 ```
@@ -1473,7 +1531,7 @@ CloudRunService GoogleEventarcTriggerDestinationCloudRunService
 
 cloud_run_service block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#cloud_run_service GoogleEventarcTrigger#cloud_run_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#cloud_run_service GoogleEventarcTrigger#cloud_run_service}
 
 ---
 
@@ -1487,7 +1545,7 @@ Gke GoogleEventarcTriggerDestinationGke
 
 gke block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#gke GoogleEventarcTrigger#gke}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#gke GoogleEventarcTrigger#gke}
 
 ---
 
@@ -1501,7 +1559,7 @@ HttpEndpoint GoogleEventarcTriggerDestinationHttpEndpoint
 
 http_endpoint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#http_endpoint GoogleEventarcTrigger#http_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#http_endpoint GoogleEventarcTrigger#http_endpoint}
 
 ---
 
@@ -1515,7 +1573,7 @@ NetworkConfig GoogleEventarcTriggerDestinationNetworkConfig
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#network_config GoogleEventarcTrigger#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#network_config GoogleEventarcTrigger#network_config}
 
 ---
 
@@ -1531,7 +1589,7 @@ The resource name of the Workflow whose Executions are triggered by the events.
 
 The Workflow resource should be deployed in the same project as the trigger. Format: 'projects/{project}/locations/{location}/workflows/{workflow}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#workflow GoogleEventarcTrigger#workflow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#workflow GoogleEventarcTrigger#workflow}
 
 ---
 
@@ -1540,7 +1598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationCloudRunService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerDestinationCloudRunService {
 	Service: *string,
@@ -1571,7 +1629,7 @@ Required.
 
 The name of the Cloud Run service being addressed. See https://cloud.google.com/run/docs/reference/rest/v1/namespaces.services. Only services located in the same project of the trigger object can be addressed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#service GoogleEventarcTrigger#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#service GoogleEventarcTrigger#service}
 
 ---
 
@@ -1587,7 +1645,7 @@ Optional.
 
 The relative path on the Cloud Run service the events should be sent to. The value must conform to the definition of URI path segment (section 3.3 of RFC2396). Examples: "/route", "route", "route/subroute".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#path GoogleEventarcTrigger#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#path GoogleEventarcTrigger#path}
 
 ---
 
@@ -1601,7 +1659,7 @@ Region *string
 
 Required. The region the Cloud Run service is deployed in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#region GoogleEventarcTrigger#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#region GoogleEventarcTrigger#region}
 
 ---
 
@@ -1610,7 +1668,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationGke.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerDestinationGke {
 	Cluster: *string,
@@ -1645,7 +1703,7 @@ Required.
 
 The name of the cluster the GKE service is running in. The cluster must be running in the same project as the trigger being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#cluster GoogleEventarcTrigger#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#cluster GoogleEventarcTrigger#cluster}
 
 ---
 
@@ -1661,7 +1719,7 @@ Required.
 
 The name of the Google Compute Engine in which the cluster resides, which can either be compute zone (for example, us-central1-a) for the zonal clusters or region (for example, us-central1) for regional clusters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#location GoogleEventarcTrigger#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#location GoogleEventarcTrigger#location}
 
 ---
 
@@ -1675,7 +1733,7 @@ Namespace *string
 
 Required. The namespace the GKE service is running in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#namespace GoogleEventarcTrigger#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#namespace GoogleEventarcTrigger#namespace}
 
 ---
 
@@ -1689,7 +1747,7 @@ Service *string
 
 Required. Name of the GKE service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#service GoogleEventarcTrigger#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#service GoogleEventarcTrigger#service}
 
 ---
 
@@ -1705,7 +1763,7 @@ Optional.
 
 The relative path on the GKE service the events should be sent to. The value must conform to the definition of a URI path segment (section 3.3 of RFC2396). Examples: "/route", "route", "route/subroute".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#path GoogleEventarcTrigger#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#path GoogleEventarcTrigger#path}
 
 ---
 
@@ -1714,7 +1772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationHttpEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerDestinationHttpEndpoint {
 	Uri: *string,
@@ -1741,7 +1799,7 @@ Required.
 
 The URI of the HTTP enpdoint. The value must be a RFC2396 URI string. Examples: 'http://10.10.10.8:80/route', 'http://svc.us-central1.p.local:8080/'. Only HTTP and HTTPS protocols are supported. The host can be either a static IP addressable from the VPC specified by the network config, or an internal DNS hostname of the service resolvable via Cloud DNS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#uri GoogleEventarcTrigger#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#uri GoogleEventarcTrigger#uri}
 
 ---
 
@@ -1750,7 +1808,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerDestinationNetworkConfig {
 	NetworkAttachment: *string,
@@ -1775,7 +1833,7 @@ NetworkAttachment *string
 
 Required. Name of the NetworkAttachment that allows access to the destination VPC. Format: 'projects/{PROJECT_ID}/regions/{REGION}/networkAttachments/{NETWORK_ATTACHMENT_NAME}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#network_attachment GoogleEventarcTrigger#network_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#network_attachment GoogleEventarcTrigger#network_attachment}
 
 ---
 
@@ -1784,7 +1842,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerMatchingCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerMatchingCriteria {
 	Attribute: *string,
@@ -1815,7 +1873,7 @@ Required.
 
 The name of a CloudEvents attribute. Currently, only a subset of attributes are supported for filtering. All triggers MUST provide a filter for the 'type' attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#attribute GoogleEventarcTrigger#attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#attribute GoogleEventarcTrigger#attribute}
 
 ---
 
@@ -1829,7 +1887,7 @@ Value *string
 
 Required. The value for the attribute. See https://cloud.google.com/eventarc/docs/creating-triggers#trigger-gcloud for available values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#value GoogleEventarcTrigger#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#value GoogleEventarcTrigger#value}
 
 ---
 
@@ -1845,7 +1903,41 @@ Optional.
 
 The operator used for matching the events with the value of the filter. If not specified, only events that have an exact key-value pair specified in the filter are matched. The only allowed value is 'match-path-pattern'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#operator GoogleEventarcTrigger#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#operator GoogleEventarcTrigger#operator}
+
+---
+
+### GoogleEventarcTriggerRetryPolicy <a name="GoogleEventarcTriggerRetryPolicy" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
+
+&googleeventarctrigger.GoogleEventarcTriggerRetryPolicy {
+	MaxAttempts: *f64,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy.property.maxAttempts">MaxAttempts</a></code> | <code>*f64</code> | The maximum number of delivery attempts for any message. The only valid value is 1. |
+
+---
+
+##### `MaxAttempts`<sup>Optional</sup> <a name="MaxAttempts" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy.property.maxAttempts"></a>
+
+```go
+MaxAttempts *f64
+```
+
+- *Type:* *f64
+
+The maximum number of delivery attempts for any message. The only valid value is 1.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#max_attempts GoogleEventarcTrigger#max_attempts}
 
 ---
 
@@ -1854,7 +1946,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerTimeouts {
 	Create: *string,
@@ -1867,9 +1959,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleev
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#create GoogleEventarcTrigger#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#delete GoogleEventarcTrigger#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#update GoogleEventarcTrigger#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#create GoogleEventarcTrigger#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#delete GoogleEventarcTrigger#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#update GoogleEventarcTrigger#update}. |
 
 ---
 
@@ -1881,7 +1973,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#create GoogleEventarcTrigger#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#create GoogleEventarcTrigger#create}.
 
 ---
 
@@ -1893,7 +1985,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#delete GoogleEventarcTrigger#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#delete GoogleEventarcTrigger#delete}.
 
 ---
 
@@ -1905,7 +1997,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#update GoogleEventarcTrigger#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#update GoogleEventarcTrigger#update}.
 
 ---
 
@@ -1914,10 +2006,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTransport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerTransport {
-	Pubsub: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleEventarcTrigger.GoogleEventarcTriggerTransportPubsub,
+	Pubsub: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcTrigger.GoogleEventarcTriggerTransportPubsub,
 }
 ```
 
@@ -1939,7 +2031,7 @@ Pubsub GoogleEventarcTriggerTransportPubsub
 
 pubsub block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#pubsub GoogleEventarcTrigger#pubsub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#pubsub GoogleEventarcTrigger#pubsub}
 
 ---
 
@@ -1948,7 +2040,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTransportPubsub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 &googleeventarctrigger.GoogleEventarcTriggerTransportPubsub {
 	Topic: *string,
@@ -1975,7 +2067,7 @@ Optional.
 
 The name of the Pub/Sub topic created and managed by Eventarc system as a transport for the event delivery. Format: 'projects/{PROJECT_ID}/topics/{TOPIC_NAME}. You may set an existing topic for triggers of the type google.cloud.pubsub.topic.v1.messagePublished' only. The topic you provide here will not be deleted by Eventarc at trigger deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger#topic GoogleEventarcTrigger#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger#topic GoogleEventarcTrigger#topic}
 
 ---
 
@@ -1986,7 +2078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationCloudRunServiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerDestinationCloudRunServiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerDestinationCloudRunServiceOutputReference
 ```
@@ -2315,7 +2407,7 @@ func InternalValue() GoogleEventarcTriggerDestinationCloudRunService
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationGkeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerDestinationGkeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerDestinationGkeOutputReference
 ```
@@ -2681,7 +2773,7 @@ func InternalValue() GoogleEventarcTriggerDestinationGke
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationHttpEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerDestinationHttpEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerDestinationHttpEndpointOutputReference
 ```
@@ -2952,7 +3044,7 @@ func InternalValue() GoogleEventarcTriggerDestinationHttpEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerDestinationNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerDestinationNetworkConfigOutputReference
 ```
@@ -3223,7 +3315,7 @@ func InternalValue() GoogleEventarcTriggerDestinationNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerDestinationOutputReference
 ```
@@ -3680,7 +3772,7 @@ func InternalValue() GoogleEventarcTriggerDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerMatchingCriteriaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerMatchingCriteriaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleEventarcTriggerMatchingCriteriaList
 ```
@@ -3840,7 +3932,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerMatchingCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerMatchingCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleEventarcTriggerMatchingCriteriaOutputReference
 ```
@@ -4175,12 +4267,290 @@ func InternalValue() interface{}
 ---
 
 
+### GoogleEventarcTriggerRetryPolicyOutputReference <a name="GoogleEventarcTriggerRetryPolicyOutputReference" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
+
+googleeventarctrigger.NewGoogleEventarcTriggerRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerRetryPolicyOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.resetMaxAttempts">ResetMaxAttempts</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetMaxAttempts` <a name="ResetMaxAttempts" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.resetMaxAttempts"></a>
+
+```go
+func ResetMaxAttempts()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.maxAttemptsInput">MaxAttemptsInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.maxAttempts">MaxAttempts</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy">GoogleEventarcTriggerRetryPolicy</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MaxAttemptsInput`<sup>Optional</sup> <a name="MaxAttemptsInput" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.maxAttemptsInput"></a>
+
+```go
+func MaxAttemptsInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `MaxAttempts`<sup>Required</sup> <a name="MaxAttempts" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.maxAttempts"></a>
+
+```go
+func MaxAttempts() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicyOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleEventarcTriggerRetryPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerRetryPolicy">GoogleEventarcTriggerRetryPolicy</a>
+
+---
+
+
 ### GoogleEventarcTriggerTimeoutsOutputReference <a name="GoogleEventarcTriggerTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeoutsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerTimeoutsOutputReference
 ```
@@ -4516,7 +4886,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTransportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerTransportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerTransportOutputReference
 ```
@@ -4807,7 +5177,7 @@ func InternalValue() GoogleEventarcTriggerTransport
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTriggerTransportPubsubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger"
 
 googleeventarctrigger.NewGoogleEventarcTriggerTransportPubsubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerTransportPubsubOutputReference
 ```

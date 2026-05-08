@@ -4,7 +4,7 @@
 
 ### GoogleComputeSecurityPolicyRuleA <a name="GoogleComputeSecurityPolicyRuleA" id="@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule google_compute_security_policy_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule google_compute_security_policy_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer"></a>
 
@@ -51,11 +51,11 @@ GoogleComputeSecurityPolicyRuleA.Builder.create(Construct scope, java.lang.Strin
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.securityPolicy">securityPolicy</a></code> | <code>java.lang.String</code> | The name of the security policy this rule belongs to. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.headerAction">headerAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleHeaderActionA">GoogleComputeSecurityPolicyRuleHeaderActionA</a></code> | header_action block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.match">match</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleMatchA">GoogleComputeSecurityPolicyRuleMatchA</a></code> | match block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.preconfiguredWafConfig">preconfiguredWafConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigA">GoogleComputeSecurityPolicyRulePreconfiguredWafConfigA</a></code> | preconfigured_waf_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.preview">preview</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If set to true, the specified action is not enforced. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.rateLimitOptions">rateLimitOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleRateLimitOptionsA">GoogleComputeSecurityPolicyRuleRateLimitOptionsA</a></code> | rate_limit_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.redirectOptions">redirectOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleRedirectOptionsA">GoogleComputeSecurityPolicyRuleRedirectOptionsA</a></code> | redirect_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleA.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts">GoogleComputeSecurityPolicyRuleTimeouts</a></code> | timeouts block. |
@@ -134,7 +134,7 @@ The Action to perform when the rule is matched. The following are the valid acti
 * redirect: redirect to a different target. This can either be an internal reCAPTCHA redirect, or an external URL-based redirect via a 302 response. Parameters for this action can be configured via redirectOptions. This action is only supported in Global Security Policies of type CLOUD_ARMOR.
 * throttle: limit client traffic to the configured threshold. Configure parameters for this action in rateLimitOptions. Requires rateLimitOptions to be set for this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#action GoogleComputeSecurityPolicyRuleA#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#action GoogleComputeSecurityPolicyRuleA#action}
 
 ---
 
@@ -147,7 +147,7 @@ An integer indicating the priority of a rule in the list.
 The priority must be a positive value between 0 and 2147483647.
 Rules are evaluated from highest to lowest priority where 0 is the highest priority and 2147483647 is the lowest priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#priority GoogleComputeSecurityPolicyRuleA#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#priority GoogleComputeSecurityPolicyRuleA#priority}
 
 ---
 
@@ -157,7 +157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the security policy this rule belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#security_policy GoogleComputeSecurityPolicyRuleA#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#security_policy GoogleComputeSecurityPolicyRuleA#security_policy}
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#description GoogleComputeSecurityPolicyRuleA#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#description GoogleComputeSecurityPolicyRuleA#description}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#header_action GoogleComputeSecurityPolicyRuleA#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#header_action GoogleComputeSecurityPolicyRuleA#header_action}
 
 ---
 
@@ -185,7 +185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -198,7 +198,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#match GoogleComputeSecurityPolicyRuleA#match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#match GoogleComputeSecurityPolicyRuleA#match}
 
 ---
 
@@ -208,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 preconfigured_waf_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#preconfigured_waf_config GoogleComputeSecurityPolicyRuleA#preconfigured_waf_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#preconfigured_waf_config GoogleComputeSecurityPolicyRuleA#preconfigured_waf_config}
 
 ---
 
@@ -218,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If set to true, the specified action is not enforced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#preview GoogleComputeSecurityPolicyRuleA#preview}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#preview GoogleComputeSecurityPolicyRuleA#preview}
 
 ---
 
@@ -226,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}.
 
 ---
 
@@ -236,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 rate_limit_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#rate_limit_options GoogleComputeSecurityPolicyRuleA#rate_limit_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#rate_limit_options GoogleComputeSecurityPolicyRuleA#rate_limit_options}
 
 ---
 
@@ -246,7 +246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 redirect_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#redirect_options GoogleComputeSecurityPolicyRuleA#redirect_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#redirect_options GoogleComputeSecurityPolicyRuleA#redirect_options}
 
 ---
 
@@ -256,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#timeouts GoogleComputeSecurityPolicyRuleA#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#timeouts GoogleComputeSecurityPolicyRuleA#timeouts}
 
 ---
 
@@ -853,7 +853,7 @@ The construct id used in the generated config for the GoogleComputeSecurityPolic
 
 The id of the existing GoogleComputeSecurityPolicyRuleA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1381,11 +1381,11 @@ GoogleComputeSecurityPolicyRuleAConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.securityPolicy">securityPolicy</a></code> | <code>java.lang.String</code> | The name of the security policy this rule belongs to. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.headerAction">headerAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleHeaderActionA">GoogleComputeSecurityPolicyRuleHeaderActionA</a></code> | header_action block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.match">match</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleMatchA">GoogleComputeSecurityPolicyRuleMatchA</a></code> | match block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.preconfiguredWafConfig">preconfiguredWafConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigA">GoogleComputeSecurityPolicyRulePreconfiguredWafConfigA</a></code> | preconfigured_waf_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.preview">preview</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If set to true, the specified action is not enforced. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.rateLimitOptions">rateLimitOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleRateLimitOptionsA">GoogleComputeSecurityPolicyRuleRateLimitOptionsA</a></code> | rate_limit_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.redirectOptions">redirectOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleRedirectOptionsA">GoogleComputeSecurityPolicyRuleRedirectOptionsA</a></code> | redirect_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleAConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts">GoogleComputeSecurityPolicyRuleTimeouts</a></code> | timeouts block. |
@@ -1478,7 +1478,7 @@ The Action to perform when the rule is matched. The following are the valid acti
 * redirect: redirect to a different target. This can either be an internal reCAPTCHA redirect, or an external URL-based redirect via a 302 response. Parameters for this action can be configured via redirectOptions. This action is only supported in Global Security Policies of type CLOUD_ARMOR.
 * throttle: limit client traffic to the configured threshold. Configure parameters for this action in rateLimitOptions. Requires rateLimitOptions to be set for this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#action GoogleComputeSecurityPolicyRuleA#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#action GoogleComputeSecurityPolicyRuleA#action}
 
 ---
 
@@ -1495,7 +1495,7 @@ An integer indicating the priority of a rule in the list.
 The priority must be a positive value between 0 and 2147483647.
 Rules are evaluated from highest to lowest priority where 0 is the highest priority and 2147483647 is the lowest priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#priority GoogleComputeSecurityPolicyRuleA#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#priority GoogleComputeSecurityPolicyRuleA#priority}
 
 ---
 
@@ -1509,7 +1509,7 @@ public java.lang.String getSecurityPolicy();
 
 The name of the security policy this rule belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#security_policy GoogleComputeSecurityPolicyRuleA#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#security_policy GoogleComputeSecurityPolicyRuleA#security_policy}
 
 ---
 
@@ -1523,7 +1523,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#description GoogleComputeSecurityPolicyRuleA#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#description GoogleComputeSecurityPolicyRuleA#description}
 
 ---
 
@@ -1537,7 +1537,7 @@ public GoogleComputeSecurityPolicyRuleHeaderActionA getHeaderAction();
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#header_action GoogleComputeSecurityPolicyRuleA#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#header_action GoogleComputeSecurityPolicyRuleA#header_action}
 
 ---
 
@@ -1549,7 +1549,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#id GoogleComputeSecurityPolicyRuleA#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1566,7 +1566,7 @@ public GoogleComputeSecurityPolicyRuleMatchA getMatch();
 
 match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#match GoogleComputeSecurityPolicyRuleA#match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#match GoogleComputeSecurityPolicyRuleA#match}
 
 ---
 
@@ -1580,7 +1580,7 @@ public GoogleComputeSecurityPolicyRulePreconfiguredWafConfigA getPreconfiguredWa
 
 preconfigured_waf_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#preconfigured_waf_config GoogleComputeSecurityPolicyRuleA#preconfigured_waf_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#preconfigured_waf_config GoogleComputeSecurityPolicyRuleA#preconfigured_waf_config}
 
 ---
 
@@ -1594,7 +1594,7 @@ public java.lang.Boolean|IResolvable getPreview();
 
 If set to true, the specified action is not enforced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#preview GoogleComputeSecurityPolicyRuleA#preview}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#preview GoogleComputeSecurityPolicyRuleA#preview}
 
 ---
 
@@ -1606,7 +1606,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#project GoogleComputeSecurityPolicyRuleA#project}.
 
 ---
 
@@ -1620,7 +1620,7 @@ public GoogleComputeSecurityPolicyRuleRateLimitOptionsA getRateLimitOptions();
 
 rate_limit_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#rate_limit_options GoogleComputeSecurityPolicyRuleA#rate_limit_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#rate_limit_options GoogleComputeSecurityPolicyRuleA#rate_limit_options}
 
 ---
 
@@ -1634,7 +1634,7 @@ public GoogleComputeSecurityPolicyRuleRedirectOptionsA getRedirectOptions();
 
 redirect_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#redirect_options GoogleComputeSecurityPolicyRuleA#redirect_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#redirect_options GoogleComputeSecurityPolicyRuleA#redirect_options}
 
 ---
 
@@ -1648,7 +1648,7 @@ public GoogleComputeSecurityPolicyRuleTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#timeouts GoogleComputeSecurityPolicyRuleA#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#timeouts GoogleComputeSecurityPolicyRuleA#timeouts}
 
 ---
 
@@ -1682,7 +1682,7 @@ public IResolvable|java.util.List<GoogleComputeSecurityPolicyRuleHeaderActionReq
 
 request_headers_to_adds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#request_headers_to_adds GoogleComputeSecurityPolicyRuleA#request_headers_to_adds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#request_headers_to_adds GoogleComputeSecurityPolicyRuleA#request_headers_to_adds}
 
 ---
 
@@ -1718,7 +1718,7 @@ public java.lang.String getHeaderName();
 
 The name of the header to set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#header_name GoogleComputeSecurityPolicyRuleA#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#header_name GoogleComputeSecurityPolicyRuleA#header_name}
 
 ---
 
@@ -1732,7 +1732,7 @@ public java.lang.String getHeaderValue();
 
 The value to set the named header to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#header_value GoogleComputeSecurityPolicyRuleA#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#header_value GoogleComputeSecurityPolicyRuleA#header_value}
 
 ---
 
@@ -1772,7 +1772,7 @@ public GoogleComputeSecurityPolicyRuleMatchConfigA getConfig();
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#config GoogleComputeSecurityPolicyRuleA#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#config GoogleComputeSecurityPolicyRuleA#config}
 
 ---
 
@@ -1786,7 +1786,7 @@ public GoogleComputeSecurityPolicyRuleMatchExprA getExpr();
 
 expr block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#expr GoogleComputeSecurityPolicyRuleA#expr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#expr GoogleComputeSecurityPolicyRuleA#expr}
 
 ---
 
@@ -1800,7 +1800,7 @@ public GoogleComputeSecurityPolicyRuleMatchExprOptionsA getExprOptions();
 
 expr_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#expr_options GoogleComputeSecurityPolicyRuleA#expr_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#expr_options GoogleComputeSecurityPolicyRuleA#expr_options}
 
 ---
 
@@ -1817,7 +1817,7 @@ Preconfigured versioned expression.
 If this field is specified, config must also be specified.
 Available preconfigured expressions along with their requirements are: SRC_IPS_V1 - must specify the corresponding srcIpRange field in config. Possible values: ["SRC_IPS_V1"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#versioned_expr GoogleComputeSecurityPolicyRuleA#versioned_expr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#versioned_expr GoogleComputeSecurityPolicyRuleA#versioned_expr}
 
 ---
 
@@ -1851,7 +1851,7 @@ public java.util.List<java.lang.String> getSrcIpRanges();
 
 CIDR IP address range. Maximum number of srcIpRanges allowed is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#src_ip_ranges GoogleComputeSecurityPolicyRuleA#src_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#src_ip_ranges GoogleComputeSecurityPolicyRuleA#src_ip_ranges}
 
 ---
 
@@ -1887,7 +1887,7 @@ Textual representation of an expression in Common Expression Language syntax.
 
 The application context of the containing message determines which well-known feature set of CEL is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#expression GoogleComputeSecurityPolicyRuleA#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#expression GoogleComputeSecurityPolicyRuleA#expression}
 
 ---
 
@@ -1921,7 +1921,7 @@ public GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsA getRecap
 
 recaptcha_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#recaptcha_options GoogleComputeSecurityPolicyRuleA#recaptcha_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#recaptcha_options GoogleComputeSecurityPolicyRuleA#recaptcha_options}
 
 ---
 
@@ -1959,7 +1959,7 @@ A list of site keys to be used during the validation of reCAPTCHA action-tokens.
 
 The provided site keys need to be created from reCAPTCHA API under the same project where the security policy is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#action_token_site_keys GoogleComputeSecurityPolicyRuleA#action_token_site_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#action_token_site_keys GoogleComputeSecurityPolicyRuleA#action_token_site_keys}
 
 ---
 
@@ -1975,7 +1975,7 @@ A list of site keys to be used during the validation of reCAPTCHA session-tokens
 
 The provided site keys need to be created from reCAPTCHA API under the same project where the security policy is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#session_token_site_keys GoogleComputeSecurityPolicyRuleA#session_token_site_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#session_token_site_keys GoogleComputeSecurityPolicyRuleA#session_token_site_keys}
 
 ---
 
@@ -2009,7 +2009,7 @@ public IResolvable|java.util.List<GoogleComputeSecurityPolicyRulePreconfiguredWa
 
 exclusion block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#exclusion GoogleComputeSecurityPolicyRuleA#exclusion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#exclusion GoogleComputeSecurityPolicyRuleA#exclusion}
 
 ---
 
@@ -2053,7 +2053,7 @@ public java.lang.String getTargetRuleSet();
 
 Target WAF rule set to apply the preconfigured WAF exclusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#target_rule_set GoogleComputeSecurityPolicyRuleA#target_rule_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#target_rule_set GoogleComputeSecurityPolicyRuleA#target_rule_set}
 
 ---
 
@@ -2067,7 +2067,7 @@ public IResolvable|java.util.List<GoogleComputeSecurityPolicyRulePreconfiguredWa
 
 request_cookie block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#request_cookie GoogleComputeSecurityPolicyRuleA#request_cookie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#request_cookie GoogleComputeSecurityPolicyRuleA#request_cookie}
 
 ---
 
@@ -2081,7 +2081,7 @@ public IResolvable|java.util.List<GoogleComputeSecurityPolicyRulePreconfiguredWa
 
 request_header block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#request_header GoogleComputeSecurityPolicyRuleA#request_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#request_header GoogleComputeSecurityPolicyRuleA#request_header}
 
 ---
 
@@ -2095,7 +2095,7 @@ public IResolvable|java.util.List<GoogleComputeSecurityPolicyRulePreconfiguredWa
 
 request_query_param block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#request_query_param GoogleComputeSecurityPolicyRuleA#request_query_param}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#request_query_param GoogleComputeSecurityPolicyRuleA#request_query_param}
 
 ---
 
@@ -2109,7 +2109,7 @@ public IResolvable|java.util.List<GoogleComputeSecurityPolicyRulePreconfiguredWa
 
 request_uri block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#request_uri GoogleComputeSecurityPolicyRuleA#request_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#request_uri GoogleComputeSecurityPolicyRuleA#request_uri}
 
 ---
 
@@ -2125,7 +2125,7 @@ A list of target rule IDs under the WAF rule set to apply the preconfigured WAF 
 
 If omitted, it refers to all the rule IDs under the WAF rule set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#target_rule_ids GoogleComputeSecurityPolicyRuleA#target_rule_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#target_rule_ids GoogleComputeSecurityPolicyRuleA#target_rule_ids}
 
 ---
 
@@ -2168,7 +2168,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
 
 ---
 
@@ -2184,7 +2184,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
 
 ---
 
@@ -2227,7 +2227,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
 
 ---
 
@@ -2243,7 +2243,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
 
 ---
 
@@ -2286,7 +2286,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
 
 ---
 
@@ -2302,7 +2302,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
 
 ---
 
@@ -2345,7 +2345,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#operator GoogleComputeSecurityPolicyRuleA#operator}
 
 ---
 
@@ -2361,7 +2361,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#value GoogleComputeSecurityPolicyRuleA#value}
 
 ---
 
@@ -2413,7 +2413,7 @@ Can only be specified if the action for the rule is "rate_based_ban".
 
 If specified, determines the time (in seconds) the traffic will continue to be banned by the rate limit after the rate falls below the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#ban_duration_sec GoogleComputeSecurityPolicyRuleA#ban_duration_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#ban_duration_sec GoogleComputeSecurityPolicyRuleA#ban_duration_sec}
 
 ---
 
@@ -2427,7 +2427,7 @@ public GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdA getBanThresh
 
 ban_threshold block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#ban_threshold GoogleComputeSecurityPolicyRuleA#ban_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#ban_threshold GoogleComputeSecurityPolicyRuleA#ban_threshold}
 
 ---
 
@@ -2441,7 +2441,7 @@ public java.lang.String getConformAction();
 
 Action to take for requests that are under the configured rate limit threshold. Valid option is "allow" only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#conform_action GoogleComputeSecurityPolicyRuleA#conform_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#conform_action GoogleComputeSecurityPolicyRuleA#conform_action}
 
 ---
 
@@ -2469,7 +2469,7 @@ Possible values are:
 * TLS_JA4_FINGERPRINT: JA4 TLS/SSL fingerprint if the client connects using HTTPS, HTTP/2 or HTTP/3. If not available, the key type defaults to ALL.
 * USER_IP: The IP address of the originating client, which is resolved based on "userIpRequestHeaders" configured with the security policy. If there is no "userIpRequestHeaders" configuration or an IP address cannot be resolved from it, the key type defaults to IP. Possible values: ["ALL", "IP", "HTTP_HEADER", "XFF_IP", "HTTP_COOKIE", "HTTP_PATH", "SNI", "REGION_CODE", "TLS_JA3_FINGERPRINT", "TLS_JA4_FINGERPRINT", "USER_IP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#enforce_on_key GoogleComputeSecurityPolicyRuleA#enforce_on_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#enforce_on_key GoogleComputeSecurityPolicyRuleA#enforce_on_key}
 
 ---
 
@@ -2483,7 +2483,7 @@ public IResolvable|java.util.List<GoogleComputeSecurityPolicyRuleRateLimitOption
 
 enforce_on_key_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_configs GoogleComputeSecurityPolicyRuleA#enforce_on_key_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_configs GoogleComputeSecurityPolicyRuleA#enforce_on_key_configs}
 
 ---
 
@@ -2499,7 +2499,7 @@ Rate limit key name applicable only for the following key types: HTTP_HEADER -- 
 
 HTTP_COOKIE -- Name of the HTTP cookie whose value is taken as the key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_name GoogleComputeSecurityPolicyRuleA#enforce_on_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_name GoogleComputeSecurityPolicyRuleA#enforce_on_key_name}
 
 ---
 
@@ -2515,7 +2515,7 @@ Action to take for requests that are above the configured rate limit threshold, 
 
 Valid options are deny(STATUS), where valid values for STATUS are 403, 404, 429, and 502.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#exceed_action GoogleComputeSecurityPolicyRuleA#exceed_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#exceed_action GoogleComputeSecurityPolicyRuleA#exceed_action}
 
 ---
 
@@ -2529,7 +2529,7 @@ public GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsA get
 
 exceed_redirect_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#exceed_redirect_options GoogleComputeSecurityPolicyRuleA#exceed_redirect_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#exceed_redirect_options GoogleComputeSecurityPolicyRuleA#exceed_redirect_options}
 
 ---
 
@@ -2543,7 +2543,7 @@ public GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdA getRat
 
 rate_limit_threshold block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#rate_limit_threshold GoogleComputeSecurityPolicyRuleA#rate_limit_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#rate_limit_threshold GoogleComputeSecurityPolicyRuleA#rate_limit_threshold}
 
 ---
 
@@ -2579,7 +2579,7 @@ public java.lang.Number getCount();
 
 Number of HTTP(S) requests for calculating the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#count GoogleComputeSecurityPolicyRuleA#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#count GoogleComputeSecurityPolicyRuleA#count}
 
 ---
 
@@ -2593,7 +2593,7 @@ public java.lang.Number getIntervalSec();
 
 Interval over which the threshold is computed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#interval_sec GoogleComputeSecurityPolicyRuleA#interval_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#interval_sec GoogleComputeSecurityPolicyRuleA#interval_sec}
 
 ---
 
@@ -2631,7 +2631,7 @@ Rate limit key name applicable only for the following key types: HTTP_HEADER -- 
 
 HTTP_COOKIE -- Name of the HTTP cookie whose value is taken as the key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_name GoogleComputeSecurityPolicyRuleA#enforce_on_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_name GoogleComputeSecurityPolicyRuleA#enforce_on_key_name}
 
 ---
 
@@ -2659,7 +2659,7 @@ Possible values are:
 * TLS_JA4_FINGERPRINT: JA4 TLS/SSL fingerprint if the client connects using HTTPS, HTTP/2 or HTTP/3. If not available, the key type defaults to ALL.
 * USER_IP: The IP address of the originating client, which is resolved based on "userIpRequestHeaders" configured with the security policy. If there is no "userIpRequestHeaders" configuration or an IP address cannot be resolved from it, the key type defaults to IP. Possible values: ["ALL", "IP", "HTTP_HEADER", "XFF_IP", "HTTP_COOKIE", "HTTP_PATH", "SNI", "REGION_CODE", "TLS_JA3_FINGERPRINT", "TLS_JA4_FINGERPRINT", "USER_IP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_type GoogleComputeSecurityPolicyRuleA#enforce_on_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#enforce_on_key_type GoogleComputeSecurityPolicyRuleA#enforce_on_key_type}
 
 ---
 
@@ -2695,7 +2695,7 @@ public java.lang.String getTarget();
 
 Target for the redirect action. This is required if the type is EXTERNAL_302 and cannot be specified for GOOGLE_RECAPTCHA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#target GoogleComputeSecurityPolicyRuleA#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#target GoogleComputeSecurityPolicyRuleA#target}
 
 ---
 
@@ -2709,7 +2709,7 @@ public java.lang.String getType();
 
 Type of the redirect action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#type GoogleComputeSecurityPolicyRuleA#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#type GoogleComputeSecurityPolicyRuleA#type}
 
 ---
 
@@ -2745,7 +2745,7 @@ public java.lang.Number getCount();
 
 Number of HTTP(S) requests for calculating the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#count GoogleComputeSecurityPolicyRuleA#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#count GoogleComputeSecurityPolicyRuleA#count}
 
 ---
 
@@ -2759,7 +2759,7 @@ public java.lang.Number getIntervalSec();
 
 Interval over which the threshold is computed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#interval_sec GoogleComputeSecurityPolicyRuleA#interval_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#interval_sec GoogleComputeSecurityPolicyRuleA#interval_sec}
 
 ---
 
@@ -2795,7 +2795,7 @@ public java.lang.String getTarget();
 
 Target for the redirect action. This is required if the type is EXTERNAL_302 and cannot be specified for GOOGLE_RECAPTCHA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#target GoogleComputeSecurityPolicyRuleA#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#target GoogleComputeSecurityPolicyRuleA#target}
 
 ---
 
@@ -2809,7 +2809,7 @@ public java.lang.String getType();
 
 Type of the redirect action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#type GoogleComputeSecurityPolicyRuleA#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#type GoogleComputeSecurityPolicyRuleA#type}
 
 ---
 
@@ -2831,9 +2831,9 @@ GoogleComputeSecurityPolicyRuleTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#create GoogleComputeSecurityPolicyRuleA#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#delete GoogleComputeSecurityPolicyRuleA#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#update GoogleComputeSecurityPolicyRuleA#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#create GoogleComputeSecurityPolicyRuleA#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#delete GoogleComputeSecurityPolicyRuleA#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRuleTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#update GoogleComputeSecurityPolicyRuleA#update}. |
 
 ---
 
@@ -2845,7 +2845,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#create GoogleComputeSecurityPolicyRuleA#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#create GoogleComputeSecurityPolicyRuleA#create}.
 
 ---
 
@@ -2857,7 +2857,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#delete GoogleComputeSecurityPolicyRuleA#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#delete GoogleComputeSecurityPolicyRuleA#delete}.
 
 ---
 
@@ -2869,7 +2869,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy_rule#update GoogleComputeSecurityPolicyRuleA#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy_rule#update GoogleComputeSecurityPolicyRuleA#update}.
 
 ---
 

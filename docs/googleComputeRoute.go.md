@@ -4,12 +4,12 @@
 
 ### GoogleComputeRoute <a name="GoogleComputeRoute" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route google_compute_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route google_compute_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRoute(scope Construct, id *string, config GoogleComputeRouteConfig) GoogleComputeRoute
 ```
@@ -517,7 +517,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.GoogleComputeRoute_IsConstruct(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.GoogleComputeRoute_IsTerraformElement(x interface{}) *bool
 ```
@@ -563,7 +563,7 @@ googlecomputeroute.GoogleComputeRoute_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.GoogleComputeRoute_IsTerraformResource(x interface{}) *bool
 ```
@@ -577,7 +577,7 @@ googlecomputeroute.GoogleComputeRoute_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.GoogleComputeRoute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -606,7 +606,7 @@ The construct id used in the generated config for the GoogleComputeRoute to impo
 
 The id of the existing GoogleComputeRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1290,7 +1290,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteAsPaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 &googlecomputeroute.GoogleComputeRouteAsPaths {
 
@@ -1303,7 +1303,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 &googlecomputeroute.GoogleComputeRouteConfig {
 	Connection: interface{},
@@ -1324,11 +1324,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	NextHopInstanceZone: *string,
 	NextHopIp: *string,
 	NextHopVpnTunnel: *string,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRoute.GoogleComputeRouteParams,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRoute.GoogleComputeRouteParams,
 	Priority: *f64,
 	Project: *string,
 	Tags: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRoute.GoogleComputeRouteTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRoute.GoogleComputeRouteTimeouts,
 }
 ```
 
@@ -1347,7 +1347,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.name">Name</a></code> | <code>*string</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.network">Network</a></code> | <code>*string</code> | The network that this route applies to. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. Provide this property when you create the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopGateway">NextHopGateway</a></code> | <code>*string</code> | URL to a gateway that should handle matching packets. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopIlb">NextHopIlb</a></code> | <code>*string</code> | The IP address or URL to a forwarding rule of type loadBalancingScheme=INTERNAL that should handle matching packets. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopInstance">NextHopInstance</a></code> | <code>*string</code> | URL to an instance that should handle matching packets. |
@@ -1356,7 +1356,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopVpnTunnel">NextHopVpnTunnel</a></code> | <code>*string</code> | URL to a VpnTunnel that should handle matching packets. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteParams">GoogleComputeRouteParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.priority">Priority</a></code> | <code>*f64</code> | The priority of this route. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.tags">Tags</a></code> | <code>*[]*string</code> | A list of instance tags to which this route applies. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts">GoogleComputeRouteTimeouts</a></code> | timeouts block. |
 
@@ -1442,7 +1442,7 @@ DestRange *string
 
 The destination range of outgoing packets that this route applies to. Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#dest_range GoogleComputeRoute#dest_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#dest_range GoogleComputeRoute#dest_range}
 
 ---
 
@@ -1464,7 +1464,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the
 last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#name GoogleComputeRoute#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#name GoogleComputeRoute#name}
 
 ---
 
@@ -1478,7 +1478,7 @@ Network *string
 
 The network that this route applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#network GoogleComputeRoute#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#network GoogleComputeRoute#network}
 
 ---
 
@@ -1492,7 +1492,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#description GoogleComputeRoute#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#description GoogleComputeRoute#description}
 
 ---
 
@@ -1504,7 +1504,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1529,7 +1529,7 @@ partial valid URL:
 * 'global/gateways/default-internet-gateway'
 * The string 'default-internet-gateway'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#next_hop_gateway GoogleComputeRoute#next_hop_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#next_hop_gateway GoogleComputeRoute#next_hop_gateway}
 
 ---
 
@@ -1557,7 +1557,7 @@ of a forwarding rule from the same VPC or any peered VPC.
 Note that this can only be used when the destinationRange is
 a public (non-RFC 1918) IP CIDR range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#next_hop_ilb GoogleComputeRoute#next_hop_ilb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#next_hop_ilb GoogleComputeRoute#next_hop_ilb}
 
 ---
 
@@ -1578,7 +1578,7 @@ You can specify this as a full or partial URL. For example:
 * 'zones/zone/instances/instance'
 * Just the instance name, with the zone in 'next_hop_instance_zone'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#next_hop_instance GoogleComputeRoute#next_hop_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#next_hop_instance GoogleComputeRoute#next_hop_instance}
 
 ---
 
@@ -1592,7 +1592,7 @@ NextHopInstanceZone *string
 
 The zone of the instance specified in next_hop_instance. Omit if next_hop_instance is specified as a URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#next_hop_instance_zone GoogleComputeRoute#next_hop_instance_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#next_hop_instance_zone GoogleComputeRoute#next_hop_instance_zone}
 
 ---
 
@@ -1606,7 +1606,7 @@ NextHopIp *string
 
 Network IP address of an instance that should handle matching packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#next_hop_ip GoogleComputeRoute#next_hop_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#next_hop_ip GoogleComputeRoute#next_hop_ip}
 
 ---
 
@@ -1620,7 +1620,7 @@ NextHopVpnTunnel *string
 
 URL to a VpnTunnel that should handle matching packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#next_hop_vpn_tunnel GoogleComputeRoute#next_hop_vpn_tunnel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#next_hop_vpn_tunnel GoogleComputeRoute#next_hop_vpn_tunnel}
 
 ---
 
@@ -1634,7 +1634,7 @@ Params GoogleComputeRouteParams
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#params GoogleComputeRoute#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#params GoogleComputeRoute#params}
 
 ---
 
@@ -1656,7 +1656,7 @@ lowest-numbered priority value wins.
 
 Default value is 1000. Valid range is 0 through 65535.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#priority GoogleComputeRoute#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#priority GoogleComputeRoute#priority}
 
 ---
 
@@ -1668,7 +1668,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}.
 
 ---
 
@@ -1682,7 +1682,7 @@ Tags *[]*string
 
 A list of instance tags to which this route applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#tags GoogleComputeRoute#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#tags GoogleComputeRoute#tags}
 
 ---
 
@@ -1696,7 +1696,7 @@ Timeouts GoogleComputeRouteTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#timeouts GoogleComputeRoute#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#timeouts GoogleComputeRoute#timeouts}
 
 ---
 
@@ -1705,7 +1705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 &googlecomputeroute.GoogleComputeRouteParams {
 	ResourceManagerTags: *map[string]*string,
@@ -1737,7 +1737,7 @@ The field is immutable and causes resource replacement when mutated. This field 
 set at create time and modifying this field after creation will trigger recreation.
 To apply tags to an existing resource, see the google_tags_tag_binding resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#resource_manager_tags GoogleComputeRoute#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#resource_manager_tags GoogleComputeRoute#resource_manager_tags}
 
 ---
 
@@ -1746,7 +1746,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 &googlecomputeroute.GoogleComputeRouteTimeouts {
 	Create: *string,
@@ -1758,8 +1758,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}. |
 
 ---
 
@@ -1771,7 +1771,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}.
 
 ---
 
@@ -1783,7 +1783,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}.
 
 ---
 
@@ -1792,7 +1792,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteWarnings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 &googlecomputeroute.GoogleComputeRouteWarnings {
 
@@ -1805,7 +1805,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteWarningsData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 &googlecomputeroute.GoogleComputeRouteWarningsData {
 
@@ -1820,7 +1820,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteAsPathsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteAsPathsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRouteAsPathsList
 ```
@@ -1969,7 +1969,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteAsPathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteAsPathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRouteAsPathsOutputReference
 ```
@@ -2258,7 +2258,7 @@ func InternalValue() GoogleComputeRouteAsPaths
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRouteParamsOutputReference
 ```
@@ -2536,7 +2536,7 @@ func InternalValue() GoogleComputeRouteParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRouteTimeoutsOutputReference
 ```
@@ -2843,7 +2843,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteWarningsDataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteWarningsDataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRouteWarningsDataList
 ```
@@ -2992,7 +2992,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteWarningsDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteWarningsDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRouteWarningsDataOutputReference
 ```
@@ -3281,7 +3281,7 @@ func InternalValue() GoogleComputeRouteWarningsData
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteWarningsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteWarningsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRouteWarningsList
 ```
@@ -3430,7 +3430,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteWarningsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeroute"
 
 googlecomputeroute.NewGoogleComputeRouteWarningsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRouteWarningsOutputReference
 ```

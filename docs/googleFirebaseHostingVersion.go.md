@@ -4,12 +4,12 @@
 
 ### GoogleFirebaseHostingVersion <a name="GoogleFirebaseHostingVersion" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersion(scope Construct, id *string, config GoogleFirebaseHostingVersionConfig) GoogleFirebaseHostingVersion
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.GoogleFirebaseHostingVersion_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.GoogleFirebaseHostingVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googlefirebasehostingversion.GoogleFirebaseHostingVersion_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.GoogleFirebaseHostingVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlefirebasehostingversion.GoogleFirebaseHostingVersion_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.GoogleFirebaseHostingVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GoogleFirebaseHostingVersi
 
 The id of the existing GoogleFirebaseHostingVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,7 +846,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 &googlefirebasehostingversion.GoogleFirebaseHostingVersionConfig {
 	Connection: interface{},
@@ -857,9 +857,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefi
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	SiteId: *string,
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigA,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigA,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts,
 }
 ```
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefi
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.siteId">SiteId</a></code> | <code>*string</code> | Required. The ID of the site in which to create this Version. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.config">Config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigA">GoogleFirebaseHostingVersionConfigA</a></code> | config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts">GoogleFirebaseHostingVersionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -961,7 +961,7 @@ SiteId *string
 
 Required. The ID of the site in which to create this Version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#site_id GoogleFirebaseHostingVersion#site_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#site_id GoogleFirebaseHostingVersion#site_id}
 
 ---
 
@@ -975,7 +975,7 @@ Config GoogleFirebaseHostingVersionConfigA
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#config GoogleFirebaseHostingVersion#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#config GoogleFirebaseHostingVersion#config}
 
 ---
 
@@ -987,7 +987,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1004,7 +1004,7 @@ Timeouts GoogleFirebaseHostingVersionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#timeouts GoogleFirebaseHostingVersion#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#timeouts GoogleFirebaseHostingVersion#timeouts}
 
 ---
 
@@ -1013,7 +1013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 &googlefirebasehostingversion.GoogleFirebaseHostingVersionConfigA {
 	Headers: interface{},
@@ -1042,7 +1042,7 @@ Headers interface{}
 
 headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
 
 ---
 
@@ -1056,7 +1056,7 @@ Redirects interface{}
 
 redirects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#redirects GoogleFirebaseHostingVersion#redirects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#redirects GoogleFirebaseHostingVersion#redirects}
 
 ---
 
@@ -1070,7 +1070,7 @@ Rewrites interface{}
 
 rewrites block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#rewrites GoogleFirebaseHostingVersion#rewrites}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#rewrites GoogleFirebaseHostingVersion#rewrites}
 
 ---
 
@@ -1079,7 +1079,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 &googlefirebasehostingversion.GoogleFirebaseHostingVersionConfigHeaders {
 	Headers: *map[string]*string,
@@ -1108,7 +1108,7 @@ Headers *map[string]*string
 
 The additional headers to add to the response. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
 
 ---
 
@@ -1122,7 +1122,7 @@ Glob *string
 
 The user-supplied glob to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
 
 ---
 
@@ -1136,7 +1136,7 @@ Regex *string
 
 The user-supplied RE2 regular expression to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
 
 ---
 
@@ -1145,7 +1145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRedirects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 &googlefirebasehostingversion.GoogleFirebaseHostingVersionConfigRedirects {
 	Location: *string,
@@ -1187,7 +1187,7 @@ redirects {
 }
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#location GoogleFirebaseHostingVersion#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#location GoogleFirebaseHostingVersion#location}
 
 ---
 
@@ -1201,7 +1201,7 @@ StatusCode *f64
 
 The status HTTP code to return in the response. It must be a valid 3xx status code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#status_code GoogleFirebaseHostingVersion#status_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#status_code GoogleFirebaseHostingVersion#status_code}
 
 ---
 
@@ -1215,7 +1215,7 @@ Glob *string
 
 The user-supplied glob to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
 
 ---
 
@@ -1229,7 +1229,7 @@ Regex *string
 
 The user-supplied RE2 regular expression to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
 
 ---
 
@@ -1238,14 +1238,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRewrites.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 &googlefirebasehostingversion.GoogleFirebaseHostingVersionConfigRewrites {
 	Function: *string,
 	Glob: *string,
 	Path: *string,
 	Regex: *string,
-	Run: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRewritesRun,
+	Run: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRewritesRun,
 }
 ```
 
@@ -1271,7 +1271,7 @@ Function *string
 
 The function to proxy requests to. Must match the exported function name exactly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#function GoogleFirebaseHostingVersion#function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#function GoogleFirebaseHostingVersion#function}
 
 ---
 
@@ -1285,7 +1285,7 @@ Glob *string
 
 The user-supplied glob to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
 
 ---
 
@@ -1299,7 +1299,7 @@ Path *string
 
 The URL path to rewrite the request to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#path GoogleFirebaseHostingVersion#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#path GoogleFirebaseHostingVersion#path}
 
 ---
 
@@ -1313,7 +1313,7 @@ Regex *string
 
 The user-supplied RE2 regular expression to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
 
 ---
 
@@ -1327,7 +1327,7 @@ Run GoogleFirebaseHostingVersionConfigRewritesRun
 
 run block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#run GoogleFirebaseHostingVersion#run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#run GoogleFirebaseHostingVersion#run}
 
 ---
 
@@ -1336,7 +1336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRewritesRun.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 &googlefirebasehostingversion.GoogleFirebaseHostingVersionConfigRewritesRun {
 	ServiceId: *string,
@@ -1363,7 +1363,7 @@ ServiceId *string
 
 User-defined ID of the Cloud Run service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#service_id GoogleFirebaseHostingVersion#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#service_id GoogleFirebaseHostingVersion#service_id}
 
 ---
 
@@ -1377,7 +1377,7 @@ Region *string
 
 Optional. User-provided region where the Cloud Run service is hosted. Defaults to 'us-central1' if not supplied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#region GoogleFirebaseHostingVersion#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#region GoogleFirebaseHostingVersion#region}
 
 ---
 
@@ -1386,7 +1386,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 &googlefirebasehostingversion.GoogleFirebaseHostingVersionTimeouts {
 	Create: *string,
@@ -1398,8 +1398,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}. |
 
 ---
 
@@ -1411,7 +1411,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}.
 
 ---
 
@@ -1423,7 +1423,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}.
 
 ---
 
@@ -1434,7 +1434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigAOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigAOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseHostingVersionConfigAOutputReference
 ```
@@ -1809,7 +1809,7 @@ func InternalValue() GoogleFirebaseHostingVersionConfigA
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseHostingVersionConfigHeadersList
 ```
@@ -1969,7 +1969,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseHostingVersionConfigHeadersOutputReference
 ```
@@ -2316,7 +2316,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRedirectsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigRedirectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseHostingVersionConfigRedirectsList
 ```
@@ -2476,7 +2476,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRedirectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigRedirectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseHostingVersionConfigRedirectsOutputReference
 ```
@@ -2845,7 +2845,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRewritesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigRewritesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseHostingVersionConfigRewritesList
 ```
@@ -3005,7 +3005,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRewritesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigRewritesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseHostingVersionConfigRewritesOutputReference
 ```
@@ -3430,7 +3430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigRewritesRunOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionConfigRewritesRunOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseHostingVersionConfigRewritesRunOutputReference
 ```
@@ -3730,7 +3730,7 @@ func InternalValue() GoogleFirebaseHostingVersionConfigRewritesRun
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasehostingversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingversion"
 
 googlefirebasehostingversion.NewGoogleFirebaseHostingVersionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseHostingVersionTimeoutsOutputReference
 ```

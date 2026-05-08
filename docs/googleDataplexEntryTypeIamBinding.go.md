@@ -4,12 +4,12 @@
 
 ### GoogleDataplexEntryTypeIamBinding <a name="GoogleDataplexEntryTypeIamBinding" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 googledataplexentrytypeiambinding.NewGoogleDataplexEntryTypeIamBinding(scope Construct, id *string, config GoogleDataplexEntryTypeIamBindingConfig) GoogleDataplexEntryTypeIamBinding
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBinding_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBinding_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDataplexEntryTypeIam
 
 The id of the existing GoogleDataplexEntryTypeIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 &googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBindingCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#expression GoogleDataplexEntryTypeIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#title GoogleDataplexEntryTypeIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#description GoogleDataplexEntryTypeIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#expression GoogleDataplexEntryTypeIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#title GoogleDataplexEntryTypeIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#description GoogleDataplexEntryTypeIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#expression GoogleDataplexEntryTypeIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#expression GoogleDataplexEntryTypeIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#title GoogleDataplexEntryTypeIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#title GoogleDataplexEntryTypeIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#description GoogleDataplexEntryTypeIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#description GoogleDataplexEntryTypeIamBinding#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 &googledataplexentrytypeiambinding.GoogleDataplexEntryTypeIamBindingConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	EntryTypeId: *string,
 	Members: *[]*string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.entryTypeId">EntryTypeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#entry_type_id GoogleDataplexEntryTypeIamBinding#entry_type_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#members GoogleDataplexEntryTypeIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#role GoogleDataplexEntryTypeIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.entryTypeId">EntryTypeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#entry_type_id GoogleDataplexEntryTypeIamBinding#entry_type_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#members GoogleDataplexEntryTypeIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#role GoogleDataplexEntryTypeIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingCondition">GoogleDataplexEntryTypeIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#id GoogleDataplexEntryTypeIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#location GoogleDataplexEntryTypeIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#project GoogleDataplexEntryTypeIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#id GoogleDataplexEntryTypeIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#location GoogleDataplexEntryTypeIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#project GoogleDataplexEntryTypeIamBinding#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ EntryTypeId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#entry_type_id GoogleDataplexEntryTypeIamBinding#entry_type_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#entry_type_id GoogleDataplexEntryTypeIamBinding#entry_type_id}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#members GoogleDataplexEntryTypeIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#members GoogleDataplexEntryTypeIamBinding#members}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#role GoogleDataplexEntryTypeIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#role GoogleDataplexEntryTypeIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleDataplexEntryTypeIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#condition GoogleDataplexEntryTypeIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#condition GoogleDataplexEntryTypeIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#id GoogleDataplexEntryTypeIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#id GoogleDataplexEntryTypeIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#location GoogleDataplexEntryTypeIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#location GoogleDataplexEntryTypeIamBinding#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type_iam_binding#project GoogleDataplexEntryTypeIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type_iam_binding#project GoogleDataplexEntryTypeIamBinding#project}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytypeiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytypeiambinding"
 
 googledataplexentrytypeiambinding.NewGoogleDataplexEntryTypeIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexEntryTypeIamBindingConditionOutputReference
 ```

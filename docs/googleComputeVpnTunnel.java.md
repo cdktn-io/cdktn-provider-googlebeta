@@ -4,7 +4,7 @@
 
 ### GoogleComputeVpnTunnel <a name="GoogleComputeVpnTunnel" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel google_compute_vpn_tunnel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel google_compute_vpn_tunnel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer"></a>
 
@@ -20,13 +20,13 @@ GoogleComputeVpnTunnel.Builder.create(Construct scope, java.lang.String id)
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
-    .sharedSecret(java.lang.String)
 //  .cipherSuite(GoogleComputeVpnTunnelCipherSuite)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .ikeVersion(java.lang.Number)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
 //  .localTrafficSelector(java.util.List<java.lang.String>)
+//  .params(GoogleComputeVpnTunnelParams)
 //  .peerExternalGateway(java.lang.String)
 //  .peerExternalGatewayInterface(java.lang.Number)
 //  .peerGcpGateway(java.lang.String)
@@ -35,6 +35,9 @@ GoogleComputeVpnTunnel.Builder.create(Construct scope, java.lang.String id)
 //  .region(java.lang.String)
 //  .remoteTrafficSelector(java.util.List<java.lang.String>)
 //  .router(java.lang.String)
+//  .sharedSecret(java.lang.String)
+//  .sharedSecretWo(java.lang.String)
+//  .sharedSecretWoVersion(java.lang.String)
 //  .targetVpnGateway(java.lang.String)
 //  .timeouts(GoogleComputeVpnTunnelTimeouts)
 //  .vpnGateway(java.lang.String)
@@ -54,21 +57,24 @@ GoogleComputeVpnTunnel.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecret">sharedSecret</a></code> | <code>java.lang.String</code> | Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.cipherSuite">cipherSuite</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelCipherSuite">GoogleComputeVpnTunnelCipherSuite</a></code> | cipher_suite block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.ikeVersion">ikeVersion</a></code> | <code>java.lang.Number</code> | IKE protocol version to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels to apply to this VpnTunnel. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.localTrafficSelector">localTrafficSelector</a></code> | <code>java.util.List<java.lang.String></code> | Local traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.peerExternalGateway">peerExternalGateway</a></code> | <code>java.lang.String</code> | URL of the peer side external VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.peerExternalGatewayInterface">peerExternalGatewayInterface</a></code> | <code>java.lang.Number</code> | The interface ID of the external VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.peerGcpGateway">peerGcpGateway</a></code> | <code>java.lang.String</code> | URL of the peer side HA GCP VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.peerIp">peerIp</a></code> | <code>java.lang.String</code> | IP address of the peer VPN gateway. Only IPv4 is supported. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.remoteTrafficSelector">remoteTrafficSelector</a></code> | <code>java.util.List<java.lang.String></code> | Remote traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.router">router</a></code> | <code>java.lang.String</code> | URL of router resource to be used for dynamic routing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecret">sharedSecret</a></code> | <code>java.lang.String</code> | Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecretWo">sharedSecretWo</a></code> | <code>java.lang.String</code> | Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecretWoVersion">sharedSecretWoVersion</a></code> | <code>java.lang.String</code> | Triggers update of 'shared_secret_wo' write-only. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.targetVpnGateway">targetVpnGateway</a></code> | <code>java.lang.String</code> | URL of the Target VPN gateway with which this VPN tunnel is associated. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts">GoogleComputeVpnTunnelTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.vpnGateway">vpnGateway</a></code> | <code>java.lang.String</code> | URL of the VPN gateway with which this VPN tunnel is associated. |
@@ -150,17 +156,7 @@ must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
-
----
-
-##### `sharedSecret`<sup>Required</sup> <a name="sharedSecret" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecret"></a>
-
-- *Type:* java.lang.String
-
-Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
 
 ---
 
@@ -170,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 cipher_suite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
 
 ---
 
@@ -180,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
 
 ---
 
@@ -188,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -203,7 +199,7 @@ IKE protocol version to use when establishing the VPN tunnel with peer VPN gatew
 
 Acceptable IKE versions are 1 or 2. Default version is 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
 
 ---
 
@@ -216,7 +212,7 @@ Labels to apply to this VpnTunnel.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
 
 ---
 
@@ -230,7 +226,17 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.params"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#params GoogleComputeVpnTunnel#params}
 
 ---
 
@@ -240,7 +246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of the peer side external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
 
 ---
 
@@ -250,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The interface ID of the external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
 
 ---
 
@@ -264,7 +270,7 @@ If provided, the VPN tunnel will automatically use the same vpn_gateway_interfac
 ID in the peer GCP VPN gateway.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
 
 ---
 
@@ -274,7 +280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IP address of the peer VPN gateway. Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
 
 ---
 
@@ -282,7 +288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
 
 ---
 
@@ -292,7 +298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
 
 ---
 
@@ -306,7 +312,7 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
 
 ---
 
@@ -316,7 +322,39 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of router resource to be used for dynamic routing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
+
+---
+
+##### `sharedSecret`<sup>Optional</sup> <a name="sharedSecret" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecret"></a>
+
+- *Type:* java.lang.String
+
+Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
+
+---
+
+##### `sharedSecretWo`<sup>Optional</sup> <a name="sharedSecretWo" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecretWo"></a>
+
+- *Type:* java.lang.String
+
+Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo GoogleComputeVpnTunnel#shared_secret_wo}
+
+---
+
+##### `sharedSecretWoVersion`<sup>Optional</sup> <a name="sharedSecretWoVersion" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.sharedSecretWoVersion"></a>
+
+- *Type:* java.lang.String
+
+Triggers update of 'shared_secret_wo' write-only.
+
+Increment this value when an update to 'shared_secret_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo_version GoogleComputeVpnTunnel#shared_secret_wo_version}
 
 ---
 
@@ -326,7 +364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of the Target VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
 
 ---
 
@@ -336,7 +374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
 
 ---
 
@@ -349,7 +387,7 @@ URL of the VPN gateway with which this VPN tunnel is associated.
 This must be used if a High Availability VPN gateway resource is created.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
 
 ---
 
@@ -359,7 +397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The interface ID of the VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
 
 ---
 
@@ -392,6 +430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putCipherSuite">putCipherSuite</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putParams">putParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetCipherSuite">resetCipherSuite</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetDescription">resetDescription</a></code> | *No description.* |
@@ -399,6 +438,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetIkeVersion">resetIkeVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetLabels">resetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetLocalTrafficSelector">resetLocalTrafficSelector</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetParams">resetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetPeerExternalGateway">resetPeerExternalGateway</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetPeerExternalGatewayInterface">resetPeerExternalGatewayInterface</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetPeerGcpGateway">resetPeerGcpGateway</a></code> | *No description.* |
@@ -407,6 +447,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetRegion">resetRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetRemoteTrafficSelector">resetRemoteTrafficSelector</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetRouter">resetRouter</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetSharedSecret">resetSharedSecret</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetSharedSecretWo">resetSharedSecretWo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetSharedSecretWoVersion">resetSharedSecretWoVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetTargetVpnGateway">resetTargetVpnGateway</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetVpnGateway">resetVpnGateway</a></code> | *No description.* |
@@ -737,6 +780,18 @@ public void putCipherSuite(GoogleComputeVpnTunnelCipherSuite value)
 
 ---
 
+##### `putParams` <a name="putParams" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putParams"></a>
+
+```java
+public void putParams(GoogleComputeVpnTunnelParams value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a>
+
+---
+
 ##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putTimeouts"></a>
 
 ```java
@@ -785,6 +840,12 @@ public void resetLabels()
 public void resetLocalTrafficSelector()
 ```
 
+##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetParams"></a>
+
+```java
+public void resetParams()
+```
+
 ##### `resetPeerExternalGateway` <a name="resetPeerExternalGateway" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetPeerExternalGateway"></a>
 
 ```java
@@ -831,6 +892,24 @@ public void resetRemoteTrafficSelector()
 
 ```java
 public void resetRouter()
+```
+
+##### `resetSharedSecret` <a name="resetSharedSecret" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetSharedSecret"></a>
+
+```java
+public void resetSharedSecret()
+```
+
+##### `resetSharedSecretWo` <a name="resetSharedSecretWo" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetSharedSecretWo"></a>
+
+```java
+public void resetSharedSecretWo()
+```
+
+##### `resetSharedSecretWoVersion` <a name="resetSharedSecretWoVersion" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetSharedSecretWoVersion"></a>
+
+```java
+public void resetSharedSecretWoVersion()
 ```
 
 ##### `resetTargetVpnGateway` <a name="resetTargetVpnGateway" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetTargetVpnGateway"></a>
@@ -960,7 +1039,7 @@ The construct id used in the generated config for the GoogleComputeVpnTunnel to 
 
 The id of the existing GoogleComputeVpnTunnel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -995,6 +1074,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.detailedStatus">detailedStatus</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.effectiveLabels">effectiveLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.labelFingerprint">labelFingerprint</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference">GoogleComputeVpnTunnelParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.selfLink">selfLink</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretHash">sharedSecretHash</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.terraformLabels">terraformLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
@@ -1007,6 +1087,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.localTrafficSelectorInput">localTrafficSelectorInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.peerExternalGatewayInput">peerExternalGatewayInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.peerExternalGatewayInterfaceInput">peerExternalGatewayInterfaceInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.peerGcpGatewayInput">peerGcpGatewayInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1016,6 +1097,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.remoteTrafficSelectorInput">remoteTrafficSelectorInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.routerInput">routerInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretInput">sharedSecretInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWoInput">sharedSecretWoInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWoVersionInput">sharedSecretWoVersionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.targetVpnGatewayInput">targetVpnGatewayInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts">GoogleComputeVpnTunnelTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.vpnGatewayInput">vpnGatewayInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1035,6 +1118,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.remoteTrafficSelector">remoteTrafficSelector</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.router">router</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecret">sharedSecret</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWo">sharedSecretWo</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWoVersion">sharedSecretWoVersion</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.targetVpnGateway">targetVpnGateway</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.vpnGateway">vpnGateway</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.vpnGatewayInterface">vpnGatewayInterface</a></code> | <code>java.lang.Number</code> | *No description.* |
@@ -1233,6 +1318,16 @@ public java.lang.String getLabelFingerprint();
 
 ---
 
+##### `params`<sup>Required</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.params"></a>
+
+```java
+public GoogleComputeVpnTunnelParamsOutputReference getParams();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference">GoogleComputeVpnTunnelParamsOutputReference</a>
+
+---
+
 ##### `selfLink`<sup>Required</sup> <a name="selfLink" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.selfLink"></a>
 
 ```java
@@ -1353,6 +1448,16 @@ public java.lang.String getNameInput();
 
 ---
 
+##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.paramsInput"></a>
+
+```java
+public GoogleComputeVpnTunnelParams getParamsInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a>
+
+---
+
 ##### `peerExternalGatewayInput`<sup>Optional</sup> <a name="peerExternalGatewayInput" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.peerExternalGatewayInput"></a>
 
 ```java
@@ -1437,6 +1542,26 @@ public java.lang.String getRouterInput();
 
 ```java
 public java.lang.String getSharedSecretInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sharedSecretWoInput`<sup>Optional</sup> <a name="sharedSecretWoInput" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWoInput"></a>
+
+```java
+public java.lang.String getSharedSecretWoInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sharedSecretWoVersionInput`<sup>Optional</sup> <a name="sharedSecretWoVersionInput" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWoVersionInput"></a>
+
+```java
+public java.lang.String getSharedSecretWoVersionInput();
 ```
 
 - *Type:* java.lang.String
@@ -1633,6 +1758,26 @@ public java.lang.String getSharedSecret();
 
 ---
 
+##### `sharedSecretWo`<sup>Required</sup> <a name="sharedSecretWo" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWo"></a>
+
+```java
+public java.lang.String getSharedSecretWo();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sharedSecretWoVersion`<sup>Required</sup> <a name="sharedSecretWoVersion" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.sharedSecretWoVersion"></a>
+
+```java
+public java.lang.String getSharedSecretWoVersion();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `targetVpnGateway`<sup>Required</sup> <a name="targetVpnGateway" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.targetVpnGateway"></a>
 
 ```java
@@ -1715,7 +1860,7 @@ public GoogleComputeVpnTunnelCipherSuitePhase1 getPhase1();
 
 phase1 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#phase1 GoogleComputeVpnTunnel#phase1}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#phase1 GoogleComputeVpnTunnel#phase1}
 
 ---
 
@@ -1729,7 +1874,7 @@ public GoogleComputeVpnTunnelCipherSuitePhase2 getPhase2();
 
 phase2 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#phase2 GoogleComputeVpnTunnel#phase2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#phase2 GoogleComputeVpnTunnel#phase2}
 
 ---
 
@@ -1769,7 +1914,7 @@ public java.util.List<java.lang.String> getDh();
 
 Diffie-Hellman groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#dh GoogleComputeVpnTunnel#dh}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#dh GoogleComputeVpnTunnel#dh}
 
 ---
 
@@ -1783,7 +1928,7 @@ public java.util.List<java.lang.String> getEncryption();
 
 Encryption algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
 
 ---
 
@@ -1797,7 +1942,7 @@ public java.util.List<java.lang.String> getIntegrity();
 
 Integrity algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
 
 ---
 
@@ -1811,7 +1956,7 @@ public java.util.List<java.lang.String> getPrf();
 
 Pseudo-random functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#prf GoogleComputeVpnTunnel#prf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#prf GoogleComputeVpnTunnel#prf}
 
 ---
 
@@ -1849,7 +1994,7 @@ public java.util.List<java.lang.String> getEncryption();
 
 Encryption algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
 
 ---
 
@@ -1863,7 +2008,7 @@ public java.util.List<java.lang.String> getIntegrity();
 
 Integrity algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
 
 ---
 
@@ -1877,7 +2022,7 @@ public java.util.List<java.lang.String> getPfs();
 
 Perfect forward secrecy groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#pfs GoogleComputeVpnTunnel#pfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#pfs GoogleComputeVpnTunnel#pfs}
 
 ---
 
@@ -1897,13 +2042,13 @@ GoogleComputeVpnTunnelConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
-    .sharedSecret(java.lang.String)
 //  .cipherSuite(GoogleComputeVpnTunnelCipherSuite)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .ikeVersion(java.lang.Number)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
 //  .localTrafficSelector(java.util.List<java.lang.String>)
+//  .params(GoogleComputeVpnTunnelParams)
 //  .peerExternalGateway(java.lang.String)
 //  .peerExternalGatewayInterface(java.lang.Number)
 //  .peerGcpGateway(java.lang.String)
@@ -1912,6 +2057,9 @@ GoogleComputeVpnTunnelConfig.builder()
 //  .region(java.lang.String)
 //  .remoteTrafficSelector(java.util.List<java.lang.String>)
 //  .router(java.lang.String)
+//  .sharedSecret(java.lang.String)
+//  .sharedSecretWo(java.lang.String)
+//  .sharedSecretWoVersion(java.lang.String)
 //  .targetVpnGateway(java.lang.String)
 //  .timeouts(GoogleComputeVpnTunnelTimeouts)
 //  .vpnGateway(java.lang.String)
@@ -1931,21 +2079,24 @@ GoogleComputeVpnTunnelConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecret">sharedSecret</a></code> | <code>java.lang.String</code> | Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.cipherSuite">cipherSuite</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelCipherSuite">GoogleComputeVpnTunnelCipherSuite</a></code> | cipher_suite block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.ikeVersion">ikeVersion</a></code> | <code>java.lang.Number</code> | IKE protocol version to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels to apply to this VpnTunnel. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.localTrafficSelector">localTrafficSelector</a></code> | <code>java.util.List<java.lang.String></code> | Local traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.peerExternalGateway">peerExternalGateway</a></code> | <code>java.lang.String</code> | URL of the peer side external VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.peerExternalGatewayInterface">peerExternalGatewayInterface</a></code> | <code>java.lang.Number</code> | The interface ID of the external VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.peerGcpGateway">peerGcpGateway</a></code> | <code>java.lang.String</code> | URL of the peer side HA GCP VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.peerIp">peerIp</a></code> | <code>java.lang.String</code> | IP address of the peer VPN gateway. Only IPv4 is supported. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.region">region</a></code> | <code>java.lang.String</code> | The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.remoteTrafficSelector">remoteTrafficSelector</a></code> | <code>java.util.List<java.lang.String></code> | Remote traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.router">router</a></code> | <code>java.lang.String</code> | URL of router resource to be used for dynamic routing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecret">sharedSecret</a></code> | <code>java.lang.String</code> | Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecretWo">sharedSecretWo</a></code> | <code>java.lang.String</code> | Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecretWoVersion">sharedSecretWoVersion</a></code> | <code>java.lang.String</code> | Triggers update of 'shared_secret_wo' write-only. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.targetVpnGateway">targetVpnGateway</a></code> | <code>java.lang.String</code> | URL of the Target VPN gateway with which this VPN tunnel is associated. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts">GoogleComputeVpnTunnelTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.vpnGateway">vpnGateway</a></code> | <code>java.lang.String</code> | URL of the VPN gateway with which this VPN tunnel is associated. |
@@ -2041,21 +2192,7 @@ must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
-
----
-
-##### `sharedSecret`<sup>Required</sup> <a name="sharedSecret" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecret"></a>
-
-```java
-public java.lang.String getSharedSecret();
-```
-
-- *Type:* java.lang.String
-
-Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
 
 ---
 
@@ -2069,7 +2206,7 @@ public GoogleComputeVpnTunnelCipherSuite getCipherSuite();
 
 cipher_suite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
 
 ---
 
@@ -2083,7 +2220,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
 
 ---
 
@@ -2095,7 +2232,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2114,7 +2251,7 @@ IKE protocol version to use when establishing the VPN tunnel with peer VPN gatew
 
 Acceptable IKE versions are 1 or 2. Default version is 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
 
 ---
 
@@ -2131,7 +2268,7 @@ Labels to apply to this VpnTunnel.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
 
 ---
 
@@ -2149,7 +2286,21 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.params"></a>
+
+```java
+public GoogleComputeVpnTunnelParams getParams();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#params GoogleComputeVpnTunnel#params}
 
 ---
 
@@ -2163,7 +2314,7 @@ public java.lang.String getPeerExternalGateway();
 
 URL of the peer side external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
 
 ---
 
@@ -2177,7 +2328,7 @@ public java.lang.Number getPeerExternalGatewayInterface();
 
 The interface ID of the external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
 
 ---
 
@@ -2195,7 +2346,7 @@ If provided, the VPN tunnel will automatically use the same vpn_gateway_interfac
 ID in the peer GCP VPN gateway.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
 
 ---
 
@@ -2209,7 +2360,7 @@ public java.lang.String getPeerIp();
 
 IP address of the peer VPN gateway. Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
 
 ---
 
@@ -2221,7 +2372,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
 
 ---
 
@@ -2235,7 +2386,7 @@ public java.lang.String getRegion();
 
 The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
 
 ---
 
@@ -2253,7 +2404,7 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
 
 ---
 
@@ -2267,7 +2418,51 @@ public java.lang.String getRouter();
 
 URL of router resource to be used for dynamic routing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
+
+---
+
+##### `sharedSecret`<sup>Optional</sup> <a name="sharedSecret" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecret"></a>
+
+```java
+public java.lang.String getSharedSecret();
+```
+
+- *Type:* java.lang.String
+
+Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
+
+---
+
+##### `sharedSecretWo`<sup>Optional</sup> <a name="sharedSecretWo" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecretWo"></a>
+
+```java
+public java.lang.String getSharedSecretWo();
+```
+
+- *Type:* java.lang.String
+
+Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo GoogleComputeVpnTunnel#shared_secret_wo}
+
+---
+
+##### `sharedSecretWoVersion`<sup>Optional</sup> <a name="sharedSecretWoVersion" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.sharedSecretWoVersion"></a>
+
+```java
+public java.lang.String getSharedSecretWoVersion();
+```
+
+- *Type:* java.lang.String
+
+Triggers update of 'shared_secret_wo' write-only.
+
+Increment this value when an update to 'shared_secret_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo_version GoogleComputeVpnTunnel#shared_secret_wo_version}
 
 ---
 
@@ -2281,7 +2476,7 @@ public java.lang.String getTargetVpnGateway();
 
 URL of the Target VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
 
 ---
 
@@ -2295,7 +2490,7 @@ public GoogleComputeVpnTunnelTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
 
 ---
 
@@ -2312,7 +2507,7 @@ URL of the VPN gateway with which this VPN tunnel is associated.
 This must be used if a High Availability VPN gateway resource is created.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
 
 ---
 
@@ -2326,7 +2521,45 @@ public java.lang.Number getVpnGatewayInterface();
 
 The interface ID of the VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
+
+---
+
+### GoogleComputeVpnTunnelParams <a name="GoogleComputeVpnTunnelParams" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_vpn_tunnel.GoogleComputeVpnTunnelParams;
+
+GoogleComputeVpnTunnelParams.builder()
+//  .resourceManagerTags(java.util.Map<java.lang.String, java.lang.String>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource manager tags to be bound to the Vpn Tunnel. |
+
+---
+
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams.property.resourceManagerTags"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTags();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+Resource manager tags to be bound to the Vpn Tunnel.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+and values are in the format tagValues/456.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#resource_manager_tags GoogleComputeVpnTunnel#resource_manager_tags}
 
 ---
 
@@ -2348,9 +2581,9 @@ GoogleComputeVpnTunnelTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}. |
 
 ---
 
@@ -2362,7 +2595,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}.
 
 ---
 
@@ -2374,7 +2607,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}.
 
 ---
 
@@ -2386,7 +2619,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}.
 
 ---
 
@@ -3422,6 +3655,284 @@ public GoogleComputeVpnTunnelCipherSuitePhase2 getInternalValue();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelCipherSuitePhase2">GoogleComputeVpnTunnelCipherSuitePhase2</a>
+
+---
+
+
+### GoogleComputeVpnTunnelParamsOutputReference <a name="GoogleComputeVpnTunnelParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_vpn_tunnel.GoogleComputeVpnTunnelParamsOutputReference;
+
+new GoogleComputeVpnTunnelParamsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.resetResourceManagerTags"></a>
+
+```java
+public void resetResourceManagerTags()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTagsInput();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.resourceManagerTags"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getResourceManagerTags();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParamsOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeVpnTunnelParams getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelParams">GoogleComputeVpnTunnelParams</a>
 
 ---
 

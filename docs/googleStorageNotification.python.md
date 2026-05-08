@@ -4,7 +4,7 @@
 
 ### GoogleStorageNotification <a name="GoogleStorageNotification" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification google_storage_notification}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification google_storage_notification}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.Initializer"></a>
 
@@ -26,7 +26,6 @@ googleStorageNotification.GoogleStorageNotification(
   topic: str,
   custom_attributes: typing.Mapping[str] = None,
   event_types: typing.List[str] = None,
-  id: str = None,
   object_name_prefix: str = None
 )
 ```
@@ -47,7 +46,6 @@ googleStorageNotification.GoogleStorageNotification(
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.Initializer.parameter.topic">topic</a></code> | <code>str</code> | The Cloud Pub/Sub topic to which this subscription publishes. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.Initializer.parameter.customAttributes">custom_attributes</a></code> | <code>typing.Mapping[str]</code> | A set of key/value attribute pairs to attach to each Cloud Pub/Sub message published for this notification subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.Initializer.parameter.eventTypes">event_types</a></code> | <code>typing.List[str]</code> | List of event type filters for this notification config. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#id GoogleStorageNotification#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.Initializer.parameter.objectNamePrefix">object_name_prefix</a></code> | <code>str</code> | Specifies a prefix path filter for this notification config. |
 
 ---
@@ -118,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#bucket GoogleStorageNotification#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#bucket GoogleStorageNotification#bucket}
 
 ---
 
@@ -128,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The desired content of the Payload. One of "JSON_API_V1" or "NONE".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#payload_format GoogleStorageNotification#payload_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#payload_format GoogleStorageNotification#payload_format}
 
 ---
 
@@ -138,9 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Cloud Pub/Sub topic to which this subscription publishes.
 
-Expects either the  topic name, assumed to belong to the default GCP provider project, or the project-level name,  i.e. projects/my-gcp-project/topics/my-topic or my-topic. If the project is not set in the provider, you will need to use the project-level name.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#topic GoogleStorageNotification#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#topic GoogleStorageNotification#topic}
 
 ---
 
@@ -150,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A set of key/value attribute pairs to attach to each Cloud Pub/Sub message published for this notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#custom_attributes GoogleStorageNotification#custom_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#custom_attributes GoogleStorageNotification#custom_attributes}
 
 ---
 
@@ -162,18 +158,7 @@ List of event type filters for this notification config.
 
 If not specified, Cloud Storage will send notifications for all event types. The valid types are: "OBJECT_FINALIZE", "OBJECT_METADATA_UPDATE", "OBJECT_DELETE", "OBJECT_ARCHIVE"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#event_types GoogleStorageNotification#event_types}
-
----
-
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.Initializer.parameter.id"></a>
-
-- *Type:* str
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#id GoogleStorageNotification#id}.
-
-Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#event_types GoogleStorageNotification#event_types}
 
 ---
 
@@ -185,7 +170,7 @@ Specifies a prefix path filter for this notification config.
 
 Cloud Storage will only send notifications for objects in this bucket whose names begin with the specified prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#object_name_prefix GoogleStorageNotification#object_name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#object_name_prefix GoogleStorageNotification#object_name_prefix}
 
 ---
 
@@ -219,7 +204,6 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.resetCustomAttributes">reset_custom_attributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.resetEventTypes">reset_event_types</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.resetObjectNamePrefix">reset_object_name_prefix</a></code> | *No description.* |
 
 ---
@@ -584,12 +568,6 @@ def reset_custom_attributes() -> None
 def reset_event_types() -> None
 ```
 
-##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.resetId"></a>
-
-```python
-def reset_id() -> None
-```
-
 ##### `reset_object_name_prefix` <a name="reset_object_name_prefix" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.resetObjectNamePrefix"></a>
 
 ```python
@@ -710,7 +688,7 @@ The construct id used in the generated config for the GoogleStorageNotification 
 
 The id of the existing GoogleStorageNotification that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -740,19 +718,18 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.notificationId">notification_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.selfLink">self_link</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.bucketInput">bucket_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.customAttributesInput">custom_attributes_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.eventTypesInput">event_types_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.objectNamePrefixInput">object_name_prefix_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.payloadFormatInput">payload_format_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.topicInput">topic_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.bucket">bucket</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.customAttributes">custom_attributes</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.eventTypes">event_types</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.objectNamePrefix">object_name_prefix</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.payloadFormat">payload_format</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.topic">topic</a></code> | <code>str</code> | *No description.* |
@@ -901,6 +878,16 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
 ##### `notification_id`<sup>Required</sup> <a name="notification_id" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.notificationId"></a>
 
 ```python
@@ -948,16 +935,6 @@ event_types_input: typing.List[str]
 ```
 
 - *Type:* typing.List[str]
-
----
-
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.idInput"></a>
-
-```python
-id_input: str
-```
-
-- *Type:* str
 
 ---
 
@@ -1018,16 +995,6 @@ event_types: typing.List[str]
 ```
 
 - *Type:* typing.List[str]
-
----
-
-##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotification.property.id"></a>
-
-```python
-id: str
-```
-
-- *Type:* str
 
 ---
 
@@ -1101,7 +1068,6 @@ googleStorageNotification.GoogleStorageNotificationConfig(
   topic: str,
   custom_attributes: typing.Mapping[str] = None,
   event_types: typing.List[str] = None,
-  id: str = None,
   object_name_prefix: str = None
 )
 ```
@@ -1122,7 +1088,6 @@ googleStorageNotification.GoogleStorageNotificationConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotificationConfig.property.topic">topic</a></code> | <code>str</code> | The Cloud Pub/Sub topic to which this subscription publishes. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotificationConfig.property.customAttributes">custom_attributes</a></code> | <code>typing.Mapping[str]</code> | A set of key/value attribute pairs to attach to each Cloud Pub/Sub message published for this notification subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotificationConfig.property.eventTypes">event_types</a></code> | <code>typing.List[str]</code> | List of event type filters for this notification config. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotificationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#id GoogleStorageNotification#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotificationConfig.property.objectNamePrefix">object_name_prefix</a></code> | <code>str</code> | Specifies a prefix path filter for this notification config. |
 
 ---
@@ -1207,7 +1172,7 @@ bucket: str
 
 The name of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#bucket GoogleStorageNotification#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#bucket GoogleStorageNotification#bucket}
 
 ---
 
@@ -1221,7 +1186,7 @@ payload_format: str
 
 The desired content of the Payload. One of "JSON_API_V1" or "NONE".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#payload_format GoogleStorageNotification#payload_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#payload_format GoogleStorageNotification#payload_format}
 
 ---
 
@@ -1235,9 +1200,7 @@ topic: str
 
 The Cloud Pub/Sub topic to which this subscription publishes.
 
-Expects either the  topic name, assumed to belong to the default GCP provider project, or the project-level name,  i.e. projects/my-gcp-project/topics/my-topic or my-topic. If the project is not set in the provider, you will need to use the project-level name.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#topic GoogleStorageNotification#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#topic GoogleStorageNotification#topic}
 
 ---
 
@@ -1251,7 +1214,7 @@ custom_attributes: typing.Mapping[str]
 
 A set of key/value attribute pairs to attach to each Cloud Pub/Sub message published for this notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#custom_attributes GoogleStorageNotification#custom_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#custom_attributes GoogleStorageNotification#custom_attributes}
 
 ---
 
@@ -1267,22 +1230,7 @@ List of event type filters for this notification config.
 
 If not specified, Cloud Storage will send notifications for all event types. The valid types are: "OBJECT_FINALIZE", "OBJECT_METADATA_UPDATE", "OBJECT_DELETE", "OBJECT_ARCHIVE"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#event_types GoogleStorageNotification#event_types}
-
----
-
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageNotification.GoogleStorageNotificationConfig.property.id"></a>
-
-```python
-id: str
-```
-
-- *Type:* str
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#id GoogleStorageNotification#id}.
-
-Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#event_types GoogleStorageNotification#event_types}
 
 ---
 
@@ -1298,7 +1246,7 @@ Specifies a prefix path filter for this notification config.
 
 Cloud Storage will only send notifications for objects in this bucket whose names begin with the specified prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_notification#object_name_prefix GoogleStorageNotification#object_name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_notification#object_name_prefix GoogleStorageNotification#object_name_prefix}
 
 ---
 

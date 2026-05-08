@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeSecurityPolicy <a name="DataGoogleComputeSecurityPolicy" id="@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy google_compute_security_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy google_compute_security_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.Initializer"></a>
 
@@ -415,7 +415,7 @@ The construct id used in the generated config for the DataGoogleComputeSecurityP
 
 The id of the existing DataGoogleComputeSecurityPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -446,9 +446,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.adaptiveProtectionConfig">AdaptiveProtectionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyAdaptiveProtectionConfigList">DataGoogleComputeSecurityPolicyAdaptiveProtectionConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.advancedOptionsConfig">AdvancedOptionsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyAdvancedOptionsConfigList">DataGoogleComputeSecurityPolicyAdvancedOptionsConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.description">Description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.effectiveLabels">EffectiveLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.fingerprint">Fingerprint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.labelFingerprint">LabelFingerprint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.labels">Labels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.recaptchaOptionsConfig">RecaptchaOptionsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyRecaptchaOptionsConfigList">DataGoogleComputeSecurityPolicyRecaptchaOptionsConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.rule">Rule</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyRuleList">DataGoogleComputeSecurityPolicyRuleList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.type">Type</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
@@ -613,6 +617,16 @@ public string Description { get; }
 
 ---
 
+##### `EffectiveLabels`<sup>Required</sup> <a name="EffectiveLabels" id="@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.effectiveLabels"></a>
+
+```csharp
+public StringMap EffectiveLabels { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
+
+---
+
 ##### `Fingerprint`<sup>Required</sup> <a name="Fingerprint" id="@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.fingerprint"></a>
 
 ```csharp
@@ -620,6 +634,26 @@ public string Fingerprint { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `LabelFingerprint`<sup>Required</sup> <a name="LabelFingerprint" id="@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.labelFingerprint"></a>
+
+```csharp
+public string LabelFingerprint { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Labels`<sup>Required</sup> <a name="Labels" id="@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.labels"></a>
+
+```csharp
+public StringMap Labels { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
 
 ---
 
@@ -640,6 +674,16 @@ public DataGoogleComputeSecurityPolicyRuleList Rule { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyRuleList">DataGoogleComputeSecurityPolicyRuleList</a>
+
+---
+
+##### `TerraformLabels`<sup>Required</sup> <a name="TerraformLabels" id="@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicy.property.terraformLabels"></a>
+
+```csharp
+public StringMap TerraformLabels { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
 
 ---
 
@@ -877,7 +921,7 @@ new DataGoogleComputeSecurityPolicyConfig {
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy#id DataGoogleComputeSecurityPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy#id DataGoogleComputeSecurityPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.name">Name</a></code> | <code>string</code> | The name of the security policy. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.project">Project</a></code> | <code>string</code> | The project in which the resource belongs. If it is not provided, the provider project is used. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeSecurityPolicy.DataGoogleComputeSecurityPolicyConfig.property.selfLink">SelfLink</a></code> | <code>string</code> | The URI of the created resource. |
@@ -962,7 +1006,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy#id DataGoogleComputeSecurityPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy#id DataGoogleComputeSecurityPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -979,7 +1023,7 @@ public string Name { get; set; }
 
 The name of the security policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy#name DataGoogleComputeSecurityPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy#name DataGoogleComputeSecurityPolicy#name}
 
 ---
 
@@ -993,7 +1037,7 @@ public string Project { get; set; }
 
 The project in which the resource belongs. If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy#project DataGoogleComputeSecurityPolicy#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy#project DataGoogleComputeSecurityPolicy#project}
 
 ---
 
@@ -1007,7 +1051,7 @@ public string SelfLink { get; set; }
 
 The URI of the created resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy#self_link DataGoogleComputeSecurityPolicy#self_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy#self_link DataGoogleComputeSecurityPolicy#self_link}
 
 ---
 

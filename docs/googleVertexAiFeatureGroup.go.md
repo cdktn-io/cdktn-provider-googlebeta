@@ -4,12 +4,12 @@
 
 ### GoogleVertexAiFeatureGroup <a name="GoogleVertexAiFeatureGroup" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group google_vertex_ai_feature_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group google_vertex_ai_feature_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.NewGoogleVertexAiFeatureGroup(scope Construct, id *string, config GoogleVertexAiFeatureGroupConfig) GoogleVertexAiFeatureGroup
 ```
@@ -482,7 +482,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.GoogleVertexAiFeatureGroup_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.GoogleVertexAiFeatureGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlevertexaifeaturegroup.GoogleVertexAiFeatureGroup_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.GoogleVertexAiFeatureGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ googlevertexaifeaturegroup.GoogleVertexAiFeatureGroup_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.GoogleVertexAiFeatureGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -571,7 +571,7 @@ The construct id used in the generated config for the GoogleVertexAiFeatureGroup
 
 The id of the existing GoogleVertexAiFeatureGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1002,10 +1002,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 &googlevertexaifeaturegroup.GoogleVertexAiFeatureGroupBigQuery {
-	BigQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQueryBigQuerySource,
+	BigQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQueryBigQuerySource,
 	EntityIdColumns: *[]*string,
 }
 ```
@@ -1029,7 +1029,7 @@ BigQuerySource GoogleVertexAiFeatureGroupBigQueryBigQuerySource
 
 big_query_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#big_query_source GoogleVertexAiFeatureGroup#big_query_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#big_query_source GoogleVertexAiFeatureGroup#big_query_source}
 
 ---
 
@@ -1043,7 +1043,7 @@ EntityIdColumns *[]*string
 
 Columns to construct entityId / row keys. If not provided defaults to entityId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#entity_id_columns GoogleVertexAiFeatureGroup#entity_id_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#entity_id_columns GoogleVertexAiFeatureGroup#entity_id_columns}
 
 ---
 
@@ -1052,7 +1052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQueryBigQuerySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 &googlevertexaifeaturegroup.GoogleVertexAiFeatureGroupBigQueryBigQuerySource {
 	InputUri: *string,
@@ -1077,7 +1077,7 @@ InputUri *string
 
 BigQuery URI to a table, up to 2000 characters long. For example: 'bq://projectId.bqDatasetId.bqTableId.'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#input_uri GoogleVertexAiFeatureGroup#input_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#input_uri GoogleVertexAiFeatureGroup#input_uri}
 
 ---
 
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 &googlevertexaifeaturegroup.GoogleVertexAiFeatureGroupConfig {
 	Connection: interface{},
@@ -1096,14 +1096,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	BigQuery: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQuery,
+	BigQuery: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQuery,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Name: *string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts,
 }
 ```
 
@@ -1120,10 +1120,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.bigQuery">BigQuery</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQuery">GoogleVertexAiFeatureGroupBigQuery</a></code> | big_query block. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.description">Description</a></code> | <code>*string</code> | The description of the FeatureGroup. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#id GoogleVertexAiFeatureGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#id GoogleVertexAiFeatureGroup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | The labels with user-defined metadata to organize your FeatureGroup. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.name">Name</a></code> | <code>*string</code> | The resource name of the Feature Group. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#project GoogleVertexAiFeatureGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#project GoogleVertexAiFeatureGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.region">Region</a></code> | <code>*string</code> | The region of feature group. eg us-central1. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts">GoogleVertexAiFeatureGroupTimeouts</a></code> | timeouts block. |
 
@@ -1209,7 +1209,7 @@ BigQuery GoogleVertexAiFeatureGroupBigQuery
 
 big_query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#big_query GoogleVertexAiFeatureGroup#big_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#big_query GoogleVertexAiFeatureGroup#big_query}
 
 ---
 
@@ -1223,7 +1223,7 @@ Description *string
 
 The description of the FeatureGroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#description GoogleVertexAiFeatureGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#description GoogleVertexAiFeatureGroup#description}
 
 ---
 
@@ -1235,7 +1235,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#id GoogleVertexAiFeatureGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#id GoogleVertexAiFeatureGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1255,7 +1255,7 @@ The labels with user-defined metadata to organize your FeatureGroup.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#labels GoogleVertexAiFeatureGroup#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#labels GoogleVertexAiFeatureGroup#labels}
 
 ---
 
@@ -1269,7 +1269,7 @@ Name *string
 
 The resource name of the Feature Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#name GoogleVertexAiFeatureGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#name GoogleVertexAiFeatureGroup#name}
 
 ---
 
@@ -1281,7 +1281,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#project GoogleVertexAiFeatureGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#project GoogleVertexAiFeatureGroup#project}.
 
 ---
 
@@ -1295,7 +1295,7 @@ Region *string
 
 The region of feature group. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#region GoogleVertexAiFeatureGroup#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#region GoogleVertexAiFeatureGroup#region}
 
 ---
 
@@ -1309,7 +1309,7 @@ Timeouts GoogleVertexAiFeatureGroupTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#timeouts GoogleVertexAiFeatureGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#timeouts GoogleVertexAiFeatureGroup#timeouts}
 
 ---
 
@@ -1318,7 +1318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 &googlevertexaifeaturegroup.GoogleVertexAiFeatureGroupTimeouts {
 	Create: *string,
@@ -1331,9 +1331,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#create GoogleVertexAiFeatureGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#delete GoogleVertexAiFeatureGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#update GoogleVertexAiFeatureGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#create GoogleVertexAiFeatureGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#delete GoogleVertexAiFeatureGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#update GoogleVertexAiFeatureGroup#update}. |
 
 ---
 
@@ -1345,7 +1345,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#create GoogleVertexAiFeatureGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#create GoogleVertexAiFeatureGroup#create}.
 
 ---
 
@@ -1357,7 +1357,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#delete GoogleVertexAiFeatureGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#delete GoogleVertexAiFeatureGroup#delete}.
 
 ---
 
@@ -1369,7 +1369,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group#update GoogleVertexAiFeatureGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group#update GoogleVertexAiFeatureGroup#update}.
 
 ---
 
@@ -1380,7 +1380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQueryBigQuerySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.NewGoogleVertexAiFeatureGroupBigQueryBigQuerySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeatureGroupBigQueryBigQuerySourceOutputReference
 ```
@@ -1651,7 +1651,7 @@ func InternalValue() GoogleVertexAiFeatureGroupBigQueryBigQuerySource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupBigQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.NewGoogleVertexAiFeatureGroupBigQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeatureGroupBigQueryOutputReference
 ```
@@ -1964,7 +1964,7 @@ func InternalValue() GoogleVertexAiFeatureGroupBigQuery
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroup"
 
 googlevertexaifeaturegroup.NewGoogleVertexAiFeatureGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeatureGroupTimeoutsOutputReference
 ```

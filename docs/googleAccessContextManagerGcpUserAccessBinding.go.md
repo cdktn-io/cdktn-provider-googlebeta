@@ -4,12 +4,12 @@
 
 ### GoogleAccessContextManagerGcpUserAccessBinding <a name="GoogleAccessContextManagerGcpUserAccessBinding" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBinding(scope Construct, id *string, config GoogleAccessContextManagerGcpUserAccessBindingConfig) GoogleAccessContextManagerGcpUserAccessBinding
 ```
@@ -474,7 +474,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBinding_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUser
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUser
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the GoogleAccessContextManager
 
 The id of the existing GoogleAccessContextManagerGcpUserAccessBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingConfig {
 	Connection: interface{},
@@ -943,8 +943,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleac
 	AccessLevels: *[]*string,
 	Id: *string,
 	ScopedAccessSettings: interface{},
-	SessionSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingSessionSettings,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts,
+	SessionSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingSessionSettings,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts,
 }
 ```
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleac
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.groupKey">GroupKey</a></code> | <code>*string</code> | Required. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.organizationId">OrganizationId</a></code> | <code>*string</code> | Required. ID of the parent organization. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.accessLevels">AccessLevels</a></code> | <code>*[]*string</code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#id GoogleAccessContextManagerGcpUserAccessBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#id GoogleAccessContextManagerGcpUserAccessBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.scopedAccessSettings">ScopedAccessSettings</a></code> | <code>interface{}</code> | scoped_access_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.sessionSettings">SessionSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingSessionSettings">GoogleAccessContextManagerGcpUserAccessBindingSessionSettings</a></code> | session_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts">GoogleAccessContextManagerGcpUserAccessBindingTimeouts</a></code> | timeouts block. |
@@ -1051,7 +1051,7 @@ Required.
 
 Immutable. Google Group id whose members are subject to this binding's restrictions. See "id" in the G Suite Directory API's Groups resource. If a group's email address/alias is changed, this resource will continue to point at the changed group. This field does not accept group email addresses or aliases. Example: "01d520gv4vjcrht"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#group_key GoogleAccessContextManagerGcpUserAccessBinding#group_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#group_key GoogleAccessContextManagerGcpUserAccessBinding#group_key}
 
 ---
 
@@ -1065,7 +1065,7 @@ OrganizationId *string
 
 Required. ID of the parent organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#organization_id GoogleAccessContextManagerGcpUserAccessBinding#organization_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#organization_id GoogleAccessContextManagerGcpUserAccessBinding#organization_id}
 
 ---
 
@@ -1081,7 +1081,7 @@ Optional.
 
 Access level that a user must have to be granted access. Only one access level is supported, not multiple. This repeated field must have exactly one element. Example: "accessPolicies/9522/accessLevels/device_trusted"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#access_levels GoogleAccessContextManagerGcpUserAccessBinding#access_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#access_levels GoogleAccessContextManagerGcpUserAccessBinding#access_levels}
 
 ---
 
@@ -1093,7 +1093,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#id GoogleAccessContextManagerGcpUserAccessBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#id GoogleAccessContextManagerGcpUserAccessBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1110,7 +1110,7 @@ ScopedAccessSettings interface{}
 
 scoped_access_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#scoped_access_settings GoogleAccessContextManagerGcpUserAccessBinding#scoped_access_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#scoped_access_settings GoogleAccessContextManagerGcpUserAccessBinding#scoped_access_settings}
 
 ---
 
@@ -1124,7 +1124,7 @@ SessionSettings GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 
 session_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_settings GoogleAccessContextManagerGcpUserAccessBinding#session_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_settings GoogleAccessContextManagerGcpUserAccessBinding#session_settings}
 
 ---
 
@@ -1138,7 +1138,7 @@ Timeouts GoogleAccessContextManagerGcpUserAccessBindingTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#timeouts GoogleAccessContextManagerGcpUserAccessBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#timeouts GoogleAccessContextManagerGcpUserAccessBinding#timeouts}
 
 ---
 
@@ -1147,12 +1147,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings {
-	ActiveSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettings,
-	DryRunSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettings,
-	Scope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope,
+	ActiveSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettings,
+	DryRunSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettings,
+	Scope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope,
 }
 ```
 
@@ -1176,7 +1176,7 @@ ActiveSettings GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetting
 
 active_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#active_settings GoogleAccessContextManagerGcpUserAccessBinding#active_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#active_settings GoogleAccessContextManagerGcpUserAccessBinding#active_settings}
 
 ---
 
@@ -1190,7 +1190,7 @@ DryRunSettings GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetting
 
 dry_run_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#dry_run_settings GoogleAccessContextManagerGcpUserAccessBinding#dry_run_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#dry_run_settings GoogleAccessContextManagerGcpUserAccessBinding#dry_run_settings}
 
 ---
 
@@ -1204,7 +1204,7 @@ Scope GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope
 
 scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#scope GoogleAccessContextManagerGcpUserAccessBinding#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#scope GoogleAccessContextManagerGcpUserAccessBinding#scope}
 
 ---
 
@@ -1213,11 +1213,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettings {
 	AccessLevels: *[]*string,
-	SessionSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettings,
+	SessionSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettings,
 }
 ```
 
@@ -1242,7 +1242,7 @@ Optional.
 
 Access level that a user must have to be granted access. Only one access level is supported, not multiple. This repeated field must have exactly one element. Example: "accessPolicies/9522/accessLevels/device_trusted"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#access_levels GoogleAccessContextManagerGcpUserAccessBinding#access_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#access_levels GoogleAccessContextManagerGcpUserAccessBinding#access_levels}
 
 ---
 
@@ -1256,7 +1256,7 @@ SessionSettings GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
 
 session_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_settings GoogleAccessContextManagerGcpUserAccessBinding#session_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_settings GoogleAccessContextManagerGcpUserAccessBinding#session_settings}
 
 ---
 
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettings {
 	MaxInactivity: *string,
@@ -1300,7 +1300,7 @@ Optional.
 
 How long a user is allowed to take between actions before a new access token must be issued. Only set for Google Cloud apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#max_inactivity GoogleAccessContextManagerGcpUserAccessBinding#max_inactivity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#max_inactivity GoogleAccessContextManagerGcpUserAccessBinding#max_inactivity}
 
 ---
 
@@ -1316,7 +1316,7 @@ Optional.
 
 The session length. Setting this field to zero is equal to disabling session. Also can set infinite session by flipping the enabled bit to false below. If useOidcMaxAge is true, for OIDC apps, the session length will be the minimum of this field and OIDC max_age param.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length GoogleAccessContextManagerGcpUserAccessBinding#session_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length GoogleAccessContextManagerGcpUserAccessBinding#session_length}
 
 ---
 
@@ -1332,7 +1332,7 @@ Optional.
 
 This field enables or disables Google Cloud session length. When false, all fields set above will be disregarded and the session length is basically infinite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length_enabled GoogleAccessContextManagerGcpUserAccessBinding#session_length_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length_enabled GoogleAccessContextManagerGcpUserAccessBinding#session_length_enabled}
 
 ---
 
@@ -1348,7 +1348,7 @@ Optional.
 
 The session challenges proposed to users when the Google Cloud session length is up. Possible values: ["LOGIN", "SECURITY_KEY", "PASSWORD"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_reauth_method GoogleAccessContextManagerGcpUserAccessBinding#session_reauth_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_reauth_method GoogleAccessContextManagerGcpUserAccessBinding#session_reauth_method}
 
 ---
 
@@ -1364,7 +1364,7 @@ Optional.
 
 Only useful for OIDC apps. When false, the OIDC max_age param, if passed in the authentication request will be ignored. When true, the re-auth period will be the minimum of the sessionLength field and the max_age OIDC param.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#use_oidc_max_age GoogleAccessContextManagerGcpUserAccessBinding#use_oidc_max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#use_oidc_max_age GoogleAccessContextManagerGcpUserAccessBinding#use_oidc_max_age}
 
 ---
 
@@ -1373,7 +1373,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettings {
 	AccessLevels: *[]*string,
@@ -1400,7 +1400,7 @@ Optional.
 
 Access level that a user must have to be granted access. Only one access level is supported, not multiple. This repeated field must have exactly one element. Example: "accessPolicies/9522/accessLevels/device_trusted"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#access_levels GoogleAccessContextManagerGcpUserAccessBinding#access_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#access_levels GoogleAccessContextManagerGcpUserAccessBinding#access_levels}
 
 ---
 
@@ -1409,10 +1409,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope {
-	ClientScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope,
+	ClientScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope,
 }
 ```
 
@@ -1434,7 +1434,7 @@ ClientScope GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsSc
 
 client_scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#client_scope GoogleAccessContextManagerGcpUserAccessBinding#client_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#client_scope GoogleAccessContextManagerGcpUserAccessBinding#client_scope}
 
 ---
 
@@ -1443,10 +1443,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope {
-	RestrictedClientApplication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication,
+	RestrictedClientApplication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication,
 }
 ```
 
@@ -1468,7 +1468,7 @@ RestrictedClientApplication GoogleAccessContextManagerGcpUserAccessBindingScoped
 
 restricted_client_application block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#restricted_client_application GoogleAccessContextManagerGcpUserAccessBinding#restricted_client_application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#restricted_client_application GoogleAccessContextManagerGcpUserAccessBinding#restricted_client_application}
 
 ---
 
@@ -1477,7 +1477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication {
 	ClientId: *string,
@@ -1504,7 +1504,7 @@ ClientId *string
 
 The OAuth client ID of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#client_id GoogleAccessContextManagerGcpUserAccessBinding#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#client_id GoogleAccessContextManagerGcpUserAccessBinding#client_id}
 
 ---
 
@@ -1518,7 +1518,7 @@ Name *string
 
 The name of the application. Example: "Cloud Console".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#name GoogleAccessContextManagerGcpUserAccessBinding#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#name GoogleAccessContextManagerGcpUserAccessBinding#name}
 
 ---
 
@@ -1527,7 +1527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingSessionSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingSessionSettings {
 	MaxInactivity: *string,
@@ -1562,7 +1562,7 @@ Optional.
 
 How long a user is allowed to take between actions before a new access token must be issued. Only set for Google Cloud apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#max_inactivity GoogleAccessContextManagerGcpUserAccessBinding#max_inactivity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#max_inactivity GoogleAccessContextManagerGcpUserAccessBinding#max_inactivity}
 
 ---
 
@@ -1578,7 +1578,7 @@ Optional.
 
 The session length. Setting this field to zero is equal to disabling session. Also can set infinite session by flipping the enabled bit to false below. If useOidcMaxAge is true, for OIDC apps, the session length will be the minimum of this field and OIDC max_age param.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length GoogleAccessContextManagerGcpUserAccessBinding#session_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length GoogleAccessContextManagerGcpUserAccessBinding#session_length}
 
 ---
 
@@ -1594,7 +1594,7 @@ Optional.
 
 This field enables or disables Google Cloud session length. When false, all fields set above will be disregarded and the session length is basically infinite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length_enabled GoogleAccessContextManagerGcpUserAccessBinding#session_length_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length_enabled GoogleAccessContextManagerGcpUserAccessBinding#session_length_enabled}
 
 ---
 
@@ -1610,7 +1610,7 @@ Optional.
 
 The session challenges proposed to users when the Google Cloud session length is up. Possible values: ["LOGIN", "SECURITY_KEY", "PASSWORD"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_reauth_method GoogleAccessContextManagerGcpUserAccessBinding#session_reauth_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_reauth_method GoogleAccessContextManagerGcpUserAccessBinding#session_reauth_method}
 
 ---
 
@@ -1626,7 +1626,7 @@ Optional.
 
 Only useful for OIDC apps. When false, the OIDC max_age param, if passed in the authentication request will be ignored. When true, the re-auth period will be the minimum of the sessionLength field and the max_age OIDC param.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#use_oidc_max_age GoogleAccessContextManagerGcpUserAccessBinding#use_oidc_max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#use_oidc_max_age GoogleAccessContextManagerGcpUserAccessBinding#use_oidc_max_age}
 
 ---
 
@@ -1635,7 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 &googleaccesscontextmanagergcpuseraccessbinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts {
 	Create: *string,
@@ -1648,9 +1648,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#create GoogleAccessContextManagerGcpUserAccessBinding#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#delete GoogleAccessContextManagerGcpUserAccessBinding#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#update GoogleAccessContextManagerGcpUserAccessBinding#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#create GoogleAccessContextManagerGcpUserAccessBinding#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#delete GoogleAccessContextManagerGcpUserAccessBinding#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#update GoogleAccessContextManagerGcpUserAccessBinding#update}. |
 
 ---
 
@@ -1662,7 +1662,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#create GoogleAccessContextManagerGcpUserAccessBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#create GoogleAccessContextManagerGcpUserAccessBinding#create}.
 
 ---
 
@@ -1674,7 +1674,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#delete GoogleAccessContextManagerGcpUserAccessBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#delete GoogleAccessContextManagerGcpUserAccessBinding#delete}.
 
 ---
 
@@ -1686,7 +1686,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#update GoogleAccessContextManagerGcpUserAccessBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_gcp_user_access_binding#update GoogleAccessContextManagerGcpUserAccessBinding#update}.
 
 ---
 
@@ -1697,7 +1697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsOutputReference
 ```
@@ -2017,7 +2017,7 @@ func InternalValue() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsOutputReference
 ```
@@ -2411,7 +2411,7 @@ func InternalValue() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsOutputReference
 ```
@@ -2689,7 +2689,7 @@ func InternalValue() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsList
 ```
@@ -2849,7 +2849,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference
 ```
@@ -3242,7 +3242,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference
 ```
@@ -3533,7 +3533,7 @@ func InternalValue() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference
 ```
@@ -3840,7 +3840,7 @@ func InternalValue() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeOutputReference
 ```
@@ -4131,7 +4131,7 @@ func InternalValue() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference
 ```
@@ -4525,7 +4525,7 @@ func InternalValue() GoogleAccessContextManagerGcpUserAccessBindingSessionSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerGcpUserAccessBinding.GoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagergcpuseraccessbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagergcpuseraccessbinding"
 
 googleaccesscontextmanagergcpuseraccessbinding.NewGoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReference
 ```

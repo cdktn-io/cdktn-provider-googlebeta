@@ -4,7 +4,7 @@
 
 ### GoogleGeminiCodeToolsSettingBinding <a name="GoogleGeminiCodeToolsSettingBinding" id="@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding google_gemini_code_tools_setting_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding google_gemini_code_tools_setting_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer"></a>
 
@@ -47,11 +47,11 @@ googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding(
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.codeToolsSettingId">code_tools_setting_id</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.settingBindingId">setting_binding_id</a></code> | <code>str</code> | Id of the setting binding. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.target">target</a></code> | <code>str</code> | Target of the binding. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.product">product</a></code> | <code>str</code> | Product type of the setting binding. Possible values: ["GEMINI_CODE_ASSIST"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBinding.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts">GoogleGeminiCodeToolsSettingBindingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#code_tools_setting_id GoogleGeminiCodeToolsSettingBinding#code_tools_setting_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#code_tools_setting_id GoogleGeminiCodeToolsSettingBinding#code_tools_setting_id}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Id of the setting binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#setting_binding_id GoogleGeminiCodeToolsSettingBinding#setting_binding_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#setting_binding_id GoogleGeminiCodeToolsSettingBinding#setting_binding_id}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Target of the binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#target GoogleGeminiCodeToolsSettingBinding#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#target GoogleGeminiCodeToolsSettingBinding#target}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#labels GoogleGeminiCodeToolsSettingBinding#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#labels GoogleGeminiCodeToolsSettingBinding#labels}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#location GoogleGeminiCodeToolsSettingBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#location GoogleGeminiCodeToolsSettingBinding#location}
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Product type of the setting binding. Possible values: ["GEMINI_CODE_ASSIST"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#product GoogleGeminiCodeToolsSettingBinding#product}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#product GoogleGeminiCodeToolsSettingBinding#product}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}.
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#timeouts GoogleGeminiCodeToolsSettingBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#timeouts GoogleGeminiCodeToolsSettingBinding#timeouts}
 
 ---
 
@@ -608,7 +608,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#create GoogleGeminiCodeToolsSettingBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#create GoogleGeminiCodeToolsSettingBinding#create}.
 
 ---
 
@@ -616,7 +616,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#delete GoogleGeminiCodeToolsSettingBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#delete GoogleGeminiCodeToolsSettingBinding#delete}.
 
 ---
 
@@ -624,7 +624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#update GoogleGeminiCodeToolsSettingBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#update GoogleGeminiCodeToolsSettingBinding#update}.
 
 ---
 
@@ -778,7 +778,7 @@ The construct id used in the generated config for the GoogleGeminiCodeToolsSetti
 
 The id of the existing GoogleGeminiCodeToolsSettingBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1267,11 +1267,11 @@ googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.codeToolsSettingId">code_tools_setting_id</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.settingBindingId">setting_binding_id</a></code> | <code>str</code> | Id of the setting binding. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.target">target</a></code> | <code>str</code> | Target of the binding. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.product">product</a></code> | <code>str</code> | Product type of the setting binding. Possible values: ["GEMINI_CODE_ASSIST"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts">GoogleGeminiCodeToolsSettingBindingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1356,7 +1356,7 @@ code_tools_setting_id: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#code_tools_setting_id GoogleGeminiCodeToolsSettingBinding#code_tools_setting_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#code_tools_setting_id GoogleGeminiCodeToolsSettingBinding#code_tools_setting_id}
 
 ---
 
@@ -1370,7 +1370,7 @@ setting_binding_id: str
 
 Id of the setting binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#setting_binding_id GoogleGeminiCodeToolsSettingBinding#setting_binding_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#setting_binding_id GoogleGeminiCodeToolsSettingBinding#setting_binding_id}
 
 ---
 
@@ -1384,7 +1384,7 @@ target: str
 
 Target of the binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#target GoogleGeminiCodeToolsSettingBinding#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#target GoogleGeminiCodeToolsSettingBinding#target}
 
 ---
 
@@ -1396,7 +1396,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#id GoogleGeminiCodeToolsSettingBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1416,7 +1416,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#labels GoogleGeminiCodeToolsSettingBinding#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#labels GoogleGeminiCodeToolsSettingBinding#labels}
 
 ---
 
@@ -1430,7 +1430,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#location GoogleGeminiCodeToolsSettingBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#location GoogleGeminiCodeToolsSettingBinding#location}
 
 ---
 
@@ -1444,7 +1444,7 @@ product: str
 
 Product type of the setting binding. Possible values: ["GEMINI_CODE_ASSIST"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#product GoogleGeminiCodeToolsSettingBinding#product}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#product GoogleGeminiCodeToolsSettingBinding#product}
 
 ---
 
@@ -1456,7 +1456,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#project GoogleGeminiCodeToolsSettingBinding#project}.
 
 ---
 
@@ -1470,7 +1470,7 @@ timeouts: GoogleGeminiCodeToolsSettingBindingTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#timeouts GoogleGeminiCodeToolsSettingBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#timeouts GoogleGeminiCodeToolsSettingBinding#timeouts}
 
 ---
 
@@ -1492,9 +1492,9 @@ googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#create GoogleGeminiCodeToolsSettingBinding#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#delete GoogleGeminiCodeToolsSettingBinding#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#update GoogleGeminiCodeToolsSettingBinding#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#create GoogleGeminiCodeToolsSettingBinding#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#delete GoogleGeminiCodeToolsSettingBinding#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiCodeToolsSettingBinding.GoogleGeminiCodeToolsSettingBindingTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#update GoogleGeminiCodeToolsSettingBinding#update}. |
 
 ---
 
@@ -1506,7 +1506,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#create GoogleGeminiCodeToolsSettingBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#create GoogleGeminiCodeToolsSettingBinding#create}.
 
 ---
 
@@ -1518,7 +1518,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#delete GoogleGeminiCodeToolsSettingBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#delete GoogleGeminiCodeToolsSettingBinding#delete}.
 
 ---
 
@@ -1530,7 +1530,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting_binding#update GoogleGeminiCodeToolsSettingBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_code_tools_setting_binding#update GoogleGeminiCodeToolsSettingBinding#update}.
 
 ---
 

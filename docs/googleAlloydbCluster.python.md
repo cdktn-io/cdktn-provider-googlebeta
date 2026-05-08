@@ -4,7 +4,7 @@
 
 ### GoogleAlloydbCluster <a name="GoogleAlloydbCluster" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster google_alloydb_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster google_alloydb_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer"></a>
 
@@ -28,7 +28,9 @@ googleAlloydbCluster.GoogleAlloydbCluster(
   cluster_type: str = None,
   continuous_backup_config: GoogleAlloydbClusterContinuousBackupConfig = None,
   database_version: str = None,
+  dataplex_config: GoogleAlloydbClusterDataplexConfig = None,
   deletion_policy: str = None,
+  deletion_protection: bool | IResolvable = None,
   display_name: str = None,
   encryption_config: GoogleAlloydbClusterEncryptionConfig = None,
   etag: str = None,
@@ -39,6 +41,8 @@ googleAlloydbCluster.GoogleAlloydbCluster(
   network_config: GoogleAlloydbClusterNetworkConfig = None,
   project: str = None,
   psc_config: GoogleAlloydbClusterPscConfig = None,
+  restore_backupdr_backup_source: GoogleAlloydbClusterRestoreBackupdrBackupSource = None,
+  restore_backupdr_pitr_source: GoogleAlloydbClusterRestoreBackupdrPitrSource = None,
   restore_backup_source: GoogleAlloydbClusterRestoreBackupSource = None,
   restore_continuous_backup_source: GoogleAlloydbClusterRestoreContinuousBackupSource = None,
   secondary_config: GoogleAlloydbClusterSecondaryConfig = None,
@@ -66,17 +70,21 @@ googleAlloydbCluster.GoogleAlloydbCluster(
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.clusterType">cluster_type</a></code> | <code>str</code> | The type of cluster. If not set, defaults to PRIMARY. Default value: "PRIMARY" Possible values: ["PRIMARY", "SECONDARY"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.continuousBackupConfig">continuous_backup_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterContinuousBackupConfig">GoogleAlloydbClusterContinuousBackupConfig</a></code> | continuous_backup_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.databaseVersion">database_version</a></code> | <code>str</code> | The database engine major version. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.dataplexConfig">dataplex_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a></code> | dataplex_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Policy to determine if the cluster should be deleted forcefully. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | User-settable and human-readable display name for the Cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.encryptionConfig">encryption_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterEncryptionConfig">GoogleAlloydbClusterEncryptionConfig</a></code> | encryption_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.etag">etag</a></code> | <code>str</code> | For Resource freshness validation (https://google.aip.dev/154). |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.initialUser">initial_user</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser">GoogleAlloydbClusterInitialUser</a></code> | initial_user block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-defined labels for the alloydb cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.maintenanceUpdatePolicy">maintenance_update_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterMaintenanceUpdatePolicy">GoogleAlloydbClusterMaintenanceUpdatePolicy</a></code> | maintenance_update_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.networkConfig">network_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterNetworkConfig">GoogleAlloydbClusterNetworkConfig</a></code> | network_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.pscConfig">psc_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterPscConfig">GoogleAlloydbClusterPscConfig</a></code> | psc_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.restoreBackupdrBackupSource">restore_backupdr_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a></code> | restore_backupdr_backup_source block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.restoreBackupdrPitrSource">restore_backupdr_pitr_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a></code> | restore_backupdr_pitr_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.restoreBackupSource">restore_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupSource">GoogleAlloydbClusterRestoreBackupSource</a></code> | restore_backup_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.restoreContinuousBackupSource">restore_continuous_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreContinuousBackupSource">GoogleAlloydbClusterRestoreContinuousBackupSource</a></code> | restore_continuous_backup_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.secondaryConfig">secondary_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterSecondaryConfig">GoogleAlloydbClusterSecondaryConfig</a></code> | secondary_config block. |
@@ -152,7 +160,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the alloydb cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#cluster_id GoogleAlloydbCluster#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#cluster_id GoogleAlloydbCluster#cluster_id}
 
 ---
 
@@ -162,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location where the alloydb cluster should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
 
 ---
 
@@ -178,7 +186,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#annotations GoogleAlloydbCluster#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#annotations GoogleAlloydbCluster#annotations}
 
 ---
 
@@ -188,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 automated_backup_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#automated_backup_policy GoogleAlloydbCluster#automated_backup_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#automated_backup_policy GoogleAlloydbCluster#automated_backup_policy}
 
 ---
 
@@ -198,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of cluster. If not set, defaults to PRIMARY. Default value: "PRIMARY" Possible values: ["PRIMARY", "SECONDARY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#cluster_type GoogleAlloydbCluster#cluster_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#cluster_type GoogleAlloydbCluster#cluster_type}
 
 ---
 
@@ -208,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 continuous_backup_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#continuous_backup_config GoogleAlloydbCluster#continuous_backup_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#continuous_backup_config GoogleAlloydbCluster#continuous_backup_config}
 
 ---
 
@@ -221,7 +229,17 @@ The database engine major version.
 This is an optional field and it's populated at the Cluster creation time.
 Note: Changing this field to a higer version results in upgrading the AlloyDB cluster which is an irreversible change.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#database_version GoogleAlloydbCluster#database_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#database_version GoogleAlloydbCluster#database_version}
+
+---
+
+##### `dataplex_config`<sup>Optional</sup> <a name="dataplex_config" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.dataplexConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a>
+
+dataplex_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#dataplex_config GoogleAlloydbCluster#dataplex_config}
 
 ---
 
@@ -235,7 +253,21 @@ Deleting a cluster forcefully, deletes the cluster and all its associated instan
 Deleting a Secondary cluster with a secondary instance REQUIRES setting deletion_policy = "FORCE" otherwise an error is returned. This is needed as there is no support to delete just the secondary instance, and the only way to delete secondary instance is to delete the associated secondary cluster forcefully which also deletes the secondary instance.
 Possible values: DEFAULT, FORCE
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#deletion_policy GoogleAlloydbCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#deletion_policy GoogleAlloydbCluster#deletion_policy}
+
+---
+
+##### `deletion_protection`<sup>Optional</sup> <a name="deletion_protection" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.deletionProtection"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether Terraform will be prevented from destroying the cluster.
+
+When the field is set to true or unset in Terraform state, a 'terraform apply'
+or 'terraform destroy' that would delete the cluster will fail.
+When the field is set to false, deleting the cluster is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#deletion_protection GoogleAlloydbCluster#deletion_protection}
 
 ---
 
@@ -245,7 +277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-settable and human-readable display name for the Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#display_name GoogleAlloydbCluster#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#display_name GoogleAlloydbCluster#display_name}
 
 ---
 
@@ -255,7 +287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
 
 ---
 
@@ -265,7 +297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For Resource freshness validation (https://google.aip.dev/154).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#etag GoogleAlloydbCluster#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#etag GoogleAlloydbCluster#etag}
 
 ---
 
@@ -273,7 +305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -286,7 +318,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 initial_user block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#initial_user GoogleAlloydbCluster#initial_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#initial_user GoogleAlloydbCluster#initial_user}
 
 ---
 
@@ -299,7 +331,7 @@ User-defined labels for the alloydb cluster.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
 
 ---
 
@@ -309,7 +341,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 maintenance_update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#maintenance_update_policy GoogleAlloydbCluster#maintenance_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#maintenance_update_policy GoogleAlloydbCluster#maintenance_update_policy}
 
 ---
 
@@ -319,7 +351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#network_config GoogleAlloydbCluster#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#network_config GoogleAlloydbCluster#network_config}
 
 ---
 
@@ -327,7 +359,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}.
 
 ---
 
@@ -337,7 +369,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#psc_config GoogleAlloydbCluster#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#psc_config GoogleAlloydbCluster#psc_config}
+
+---
+
+##### `restore_backupdr_backup_source`<sup>Optional</sup> <a name="restore_backupdr_backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.restoreBackupdrBackupSource"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a>
+
+restore_backupdr_backup_source block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_backupdr_backup_source GoogleAlloydbCluster#restore_backupdr_backup_source}
+
+---
+
+##### `restore_backupdr_pitr_source`<sup>Optional</sup> <a name="restore_backupdr_pitr_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.Initializer.parameter.restoreBackupdrPitrSource"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a>
+
+restore_backupdr_pitr_source block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_backupdr_pitr_source GoogleAlloydbCluster#restore_backupdr_pitr_source}
 
 ---
 
@@ -347,7 +399,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 restore_backup_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#restore_backup_source GoogleAlloydbCluster#restore_backup_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_backup_source GoogleAlloydbCluster#restore_backup_source}
 
 ---
 
@@ -357,7 +409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 restore_continuous_backup_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#restore_continuous_backup_source GoogleAlloydbCluster#restore_continuous_backup_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_continuous_backup_source GoogleAlloydbCluster#restore_continuous_backup_source}
 
 ---
 
@@ -367,7 +419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 secondary_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#secondary_config GoogleAlloydbCluster#secondary_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#secondary_config GoogleAlloydbCluster#secondary_config}
 
 ---
 
@@ -377,7 +429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Set to true to skip awaiting on the major version upgrade of the cluster. Possible values: true, false Default value: "true".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#skip_await_major_version_upgrade GoogleAlloydbCluster#skip_await_major_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#skip_await_major_version_upgrade GoogleAlloydbCluster#skip_await_major_version_upgrade}
 
 ---
 
@@ -387,7 +439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The subscrition type of cluster. Possible values: ["TRIAL", "STANDARD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#subscription_type GoogleAlloydbCluster#subscription_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#subscription_type GoogleAlloydbCluster#subscription_type}
 
 ---
 
@@ -397,7 +449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#timeouts GoogleAlloydbCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#timeouts GoogleAlloydbCluster#timeouts}
 
 ---
 
@@ -431,11 +483,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putAutomatedBackupPolicy">put_automated_backup_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putContinuousBackupConfig">put_continuous_backup_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putDataplexConfig">put_dataplex_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putEncryptionConfig">put_encryption_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putInitialUser">put_initial_user</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putMaintenanceUpdatePolicy">put_maintenance_update_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putNetworkConfig">put_network_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putPscConfig">put_psc_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupdrBackupSource">put_restore_backupdr_backup_source</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupdrPitrSource">put_restore_backupdr_pitr_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupSource">put_restore_backup_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreContinuousBackupSource">put_restore_continuous_backup_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putSecondaryConfig">put_secondary_config</a></code> | *No description.* |
@@ -445,7 +500,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetClusterType">reset_cluster_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetContinuousBackupConfig">reset_continuous_backup_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDatabaseVersion">reset_database_version</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDataplexConfig">reset_dataplex_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDeletionProtection">reset_deletion_protection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDisplayName">reset_display_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetEncryptionConfig">reset_encryption_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetEtag">reset_etag</a></code> | *No description.* |
@@ -456,6 +513,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetNetworkConfig">reset_network_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetPscConfig">reset_psc_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetRestoreBackupdrBackupSource">reset_restore_backupdr_backup_source</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetRestoreBackupdrPitrSource">reset_restore_backupdr_pitr_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetRestoreBackupSource">reset_restore_backup_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetRestoreContinuousBackupSource">reset_restore_continuous_backup_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetSecondaryConfig">reset_secondary_config</a></code> | *No description.* |
@@ -840,7 +899,7 @@ The backup window must be at least 5 minutes long. There is no upper bound on th
 
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#backup_window GoogleAlloydbCluster#backup_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#backup_window GoogleAlloydbCluster#backup_window}
 
 ---
 
@@ -850,7 +909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether automated backups are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
 
 ---
 
@@ -860,7 +919,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
 
 ---
 
@@ -870,7 +929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Labels to apply to backups created using this configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
 
 ---
 
@@ -882,7 +941,7 @@ The location where the backup will be stored.
 
 Currently, the only supported option is to store the backup in the same region as the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
 
 ---
 
@@ -892,7 +951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 quantity_based_retention block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#quantity_based_retention GoogleAlloydbCluster#quantity_based_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#quantity_based_retention GoogleAlloydbCluster#quantity_based_retention}
 
 ---
 
@@ -902,7 +961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 time_based_retention block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#time_based_retention GoogleAlloydbCluster#time_based_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#time_based_retention GoogleAlloydbCluster#time_based_retention}
 
 ---
 
@@ -912,7 +971,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 weekly_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#weekly_schedule GoogleAlloydbCluster#weekly_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#weekly_schedule GoogleAlloydbCluster#weekly_schedule}
 
 ---
 
@@ -932,7 +991,7 @@ def put_continuous_backup_config(
 
 Whether continuous backup recovery is enabled. If not set, defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
 
 ---
 
@@ -942,7 +1001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
 
 ---
 
@@ -956,7 +1015,25 @@ To support the entire recovery window, backups and logs are retained for one day
 
 If not set, defaults to 14 days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#recovery_window_days GoogleAlloydbCluster#recovery_window_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#recovery_window_days GoogleAlloydbCluster#recovery_window_days}
+
+---
+
+##### `put_dataplex_config` <a name="put_dataplex_config" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putDataplexConfig"></a>
+
+```python
+def put_dataplex_config(
+  enabled: bool | IResolvable
+) -> None
+```
+
+###### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putDataplexConfig.parameter.enabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicates whether Dataplex integration is enabled for the cluster.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
 
 ---
 
@@ -976,7 +1053,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
 
 ---
 
@@ -984,18 +1061,42 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def put_initial_user(
-  password: str,
+  password: str = None,
+  password_wo: str = None,
+  password_wo_version: str = None,
   user: str = None
 ) -> None
 ```
 
-###### `password`<sup>Required</sup> <a name="password" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putInitialUser.parameter.password"></a>
+###### `password`<sup>Optional</sup> <a name="password" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putInitialUser.parameter.password"></a>
 
 - *Type:* str
 
 The initial password for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#password GoogleAlloydbCluster#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#password GoogleAlloydbCluster#password}
+
+---
+
+###### `password_wo`<sup>Optional</sup> <a name="password_wo" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putInitialUser.parameter.passwordWo"></a>
+
+- *Type:* str
+
+The initial password for the user.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#password_wo GoogleAlloydbCluster#password_wo}
+
+---
+
+###### `password_wo_version`<sup>Optional</sup> <a name="password_wo_version" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putInitialUser.parameter.passwordWoVersion"></a>
+
+- *Type:* str
+
+Triggers update of 'password_wo' write-only.
+
+Increment this value when an update to 'password_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#password_wo_version GoogleAlloydbCluster#password_wo_version}
 
 ---
 
@@ -1005,7 +1106,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The database username.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#user GoogleAlloydbCluster#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#user GoogleAlloydbCluster#user}
 
 ---
 
@@ -1023,7 +1124,7 @@ def put_maintenance_update_policy(
 
 maintenance_windows block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#maintenance_windows GoogleAlloydbCluster#maintenance_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#maintenance_windows GoogleAlloydbCluster#maintenance_windows}
 
 ---
 
@@ -1045,7 +1146,7 @@ The name of the allocated IP range for the private IP AlloyDB cluster.
 For example: "google-managed-services-default".
 If set, the instance IPs for this cluster will be created in the allocated range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#allocated_ip_range GoogleAlloydbCluster#allocated_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#allocated_ip_range GoogleAlloydbCluster#allocated_ip_range}
 
 ---
 
@@ -1058,7 +1159,7 @@ The resource link for the VPC network in which cluster resources are created and
 The network must belong to the same project as the cluster.
 It is specified in the form: "projects/{projectNumber}/global/networks/{network_id}".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#network GoogleAlloydbCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#network GoogleAlloydbCluster#network}
 
 ---
 
@@ -1076,7 +1177,56 @@ def put_psc_config(
 
 Create an instance that allows connections from Private Service Connect endpoints to the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#psc_enabled GoogleAlloydbCluster#psc_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#psc_enabled GoogleAlloydbCluster#psc_enabled}
+
+---
+
+##### `put_restore_backupdr_backup_source` <a name="put_restore_backupdr_backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupdrBackupSource"></a>
+
+```python
+def put_restore_backupdr_backup_source(
+  backup: str
+) -> None
+```
+
+###### `backup`<sup>Required</sup> <a name="backup" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupdrBackupSource.parameter.backup"></a>
+
+- *Type:* str
+
+The name of the BackupDR backup that this cluster is restored from. It must be of the format "projects/[PROJECT]/locations/[LOCATION]/backupVaults/[VAULT_ID]/dataSources/[DATASOURCE_ID]/backups/[BACKUP_ID]".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#backup GoogleAlloydbCluster#backup}
+
+---
+
+##### `put_restore_backupdr_pitr_source` <a name="put_restore_backupdr_pitr_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupdrPitrSource"></a>
+
+```python
+def put_restore_backupdr_pitr_source(
+  data_source: str,
+  point_in_time: str
+) -> None
+```
+
+###### `data_source`<sup>Required</sup> <a name="data_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupdrPitrSource.parameter.dataSource"></a>
+
+- *Type:* str
+
+The name of the BackupDR data source that this cluster is restore from.
+
+It must be of the format "projects/[PROJECT]/locations/[LOCATION]/backupVaults/[VAULT_ID]/dataSources/[DATASOURCE_ID]"
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#data_source GoogleAlloydbCluster#data_source}
+
+---
+
+###### `point_in_time`<sup>Required</sup> <a name="point_in_time" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.putRestoreBackupdrPitrSource.parameter.pointInTime"></a>
+
+- *Type:* str
+
+The point in time that this cluster is restored to, in RFC 3339 format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
 
 ---
 
@@ -1094,7 +1244,7 @@ def put_restore_backup_source(
 
 The name of the backup that this cluster is restored from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#backup_name GoogleAlloydbCluster#backup_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#backup_name GoogleAlloydbCluster#backup_name}
 
 ---
 
@@ -1113,7 +1263,7 @@ def put_restore_continuous_backup_source(
 
 The name of the source cluster that this cluster is restored from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#cluster GoogleAlloydbCluster#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#cluster GoogleAlloydbCluster#cluster}
 
 ---
 
@@ -1123,7 +1273,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The point in time that this cluster is restored to, in RFC 3339 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
 
 ---
 
@@ -1141,7 +1291,7 @@ def put_secondary_config(
 
 Name of the primary cluster must be in the format 'projects/{project}/locations/{location}/clusters/{cluster_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#primary_cluster_name GoogleAlloydbCluster#primary_cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#primary_cluster_name GoogleAlloydbCluster#primary_cluster_name}
 
 ---
 
@@ -1159,7 +1309,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}.
 
 ---
 
@@ -1167,7 +1317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}.
 
 ---
 
@@ -1175,7 +1325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}.
 
 ---
 
@@ -1209,10 +1359,22 @@ def reset_continuous_backup_config() -> None
 def reset_database_version() -> None
 ```
 
+##### `reset_dataplex_config` <a name="reset_dataplex_config" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDataplexConfig"></a>
+
+```python
+def reset_dataplex_config() -> None
+```
+
 ##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDeletionPolicy"></a>
 
 ```python
 def reset_deletion_policy() -> None
+```
+
+##### `reset_deletion_protection` <a name="reset_deletion_protection" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDeletionProtection"></a>
+
+```python
+def reset_deletion_protection() -> None
 ```
 
 ##### `reset_display_name` <a name="reset_display_name" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetDisplayName"></a>
@@ -1273,6 +1435,18 @@ def reset_project() -> None
 
 ```python
 def reset_psc_config() -> None
+```
+
+##### `reset_restore_backupdr_backup_source` <a name="reset_restore_backupdr_backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetRestoreBackupdrBackupSource"></a>
+
+```python
+def reset_restore_backupdr_backup_source() -> None
+```
+
+##### `reset_restore_backupdr_pitr_source` <a name="reset_restore_backupdr_pitr_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetRestoreBackupdrPitrSource"></a>
+
+```python
+def reset_restore_backupdr_pitr_source() -> None
 ```
 
 ##### `reset_restore_backup_source` <a name="reset_restore_backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.resetRestoreBackupSource"></a>
@@ -1425,7 +1599,7 @@ The construct id used in the generated config for the GoogleAlloydbCluster to im
 
 The id of the existing GoogleAlloydbCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1456,9 +1630,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.automatedBackupPolicy">automated_backup_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterAutomatedBackupPolicyOutputReference">GoogleAlloydbClusterAutomatedBackupPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.backupdrBackupSource">backupdr_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList">GoogleAlloydbClusterBackupdrBackupSourceList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.backupSource">backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupSourceList">GoogleAlloydbClusterBackupSourceList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.continuousBackupConfig">continuous_backup_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterContinuousBackupConfigOutputReference">GoogleAlloydbClusterContinuousBackupConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.continuousBackupInfo">continuous_backup_info</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterContinuousBackupInfoList">GoogleAlloydbClusterContinuousBackupInfoList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.dataplexConfig">dataplex_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference">GoogleAlloydbClusterDataplexConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.effectiveAnnotations">effective_annotations</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.effectiveLabels">effective_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.encryptionConfig">encryption_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterEncryptionConfigOutputReference">GoogleAlloydbClusterEncryptionConfigOutputReference</a></code> | *No description.* |
@@ -1470,6 +1646,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.networkConfig">network_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterNetworkConfigOutputReference">GoogleAlloydbClusterNetworkConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.pscConfig">psc_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterPscConfigOutputReference">GoogleAlloydbClusterPscConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.reconciling">reconciling</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrBackupSource">restore_backupdr_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference">GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrPitrSource">restore_backupdr_pitr_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference">GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupSource">restore_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupSourceOutputReference">GoogleAlloydbClusterRestoreBackupSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreContinuousBackupSource">restore_continuous_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreContinuousBackupSourceOutputReference">GoogleAlloydbClusterRestoreContinuousBackupSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.secondaryConfig">secondary_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterSecondaryConfigOutputReference">GoogleAlloydbClusterSecondaryConfigOutputReference</a></code> | *No description.* |
@@ -1484,7 +1662,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.clusterTypeInput">cluster_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.continuousBackupConfigInput">continuous_backup_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterContinuousBackupConfig">GoogleAlloydbClusterContinuousBackupConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.databaseVersionInput">database_version_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.dataplexConfigInput">dataplex_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.deletionProtectionInput">deletion_protection_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.encryptionConfigInput">encryption_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterEncryptionConfig">GoogleAlloydbClusterEncryptionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.etagInput">etag_input</a></code> | <code>str</code> | *No description.* |
@@ -1496,6 +1676,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.networkConfigInput">network_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterNetworkConfig">GoogleAlloydbClusterNetworkConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.pscConfigInput">psc_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterPscConfig">GoogleAlloydbClusterPscConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrBackupSourceInput">restore_backupdr_backup_source_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrPitrSourceInput">restore_backupdr_pitr_source_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupSourceInput">restore_backup_source_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupSource">GoogleAlloydbClusterRestoreBackupSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreContinuousBackupSourceInput">restore_continuous_backup_source_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreContinuousBackupSource">GoogleAlloydbClusterRestoreContinuousBackupSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.secondaryConfigInput">secondary_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterSecondaryConfig">GoogleAlloydbClusterSecondaryConfig</a></code> | *No description.* |
@@ -1507,6 +1689,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.clusterType">cluster_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.databaseVersion">database_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.etag">etag</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -1670,6 +1853,16 @@ automated_backup_policy: GoogleAlloydbClusterAutomatedBackupPolicyOutputReferenc
 
 ---
 
+##### `backupdr_backup_source`<sup>Required</sup> <a name="backupdr_backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.backupdrBackupSource"></a>
+
+```python
+backupdr_backup_source: GoogleAlloydbClusterBackupdrBackupSourceList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList">GoogleAlloydbClusterBackupdrBackupSourceList</a>
+
+---
+
 ##### `backup_source`<sup>Required</sup> <a name="backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.backupSource"></a>
 
 ```python
@@ -1697,6 +1890,16 @@ continuous_backup_info: GoogleAlloydbClusterContinuousBackupInfoList
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterContinuousBackupInfoList">GoogleAlloydbClusterContinuousBackupInfoList</a>
+
+---
+
+##### `dataplex_config`<sup>Required</sup> <a name="dataplex_config" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.dataplexConfig"></a>
+
+```python
+dataplex_config: GoogleAlloydbClusterDataplexConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference">GoogleAlloydbClusterDataplexConfigOutputReference</a>
 
 ---
 
@@ -1807,6 +2010,26 @@ reconciling: IResolvable
 ```
 
 - *Type:* cdktn.IResolvable
+
+---
+
+##### `restore_backupdr_backup_source`<sup>Required</sup> <a name="restore_backupdr_backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrBackupSource"></a>
+
+```python
+restore_backupdr_backup_source: GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference">GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference</a>
+
+---
+
+##### `restore_backupdr_pitr_source`<sup>Required</sup> <a name="restore_backupdr_pitr_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrPitrSource"></a>
+
+```python
+restore_backupdr_pitr_source: GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference">GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference</a>
 
 ---
 
@@ -1950,6 +2173,16 @@ database_version_input: str
 
 ---
 
+##### `dataplex_config_input`<sup>Optional</sup> <a name="dataplex_config_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.dataplexConfigInput"></a>
+
+```python
+dataplex_config_input: GoogleAlloydbClusterDataplexConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a>
+
+---
+
 ##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.deletionPolicyInput"></a>
 
 ```python
@@ -1957,6 +2190,16 @@ deletion_policy_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `deletion_protection_input`<sup>Optional</sup> <a name="deletion_protection_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.deletionProtectionInput"></a>
+
+```python
+deletion_protection_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2070,6 +2313,26 @@ psc_config_input: GoogleAlloydbClusterPscConfig
 
 ---
 
+##### `restore_backupdr_backup_source_input`<sup>Optional</sup> <a name="restore_backupdr_backup_source_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrBackupSourceInput"></a>
+
+```python
+restore_backupdr_backup_source_input: GoogleAlloydbClusterRestoreBackupdrBackupSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a>
+
+---
+
+##### `restore_backupdr_pitr_source_input`<sup>Optional</sup> <a name="restore_backupdr_pitr_source_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupdrPitrSourceInput"></a>
+
+```python
+restore_backupdr_pitr_source_input: GoogleAlloydbClusterRestoreBackupdrPitrSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a>
+
+---
+
 ##### `restore_backup_source_input`<sup>Optional</sup> <a name="restore_backup_source_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.restoreBackupSourceInput"></a>
 
 ```python
@@ -2177,6 +2440,16 @@ deletion_policy: str
 ```
 
 - *Type:* str
+
+---
+
+##### `deletion_protection`<sup>Required</sup> <a name="deletion_protection" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbCluster.property.deletionProtection"></a>
+
+```python
+deletion_protection: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2330,7 +2603,7 @@ The backup window must be at least 5 minutes long. There is no upper bound on th
 
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#backup_window GoogleAlloydbCluster#backup_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#backup_window GoogleAlloydbCluster#backup_window}
 
 ---
 
@@ -2344,7 +2617,7 @@ enabled: bool | IResolvable
 
 Whether automated backups are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
 
 ---
 
@@ -2358,7 +2631,7 @@ encryption_config: GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfig
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
 
 ---
 
@@ -2372,7 +2645,7 @@ labels: typing.Mapping[str]
 
 Labels to apply to backups created using this configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
 
 ---
 
@@ -2388,7 +2661,7 @@ The location where the backup will be stored.
 
 Currently, the only supported option is to store the backup in the same region as the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
 
 ---
 
@@ -2402,7 +2675,7 @@ quantity_based_retention: GoogleAlloydbClusterAutomatedBackupPolicyQuantityBased
 
 quantity_based_retention block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#quantity_based_retention GoogleAlloydbCluster#quantity_based_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#quantity_based_retention GoogleAlloydbCluster#quantity_based_retention}
 
 ---
 
@@ -2416,7 +2689,7 @@ time_based_retention: GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentio
 
 time_based_retention block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#time_based_retention GoogleAlloydbCluster#time_based_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#time_based_retention GoogleAlloydbCluster#time_based_retention}
 
 ---
 
@@ -2430,7 +2703,7 @@ weekly_schedule: GoogleAlloydbClusterAutomatedBackupPolicyWeeklySchedule
 
 weekly_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#weekly_schedule GoogleAlloydbCluster#weekly_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#weekly_schedule GoogleAlloydbCluster#weekly_schedule}
 
 ---
 
@@ -2466,7 +2739,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
 
 ---
 
@@ -2500,7 +2773,7 @@ count: typing.Union[int, float]
 
 The number of backups to retain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#count GoogleAlloydbCluster#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#count GoogleAlloydbCluster#count}
 
 ---
 
@@ -2534,7 +2807,7 @@ retention_period: str
 
 The retention period. A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#retention_period GoogleAlloydbCluster#retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#retention_period GoogleAlloydbCluster#retention_period}
 
 ---
 
@@ -2570,7 +2843,7 @@ start_times: IResolvable | typing.List[GoogleAlloydbClusterAutomatedBackupPolicy
 
 start_times block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#start_times GoogleAlloydbCluster#start_times}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#start_times GoogleAlloydbCluster#start_times}
 
 ---
 
@@ -2586,7 +2859,7 @@ The days of the week to perform a backup.
 
 At least one day of the week must be provided. Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#days_of_week GoogleAlloydbCluster#days_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#days_of_week GoogleAlloydbCluster#days_of_week}
 
 ---
 
@@ -2628,7 +2901,7 @@ Hours of day in 24 hour format.
 
 Should be from 0 to 23. An API may choose to allow the value "24:00:00" for scenarios like business closing time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
 
 ---
 
@@ -2642,7 +2915,7 @@ minutes: typing.Union[int, float]
 
 Minutes of hour of day. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
 
 ---
 
@@ -2656,7 +2929,7 @@ nanos: typing.Union[int, float]
 
 Fractions of seconds in nanoseconds. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
 
 ---
 
@@ -2670,9 +2943,20 @@ seconds: typing.Union[int, float]
 
 Seconds of minutes of the time. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
 
 ---
+
+### GoogleAlloydbClusterBackupdrBackupSource <a name="GoogleAlloydbClusterBackupdrBackupSource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSource"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSource.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSource()
+```
+
 
 ### GoogleAlloydbClusterBackupSource <a name="GoogleAlloydbClusterBackupSource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupSource"></a>
 
@@ -2707,7 +2991,9 @@ googleAlloydbCluster.GoogleAlloydbClusterConfig(
   cluster_type: str = None,
   continuous_backup_config: GoogleAlloydbClusterContinuousBackupConfig = None,
   database_version: str = None,
+  dataplex_config: GoogleAlloydbClusterDataplexConfig = None,
   deletion_policy: str = None,
+  deletion_protection: bool | IResolvable = None,
   display_name: str = None,
   encryption_config: GoogleAlloydbClusterEncryptionConfig = None,
   etag: str = None,
@@ -2718,6 +3004,8 @@ googleAlloydbCluster.GoogleAlloydbClusterConfig(
   network_config: GoogleAlloydbClusterNetworkConfig = None,
   project: str = None,
   psc_config: GoogleAlloydbClusterPscConfig = None,
+  restore_backupdr_backup_source: GoogleAlloydbClusterRestoreBackupdrBackupSource = None,
+  restore_backupdr_pitr_source: GoogleAlloydbClusterRestoreBackupdrPitrSource = None,
   restore_backup_source: GoogleAlloydbClusterRestoreBackupSource = None,
   restore_continuous_backup_source: GoogleAlloydbClusterRestoreContinuousBackupSource = None,
   secondary_config: GoogleAlloydbClusterSecondaryConfig = None,
@@ -2745,17 +3033,21 @@ googleAlloydbCluster.GoogleAlloydbClusterConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.clusterType">cluster_type</a></code> | <code>str</code> | The type of cluster. If not set, defaults to PRIMARY. Default value: "PRIMARY" Possible values: ["PRIMARY", "SECONDARY"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.continuousBackupConfig">continuous_backup_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterContinuousBackupConfig">GoogleAlloydbClusterContinuousBackupConfig</a></code> | continuous_backup_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.databaseVersion">database_version</a></code> | <code>str</code> | The database engine major version. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.dataplexConfig">dataplex_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a></code> | dataplex_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Policy to determine if the cluster should be deleted forcefully. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.displayName">display_name</a></code> | <code>str</code> | User-settable and human-readable display name for the Cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.encryptionConfig">encryption_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterEncryptionConfig">GoogleAlloydbClusterEncryptionConfig</a></code> | encryption_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.etag">etag</a></code> | <code>str</code> | For Resource freshness validation (https://google.aip.dev/154). |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.initialUser">initial_user</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser">GoogleAlloydbClusterInitialUser</a></code> | initial_user block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-defined labels for the alloydb cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.maintenanceUpdatePolicy">maintenance_update_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterMaintenanceUpdatePolicy">GoogleAlloydbClusterMaintenanceUpdatePolicy</a></code> | maintenance_update_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.networkConfig">network_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterNetworkConfig">GoogleAlloydbClusterNetworkConfig</a></code> | network_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.pscConfig">psc_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterPscConfig">GoogleAlloydbClusterPscConfig</a></code> | psc_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.restoreBackupdrBackupSource">restore_backupdr_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a></code> | restore_backupdr_backup_source block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.restoreBackupdrPitrSource">restore_backupdr_pitr_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a></code> | restore_backupdr_pitr_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.restoreBackupSource">restore_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupSource">GoogleAlloydbClusterRestoreBackupSource</a></code> | restore_backup_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.restoreContinuousBackupSource">restore_continuous_backup_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreContinuousBackupSource">GoogleAlloydbClusterRestoreContinuousBackupSource</a></code> | restore_continuous_backup_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.secondaryConfig">secondary_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterSecondaryConfig">GoogleAlloydbClusterSecondaryConfig</a></code> | secondary_config block. |
@@ -2845,7 +3137,7 @@ cluster_id: str
 
 The ID of the alloydb cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#cluster_id GoogleAlloydbCluster#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#cluster_id GoogleAlloydbCluster#cluster_id}
 
 ---
 
@@ -2859,7 +3151,7 @@ location: str
 
 The location where the alloydb cluster should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
 
 ---
 
@@ -2879,7 +3171,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#annotations GoogleAlloydbCluster#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#annotations GoogleAlloydbCluster#annotations}
 
 ---
 
@@ -2893,7 +3185,7 @@ automated_backup_policy: GoogleAlloydbClusterAutomatedBackupPolicy
 
 automated_backup_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#automated_backup_policy GoogleAlloydbCluster#automated_backup_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#automated_backup_policy GoogleAlloydbCluster#automated_backup_policy}
 
 ---
 
@@ -2907,7 +3199,7 @@ cluster_type: str
 
 The type of cluster. If not set, defaults to PRIMARY. Default value: "PRIMARY" Possible values: ["PRIMARY", "SECONDARY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#cluster_type GoogleAlloydbCluster#cluster_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#cluster_type GoogleAlloydbCluster#cluster_type}
 
 ---
 
@@ -2921,7 +3213,7 @@ continuous_backup_config: GoogleAlloydbClusterContinuousBackupConfig
 
 continuous_backup_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#continuous_backup_config GoogleAlloydbCluster#continuous_backup_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#continuous_backup_config GoogleAlloydbCluster#continuous_backup_config}
 
 ---
 
@@ -2938,7 +3230,21 @@ The database engine major version.
 This is an optional field and it's populated at the Cluster creation time.
 Note: Changing this field to a higer version results in upgrading the AlloyDB cluster which is an irreversible change.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#database_version GoogleAlloydbCluster#database_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#database_version GoogleAlloydbCluster#database_version}
+
+---
+
+##### `dataplex_config`<sup>Optional</sup> <a name="dataplex_config" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.dataplexConfig"></a>
+
+```python
+dataplex_config: GoogleAlloydbClusterDataplexConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a>
+
+dataplex_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#dataplex_config GoogleAlloydbCluster#dataplex_config}
 
 ---
 
@@ -2956,7 +3262,25 @@ Deleting a cluster forcefully, deletes the cluster and all its associated instan
 Deleting a Secondary cluster with a secondary instance REQUIRES setting deletion_policy = "FORCE" otherwise an error is returned. This is needed as there is no support to delete just the secondary instance, and the only way to delete secondary instance is to delete the associated secondary cluster forcefully which also deletes the secondary instance.
 Possible values: DEFAULT, FORCE
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#deletion_policy GoogleAlloydbCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#deletion_policy GoogleAlloydbCluster#deletion_policy}
+
+---
+
+##### `deletion_protection`<sup>Optional</sup> <a name="deletion_protection" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.deletionProtection"></a>
+
+```python
+deletion_protection: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether Terraform will be prevented from destroying the cluster.
+
+When the field is set to true or unset in Terraform state, a 'terraform apply'
+or 'terraform destroy' that would delete the cluster will fail.
+When the field is set to false, deleting the cluster is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#deletion_protection GoogleAlloydbCluster#deletion_protection}
 
 ---
 
@@ -2970,7 +3294,7 @@ display_name: str
 
 User-settable and human-readable display name for the Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#display_name GoogleAlloydbCluster#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#display_name GoogleAlloydbCluster#display_name}
 
 ---
 
@@ -2984,7 +3308,7 @@ encryption_config: GoogleAlloydbClusterEncryptionConfig
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
 
 ---
 
@@ -2998,7 +3322,7 @@ etag: str
 
 For Resource freshness validation (https://google.aip.dev/154).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#etag GoogleAlloydbCluster#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#etag GoogleAlloydbCluster#etag}
 
 ---
 
@@ -3010,7 +3334,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3027,7 +3351,7 @@ initial_user: GoogleAlloydbClusterInitialUser
 
 initial_user block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#initial_user GoogleAlloydbCluster#initial_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#initial_user GoogleAlloydbCluster#initial_user}
 
 ---
 
@@ -3044,7 +3368,7 @@ User-defined labels for the alloydb cluster.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
 
 ---
 
@@ -3058,7 +3382,7 @@ maintenance_update_policy: GoogleAlloydbClusterMaintenanceUpdatePolicy
 
 maintenance_update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#maintenance_update_policy GoogleAlloydbCluster#maintenance_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#maintenance_update_policy GoogleAlloydbCluster#maintenance_update_policy}
 
 ---
 
@@ -3072,7 +3396,7 @@ network_config: GoogleAlloydbClusterNetworkConfig
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#network_config GoogleAlloydbCluster#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#network_config GoogleAlloydbCluster#network_config}
 
 ---
 
@@ -3084,7 +3408,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}.
 
 ---
 
@@ -3098,7 +3422,35 @@ psc_config: GoogleAlloydbClusterPscConfig
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#psc_config GoogleAlloydbCluster#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#psc_config GoogleAlloydbCluster#psc_config}
+
+---
+
+##### `restore_backupdr_backup_source`<sup>Optional</sup> <a name="restore_backupdr_backup_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.restoreBackupdrBackupSource"></a>
+
+```python
+restore_backupdr_backup_source: GoogleAlloydbClusterRestoreBackupdrBackupSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a>
+
+restore_backupdr_backup_source block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_backupdr_backup_source GoogleAlloydbCluster#restore_backupdr_backup_source}
+
+---
+
+##### `restore_backupdr_pitr_source`<sup>Optional</sup> <a name="restore_backupdr_pitr_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterConfig.property.restoreBackupdrPitrSource"></a>
+
+```python
+restore_backupdr_pitr_source: GoogleAlloydbClusterRestoreBackupdrPitrSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a>
+
+restore_backupdr_pitr_source block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_backupdr_pitr_source GoogleAlloydbCluster#restore_backupdr_pitr_source}
 
 ---
 
@@ -3112,7 +3464,7 @@ restore_backup_source: GoogleAlloydbClusterRestoreBackupSource
 
 restore_backup_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#restore_backup_source GoogleAlloydbCluster#restore_backup_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_backup_source GoogleAlloydbCluster#restore_backup_source}
 
 ---
 
@@ -3126,7 +3478,7 @@ restore_continuous_backup_source: GoogleAlloydbClusterRestoreContinuousBackupSou
 
 restore_continuous_backup_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#restore_continuous_backup_source GoogleAlloydbCluster#restore_continuous_backup_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#restore_continuous_backup_source GoogleAlloydbCluster#restore_continuous_backup_source}
 
 ---
 
@@ -3140,7 +3492,7 @@ secondary_config: GoogleAlloydbClusterSecondaryConfig
 
 secondary_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#secondary_config GoogleAlloydbCluster#secondary_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#secondary_config GoogleAlloydbCluster#secondary_config}
 
 ---
 
@@ -3154,7 +3506,7 @@ skip_await_major_version_upgrade: bool | IResolvable
 
 Set to true to skip awaiting on the major version upgrade of the cluster. Possible values: true, false Default value: "true".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#skip_await_major_version_upgrade GoogleAlloydbCluster#skip_await_major_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#skip_await_major_version_upgrade GoogleAlloydbCluster#skip_await_major_version_upgrade}
 
 ---
 
@@ -3168,7 +3520,7 @@ subscription_type: str
 
 The subscrition type of cluster. Possible values: ["TRIAL", "STANDARD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#subscription_type GoogleAlloydbCluster#subscription_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#subscription_type GoogleAlloydbCluster#subscription_type}
 
 ---
 
@@ -3182,7 +3534,7 @@ timeouts: GoogleAlloydbClusterTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#timeouts GoogleAlloydbCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#timeouts GoogleAlloydbCluster#timeouts}
 
 ---
 
@@ -3220,7 +3572,7 @@ enabled: bool | IResolvable
 
 Whether continuous backup recovery is enabled. If not set, defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
 
 ---
 
@@ -3234,7 +3586,7 @@ encryption_config: GoogleAlloydbClusterContinuousBackupConfigEncryptionConfig
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
 
 ---
 
@@ -3252,7 +3604,7 @@ To support the entire recovery window, backups and logs are retained for one day
 
 If not set, defaults to 14 days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#recovery_window_days GoogleAlloydbCluster#recovery_window_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#recovery_window_days GoogleAlloydbCluster#recovery_window_days}
 
 ---
 
@@ -3288,7 +3640,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
 
 ---
 
@@ -3313,6 +3665,40 @@ from cdktn_provider_google_beta import google_alloydb_cluster
 googleAlloydbCluster.GoogleAlloydbClusterContinuousBackupInfoEncryptionInfo()
 ```
 
+
+### GoogleAlloydbClusterDataplexConfig <a name="GoogleAlloydbClusterDataplexConfig" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig(
+  enabled: bool | IResolvable
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicates whether Dataplex integration is enabled for the cluster. |
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicates whether Dataplex integration is enabled for the cluster.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+
+---
 
 ### GoogleAlloydbClusterEncryptionConfig <a name="GoogleAlloydbClusterEncryptionConfig" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterEncryptionConfig"></a>
 
@@ -3346,7 +3732,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
 
 ---
 
@@ -3369,7 +3755,9 @@ googleAlloydbCluster.GoogleAlloydbClusterEncryptionInfo()
 from cdktn_provider_google_beta import google_alloydb_cluster
 
 googleAlloydbCluster.GoogleAlloydbClusterInitialUser(
-  password: str,
+  password: str = None,
+  password_wo: str = None,
+  password_wo_version: str = None,
   user: str = None
 )
 ```
@@ -3379,11 +3767,13 @@ googleAlloydbCluster.GoogleAlloydbClusterInitialUser(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.password">password</a></code> | <code>str</code> | The initial password for the user. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.passwordWo">password_wo</a></code> | <code>str</code> | The initial password for the user. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.passwordWoVersion">password_wo_version</a></code> | <code>str</code> | Triggers update of 'password_wo' write-only. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.user">user</a></code> | <code>str</code> | The database username. |
 
 ---
 
-##### `password`<sup>Required</sup> <a name="password" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.password"></a>
+##### `password`<sup>Optional</sup> <a name="password" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.password"></a>
 
 ```python
 password: str
@@ -3393,7 +3783,37 @@ password: str
 
 The initial password for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#password GoogleAlloydbCluster#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#password GoogleAlloydbCluster#password}
+
+---
+
+##### `password_wo`<sup>Optional</sup> <a name="password_wo" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.passwordWo"></a>
+
+```python
+password_wo: str
+```
+
+- *Type:* str
+
+The initial password for the user.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#password_wo GoogleAlloydbCluster#password_wo}
+
+---
+
+##### `password_wo_version`<sup>Optional</sup> <a name="password_wo_version" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser.property.passwordWoVersion"></a>
+
+```python
+password_wo_version: str
+```
+
+- *Type:* str
+
+Triggers update of 'password_wo' write-only.
+
+Increment this value when an update to 'password_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#password_wo_version GoogleAlloydbCluster#password_wo_version}
 
 ---
 
@@ -3407,7 +3827,7 @@ user: str
 
 The database username.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#user GoogleAlloydbCluster#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#user GoogleAlloydbCluster#user}
 
 ---
 
@@ -3441,7 +3861,7 @@ maintenance_windows: IResolvable | typing.List[GoogleAlloydbClusterMaintenanceUp
 
 maintenance_windows block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#maintenance_windows GoogleAlloydbCluster#maintenance_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#maintenance_windows GoogleAlloydbCluster#maintenance_windows}
 
 ---
 
@@ -3477,7 +3897,7 @@ day: str
 
 Preferred day of the week for maintenance, e.g. MONDAY, TUESDAY, etc. Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#day GoogleAlloydbCluster#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#day GoogleAlloydbCluster#day}
 
 ---
 
@@ -3491,7 +3911,7 @@ start_time: GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTi
 
 start_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#start_time GoogleAlloydbCluster#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#start_time GoogleAlloydbCluster#start_time}
 
 ---
 
@@ -3531,7 +3951,7 @@ hours: typing.Union[int, float]
 
 Hours of day in 24 hour format. Should be from 0 to 23.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
 
 ---
 
@@ -3545,7 +3965,7 @@ minutes: typing.Union[int, float]
 
 Minutes of hour of day. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
 
 ---
 
@@ -3559,7 +3979,7 @@ nanos: typing.Union[int, float]
 
 Fractions of seconds in nanoseconds. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
 
 ---
 
@@ -3573,7 +3993,7 @@ seconds: typing.Union[int, float]
 
 Seconds of minutes of the time. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
 
 ---
 
@@ -3623,7 +4043,7 @@ The name of the allocated IP range for the private IP AlloyDB cluster.
 For example: "google-managed-services-default".
 If set, the instance IPs for this cluster will be created in the allocated range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#allocated_ip_range GoogleAlloydbCluster#allocated_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#allocated_ip_range GoogleAlloydbCluster#allocated_ip_range}
 
 ---
 
@@ -3640,7 +4060,7 @@ The resource link for the VPC network in which cluster resources are created and
 The network must belong to the same project as the cluster.
 It is specified in the form: "projects/{projectNumber}/global/networks/{network_id}".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#network GoogleAlloydbCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#network GoogleAlloydbCluster#network}
 
 ---
 
@@ -3674,7 +4094,93 @@ psc_enabled: bool | IResolvable
 
 Create an instance that allows connections from Private Service Connect endpoints to the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#psc_enabled GoogleAlloydbCluster#psc_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#psc_enabled GoogleAlloydbCluster#psc_enabled}
+
+---
+
+### GoogleAlloydbClusterRestoreBackupdrBackupSource <a name="GoogleAlloydbClusterRestoreBackupdrBackupSource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource(
+  backup: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource.property.backup">backup</a></code> | <code>str</code> | The name of the BackupDR backup that this cluster is restored from. It must be of the format "projects/[PROJECT]/locations/[LOCATION]/backupVaults/[VAULT_ID]/dataSources/[DATASOURCE_ID]/backups/[BACKUP_ID]". |
+
+---
+
+##### `backup`<sup>Required</sup> <a name="backup" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource.property.backup"></a>
+
+```python
+backup: str
+```
+
+- *Type:* str
+
+The name of the BackupDR backup that this cluster is restored from. It must be of the format "projects/[PROJECT]/locations/[LOCATION]/backupVaults/[VAULT_ID]/dataSources/[DATASOURCE_ID]/backups/[BACKUP_ID]".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#backup GoogleAlloydbCluster#backup}
+
+---
+
+### GoogleAlloydbClusterRestoreBackupdrPitrSource <a name="GoogleAlloydbClusterRestoreBackupdrPitrSource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource(
+  data_source: str,
+  point_in_time: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource.property.dataSource">data_source</a></code> | <code>str</code> | The name of the BackupDR data source that this cluster is restore from. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource.property.pointInTime">point_in_time</a></code> | <code>str</code> | The point in time that this cluster is restored to, in RFC 3339 format. |
+
+---
+
+##### `data_source`<sup>Required</sup> <a name="data_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource.property.dataSource"></a>
+
+```python
+data_source: str
+```
+
+- *Type:* str
+
+The name of the BackupDR data source that this cluster is restore from.
+
+It must be of the format "projects/[PROJECT]/locations/[LOCATION]/backupVaults/[VAULT_ID]/dataSources/[DATASOURCE_ID]"
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#data_source GoogleAlloydbCluster#data_source}
+
+---
+
+##### `point_in_time`<sup>Required</sup> <a name="point_in_time" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource.property.pointInTime"></a>
+
+```python
+point_in_time: str
+```
+
+- *Type:* str
+
+The point in time that this cluster is restored to, in RFC 3339 format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
 
 ---
 
@@ -3708,7 +4214,7 @@ backup_name: str
 
 The name of the backup that this cluster is restored from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#backup_name GoogleAlloydbCluster#backup_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#backup_name GoogleAlloydbCluster#backup_name}
 
 ---
 
@@ -3744,7 +4250,7 @@ cluster: str
 
 The name of the source cluster that this cluster is restored from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#cluster GoogleAlloydbCluster#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#cluster GoogleAlloydbCluster#cluster}
 
 ---
 
@@ -3758,7 +4264,7 @@ point_in_time: str
 
 The point in time that this cluster is restored to, in RFC 3339 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
 
 ---
 
@@ -3792,7 +4298,7 @@ primary_cluster_name: str
 
 Name of the primary cluster must be in the format 'projects/{project}/locations/{location}/clusters/{cluster_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#primary_cluster_name GoogleAlloydbCluster#primary_cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#primary_cluster_name GoogleAlloydbCluster#primary_cluster_name}
 
 ---
 
@@ -3814,9 +4320,9 @@ googleAlloydbCluster.GoogleAlloydbClusterTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}. |
 
 ---
 
@@ -3828,7 +4334,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}.
 
 ---
 
@@ -3840,7 +4346,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}.
 
 ---
 
@@ -3852,7 +4358,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}.
 
 ---
 
@@ -4428,7 +4934,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
 
 ---
 
@@ -4446,7 +4952,7 @@ def put_quantity_based_retention(
 
 The number of backups to retain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#count GoogleAlloydbCluster#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#count GoogleAlloydbCluster#count}
 
 ---
 
@@ -4464,7 +4970,7 @@ def put_time_based_retention(
 
 The retention period. A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#retention_period GoogleAlloydbCluster#retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#retention_period GoogleAlloydbCluster#retention_period}
 
 ---
 
@@ -4483,7 +4989,7 @@ def put_weekly_schedule(
 
 start_times block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#start_times GoogleAlloydbCluster#start_times}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#start_times GoogleAlloydbCluster#start_times}
 
 ---
 
@@ -4495,7 +5001,7 @@ The days of the week to perform a backup.
 
 At least one day of the week must be provided. Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#days_of_week GoogleAlloydbCluster#days_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#days_of_week GoogleAlloydbCluster#days_of_week}
 
 ---
 
@@ -6295,6 +6801,470 @@ internal_value: IResolvable | GoogleAlloydbClusterAutomatedBackupPolicyWeeklySch
 ---
 
 
+### GoogleAlloydbClusterBackupdrBackupSourceList <a name="GoogleAlloydbClusterBackupdrBackupSourceList" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleAlloydbClusterBackupdrBackupSourceOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleAlloydbClusterBackupdrBackupSourceOutputReference <a name="GoogleAlloydbClusterBackupdrBackupSourceOutputReference" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.backup">backup</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSource">GoogleAlloydbClusterBackupdrBackupSource</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `backup`<sup>Required</sup> <a name="backup" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.backup"></a>
+
+```python
+backup: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSourceOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleAlloydbClusterBackupdrBackupSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupdrBackupSource">GoogleAlloydbClusterBackupdrBackupSource</a>
+
+---
+
+
 ### GoogleAlloydbClusterBackupSourceList <a name="GoogleAlloydbClusterBackupSourceList" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupSourceList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterBackupSourceList.Initializer"></a>
@@ -7310,7 +8280,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
 
 ---
 
@@ -8416,6 +9386,302 @@ internal_value: GoogleAlloydbClusterContinuousBackupInfo
 ---
 
 
+### GoogleAlloydbClusterDataplexConfigOutputReference <a name="GoogleAlloydbClusterDataplexConfigOutputReference" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.enabledInput">enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `enabled_input`<sup>Optional</sup> <a name="enabled_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.enabledInput"></a>
+
+```python
+enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleAlloydbClusterDataplexConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterDataplexConfig">GoogleAlloydbClusterDataplexConfig</a>
+
+---
+
+
 ### GoogleAlloydbClusterEncryptionConfigOutputReference <a name="GoogleAlloydbClusterEncryptionConfigOutputReference" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterEncryptionConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterEncryptionConfigOutputReference.Initializer"></a>
@@ -9247,6 +10513,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetPassword">reset_password</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetPasswordWo">reset_password_wo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetPasswordWoVersion">reset_password_wo_version</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetUser">reset_user</a></code> | *No description.* |
 
 ---
@@ -9423,6 +10692,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_password` <a name="reset_password" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetPassword"></a>
+
+```python
+def reset_password() -> None
+```
+
+##### `reset_password_wo` <a name="reset_password_wo" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetPasswordWo"></a>
+
+```python
+def reset_password_wo() -> None
+```
+
+##### `reset_password_wo_version` <a name="reset_password_wo_version" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetPasswordWoVersion"></a>
+
+```python
+def reset_password_wo_version() -> None
+```
+
 ##### `reset_user` <a name="reset_user" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.resetUser"></a>
 
 ```python
@@ -9437,8 +10724,12 @@ def reset_user() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordInput">password_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWoInput">password_wo_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWoVersionInput">password_wo_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.userInput">user_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.password">password</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWo">password_wo</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWoVersion">password_wo_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.user">user</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUser">GoogleAlloydbClusterInitialUser</a></code> | *No description.* |
 
@@ -9478,6 +10769,26 @@ password_input: str
 
 ---
 
+##### `password_wo_input`<sup>Optional</sup> <a name="password_wo_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWoInput"></a>
+
+```python
+password_wo_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `password_wo_version_input`<sup>Optional</sup> <a name="password_wo_version_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWoVersionInput"></a>
+
+```python
+password_wo_version_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `user_input`<sup>Optional</sup> <a name="user_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.userInput"></a>
 
 ```python
@@ -9492,6 +10803,26 @@ user_input: str
 
 ```python
 password: str
+```
+
+- *Type:* str
+
+---
+
+##### `password_wo`<sup>Required</sup> <a name="password_wo" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWo"></a>
+
+```python
+password_wo: str
+```
+
+- *Type:* str
+
+---
+
+##### `password_wo_version`<sup>Required</sup> <a name="password_wo_version" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterInitialUserOutputReference.property.passwordWoVersion"></a>
+
+```python
+password_wo_version: str
 ```
 
 - *Type:* str
@@ -9955,7 +11286,7 @@ def put_start_time(
 
 Hours of day in 24 hour format. Should be from 0 to 23.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
 
 ---
 
@@ -9965,7 +11296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minutes of hour of day. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
 
 ---
 
@@ -9975,7 +11306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Fractions of seconds in nanoseconds. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
 
 ---
 
@@ -9985,7 +11316,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Seconds of minutes of the time. Currently, only the value 0 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
 
 ---
 
@@ -11908,6 +13239,620 @@ internal_value: GoogleAlloydbClusterPscConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterPscConfig">GoogleAlloydbClusterPscConfig</a>
+
+---
+
+
+### GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference <a name="GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.backupInput">backup_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.backup">backup</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `backup_input`<sup>Optional</sup> <a name="backup_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.backupInput"></a>
+
+```python
+backup_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `backup`<sup>Required</sup> <a name="backup" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.backup"></a>
+
+```python
+backup: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleAlloydbClusterRestoreBackupdrBackupSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrBackupSource">GoogleAlloydbClusterRestoreBackupdrBackupSource</a>
+
+---
+
+
+### GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference <a name="GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_alloydb_cluster
+
+googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.dataSourceInput">data_source_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.pointInTimeInput">point_in_time_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.dataSource">data_source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.pointInTime">point_in_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_source_input`<sup>Optional</sup> <a name="data_source_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.dataSourceInput"></a>
+
+```python
+data_source_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `point_in_time_input`<sup>Optional</sup> <a name="point_in_time_input" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.pointInTimeInput"></a>
+
+```python
+point_in_time_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_source`<sup>Required</sup> <a name="data_source" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.dataSource"></a>
+
+```python
+data_source: str
+```
+
+- *Type:* str
+
+---
+
+##### `point_in_time`<sup>Required</sup> <a name="point_in_time" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.pointInTime"></a>
+
+```python
+point_in_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleAlloydbClusterRestoreBackupdrPitrSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbCluster.GoogleAlloydbClusterRestoreBackupdrPitrSource">GoogleAlloydbClusterRestoreBackupdrPitrSource</a>
 
 ---
 

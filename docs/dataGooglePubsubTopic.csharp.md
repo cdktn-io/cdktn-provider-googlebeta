@@ -4,7 +4,7 @@
 
 ### DataGooglePubsubTopic <a name="DataGooglePubsubTopic" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic google_pubsub_topic}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic google_pubsub_topic}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.Initializer"></a>
 
@@ -401,7 +401,7 @@ The construct id used in the generated config for the DataGooglePubsubTopic to i
 
 The id of the existing DataGooglePubsubTopic that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -437,6 +437,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.messageStoragePolicy">MessageStoragePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageStoragePolicyList">DataGooglePubsubTopicMessageStoragePolicyList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.messageTransforms">MessageTransforms</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsList">DataGooglePubsubTopicMessageTransformsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.schemaSettings">SchemaSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicSchemaSettingsList">DataGooglePubsubTopicSchemaSettingsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.tags">Tags</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
@@ -649,6 +650,16 @@ public DataGooglePubsubTopicSchemaSettingsList SchemaSettings { get; }
 
 ---
 
+##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.tags"></a>
+
+```csharp
+public StringMap Tags { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
+
+---
+
 ##### `TerraformLabels`<sup>Required</sup> <a name="TerraformLabels" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopic.property.terraformLabels"></a>
 
 ```csharp
@@ -772,8 +783,8 @@ new DataGooglePubsubTopicConfig {
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicConfig.property.name">Name</a></code> | <code>string</code> | Name of the topic. |
-| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic#id DataGooglePubsubTopic#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic#project DataGooglePubsubTopic#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic#id DataGooglePubsubTopic#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic#project DataGooglePubsubTopic#project}. |
 
 ---
 
@@ -857,7 +868,7 @@ public string Name { get; set; }
 
 Name of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic#name DataGooglePubsubTopic#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic#name DataGooglePubsubTopic#name}
 
 ---
 
@@ -869,7 +880,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic#id DataGooglePubsubTopic#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic#id DataGooglePubsubTopic#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +895,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic#project DataGooglePubsubTopic#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic#project DataGooglePubsubTopic#project}.
 
 ---
 
@@ -1039,6 +1050,32 @@ new DataGooglePubsubTopicMessageStoragePolicy {
 using Io.Cdktn.Providers.GoogleBeta;
 
 new DataGooglePubsubTopicMessageTransforms {
+
+};
+```
+
+
+### DataGooglePubsubTopicMessageTransformsAiInference <a name="DataGooglePubsubTopicMessageTransformsAiInference" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInference"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGooglePubsubTopicMessageTransformsAiInference {
+
+};
+```
+
+
+### DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference <a name="DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference {
 
 };
 ```
@@ -6044,6 +6081,882 @@ public DataGooglePubsubTopicMessageStoragePolicy InternalValue { get; }
 ---
 
 
+### DataGooglePubsubTopicMessageTransformsAiInferenceList <a name="DataGooglePubsubTopicMessageTransformsAiInferenceList" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGooglePubsubTopicMessageTransformsAiInferenceList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.get"></a>
+
+```csharp
+private DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference <a name="DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.endpoint">Endpoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.serviceAccountEmail">ServiceAccountEmail</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.unstructuredInference">UnstructuredInference</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList">DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInference">DataGooglePubsubTopicMessageTransformsAiInference</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Endpoint`<sup>Required</sup> <a name="Endpoint" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.endpoint"></a>
+
+```csharp
+public string Endpoint { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ServiceAccountEmail`<sup>Required</sup> <a name="ServiceAccountEmail" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.serviceAccountEmail"></a>
+
+```csharp
+public string ServiceAccountEmail { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `UnstructuredInference`<sup>Required</sup> <a name="UnstructuredInference" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.unstructuredInference"></a>
+
+```csharp
+public DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList UnstructuredInference { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList">DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceOutputReference.property.internalValue"></a>
+
+```csharp
+public DataGooglePubsubTopicMessageTransformsAiInference InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInference">DataGooglePubsubTopicMessageTransformsAiInference</a>
+
+---
+
+
+### DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList <a name="DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.get"></a>
+
+```csharp
+private DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference <a name="DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.parameters">Parameters</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference">DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Parameters`<sup>Required</sup> <a name="Parameters" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.parameters"></a>
+
+```csharp
+public StringMap Parameters { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.property.internalValue"></a>
+
+```csharp
+public DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference">DataGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference</a>
+
+---
+
+
 ### DataGooglePubsubTopicMessageTransformsJavascriptUdfList <a name="DataGooglePubsubTopicMessageTransformsJavascriptUdfList" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsJavascriptUdfList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsJavascriptUdfList.Initializer"></a>
@@ -6859,6 +7772,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsOutputReference.property.aiInference">AiInference</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList">DataGooglePubsubTopicMessageTransformsAiInferenceList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsOutputReference.property.disabled">Disabled</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsOutputReference.property.javascriptUdf">JavascriptUdf</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsJavascriptUdfList">DataGooglePubsubTopicMessageTransformsJavascriptUdfList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransforms">DataGooglePubsubTopicMessageTransforms</a></code> | *No description.* |
@@ -6886,6 +7800,16 @@ public string Fqn { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `AiInference`<sup>Required</sup> <a name="AiInference" id="@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsOutputReference.property.aiInference"></a>
+
+```csharp
+public DataGooglePubsubTopicMessageTransformsAiInferenceList AiInference { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.dataGooglePubsubTopic.DataGooglePubsubTopicMessageTransformsAiInferenceList">DataGooglePubsubTopicMessageTransformsAiInferenceList</a>
 
 ---
 

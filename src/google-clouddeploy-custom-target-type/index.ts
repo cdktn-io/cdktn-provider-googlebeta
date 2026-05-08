@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,17 +18,17 @@ export interface GoogleClouddeployCustomTargetTypeConfig extends cdktn.Terraform
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#annotations GoogleClouddeployCustomTargetType#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#annotations GoogleClouddeployCustomTargetType#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the 'CustomTargetType'. Max length is 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#description GoogleClouddeployCustomTargetType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#description GoogleClouddeployCustomTargetType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#id GoogleClouddeployCustomTargetType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,35 +40,41 @@ export interface GoogleClouddeployCustomTargetTypeConfig extends cdktn.Terraform
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#labels GoogleClouddeployCustomTargetType#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#labels GoogleClouddeployCustomTargetType#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#location GoogleClouddeployCustomTargetType#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#location GoogleClouddeployCustomTargetType#location}
   */
   readonly location: string;
   /**
   * Name of the 'CustomTargetType'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#name GoogleClouddeployCustomTargetType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#name GoogleClouddeployCustomTargetType#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#project GoogleClouddeployCustomTargetType#project}
   */
   readonly project?: string;
   /**
   * custom_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#custom_actions GoogleClouddeployCustomTargetType#custom_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#custom_actions GoogleClouddeployCustomTargetType#custom_actions}
   */
   readonly customActions?: GoogleClouddeployCustomTargetTypeCustomActions;
   /**
+  * tasks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#tasks GoogleClouddeployCustomTargetType#tasks}
+  */
+  readonly tasks?: GoogleClouddeployCustomTargetTypeTasks;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#timeouts GoogleClouddeployCustomTargetType#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#timeouts GoogleClouddeployCustomTargetType#timeouts}
   */
   readonly timeouts?: GoogleClouddeployCustomTargetTypeTimeouts;
 }
@@ -76,19 +82,19 @@ export interface GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldMo
   /**
   * Relative path from the repository root to the Skaffold file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
   */
   readonly path?: string;
   /**
   * Git ref the package should be cloned from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
   */
   readonly ref?: string;
   /**
   * Git repository the package should be cloned from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#repo GoogleClouddeployCustomTargetType#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#repo GoogleClouddeployCustomTargetType#repo}
   */
   readonly repo: string;
 }
@@ -229,19 +235,19 @@ export interface GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldMo
   /**
   * Relative path from the repository root to the Skaffold file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
   */
   readonly path?: string;
   /**
   * Branch or tag to use when cloning the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#ref GoogleClouddeployCustomTargetType#ref}
   */
   readonly ref?: string;
   /**
   * Cloud Build 2nd gen repository in the format of 'projects/<project>/locations/<location>/connections/<connection>/repositories/<repository>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#repository GoogleClouddeployCustomTargetType#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#repository GoogleClouddeployCustomTargetType#repository}
   */
   readonly repository: string;
 }
@@ -382,13 +388,13 @@ export interface GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldMo
   /**
   * Relative path from the source to the Skaffold file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#path GoogleClouddeployCustomTargetType#path}
   */
   readonly path?: string;
   /**
   * Cloud Storage source paths to copy recursively. For example, providing 'gs://my-bucket/dir/configs/*' will result in Skaffold copying all files within the 'dir/configs' directory in the bucket 'my-bucket'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#source GoogleClouddeployCustomTargetType#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#source GoogleClouddeployCustomTargetType#source}
   */
   readonly source: string;
 }
@@ -500,25 +506,25 @@ export interface GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldMo
   /**
   * The Skaffold Config modules to use from the specified source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#configs GoogleClouddeployCustomTargetType#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#configs GoogleClouddeployCustomTargetType#configs}
   */
   readonly configs?: string[];
   /**
   * git block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#git GoogleClouddeployCustomTargetType#git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#git GoogleClouddeployCustomTargetType#git}
   */
   readonly git?: GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGit;
   /**
   * google_cloud_build_repo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_build_repo GoogleClouddeployCustomTargetType#google_cloud_build_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_build_repo GoogleClouddeployCustomTargetType#google_cloud_build_repo}
   */
   readonly googleCloudBuildRepo?: GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepo;
   /**
   * google_cloud_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_storage GoogleClouddeployCustomTargetType#google_cloud_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#google_cloud_storage GoogleClouddeployCustomTargetType#google_cloud_storage}
   */
   readonly googleCloudStorage?: GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorage;
 }
@@ -723,19 +729,19 @@ export interface GoogleClouddeployCustomTargetTypeCustomActions {
   /**
   * The Skaffold custom action responsible for deploy operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#deploy_action GoogleClouddeployCustomTargetType#deploy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#deploy_action GoogleClouddeployCustomTargetType#deploy_action}
   */
   readonly deployAction: string;
   /**
   * The Skaffold custom action responsible for render operations. If not provided then Cloud Deploy will perform the render operations via 'skaffold render'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#render_action GoogleClouddeployCustomTargetType#render_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#render_action GoogleClouddeployCustomTargetType#render_action}
   */
   readonly renderAction?: string;
   /**
   * include_skaffold_modules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#include_skaffold_modules GoogleClouddeployCustomTargetType#include_skaffold_modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#include_skaffold_modules GoogleClouddeployCustomTargetType#include_skaffold_modules}
   */
   readonly includeSkaffoldModules?: GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModules[] | cdktn.IResolvable;
 }
@@ -872,17 +878,683 @@ export class GoogleClouddeployCustomTargetTypeCustomActionsOutputReference exten
     return this._includeSkaffoldModules.internalValue;
   }
 }
+export interface GoogleClouddeployCustomTargetTypeTasksDeployContainer {
+  /**
+  * Args is the container arguments to use. This overrides the default arguments defined in the container image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#args GoogleClouddeployCustomTargetType#args}
+  */
+  readonly args?: string[];
+  /**
+  * Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#command GoogleClouddeployCustomTargetType#command}
+  */
+  readonly command?: string[];
+  /**
+  * Environment variables that are set in the container.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#env GoogleClouddeployCustomTargetType#env}
+  */
+  readonly env?: { [key: string]: string };
+  /**
+  * Image is the container image to use.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#image GoogleClouddeployCustomTargetType#image}
+  */
+  readonly image: string;
+}
+
+export function googleClouddeployCustomTargetTypeTasksDeployContainerToTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference | GoogleClouddeployCustomTargetTypeTasksDeployContainer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    command: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.command),
+    env: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.env),
+    image: cdktn.stringToTerraform(struct!.image),
+  }
+}
+
+
+export function googleClouddeployCustomTargetTypeTasksDeployContainerToHclTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference | GoogleClouddeployCustomTargetTypeTasksDeployContainer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    args: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    command: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.command),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    env: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.env),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    image: {
+      value: cdktn.stringToHclTerraform(struct!.image),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleClouddeployCustomTargetTypeTasksDeployContainer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._args !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.args = this._args;
+    }
+    if (this._command !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.command = this._command;
+    }
+    if (this._env !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.env = this._env;
+    }
+    if (this._image !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.image = this._image;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleClouddeployCustomTargetTypeTasksDeployContainer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._args = undefined;
+      this._command = undefined;
+      this._env = undefined;
+      this._image = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._args = value.args;
+      this._command = value.command;
+      this._env = value.env;
+      this._image = value.image;
+    }
+  }
+
+  // args - computed: false, optional: true, required: false
+  private _args?: string[]; 
+  public get args() {
+    return this.getListAttribute('args');
+  }
+  public set args(value: string[]) {
+    this._args = value;
+  }
+  public resetArgs() {
+    this._args = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get argsInput() {
+    return this._args;
+  }
+
+  // command - computed: false, optional: true, required: false
+  private _command?: string[]; 
+  public get command() {
+    return this.getListAttribute('command');
+  }
+  public set command(value: string[]) {
+    this._command = value;
+  }
+  public resetCommand() {
+    this._command = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commandInput() {
+    return this._command;
+  }
+
+  // env - computed: false, optional: true, required: false
+  private _env?: { [key: string]: string }; 
+  public get env() {
+    return this.getStringMapAttribute('env');
+  }
+  public set env(value: { [key: string]: string }) {
+    this._env = value;
+  }
+  public resetEnv() {
+    this._env = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get envInput() {
+    return this._env;
+  }
+
+  // image - computed: false, optional: false, required: true
+  private _image?: string; 
+  public get image() {
+    return this.getStringAttribute('image');
+  }
+  public set image(value: string) {
+    this._image = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageInput() {
+    return this._image;
+  }
+}
+export interface GoogleClouddeployCustomTargetTypeTasksDeploy {
+  /**
+  * container block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#container GoogleClouddeployCustomTargetType#container}
+  */
+  readonly container?: GoogleClouddeployCustomTargetTypeTasksDeployContainer;
+}
+
+export function googleClouddeployCustomTargetTypeTasksDeployToTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksDeployOutputReference | GoogleClouddeployCustomTargetTypeTasksDeploy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    container: googleClouddeployCustomTargetTypeTasksDeployContainerToTerraform(struct!.container),
+  }
+}
+
+
+export function googleClouddeployCustomTargetTypeTasksDeployToHclTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksDeployOutputReference | GoogleClouddeployCustomTargetTypeTasksDeploy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    container: {
+      value: googleClouddeployCustomTargetTypeTasksDeployContainerToHclTerraform(struct!.container),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleClouddeployCustomTargetTypeTasksDeployContainerList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleClouddeployCustomTargetTypeTasksDeployOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleClouddeployCustomTargetTypeTasksDeploy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._container?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.container = this._container?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleClouddeployCustomTargetTypeTasksDeploy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._container.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._container.internalValue = value.container;
+    }
+  }
+
+  // container - computed: false, optional: true, required: false
+  private _container = new GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference(this, "container");
+  public get container() {
+    return this._container;
+  }
+  public putContainer(value: GoogleClouddeployCustomTargetTypeTasksDeployContainer) {
+    this._container.internalValue = value;
+  }
+  public resetContainer() {
+    this._container.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get containerInput() {
+    return this._container.internalValue;
+  }
+}
+export interface GoogleClouddeployCustomTargetTypeTasksRenderContainer {
+  /**
+  * Args is the container arguments to use. This overrides the default arguments defined in the container image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#args GoogleClouddeployCustomTargetType#args}
+  */
+  readonly args?: string[];
+  /**
+  * Command is the container entrypoint to use. This overrides the default entrypoint defined in the container image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#command GoogleClouddeployCustomTargetType#command}
+  */
+  readonly command?: string[];
+  /**
+  * Environment variables that are set in the container.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#env GoogleClouddeployCustomTargetType#env}
+  */
+  readonly env?: { [key: string]: string };
+  /**
+  * Image is the container image to use.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#image GoogleClouddeployCustomTargetType#image}
+  */
+  readonly image: string;
+}
+
+export function googleClouddeployCustomTargetTypeTasksRenderContainerToTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference | GoogleClouddeployCustomTargetTypeTasksRenderContainer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    command: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.command),
+    env: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.env),
+    image: cdktn.stringToTerraform(struct!.image),
+  }
+}
+
+
+export function googleClouddeployCustomTargetTypeTasksRenderContainerToHclTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference | GoogleClouddeployCustomTargetTypeTasksRenderContainer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    args: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    command: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.command),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    env: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.env),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    image: {
+      value: cdktn.stringToHclTerraform(struct!.image),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleClouddeployCustomTargetTypeTasksRenderContainer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._args !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.args = this._args;
+    }
+    if (this._command !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.command = this._command;
+    }
+    if (this._env !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.env = this._env;
+    }
+    if (this._image !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.image = this._image;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleClouddeployCustomTargetTypeTasksRenderContainer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._args = undefined;
+      this._command = undefined;
+      this._env = undefined;
+      this._image = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._args = value.args;
+      this._command = value.command;
+      this._env = value.env;
+      this._image = value.image;
+    }
+  }
+
+  // args - computed: false, optional: true, required: false
+  private _args?: string[]; 
+  public get args() {
+    return this.getListAttribute('args');
+  }
+  public set args(value: string[]) {
+    this._args = value;
+  }
+  public resetArgs() {
+    this._args = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get argsInput() {
+    return this._args;
+  }
+
+  // command - computed: false, optional: true, required: false
+  private _command?: string[]; 
+  public get command() {
+    return this.getListAttribute('command');
+  }
+  public set command(value: string[]) {
+    this._command = value;
+  }
+  public resetCommand() {
+    this._command = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commandInput() {
+    return this._command;
+  }
+
+  // env - computed: false, optional: true, required: false
+  private _env?: { [key: string]: string }; 
+  public get env() {
+    return this.getStringMapAttribute('env');
+  }
+  public set env(value: { [key: string]: string }) {
+    this._env = value;
+  }
+  public resetEnv() {
+    this._env = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get envInput() {
+    return this._env;
+  }
+
+  // image - computed: false, optional: false, required: true
+  private _image?: string; 
+  public get image() {
+    return this.getStringAttribute('image');
+  }
+  public set image(value: string) {
+    this._image = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageInput() {
+    return this._image;
+  }
+}
+export interface GoogleClouddeployCustomTargetTypeTasksRender {
+  /**
+  * container block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#container GoogleClouddeployCustomTargetType#container}
+  */
+  readonly container?: GoogleClouddeployCustomTargetTypeTasksRenderContainer;
+}
+
+export function googleClouddeployCustomTargetTypeTasksRenderToTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksRenderOutputReference | GoogleClouddeployCustomTargetTypeTasksRender): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    container: googleClouddeployCustomTargetTypeTasksRenderContainerToTerraform(struct!.container),
+  }
+}
+
+
+export function googleClouddeployCustomTargetTypeTasksRenderToHclTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksRenderOutputReference | GoogleClouddeployCustomTargetTypeTasksRender): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    container: {
+      value: googleClouddeployCustomTargetTypeTasksRenderContainerToHclTerraform(struct!.container),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleClouddeployCustomTargetTypeTasksRenderContainerList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleClouddeployCustomTargetTypeTasksRenderOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleClouddeployCustomTargetTypeTasksRender | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._container?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.container = this._container?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleClouddeployCustomTargetTypeTasksRender | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._container.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._container.internalValue = value.container;
+    }
+  }
+
+  // container - computed: false, optional: true, required: false
+  private _container = new GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference(this, "container");
+  public get container() {
+    return this._container;
+  }
+  public putContainer(value: GoogleClouddeployCustomTargetTypeTasksRenderContainer) {
+    this._container.internalValue = value;
+  }
+  public resetContainer() {
+    this._container.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get containerInput() {
+    return this._container.internalValue;
+  }
+}
+export interface GoogleClouddeployCustomTargetTypeTasks {
+  /**
+  * deploy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#deploy GoogleClouddeployCustomTargetType#deploy}
+  */
+  readonly deploy: GoogleClouddeployCustomTargetTypeTasksDeploy;
+  /**
+  * render block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#render GoogleClouddeployCustomTargetType#render}
+  */
+  readonly render?: GoogleClouddeployCustomTargetTypeTasksRender;
+}
+
+export function googleClouddeployCustomTargetTypeTasksToTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksOutputReference | GoogleClouddeployCustomTargetTypeTasks): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    deploy: googleClouddeployCustomTargetTypeTasksDeployToTerraform(struct!.deploy),
+    render: googleClouddeployCustomTargetTypeTasksRenderToTerraform(struct!.render),
+  }
+}
+
+
+export function googleClouddeployCustomTargetTypeTasksToHclTerraform(struct?: GoogleClouddeployCustomTargetTypeTasksOutputReference | GoogleClouddeployCustomTargetTypeTasks): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    deploy: {
+      value: googleClouddeployCustomTargetTypeTasksDeployToHclTerraform(struct!.deploy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleClouddeployCustomTargetTypeTasksDeployList",
+    },
+    render: {
+      value: googleClouddeployCustomTargetTypeTasksRenderToHclTerraform(struct!.render),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleClouddeployCustomTargetTypeTasksRenderList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleClouddeployCustomTargetTypeTasksOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleClouddeployCustomTargetTypeTasks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deploy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deploy = this._deploy?.internalValue;
+    }
+    if (this._render?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.render = this._render?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleClouddeployCustomTargetTypeTasks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._deploy.internalValue = undefined;
+      this._render.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._deploy.internalValue = value.deploy;
+      this._render.internalValue = value.render;
+    }
+  }
+
+  // deploy - computed: false, optional: false, required: true
+  private _deploy = new GoogleClouddeployCustomTargetTypeTasksDeployOutputReference(this, "deploy");
+  public get deploy() {
+    return this._deploy;
+  }
+  public putDeploy(value: GoogleClouddeployCustomTargetTypeTasksDeploy) {
+    this._deploy.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deployInput() {
+    return this._deploy.internalValue;
+  }
+
+  // render - computed: false, optional: true, required: false
+  private _render = new GoogleClouddeployCustomTargetTypeTasksRenderOutputReference(this, "render");
+  public get render() {
+    return this._render;
+  }
+  public putRender(value: GoogleClouddeployCustomTargetTypeTasksRender) {
+    this._render.internalValue = value;
+  }
+  public resetRender() {
+    this._render.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get renderInput() {
+    return this._render.internalValue;
+  }
+}
 export interface GoogleClouddeployCustomTargetTypeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#create GoogleClouddeployCustomTargetType#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#delete GoogleClouddeployCustomTargetType#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#update GoogleClouddeployCustomTargetType#update}
   */
   readonly update?: string;
 }
@@ -1034,7 +1706,7 @@ export class GoogleClouddeployCustomTargetTypeTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type google_clouddeploy_custom_target_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type google_clouddeploy_custom_target_type}
 */
 export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
 
@@ -1050,7 +1722,7 @@ export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleClouddeployCustomTargetType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleClouddeployCustomTargetType to import
-  * @param importFromId The id of the existing GoogleClouddeployCustomTargetType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleClouddeployCustomTargetType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleClouddeployCustomTargetType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1062,7 +1734,7 @@ export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1073,8 +1745,8 @@ export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
       terraformResourceType: 'google_clouddeploy_custom_target_type',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1092,6 +1764,7 @@ export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
     this._name = config.name;
     this._project = config.project;
     this._customActions.internalValue = config.customActions;
+    this._tasks.internalValue = config.tasks;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -1264,6 +1937,22 @@ export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
     return this._customActions.internalValue;
   }
 
+  // tasks - computed: false, optional: true, required: false
+  private _tasks = new GoogleClouddeployCustomTargetTypeTasksOutputReference(this, "tasks");
+  public get tasks() {
+    return this._tasks;
+  }
+  public putTasks(value: GoogleClouddeployCustomTargetTypeTasks) {
+    this._tasks.internalValue = value;
+  }
+  public resetTasks() {
+    this._tasks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tasksInput() {
+    return this._tasks.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleClouddeployCustomTargetTypeTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -1294,6 +1983,7 @@ export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
       name: cdktn.stringToTerraform(this._name),
       project: cdktn.stringToTerraform(this._project),
       custom_actions: googleClouddeployCustomTargetTypeCustomActionsToTerraform(this._customActions.internalValue),
+      tasks: googleClouddeployCustomTargetTypeTasksToTerraform(this._tasks.internalValue),
       timeouts: googleClouddeployCustomTargetTypeTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1347,6 +2037,12 @@ export class GoogleClouddeployCustomTargetType extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GoogleClouddeployCustomTargetTypeCustomActionsList",
+      },
+      tasks: {
+        value: googleClouddeployCustomTargetTypeTasksToHclTerraform(this._tasks.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleClouddeployCustomTargetTypeTasksList",
       },
       timeouts: {
         value: googleClouddeployCustomTargetTypeTimeoutsToHclTerraform(this._timeouts.internalValue),

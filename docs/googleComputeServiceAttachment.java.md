@@ -4,7 +4,7 @@
 
 ### GoogleComputeServiceAttachment <a name="GoogleComputeServiceAttachment" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer"></a>
 
@@ -34,7 +34,9 @@ GoogleComputeServiceAttachment.Builder.create(Construct scope, java.lang.String 
 //  .reconcileConnections(java.lang.Boolean|IResolvable)
 //  .region(java.lang.String)
 //  .sendPropagatedConnectionLimitIfZero(java.lang.Boolean|IResolvable)
+//  .showNatIps(java.lang.Boolean|IResolvable)
 //  .timeouts(GoogleComputeServiceAttachmentTimeouts)
+//  .tunnelingConfig(GoogleComputeServiceAttachmentTunnelingConfig)
     .build();
 ```
 
@@ -58,13 +60,15 @@ GoogleComputeServiceAttachment.Builder.create(Construct scope, java.lang.String 
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.consumerRejectLists">consumerRejectLists</a></code> | <code>java.util.List<java.lang.String></code> | An array of projects that are not allowed to connect to this service attachment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.domainNames">domainNames</a></code> | <code>java.util.List<java.lang.String></code> | If specified, the domain name will be used during the integration between the PSC connected endpoints and the Cloud DNS. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.propagatedConnectionLimit">propagatedConnectionLimit</a></code> | <code>java.lang.Number</code> | The number of consumer spokes that connected Private Service Connect endpoints can be propagated to through Network Connectivity Center. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.reconcileConnections">reconcileConnections</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | This flag determines whether a consumer accept/reject list change can reconcile the statuses of existing ACCEPTED or REJECTED PSC endpoints. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | URL of the region where the resource resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.sendPropagatedConnectionLimitIfZero">sendPropagatedConnectionLimitIfZero</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Controls the behavior of propagated_connection_limit. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.showNatIps">showNatIps</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | NOTE: This field is temporarily non-functional due to an underlying API issue. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.tunnelingConfig">tunnelingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a></code> | tunneling_config block. |
 
 ---
 
@@ -134,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 The connection preference to use for this service attachment. Valid values include "ACCEPT_AUTOMATIC", "ACCEPT_MANUAL".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
 
 ---
 
@@ -144,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, enable the proxy protocol which is for supplying client TCP/IP address data in TCP connections that traverse proxies on their way to destination servers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
 
 ---
 
@@ -161,7 +165,7 @@ which means the first character must be a lowercase letter, and all
 following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
 
 ---
 
@@ -171,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of subnets that is provided for NAT in this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
 
 ---
 
@@ -181,7 +185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URL of a service serving the endpoint identified by this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
 
 ---
 
@@ -191,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 consumer_accept_lists block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
 
 ---
 
@@ -201,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of projects that are not allowed to connect to this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
 
 ---
 
@@ -211,7 +215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
 
 ---
 
@@ -225,7 +229,7 @@ For example, this is a
 valid domain name: "p.mycompany.com.". Current max number of domain names
 supported is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
 
 ---
 
@@ -233,7 +237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -244,7 +248,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}.
 
 ---
 
@@ -261,7 +265,7 @@ If the connection preference of the service attachment is ACCEPT_AUTOMATIC, the 
 
 If unspecified, the default propagated connection limit is 250. To explicitly send a zero value, set 'send_propagated_connection_limit_if_zero = true'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
 
 ---
 
@@ -274,7 +278,7 @@ This flag determines whether a consumer accept/reject list change can reconcile 
 If false, connection policy update will only affect existing PENDING PSC endpoints. Existing ACCEPTED/REJECTED endpoints will remain untouched regardless how the connection policy is modified .
 If true, update will affect both PENDING and ACCEPTED/REJECTED PSC endpoints. For example, an ACCEPTED PSC endpoint will be moved to REJECTED if its project is added to the reject list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
 
 ---
 
@@ -284,7 +288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of the region where the resource resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
 
 ---
 
@@ -298,7 +302,20 @@ When false, setting propagated_connection_limit to zero causes the provider to u
 When true, the provider will set propagated_connection_limit to zero.
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
+
+---
+
+##### `showNatIps`<sup>Optional</sup> <a name="showNatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.showNatIps"></a>
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+NOTE: This field is temporarily non-functional due to an underlying API issue.
+
+Any value provided here will be ignored until the API issue is resolved, expected around 2026-03.
+[If true, show NAT IPs of all connected endpoints.]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#show_nat_ips GoogleComputeServiceAttachment#show_nat_ips}
 
 ---
 
@@ -308,7 +325,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
+
+---
+
+##### `tunnelingConfig`<sup>Optional</sup> <a name="tunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.Initializer.parameter.tunnelingConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
+
+tunneling_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#tunneling_config GoogleComputeServiceAttachment#tunneling_config}
 
 ---
 
@@ -342,6 +369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putConsumerAcceptLists">putConsumerAcceptLists</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTunnelingConfig">putTunnelingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetConsumerAcceptLists">resetConsumerAcceptLists</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetConsumerRejectLists">resetConsumerRejectLists</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetDescription">resetDescription</a></code> | *No description.* |
@@ -352,7 +380,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetReconcileConnections">resetReconcileConnections</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetRegion">resetRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetSendPropagatedConnectionLimitIfZero">resetSendPropagatedConnectionLimitIfZero</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetShowNatIps">resetShowNatIps</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTimeouts">resetTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTunnelingConfig">resetTunnelingConfig</a></code> | *No description.* |
 
 ---
 
@@ -691,6 +721,18 @@ public void putTimeouts(GoogleComputeServiceAttachmentTimeouts value)
 
 ---
 
+##### `putTunnelingConfig` <a name="putTunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTunnelingConfig"></a>
+
+```java
+public void putTunnelingConfig(GoogleComputeServiceAttachmentTunnelingConfig value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.putTunnelingConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
+
+---
+
 ##### `resetConsumerAcceptLists` <a name="resetConsumerAcceptLists" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetConsumerAcceptLists"></a>
 
 ```java
@@ -751,10 +793,22 @@ public void resetRegion()
 public void resetSendPropagatedConnectionLimitIfZero()
 ```
 
+##### `resetShowNatIps` <a name="resetShowNatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetShowNatIps"></a>
+
+```java
+public void resetShowNatIps()
+```
+
 ##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTimeouts"></a>
 
 ```java
 public void resetTimeouts()
+```
+
+##### `resetTunnelingConfig` <a name="resetTunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.resetTunnelingConfig"></a>
+
+```java
+public void resetTunnelingConfig()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -860,7 +914,7 @@ The construct id used in the generated config for the GoogleComputeServiceAttach
 
 The id of the existing GoogleComputeServiceAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -893,8 +947,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.connectedEndpoints">connectedEndpoints</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsList">GoogleComputeServiceAttachmentConnectedEndpointsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerAcceptLists">consumerAcceptLists</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsList">GoogleComputeServiceAttachmentConsumerAcceptListsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.fingerprint">fingerprint</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.pscServiceAttachmentId">pscServiceAttachmentId</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList">GoogleComputeServiceAttachmentPscServiceAttachmentIdList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.selfLink">selfLink</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeoutsOutputReference">GoogleComputeServiceAttachmentTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfig">tunnelingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference">GoogleComputeServiceAttachmentTunnelingConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.connectionPreferenceInput">connectionPreferenceInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerAcceptListsInput">consumerAcceptListsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists">GoogleComputeServiceAttachmentConsumerAcceptLists</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerRejectListsInput">consumerRejectListsInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -909,8 +965,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.reconcileConnectionsInput">reconcileConnectionsInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.regionInput">regionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.sendPropagatedConnectionLimitIfZeroInput">sendPropagatedConnectionLimitIfZeroInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIpsInput">showNatIpsInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetServiceInput">targetServiceInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfigInput">tunnelingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.connectionPreference">connectionPreference</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.consumerRejectLists">consumerRejectLists</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -924,6 +982,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.reconcileConnections">reconcileConnections</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.region">region</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.sendPropagatedConnectionLimitIfZero">sendPropagatedConnectionLimitIfZero</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIps">showNatIps</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetService">targetService</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
@@ -1100,6 +1159,16 @@ public java.lang.String getFingerprint();
 
 ---
 
+##### `pscServiceAttachmentId`<sup>Required</sup> <a name="pscServiceAttachmentId" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.pscServiceAttachmentId"></a>
+
+```java
+public GoogleComputeServiceAttachmentPscServiceAttachmentIdList getPscServiceAttachmentId();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList">GoogleComputeServiceAttachmentPscServiceAttachmentIdList</a>
+
+---
+
 ##### `selfLink`<sup>Required</sup> <a name="selfLink" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.selfLink"></a>
 
 ```java
@@ -1117,6 +1186,16 @@ public GoogleComputeServiceAttachmentTimeoutsOutputReference getTimeouts();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeoutsOutputReference">GoogleComputeServiceAttachmentTimeoutsOutputReference</a>
+
+---
+
+##### `tunnelingConfig`<sup>Required</sup> <a name="tunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfig"></a>
+
+```java
+public GoogleComputeServiceAttachmentTunnelingConfigOutputReference getTunnelingConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference">GoogleComputeServiceAttachmentTunnelingConfigOutputReference</a>
 
 ---
 
@@ -1260,6 +1339,16 @@ public java.lang.Boolean|IResolvable getSendPropagatedConnectionLimitIfZeroInput
 
 ---
 
+##### `showNatIpsInput`<sup>Optional</sup> <a name="showNatIpsInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIpsInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getShowNatIpsInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
 ##### `targetServiceInput`<sup>Optional</sup> <a name="targetServiceInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetServiceInput"></a>
 
 ```java
@@ -1277,6 +1366,16 @@ public IResolvable|GoogleComputeServiceAttachmentTimeouts getTimeoutsInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a>
+
+---
+
+##### `tunnelingConfigInput`<sup>Optional</sup> <a name="tunnelingConfigInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.tunnelingConfigInput"></a>
+
+```java
+public GoogleComputeServiceAttachmentTunnelingConfig getTunnelingConfigInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
 
 ---
 
@@ -1410,6 +1509,16 @@ public java.lang.Boolean|IResolvable getSendPropagatedConnectionLimitIfZero();
 
 ---
 
+##### `showNatIps`<sup>Required</sup> <a name="showNatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.showNatIps"></a>
+
+```java
+public java.lang.Boolean|IResolvable getShowNatIps();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
 ##### `targetService`<sup>Required</sup> <a name="targetService" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment.property.targetService"></a>
 
 ```java
@@ -1470,7 +1579,9 @@ GoogleComputeServiceAttachmentConfig.builder()
 //  .reconcileConnections(java.lang.Boolean|IResolvable)
 //  .region(java.lang.String)
 //  .sendPropagatedConnectionLimitIfZero(java.lang.Boolean|IResolvable)
+//  .showNatIps(java.lang.Boolean|IResolvable)
 //  .timeouts(GoogleComputeServiceAttachmentTimeouts)
+//  .tunnelingConfig(GoogleComputeServiceAttachmentTunnelingConfig)
     .build();
 ```
 
@@ -1494,13 +1605,15 @@ GoogleComputeServiceAttachmentConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.consumerRejectLists">consumerRejectLists</a></code> | <code>java.util.List<java.lang.String></code> | An array of projects that are not allowed to connect to this service attachment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.domainNames">domainNames</a></code> | <code>java.util.List<java.lang.String></code> | If specified, the domain name will be used during the integration between the PSC connected endpoints and the Cloud DNS. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.propagatedConnectionLimit">propagatedConnectionLimit</a></code> | <code>java.lang.Number</code> | The number of consumer spokes that connected Private Service Connect endpoints can be propagated to through Network Connectivity Center. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.reconcileConnections">reconcileConnections</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | This flag determines whether a consumer accept/reject list change can reconcile the statuses of existing ACCEPTED or REJECTED PSC endpoints. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.region">region</a></code> | <code>java.lang.String</code> | URL of the region where the resource resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.sendPropagatedConnectionLimitIfZero">sendPropagatedConnectionLimitIfZero</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Controls the behavior of propagated_connection_limit. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.showNatIps">showNatIps</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | NOTE: This field is temporarily non-functional due to an underlying API issue. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.tunnelingConfig">tunnelingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a></code> | tunneling_config block. |
 
 ---
 
@@ -1584,7 +1697,7 @@ public java.lang.String getConnectionPreference();
 
 The connection preference to use for this service attachment. Valid values include "ACCEPT_AUTOMATIC", "ACCEPT_MANUAL".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#connection_preference GoogleComputeServiceAttachment#connection_preference}
 
 ---
 
@@ -1598,7 +1711,7 @@ public java.lang.Boolean|IResolvable getEnableProxyProtocol();
 
 If true, enable the proxy protocol which is for supplying client TCP/IP address data in TCP connections that traverse proxies on their way to destination servers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
 
 ---
 
@@ -1619,7 +1732,7 @@ which means the first character must be a lowercase letter, and all
 following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#name GoogleComputeServiceAttachment#name}
 
 ---
 
@@ -1633,7 +1746,7 @@ public java.util.List<java.lang.String> getNatSubnets();
 
 An array of subnets that is provided for NAT in this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#nat_subnets GoogleComputeServiceAttachment#nat_subnets}
 
 ---
 
@@ -1647,7 +1760,7 @@ public java.lang.String getTargetService();
 
 The URL of a service serving the endpoint identified by this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#target_service GoogleComputeServiceAttachment#target_service}
 
 ---
 
@@ -1661,7 +1774,7 @@ public IResolvable|java.util.List<GoogleComputeServiceAttachmentConsumerAcceptLi
 
 consumer_accept_lists block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
 
 ---
 
@@ -1675,7 +1788,7 @@ public java.util.List<java.lang.String> getConsumerRejectLists();
 
 An array of projects that are not allowed to connect to this service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#consumer_reject_lists GoogleComputeServiceAttachment#consumer_reject_lists}
 
 ---
 
@@ -1689,7 +1802,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#description GoogleComputeServiceAttachment#description}
 
 ---
 
@@ -1707,7 +1820,7 @@ For example, this is a
 valid domain name: "p.mycompany.com.". Current max number of domain names
 supported is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#domain_names GoogleComputeServiceAttachment#domain_names}
 
 ---
 
@@ -1719,7 +1832,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1734,7 +1847,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project GoogleComputeServiceAttachment#project}.
 
 ---
 
@@ -1755,7 +1868,7 @@ If the connection preference of the service attachment is ACCEPT_AUTOMATIC, the 
 
 If unspecified, the default propagated connection limit is 250. To explicitly send a zero value, set 'send_propagated_connection_limit_if_zero = true'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#propagated_connection_limit GoogleComputeServiceAttachment#propagated_connection_limit}
 
 ---
 
@@ -1772,7 +1885,7 @@ This flag determines whether a consumer accept/reject list change can reconcile 
 If false, connection policy update will only affect existing PENDING PSC endpoints. Existing ACCEPTED/REJECTED endpoints will remain untouched regardless how the connection policy is modified .
 If true, update will affect both PENDING and ACCEPTED/REJECTED PSC endpoints. For example, an ACCEPTED PSC endpoint will be moved to REJECTED if its project is added to the reject list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
 
 ---
 
@@ -1786,7 +1899,7 @@ public java.lang.String getRegion();
 
 URL of the region where the resource resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#region GoogleComputeServiceAttachment#region}
 
 ---
 
@@ -1804,7 +1917,24 @@ When false, setting propagated_connection_limit to zero causes the provider to u
 When true, the provider will set propagated_connection_limit to zero.
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
+
+---
+
+##### `showNatIps`<sup>Optional</sup> <a name="showNatIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.showNatIps"></a>
+
+```java
+public java.lang.Boolean|IResolvable getShowNatIps();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+NOTE: This field is temporarily non-functional due to an underlying API issue.
+
+Any value provided here will be ignored until the API issue is resolved, expected around 2026-03.
+[If true, show NAT IPs of all connected endpoints.]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#show_nat_ips GoogleComputeServiceAttachment#show_nat_ips}
 
 ---
 
@@ -1818,7 +1948,21 @@ public GoogleComputeServiceAttachmentTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#timeouts GoogleComputeServiceAttachment#timeouts}
+
+---
+
+##### `tunnelingConfig`<sup>Optional</sup> <a name="tunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConfig.property.tunnelingConfig"></a>
+
+```java
+public GoogleComputeServiceAttachmentTunnelingConfig getTunnelingConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
+
+tunneling_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#tunneling_config GoogleComputeServiceAttachment#tunneling_config}
 
 ---
 
@@ -1843,6 +1987,7 @@ import io.cdktn.providers.google_beta.google_compute_service_attachment.GoogleCo
 
 GoogleComputeServiceAttachmentConsumerAcceptLists.builder()
     .connectionLimit(java.lang.Number)
+//  .endpointUrl(java.lang.String)
 //  .networkUrl(java.lang.String)
 //  .projectIdOrNum(java.lang.String)
     .build();
@@ -1853,6 +1998,7 @@ GoogleComputeServiceAttachmentConsumerAcceptLists.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.connectionLimit">connectionLimit</a></code> | <code>java.lang.Number</code> | The number of consumer forwarding rules the consumer project can create. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.endpointUrl">endpointUrl</a></code> | <code>java.lang.String</code> | The endpoint that is allowed to connect to this service attachment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.networkUrl">networkUrl</a></code> | <code>java.lang.String</code> | The network that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.projectIdOrNum">projectIdOrNum</a></code> | <code>java.lang.String</code> | A project that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set. |
 
@@ -1868,7 +2014,23 @@ public java.lang.Number getConnectionLimit();
 
 The number of consumer forwarding rules the consumer project can create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#connection_limit GoogleComputeServiceAttachment#connection_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#connection_limit GoogleComputeServiceAttachment#connection_limit}
+
+---
+
+##### `endpointUrl`<sup>Optional</sup> <a name="endpointUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists.property.endpointUrl"></a>
+
+```java
+public java.lang.String getEndpointUrl();
+```
+
+- *Type:* java.lang.String
+
+The endpoint that is allowed to connect to this service attachment.
+
+Only one of project_id_or_num, network_url and endpoint_url may be set.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#endpoint_url GoogleComputeServiceAttachment#endpoint_url}
 
 ---
 
@@ -1882,7 +2044,7 @@ public java.lang.String getNetworkUrl();
 
 The network that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#network_url GoogleComputeServiceAttachment#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#network_url GoogleComputeServiceAttachment#network_url}
 
 ---
 
@@ -1896,9 +2058,21 @@ public java.lang.String getProjectIdOrNum();
 
 A project that is allowed to connect to this service attachment. Only one of project_id_or_num and network_url may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#project_id_or_num GoogleComputeServiceAttachment#project_id_or_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#project_id_or_num GoogleComputeServiceAttachment#project_id_or_num}
 
 ---
+
+### GoogleComputeServiceAttachmentPscServiceAttachmentId <a name="GoogleComputeServiceAttachmentPscServiceAttachmentId" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_service_attachment.GoogleComputeServiceAttachmentPscServiceAttachmentId;
+
+GoogleComputeServiceAttachmentPscServiceAttachmentId.builder()
+    .build();
+```
+
 
 ### GoogleComputeServiceAttachmentTimeouts <a name="GoogleComputeServiceAttachmentTimeouts" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts"></a>
 
@@ -1918,9 +2092,9 @@ GoogleComputeServiceAttachmentTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}. |
 
 ---
 
@@ -1932,7 +2106,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#create GoogleComputeServiceAttachment#create}.
 
 ---
 
@@ -1944,7 +2118,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#delete GoogleComputeServiceAttachment#delete}.
 
 ---
 
@@ -1956,7 +2130,57 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#update GoogleComputeServiceAttachment#update}.
+
+---
+
+### GoogleComputeServiceAttachmentTunnelingConfig <a name="GoogleComputeServiceAttachmentTunnelingConfig" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_service_attachment.GoogleComputeServiceAttachmentTunnelingConfig;
+
+GoogleComputeServiceAttachmentTunnelingConfig.builder()
+//  .encapsulationProfile(java.lang.String)
+//  .routingMode(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.encapsulationProfile">encapsulationProfile</a></code> | <code>java.lang.String</code> | The encapsulation profile for tunneling traffic. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.routingMode">routingMode</a></code> | <code>java.lang.String</code> | The routing mode for tunneling traffic. |
+
+---
+
+##### `encapsulationProfile`<sup>Optional</sup> <a name="encapsulationProfile" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.encapsulationProfile"></a>
+
+```java
+public java.lang.String getEncapsulationProfile();
+```
+
+- *Type:* java.lang.String
+
+The encapsulation profile for tunneling traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#encapsulation_profile GoogleComputeServiceAttachment#encapsulation_profile}
+
+---
+
+##### `routingMode`<sup>Optional</sup> <a name="routingMode" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig.property.routingMode"></a>
+
+```java
+public java.lang.String getRoutingMode();
+```
+
+- *Type:* java.lang.String
+
+The routing mode for tunneling traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment#routing_mode GoogleComputeServiceAttachment#routing_mode}
 
 ---
 
@@ -2341,6 +2565,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.consumerNetwork">consumerNetwork</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.endpoint">endpoint</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.natIps">natIps</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.propagatedConnectionCount">propagatedConnectionCount</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.pscConnectionId">pscConnectionId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.status">status</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -2389,6 +2614,16 @@ public java.lang.String getEndpoint();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `natIps`<sup>Required</sup> <a name="natIps" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConnectedEndpointsOutputReference.property.natIps"></a>
+
+```java
+public java.util.List<java.lang.String> getNatIps();
+```
+
+- *Type:* java.util.List<java.lang.String>
 
 ---
 
@@ -2661,6 +2896,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetEndpointUrl">resetEndpointUrl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetNetworkUrl">resetNetworkUrl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetProjectIdOrNum">resetProjectIdOrNum</a></code> | *No description.* |
 
@@ -2816,6 +3052,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetEndpointUrl` <a name="resetEndpointUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetEndpointUrl"></a>
+
+```java
+public void resetEndpointUrl()
+```
+
 ##### `resetNetworkUrl` <a name="resetNetworkUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.resetNetworkUrl"></a>
 
 ```java
@@ -2836,9 +3078,11 @@ public void resetProjectIdOrNum()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.connectionLimitInput">connectionLimitInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrlInput">endpointUrlInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrlInput">networkUrlInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.projectIdOrNumInput">projectIdOrNumInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.connectionLimit">connectionLimit</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrl">endpointUrl</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrl">networkUrl</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.projectIdOrNum">projectIdOrNum</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists">GoogleComputeServiceAttachmentConsumerAcceptLists</a></code> | *No description.* |
@@ -2879,6 +3123,16 @@ public java.lang.Number getConnectionLimitInput();
 
 ---
 
+##### `endpointUrlInput`<sup>Optional</sup> <a name="endpointUrlInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrlInput"></a>
+
+```java
+public java.lang.String getEndpointUrlInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `networkUrlInput`<sup>Optional</sup> <a name="networkUrlInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrlInput"></a>
 
 ```java
@@ -2909,6 +3163,16 @@ public java.lang.Number getConnectionLimit();
 
 ---
 
+##### `endpointUrl`<sup>Required</sup> <a name="endpointUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.endpointUrl"></a>
+
+```java
+public java.lang.String getEndpointUrl();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `networkUrl`<sup>Required</sup> <a name="networkUrl" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference.property.networkUrl"></a>
 
 ```java
@@ -2936,6 +3200,444 @@ public IResolvable|GoogleComputeServiceAttachmentConsumerAcceptLists getInternal
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentConsumerAcceptLists">GoogleComputeServiceAttachmentConsumerAcceptLists</a>
+
+---
+
+
+### GoogleComputeServiceAttachmentPscServiceAttachmentIdList <a name="GoogleComputeServiceAttachmentPscServiceAttachmentIdList" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_service_attachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList;
+
+new GoogleComputeServiceAttachmentPscServiceAttachmentIdList(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Boolean wrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.allWithMapKey"></a>
+
+```java
+public DynamicListTerraformIterator allWithMapKey(java.lang.String mapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.get"></a>
+
+```java
+public GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference get(java.lang.Number index)
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.get.parameter.index"></a>
+
+- *Type:* java.lang.Number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdList.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+
+### GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference <a name="GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_service_attachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference;
+
+new GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Number complexObjectIndex, java.lang.Boolean complexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>java.lang.Number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* java.lang.Number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.high">high</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.low">low</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId">GoogleComputeServiceAttachmentPscServiceAttachmentId</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `high`<sup>Required</sup> <a name="high" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.high"></a>
+
+```java
+public java.lang.String getHigh();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `low`<sup>Required</sup> <a name="low" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.low"></a>
+
+```java
+public java.lang.String getLow();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentIdOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeServiceAttachmentPscServiceAttachmentId getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentPscServiceAttachmentId">GoogleComputeServiceAttachmentPscServiceAttachmentId</a>
 
 ---
 
@@ -3272,6 +3974,313 @@ public IResolvable|GoogleComputeServiceAttachmentTimeouts getInternalValue();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTimeouts">GoogleComputeServiceAttachmentTimeouts</a>
+
+---
+
+
+### GoogleComputeServiceAttachmentTunnelingConfigOutputReference <a name="GoogleComputeServiceAttachmentTunnelingConfigOutputReference" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_compute_service_attachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference;
+
+new GoogleComputeServiceAttachmentTunnelingConfigOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetEncapsulationProfile">resetEncapsulationProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetRoutingMode">resetRoutingMode</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetEncapsulationProfile` <a name="resetEncapsulationProfile" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetEncapsulationProfile"></a>
+
+```java
+public void resetEncapsulationProfile()
+```
+
+##### `resetRoutingMode` <a name="resetRoutingMode" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.resetRoutingMode"></a>
+
+```java
+public void resetRoutingMode()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfileInput">encapsulationProfileInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingModeInput">routingModeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfile">encapsulationProfile</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingMode">routingMode</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `encapsulationProfileInput`<sup>Optional</sup> <a name="encapsulationProfileInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfileInput"></a>
+
+```java
+public java.lang.String getEncapsulationProfileInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `routingModeInput`<sup>Optional</sup> <a name="routingModeInput" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingModeInput"></a>
+
+```java
+public java.lang.String getRoutingModeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `encapsulationProfile`<sup>Required</sup> <a name="encapsulationProfile" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.encapsulationProfile"></a>
+
+```java
+public java.lang.String getEncapsulationProfile();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `routingMode`<sup>Required</sup> <a name="routingMode" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.routingMode"></a>
+
+```java
+public java.lang.String getRoutingMode();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfigOutputReference.property.internalValue"></a>
+
+```java
+public GoogleComputeServiceAttachmentTunnelingConfig getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachmentTunnelingConfig">GoogleComputeServiceAttachmentTunnelingConfig</a>
 
 ---
 

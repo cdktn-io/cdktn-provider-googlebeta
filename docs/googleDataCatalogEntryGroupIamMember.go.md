@@ -4,12 +4,12 @@
 
 ### GoogleDataCatalogEntryGroupIamMember <a name="GoogleDataCatalogEntryGroupIamMember" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member google_data_catalog_entry_group_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member google_data_catalog_entry_group_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 googledatacatalogentrygroupiammember.NewGoogleDataCatalogEntryGroupIamMember(scope Construct, id *string, config GoogleDataCatalogEntryGroupIamMemberConfig) GoogleDataCatalogEntryGroupIamMember
 ```
@@ -441,7 +441,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMember_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMember_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDataCatalogEntryGrou
 
 The id of the existing GoogleDataCatalogEntryGroupIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 &googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMemberCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#expression GoogleDataCatalogEntryGroupIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#title GoogleDataCatalogEntryGroupIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#description GoogleDataCatalogEntryGroupIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#expression GoogleDataCatalogEntryGroupIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#title GoogleDataCatalogEntryGroupIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#description GoogleDataCatalogEntryGroupIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#expression GoogleDataCatalogEntryGroupIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#expression GoogleDataCatalogEntryGroupIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#title GoogleDataCatalogEntryGroupIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#title GoogleDataCatalogEntryGroupIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#description GoogleDataCatalogEntryGroupIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#description GoogleDataCatalogEntryGroupIamMember#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 &googledatacatalogentrygroupiammember.GoogleDataCatalogEntryGroupIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	EntryGroup: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition,
 	Id: *string,
 	Project: *string,
 	Region: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.entryGroup">EntryGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#entry_group GoogleDataCatalogEntryGroupIamMember#entry_group}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#member GoogleDataCatalogEntryGroupIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#role GoogleDataCatalogEntryGroupIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.entryGroup">EntryGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#entry_group GoogleDataCatalogEntryGroupIamMember#entry_group}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#member GoogleDataCatalogEntryGroupIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#role GoogleDataCatalogEntryGroupIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberCondition">GoogleDataCatalogEntryGroupIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#id GoogleDataCatalogEntryGroupIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#project GoogleDataCatalogEntryGroupIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#region GoogleDataCatalogEntryGroupIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#id GoogleDataCatalogEntryGroupIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#project GoogleDataCatalogEntryGroupIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#region GoogleDataCatalogEntryGroupIamMember#region}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ EntryGroup *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#entry_group GoogleDataCatalogEntryGroupIamMember#entry_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#entry_group GoogleDataCatalogEntryGroupIamMember#entry_group}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#member GoogleDataCatalogEntryGroupIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#member GoogleDataCatalogEntryGroupIamMember#member}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#role GoogleDataCatalogEntryGroupIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#role GoogleDataCatalogEntryGroupIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleDataCatalogEntryGroupIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#condition GoogleDataCatalogEntryGroupIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#condition GoogleDataCatalogEntryGroupIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#id GoogleDataCatalogEntryGroupIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#id GoogleDataCatalogEntryGroupIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#project GoogleDataCatalogEntryGroupIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#project GoogleDataCatalogEntryGroupIamMember#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_member#region GoogleDataCatalogEntryGroupIamMember#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_member#region GoogleDataCatalogEntryGroupIamMember#region}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamMember.GoogleDataCatalogEntryGroupIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiammember"
 
 googledatacatalogentrygroupiammember.NewGoogleDataCatalogEntryGroupIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataCatalogEntryGroupIamMemberConditionOutputReference
 ```

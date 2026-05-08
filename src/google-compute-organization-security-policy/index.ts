@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface GoogleComputeOrganizationSecurityPolicyConfig extends cdktn.Ter
   /**
   * A textual description for the organization security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#description GoogleComputeOrganizationSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#description GoogleComputeOrganizationSecurityPolicy#description}
   */
   readonly description?: string;
   /**
-  * A textual name of the security policy.
+  * User-provided name of the organization security policy. The name should be unique in the organization in which the security policy is created. This should only be used when SecurityPolicyType is FIREWALL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#display_name GoogleComputeOrganizationSecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#display_name GoogleComputeOrganizationSecurityPolicy#display_name}
   */
-  readonly displayName: string;
+  readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#id GoogleComputeOrganizationSecurityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#id GoogleComputeOrganizationSecurityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,35 +35,41 @@ export interface GoogleComputeOrganizationSecurityPolicyConfig extends cdktn.Ter
   * The parent of this OrganizationSecurityPolicy in the Cloud Resource Hierarchy.
   * Format: organizations/{organization_id} or folders/{folder_id}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#parent GoogleComputeOrganizationSecurityPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#parent GoogleComputeOrganizationSecurityPolicy#parent}
   */
   readonly parent: string;
   /**
-  * The type indicates the intended use of the security policy.
-  * For organization security policies, the only supported type
-  * is "FIREWALL". Default value: "FIREWALL" Possible values: ["FIREWALL"]
+  * User-provided name of the organization security policy. The name should be unique in the organization in which the security policy is created. This should only be used when SecurityPolicyType is CLOUD_ARMOR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#type GoogleComputeOrganizationSecurityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#short_name GoogleComputeOrganizationSecurityPolicy#short_name}
+  */
+  readonly shortName?: string;
+  /**
+  * The type indicates the intended use of the security policy. This field can be set only at resource creation time.
+  * 
+  * **NOTE** : 'FIREWALL' type is deprecated and will be removed in a future major release. Please use 'google_compute_firewall_policy' instead." Possible values: ["FIREWALL", "CLOUD_ARMOR", "CLOUD_ARMOR_EDGE", "CLOUD_ARMOR_INTERNAL_SERVICE", "CLOUD_ARMOR_NETWORK"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#type GoogleComputeOrganizationSecurityPolicy#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#timeouts GoogleComputeOrganizationSecurityPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#timeouts GoogleComputeOrganizationSecurityPolicy#timeouts}
   */
   readonly timeouts?: GoogleComputeOrganizationSecurityPolicyTimeouts;
 }
 export interface GoogleComputeOrganizationSecurityPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#create GoogleComputeOrganizationSecurityPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#create GoogleComputeOrganizationSecurityPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#delete GoogleComputeOrganizationSecurityPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#delete GoogleComputeOrganizationSecurityPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#update GoogleComputeOrganizationSecurityPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#update GoogleComputeOrganizationSecurityPolicy#update}
   */
   readonly update?: string;
 }
@@ -215,7 +221,7 @@ export class GoogleComputeOrganizationSecurityPolicyTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy}
 */
 export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformResource {
 
@@ -231,7 +237,7 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
   * Generates CDKTN code for importing a GoogleComputeOrganizationSecurityPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeOrganizationSecurityPolicy to import
-  * @param importFromId The id of the existing GoogleComputeOrganizationSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeOrganizationSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeOrganizationSecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -243,7 +249,7 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +260,8 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
       terraformResourceType: 'google_compute_organization_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -269,6 +275,7 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
     this._displayName = config.displayName;
     this._id = config.id;
     this._parent = config.parent;
+    this._shortName = config.shortName;
     this._type = config.type;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -293,13 +300,16 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
     return this._description;
   }
 
-  // display_name - computed: false, optional: false, required: true
+  // display_name - computed: false, optional: true, required: false
   private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
   public set displayName(value: string) {
     this._displayName = value;
+  }
+  public resetDisplayName() {
+    this._displayName = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
@@ -345,7 +355,23 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
     return this.getStringAttribute('policy_id');
   }
 
-  // type - computed: false, optional: true, required: false
+  // short_name - computed: false, optional: true, required: false
+  private _shortName?: string; 
+  public get shortName() {
+    return this.getStringAttribute('short_name');
+  }
+  public set shortName(value: string) {
+    this._shortName = value;
+  }
+  public resetShortName() {
+    this._shortName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shortNameInput() {
+    return this._shortName;
+  }
+
+  // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
@@ -387,6 +413,7 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
       parent: cdktn.stringToTerraform(this._parent),
+      short_name: cdktn.stringToTerraform(this._shortName),
       type: cdktn.stringToTerraform(this._type),
       timeouts: googleComputeOrganizationSecurityPolicyTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -414,6 +441,12 @@ export class GoogleComputeOrganizationSecurityPolicy extends cdktn.TerraformReso
       },
       parent: {
         value: cdktn.stringToHclTerraform(this._parent),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      short_name: {
+        value: cdktn.stringToHclTerraform(this._shortName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

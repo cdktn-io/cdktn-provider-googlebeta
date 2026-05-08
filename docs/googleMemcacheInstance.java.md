@@ -4,7 +4,7 @@
 
 ### GoogleMemcacheInstance <a name="GoogleMemcacheInstance" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance google_memcache_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance google_memcache_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleMemcacheInstance.Builder.create(Construct scope, java.lang.String id)
     .nodeConfig(GoogleMemcacheInstanceNodeConfig)
     .nodeCount(java.lang.Number)
 //  .authorizedNetwork(java.lang.String)
+//  .deletionProtection(java.lang.Boolean|IResolvable)
 //  .displayName(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -52,13 +53,14 @@ GoogleMemcacheInstance.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.nodeConfig">nodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceNodeConfig">GoogleMemcacheInstanceNodeConfig</a></code> | node_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.nodeCount">nodeCount</a></code> | <code>java.lang.Number</code> | Number of nodes in the memcache instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.authorizedNetwork">authorizedNetwork</a></code> | <code>java.lang.String</code> | The full name of the GCE network to connect the instance to.  If not provided, 'default' will be used. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | A user-visible name for the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.maintenancePolicy">maintenancePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceMaintenancePolicy">GoogleMemcacheInstanceMaintenancePolicy</a></code> | maintenance_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.memcacheParameters">memcacheParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceMemcacheParameters">GoogleMemcacheInstanceMemcacheParameters</a></code> | memcache_parameters block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.memcacheVersion">memcacheVersion</a></code> | <code>java.lang.String</code> | The major version of Memcached software. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The region of the Memcache instance. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.reservedIpRangeId">reservedIpRangeId</a></code> | <code>java.util.List<java.lang.String></code> | Contains the name of allocated IP address ranges associated with the private service access connection for example, "test-default" associated with IP range 10.0.0.0/29. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts">GoogleMemcacheInstanceTimeouts</a></code> | timeouts block. |
@@ -132,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 The resource name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#name GoogleMemcacheInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#name GoogleMemcacheInstance#name}
 
 ---
 
@@ -142,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#node_config GoogleMemcacheInstance#node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#node_config GoogleMemcacheInstance#node_config}
 
 ---
 
@@ -152,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of nodes in the memcache instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#node_count GoogleMemcacheInstance#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#node_count GoogleMemcacheInstance#node_count}
 
 ---
 
@@ -162,7 +164,23 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The full name of the GCE network to connect the instance to.  If not provided, 'default' will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#authorized_network GoogleMemcacheInstance#authorized_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#authorized_network GoogleMemcacheInstance#authorized_network}
+
+---
+
+##### `deletionProtection`<sup>Optional</sup> <a name="deletionProtection" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.Initializer.parameter.deletionProtection"></a>
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+Whether Terraform will be prevented from destroying the instance.
+
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is not set to false in Terraform state.
+When the field is set to true or unset in Terraform state, a 'terraform apply'
+or 'terraform destroy' that would delete the instance will fail.
+When the field is set to false, deleting the instance is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#deletion_protection GoogleMemcacheInstance#deletion_protection}
 
 ---
 
@@ -172,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A user-visible name for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#display_name GoogleMemcacheInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#display_name GoogleMemcacheInstance#display_name}
 
 ---
 
@@ -180,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -196,7 +214,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#labels GoogleMemcacheInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#labels GoogleMemcacheInstance#labels}
 
 ---
 
@@ -206,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 maintenance_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#maintenance_policy GoogleMemcacheInstance#maintenance_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#maintenance_policy GoogleMemcacheInstance#maintenance_policy}
 
 ---
 
@@ -216,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 memcache_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#memcache_parameters GoogleMemcacheInstance#memcache_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#memcache_parameters GoogleMemcacheInstance#memcache_parameters}
 
 ---
 
@@ -230,7 +248,7 @@ If not provided, latest supported version will be used.
 Currently the latest supported major version is MEMCACHE_1_5. The minor version will be automatically
 determined by our system based on the latest supported minor version. Default value: "MEMCACHE_1_5" Possible values: ["MEMCACHE_1_5", "MEMCACHE_1_6_15"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#memcache_version GoogleMemcacheInstance#memcache_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#memcache_version GoogleMemcacheInstance#memcache_version}
 
 ---
 
@@ -238,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}.
 
 ---
 
@@ -248,7 +266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region of the Memcache instance. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#region GoogleMemcacheInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#region GoogleMemcacheInstance#region}
 
 ---
 
@@ -258,7 +276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains the name of allocated IP address ranges associated with the private service access connection for example, "test-default" associated with IP range 10.0.0.0/29.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#reserved_ip_range_id GoogleMemcacheInstance#reserved_ip_range_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#reserved_ip_range_id GoogleMemcacheInstance#reserved_ip_range_id}
 
 ---
 
@@ -268,7 +286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#timeouts GoogleMemcacheInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#timeouts GoogleMemcacheInstance#timeouts}
 
 ---
 
@@ -278,7 +296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Zones where memcache nodes should be provisioned.  If not provided, all zones will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#zones GoogleMemcacheInstance#zones}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#zones GoogleMemcacheInstance#zones}
 
 ---
 
@@ -315,6 +333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.putNodeConfig">putNodeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.resetAuthorizedNetwork">resetAuthorizedNetwork</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.resetDeletionProtection">resetDeletionProtection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.resetLabels">resetLabels</a></code> | *No description.* |
@@ -694,6 +713,12 @@ public void putTimeouts(GoogleMemcacheInstanceTimeouts value)
 public void resetAuthorizedNetwork()
 ```
 
+##### `resetDeletionProtection` <a name="resetDeletionProtection" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.resetDeletionProtection"></a>
+
+```java
+public void resetDeletionProtection()
+```
+
 ##### `resetDisplayName` <a name="resetDisplayName" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.resetDisplayName"></a>
 
 ```java
@@ -863,7 +888,7 @@ The construct id used in the generated config for the GoogleMemcacheInstance to 
 
 The id of the existing GoogleMemcacheInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -905,6 +930,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.terraformLabels">terraformLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeoutsOutputReference">GoogleMemcacheInstanceTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.authorizedNetworkInput">authorizedNetworkInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.deletionProtectionInput">deletionProtectionInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -920,6 +946,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts">GoogleMemcacheInstanceTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.zonesInput">zonesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.authorizedNetwork">authorizedNetwork</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -1195,6 +1222,16 @@ public java.lang.String getAuthorizedNetworkInput();
 
 ---
 
+##### `deletionProtectionInput`<sup>Optional</sup> <a name="deletionProtectionInput" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.deletionProtectionInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getDeletionProtectionInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.displayNameInput"></a>
 
 ```java
@@ -1345,6 +1382,16 @@ public java.lang.String getAuthorizedNetwork();
 
 ---
 
+##### `deletionProtection`<sup>Required</sup> <a name="deletionProtection" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.deletionProtection"></a>
+
+```java
+public java.lang.Boolean|IResolvable getDeletionProtection();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
 ##### `displayName`<sup>Required</sup> <a name="displayName" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstance.property.displayName"></a>
 
 ```java
@@ -1484,6 +1531,7 @@ GoogleMemcacheInstanceConfig.builder()
     .nodeConfig(GoogleMemcacheInstanceNodeConfig)
     .nodeCount(java.lang.Number)
 //  .authorizedNetwork(java.lang.String)
+//  .deletionProtection(java.lang.Boolean|IResolvable)
 //  .displayName(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -1513,13 +1561,14 @@ GoogleMemcacheInstanceConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.nodeConfig">nodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceNodeConfig">GoogleMemcacheInstanceNodeConfig</a></code> | node_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.nodeCount">nodeCount</a></code> | <code>java.lang.Number</code> | Number of nodes in the memcache instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.authorizedNetwork">authorizedNetwork</a></code> | <code>java.lang.String</code> | The full name of the GCE network to connect the instance to.  If not provided, 'default' will be used. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | A user-visible name for the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.maintenancePolicy">maintenancePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceMaintenancePolicy">GoogleMemcacheInstanceMaintenancePolicy</a></code> | maintenance_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.memcacheParameters">memcacheParameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceMemcacheParameters">GoogleMemcacheInstanceMemcacheParameters</a></code> | memcache_parameters block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.memcacheVersion">memcacheVersion</a></code> | <code>java.lang.String</code> | The major version of Memcached software. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.region">region</a></code> | <code>java.lang.String</code> | The region of the Memcache instance. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.reservedIpRangeId">reservedIpRangeId</a></code> | <code>java.util.List<java.lang.String></code> | Contains the name of allocated IP address ranges associated with the private service access connection for example, "test-default" associated with IP range 10.0.0.0/29. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts">GoogleMemcacheInstanceTimeouts</a></code> | timeouts block. |
@@ -1607,7 +1656,7 @@ public java.lang.String getName();
 
 The resource name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#name GoogleMemcacheInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#name GoogleMemcacheInstance#name}
 
 ---
 
@@ -1621,7 +1670,7 @@ public GoogleMemcacheInstanceNodeConfig getNodeConfig();
 
 node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#node_config GoogleMemcacheInstance#node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#node_config GoogleMemcacheInstance#node_config}
 
 ---
 
@@ -1635,7 +1684,7 @@ public java.lang.Number getNodeCount();
 
 Number of nodes in the memcache instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#node_count GoogleMemcacheInstance#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#node_count GoogleMemcacheInstance#node_count}
 
 ---
 
@@ -1649,7 +1698,27 @@ public java.lang.String getAuthorizedNetwork();
 
 The full name of the GCE network to connect the instance to.  If not provided, 'default' will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#authorized_network GoogleMemcacheInstance#authorized_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#authorized_network GoogleMemcacheInstance#authorized_network}
+
+---
+
+##### `deletionProtection`<sup>Optional</sup> <a name="deletionProtection" id="@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceConfig.property.deletionProtection"></a>
+
+```java
+public java.lang.Boolean|IResolvable getDeletionProtection();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+Whether Terraform will be prevented from destroying the instance.
+
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is not set to false in Terraform state.
+When the field is set to true or unset in Terraform state, a 'terraform apply'
+or 'terraform destroy' that would delete the instance will fail.
+When the field is set to false, deleting the instance is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#deletion_protection GoogleMemcacheInstance#deletion_protection}
 
 ---
 
@@ -1663,7 +1732,7 @@ public java.lang.String getDisplayName();
 
 A user-visible name for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#display_name GoogleMemcacheInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#display_name GoogleMemcacheInstance#display_name}
 
 ---
 
@@ -1675,7 +1744,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1695,7 +1764,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#labels GoogleMemcacheInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#labels GoogleMemcacheInstance#labels}
 
 ---
 
@@ -1709,7 +1778,7 @@ public GoogleMemcacheInstanceMaintenancePolicy getMaintenancePolicy();
 
 maintenance_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#maintenance_policy GoogleMemcacheInstance#maintenance_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#maintenance_policy GoogleMemcacheInstance#maintenance_policy}
 
 ---
 
@@ -1723,7 +1792,7 @@ public GoogleMemcacheInstanceMemcacheParameters getMemcacheParameters();
 
 memcache_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#memcache_parameters GoogleMemcacheInstance#memcache_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#memcache_parameters GoogleMemcacheInstance#memcache_parameters}
 
 ---
 
@@ -1741,7 +1810,7 @@ If not provided, latest supported version will be used.
 Currently the latest supported major version is MEMCACHE_1_5. The minor version will be automatically
 determined by our system based on the latest supported minor version. Default value: "MEMCACHE_1_5" Possible values: ["MEMCACHE_1_5", "MEMCACHE_1_6_15"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#memcache_version GoogleMemcacheInstance#memcache_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#memcache_version GoogleMemcacheInstance#memcache_version}
 
 ---
 
@@ -1753,7 +1822,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}.
 
 ---
 
@@ -1767,7 +1836,7 @@ public java.lang.String getRegion();
 
 The region of the Memcache instance. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#region GoogleMemcacheInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#region GoogleMemcacheInstance#region}
 
 ---
 
@@ -1781,7 +1850,7 @@ public java.util.List<java.lang.String> getReservedIpRangeId();
 
 Contains the name of allocated IP address ranges associated with the private service access connection for example, "test-default" associated with IP range 10.0.0.0/29.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#reserved_ip_range_id GoogleMemcacheInstance#reserved_ip_range_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#reserved_ip_range_id GoogleMemcacheInstance#reserved_ip_range_id}
 
 ---
 
@@ -1795,7 +1864,7 @@ public GoogleMemcacheInstanceTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#timeouts GoogleMemcacheInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#timeouts GoogleMemcacheInstance#timeouts}
 
 ---
 
@@ -1809,7 +1878,7 @@ public java.util.List<java.lang.String> getZones();
 
 Zones where memcache nodes should be provisioned.  If not provided, all zones will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#zones GoogleMemcacheInstance#zones}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#zones GoogleMemcacheInstance#zones}
 
 ---
 
@@ -1845,7 +1914,7 @@ public IResolvable|java.util.List<GoogleMemcacheInstanceMaintenancePolicyWeeklyM
 
 weekly_maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#weekly_maintenance_window GoogleMemcacheInstance#weekly_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#weekly_maintenance_window GoogleMemcacheInstance#weekly_maintenance_window}
 
 ---
 
@@ -1859,7 +1928,7 @@ public java.lang.String getDescription();
 
 Optional. Description of what this policy is for. Create/Update methods return INVALID_ARGUMENT if the length is greater than 512.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#description GoogleMemcacheInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#description GoogleMemcacheInstance#description}
 
 ---
 
@@ -1908,7 +1977,7 @@ The day of week that maintenance updates occur.
 * SATURDAY: Saturday
 * SUNDAY: Sunday Possible values: ["DAY_OF_WEEK_UNSPECIFIED", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#day GoogleMemcacheInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#day GoogleMemcacheInstance#day}
 
 ---
 
@@ -1926,7 +1995,7 @@ The length of the maintenance window, ranging from 3 hours to 8 hours.
 A duration in seconds with up to nine fractional digits,
 terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#duration GoogleMemcacheInstance#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#duration GoogleMemcacheInstance#duration}
 
 ---
 
@@ -1940,7 +2009,7 @@ public GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTime g
 
 start_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#start_time GoogleMemcacheInstance#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#start_time GoogleMemcacheInstance#start_time}
 
 ---
 
@@ -1983,7 +2052,7 @@ Hours of day in 24 hour format.
 Should be from 0 to 23.
 An API may choose to allow the value "24:00:00" for scenarios like business closing time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#hours GoogleMemcacheInstance#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#hours GoogleMemcacheInstance#hours}
 
 ---
 
@@ -1997,7 +2066,7 @@ public java.lang.Number getMinutes();
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#minutes GoogleMemcacheInstance#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#minutes GoogleMemcacheInstance#minutes}
 
 ---
 
@@ -2011,7 +2080,7 @@ public java.lang.Number getNanos();
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#nanos GoogleMemcacheInstance#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#nanos GoogleMemcacheInstance#nanos}
 
 ---
 
@@ -2028,7 +2097,7 @@ Seconds of minutes of the time.
 Must normally be from 0 to 59.
 An API may allow the value 60 if it allows leap-seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#seconds GoogleMemcacheInstance#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#seconds GoogleMemcacheInstance#seconds}
 
 ---
 
@@ -2086,7 +2155,7 @@ public java.util.Map<java.lang.String, java.lang.String> getParams();
 
 User-defined set of parameters to use in the memcache process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#params GoogleMemcacheInstance#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#params GoogleMemcacheInstance#params}
 
 ---
 
@@ -2122,7 +2191,7 @@ public java.lang.Number getCpuCount();
 
 Number of CPUs per node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#cpu_count GoogleMemcacheInstance#cpu_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#cpu_count GoogleMemcacheInstance#cpu_count}
 
 ---
 
@@ -2136,7 +2205,7 @@ public java.lang.Number getMemorySizeMb();
 
 Memory size in Mebibytes for each memcache node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#memory_size_mb GoogleMemcacheInstance#memory_size_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#memory_size_mb GoogleMemcacheInstance#memory_size_mb}
 
 ---
 
@@ -2158,9 +2227,9 @@ GoogleMemcacheInstanceTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#create GoogleMemcacheInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#delete GoogleMemcacheInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#update GoogleMemcacheInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#create GoogleMemcacheInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#delete GoogleMemcacheInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemcacheInstance.GoogleMemcacheInstanceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#update GoogleMemcacheInstance#update}. |
 
 ---
 
@@ -2172,7 +2241,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#create GoogleMemcacheInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#create GoogleMemcacheInstance#create}.
 
 ---
 
@@ -2184,7 +2253,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#delete GoogleMemcacheInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#delete GoogleMemcacheInstance#delete}.
 
 ---
 
@@ -2196,7 +2265,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance#update GoogleMemcacheInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance#update GoogleMemcacheInstance#update}.
 
 ---
 

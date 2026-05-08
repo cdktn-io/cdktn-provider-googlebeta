@@ -4,7 +4,7 @@
 
 ### GoogleComputeSslCertificate <a name="GoogleComputeSslCertificate" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate google_compute_ssl_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate google_compute_ssl_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer"></a>
 
@@ -20,11 +20,13 @@ GoogleComputeSslCertificate.Builder.create(Construct scope, java.lang.String id)
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .certificate(java.lang.String)
-    .privateKey(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .name(java.lang.String)
 //  .namePrefix(java.lang.String)
+//  .privateKey(java.lang.String)
+//  .privateKeyWo(java.lang.String)
+//  .privateKeyWoVersion(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleComputeSslCertificateTimeouts)
     .build();
@@ -42,12 +44,14 @@ GoogleComputeSslCertificate.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.certificate">certificate</a></code> | <code>java.lang.String</code> | The certificate in PEM format. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.namePrefix">namePrefix</a></code> | <code>java.lang.String</code> | Creates a unique name beginning with the specified prefix. Conflicts with name. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKeyWo">privateKeyWo</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKeyWoVersion">privateKeyWoVersion</a></code> | <code>java.lang.String</code> | Triggers update of 'private_key_wo' write-only. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateTimeouts">GoogleComputeSslCertificateTimeouts</a></code> | timeouts block. |
 
 ---
@@ -121,17 +125,7 @@ The certificate in PEM format.
 The certificate chain must be no greater than 5 certs long.
 The chain must include at least one intermediate cert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#certificate GoogleComputeSslCertificate#certificate}
-
----
-
-##### `privateKey`<sup>Required</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKey"></a>
-
-- *Type:* java.lang.String
-
-The write-only private key in PEM format.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#private_key GoogleComputeSslCertificate#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#certificate GoogleComputeSslCertificate#certificate}
 
 ---
 
@@ -141,7 +135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#description GoogleComputeSslCertificate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#description GoogleComputeSslCertificate#description}
 
 ---
 
@@ -149,7 +143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,7 +166,7 @@ character, which cannot be a dash.
 
 These are in the same namespace as the managed SSL certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#name GoogleComputeSslCertificate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#name GoogleComputeSslCertificate#name}
 
 ---
 
@@ -182,7 +176,39 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Creates a unique name beginning with the specified prefix. Conflicts with name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#name_prefix GoogleComputeSslCertificate#name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#name_prefix GoogleComputeSslCertificate#name_prefix}
+
+---
+
+##### `privateKey`<sup>Optional</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKey"></a>
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#private_key GoogleComputeSslCertificate#private_key}
+
+---
+
+##### `privateKeyWo`<sup>Optional</sup> <a name="privateKeyWo" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKeyWo"></a>
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#private_key_wo GoogleComputeSslCertificate#private_key_wo}
+
+---
+
+##### `privateKeyWoVersion`<sup>Optional</sup> <a name="privateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.Initializer.parameter.privateKeyWoVersion"></a>
+
+- *Type:* java.lang.String
+
+Triggers update of 'private_key_wo' write-only.
+
+Increment this value when an update to 'private_key_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#private_key_wo_version GoogleComputeSslCertificate#private_key_wo_version}
 
 ---
 
@@ -190,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}.
 
 ---
 
@@ -200,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#timeouts GoogleComputeSslCertificate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#timeouts GoogleComputeSslCertificate#timeouts}
 
 ---
 
@@ -237,6 +263,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetName">resetName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetNamePrefix">resetNamePrefix</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetPrivateKey">resetPrivateKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetPrivateKeyWo">resetPrivateKeyWo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetPrivateKeyWoVersion">resetPrivateKeyWoVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
@@ -589,6 +618,24 @@ public void resetName()
 public void resetNamePrefix()
 ```
 
+##### `resetPrivateKey` <a name="resetPrivateKey" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetPrivateKey"></a>
+
+```java
+public void resetPrivateKey()
+```
+
+##### `resetPrivateKeyWo` <a name="resetPrivateKeyWo" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetPrivateKeyWo"></a>
+
+```java
+public void resetPrivateKeyWo()
+```
+
+##### `resetPrivateKeyWoVersion` <a name="resetPrivateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetPrivateKeyWoVersion"></a>
+
+```java
+public void resetPrivateKeyWoVersion()
+```
+
 ##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.resetProject"></a>
 
 ```java
@@ -704,7 +751,7 @@ The construct id used in the generated config for the GoogleComputeSslCertificat
 
 The id of the existing GoogleComputeSslCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -745,6 +792,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.namePrefixInput">namePrefixInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyInput">privateKeyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWoInput">privateKeyWoInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWoVersionInput">privateKeyWoVersionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateTimeouts">GoogleComputeSslCertificateTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.certificate">certificate</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -753,6 +802,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.namePrefix">namePrefix</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWo">privateKeyWo</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWoVersion">privateKeyWoVersion</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
@@ -1009,6 +1060,26 @@ public java.lang.String getPrivateKeyInput();
 
 ---
 
+##### `privateKeyWoInput`<sup>Optional</sup> <a name="privateKeyWoInput" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWoInput"></a>
+
+```java
+public java.lang.String getPrivateKeyWoInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `privateKeyWoVersionInput`<sup>Optional</sup> <a name="privateKeyWoVersionInput" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWoVersionInput"></a>
+
+```java
+public java.lang.String getPrivateKeyWoVersionInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.projectInput"></a>
 
 ```java
@@ -1089,6 +1160,26 @@ public java.lang.String getPrivateKey();
 
 ---
 
+##### `privateKeyWo`<sup>Required</sup> <a name="privateKeyWo" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWo"></a>
+
+```java
+public java.lang.String getPrivateKeyWo();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `privateKeyWoVersion`<sup>Required</sup> <a name="privateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.privateKeyWoVersion"></a>
+
+```java
+public java.lang.String getPrivateKeyWoVersion();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificate.property.project"></a>
 
 ```java
@@ -1135,11 +1226,13 @@ GoogleComputeSslCertificateConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .certificate(java.lang.String)
-    .privateKey(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .name(java.lang.String)
 //  .namePrefix(java.lang.String)
+//  .privateKey(java.lang.String)
+//  .privateKeyWo(java.lang.String)
+//  .privateKeyWoVersion(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleComputeSslCertificateTimeouts)
     .build();
@@ -1157,12 +1250,14 @@ GoogleComputeSslCertificateConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.certificate">certificate</a></code> | <code>java.lang.String</code> | The certificate in PEM format. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.namePrefix">namePrefix</a></code> | <code>java.lang.String</code> | Creates a unique name beginning with the specified prefix. Conflicts with name. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKey">privateKey</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKeyWo">privateKeyWo</a></code> | <code>java.lang.String</code> | The write-only private key in PEM format. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKeyWoVersion">privateKeyWoVersion</a></code> | <code>java.lang.String</code> | Triggers update of 'private_key_wo' write-only. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateTimeouts">GoogleComputeSslCertificateTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1250,21 +1345,7 @@ The certificate in PEM format.
 The certificate chain must be no greater than 5 certs long.
 The chain must include at least one intermediate cert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#certificate GoogleComputeSslCertificate#certificate}
-
----
-
-##### `privateKey`<sup>Required</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKey"></a>
-
-```java
-public java.lang.String getPrivateKey();
-```
-
-- *Type:* java.lang.String
-
-The write-only private key in PEM format.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#private_key GoogleComputeSslCertificate#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#certificate GoogleComputeSslCertificate#certificate}
 
 ---
 
@@ -1278,7 +1359,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#description GoogleComputeSslCertificate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#description GoogleComputeSslCertificate#description}
 
 ---
 
@@ -1290,7 +1371,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#id GoogleComputeSslCertificate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1317,7 +1398,7 @@ character, which cannot be a dash.
 
 These are in the same namespace as the managed SSL certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#name GoogleComputeSslCertificate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#name GoogleComputeSslCertificate#name}
 
 ---
 
@@ -1331,7 +1412,51 @@ public java.lang.String getNamePrefix();
 
 Creates a unique name beginning with the specified prefix. Conflicts with name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#name_prefix GoogleComputeSslCertificate#name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#name_prefix GoogleComputeSslCertificate#name_prefix}
+
+---
+
+##### `privateKey`<sup>Optional</sup> <a name="privateKey" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKey"></a>
+
+```java
+public java.lang.String getPrivateKey();
+```
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#private_key GoogleComputeSslCertificate#private_key}
+
+---
+
+##### `privateKeyWo`<sup>Optional</sup> <a name="privateKeyWo" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKeyWo"></a>
+
+```java
+public java.lang.String getPrivateKeyWo();
+```
+
+- *Type:* java.lang.String
+
+The write-only private key in PEM format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#private_key_wo GoogleComputeSslCertificate#private_key_wo}
+
+---
+
+##### `privateKeyWoVersion`<sup>Optional</sup> <a name="privateKeyWoVersion" id="@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateConfig.property.privateKeyWoVersion"></a>
+
+```java
+public java.lang.String getPrivateKeyWoVersion();
+```
+
+- *Type:* java.lang.String
+
+Triggers update of 'private_key_wo' write-only.
+
+Increment this value when an update to 'private_key_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#private_key_wo_version GoogleComputeSslCertificate#private_key_wo_version}
 
 ---
 
@@ -1343,7 +1468,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#project GoogleComputeSslCertificate#project}.
 
 ---
 
@@ -1357,7 +1482,7 @@ public GoogleComputeSslCertificateTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#timeouts GoogleComputeSslCertificate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#timeouts GoogleComputeSslCertificate#timeouts}
 
 ---
 
@@ -1378,8 +1503,8 @@ GoogleComputeSslCertificateTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#create GoogleComputeSslCertificate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#delete GoogleComputeSslCertificate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#create GoogleComputeSslCertificate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslCertificate.GoogleComputeSslCertificateTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#delete GoogleComputeSslCertificate#delete}. |
 
 ---
 
@@ -1391,7 +1516,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#create GoogleComputeSslCertificate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#create GoogleComputeSslCertificate#create}.
 
 ---
 
@@ -1403,7 +1528,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_ssl_certificate#delete GoogleComputeSslCertificate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_ssl_certificate#delete GoogleComputeSslCertificate#delete}.
 
 ---
 

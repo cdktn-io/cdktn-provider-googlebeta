@@ -4,7 +4,7 @@
 
 ### GoogleComputeBackendBucket <a name="GoogleComputeBackendBucket" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.putCdnPolicy">putCdnPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.putParams">putParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetCdnPolicy">resetCdnPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetCompressionMode">resetCompressionMode</a></code> | *No description.* |
@@ -84,6 +85,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetEnableCdn">resetEnableCdn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetLoadBalancingScheme">resetLoadBalancingScheme</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetParams">resetParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
@@ -410,6 +412,18 @@ public putCdnPolicy(value: GoogleComputeBackendBucketCdnPolicy): void
 
 ---
 
+##### `putParams` <a name="putParams" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.putParams"></a>
+
+```typescript
+public putParams(value: GoogleComputeBackendBucketParams): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.putParams.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams">GoogleComputeBackendBucketParams</a>
+
+---
+
 ##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.putTimeouts"></a>
 
 ```typescript
@@ -468,6 +482,12 @@ public resetId(): void
 
 ```typescript
 public resetLoadBalancingScheme(): void
+```
+
+##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetParams"></a>
+
+```typescript
+public resetParams(): void
 ```
 
 ##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.resetProject"></a>
@@ -585,7 +605,7 @@ The construct id used in the generated config for the GoogleComputeBackendBucket
 
 The id of the existing GoogleComputeBackendBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -617,6 +637,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.cdnPolicy">cdnPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketCdnPolicyOutputReference">GoogleComputeBackendBucketCdnPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.creationTimestamp">creationTimestamp</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference">GoogleComputeBackendBucketParamsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.selfLink">selfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeoutsOutputReference">GoogleComputeBackendBucketTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.bucketNameInput">bucketNameInput</a></code> | <code>string</code> | *No description.* |
@@ -629,6 +650,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.loadBalancingSchemeInput">loadBalancingSchemeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams">GoogleComputeBackendBucketParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts">GoogleComputeBackendBucketTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.bucketName">bucketName</a></code> | <code>string</code> | *No description.* |
@@ -806,6 +828,16 @@ public readonly creationTimestamp: string;
 
 ---
 
+##### `params`<sup>Required</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.params"></a>
+
+```typescript
+public readonly params: GoogleComputeBackendBucketParamsOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference">GoogleComputeBackendBucketParamsOutputReference</a>
+
+---
+
 ##### `selfLink`<sup>Required</sup> <a name="selfLink" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.selfLink"></a>
 
 ```typescript
@@ -923,6 +955,16 @@ public readonly nameInput: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucket.property.paramsInput"></a>
+
+```typescript
+public readonly paramsInput: GoogleComputeBackendBucketParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams">GoogleComputeBackendBucketParams</a>
 
 ---
 
@@ -1104,7 +1146,7 @@ public readonly bypassCacheOnRequestHeaders: IResolvable | GoogleComputeBackendB
 
 bypass_cache_on_request_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#bypass_cache_on_request_headers GoogleComputeBackendBucket#bypass_cache_on_request_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#bypass_cache_on_request_headers GoogleComputeBackendBucket#bypass_cache_on_request_headers}
 
 ---
 
@@ -1118,7 +1160,7 @@ public readonly cacheKeyPolicy: GoogleComputeBackendBucketCdnPolicyCacheKeyPolic
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#cache_key_policy GoogleComputeBackendBucket#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#cache_key_policy GoogleComputeBackendBucket#cache_key_policy}
 
 ---
 
@@ -1134,7 +1176,7 @@ Specifies the cache setting for all responses from this backend.
 
 The possible values are: USE_ORIGIN_HEADERS, FORCE_CACHE_ALL and CACHE_ALL_STATIC Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#cache_mode GoogleComputeBackendBucket#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#cache_mode GoogleComputeBackendBucket#cache_mode}
 
 ---
 
@@ -1151,7 +1193,7 @@ Specifies the maximum allowed TTL for cached content served by this origin.
 When the
 'cache_mode' is set to "USE_ORIGIN_HEADERS", you must omit this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#client_ttl GoogleComputeBackendBucket#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#client_ttl GoogleComputeBackendBucket#client_ttl}
 
 ---
 
@@ -1168,7 +1210,7 @@ Specifies the default TTL for cached content served by this origin for responses
 When the 'cache_mode'
 is set to "USE_ORIGIN_HEADERS", you must omit this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#default_ttl GoogleComputeBackendBucket#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#default_ttl GoogleComputeBackendBucket#default_ttl}
 
 ---
 
@@ -1185,7 +1227,7 @@ Specifies the maximum allowed TTL for cached content served by this origin.
 When the
 'cache_mode' is set to "USE_ORIGIN_HEADERS", you must omit this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#max_ttl GoogleComputeBackendBucket#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#max_ttl GoogleComputeBackendBucket#max_ttl}
 
 ---
 
@@ -1199,7 +1241,7 @@ public readonly negativeCaching: boolean | IResolvable;
 
 Negative caching allows per-status code TTLs to be set, in order to apply fine-grained caching for common errors or redirects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#negative_caching GoogleComputeBackendBucket#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#negative_caching GoogleComputeBackendBucket#negative_caching}
 
 ---
 
@@ -1213,7 +1255,7 @@ public readonly negativeCachingPolicy: IResolvable | GoogleComputeBackendBucketC
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#negative_caching_policy GoogleComputeBackendBucket#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#negative_caching_policy GoogleComputeBackendBucket#negative_caching_policy}
 
 ---
 
@@ -1227,7 +1269,7 @@ public readonly requestCoalescing: boolean | IResolvable;
 
 If true then Cloud CDN will combine multiple concurrent cache fill requests into a small number of requests to the origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#request_coalescing GoogleComputeBackendBucket#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#request_coalescing GoogleComputeBackendBucket#request_coalescing}
 
 ---
 
@@ -1241,7 +1283,7 @@ public readonly serveWhileStale: number;
 
 Serve existing content from the cache (if available) when revalidating content with the origin, or when an error is encountered when refreshing the cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#serve_while_stale GoogleComputeBackendBucket#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#serve_while_stale GoogleComputeBackendBucket#serve_while_stale}
 
 ---
 
@@ -1263,7 +1305,7 @@ all responses from this backend had a "Cache-Control: public,
 max-age=[TTL]" header, regardless of any existing Cache-Control
 header. The actual headers served in responses will not be altered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#signed_url_cache_max_age_sec GoogleComputeBackendBucket#signed_url_cache_max_age_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#signed_url_cache_max_age_sec GoogleComputeBackendBucket#signed_url_cache_max_age_sec}
 
 ---
 
@@ -1295,7 +1337,7 @@ public readonly headerName: string;
 
 The header field name to match on when bypassing cache. Values are case-insensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#header_name GoogleComputeBackendBucket#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#header_name GoogleComputeBackendBucket#header_name}
 
 ---
 
@@ -1328,7 +1370,7 @@ public readonly includeHttpHeaders: string[];
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#include_http_headers GoogleComputeBackendBucket#include_http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#include_http_headers GoogleComputeBackendBucket#include_http_headers}
 
 ---
 
@@ -1345,7 +1387,7 @@ Names of query string parameters to include in cache keys.
 Default parameters are always included. '&' and '=' will
 be percent encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#query_string_whitelist GoogleComputeBackendBucket#query_string_whitelist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#query_string_whitelist GoogleComputeBackendBucket#query_string_whitelist}
 
 ---
 
@@ -1381,7 +1423,7 @@ The HTTP status code to define a TTL against.
 Only HTTP status codes 300, 301, 308, 404, 405, 410, 421, 451 and 501
 can be specified as values, and you cannot specify a status code more than once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#code GoogleComputeBackendBucket#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#code GoogleComputeBackendBucket#code}
 
 ---
 
@@ -1398,7 +1440,7 @@ The TTL (in seconds) for which to cache responses with the corresponding status 
 The maximum allowed value is 1800s
 (30 minutes), noting that infrequently accessed objects may be evicted from the cache before the defined TTL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#ttl GoogleComputeBackendBucket#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#ttl GoogleComputeBackendBucket#ttl}
 
 ---
 
@@ -1431,9 +1473,10 @@ const googleComputeBackendBucketConfig: googleComputeBackendBucket.GoogleCompute
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.description">description</a></code> | <code>string</code> | An optional textual description of the resource; provided by the client when the resource is created. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.edgeSecurityPolicy">edgeSecurityPolicy</a></code> | <code>string</code> | The security policy associated with this backend bucket. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.enableCdn">enableCdn</a></code> | <code>boolean \| cdktn.IResolvable</code> | If true, enable Cloud CDN for this BackendBucket. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#id GoogleComputeBackendBucket#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#id GoogleComputeBackendBucket#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.loadBalancingScheme">loadBalancingScheme</a></code> | <code>string</code> | The value can only be INTERNAL_MANAGED for cross-region internal layer 7 load balancer. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#project GoogleComputeBackendBucket#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams">GoogleComputeBackendBucketParams</a></code> | params block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#project GoogleComputeBackendBucket#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts">GoogleComputeBackendBucketTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1518,7 +1561,7 @@ public readonly bucketName: string;
 
 Cloud Storage bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#bucket_name GoogleComputeBackendBucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#bucket_name GoogleComputeBackendBucket#bucket_name}
 
 ---
 
@@ -1540,7 +1583,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the
 last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#name GoogleComputeBackendBucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#name GoogleComputeBackendBucket#name}
 
 ---
 
@@ -1554,7 +1597,7 @@ public readonly cdnPolicy: GoogleComputeBackendBucketCdnPolicy;
 
 cdn_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#cdn_policy GoogleComputeBackendBucket#cdn_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#cdn_policy GoogleComputeBackendBucket#cdn_policy}
 
 ---
 
@@ -1568,7 +1611,7 @@ public readonly compressionMode: string;
 
 Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#compression_mode GoogleComputeBackendBucket#compression_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#compression_mode GoogleComputeBackendBucket#compression_mode}
 
 ---
 
@@ -1582,7 +1625,7 @@ public readonly customResponseHeaders: string[];
 
 Headers that the HTTP/S load balancer should add to proxied responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#custom_response_headers GoogleComputeBackendBucket#custom_response_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#custom_response_headers GoogleComputeBackendBucket#custom_response_headers}
 
 ---
 
@@ -1596,7 +1639,7 @@ public readonly description: string;
 
 An optional textual description of the resource; provided by the client when the resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#description GoogleComputeBackendBucket#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#description GoogleComputeBackendBucket#description}
 
 ---
 
@@ -1610,7 +1653,7 @@ public readonly edgeSecurityPolicy: string;
 
 The security policy associated with this backend bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#edge_security_policy GoogleComputeBackendBucket#edge_security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#edge_security_policy GoogleComputeBackendBucket#edge_security_policy}
 
 ---
 
@@ -1624,7 +1667,9 @@ public readonly enableCdn: boolean | IResolvable;
 
 If true, enable Cloud CDN for this BackendBucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#enable_cdn GoogleComputeBackendBucket#enable_cdn}
+Note: This cannot be set to true when loadBalancingScheme is set to INTERNAL_MANAGED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#enable_cdn GoogleComputeBackendBucket#enable_cdn}
 
 ---
 
@@ -1636,7 +1681,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#id GoogleComputeBackendBucket#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#id GoogleComputeBackendBucket#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1653,9 +1698,24 @@ public readonly loadBalancingScheme: string;
 
 The value can only be INTERNAL_MANAGED for cross-region internal layer 7 load balancer.
 
-If loadBalancingScheme is not specified, the backend bucket can be used by classic global external load balancers, or global application external load balancers, or both. Possible values: ["INTERNAL_MANAGED"]
+If loadBalancingScheme is not specified, the backend bucket can be used by classic global external load balancers, or global application external load balancers, or both.
+Important: CDN cannot be enabled (enableCdn cannot be set to true) when loadBalancingScheme is set to INTERNAL_MANAGED. Possible values: ["INTERNAL_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#load_balancing_scheme GoogleComputeBackendBucket#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#load_balancing_scheme GoogleComputeBackendBucket#load_balancing_scheme}
+
+---
+
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketConfig.property.params"></a>
+
+```typescript
+public readonly params: GoogleComputeBackendBucketParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams">GoogleComputeBackendBucketParams</a>
+
+params block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#params GoogleComputeBackendBucket#params}
 
 ---
 
@@ -1667,7 +1727,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#project GoogleComputeBackendBucket#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#project GoogleComputeBackendBucket#project}.
 
 ---
 
@@ -1681,7 +1741,43 @@ public readonly timeouts: GoogleComputeBackendBucketTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#timeouts GoogleComputeBackendBucket#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#timeouts GoogleComputeBackendBucket#timeouts}
+
+---
+
+### GoogleComputeBackendBucketParams <a name="GoogleComputeBackendBucketParams" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams.Initializer"></a>
+
+```typescript
+import { googleComputeBackendBucket } from '@cdktn/provider-google-beta'
+
+const googleComputeBackendBucketParams: googleComputeBackendBucket.GoogleComputeBackendBucketParams = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | Resource manager tags to be bound to the backend bucket. |
+
+---
+
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+Resource manager tags to be bound to the backend bucket.
+
+Tag keys and values have the
+same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
+and values are in the format tagValues/456.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#resource_manager_tags GoogleComputeBackendBucket#resource_manager_tags}
 
 ---
 
@@ -1699,9 +1795,9 @@ const googleComputeBackendBucketTimeouts: googleComputeBackendBucket.GoogleCompu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#create GoogleComputeBackendBucket#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#delete GoogleComputeBackendBucket#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#update GoogleComputeBackendBucket#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#create GoogleComputeBackendBucket#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#delete GoogleComputeBackendBucket#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#update GoogleComputeBackendBucket#update}. |
 
 ---
 
@@ -1713,7 +1809,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#create GoogleComputeBackendBucket#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#create GoogleComputeBackendBucket#create}.
 
 ---
 
@@ -1725,7 +1821,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#delete GoogleComputeBackendBucket#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#delete GoogleComputeBackendBucket#delete}.
 
 ---
 
@@ -1737,7 +1833,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket#update GoogleComputeBackendBucket#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket#update GoogleComputeBackendBucket#update}.
 
 ---
 
@@ -3594,6 +3690,284 @@ public readonly internalValue: GoogleComputeBackendBucketCdnPolicy;
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketCdnPolicy">GoogleComputeBackendBucketCdnPolicy</a>
+
+---
+
+
+### GoogleComputeBackendBucketParamsOutputReference <a name="GoogleComputeBackendBucketParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeBackendBucket } from '@cdktn/provider-google-beta'
+
+new googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.resetResourceManagerTags"></a>
+
+```typescript
+public resetResourceManagerTags(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams">GoogleComputeBackendBucketParams</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.resourceManagerTagsInput"></a>
+
+```typescript
+public readonly resourceManagerTagsInput: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.resourceManagerTags"></a>
+
+```typescript
+public readonly resourceManagerTags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParamsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeBackendBucketParams;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeBackendBucket.GoogleComputeBackendBucketParams">GoogleComputeBackendBucketParams</a>
 
 ---
 

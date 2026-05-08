@@ -4,7 +4,7 @@
 
 ### GoogleStorageInsightsReportConfig <a name="GoogleStorageInsightsReportConfig" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer"></a>
 
@@ -22,6 +22,7 @@ GoogleStorageInsightsReportConfig.Builder.create(Construct scope, java.lang.Stri
     .location(java.lang.String)
 //  .csvOptions(GoogleStorageInsightsReportConfigCsvOptions)
 //  .displayName(java.lang.String)
+//  .forceDestroy(java.lang.Boolean|IResolvable)
 //  .frequencyOptions(GoogleStorageInsightsReportConfigFrequencyOptions)
 //  .id(java.lang.String)
 //  .objectMetadataReportOptions(GoogleStorageInsightsReportConfigObjectMetadataReportOptions)
@@ -45,11 +46,12 @@ GoogleStorageInsightsReportConfig.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location of the ReportConfig. The source and destination buckets specified in the ReportConfig must be in the same location. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.csvOptions">csvOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigCsvOptions">GoogleStorageInsightsReportConfigCsvOptions</a></code> | csv_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | The editable display name of the inventory report configuration. Has a limit of 256 characters. Can be empty. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.forceDestroy">forceDestroy</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If set, all the inventory report details associated with this report configuration are deleted. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.frequencyOptions">frequencyOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptions">GoogleStorageInsightsReportConfigFrequencyOptions</a></code> | frequency_options block. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.objectMetadataReportOptions">objectMetadataReportOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptions">GoogleStorageInsightsReportConfigObjectMetadataReportOptions</a></code> | object_metadata_report_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.parquetOptions">parquetOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigParquetOptions">GoogleStorageInsightsReportConfigParquetOptions</a></code> | parquet_options block. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts">GoogleStorageInsightsReportConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The location of the ReportConfig. The source and destination buckets specified in the ReportConfig must be in the same location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#location GoogleStorageInsightsReportConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#location GoogleStorageInsightsReportConfig#location}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 csv_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#csv_options GoogleStorageInsightsReportConfig#csv_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#csv_options GoogleStorageInsightsReportConfig#csv_options}
 
 ---
 
@@ -140,7 +142,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The editable display name of the inventory report configuration. Has a limit of 256 characters. Can be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#display_name GoogleStorageInsightsReportConfig#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#display_name GoogleStorageInsightsReportConfig#display_name}
+
+---
+
+##### `forceDestroy`<sup>Optional</sup> <a name="forceDestroy" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer.parameter.forceDestroy"></a>
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+If set, all the inventory report details associated with this report configuration are deleted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#force_destroy GoogleStorageInsightsReportConfig#force_destroy}
 
 ---
 
@@ -150,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 frequency_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#frequency_options GoogleStorageInsightsReportConfig#frequency_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#frequency_options GoogleStorageInsightsReportConfig#frequency_options}
 
 ---
 
@@ -158,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -171,7 +183,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 object_metadata_report_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#object_metadata_report_options GoogleStorageInsightsReportConfig#object_metadata_report_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#object_metadata_report_options GoogleStorageInsightsReportConfig#object_metadata_report_options}
 
 ---
 
@@ -181,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 parquet_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#parquet_options GoogleStorageInsightsReportConfig#parquet_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#parquet_options GoogleStorageInsightsReportConfig#parquet_options}
 
 ---
 
@@ -189,7 +201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}.
 
 ---
 
@@ -199,7 +211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#timeouts GoogleStorageInsightsReportConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#timeouts GoogleStorageInsightsReportConfig#timeouts}
 
 ---
 
@@ -238,6 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetCsvOptions">resetCsvOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetDisplayName">resetDisplayName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetForceDestroy">resetForceDestroy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetFrequencyOptions">resetFrequencyOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetObjectMetadataReportOptions">resetObjectMetadataReportOptions</a></code> | *No description.* |
@@ -630,6 +643,12 @@ public void resetCsvOptions()
 public void resetDisplayName()
 ```
 
+##### `resetForceDestroy` <a name="resetForceDestroy" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetForceDestroy"></a>
+
+```java
+public void resetForceDestroy()
+```
+
 ##### `resetFrequencyOptions` <a name="resetFrequencyOptions" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.resetFrequencyOptions"></a>
 
 ```java
@@ -769,7 +788,7 @@ The construct id used in the generated config for the GoogleStorageInsightsRepor
 
 The id of the existing GoogleStorageInsightsReportConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,6 +826,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeoutsOutputReference">GoogleStorageInsightsReportConfigTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.csvOptionsInput">csvOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigCsvOptions">GoogleStorageInsightsReportConfigCsvOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.forceDestroyInput">forceDestroyInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.frequencyOptionsInput">frequencyOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptions">GoogleStorageInsightsReportConfigFrequencyOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.locationInput">locationInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -815,6 +835,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts">GoogleStorageInsightsReportConfigTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.forceDestroy">forceDestroy</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.location">location</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1043,6 +1064,16 @@ public java.lang.String getDisplayNameInput();
 
 ---
 
+##### `forceDestroyInput`<sup>Optional</sup> <a name="forceDestroyInput" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.forceDestroyInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getForceDestroyInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
 ##### `frequencyOptionsInput`<sup>Optional</sup> <a name="frequencyOptionsInput" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.frequencyOptionsInput"></a>
 
 ```java
@@ -1123,6 +1154,16 @@ public java.lang.String getDisplayName();
 
 ---
 
+##### `forceDestroy`<sup>Required</sup> <a name="forceDestroy" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.forceDestroy"></a>
+
+```java
+public java.lang.Boolean|IResolvable getForceDestroy();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.property.id"></a>
 
 ```java
@@ -1191,6 +1232,7 @@ GoogleStorageInsightsReportConfigConfig.builder()
     .location(java.lang.String)
 //  .csvOptions(GoogleStorageInsightsReportConfigCsvOptions)
 //  .displayName(java.lang.String)
+//  .forceDestroy(java.lang.Boolean|IResolvable)
 //  .frequencyOptions(GoogleStorageInsightsReportConfigFrequencyOptions)
 //  .id(java.lang.String)
 //  .objectMetadataReportOptions(GoogleStorageInsightsReportConfigObjectMetadataReportOptions)
@@ -1214,11 +1256,12 @@ GoogleStorageInsightsReportConfigConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location of the ReportConfig. The source and destination buckets specified in the ReportConfig must be in the same location. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.csvOptions">csvOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigCsvOptions">GoogleStorageInsightsReportConfigCsvOptions</a></code> | csv_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | The editable display name of the inventory report configuration. Has a limit of 256 characters. Can be empty. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.forceDestroy">forceDestroy</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If set, all the inventory report details associated with this report configuration are deleted. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.frequencyOptions">frequencyOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptions">GoogleStorageInsightsReportConfigFrequencyOptions</a></code> | frequency_options block. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.objectMetadataReportOptions">objectMetadataReportOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptions">GoogleStorageInsightsReportConfigObjectMetadataReportOptions</a></code> | object_metadata_report_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.parquetOptions">parquetOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigParquetOptions">GoogleStorageInsightsReportConfigParquetOptions</a></code> | parquet_options block. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts">GoogleStorageInsightsReportConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1303,7 +1346,7 @@ public java.lang.String getLocation();
 
 The location of the ReportConfig. The source and destination buckets specified in the ReportConfig must be in the same location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#location GoogleStorageInsightsReportConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#location GoogleStorageInsightsReportConfig#location}
 
 ---
 
@@ -1317,7 +1360,7 @@ public GoogleStorageInsightsReportConfigCsvOptions getCsvOptions();
 
 csv_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#csv_options GoogleStorageInsightsReportConfig#csv_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#csv_options GoogleStorageInsightsReportConfig#csv_options}
 
 ---
 
@@ -1331,7 +1374,21 @@ public java.lang.String getDisplayName();
 
 The editable display name of the inventory report configuration. Has a limit of 256 characters. Can be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#display_name GoogleStorageInsightsReportConfig#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#display_name GoogleStorageInsightsReportConfig#display_name}
+
+---
+
+##### `forceDestroy`<sup>Optional</sup> <a name="forceDestroy" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.property.forceDestroy"></a>
+
+```java
+public java.lang.Boolean|IResolvable getForceDestroy();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+If set, all the inventory report details associated with this report configuration are deleted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#force_destroy GoogleStorageInsightsReportConfig#force_destroy}
 
 ---
 
@@ -1345,7 +1402,7 @@ public GoogleStorageInsightsReportConfigFrequencyOptions getFrequencyOptions();
 
 frequency_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#frequency_options GoogleStorageInsightsReportConfig#frequency_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#frequency_options GoogleStorageInsightsReportConfig#frequency_options}
 
 ---
 
@@ -1357,7 +1414,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#id GoogleStorageInsightsReportConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1374,7 +1431,7 @@ public GoogleStorageInsightsReportConfigObjectMetadataReportOptions getObjectMet
 
 object_metadata_report_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#object_metadata_report_options GoogleStorageInsightsReportConfig#object_metadata_report_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#object_metadata_report_options GoogleStorageInsightsReportConfig#object_metadata_report_options}
 
 ---
 
@@ -1388,7 +1445,7 @@ public GoogleStorageInsightsReportConfigParquetOptions getParquetOptions();
 
 parquet_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#parquet_options GoogleStorageInsightsReportConfig#parquet_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#parquet_options GoogleStorageInsightsReportConfig#parquet_options}
 
 ---
 
@@ -1400,7 +1457,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#project GoogleStorageInsightsReportConfig#project}.
 
 ---
 
@@ -1414,7 +1471,7 @@ public GoogleStorageInsightsReportConfigTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#timeouts GoogleStorageInsightsReportConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#timeouts GoogleStorageInsightsReportConfig#timeouts}
 
 ---
 
@@ -1452,7 +1509,7 @@ public java.lang.String getDelimiter();
 
 The delimiter used to separate the fields in the inventory report CSV file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#delimiter GoogleStorageInsightsReportConfig#delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#delimiter GoogleStorageInsightsReportConfig#delimiter}
 
 ---
 
@@ -1466,7 +1523,7 @@ public java.lang.Boolean|IResolvable getHeaderRequired();
 
 The boolean that indicates whether or not headers are included in the inventory report CSV file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#header_required GoogleStorageInsightsReportConfig#header_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#header_required GoogleStorageInsightsReportConfig#header_required}
 
 ---
 
@@ -1480,7 +1537,7 @@ public java.lang.String getRecordSeparator();
 
 The character used to separate the records in the inventory report CSV file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#record_separator GoogleStorageInsightsReportConfig#record_separator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#record_separator GoogleStorageInsightsReportConfig#record_separator}
 
 ---
 
@@ -1518,7 +1575,7 @@ public GoogleStorageInsightsReportConfigFrequencyOptionsEndDate getEndDate();
 
 end_date block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#end_date GoogleStorageInsightsReportConfig#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#end_date GoogleStorageInsightsReportConfig#end_date}
 
 ---
 
@@ -1532,7 +1589,7 @@ public java.lang.String getFrequency();
 
 The frequency in which inventory reports are generated. Values are DAILY or WEEKLY. Possible values: ["DAILY", "WEEKLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#frequency GoogleStorageInsightsReportConfig#frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#frequency GoogleStorageInsightsReportConfig#frequency}
 
 ---
 
@@ -1546,7 +1603,7 @@ public GoogleStorageInsightsReportConfigFrequencyOptionsStartDate getStartDate()
 
 start_date block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#start_date GoogleStorageInsightsReportConfig#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#start_date GoogleStorageInsightsReportConfig#start_date}
 
 ---
 
@@ -1584,7 +1641,7 @@ public java.lang.Number getDay();
 
 The day of the month to stop generating inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#day GoogleStorageInsightsReportConfig#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#day GoogleStorageInsightsReportConfig#day}
 
 ---
 
@@ -1598,7 +1655,7 @@ public java.lang.Number getMonth();
 
 The month to stop generating inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#month GoogleStorageInsightsReportConfig#month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#month GoogleStorageInsightsReportConfig#month}
 
 ---
 
@@ -1612,7 +1669,7 @@ public java.lang.Number getYear();
 
 The year to stop generating inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#year GoogleStorageInsightsReportConfig#year}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#year GoogleStorageInsightsReportConfig#year}
 
 ---
 
@@ -1650,7 +1707,7 @@ public java.lang.Number getDay();
 
 The day of the month to start generating inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#day GoogleStorageInsightsReportConfig#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#day GoogleStorageInsightsReportConfig#day}
 
 ---
 
@@ -1664,7 +1721,7 @@ public java.lang.Number getMonth();
 
 The month to start generating inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#month GoogleStorageInsightsReportConfig#month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#month GoogleStorageInsightsReportConfig#month}
 
 ---
 
@@ -1678,7 +1735,7 @@ public java.lang.Number getYear();
 
 The year to start generating inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#year GoogleStorageInsightsReportConfig#year}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#year GoogleStorageInsightsReportConfig#year}
 
 ---
 
@@ -1716,7 +1773,7 @@ public java.util.List<java.lang.String> getMetadataFields();
 
 The metadata fields included in an inventory report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#metadata_fields GoogleStorageInsightsReportConfig#metadata_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#metadata_fields GoogleStorageInsightsReportConfig#metadata_fields}
 
 ---
 
@@ -1730,7 +1787,7 @@ public GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestin
 
 storage_destination_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#storage_destination_options GoogleStorageInsightsReportConfig#storage_destination_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#storage_destination_options GoogleStorageInsightsReportConfig#storage_destination_options}
 
 ---
 
@@ -1744,7 +1801,7 @@ public GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFilter
 
 storage_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#storage_filters GoogleStorageInsightsReportConfig#storage_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#storage_filters GoogleStorageInsightsReportConfig#storage_filters}
 
 ---
 
@@ -1780,7 +1837,7 @@ public java.lang.String getBucket();
 
 The destination bucket that stores the generated inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#bucket GoogleStorageInsightsReportConfig#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#bucket GoogleStorageInsightsReportConfig#bucket}
 
 ---
 
@@ -1794,7 +1851,7 @@ public java.lang.String getDestinationPath();
 
 The path within the destination bucket to store generated inventory reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#destination_path GoogleStorageInsightsReportConfig#destination_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#destination_path GoogleStorageInsightsReportConfig#destination_path}
 
 ---
 
@@ -1828,7 +1885,7 @@ public java.lang.String getBucket();
 
 The filter to use when specifying which bucket to generate inventory reports for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#bucket GoogleStorageInsightsReportConfig#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#bucket GoogleStorageInsightsReportConfig#bucket}
 
 ---
 
@@ -1862,9 +1919,9 @@ GoogleStorageInsightsReportConfigTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#create GoogleStorageInsightsReportConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#delete GoogleStorageInsightsReportConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#update GoogleStorageInsightsReportConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#create GoogleStorageInsightsReportConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#delete GoogleStorageInsightsReportConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#update GoogleStorageInsightsReportConfig#update}. |
 
 ---
 
@@ -1876,7 +1933,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#create GoogleStorageInsightsReportConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#create GoogleStorageInsightsReportConfig#create}.
 
 ---
 
@@ -1888,7 +1945,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#delete GoogleStorageInsightsReportConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#delete GoogleStorageInsightsReportConfig#delete}.
 
 ---
 
@@ -1900,7 +1957,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config#update GoogleStorageInsightsReportConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config#update GoogleStorageInsightsReportConfig#update}.
 
 ---
 
